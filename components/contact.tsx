@@ -76,9 +76,9 @@ export function Contact() {
     <section id="contact" className="py-20 bg-gray-50">
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto text-center mb-16">
-          <h2 className="text-3xl font-bold mb-4 text-black">Contactez-nous</h2>
+          <h2 className="text-3xl font-bold mb-4 text-black">Rencontrons-nous</h2>
           <p className="text-lg text-gray-600">
-            Prêt à transformer votre entreprise avec un ROI mesurable ? Contactez-nous pour une évaluation gratuite.
+            Prêt à transformer votre entreprise avec un ROI mesurable ? Rencontrons-nous pour une évaluation gratuite.
           </p>
         </div>
 

@@ -187,7 +187,7 @@ export function Navbar() {
                 onClick={() => scrollToSection("contact")}
                 className="bg-white border border-gray-200 hover:border-orange-200 hover:bg-gray-50 text-gray-800 w-full rounded-md mt-2"
               >
-                Nous contacter
+                Rencontrons-nous
               </Button>
             </>
           ) : (
