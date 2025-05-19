@@ -31,7 +31,7 @@ export function AnimateOnScroll({
   variant = "fade-up",
   delay = 0,
   duration = 700,
-  threshold = 0.1,
+  threshold = 0.05, // Réduit de 0.1 à 0.05 pour déclencher plus tôt
   once = true,
 }: AnimateOnScrollProps) {
   const [isVisible, setIsVisible] = useState(false)
@@ -52,7 +52,8 @@ export function AnimateOnScroll({
       },
       {
         threshold,
-        rootMargin: "0px 0px -100px 0px",
+        // Augmenter la marge pour déclencher l'animation avant que l'élément soit visible
+        rootMargin: "0px 0px -10% 0px",
       },
     )
 

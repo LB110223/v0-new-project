@@ -19,7 +19,7 @@ export function Team() {
   return (
     <section id="team" className="py-20 bg-white section-transition">
       <div className="container mx-auto px-4">
-        <AnimateOnScroll variant="fade-up">
+        <AnimateOnScroll variant="fade-up" threshold={0.01}>
           <div className="max-w-3xl mx-auto text-center mb-16">
             <h2 className="text-3xl font-bold mb-4 text-black">Notre Équipe</h2>
             <p className="text-lg text-gray-600">Des experts passionnés par l'IA et le ROI mesurable</p>
@@ -28,7 +28,7 @@ export function Team() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-3xl mx-auto">
           {teamMembers.map((member, index) => (
-            <AnimateOnScroll key={index} variant="fade-up" delay={index * 200} duration={800}>
+            <AnimateOnScroll key={index} variant="fade-up" delay={index * 100} duration={600} threshold={0.01}>
               <div className="bg-gray-50 rounded-lg overflow-hidden hover-lift">
                 <div className="aspect-square overflow-hidden image-scale">
                   <img

@@ -40,21 +40,21 @@ export function Hero() {
 
       <div className="container mx-auto px-4 relative">
         <div className="max-w-3xl mx-auto text-center">
-          <AnimateOnScroll variant="fade-down" duration={800}>
+          <AnimateOnScroll variant="fade-down" duration={800} threshold={0.01}>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-black mb-6">
               L'IA au service de votre performance.{" "}
               <span className="text-orange-500">Avec des résultats mesurables.</span>
             </h1>
           </AnimateOnScroll>
 
-          <AnimateOnScroll variant="fade-up" delay={300} duration={800}>
+          <AnimateOnScroll variant="fade-up" delay={200} duration={800} threshold={0.01}>
             <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
               Smart Impulsion ne se contente pas de vous digitaliser. Nous alignons chaque décision technologique sur
               vos objectifs business, avec un seul critère de succès : un retour sur investissement mesurable, ou rien.
             </p>
           </AnimateOnScroll>
 
-          <AnimateOnScroll variant="zoom-in" delay={600} duration={800}>
+          <AnimateOnScroll variant="zoom-in" delay={400} duration={800} threshold={0.01}>
             <div className="flex justify-center">
               <Button
                 size="lg"
