@@ -9,8 +9,42 @@ import { EnvWarning } from "@/components/env-warning"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Smart Impulsion - IA à ROI mesurable",
-  description: "Transformez votre entreprise avec l'IA et un ROI mesurable",
+  title: "Smart Impulsion | IA à ROI mesurable pour entreprises françaises",
+  description:
+    "Smart Impulsion transforme votre entreprise avec des solutions d'intelligence artificielle garantissant un retour sur investissement mesurable. Expertise en IA générative, machine learning et NLP.",
+  keywords:
+    "intelligence artificielle, IA, ROI mesurable, transformation digitale, machine learning, deep learning, NLP, vision par ordinateur, automatisation, analyse de données, entreprises françaises",
+  authors: [
+    { name: "Laurent Bouzon", url: "https://www.linkedin.com/in/laurent-bouzon" },
+    { name: "Mohammad-Ali Bacha", url: "https://www.linkedin.com/in/mohammad-ali-bacha" },
+  ],
+  openGraph: {
+    type: "website",
+    locale: "fr_FR",
+    url: "https://www.smart-impulsion.fr",
+    title: "Smart Impulsion | IA à ROI mesurable",
+    description:
+      "Transformez votre entreprise avec l'IA et un ROI mesurable. Expertise en IA générative, machine learning et NLP.",
+    siteName: "Smart Impulsion",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Smart Impulsion - IA à ROI mesurable",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Smart Impulsion | IA à ROI mesurable",
+    description:
+      "Transformez votre entreprise avec l'IA et un ROI mesurable. Expertise en IA générative, machine learning et NLP.",
+    images: ["/og-image.png"],
+  },
+  alternates: {
+    canonical: "https://www.smart-impulsion.fr",
+  },
     generator: 'v0.dev'
 }
 
@@ -71,6 +105,57 @@ export default function RootLayout({
             
             // Exécuter à nouveau si la page est entièrement chargée
             window.addEventListener('load', replaceFavicon);
+          `}
+        </Script>
+
+        {/* Données structurées Schema.org pour le SEO */}
+        <Script id="schema-org" type="application/ld+json" strategy="afterInteractive">
+          {`
+            {
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              "name": "Smart Impulsion",
+              "url": "https://www.smart-impulsion.fr",
+              "logo": "https://www.smart-impulsion.fr/smart-impulsion-logo.png",
+              "description": "Smart Impulsion transforme votre entreprise avec des solutions d'intelligence artificielle garantissant un retour sur investissement mesurable.",
+              "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Paris",
+                "addressRegion": "Île-de-France",
+                "addressCountry": "FR"
+              },
+              "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+33-1-23-45-67-89",
+                "contactType": "customer service",
+                "email": "contact@smart-impulsion.fr"
+              },
+              "sameAs": [
+                "https://www.linkedin.com/company/smart-impulsion",
+                "https://twitter.com/smartimpulsion"
+              ],
+              "founders": [
+                {
+                  "@type": "Person",
+                  "name": "Laurent Bouzon",
+                  "jobTitle": "Co-fondateur"
+                },
+                {
+                  "@type": "Person",
+                  "name": "Mohammad-Ali Bacha",
+                  "jobTitle": "Co-fondateur"
+                }
+              ],
+              "knowsAbout": [
+                "Intelligence Artificielle",
+                "Machine Learning",
+                "Deep Learning",
+                "Traitement du Langage Naturel",
+                "Vision par Ordinateur",
+                "Automatisation des Processus",
+                "Analyse de Données Massives"
+              ]
+            }
           `}
         </Script>
 

@@ -8,6 +8,7 @@ import { Footer } from "@/components/footer"
 import { Navbar } from "@/components/navbar"
 import { AxeptioFallback } from "@/components/axeptio-fallback"
 import { FaviconUpdater } from "@/components/favicon-updater"
+import { AnimateOnScroll } from "@/components/animate-on-scroll"
 
 export default function Home() {
   return (
@@ -16,11 +17,26 @@ export default function Home() {
       <Navbar />
       <main>
         <Hero />
-        <Services />
-        <Results />
-        <Testimonials />
-        <Team />
-        <Contact />
+
+        <AnimateOnScroll variant="fade-up">
+          <Services />
+        </AnimateOnScroll>
+
+        <AnimateOnScroll variant="fade-up">
+          <Results />
+        </AnimateOnScroll>
+
+        <AnimateOnScroll variant="fade-up">
+          <Testimonials />
+        </AnimateOnScroll>
+
+        <AnimateOnScroll variant="fade-up">
+          <Team />
+        </AnimateOnScroll>
+
+        <AnimateOnScroll variant="fade-up">
+          <Contact />
+        </AnimateOnScroll>
       </main>
       <Footer />
       <AxeptioFallback />

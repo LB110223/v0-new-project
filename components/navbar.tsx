@@ -19,18 +19,52 @@ export function Navbar() {
         setScrolled(false)
       }
 
-      // Determine active section based on scroll position
+      // Amélioration de la détection de section active
       const sections = ["hero", "services", "results", "testimonials", "team", "contact"]
-      for (const section of sections.reverse()) {
-        const element = document.getElementById(section)
-        if (element && window.scrollY >= element.offsetTop - 100) {
-          setActiveSection(section)
-          break
+
+      // Trouver la section la plus visible dans la fenêtre
+      let maxVisibleSection = null
+      let maxVisiblePercentage = 0
+
+      for (const sectionId of sections) {
+        const element = document.getElementById(sectionId)
+        if (element) {
+          const rect = element.getBoundingClientRect()
+          const windowHeight = window.innerHeight
+
+          // Calculer la hauteur visible de la section dans la fenêtre
+          const visibleTop = Math.max(0, rect.top)
+          const visibleBottom = Math.min(windowHeight, rect.bottom)
+          const visibleHeight = Math.max(0, visibleBottom - visibleTop)
+
+          // Calculer le pourcentage de la section visible
+          const sectionHeight = rect.height
+          const visiblePercentage = (visibleHeight / sectionHeight) * 100
+
+          // Si cette section est plus visible que les précédentes, la définir comme active
+          if (visiblePercentage > maxVisiblePercentage) {
+            maxVisiblePercentage = visiblePercentage
+            maxVisibleSection = sectionId
+          }
+
+          // Donner une priorité supplémentaire aux sections en haut de l'écran
+          if (rect.top <= 150 && rect.bottom >= 150) {
+            maxVisibleSection = sectionId
+            break // Priorité aux sections dont le haut est visible
+          }
         }
+      }
+
+      // Mettre à jour la section active si une section est suffisamment visible
+      if (maxVisibleSection && maxVisiblePercentage > 10) {
+        setActiveSection(maxVisibleSection)
       }
     }
 
     window.addEventListener("scroll", handleScroll)
+    // Exécuter une fois au chargement pour définir la section initiale
+    handleScroll()
+
     return () => window.removeEventListener("scroll", handleScroll)
   }, [])
 

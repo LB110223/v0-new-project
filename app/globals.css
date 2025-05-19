@@ -78,3 +78,283 @@ html {
 .animate-fadeIn {
   animation: fadeIn 0.5s ease-out forwards;
 }
+
+/* Animations avancées */
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+@keyframes pulse-subtle {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.03);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.animate-pulse-subtle {
+  animation: pulse-subtle 4s ease-in-out infinite;
+}
+
+@keyframes shine {
+  0% {
+    background-position: -100% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+.animate-shine {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.2) 25%,
+    rgba(255, 255, 255, 0.2) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  background-size: 200% 100%;
+  animation: shine 3s infinite;
+}
+
+/* Animation de transition entre les sections */
+.section-transition {
+  transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Animation pour les cartes et éléments interactifs */
+.hover-lift {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-lift:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+/* Animation pour les boutons */
+.button-pulse {
+  position: relative;
+  overflow: hidden;
+}
+
+.button-pulse::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: inherit;
+  opacity: 0;
+  transform: scale(1.5);
+  transition: transform 0.5s, opacity 0.5s;
+}
+
+.button-pulse:hover::after {
+  opacity: 1;
+  transform: scale(1);
+}
+
+/* Animation pour les images */
+.image-scale {
+  transition: transform 0.5s ease;
+  overflow: hidden;
+}
+
+.image-scale img {
+  transition: transform 0.5s ease;
+}
+
+.image-scale:hover img {
+  transform: scale(1.05);
+}
+
+/* Animations pour les textes */
+.text-gradient {
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(90deg, #f97316, #ea580c);
+  background-size: 200% 100%;
+  animation: shine 3s infinite;
+}
+
+/* Option 1: Animation de pulsation avec ombre */
+@keyframes pulse-glow {
+  0% {
+    text-shadow: 0 0 5px rgba(249, 115, 22, 0.1), 0 0 10px rgba(249, 115, 22, 0);
+    color: #f97316;
+  }
+  50% {
+    text-shadow: 0 0 10px rgba(249, 115, 22, 0.3), 0 0 20px rgba(249, 115, 22, 0.2);
+    color: #fb923c;
+  }
+  100% {
+    text-shadow: 0 0 5px rgba(249, 115, 22, 0.1), 0 0 10px rgba(249, 115, 22, 0);
+    color: #f97316;
+  }
+}
+
+.text-pulse-glow {
+  animation: pulse-glow 3s ease-in-out infinite;
+}
+
+/* Option 2: Animation de révélation de texte */
+@keyframes text-reveal {
+  0% {
+    background-position: 0% center;
+  }
+  100% {
+    background-position: 100% center;
+  }
+}
+
+.text-reveal {
+  background: linear-gradient(90deg, #f97316, #f97316) no-repeat;
+  background-size: 0% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: text-reveal 2s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+  text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  position: relative;
+  display: inline-block;
+}
+
+.text-reveal::before {
+  content: attr(data-text);
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: rgba(0, 0, 0, 0.3);
+  z-index: -1;
+}
+
+/* Option 3: Animation de bordure */
+@keyframes border-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+.text-border-animated {
+  color: #f97316;
+  position: relative;
+  display: inline-block;
+  padding: 0.1em 0.2em;
+  z-index: 1;
+}
+
+.text-border-animated::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  border: 2px solid transparent;
+  border-radius: 0.25rem;
+  background: linear-gradient(90deg, #f97316, #ea580c, #f97316) border-box;
+  background-size: 200% 100%;
+  animation: border-animation 3s linear infinite;
+  mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+}
+
+/* Option 4: Animation de surlignage */
+@keyframes highlight-animation {
+  0% {
+    background-size: 0% 30%;
+  }
+  50% {
+    background-size: 100% 30%;
+  }
+  100% {
+    background-size: 100% 30%;
+  }
+}
+
+.text-highlight {
+  color: #000;
+  background: linear-gradient(to right, rgba(249, 115, 22, 0.3) 0%, rgba(249, 115, 22, 0.3) 100%);
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-size: 0% 30%;
+  animation: highlight-animation 2s cubic-bezier(0.65, 0, 0.35, 1) forwards;
+  padding: 0 0.1em;
+}
+
+/* Option 5: Animation de lettres */
+@keyframes letter-animation {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.text-letter-animated {
+  display: inline-block;
+  color: #f97316;
+}
+
+.text-letter-animated span {
+  display: inline-block;
+  opacity: 0;
+  transform: translateY(10px);
+  animation: letter-animation 0.3s ease forwards;
+}
+
+/* Option 6: Animation de soulignement */
+@keyframes underline-animation {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+.text-underline-animated {
+  color: #f97316;
+  position: relative;
+  display: inline-block;
+}
+
+.text-underline-animated::after {
+  content: "";
+  position: absolute;
+  bottom: -0.1em;
+  left: 0;
+  width: 0;
+  height: 0.1em;
+  background-color: #f97316;
+  animation: underline-animation 1.5s cubic-bezier(0.65, 0, 0.35, 1) forwards;
+  animation-delay: 0.5s;
+}
