@@ -19,8 +19,8 @@ export const metadata: Metadata = {
   keywords:
     "intelligence artificielle, IA, ROI mesurable, transformation digitale, machine learning, deep learning, NLP, vision par ordinateur, automatisation, analyse de données, entreprises françaises",
   authors: [
-    { name: "Laurent Bouzon", url: "https://www.linkedin.com/in/laurent-bouzon" },
-    { name: "Mohammad-Ali Bacha", url: "https://www.linkedin.com/in/mohammad-ali-bacha" },
+    { name: "Laurent Bouzon", url: "https://www.linkedin.com/in/laurent-bouzon-150237108/" },
+    { name: "Mohammad-Ali Bacha", url: "https://www.linkedin.com/in/mohammad-ali-bacha/" },
   ],
   openGraph: {
     type: "website",
@@ -144,12 +144,14 @@ export default function RootLayout({
                 {
                   "@type": "Person",
                   "name": "Laurent Bouzon",
-                  "jobTitle": "Co-fondateur"
+                  "jobTitle": "Co-fondateur",
+                  "sameAs": "https://www.linkedin.com/in/laurent-bouzon-150237108/"
                 },
                 {
                   "@type": "Person",
                   "name": "Mohammad-Ali Bacha",
-                  "jobTitle": "Co-fondateur"
+                  "jobTitle": "Co-fondateur",
+                  "sameAs": "https://www.linkedin.com/in/mohammad-ali-bacha/"
                 }
               ],
               "knowsAbout": [

@@ -1,17 +1,20 @@
 import { AnimateOnScroll } from "@/components/animate-on-scroll"
+import { Linkedin } from "lucide-react"
 
 const teamMembers = [
   {
     name: "Laurent Bouzon",
     role: "Co-fondateur",
-    bio: "Expert en intelligence artificielle avec une vision stratégique pour transformer les entreprises grâce à des solutions IA à ROI mesurable.",
-    image: "/laurent-bouzon.jpg", // Remplacez par le nom exact de votre fichier
+    bio: "Serial entrepreneur orienté impact, ayant structuré ses précédentes entreprises autour de l'IA avec une maîtrise des leviers permettant un ROI rapide et mesurable.",
+    image: "/laurent-bouzon.jpg",
+    linkedin: "https://www.linkedin.com/in/laurent-bouzon-150237108/",
   },
   {
     name: "Mohammad-Ali Bacha",
     role: "Co-fondateur",
     bio: "Spécialiste en technologies d'IA appliquées aux problématiques business, avec une expertise dans l'implémentation de solutions à forte valeur ajoutée.",
-    image: "/mohammad-ali-bacha.jpg", // Remplacez par le nom exact de votre fichier
+    image: "/mohammad-ali-bacha.jpg",
+    linkedin: "https://www.linkedin.com/in/mohammad-ali-bacha/",
   },
 ]
 
@@ -38,8 +41,23 @@ export function Team() {
                   />
                 </div>
                 <div className="p-6">
-                  <h3 className="text-lg font-bold text-black">{member.name}</h3>
-                  <p className="text-gray-500 font-medium mb-2">{member.role}</p>
+                  <div className="flex justify-between items-start mb-2">
+                    <div>
+                      <h3 className="text-lg font-bold text-black">{member.name}</h3>
+                      <p className="text-gray-500 font-medium">{member.role}</p>
+                    </div>
+                    {member.linkedin && (
+                      <a
+                        href={member.linkedin}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-gray-400 hover:text-blue-600 transition-colors"
+                        aria-label={`LinkedIn de ${member.name}`}
+                      >
+                        <Linkedin className="h-5 w-5" />
+                      </a>
+                    )}
+                  </div>
                   <p className="text-sm text-gray-600">{member.bio}</p>
                 </div>
               </div>
