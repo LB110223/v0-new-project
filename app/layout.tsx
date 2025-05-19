@@ -5,6 +5,10 @@ import { Inter } from "next/font/google"
 import { ThemeProvider } from "@/components/theme-provider"
 import Script from "next/script"
 import { EnvWarning } from "@/components/env-warning"
+import { Navbar } from "@/components/navbar"
+import { Footer } from "@/components/footer"
+import { AxeptioFallback } from "@/components/axeptio-fallback"
+import { FaviconUpdater } from "@/components/favicon-updater"
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -73,7 +77,11 @@ export default function RootLayout({
       <body className={inter.className}>
         <ThemeProvider attribute="class" defaultTheme="light" enableSystem disableTransitionOnChange>
           <EnvWarning />
+          <FaviconUpdater />
+          <Navbar />
           {children}
+          <Footer />
+          <AxeptioFallback />
         </ThemeProvider>
 
         {/* Script pour forcer le remplacement du favicon */}
@@ -126,7 +134,6 @@ export default function RootLayout({
               },
               "contactPoint": {
                 "@type": "ContactPoint",
-                "telephone": "+33-1-23-45-67-89",
                 "contactType": "customer service",
                 "email": "contact@smart-impulsion.fr"
               },

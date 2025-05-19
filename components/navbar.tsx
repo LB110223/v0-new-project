@@ -4,11 +4,15 @@ import { useState, useEffect } from "react"
 import { Button } from "@/components/ui/button"
 import { Menu, X } from "lucide-react"
 import { Logo } from "@/components/logo"
+import Link from "next/link"
+import { usePathname } from "next/navigation"
 
 export function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
   const [scrolled, setScrolled] = useState(false)
   const [activeSection, setActiveSection] = useState("hero")
+  const pathname = usePathname()
+  const isHomePage = pathname === "/"
 
   // Detect scroll for header styling
   useEffect(() => {
@@ -19,45 +23,47 @@ export function Navbar() {
         setScrolled(false)
       }
 
-      // Amélioration de la détection de section active
-      const sections = ["hero", "services", "results", "testimonials", "team", "contact"]
+      if (isHomePage) {
+        // Amélioration de la détection de section active
+        const sections = ["hero", "services", "results", "testimonials", "team", "contact"]
 
-      // Trouver la section la plus visible dans la fenêtre
-      let maxVisibleSection = null
-      let maxVisiblePercentage = 0
+        // Trouver la section la plus visible dans la fenêtre
+        let maxVisibleSection = null
+        let maxVisiblePercentage = 0
 
-      for (const sectionId of sections) {
-        const element = document.getElementById(sectionId)
-        if (element) {
-          const rect = element.getBoundingClientRect()
-          const windowHeight = window.innerHeight
+        for (const sectionId of sections) {
+          const element = document.getElementById(sectionId)
+          if (element) {
+            const rect = element.getBoundingClientRect()
+            const windowHeight = window.innerHeight
 
-          // Calculer la hauteur visible de la section dans la fenêtre
-          const visibleTop = Math.max(0, rect.top)
-          const visibleBottom = Math.min(windowHeight, rect.bottom)
-          const visibleHeight = Math.max(0, visibleBottom - visibleTop)
+            // Calculer la hauteur visible de la section dans la fenêtre
+            const visibleTop = Math.max(0, rect.top)
+            const visibleBottom = Math.min(windowHeight, rect.bottom)
+            const visibleHeight = Math.max(0, visibleBottom - visibleTop)
 
-          // Calculer le pourcentage de la section visible
-          const sectionHeight = rect.height
-          const visiblePercentage = (visibleHeight / sectionHeight) * 100
+            // Calculer le pourcentage de la section visible
+            const sectionHeight = rect.height
+            const visiblePercentage = (visibleHeight / sectionHeight) * 100
 
-          // Si cette section est plus visible que les précédentes, la définir comme active
-          if (visiblePercentage > maxVisiblePercentage) {
-            maxVisiblePercentage = visiblePercentage
-            maxVisibleSection = sectionId
-          }
+            // Si cette section est plus visible que les précédentes, la définir comme active
+            if (visiblePercentage > maxVisiblePercentage) {
+              maxVisiblePercentage = visiblePercentage
+              maxVisibleSection = sectionId
+            }
 
-          // Donner une priorité supplémentaire aux sections en haut de l'écran
-          if (rect.top <= 150 && rect.bottom >= 150) {
-            maxVisibleSection = sectionId
-            break // Priorité aux sections dont le haut est visible
+            // Donner une priorité supplémentaire aux sections en haut de l'écran
+            if (rect.top <= 150 && rect.bottom >= 150) {
+              maxVisibleSection = sectionId
+              break // Priorité aux sections dont le haut est visible
+            }
           }
         }
-      }
 
-      // Mettre à jour la section active si une section est suffisamment visible
-      if (maxVisibleSection && maxVisiblePercentage > 10) {
-        setActiveSection(maxVisibleSection)
+        // Mettre à jour la section active si une section est suffisamment visible
+        if (maxVisibleSection && maxVisiblePercentage > 10) {
+          setActiveSection(maxVisibleSection)
+        }
       }
     }
 
@@ -66,14 +72,18 @@ export function Navbar() {
     handleScroll()
 
     return () => window.removeEventListener("scroll", handleScroll)
-  }, [])
+  }, [isHomePage])
 
   const scrollToSection = (id: string) => {
     setIsMobileMenuOpen(false)
-    const element = document.getElementById(id)
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth" })
-      setActiveSection(id)
+    if (isHomePage) {
+      const element = document.getElementById(id)
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth" })
+        setActiveSection(id)
+      }
+    } else {
+      window.location.href = `/#${id}`
     }
   }
 
@@ -86,41 +96,51 @@ export function Navbar() {
       <div className="container mx-auto px-4 py-5">
         <div className="flex items-center justify-between">
           <div className="flex items-center">
-            <Logo variant="navbar" className="cursor-pointer" onClick={() => scrollToSection("hero")} />
+            <Link href="/">
+              <Logo variant="navbar" className="cursor-pointer" />
+            </Link>
           </div>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-10">
-            {[
-              { id: "services", label: "Services" },
-              { id: "results", label: "Résultats" },
-              { id: "testimonials", label: "Témoignages" },
-              { id: "team", label: "Équipe" },
-              { id: "contact", label: "Contact", isButton: true },
-            ].map((item) =>
-              item.isButton ? (
-                <Button
-                  key={item.id}
-                  onClick={() => scrollToSection(item.id)}
-                  className="bg-white border border-gray-200 hover:border-orange-200 hover:bg-gray-50 text-gray-800 rounded-md px-5 py-2 transition-all duration-200"
-                >
-                  {item.label}
-                </Button>
-              ) : (
-                <div key={item.id} className="relative">
-                  <button
+            {isHomePage &&
+              [
+                { id: "services", label: "Services" },
+                { id: "results", label: "Résultats" },
+                { id: "testimonials", label: "Témoignages" },
+                { id: "team", label: "Équipe" },
+                { id: "contact", label: "Contact", isButton: true },
+              ].map((item) =>
+                item.isButton ? (
+                  <Button
+                    key={item.id}
                     onClick={() => scrollToSection(item.id)}
-                    className={`text-sm font-medium transition-colors relative ${
-                      activeSection === item.id ? "text-black" : "text-gray-600 hover:text-black"
-                    }`}
+                    className="bg-white border border-gray-200 hover:border-orange-200 hover:bg-gray-50 text-gray-800 rounded-md px-5 py-2 transition-all duration-200"
                   >
                     {item.label}
-                  </button>
-                  {activeSection === item.id && (
-                    <span className="absolute -bottom-2 left-0 w-full h-0.5 bg-orange-500 transition-all duration-300"></span>
-                  )}
-                </div>
-              ),
+                  </Button>
+                ) : (
+                  <div key={item.id} className="relative">
+                    <button
+                      onClick={() => scrollToSection(item.id)}
+                      className={`text-sm font-medium transition-colors relative ${
+                        activeSection === item.id ? "text-black" : "text-gray-600 hover:text-black"
+                      }`}
+                    >
+                      {item.label}
+                    </button>
+                    {activeSection === item.id && (
+                      <span className="absolute -bottom-2 left-0 w-full h-0.5 bg-orange-500 transition-all duration-300"></span>
+                    )}
+                  </div>
+                ),
+              )}
+            {!isHomePage && (
+              <Link href="/">
+                <Button className="bg-white border border-gray-200 hover:border-orange-200 hover:bg-gray-50 text-gray-800 rounded-md px-5 py-2 transition-all duration-200">
+                  Retour à l'accueil
+                </Button>
+              </Link>
             )}
           </nav>
 
@@ -142,31 +162,41 @@ export function Navbar() {
         }`}
       >
         <div className="container mx-auto px-4 py-4 flex flex-col space-y-4">
-          {[
-            { id: "services", label: "Services" },
-            { id: "results", label: "Résultats" },
-            { id: "testimonials", label: "Témoignages" },
-            { id: "team", label: "Équipe" },
-          ].map((item) => (
-            <button
-              key={item.id}
-              onClick={() => scrollToSection(item.id)}
-              className={`py-2 text-left text-sm font-medium transition-colors ${
-                activeSection === item.id ? "text-black" : "text-gray-600"
-              }`}
-            >
-              {item.label}
-              {activeSection === item.id && (
-                <span className="ml-2 inline-block w-1 h-1 bg-orange-500 rounded-full"></span>
-              )}
-            </button>
-          ))}
-          <Button
-            onClick={() => scrollToSection("contact")}
-            className="bg-white border border-gray-200 hover:border-orange-200 hover:bg-gray-50 text-gray-800 w-full rounded-md mt-2"
-          >
-            Nous contacter
-          </Button>
+          {isHomePage ? (
+            <>
+              {[
+                { id: "services", label: "Services" },
+                { id: "results", label: "Résultats" },
+                { id: "testimonials", label: "Témoignages" },
+                { id: "team", label: "Équipe" },
+              ].map((item) => (
+                <button
+                  key={item.id}
+                  onClick={() => scrollToSection(item.id)}
+                  className={`py-2 text-left text-sm font-medium transition-colors ${
+                    activeSection === item.id ? "text-black" : "text-gray-600"
+                  }`}
+                >
+                  {item.label}
+                  {activeSection === item.id && (
+                    <span className="ml-2 inline-block w-1 h-1 bg-orange-500 rounded-full"></span>
+                  )}
+                </button>
+              ))}
+              <Button
+                onClick={() => scrollToSection("contact")}
+                className="bg-white border border-gray-200 hover:border-orange-200 hover:bg-gray-50 text-gray-800 w-full rounded-md mt-2"
+              >
+                Nous contacter
+              </Button>
+            </>
+          ) : (
+            <Link href="/">
+              <Button className="bg-white border border-gray-200 hover:border-orange-200 hover:bg-gray-50 text-gray-800 w-full rounded-md">
+                Retour à l'accueil
+              </Button>
+            </Link>
+          )}
         </div>
       </div>
     </header>

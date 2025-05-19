@@ -1,5 +1,6 @@
 import { CookieSettingsButton } from "./cookie-settings-button"
 import { Logo } from "./logo"
+import Link from "next/link"
 
 export function Footer() {
   const currentYear = new Date().getFullYear()
@@ -17,17 +18,17 @@ export function Footer() {
             <h3 className="text-sm font-bold uppercase text-gray-500 mb-4">Services</h3>
             <ul className="space-y-2">
               <li>
-                <a href="#" className="text-gray-600 hover:text-black transition-colors">
+                <a href="#services" className="text-gray-600 hover:text-black transition-colors">
                   Smart Training
                 </a>
               </li>
               <li>
-                <a href="#" className="text-gray-600 hover:text-black transition-colors">
+                <a href="#services" className="text-gray-600 hover:text-black transition-colors">
                   Smart Analyse
                 </a>
               </li>
               <li>
-                <a href="#" className="text-gray-600 hover:text-black transition-colors">
+                <a href="#services" className="text-gray-600 hover:text-black transition-colors">
                   Smart Action
                 </a>
               </li>
@@ -38,12 +39,6 @@ export function Footer() {
             <h3 className="text-sm font-bold uppercase text-gray-500 mb-4">Contact</h3>
             <ul className="space-y-2">
               <li className="text-gray-600">contact@smart-impulsion.fr</li>
-              <li className="text-gray-600">+33 1 23 45 67 89</li>
-              <li className="text-gray-600">
-                123 Avenue de l'Innovation
-                <br />
-                75008 Paris, France
-              </li>
             </ul>
           </div>
 
@@ -51,18 +46,18 @@ export function Footer() {
             <h3 className="text-sm font-bold uppercase text-gray-500 mb-4">Légal</h3>
             <ul className="space-y-2">
               <li>
-                <a href="#" className="text-gray-600 hover:text-black transition-colors">
+                <Link href="/politique-de-confidentialite" className="text-gray-600 hover:text-black transition-colors">
                   Politique de Confidentialité
-                </a>
+                </Link>
+              </li>
+              <li>
+                <Link href="/mentions-legales" className="text-gray-600 hover:text-black transition-colors">
+                  Mentions Légales
+                </Link>
               </li>
               <li>
                 <a href="#" className="text-gray-600 hover:text-black transition-colors">
                   Conditions d'Utilisation
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-gray-600 hover:text-black transition-colors">
-                  Mentions Légales
                 </a>
               </li>
               <li>
