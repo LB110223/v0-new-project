@@ -138,8 +138,7 @@ export default function RootLayout({
                 "email": "contact@smart-impulsion.fr"
               },
               "sameAs": [
-                "https://www.linkedin.com/company/smart-impulsion",
-                "https://twitter.com/smartimpulsion"
+                "https://www.linkedin.com/company/107340725"
               ],
               "founders": [
                 {
