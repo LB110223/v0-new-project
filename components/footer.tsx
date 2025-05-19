@@ -36,9 +36,28 @@ export function Footer() {
           </div>
 
           <div>
-            <h3 className="text-sm font-bold uppercase text-gray-500 mb-4">Contact</h3>
+            <h3 className="text-sm font-bold uppercase text-gray-500 mb-4">Présence locale</h3>
             <ul className="space-y-2">
-              <li className="text-gray-600">contact@smart-impulsion.fr</li>
+              <li>
+                <Link href="/presence-locale/lyon" className="text-gray-600 hover:text-black transition-colors">
+                  Lyon
+                </Link>
+              </li>
+              <li>
+                <Link href="/presence-locale/paris" className="text-gray-600 hover:text-black transition-colors">
+                  Paris
+                </Link>
+              </li>
+              <li>
+                <Link href="/presence-locale/marseille" className="text-gray-600 hover:text-black transition-colors">
+                  Marseille
+                </Link>
+              </li>
+              <li>
+                <Link href="/presence-locale" className="text-gray-600 hover:text-black transition-colors">
+                  Toutes nos implantations
+                </Link>
+              </li>
             </ul>
           </div>
 
