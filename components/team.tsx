@@ -2,39 +2,44 @@
 
 import { AnimateOnScroll } from "@/components/animate-on-scroll"
 import { Linkedin } from "lucide-react"
-import { useState } from "react"
+import { useEffect, useState } from "react"
 
-const teamMembers = [
+const defaultTeamMembers = [
   {
     name: "Laurent Bouzon",
     role: "Co-fondateur",
     bio: "Serial entrepreneur orienté impact, ayant structuré ses précédentes entreprises autour de l'IA avec une maîtrise des leviers permettant un ROI rapide et mesurable.",
-    image: "/team/laurent-bouzon.png",
+    image: "/diverse-business-person.png",
     linkedin: "https://www.linkedin.com/in/laurent-bouzon-150237108/",
   },
   {
     name: "Mohammad-Ali Bacha",
     role: "Co-fondateur",
     bio: "Spécialiste en technologies d'IA appliquées aux problématiques business, avec une expertise dans l'implémentation de solutions à forte valeur ajoutée.",
-    image: "/team/mohammad-ali-bacha.png",
+    image: "/diverse-business-person.png",
     linkedin: "https://www.linkedin.com/in/mohammad-ali-bacha/",
   },
 ]
 
-function TeamMemberImage({ src, alt }: { src: string; alt: string }) {
-  const [imgSrc, setImgSrc] = useState(src)
-
-  return (
-    <img
-      src={imgSrc || "/placeholder.svg"}
-      alt={alt}
-      className="w-full h-full object-cover"
-      onError={() => setImgSrc("/diverse-group.png")}
-    />
-  )
-}
-
 export function Team() {
+  const [teamMembers, setTeamMembers] = useState(defaultTeamMembers)
+
+  // Charger les URLs d'images depuis le localStorage
+  useEffect(() => {
+    const savedImages = localStorage.getItem("teamImages")
+    if (savedImages) {
+      try {
+        const images = JSON.parse(savedImages)
+        setTeamMembers((prev) => [
+          { ...prev[0], image: images.laurent || prev[0].image },
+          { ...prev[1], image: images.mohammad || prev[1].image },
+        ])
+      } catch (error) {
+        console.error("Erreur lors du chargement des images:", error)
+      }
+    }
+  }, [])
+
   return (
     <section id="team" className="py-20 bg-white section-transition">
       <div className="container mx-auto px-4">
@@ -50,7 +55,11 @@ export function Team() {
             <AnimateOnScroll key={index} variant="fade-up" delay={index * 100} duration={600} threshold={0.01}>
               <div className="bg-gray-50 rounded-lg overflow-hidden hover-lift">
                 <div className="aspect-square overflow-hidden image-scale">
-                  <TeamMemberImage src={member.image || "/placeholder.svg"} alt={`Photo de ${member.name}`} />
+                  <img
+                    src={member.image || "/placeholder.svg"}
+                    alt={`Photo de ${member.name}`}
+                    className="w-full h-full object-cover"
+                  />
                 </div>
                 <div className="p-6">
                   <div className="flex justify-between items-start mb-2">
