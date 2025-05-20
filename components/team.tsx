@@ -23,22 +23,51 @@ const defaultTeamMembers = [
 
 export function Team() {
   const [teamMembers, setTeamMembers] = useState(defaultTeamMembers)
+  const [imageErrors, setImageErrors] = useState({ laurent: false, mohammad: false })
 
   // Charger les URLs d'images depuis le localStorage
   useEffect(() => {
-    const savedImages = localStorage.getItem("teamImages")
-    if (savedImages) {
-      try {
+    try {
+      const savedImages = localStorage.getItem("teamImages")
+      if (savedImages) {
         const images = JSON.parse(savedImages)
-        setTeamMembers((prev) => [
-          { ...prev[0], image: images.laurent || prev[0].image },
-          { ...prev[1], image: images.mohammad || prev[1].image },
-        ])
-      } catch (error) {
-        console.error("Erreur lors du chargement des images:", error)
+        console.log("Team component: Images chargées depuis localStorage", images)
+
+        if (images.laurent || images.mohammad) {
+          setTeamMembers([
+            {
+              ...defaultTeamMembers[0],
+              image: images.laurent && images.laurent.trim() !== "" ? images.laurent : defaultTeamMembers[0].image,
+            },
+            {
+              ...defaultTeamMembers[1],
+              image: images.mohammad && images.mohammad.trim() !== "" ? images.mohammad : defaultTeamMembers[1].image,
+            },
+          ])
+        }
       }
+    } catch (error) {
+      console.error("Team component: Erreur lors du chargement des images:", error)
     }
   }, [])
+
+  const handleImageError = (index: number) => {
+    console.log(`Team component: Erreur de chargement de l'image pour le membre ${index}`)
+
+    // Mettre à jour l'état des erreurs
+    if (index === 0) {
+      setImageErrors((prev) => ({ ...prev, laurent: true }))
+    } else {
+      setImageErrors((prev) => ({ ...prev, mohammad: true }))
+    }
+
+    // Revenir à l'image par défaut
+    setTeamMembers((prev) => {
+      const updated = [...prev]
+      updated[index] = { ...updated[index], image: defaultTeamMembers[index].image }
+      return updated
+    })
+  }
 
   return (
     <section id="team" className="py-20 bg-white section-transition">
@@ -59,6 +88,7 @@ export function Team() {
                     src={member.image || "/placeholder.svg"}
                     alt={`Photo de ${member.name}`}
                     className="w-full h-full object-cover"
+                    onError={() => handleImageError(index)}
                   />
                 </div>
                 <div className="p-6">
