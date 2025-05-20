@@ -7,6 +7,19 @@ import { Button } from "@/components/ui/button"
 import { ArrowLeft, Upload, Check, Info } from "lucide-react"
 import Link from "next/link"
 
+function TeamMemberPreview({ src, alt }: { src: string; alt: string }) {
+  const [imgSrc, setImgSrc] = useState(src)
+
+  return (
+    <img
+      src={imgSrc || "/placeholder.svg"}
+      alt={alt}
+      className="w-full h-full object-cover"
+      onError={() => setImgSrc("/diverse-group.png")}
+    />
+  )
+}
+
 export default function AdminPanel() {
   const [selectedFiles, setSelectedFiles] = useState<{
     laurent: File | null
@@ -116,15 +129,7 @@ Note: Les photos doivent être optimisées pour le web (taille recommandée: 500
               <div className="border border-gray-200 rounded-lg p-4">
                 <h3 className="font-medium mb-2">Laurent Bouzon</h3>
                 <div className="mb-4 aspect-square bg-gray-100 rounded-lg flex items-center justify-center overflow-hidden">
-                  <img
-                    src={previews.laurent || "/team/laurent-bouzon.png"}
-                    alt="Laurent Bouzon"
-                    className="w-full h-full object-cover"
-                    onError={(e) => {
-                      const target = e.target as HTMLImageElement
-                      target.src = "/diverse-group.png"
-                    }}
-                  />
+                  <TeamMemberPreview src={previews.laurent || "/team/laurent-bouzon.png"} alt="Laurent Bouzon" />
                 </div>
                 <div className="relative">
                   <input
@@ -151,14 +156,9 @@ Note: Les photos doivent être optimisées pour le web (taille recommandée: 500
               <div className="border border-gray-200 rounded-lg p-4">
                 <h3 className="font-medium mb-2">Mohammad-Ali Bacha</h3>
                 <div className="mb-4 aspect-square bg-gray-100 rounded-lg flex items-center justify-center overflow-hidden">
-                  <img
+                  <TeamMemberPreview
                     src={previews.mohammad || "/team/mohammad-ali-bacha.png"}
                     alt="Mohammad-Ali Bacha"
-                    className="w-full h-full object-cover"
-                    onError={(e) => {
-                      const target = e.target as HTMLImageElement
-                      target.src = "/diverse-group.png"
-                    }}
                   />
                 </div>
                 <div className="relative">

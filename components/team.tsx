@@ -1,5 +1,8 @@
+"use client"
+
 import { AnimateOnScroll } from "@/components/animate-on-scroll"
 import { Linkedin } from "lucide-react"
+import { useState } from "react"
 
 const teamMembers = [
   {
@@ -18,6 +21,19 @@ const teamMembers = [
   },
 ]
 
+function TeamMemberImage({ src, alt }: { src: string; alt: string }) {
+  const [imgSrc, setImgSrc] = useState(src)
+
+  return (
+    <img
+      src={imgSrc || "/placeholder.svg"}
+      alt={alt}
+      className="w-full h-full object-cover"
+      onError={() => setImgSrc("/diverse-group.png")}
+    />
+  )
+}
+
 export function Team() {
   return (
     <section id="team" className="py-20 bg-white section-transition">
@@ -34,15 +50,7 @@ export function Team() {
             <AnimateOnScroll key={index} variant="fade-up" delay={index * 100} duration={600} threshold={0.01}>
               <div className="bg-gray-50 rounded-lg overflow-hidden hover-lift">
                 <div className="aspect-square overflow-hidden image-scale">
-                  <img
-                    src={member.image || "/placeholder.svg"}
-                    alt={`Photo de ${member.name}`}
-                    className="w-full h-full object-cover"
-                    onError={(e) => {
-                      const target = e.target as HTMLImageElement
-                      target.src = "/diverse-group.png"
-                    }}
-                  />
+                  <TeamMemberImage src={member.image || "/placeholder.svg"} alt={`Photo de ${member.name}`} />
                 </div>
                 <div className="p-6">
                   <div className="flex justify-between items-start mb-2">
