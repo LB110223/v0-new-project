@@ -6,14 +6,14 @@ const teamMembers = [
     name: "Laurent Bouzon",
     role: "Co-fondateur",
     bio: "Serial entrepreneur orienté impact, ayant structuré ses précédentes entreprises autour de l'IA avec une maîtrise des leviers permettant un ROI rapide et mesurable.",
-    image: "/laurent-bouzon.jpg",
+    image: "/team/laurent-bouzon.png",
     linkedin: "https://www.linkedin.com/in/laurent-bouzon-150237108/",
   },
   {
     name: "Mohammad-Ali Bacha",
     role: "Co-fondateur",
     bio: "Spécialiste en technologies d'IA appliquées aux problématiques business, avec une expertise dans l'implémentation de solutions à forte valeur ajoutée.",
-    image: "/mohammad-ali-bacha.jpg",
+    image: "/team/mohammad-ali-bacha.png",
     linkedin: "https://www.linkedin.com/in/mohammad-ali-bacha/",
   },
 ]
@@ -38,6 +38,10 @@ export function Team() {
                     src={member.image || "/placeholder.svg"}
                     alt={`Photo de ${member.name}`}
                     className="w-full h-full object-cover"
+                    onError={(e) => {
+                      const target = e.target as HTMLImageElement
+                      target.src = "/diverse-group.png"
+                    }}
                   />
                 </div>
                 <div className="p-6">
