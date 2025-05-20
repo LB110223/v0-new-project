@@ -4,8 +4,20 @@ import { AnimateOnScroll } from "@/components/animate-on-scroll"
 import { Linkedin } from "lucide-react"
 import { useEffect, useState } from "react"
 
+// Types pour les membres de l'équipe
+interface TeamMember {
+  id: string
+  name: string
+  role: string
+  bio: string
+  image: string
+  linkedin: string
+}
+
+// Membres de l'équipe par défaut
 const defaultTeamMembers = [
   {
+    id: "member-1",
     name: "Laurent Bouzon",
     role: "Co-fondateur",
     bio: "Serial entrepreneur orienté impact, ayant structuré ses précédentes entreprises autour de l'IA avec une maîtrise des leviers permettant un ROI rapide et mesurable.",
@@ -13,6 +25,7 @@ const defaultTeamMembers = [
     linkedin: "https://www.linkedin.com/in/laurent-bouzon-150237108/",
   },
   {
+    id: "member-2",
     name: "Mohammad-Ali Bacha",
     role: "Co-fondateur",
     bio: "Spécialiste en technologies d'IA appliquées aux problématiques business, avec une expertise dans l'implémentation de solutions à forte valeur ajoutée.",
@@ -23,50 +36,57 @@ const defaultTeamMembers = [
 
 export function Team() {
   const [teamMembers, setTeamMembers] = useState(defaultTeamMembers)
-  const [imageErrors, setImageErrors] = useState({ laurent: false, mohammad: false })
+  const [imageErrors, setImageErrors] = useState<Record<string, boolean>>({})
 
-  // Charger les URLs d'images depuis le localStorage
+  // Charger les membres de l'équipe depuis localStorage
   useEffect(() => {
     try {
-      const savedImages = localStorage.getItem("teamImages")
-      if (savedImages) {
-        const images = JSON.parse(savedImages)
-        console.log("Team component: Images chargées depuis localStorage", images)
+      // Essayer d'abord de charger depuis le nouveau format
+      const savedTeamMembers = localStorage.getItem("team_members")
+      if (savedTeamMembers) {
+        setTeamMembers(JSON.parse(savedTeamMembers))
+      } else {
+        // Sinon, essayer de charger depuis l'ancien format
+        const savedImages = localStorage.getItem("teamImages")
+        if (savedImages) {
+          const images = JSON.parse(savedImages)
+          console.log("Team component: Images chargées depuis localStorage", images)
 
-        if (images.laurent || images.mohammad) {
-          setTeamMembers([
-            {
-              ...defaultTeamMembers[0],
-              image: images.laurent && images.laurent.trim() !== "" ? images.laurent : defaultTeamMembers[0].image,
-            },
-            {
-              ...defaultTeamMembers[1],
-              image: images.mohammad && images.mohammad.trim() !== "" ? images.mohammad : defaultTeamMembers[1].image,
-            },
-          ])
+          if (images.laurent || images.mohammad) {
+            setTeamMembers([
+              {
+                ...defaultTeamMembers[0],
+                image: images.laurent && images.laurent.trim() !== "" ? images.laurent : defaultTeamMembers[0].image,
+              },
+              {
+                ...defaultTeamMembers[1],
+                image: images.mohammad && images.mohammad.trim() !== "" ? images.mohammad : defaultTeamMembers[1].image,
+              },
+            ])
+          }
         }
       }
     } catch (error) {
-      console.error("Team component: Erreur lors du chargement des images:", error)
+      console.error("Team component: Erreur lors du chargement des données de l'équipe:", error)
     }
   }, [])
 
-  const handleImageError = (index: number) => {
-    console.log(`Team component: Erreur de chargement de l'image pour le membre ${index}`)
+  const handleImageError = (id: string) => {
+    console.log(`Team component: Erreur de chargement de l'image pour le membre ${id}`)
 
     // Mettre à jour l'état des erreurs
-    if (index === 0) {
-      setImageErrors((prev) => ({ ...prev, laurent: true }))
-    } else {
-      setImageErrors((prev) => ({ ...prev, mohammad: true }))
-    }
+    setImageErrors((prev) => ({ ...prev, [id]: true }))
 
-    // Revenir à l'image par défaut
-    setTeamMembers((prev) => {
-      const updated = [...prev]
-      updated[index] = { ...updated[index], image: defaultTeamMembers[index].image }
-      return updated
-    })
+    // Trouver l'index du membre
+    const index = teamMembers.findIndex((member) => member.id === id)
+    if (index !== -1) {
+      // Revenir à l'image par défaut
+      setTeamMembers((prev) => {
+        const updated = [...prev]
+        updated[index] = { ...updated[index], image: defaultTeamMembers[index % defaultTeamMembers.length].image }
+        return updated
+      })
+    }
   }
 
   return (
@@ -80,15 +100,15 @@ export function Team() {
         </AnimateOnScroll>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-3xl mx-auto">
-          {teamMembers.map((member, index) => (
-            <AnimateOnScroll key={index} variant="fade-up" delay={index * 100} duration={600} threshold={0.01}>
+          {teamMembers.map((member) => (
+            <AnimateOnScroll key={member.id} variant="fade-up" delay={100} duration={600} threshold={0.01}>
               <div className="bg-gray-50 rounded-lg overflow-hidden hover-lift">
                 <div className="aspect-square overflow-hidden image-scale">
                   <img
-                    src={member.image || "/placeholder.svg"}
+                    src={member.image || "/placeholder.svg?key=person"}
                     alt={`Photo de ${member.name}`}
                     className="w-full h-full object-cover"
-                    onError={() => handleImageError(index)}
+                    onError={() => handleImageError(member.id)}
                   />
                 </div>
                 <div className="p-6">

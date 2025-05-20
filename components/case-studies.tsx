@@ -1,10 +1,27 @@
+"use client"
+
 import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { TrendingUp } from "lucide-react"
 import { AnimateOnScroll } from "@/components/animate-on-scroll"
+import { useEffect, useState } from "react"
 
-const caseStudies = [
+// Types pour les études de cas
+interface CaseStudy {
+  id: string
+  title: string
+  client: string
+  description: string
+  tags: string[]
+  roi: string
+  image: string
+  gradient: string
+}
+
+// Études de cas par défaut
+const defaultCaseStudies = [
   {
+    id: "case-1",
     title: "Optimisation de la chaîne logistique",
     client: "Distributeur national",
     description:
@@ -15,6 +32,7 @@ const caseStudies = [
     gradient: "from-orange-500 to-orange-600",
   },
   {
+    id: "case-2",
     title: "Automatisation du service client",
     client: "Banque française",
     description:
@@ -25,6 +43,7 @@ const caseStudies = [
     gradient: "from-orange-400 to-orange-500",
   },
   {
+    id: "case-3",
     title: "Détection de fraude en temps réel",
     client: "Assureur national",
     description:
@@ -37,6 +56,30 @@ const caseStudies = [
 ]
 
 export function CaseStudies() {
+  const [caseStudies, setCaseStudies] = useState(defaultCaseStudies)
+  const [roiAverage, setRoiAverage] = useState("+285%")
+
+  // Charger les études de cas depuis localStorage
+  useEffect(() => {
+    try {
+      const savedCaseStudies = localStorage.getItem("case_studies")
+      if (savedCaseStudies) {
+        setCaseStudies(JSON.parse(savedCaseStudies))
+      }
+
+      // Charger également les informations générales pour le ROI moyen
+      const savedGeneralInfo = localStorage.getItem("general_info")
+      if (savedGeneralInfo) {
+        const generalInfo = JSON.parse(savedGeneralInfo)
+        if (generalInfo.roiAverage) {
+          setRoiAverage(generalInfo.roiAverage)
+        }
+      }
+    } catch (error) {
+      console.error("Erreur lors du chargement des études de cas:", error)
+    }
+  }, [])
+
   return (
     <section id="etudes-de-cas" className="py-16 md:py-24 bg-white relative overflow-hidden">
       {/* Decorative elements */}
@@ -60,7 +103,7 @@ export function CaseStudies() {
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
           {caseStudies.map((study, index) => (
-            <AnimateOnScroll key={index} variant="fade-up" delay={index * 200}>
+            <AnimateOnScroll key={study.id} variant="fade-up" delay={index * 200}>
               <Card className="overflow-hidden border-none shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1 group">
                 <div className="aspect-video overflow-hidden relative">
                   <div
@@ -70,6 +113,10 @@ export function CaseStudies() {
                     src={study.image || "/placeholder.svg"}
                     alt={study.title}
                     className="w-full h-full object-cover mix-blend-overlay"
+                    onError={(e) => {
+                      // Fallback en cas d'erreur de chargement de l'image
+                      e.currentTarget.src = "/placeholder.svg?key=case"
+                    }}
                   />
                   <div className="absolute top-4 right-4 bg-white text-orange-600 font-bold px-3 py-2 rounded-full flex items-center shadow-lg">
                     <TrendingUp className="h-4 w-4 mr-1" />
@@ -104,7 +151,7 @@ export function CaseStudies() {
             <p className="text-lg font-medium text-orange-600 mb-4">Nous nous engageons sur des résultats mesurables</p>
             <div className="inline-flex items-center justify-center bg-white px-8 py-5 rounded-2xl shadow-2xl">
               <span className="text-2xl font-bold text-slate-800 mr-3">ROI moyen de nos projets:</span>
-              <span className="text-4xl font-bold text-orange-500">+285%</span>
+              <span className="text-4xl font-bold text-orange-500">{roiAverage}</span>
             </div>
           </div>
         </AnimateOnScroll>

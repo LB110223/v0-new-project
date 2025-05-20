@@ -2,9 +2,40 @@
 
 import { Button } from "@/components/ui/button"
 import { AnimateOnScroll } from "@/components/animate-on-scroll"
-import { useEffect, useRef } from "react"
+import { useEffect, useRef, useState } from "react"
+
+// Types pour le contenu du hero
+interface HeroContent {
+  title: string
+  highlightedText: string
+  description: string
+  ctaText: string
+}
+
+// Contenu par défaut
+const defaultHeroContent: HeroContent = {
+  title: "L'IA au service de votre performance.",
+  highlightedText: "Avec des résultats mesurables.",
+  description:
+    "Smart Impulsion ne se contente pas de vous digitaliser. Nous alignons chaque décision technologique sur vos objectifs business, avec un seul critère de succès : un retour sur investissement mesurable, ou rien.",
+  ctaText: "Demander une évaluation gratuite",
+}
 
 export function Hero() {
+  const [heroContent, setHeroContent] = useState<HeroContent>(defaultHeroContent)
+
+  // Charger le contenu depuis localStorage
+  useEffect(() => {
+    try {
+      const savedContent = localStorage.getItem("hero_content")
+      if (savedContent) {
+        setHeroContent(JSON.parse(savedContent))
+      }
+    } catch (error) {
+      console.error("Erreur lors du chargement du contenu hero:", error)
+    }
+  }, [])
+
   const scrollToContact = () => {
     const contactSection = document.getElementById("contact")
     if (contactSection) {
@@ -42,16 +73,12 @@ export function Hero() {
         <div className="max-w-3xl mx-auto text-center">
           <AnimateOnScroll variant="fade-down" duration={800} threshold={0.01}>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-black mb-6">
-              L'IA au service de votre performance.{" "}
-              <span className="text-orange-500">Avec des résultats mesurables.</span>
+              {heroContent.title} <span className="text-orange-500">{heroContent.highlightedText}</span>
             </h1>
           </AnimateOnScroll>
 
           <AnimateOnScroll variant="fade-up" delay={200} duration={800} threshold={0.01}>
-            <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
-              Smart Impulsion ne se contente pas de vous digitaliser. Nous alignons chaque décision technologique sur
-              vos objectifs business, avec un seul critère de succès : un retour sur investissement mesurable, ou rien.
-            </p>
+            <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">{heroContent.description}</p>
           </AnimateOnScroll>
 
           <AnimateOnScroll variant="zoom-in" delay={400} duration={800} threshold={0.01}>
@@ -61,7 +88,7 @@ export function Hero() {
                 className="bg-gray-50 border border-gray-300 hover:bg-gray-100 text-gray-800 rounded-md px-6 py-6 text-base button-pulse"
                 onClick={scrollToContact}
               >
-                Demander une évaluation gratuite
+                {heroContent.ctaText}
               </Button>
             </div>
           </AnimateOnScroll>

@@ -1,9 +1,48 @@
+"use client"
+
 import { CookieSettingsButton } from "./cookie-settings-button"
 import { Logo } from "./logo"
 import Link from "next/link"
+import { useEffect, useState } from "react"
+
+// Types pour les informations générales
+interface GeneralInfo {
+  siteTitle: string
+  siteDescription: string
+  contactEmail: string
+  phoneNumber: string
+  address: string
+  roiAverage: string
+  footerText: string
+}
+
+// Informations générales par défaut
+const defaultGeneralInfo: GeneralInfo = {
+  siteTitle: "Smart Impulsion | IA à ROI mesurable pour entreprises françaises",
+  siteDescription:
+    "Smart Impulsion transforme votre entreprise avec des solutions d'intelligence artificielle garantissant un retour sur investissement mesurable.",
+  contactEmail: "contact@smart-impulsion.fr",
+  phoneNumber: "",
+  address: "Paris, France",
+  roiAverage: "+285%",
+  footerText: "Transformez votre entreprise avec l'IA et un ROI mesurable.",
+}
 
 export function Footer() {
   const currentYear = new Date().getFullYear()
+  const [generalInfo, setGeneralInfo] = useState(defaultGeneralInfo)
+
+  // Charger les informations générales depuis localStorage
+  useEffect(() => {
+    try {
+      const savedInfo = localStorage.getItem("general_info")
+      if (savedInfo) {
+        setGeneralInfo(JSON.parse(savedInfo))
+      }
+    } catch (error) {
+      console.error("Erreur lors du chargement des informations générales:", error)
+    }
+  }, [])
 
   return (
     <footer className="py-12 bg-white border-t border-gray-200">
@@ -11,7 +50,14 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           <div>
             <Logo variant="footer" className="mb-4" />
-            <p className="text-gray-600 mb-4">Transformez votre entreprise avec l'IA et un ROI mesurable.</p>
+            <p className="text-gray-600 mb-4">{generalInfo.footerText}</p>
+            {generalInfo.contactEmail && (
+              <p className="text-gray-600">
+                <a href={`mailto:${generalInfo.contactEmail}`} className="hover:text-orange-500 transition-colors">
+                  {generalInfo.contactEmail}
+                </a>
+              </p>
+            )}
           </div>
 
           <div>
@@ -72,6 +118,11 @@ export function Footer() {
               <li>
                 <Link href="/mentions-legales" className="text-gray-600 hover:text-black transition-colors">
                   Mentions Légales
+                </Link>
+              </li>
+              <li>
+                <Link href="/admin" className="text-gray-600 hover:text-black transition-colors">
+                  Administration
                 </Link>
               </li>
               <li className="mt-4">
