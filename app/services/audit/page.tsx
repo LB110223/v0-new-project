@@ -123,7 +123,7 @@ export default function AuditPage() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button asChild size="lg" className="bg-orange-500 hover:bg-orange-600 text-white">
-                  <Link href="/#contact">
+                  <Link href="/contact">
                     Demander un audit
                     <ArrowRight className="ml-2 h-5 w-5" />
                   </Link>
@@ -313,7 +313,7 @@ export default function AuditPage() {
                 de votre diagnostic IA. Nous vous accompagnons dans les démarches d'éligibilité.
               </p>
               <Button asChild className="bg-orange-500 hover:bg-orange-600 text-white">
-                <Link href="/#contact">
+                <Link href="/contact">
                   Vérifier mon éligibilité
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </Link>
@@ -334,7 +334,7 @@ export default function AuditPage() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button asChild size="lg" className="bg-orange-500 hover:bg-orange-600 text-white">
-                  <Link href="/#contact">
+                  <Link href="/contact">
                     Demander un audit gratuit
                     <ArrowRight className="ml-2 h-5 w-5" />
                   </Link>

@@ -4,6 +4,7 @@ import { Results } from "@/components/results"
 import { Testimonials } from "@/components/testimonials"
 import { Contact } from "@/components/contact"
 import Founder from "@/components/founder"
+import { ExpertsNetwork } from "@/components/experts-network"
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Founder />
       <Services />
       <Results />
+      <ExpertsNetwork />
       <Testimonials />
       <Contact />
     </main>

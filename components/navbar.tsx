@@ -26,7 +26,6 @@ export function Navbar() {
     return () => document.removeEventListener("mousedown", handleClickOutside)
   }, [])
 
-  // Detect scroll for header styling
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY > 20) {
@@ -41,18 +40,6 @@ export function Navbar() {
 
     return () => window.removeEventListener("scroll", handleScroll)
   }, [])
-
-  const scrollToSection = (id: string) => {
-    setIsMobileMenuOpen(false)
-    if (isHomePage) {
-      const element = document.getElementById(id)
-      if (element) {
-        element.scrollIntoView({ behavior: "smooth" })
-      }
-    } else {
-      window.location.href = `/#${id}`
-    }
-  }
 
   const services = [
     { name: "Formation IA", href: "/services/formation" },
@@ -117,25 +104,20 @@ export function Navbar() {
               <Link href="/blog" className="text-gray-700 hover:text-orange-500 font-medium transition-colors">
                 Blog
               </Link>
+
+              <Link href="/contact" className="text-gray-700 hover:text-orange-500 font-medium transition-colors">
+                Contact
+              </Link>
             </div>
           </nav>
 
           {/* Bouton Contact à droite */}
           <div className="hidden md:block flex-shrink-0">
-            {isHomePage ? (
-              <Button
-                onClick={() => scrollToSection("contact")}
-                className="bg-white border border-gray-200 hover:border-orange-200 hover:bg-gray-50 text-gray-800 rounded-md px-5 py-2 transition-all duration-200"
-              >
-                Contact
+            <Link href="/contact">
+              <Button className="bg-black hover:bg-gray-800 text-white rounded-md px-5 py-2 transition-all duration-200">
+                Nous contacter
               </Button>
-            ) : (
-              <Link href="/#contact">
-                <Button className="bg-white border border-gray-200 hover:border-orange-200 hover:bg-gray-50 text-gray-800 rounded-md px-5 py-2 transition-all duration-200">
-                  Contact
-                </Button>
-              </Link>
-            )}
+            </Link>
           </div>
 
           {/* Mobile Menu Button */}
@@ -205,20 +187,17 @@ export function Navbar() {
             Blog
           </Link>
 
-          {isHomePage ? (
-            <Button
-              onClick={() => scrollToSection("contact")}
-              className="bg-white border border-gray-200 hover:border-orange-200 hover:bg-gray-50 text-gray-800 w-full rounded-md mt-2"
-            >
-              Contact
-            </Button>
-          ) : (
-            <Link href="/#contact" onClick={() => setIsMobileMenuOpen(false)}>
-              <Button className="bg-white border border-gray-200 hover:border-orange-200 hover:bg-gray-50 text-gray-800 w-full rounded-md mt-2">
-                Contact
-              </Button>
-            </Link>
-          )}
+          <Link
+            href="/contact"
+            onClick={() => setIsMobileMenuOpen(false)}
+            className="text-gray-700 hover:text-orange-500 font-medium transition-colors py-3 text-center border-b border-gray-100"
+          >
+            Contact
+          </Link>
+
+          <Link href="/contact" onClick={() => setIsMobileMenuOpen(false)}>
+            <Button className="bg-black hover:bg-gray-800 text-white w-full rounded-md mt-2">Nous contacter</Button>
+          </Link>
         </div>
       </div>
     </header>
