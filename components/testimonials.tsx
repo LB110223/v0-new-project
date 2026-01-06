@@ -11,7 +11,8 @@ export function Testimonials() {
         <div className="max-w-3xl mx-auto text-center mb-16">
           <h2 className="text-3xl font-bold mb-4 text-black">Ce que disent nos clients</h2>
           <p className="text-lg text-gray-600">
-            Des témoignages de clients qui ont transformé leur entreprise avec Smart Impulsion
+            Des entreprises qui ont transformé leurs opérations, leurs performances et leurs résultats grâce à des
+            solutions IA concrètes et mesurables déployées avec Smart Impulsion.
           </p>
         </div>
 

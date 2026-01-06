@@ -56,19 +56,21 @@ export function Navbar() {
           </div>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center space-x-10">
-            {isHomePage && (
+          <nav className="hidden md:flex items-center space-x-6">
+            <Link href="/blog" className="text-gray-700 hover:text-orange-500 font-medium transition-colors">
+              Blog
+            </Link>
+            {isHomePage ? (
               <Button
                 onClick={() => scrollToSection("contact")}
                 className="bg-white border border-gray-200 hover:border-orange-200 hover:bg-gray-50 text-gray-800 rounded-md px-5 py-2 transition-all duration-200"
               >
                 Contact
               </Button>
-            )}
-            {!isHomePage && (
-              <Link href="/">
+            ) : (
+              <Link href="/#contact">
                 <Button className="bg-white border border-gray-200 hover:border-orange-200 hover:bg-gray-50 text-gray-800 rounded-md px-5 py-2 transition-all duration-200">
-                  Retour à l'accueil
+                  Contact
                 </Button>
               </Link>
             )}
@@ -92,6 +94,13 @@ export function Navbar() {
         }`}
       >
         <div className="container mx-auto px-4 py-4 flex flex-col space-y-4">
+          <Link
+            href="/blog"
+            onClick={() => setIsMobileMenuOpen(false)}
+            className="text-gray-700 hover:text-orange-500 font-medium transition-colors py-2 text-center"
+          >
+            Blog
+          </Link>
           {isHomePage ? (
             <Button
               onClick={() => scrollToSection("contact")}
@@ -100,9 +109,9 @@ export function Navbar() {
               Contact
             </Button>
           ) : (
-            <Link href="/">
+            <Link href="/#contact">
               <Button className="bg-white border border-gray-200 hover:border-orange-200 hover:bg-gray-50 text-gray-800 w-full rounded-md">
-                Retour à l'accueil
+                Contact
               </Button>
             </Link>
           )}

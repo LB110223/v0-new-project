@@ -27,7 +27,11 @@ export function Results() {
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto text-center mb-16">
           <h2 className="text-3xl font-bold mb-4 text-black">Résultats Prouvés</h2>
-          <p className="text-lg text-gray-600">Des ROI mesurables et vérifiables pour nos clients</p>
+          <p className="text-lg text-gray-600">
+            Nous livrons des résultats concrets, mesurables et vérifiables. Chaque projet est piloté par des indicateurs
+            clairs (temps gagné, coûts réduits, performance améliorée) afin de démontrer un ROI réel, observable et
+            directement exploitable par nos clients.
+          </p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">

@@ -7,6 +7,7 @@ import Script from "next/script"
 import { EnvWarning } from "@/components/env-warning"
 import { Navbar } from "@/components/navbar"
 import { Footer } from "@/components/footer"
+import { ScrollToTop } from "@/components/scroll-to-top"
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -73,6 +74,7 @@ export default function RootLayout({
       </head>
       <body className={inter.className}>
         <ThemeProvider attribute="class" defaultTheme="light" enableSystem disableTransitionOnChange>
+          <ScrollToTop />
           <EnvWarning />
           <Navbar />
           {children}
