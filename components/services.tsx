@@ -1,23 +1,29 @@
 "use client"
 
-import { GraduationCap, LineChart, Cog } from "lucide-react"
+import Link from "next/link"
+import { GraduationCap, LineChart, Cog, ArrowRight } from "lucide-react"
 import { AnimateOnScroll } from "@/components/animate-on-scroll"
 import { services as staticServices } from "@/lib/site-data"
 
 export function Services() {
   const services = staticServices
 
-  // Fonction pour rendre l'icône en fonction du nom
+  const serviceLinks: Record<string, string> = {
+    "service-1": "/services/formation",
+    "service-2": "/services/audit",
+    "service-3": "/services/accompagnement",
+  }
+
   const renderIcon = (iconName: string) => {
     switch (iconName) {
       case "GraduationCap":
-        return <GraduationCap className="h-6 w-6 text-black" />
+        return <GraduationCap className="h-6 w-6 text-white" />
       case "LineChart":
-        return <LineChart className="h-6 w-6 text-black" />
+        return <LineChart className="h-6 w-6 text-white" />
       case "Cog":
-        return <Cog className="h-6 w-6 text-black" />
+        return <Cog className="h-6 w-6 text-white" />
       default:
-        return <Cog className="h-6 w-6 text-black" />
+        return <Cog className="h-6 w-6 text-white" />
     }
   }
 
@@ -39,14 +45,20 @@ export function Services() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
           {services.map((service, index) => (
             <AnimateOnScroll key={service.id} variant="fade-up" delay={index * 100} duration={600} threshold={0.01}>
-              <div className="bg-white p-8 rounded-lg border border-gray-200 hover-lift h-full">
-                <div className="mb-4 bg-gray-100 p-3 rounded-full w-12 h-12 flex items-center justify-center">
-                  {renderIcon(service.icon)}
+              <Link href={serviceLinks[service.id] || "#"} className="block h-full group">
+                <div className="bg-black p-8 rounded-lg border border-gray-800 hover-lift h-full transition-all duration-300 group-hover:border-orange-500 group-hover:shadow-lg group-hover:shadow-orange-500/10">
+                  <div className="mb-4 bg-gray-800 p-3 rounded-full w-12 h-12 flex items-center justify-center group-hover:bg-orange-500 transition-colors">
+                    {renderIcon(service.icon)}
+                  </div>
+                  <h3 className="text-xl font-bold mb-1 text-white">{service.title}</h3>
+                  <p className="text-gray-400 font-medium mb-4">{service.subtitle}</p>
+                  <p className="text-gray-300 mb-4">{service.description}</p>
+                  <div className="flex items-center text-orange-500 font-medium text-sm group-hover:text-orange-400 transition-colors">
+                    En savoir plus
+                    <ArrowRight className="ml-1 h-4 w-4 group-hover:translate-x-1 transition-transform" />
+                  </div>
                 </div>
-                <h3 className="text-xl font-bold mb-1">{service.title}</h3>
-                <p className="text-gray-500 font-medium mb-4">{service.subtitle}</p>
-                <p className="text-gray-600">{service.description}</p>
-              </div>
+              </Link>
             </AnimateOnScroll>
           ))}
         </div>

@@ -81,6 +81,16 @@ export default function RootLayout({
           <Footer />
         </ThemeProvider>
 
+        <Script id="axeptio-settings" strategy="lazyOnload">
+          {`
+            window.axeptioSettings = {
+              clientId: "6819f18c7725ab15cba26463",
+              cookiesVersion: "smart impulsion-fr-EU"
+            };
+          `}
+        </Script>
+        <Script src="//static.axept.io/sdk.js" strategy="lazyOnload" />
+
         {/* Données structurées Schema.org pour le SEO */}
         <Script id="schema-org" type="application/ld+json" strategy="afterInteractive">
           {`

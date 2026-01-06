@@ -39,15 +39,18 @@ export function Results() {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
           {results.map((result, index) => (
-            <div key={index} className="bg-gray-50 p-8 rounded-lg border border-gray-200 text-center">
+            <div
+              key={index}
+              className="bg-black p-8 rounded-lg border border-gray-800 text-center transition-all duration-300 hover:border-orange-500"
+            >
               <div className="flex items-center justify-center mb-4">
-                <result.icon className={`h-6 w-6 mr-2 ${result.isNegative ? "text-green-600" : "text-orange-500"}`} />
-                <span className={`text-4xl font-bold ${result.isNegative ? "text-green-600" : "text-orange-500"}`}>
+                <result.icon className={`h-6 w-6 mr-2 ${result.isNegative ? "text-green-500" : "text-orange-500"}`} />
+                <span className={`text-4xl font-bold ${result.isNegative ? "text-green-500" : "text-orange-500"}`}>
                   {result.metric}
                 </span>
               </div>
-              <h3 className="text-xl font-bold mb-2 text-black">{result.title}</h3>
-              <p className="text-gray-600">{result.description}</p>
+              <h3 className="text-xl font-bold mb-2 text-white">{result.title}</h3>
+              <p className="text-gray-400">{result.description}</p>
             </div>
           ))}
         </div>
