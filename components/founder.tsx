@@ -1,79 +1,50 @@
 "use client"
 
 import Image from "next/image"
-import { Briefcase, Award, Quote } from "lucide-react"
+import { Quote } from "lucide-react"
 import { AnimateOnScroll } from "@/components/animate-on-scroll"
 
 const experiences = [
-  {
-    period: "Depuis 2025",
-    role: "Co-fondateur & CEO",
-    company: "Smart Impulsion",
-  },
-  {
-    period: "Depuis 2024",
-    role: "Fondateur & CEO",
-    company: "SymbiozAI",
-  },
-  {
-    period: "2019 - 2022",
-    role: "Board Member",
-    company: "French Tech Lyon St Etienne",
-  },
-  {
-    period: "2016 - 2025",
-    role: "Co-fondateur & CEO",
-    company: "Lyko",
-  },
+  { period: "2025", role: "Fondateur & CEO", company: "Smart Impulsion" },
+  { period: "2024", role: "Co-fondateur & CEO", company: "SymbiozAI" },
+  { period: "2019-22", role: "Board Member", company: "French Tech Lyon" },
+  { period: "2016-25", role: "Co-fondateur & CEO", company: "Lyko" },
 ]
 
 export default function Founder() {
   return (
-    <section className="py-20 bg-gray-50 section-transition">
+    <section className="py-16 bg-gray-50 section-transition">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 max-w-5xl mx-auto items-stretch">
+        <AnimateOnScroll variant="fade-up" duration={600} threshold={0.01}>
+          <div className="text-center mb-10">
+            <h2 className="text-2xl md:text-3xl font-bold text-black">
+              Une approche d'entrepreneur, pour les entrepreneurs
+            </h2>
+          </div>
+        </AnimateOnScroll>
+
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 max-w-4xl mx-auto">
           {/* Carte CV - Gauche */}
           <AnimateOnScroll variant="fade-up" delay={0} duration={600} threshold={0.01}>
-            <div className="bg-white p-8 rounded-lg border border-gray-200 hover-lift h-full">
-              <div className="flex items-center gap-3 mb-6">
-                <div className="bg-gray-100 p-3 rounded-full w-12 h-12 flex items-center justify-center">
-                  <Briefcase className="w-5 h-5 text-black" />
-                </div>
-                <div>
-                  <h3 className="font-bold text-black">Laurent Bouzon</h3>
-                  <p className="text-sm text-gray-500">Parcours</p>
-                </div>
-              </div>
-
+            <div className="bg-white rounded-lg border border-gray-200 hover-lift h-80 p-5 flex flex-col justify-center">
               <div className="space-y-4">
                 {experiences.map((exp, index) => (
-                  <div
-                    key={index}
-                    className={`relative pl-4 ${index !== experiences.length - 1 ? "pb-4 border-l-2 border-gray-200" : "border-l-2 border-orange-500"}`}
-                  >
-                    <div
-                      className={`absolute -left-[5px] top-0 w-2 h-2 rounded-full ${index === 0 ? "bg-orange-500" : "bg-gray-300"}`}
-                    />
-                    <p className="text-xs text-gray-500 font-medium">{exp.period}</p>
-                    <p className="text-sm font-semibold text-black">{exp.role}</p>
-                    <p className="text-sm text-gray-600">{exp.company}</p>
+                  <div key={index} className="flex gap-4 items-baseline">
+                    <span className="text-xs font-medium text-gray-400 w-16 shrink-0">{exp.period}</span>
+                    <div className="flex-1">
+                      <p className="text-sm font-semibold text-black">{exp.role}</p>
+                      <p className="text-xs text-gray-500">{exp.company}</p>
+                    </div>
                   </div>
                 ))}
-              </div>
-
-              <div className="mt-6 pt-4 border-t border-gray-200">
-                <div className="flex items-center gap-2">
-                  <Award className="w-4 h-4 text-orange-500" />
-                  <span className="text-sm text-gray-600">+10 ans d'entrepreneuriat tech</span>
-                </div>
               </div>
             </div>
           </AnimateOnScroll>
 
           {/* Photo - Centre */}
           <AnimateOnScroll variant="fade-up" delay={100} duration={600} threshold={0.01}>
-            <div className="bg-white p-4 rounded-lg border border-gray-200 hover-lift h-full flex items-center justify-center">
-              <div className="relative w-full aspect-[3/4] max-w-[260px] rounded-lg overflow-hidden">
+            <div className="rounded-lg border border-gray-200 hover-lift h-80 overflow-hidden">
+              <div className="relative w-full h-full">
                 <Image
                   src="/images/img-0346.jpeg"
                   alt="Laurent Bouzon - Co-fondateur & CEO de Smart Impulsion"
@@ -87,19 +58,19 @@ export default function Founder() {
 
           {/* Citation - Droite */}
           <AnimateOnScroll variant="fade-up" delay={200} duration={600} threshold={0.01}>
-            <div className="bg-black text-white rounded-lg p-8 hover-lift h-full flex flex-col justify-center relative overflow-hidden">
-              <Quote className="absolute top-4 right-4 w-12 h-12 text-white/10" />
+            <div className="bg-black text-white rounded-lg hover-lift h-80 p-4 flex flex-col justify-center relative overflow-hidden">
+              <Quote className="absolute top-3 right-3 w-10 h-10 text-white/10" />
 
               <blockquote className="relative z-10">
-                <p className="text-lg md:text-xl font-medium leading-relaxed mb-6">
+                <p className="text-sm font-medium leading-relaxed mb-4">
                   "L'IA ne remplace pas l'humain, elle amplifie son potentiel. Notre mission : transformer cette
-                  promesse en résultats concrets et mesurables pour chaque entreprise."
+                  promesse en résultats concrets et mesurables."
                 </p>
-                <footer className="flex items-center gap-3">
-                  <div className="w-10 h-0.5 bg-orange-500"></div>
+                <footer className="flex items-center gap-2">
+                  <div className="w-6 h-0.5 bg-orange-500"></div>
                   <div>
-                    <p className="font-semibold text-white">Laurent Bouzon</p>
-                    <p className="text-sm text-gray-400">Co-fondateur & CEO</p>
+                    <p className="font-semibold text-white text-sm">Laurent Bouzon</p>
+                    <p className="text-xs text-gray-400">Fondateur & CEO</p>
                   </div>
                 </footer>
               </blockquote>
