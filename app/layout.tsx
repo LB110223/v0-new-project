@@ -9,7 +9,6 @@ import { Navbar } from "@/components/navbar"
 import { Footer } from "@/components/footer"
 import { AxeptioFallback } from "@/components/axeptio-fallback"
 import { FaviconUpdater } from "@/components/favicon-updater"
-import DataLoader from '@/components/DataLoader';
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -50,7 +49,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://www.smart-impulsion.fr",
   },
-    generator: 'v0.dev'
+    generator: 'v0.app'
 }
 
 export default function RootLayout({
@@ -75,17 +74,6 @@ export default function RootLayout({
           type="image/svg+xml"
         />
       </head>
-export default function RootLayout({ children }: { children: React.ReactNode }) {
-  return (
-    <html lang="en">
-      <body>
-        <DataLoader />
-        {/* Le reste de votre code... */}
-        {children}
-      </body>
-    </html>
-  );
-}
       <body className={inter.className}>
         <ThemeProvider attribute="class" defaultTheme="light" enableSystem disableTransitionOnChange>
           <EnvWarning />

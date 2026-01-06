@@ -1,58 +1,9 @@
 "use client"
 
-import { useEffect, useState } from "react"
-
-// Types pour les témoignages
-interface Testimonial {
-  id: string
-  quote: string
-  author: string
-  position: string
-  image: string
-}
-
-// Témoignages par défaut
-const defaultTestimonials = [
-  {
-    id: "testimonial-1",
-    quote:
-      "Smart Impulsion a transformé notre approche de l'IA. Leur focus sur le ROI nous a permis de justifier chaque euro investi avec des résultats concrets.",
-    author: "Marie Dupont",
-    position: "Directrice de l'Innovation, Groupe Retail",
-    image: "/placeholder.svg?key=person1",
-  },
-  {
-    id: "testimonial-2",
-    quote:
-      "L'approche méthodique de Smart Impulsion nous a permis d'identifier les opportunités d'IA à fort impact et de les déployer rapidement.",
-    author: "Jean Martin",
-    position: "DSI, Secteur Bancaire",
-    image: "/placeholder.svg?key=person2",
-  },
-  {
-    id: "testimonial-3",
-    quote:
-      "La formation Smart Training a permis à nos équipes de monter en compétence rapidement et d'être autonomes sur nos projets d'IA.",
-    author: "Sophie Legrand",
-    position: "DRH, Industrie Manufacturière",
-    image: "/placeholder.svg?key=person3",
-  },
-]
+import { testimonials as staticTestimonials } from "@/lib/site-data"
 
 export function Testimonials() {
-  const [testimonials, setTestimonials] = useState(defaultTestimonials)
-
-  // Charger les témoignages depuis localStorage
-  useEffect(() => {
-    try {
-      const savedTestimonials = localStorage.getItem("testimonials_content")
-      if (savedTestimonials) {
-        setTestimonials(JSON.parse(savedTestimonials))
-      }
-    } catch (error) {
-      console.error("Erreur lors du chargement des témoignages:", error)
-    }
-  }, [])
+  const testimonials = staticTestimonials
 
   return (
     <section id="testimonials" className="py-20 bg-gray-50">
@@ -64,7 +15,7 @@ export function Testimonials() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
           {testimonials.map((testimonial) => (
             <div key={testimonial.id} className="bg-white p-8 rounded-lg border border-gray-200">
               <div className="mb-6">
@@ -99,8 +50,7 @@ export function Testimonials() {
                   alt={testimonial.author}
                   className="w-12 h-12 rounded-full mr-4 object-cover"
                   onError={(e) => {
-                    // Fallback en cas d'erreur de chargement de l'image
-                    e.currentTarget.src = "/placeholder.svg?key=person"
+                    e.currentTarget.src = "/diverse-group.png"
                   }}
                 />
                 <div>

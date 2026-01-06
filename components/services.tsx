@@ -2,59 +2,10 @@
 
 import { GraduationCap, LineChart, Cog } from "lucide-react"
 import { AnimateOnScroll } from "@/components/animate-on-scroll"
-import { useEffect, useState } from "react"
-
-// Types pour les services
-interface Service {
-  id: string
-  icon: string
-  title: string
-  subtitle: string
-  description: string
-}
-
-// Services par défaut
-const defaultServices = [
-  {
-    id: "service-1",
-    icon: "GraduationCap",
-    title: "Smart Training",
-    subtitle: "Formation",
-    description:
-      "Programmes de formation personnalisés pour vos équipes sur les technologies d'IA, adaptés à vos besoins spécifiques et orientés vers des résultats concrets.",
-  },
-  {
-    id: "service-2",
-    icon: "LineChart",
-    title: "Smart Analyse",
-    subtitle: "Audit",
-    description:
-      "Analyse approfondie de vos processus et données pour identifier les opportunités d'optimisation par l'IA avec estimation précise du ROI potentiel.",
-  },
-  {
-    id: "service-3",
-    icon: "Cog",
-    title: "Smart Action",
-    subtitle: "Accompagnement opérationnel",
-    description:
-      "Mise en œuvre des solutions préconisées avec un accompagnement complet, du développement au déploiement, en mesurant précisément les résultats obtenus.",
-  },
-]
+import { services as staticServices } from "@/lib/site-data"
 
 export function Services() {
-  const [services, setServices] = useState(defaultServices)
-
-  // Charger les services depuis localStorage
-  useEffect(() => {
-    try {
-      const savedServices = localStorage.getItem("services_content")
-      if (savedServices) {
-        setServices(JSON.parse(savedServices))
-      }
-    } catch (error) {
-      console.error("Erreur lors du chargement des services:", error)
-    }
-  }, [])
+  const services = staticServices
 
   // Fonction pour rendre l'icône en fonction du nom
   const renderIcon = (iconName: string) => {

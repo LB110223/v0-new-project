@@ -2,39 +2,10 @@
 
 import { Button } from "@/components/ui/button"
 import { AnimateOnScroll } from "@/components/animate-on-scroll"
-import { useEffect, useRef, useState } from "react"
-
-// Types pour le contenu du hero
-interface HeroContent {
-  title: string
-  highlightedText: string
-  description: string
-  ctaText: string
-}
-
-// Contenu par défaut
-const defaultHeroContent: HeroContent = {
-  title: "L'IA au service de votre performance.",
-  highlightedText: "Avec des résultats mesurables.",
-  description:
-    "Smart Impulsion ne se contente pas de vous digitaliser. Nous alignons chaque décision technologique sur vos objectifs business, avec un seul critère de succès : un retour sur investissement mesurable, ou rien.",
-  ctaText: "Demander une évaluation gratuite",
-}
+import { heroContent as staticHeroContent } from "@/lib/site-data"
 
 export function Hero() {
-  const [heroContent, setHeroContent] = useState<HeroContent>(defaultHeroContent)
-
-  // Charger le contenu depuis localStorage
-  useEffect(() => {
-    try {
-      const savedContent = localStorage.getItem("hero_content")
-      if (savedContent) {
-        setHeroContent(JSON.parse(savedContent))
-      }
-    } catch (error) {
-      console.error("Erreur lors du chargement du contenu hero:", error)
-    }
-  }, [])
+  const heroContent = staticHeroContent
 
   const scrollToContact = () => {
     const contactSection = document.getElementById("contact")
@@ -42,26 +13,6 @@ export function Hero() {
       contactSection.scrollIntoView({ behavior: "smooth" })
     }
   }
-
-  // Référence pour l'animation des lettres (Option 5)
-  const textRef = useRef<HTMLSpanElement>(null)
-
-  // Effet pour animer les lettres individuellement
-  useEffect(() => {
-    if (textRef.current) {
-      const text = textRef.current
-      const content = textRef.current.textContent || ""
-      text.textContent = ""
-
-      // Créer un span pour chaque lettre
-      content.split("").forEach((letter, index) => {
-        const span = document.createElement("span")
-        span.textContent = letter
-        span.style.animationDelay = `${0.05 * index}s`
-        text.appendChild(span)
-      })
-    }
-  }, [])
 
   return (
     <section id="hero" className="py-20 md:py-28 bg-white relative overflow-hidden">
@@ -85,7 +36,7 @@ export function Hero() {
             <div className="flex justify-center">
               <Button
                 size="lg"
-                className="bg-gray-50 border border-gray-300 hover:bg-gray-100 text-gray-800 rounded-md px-6 py-6 text-base button-pulse"
+                className="bg-orange-500 hover:bg-orange-600 text-white rounded-md px-8 py-6 text-base font-semibold shadow-lg hover:shadow-xl transition-all duration-300 button-pulse"
                 onClick={scrollToContact}
               >
                 {heroContent.ctaText}
