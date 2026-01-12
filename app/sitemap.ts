@@ -16,6 +16,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 1.0,
     },
     {
+      url: `${baseUrl}/contact`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.9,
+    },
+    {
       url: `${baseUrl}/mentions-legales`,
       lastModified: new Date(),
       changeFrequency: "monthly",
@@ -41,6 +47,27 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   ]
 
+  const servicesPages: MetadataRoute.Sitemap = [
+    {
+      url: `${baseUrl}/services/formation`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/services/audit`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/services/accompagnement`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.9,
+    },
+  ]
+
   // Pages de présence locale
   const villesPages: MetadataRoute.Sitemap = villes.map((ville) => ({
     url: `${baseUrl}/presence-locale/${ville}`,
@@ -56,5 +83,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }))
 
-  return [...mainPages, ...villesPages, ...blogPages]
+  return [...mainPages, ...servicesPages, ...villesPages, ...blogPages]
 }
