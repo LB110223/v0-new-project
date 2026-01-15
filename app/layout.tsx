@@ -22,10 +22,18 @@ export const metadata: Metadata = {
     { name: "Laurent Bouzon", url: "https://www.linkedin.com/in/laurent-bouzon-150237108/" },
     { name: "Mohammad-Ali Bacha", url: "https://www.linkedin.com/in/mohammad-ali-bacha/" },
   ],
+  icons: {
+    icon: [
+      { url: "/si-favicon.ico", sizes: "any" },
+      { url: "/si-favicon.png", type: "image/png", sizes: "32x32" },
+    ],
+    shortcut: "/si-favicon.ico",
+    apple: "/si-favicon.png",
+  },
   openGraph: {
     type: "website",
     locale: "fr_FR",
-    url: "https://www.smart-impulsion.fr",
+    url: "https://www.smart-impulsion.com",
     title: "Smart Impulsion | IA à ROI mesurable",
     description:
       "Transformez votre entreprise avec l'IA et un ROI mesurable. Expertise en IA générative, machine learning et NLP.",
@@ -47,7 +55,7 @@ export const metadata: Metadata = {
     images: ["/og-image.png"],
   },
   alternates: {
-    canonical: "https://www.smart-impulsion.fr",
+    canonical: "https://www.smart-impulsion.com",
   },
     generator: 'v0.app'
 }
@@ -66,12 +74,9 @@ export default function RootLayout({
           href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
           rel="stylesheet"
         />
-        {/* Favicon */}
-        <link
-          rel="icon"
-          href="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgdmlld0JveD0iMCAwIDEwMCAxMDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIiBmaWxsPSIjRjk3MzE2Ii8+CjxwYXRoIGQ9Ik02NSAzNUw0NSA1NUw2NSA3NSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIxMCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+Cjwvc3ZnPgo="
-          type="image/svg+xml"
-        />
+        <link rel="icon" href="/si-favicon.ico" sizes="any" />
+        <link rel="icon" href="/si-favicon.png" type="image/png" sizes="32x32" />
+        <link rel="apple-touch-icon" href="/si-favicon.png" />
       </head>
       <body className={inter.className}>
         <ThemeProvider attribute="class" defaultTheme="light" enableSystem disableTransitionOnChange>
