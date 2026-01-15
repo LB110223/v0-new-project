@@ -1,7 +1,7 @@
 import type { Metadata } from "next"
 import { ContactForm } from "@/components/contact-form"
 import { AnimateOnScroll } from "@/components/animate-on-scroll"
-import { Mail, Phone, MapPin, Clock } from "lucide-react"
+import { Mail, Clock } from "lucide-react"
 
 export const metadata: Metadata = {
   title: "Contact | Smart Impulsion - Conseil en Intelligence Artificielle",
@@ -57,28 +57,6 @@ export default function ContactPage() {
                       >
                         contact@smart-impulsion.fr
                       </a>
-                    </div>
-                  </div>
-
-                  <div className="flex items-start gap-4">
-                    <div className="w-10 h-10 bg-black rounded-lg flex items-center justify-center flex-shrink-0">
-                      <Phone className="w-5 h-5 text-white" />
-                    </div>
-                    <div>
-                      <h3 className="font-semibold text-black mb-1">Téléphone</h3>
-                      <a href="tel:+33600000000" className="text-gray-600 hover:text-orange-500 transition-colors">
-                        +33 6 00 00 00 00
-                      </a>
-                    </div>
-                  </div>
-
-                  <div className="flex items-start gap-4">
-                    <div className="w-10 h-10 bg-black rounded-lg flex items-center justify-center flex-shrink-0">
-                      <MapPin className="w-5 h-5 text-white" />
-                    </div>
-                    <div>
-                      <h3 className="font-semibold text-black mb-1">Adresse</h3>
-                      <p className="text-gray-600">Lyon, France</p>
                     </div>
                   </div>
 
