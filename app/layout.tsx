@@ -23,12 +23,9 @@ export const metadata: Metadata = {
     { name: "Mohammad-Ali Bacha", url: "https://www.linkedin.com/in/mohammad-ali-bacha/" },
   ],
   icons: {
-    icon: [
-      { url: "/si-favicon.ico", sizes: "any" },
-      { url: "/si-favicon.png", type: "image/png", sizes: "32x32" },
-    ],
-    shortcut: "/si-favicon.ico",
-    apple: "/si-favicon.png",
+    icon: [{ url: "/favicon.png", type: "image/png" }],
+    shortcut: "/favicon.png",
+    apple: "/favicon.png",
   },
   openGraph: {
     type: "website",
@@ -74,9 +71,8 @@ export default function RootLayout({
           href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
           rel="stylesheet"
         />
-        <link rel="icon" href="/si-favicon.ico" sizes="any" />
-        <link rel="icon" href="/si-favicon.png" type="image/png" sizes="32x32" />
-        <link rel="apple-touch-icon" href="/si-favicon.png" />
+        <link rel="icon" href="/favicon.png" type="image/png" />
+        <link rel="apple-touch-icon" href="/favicon.png" />
       </head>
       <body className={inter.className}>
         <ThemeProvider attribute="class" defaultTheme="light" enableSystem disableTransitionOnChange>
