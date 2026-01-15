@@ -2,7 +2,7 @@ import type { MetadataRoute } from "next"
 import { blogArticles } from "@/lib/blog-data"
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://www.smart-impulsion.fr"
+  const baseUrl = "https://www.smart-impulsion.com"
 
   // Liste des villes pour les pages de présence locale
   const villes = ["lyon", "paris", "marseille", "bordeaux", "nantes"]
