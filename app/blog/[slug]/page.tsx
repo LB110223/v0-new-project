@@ -95,7 +95,44 @@ function extractTableOfContents(content: string): { id: string; title: string; l
 
 // Fonction pour formater le contenu avec des IDs pour les ancres
 function formatContent(content: string): string {
-  let formatted = content
+  // D'abord, traiter les listes à puces en les groupant
+  const lines = content.split("\n")
+  const processedLines: string[] = []
+  let inList = false
+  let listItems: string[] = []
+
+  for (const line of lines) {
+    const trimmedLine = line.trim()
+
+    // Vérifier si c'est une ligne de liste
+    if (trimmedLine.startsWith("- ")) {
+      if (!inList) {
+        inList = true
+        listItems = []
+      }
+      // Extraire le contenu après le tiret
+      const itemContent = trimmedLine.substring(2)
+      listItems.push(
+        `<li class="flex items-start gap-3 mb-2"><span class="w-1.5 h-1.5 rounded-full bg-orange-500 mt-2 flex-shrink-0"></span><span class="text-base text-muted-foreground">${itemContent}</span></li>`,
+      )
+    } else {
+      // Si on était dans une liste, la fermer
+      if (inList) {
+        processedLines.push(`<ul class="my-4 space-y-1">${listItems.join("")}</ul>`)
+        inList = false
+        listItems = []
+      }
+      processedLines.push(line)
+    }
+  }
+
+  // Fermer la liste si on était encore dedans à la fin
+  if (inList) {
+    processedLines.push(`<ul class="my-4 space-y-1">${listItems.join("")}</ul>`)
+  }
+
+  const formatted = processedLines
+    .join("\n")
     // Ajouter des IDs aux titres H2
     .replace(/^## (.+)$/gm, (_, title) => {
       const id = title
@@ -104,7 +141,7 @@ function formatContent(content: string): string {
         .replace(/[\u0300-\u036f]/g, "")
         .replace(/[^a-z0-9]+/g, "-")
         .replace(/(^-|-$)/g, "")
-      return `<h2 id="${id}" class="scroll-mt-24 text-2xl md:text-3xl font-bold text-foreground mt-16 mb-6 pb-3 border-b border-border">${title}</h2>`
+      return `<h2 id="${id}" class="scroll-mt-24 text-2xl font-bold text-foreground mt-12 mb-4 pb-2 border-b border-border">${title}</h2>`
     })
     // Ajouter des IDs aux titres H3
     .replace(/^### (.+)$/gm, (_, title) => {
@@ -114,29 +151,19 @@ function formatContent(content: string): string {
         .replace(/[\u0300-\u036f]/g, "")
         .replace(/[^a-z0-9]+/g, "-")
         .replace(/(^-|-$)/g, "")
-      return `<h3 id="${id}" class="scroll-mt-24 text-xl font-semibold text-foreground mt-10 mb-4">${title}</h3>`
+      return `<h3 id="${id}" class="scroll-mt-24 text-xl font-semibold text-foreground mt-8 mb-3">${title}</h3>`
     })
     // Citations en bloc (lignes commençant par >)
     .replace(
       /^> (.+)$/gm,
-      '<blockquote class="border-l-4 border-orange-500 pl-6 py-4 my-8 bg-orange-50/50 rounded-r-lg italic text-lg text-foreground/80">$1</blockquote>',
+      '<blockquote class="border-l-4 border-orange-500 pl-6 py-4 my-6 bg-orange-50/50 rounded-r-lg italic text-base text-foreground/80">$1</blockquote>',
     )
     // Gras
     .replace(/\*\*(.+?)\*\*/g, '<strong class="font-semibold text-foreground">$1</strong>')
-    // Paragraphes
-    .replace(/\n\n(?!<)/g, '</p><p class="text-lg leading-relaxed text-muted-foreground mb-6">')
-    // Listes à puces
-    .replace(
-      /^- (.+)$/gm,
-      '<li class="flex items-start gap-3 mb-3"><span class="w-1.5 h-1.5 rounded-full bg-orange-500 mt-2.5 flex-shrink-0"></span><span>$1</span></li>',
-    )
+    // Paragraphes - ne pas transformer les lignes qui commencent par < (HTML) ou sont vides
+    .replace(/\n\n(?!<)/g, '</p><p class="text-base leading-relaxed text-muted-foreground mb-4">')
 
-  // Envelopper les listes
-  formatted = formatted.replace(/(<li[^>]*>.*?<\/li>\n?)+/gs, (match) => {
-    return `<ul class="my-6 space-y-1">${match}</ul>`
-  })
-
-  return `<p class="text-lg leading-relaxed text-muted-foreground mb-6">${formatted}</p>`
+  return `<p class="text-base leading-relaxed text-muted-foreground mb-4">${formatted}</p>`
 }
 
 export default async function BlogPostPage({ params }: BlogPostPageProps) {
