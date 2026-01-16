@@ -25,7 +25,7 @@ export async function generateMetadata({ params }: BlogPostPageProps): Promise<M
     }
   }
 
-  const baseUrl = "https://www.smart-impulsion.fr"
+  const baseUrl = "https://www.smart-impulsion.com"
 
   return {
     title: `${article.title} | Smart Impulsion`,
@@ -190,7 +190,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
     relatedArticles.push(...additionalArticles)
   }
 
-  const baseUrl = "https://www.smart-impulsion.fr"
+  const baseUrl = "https://www.smart-impulsion.com"
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -351,7 +351,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
                       </div>
                       <div className="flex items-center gap-3">
                         <a
-                          href={`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(`https://www.smart-impulsion.fr/blog/${article.slug}`)}`}
+                          href={`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(`https://www.smart-impulsion.com/blog/${article.slug}`)}`}
                           target="_blank"
                           rel="noopener noreferrer"
                           className="flex items-center gap-2 bg-[#0077B5] text-white px-4 py-2.5 rounded-lg hover:bg-[#006399] transition-colors text-sm font-medium"
@@ -360,7 +360,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
                           LinkedIn
                         </a>
                         <a
-                          href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(article.title)}&url=${encodeURIComponent(`https://www.smart-impulsion.fr/blog/${article.slug}`)}`}
+                          href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(article.title)}&url=${encodeURIComponent(`https://www.smart-impulsion.com/blog/${article.slug}`)}`}
                           target="_blank"
                           rel="noopener noreferrer"
                           className="flex items-center gap-2 bg-foreground text-background px-4 py-2.5 rounded-lg hover:bg-foreground/90 transition-colors text-sm font-medium"
