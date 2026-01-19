@@ -47,7 +47,7 @@ export function Footer() {
   return (
     <footer className="py-12 bg-white border-t border-gray-200">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 mb-8">
           <div>
             <Logo variant="footer" className="mb-4" />
             <p className="text-gray-600 mb-4">{generalInfo.footerText}</p>
@@ -100,8 +100,44 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/presence-locale" className="text-gray-600 hover:text-black transition-colors">
-                  Toutes nos implantations
+                <Link href="/presence-locale/bordeaux" className="text-gray-600 hover:text-black transition-colors">
+                  Bordeaux
+                </Link>
+              </li>
+              <li>
+                <Link href="/presence-locale/nantes" className="text-gray-600 hover:text-black transition-colors">
+                  Nantes
+                </Link>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 className="text-sm font-bold uppercase text-gray-500 mb-4">Blog</h3>
+            <ul className="space-y-2">
+              <li>
+                <Link href="/blog/agents-ia-automatisation-nouveau-paradigme-entreprise" className="text-gray-600 hover:text-black transition-colors">
+                  Agents IA et automatisation
+                </Link>
+              </li>
+              <li>
+                <Link href="/blog/agence-ia-comment-choisir-partenaire-transformation" className="text-gray-600 hover:text-black transition-colors">
+                  Comment choisir une agence IA
+                </Link>
+              </li>
+              <li>
+                <Link href="/blog/open-source-llm-decision-strategique" className="text-gray-600 hover:text-black transition-colors">
+                  Open-source LLM
+                </Link>
+              </li>
+              <li>
+                <Link href="/blog/roi-intelligence-artificielle-comment-mesurer" className="text-gray-600 hover:text-black transition-colors">
+                  Mesurer le ROI de l'IA
+                </Link>
+              </li>
+              <li>
+                <Link href="/blog" className="text-gray-600 hover:text-black transition-colors font-medium">
+                  Tous les articles
                 </Link>
               </li>
             </ul>
@@ -118,11 +154,6 @@ export function Footer() {
               <li>
                 <Link href="/mentions-legales" className="text-gray-600 hover:text-black transition-colors">
                   Mentions Légales
-                </Link>
-              </li>
-              <li>
-                <Link href="/admin" className="text-gray-600 hover:text-black transition-colors">
-                  Administration
                 </Link>
               </li>
               <li className="mt-4">
