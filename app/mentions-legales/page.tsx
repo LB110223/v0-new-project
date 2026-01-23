@@ -80,8 +80,8 @@ export default function MentionsLegales() {
               Libertés, vous disposez d'un droit d'accès, de rectification, de suppression, de limitation, de
               portabilité et d'opposition aux données vous concernant. Vous pouvez exercer ces droits en nous contactant
               à l'adresse email suivante :{" "}
-              <a href="mailto:contact@smart-impulsion.fr" className="text-orange-500 hover:underline">
-                contact@smart-impulsion.fr
+              <a href="mailto:contact@smart-impulsion.com" className="text-orange-500 hover:underline">
+                contact@smart-impulsion.com
               </a>
               .
             </p>
@@ -151,8 +151,8 @@ export default function MentionsLegales() {
             <p>
               Pour toute question relative aux présentes mentions légales ou à l'utilisation du site Smart Impulsion,
               vous pouvez nous contacter à l'adresse email suivante :{" "}
-              <a href="mailto:contact@smart-impulsion.fr" className="text-orange-500 hover:underline">
-                contact@smart-impulsion.fr
+              <a href="mailto:contact@smart-impulsion.com" className="text-orange-500 hover:underline">
+                contact@smart-impulsion.com
               </a>
               .
             </p>

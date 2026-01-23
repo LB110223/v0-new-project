@@ -52,10 +52,10 @@ export default function ContactPage() {
                     <div>
                       <h3 className="font-semibold text-black mb-1">Email</h3>
                       <a
-                        href="mailto:contact@smart-impulsion.fr"
+                        href="mailto:contact@smart-impulsion.com"
                         className="text-gray-600 hover:text-orange-500 transition-colors"
                       >
-                        contact@smart-impulsion.fr
+                        contact@smart-impulsion.com
                       </a>
                     </div>
                   </div>

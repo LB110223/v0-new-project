@@ -140,8 +140,8 @@ export default function PolitiqueDeConfidentialite() {
             </ul>
             <p>
               Pour exercer ces droits, veuillez nous contacter à l'adresse email suivante :{" "}
-              <a href="mailto:contact@smart-impulsion.fr" className="text-orange-500 hover:underline">
-                contact@smart-impulsion.fr
+              <a href="mailto:contact@smart-impulsion.com" className="text-orange-500 hover:underline">
+                contact@smart-impulsion.com
               </a>
               .
             </p>
@@ -182,8 +182,8 @@ export default function PolitiqueDeConfidentialite() {
             <p>
               Si vous avez des questions concernant cette politique de confidentialité, vous pouvez nous contacter à
               l'adresse email suivante :{" "}
-              <a href="mailto:contact@smart-impulsion.fr" className="text-orange-500 hover:underline">
-                contact@smart-impulsion.fr
+              <a href="mailto:contact@smart-impulsion.com" className="text-orange-500 hover:underline">
+                contact@smart-impulsion.com
               </a>
               .
             </p>

@@ -107,8 +107,8 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "Organization",
               "name": "Smart Impulsion",
-              "url": "https://www.smart-impulsion.fr",
-              "logo": "https://www.smart-impulsion.fr/smart-impulsion-logo.png",
+              "url": "https://www.smart-impulsion.com",
+              "logo": "https://www.smart-impulsion.com/smart-impulsion-logo.png",
               "description": "Smart Impulsion transforme votre entreprise avec des solutions d'intelligence artificielle garantissant un retour sur investissement mesurable.",
               "address": {
                 "@type": "PostalAddress",
@@ -119,7 +119,7 @@ export default function RootLayout({
               "contactPoint": {
                 "@type": "ContactPoint",
                 "contactType": "customer service",
-                "email": "contact@smart-impulsion.fr"
+                "email": "contact@smart-impulsion.com"
               },
               "sameAs": [
                 "https://www.linkedin.com/company/107340725"
