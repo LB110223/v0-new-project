@@ -9,6 +9,7 @@ import { Navbar } from "@/components/navbar"
 import { Footer } from "@/components/footer"
 import { ScrollToTop } from "@/components/scroll-to-top"
 import { ResizeObserverFix } from "@/components/resize-observer-fix"
+import { AxeptioProvider } from "@/components/axeptio-provider"
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -101,21 +102,8 @@ export default function RootLayout({
           <Navbar />
           {children}
           <Footer />
+          <AxeptioProvider />
         </ThemeProvider>
-
-        <Script id="axeptio-sdk" strategy="afterInteractive">
-          {`
-            window.axeptioSettings = {
-              clientId: "6819f18c7725ab15cba26463",
-              cookiesVersion: "smart impulsion-fr-EU"
-            };
-            (function(d, s) {
-              var t = d.getElementsByTagName(s)[0], e = d.createElement(s);
-              e.async = true; e.src = "//static.axept.io/sdk.js";
-              t.parentNode.insertBefore(e, t);
-            })(document, "script");
-          `}
-        </Script>
 
         {/* Données structurées Schema.org pour le SEO */}
         <Script id="schema-org" type="application/ld+json" strategy="afterInteractive">
