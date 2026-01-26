@@ -93,6 +93,20 @@ export default function RootLayout({
         <link rel="icon" href="/icon-192.png" type="image/png" sizes="192x192" />
         <link rel="icon" href="/icon-512.png" type="image/png" sizes="512x512" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+        {/* Axeptio configuration - MUST be before SDK script */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.axeptioSettings = {
+                clientId: "6819f18c7725ab15cba26463",
+                cookiesVersion: "smart impulsion-fr-EU"
+              };
+              window._axcb = window._axcb || [];
+            `,
+          }}
+        />
+        {/* Axeptio SDK */}
+        <script src="https://static.axept.io/sdk.js" async />
       </head>
       <body className={inter.className}>
         <ThemeProvider attribute="class" defaultTheme="light" enableSystem disableTransitionOnChange>
