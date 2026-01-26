@@ -75,6 +75,19 @@ export default function RootLayout({
           href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
           rel="stylesheet"
         />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.addEventListener('error', function(e) {
+                if (e.message === 'ResizeObserver loop completed with undelivered notifications.' || 
+                    e.message === 'ResizeObserver loop limit exceeded') {
+                  e.stopImmediatePropagation();
+                  e.preventDefault();
+                }
+              });
+            `,
+          }}
+        />
         <link rel="icon" href="/favicon.png" type="image/png" sizes="any" />
         <link rel="icon" href="/icon-192.png" type="image/png" sizes="192x192" />
         <link rel="icon" href="/icon-512.png" type="image/png" sizes="512x512" />
@@ -90,7 +103,7 @@ export default function RootLayout({
           <Footer />
         </ThemeProvider>
 
-        <Script id="axeptio-settings" strategy="lazyOnload">
+        <Script id="axeptio-settings" strategy="beforeInteractive">
           {`
             window.axeptioSettings = {
               clientId: "6819f18c7725ab15cba26463",
@@ -98,7 +111,7 @@ export default function RootLayout({
             };
           `}
         </Script>
-        <Script src="//static.axept.io/sdk.js" strategy="lazyOnload" />
+        <Script src="https://static.axept.io/sdk.js" strategy="afterInteractive" />
 
         {/* Données structurées Schema.org pour le SEO */}
         <Script id="schema-org" type="application/ld+json" strategy="afterInteractive">
