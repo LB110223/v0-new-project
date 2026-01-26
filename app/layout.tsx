@@ -9,7 +9,6 @@ import { Navbar } from "@/components/navbar"
 import { Footer } from "@/components/footer"
 import { ScrollToTop } from "@/components/scroll-to-top"
 import { ResizeObserverFix } from "@/components/resize-observer-fix"
-import { AxeptioProvider } from "@/components/axeptio-provider"
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -93,6 +92,21 @@ export default function RootLayout({
         <link rel="icon" href="/icon-192.png" type="image/png" sizes="192x192" />
         <link rel="icon" href="/icon-512.png" type="image/png" sizes="512x512" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.axeptioSettings = {
+                clientId: "6819f18c7725ab15cba26463",
+                cookiesVersion: "smart impulsion-fr-EU"
+              };
+              (function(d, s) {
+                var t = d.getElementsByTagName(s)[0], e = d.createElement(s);
+                e.async = true; e.src = "//static.axept.io/sdk.js";
+                t.parentNode.insertBefore(e, t);
+              })(document, "script");
+            `,
+          }}
+        />
       </head>
       <body className={inter.className}>
         <ThemeProvider attribute="class" defaultTheme="light" enableSystem disableTransitionOnChange>
@@ -102,8 +116,9 @@ export default function RootLayout({
           <Navbar />
           {children}
           <Footer />
-          <AxeptioProvider />
         </ThemeProvider>
+
+
 
         {/* Données structurées Schema.org pour le SEO */}
         <Script id="schema-org" type="application/ld+json" strategy="afterInteractive">
