@@ -103,15 +103,19 @@ export default function RootLayout({
           <Footer />
         </ThemeProvider>
 
-        <Script id="axeptio-settings" strategy="beforeInteractive">
+        <Script id="axeptio-sdk" strategy="afterInteractive">
           {`
             window.axeptioSettings = {
               clientId: "6819f18c7725ab15cba26463",
               cookiesVersion: "smart impulsion-fr-EU"
             };
+            (function(d, s) {
+              var t = d.getElementsByTagName(s)[0], e = d.createElement(s);
+              e.async = true; e.src = "//static.axept.io/sdk.js";
+              t.parentNode.insertBefore(e, t);
+            })(document, "script");
           `}
         </Script>
-        <Script src="https://static.axept.io/sdk.js" strategy="afterInteractive" />
 
         {/* Données structurées Schema.org pour le SEO */}
         <Script id="schema-org" type="application/ld+json" strategy="afterInteractive">
