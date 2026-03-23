@@ -13,6 +13,45 @@ export interface BlogArticle {
 
 export const blogArticles: BlogArticle[] = [
   {
+    slug: "ia-pour-pme-guide",
+    title: "L'IA pour les PME : par où commencer ? Le guide pratique pour dirigeants",
+    excerpt:
+      "Comment utiliser l'IA en PME sans équipe technique ? Cas d'usage concrets, budget, ROI attendu et roadmap type. De 0 à vos premiers gains en 4 semaines.",
+    content: `Page pilier — contenu intégré directement dans app/blog/ia-pour-pme-guide/page.tsx`,
+    author: "Laurent Bouzon",
+    date: "23 mars 2026",
+    dateISO: "2026-03-23",
+    readTime: "14 min",
+    category: "Guide / Démarrage",
+    image: "/ai-business-concept.png",
+  },
+  {
+    slug: "roi-intelligence-artificielle-entreprise",
+    title: "ROI de l'IA en entreprise : comment mesurer et maximiser votre retour sur investissement",
+    excerpt:
+      "Comment mesurer le ROI de l'intelligence artificielle en PME ? Méthodes de calcul, benchmarks 2026, erreurs à éviter. -32% de temps opérationnel en moyenne.",
+    content: `Page pilier — contenu intégré directement dans app/blog/roi-intelligence-artificielle-entreprise/page.tsx`,
+    author: "Laurent Bouzon",
+    date: "23 mars 2026",
+    dateISO: "2026-03-23",
+    readTime: "15 min",
+    category: "Guide / Stratégie IA",
+    image: "/ai-business-concept.png",
+  },
+  {
+    slug: "audit-ia-pme-guide-complet",
+    title: "Audit IA pour PME : le guide complet pour diagnostiquer et accélérer votre transformation",
+    excerpt:
+      "Comment réaliser un audit IA en PME ? Étapes, coûts, résultats attendus et erreurs à éviter. Diagnostic en 3 jours, premiers gains en 4 semaines.",
+    content: `Page pilier — contenu intégré directement dans app/blog/audit-ia-pme-guide-complet/page.tsx`,
+    author: "Laurent Bouzon",
+    date: "23 mars 2026",
+    dateISO: "2026-03-23",
+    readTime: "14 min",
+    category: "Guide / Méthodologie",
+    image: "/ai-business-concept.png",
+  },
+  {
     slug: "agent-ia-plateforme-agentic-nouvelle-ere",
     title: "Agent IA et plateforme agentic : pourquoi l'intelligence artificielle entre dans une nouvelle ère",
     excerpt:

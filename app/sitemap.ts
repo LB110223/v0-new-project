@@ -88,11 +88,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.9,
   }))
 
+  // Pillar pages get higher priority
+  const pillarSlugs = ["ia-pour-pme-guide", "roi-intelligence-artificielle-entreprise", "audit-ia-pme-guide-complet"]
+
   const blogPages: MetadataRoute.Sitemap = blogArticles.map((article) => ({
     url: `${baseUrl}/blog/${article.slug}`,
     lastModified: new Date(article.dateISO || new Date()),
     changeFrequency: "monthly" as const,
-    priority: 0.8,
+    priority: pillarSlugs.includes(article.slug) ? 0.9 : 0.8,
   }))
 
   return [...mainPages, ...servicesPages, ...villesPages, ...blogPages]
