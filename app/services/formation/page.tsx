@@ -20,7 +20,10 @@ import { AnimateOnScroll } from "@/components/animate-on-scroll"
 export const metadata: Metadata = {
   title: "Formation IA pour Entreprises | Smart Training | Smart Impulsion",
   description:
-    "Programmes de formation Intelligence Artificielle personnalisés pour vos équipes. De la sensibilisation à la maîtrise opérationnelle, formez vos collaborateurs à l'IA avec un ROI mesurable.",
+    "Formation IA personnalisée pour PME et ETI. De la sensibilisation à la maîtrise opérationnelle, formez vos équipes avec des résultats mesurables : 20 à 40% de gain de temps sur les tâches ciblées.",
+  alternates: {
+    canonical: "https://www.smart-impulsion.com/services/formation",
+  },
   openGraph: {
     title: "Formation IA pour Entreprises | Smart Training | Smart Impulsion",
     description:

@@ -31,9 +31,9 @@ export function ExpertsNetwork() {
         <div className="max-w-5xl mx-auto">
           <AnimateOnScroll animation="fade-up">
             <div className="text-center mb-12">
-              <h2 className="text-3xl font-bold mb-4 text-black">Un réseau de plus de 30 experts IA</h2>
+              <h2 className="text-3xl font-bold mb-4 text-black">Un réseau d'experts IA en construction</h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Notre force réside dans notre réseau de spécialistes IA couvrant l'ensemble des secteurs d'activité.
+                Notre ambition : constituer un réseau de spécialistes IA couvrant l'ensemble des secteurs d'activité.
                 Quelle que soit votre industrie ou vos enjeux métier, nous mobilisons les compétences adaptées pour
                 répondre à vos besoins spécifiques.
               </p>
@@ -59,8 +59,8 @@ export function ExpertsNetwork() {
             <div className="bg-white rounded-xl p-6 border border-gray-200">
               <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
                 <div>
-                  <div className="text-3xl font-bold text-orange-500">30+</div>
-                  <div className="text-sm text-gray-600">Experts IA</div>
+                  <div className="text-3xl font-bold text-orange-500">10+</div>
+                  <div className="text-sm text-gray-600">Experts IA mobilisables</div>
                 </div>
                 <div>
                   <div className="text-3xl font-bold text-black">15+</div>

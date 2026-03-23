@@ -3,7 +3,6 @@ import "./globals.css"
 import type { Metadata } from "next"
 import { Inter } from "next/font/google"
 import { ThemeProvider } from "@/components/theme-provider"
-import Script from "next/script"
 import { EnvWarning } from "@/components/env-warning"
 import { Navbar } from "@/components/navbar"
 import { Footer } from "@/components/footer"
@@ -16,12 +15,11 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "Smart Impulsion | IA à ROI mesurable pour entreprises françaises",
   description:
-    "Smart Impulsion transforme votre entreprise avec des solutions d'intelligence artificielle garantissant un retour sur investissement mesurable. Expertise en IA générative, machine learning et NLP.",
+    "Smart Impulsion aide les PME et ETI françaises à obtenir un ROI mesurable avec l'IA. -32% de temps opérationnel, +18% de performance commerciale. Audit, formation, déploiement.",
   keywords:
     "intelligence artificielle, IA, ROI mesurable, transformation digitale, machine learning, deep learning, NLP, vision par ordinateur, automatisation, analyse de données, entreprises françaises",
   authors: [
     { name: "Laurent Bouzon", url: "https://www.linkedin.com/in/laurent-bouzon-150237108/" },
-    { name: "Mohammad-Ali Bacha", url: "https://www.linkedin.com/in/mohammad-ali-bacha/" },
   ],
   icons: {
     icon: [
@@ -93,6 +91,48 @@ export default function RootLayout({
         <link rel="icon" href="/icon-192.png" type="image/png" sizes="192x192" />
         <link rel="icon" href="/icon-512.png" type="image/png" sizes="512x512" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: `{
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              "name": "Smart Impulsion",
+              "url": "https://www.smart-impulsion.com",
+              "logo": "https://www.smart-impulsion.com/smart-impulsion-logo.png",
+              "description": "Smart Impulsion aide les PME et ETI françaises à obtenir un ROI mesurable avec l'intelligence artificielle. Audit, formation, déploiement.",
+              "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Lyon",
+                "addressRegion": "Auvergne-Rhône-Alpes",
+                "addressCountry": "FR"
+              },
+              "contactPoint": {
+                "@type": "ContactPoint",
+                "contactType": "customer service",
+                "email": "contact@smart-impulsion.com"
+              },
+              "sameAs": [
+                "https://www.linkedin.com/company/107340725"
+              ],
+              "founder": {
+                "@type": "Person",
+                "name": "Laurent Bouzon",
+                "jobTitle": "Fondateur & CEO",
+                "sameAs": "https://www.linkedin.com/in/laurent-bouzon-150237108/"
+              },
+              "knowsAbout": [
+                "Conseil en IA pour PME",
+                "ROI de l'intelligence artificielle",
+                "Audit IA",
+                "Formation IA entreprise",
+                "Automatisation des processus par l'IA",
+                "IA générative pour entreprises",
+                "Transformation digitale PME ETI"
+              ]
+            }`
+          }}
+        />
       </head>
       <body className={inter.className}>
         <ThemeProvider attribute="class" defaultTheme="light" enableSystem disableTransitionOnChange>
@@ -105,56 +145,6 @@ export default function RootLayout({
           <AxeptioProvider />
         </ThemeProvider>
 
-        {/* Données structurées Schema.org pour le SEO */}
-        <Script id="schema-org" type="application/ld+json" strategy="afterInteractive">
-          {`
-            {
-              "@context": "https://schema.org",
-              "@type": "Organization",
-              "name": "Smart Impulsion",
-              "url": "https://www.smart-impulsion.com",
-              "logo": "https://www.smart-impulsion.com/smart-impulsion-logo.png",
-              "description": "Smart Impulsion transforme votre entreprise avec des solutions d'intelligence artificielle garantissant un retour sur investissement mesurable.",
-              "address": {
-                "@type": "PostalAddress",
-                "addressLocality": "Paris",
-                "addressRegion": "Île-de-France",
-                "addressCountry": "FR"
-              },
-              "contactPoint": {
-                "@type": "ContactPoint",
-                "contactType": "customer service",
-                "email": "contact@smart-impulsion.com"
-              },
-              "sameAs": [
-                "https://www.linkedin.com/company/107340725"
-              ],
-              "founders": [
-                {
-                  "@type": "Person",
-                  "name": "Laurent Bouzon",
-                  "jobTitle": "Co-fondateur",
-                  "sameAs": "https://www.linkedin.com/in/laurent-bouzon-150237108/"
-                },
-                {
-                  "@type": "Person",
-                  "name": "Mohammad-Ali Bacha",
-                  "jobTitle": "Co-fondateur",
-                  "sameAs": "https://www.linkedin.com/in/mohammad-ali-bacha/"
-                }
-              ],
-              "knowsAbout": [
-                "Intelligence Artificielle",
-                "Machine Learning",
-                "Deep Learning",
-                "Traitement du Langage Naturel",
-                "Vision par Ordinateur",
-                "Automatisation des Processus",
-                "Analyse de Données Massives"
-              ]
-            }
-          `}
-        </Script>
       </body>
     </html>
   )

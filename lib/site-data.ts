@@ -58,18 +58,10 @@ export const teamMembers: TeamMember[] = [
   {
     id: "member-1",
     name: "Laurent Bouzon",
-    role: "Co-fondateur & CEO",
+    role: "Fondateur & CEO",
     bio: "Serial entrepreneur orienté impact, ayant structuré ses précédentes entreprises autour de l'IA avec une maîtrise des leviers permettant un ROI rapide et mesurable.",
     image: "https://i.ibb.co/4w8YjnW6/image-avatar-LB.png",
     linkedin: "https://www.linkedin.com/in/laurent-bouzon-150237108/",
-  },
-  {
-    id: "member-2",
-    name: "Mohammad-Ali Bacha",
-    role: "Co-fondateur & Expert IA",
-    bio: "Entrepreneur et spécialiste en technologies d'IA appliquées aux problématiques business, avec une expertise dans l'implémentation de solutions à forte valeur ajoutée.",
-    image: "https://i.ibb.co/GvdCZ8LR/image-avatar-MAB.png",
-    linkedin: "https://www.linkedin.com/in/mohammad-ali-bacha/",
   },
 ]
 

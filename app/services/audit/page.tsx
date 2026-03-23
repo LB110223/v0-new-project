@@ -21,7 +21,10 @@ import { AnimateOnScroll } from "@/components/animate-on-scroll"
 export const metadata: Metadata = {
   title: "Audit IA & Diagnostic | Smart Analyse | Smart Impulsion",
   description:
-    "Audit et diagnostic IA pour identifier vos opportunités d'optimisation. Analyse de maturité, cartographie des cas d'usage et roadmap stratégique avec estimation du ROI.",
+    "Audit IA pour PME et ETI : identifiez vos opportunités d'optimisation en 3 à 6 semaines. Cartographie des cas d'usage, estimation du ROI et roadmap stratégique actionnable.",
+  alternates: {
+    canonical: "https://www.smart-impulsion.com/services/audit",
+  },
   openGraph: {
     title: "Audit IA & Diagnostic | Smart Analyse | Smart Impulsion",
     description:

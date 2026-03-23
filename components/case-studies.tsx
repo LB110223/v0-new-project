@@ -57,7 +57,7 @@ const defaultCaseStudies = [
 
 export function CaseStudies() {
   const [caseStudies, setCaseStudies] = useState(defaultCaseStudies)
-  const [roiAverage, setRoiAverage] = useState("+285%")
+  const [roiAverage, setRoiAverage] = useState("+24%")
 
   // Charger les études de cas depuis localStorage
   useEffect(() => {

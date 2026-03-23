@@ -22,18 +22,10 @@ const defaultTeamMembers: TeamMember[] = [
   {
     id: "member-1",
     name: "Laurent Bouzon",
-    role: "Co-fondateur",
+    role: "Fondateur & CEO",
     bio: "Serial entrepreneur orienté impact, ayant structuré ses précédentes entreprises autour de l'IA avec une maîtrise des leviers permettant un ROI rapide et mesurable.",
     image: "/diverse-business-person.png",
     linkedin: "https://www.linkedin.com/in/laurent-bouzon-150237108/",
-  },
-  {
-    id: "member-2",
-    name: "Mohammad-Ali Bacha",
-    role: "Co-fondateur",
-    bio: "Spécialiste en technologies d'IA appliquées aux problématiques business, avec une expertise dans l'implémentation de solutions à forte valeur ajoutée.",
-    image: "/diverse-business-person.png",
-    linkedin: "https://www.linkedin.com/in/mohammad-ali-bacha/",
   },
 ]
 
@@ -281,8 +273,8 @@ export default function AdminTeam() {
               <div>
                 <p className="text-sm text-gray-600">
                   Vous pouvez ajouter, modifier ou supprimer des membres de l'équipe. Pour les images, utilisez des URLs
-                  directes vers des images (format .jpg, .png, etc.). Les deux premiers membres (co-fondateurs) ne
-                  peuvent pas être supprimés.
+                  directes vers des images (format .jpg, .png, etc.). Le premier membre (fondateur) ne
+                  peut pas être supprimé.
                 </p>
                 <p className="text-sm text-gray-600 mt-2">
                   <a href="/admin/media" className="text-blue-500 hover:underline">

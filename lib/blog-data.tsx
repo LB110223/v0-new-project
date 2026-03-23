@@ -1137,7 +1137,7 @@ Notre approche repose sur trois piliers :
 
 - **L'orientation ROI dès le premier jour.** Chaque projet démarre par la définition d'objectifs business mesurables. Nous ne déployons pas de l'IA pour le plaisir technique, mais pour générer de la valeur quantifiable.
 - **Une méthodologie éprouvée.** De l'audit initial à la mise en production, nous suivons un processus structuré qui a fait ses preuves. Pas d'improvisation, pas de promesses intenables.
-- **Un réseau d'experts métiers.** Au-delà de notre équipe interne, nous mobilisons un réseau de plus de 30 experts sectoriels pour garantir la pertinence de nos solutions dans votre contexte spécifique.
+- **Un réseau d'experts métiers.** Au-delà de notre équipe interne, nous mobilisons un réseau d'experts sectoriels pour garantir la pertinence de nos solutions dans votre contexte spécifique.
 
 Nous ne sommes pas le bon partenaire pour tout le monde. Si vous cherchez un prestataire low-cost, si vous n'êtes pas prêt à investir du temps dans la définition de vos objectifs, ou si vous attendez des résultats miraculeux en quelques semaines, nous ne sommes probablement pas faits pour travailler ensemble.
 
@@ -1606,7 +1606,7 @@ Les entreprises qui automatisent intelligemment leurs processus gagnent en effic
 
 Chez Smart Impulsion, nous accompagnons les entreprises de l'identification des opportunités au déploiement opérationnel, avec une approche pragmatique centrée sur le ROI. Contactez-nous pour un diagnostic de vos processus.
     `,
-    author: "Mohammad-Ali Bacha",
+    author: "Laurent Bouzon",
     date: "29 décembre 2025",
     dateISO: "2025-12-29",
     readTime: "15 min",
@@ -1752,159 +1752,12 @@ Mais attention : un chatbot mal conçu peut faire plus de mal que de bien. L'enj
 
 Chez Smart Impulsion, nous concevons des assistants conversationnels qui comprennent vraiment vos clients et reflètent l'excellence de votre service. Contactez-nous pour une démonstration personnalisée.
     `,
-    author: "Mohammad-Ali Bacha",
+    author: "Laurent Bouzon",
     date: "22 décembre 2025",
     dateISO: "2025-12-22",
     readTime: "13 min",
     category: "Service Client",
     image: "/chatbot-customer-service-ai.jpg",
-  },
-  {
-    slug: "automatisation-processus-ia-guide-pratique",
-    title: "Automatisation des Processus par l'IA : Guide Pratique pour les Entreprises",
-    excerpt:
-      "De la théorie à la pratique : comment identifier, prioriser et déployer l'automatisation IA dans vos processus métier avec des exemples concrets et une méthodologie éprouvée.",
-    content: `
-## L'automatisation intelligente : au-delà de la RPA traditionnelle
-
-L'automatisation des processus n'est pas nouvelle. Depuis des années, les entreprises déploient des solutions de RPA (Robotic Process Automation) pour exécuter des tâches répétitives. Mais ces robots logiciels traditionnels ont une limite fondamentale : ils ne savent exécuter que des règles prédéfinies. Face à une situation imprévue, ils s'arrêtent.
-
-L'IA change la donne. En combinant RPA et intelligence artificielle, on obtient ce qu'on appelle l'automatisation intelligente ou IPA (Intelligent Process Automation). Ces systèmes peuvent comprendre des documents non structurés, prendre des décisions contextuelles, apprendre de leurs erreurs et s'adapter à des situations nouvelles.
-
-C'est un saut qualitatif majeur. Les processus qui semblaient impossibles à automatiser — parce qu'ils impliquaient du jugement, de l'interprétation ou de la variabilité — deviennent soudain accessibles.
-
-## Les domaines d'application les plus prometteurs
-
-### Finance et comptabilité
-
-Le traitement des factures est un cas d'école. Un système d'IA peut :
-- Extraire automatiquement les données de factures de formats variés (PDF, scans, emails)
-- Rapprocher les factures avec les bons de commande
-- Détecter les anomalies et les doublons
-- Router les factures vers les bons approbateurs selon des règles métier
-- Déclencher les paiements une fois l'approbation obtenue
-
-Le gain ? Une réduction du temps de traitement de 70 à 80% et un taux d'erreur divisé par dix.
-
-Même logique pour les notes de frais, la réconciliation bancaire, ou le recouvrement : l'IA traite le volume, les humains gèrent les exceptions.
-
-### Ressources humaines
-
-L'onboarding des nouveaux collaborateurs implique des dizaines de tâches : création des accès informatiques, envoi des documents administratifs, planification des formations, attribution du matériel, présentation aux équipes...
-
-Un workflow automatisé peut orchestrer tout cela :
-- Génération automatique des identifiants et accès
-- Envoi programmé des documents à signer électroniquement
-- Planification automatique des sessions de formation
-- Notification aux différents services concernés
-- Suivi du parcours d'intégration
-
-Le RH se concentre alors sur l'accueil humain et l'accompagnement, pas sur la logistique.
-
-### Service client et support
-
-L'automatisation du support client va bien au-delà du simple chatbot. Un système intelligent peut :
-- Analyser le contenu des demandes entrantes (email, chat, téléphone transcrit)
-- Classer automatiquement par type, urgence et département concerné
-- Générer des réponses pour les cas simples
-- Enrichir le ticket avec les informations contextuelles (historique client, produits concernés)
-- Router vers le bon agent avec toutes les informations nécessaires
-
-Le temps de résolution diminue, la satisfaction client augmente, et les agents se concentrent sur les cas qui requièrent vraiment leur expertise.
-
-### Gestion documentaire
-
-Les entreprises croulent sous les documents : contrats, rapports, correspondances, documentation technique... L'IA transforme cette masse en ressource exploitable :
-- Classification automatique des documents entrants
-- Extraction des métadonnées et informations clés
-- Indexation intelligente pour une recherche sémantique
-- Détection des versions et des modifications
-- Archivage selon les règles de conformité
-
-## La méthodologie pour réussir vos projets d'automatisation
-
-### Phase 1 : Cartographier et prioriser
-
-Ne cherchez pas à tout automatiser d'un coup. Commencez par dresser l'inventaire de vos processus et évaluez-les selon trois critères :
-
-**Volume et fréquence** : Un processus exécuté 1000 fois par jour offre plus de potentiel qu'un processus mensuel. Le ROI de l'automatisation est directement proportionnel au volume.
-
-**Complexité et variabilité** : Les processus très structurés et prévisibles sont plus faciles à automatiser. Ceux qui impliquent beaucoup de jugement humain nécessitent des solutions plus sophistiquées.
-
-**Impact business** : Quel est l'impact d'une erreur ? D'un retard ? Quels processus sont dans le chemin critique de la satisfaction client ou de la conformité réglementaire ?
-
-Croisez ces critères pour identifier vos quick wins : processus à fort volume, faible complexité et impact significatif.
-
-### Phase 2 : Analyser en détail
-
-Pour chaque processus prioritaire, menez une analyse approfondie :
-
-**Documenter l'existant** : Cartographiez chaque étape, chaque décision, chaque exception. Qui fait quoi ? Avec quelles informations ? Quelles sont les règles de décision ? Les cas particuliers ?
-
-**Mesurer la baseline** : Temps de traitement moyen, taux d'erreur, coût unitaire, volume de backlog... Ces métriques serviront de référence pour évaluer les gains.
-
-**Identifier les irritants** : Où sont les goulots d'étranglement ? Les tâches les plus pénibles ? Les sources d'erreur récurrentes ? C'est souvent là que l'automatisation apporte le plus de valeur perçue.
-
-### Phase 3 : Concevoir la solution
-
-La conception doit équilibrer ambition et pragmatisme :
-
-**Définir le périmètre** : Quelles étapes automatiser ? Où maintenir l'intervention humaine ? La règle d'or : automatiser ce qui est automatisable, faciliter ce qui ne l'est pas.
-
-**Choisir les technologies** : RPA pour les tâches structurées, IA pour l'interprétation et la décision, OCR pour l'extraction documentaire, NLP pour l'analyse de texte... La solution est souvent une combinaison.
-
-**Prévoir les exceptions** : Comment le système gère-t-il les cas qu'il ne sait pas traiter ? Le circuit d'escalade vers l'humain doit être fluide et bien conçu.
-
-### Phase 4 : Déployer progressivement
-
-**Pilote contrôlé** : Commencez par un sous-ensemble du volume (un type de document, une catégorie de demandes, un département). Validez le fonctionnement en conditions réelles.
-
-**Période de supervision** : Pendant les premières semaines, faites valider systématiquement les décisions de l'IA par des humains. C'est l'occasion d'identifier les cas mal gérés et d'affiner le système.
-
-**Montée en charge progressive** : Élargissez le périmètre par étapes, en vérifiant à chaque fois que les performances se maintiennent.
-
-### Phase 5 : Optimiser en continu
-
-L'automatisation n'est pas un projet one-shot, c'est un processus d'amélioration continue :
-
-**Monitorer les performances** : Taux de traitement automatique, taux d'erreur, temps de traitement, satisfaction utilisateurs... Mettez en place des dashboards de suivi.
-
-**Analyser les exceptions** : Les cas non traités automatiquement sont une mine d'or pour améliorer le système. Pourquoi l'IA n'a-t-elle pas su gérer ? Peut-on l'entraîner à le faire ?
-
-**Étendre le périmètre** : Une fois un processus maîtrisé, identifiez les processus adjacents qui pourraient bénéficier de la même approche.
-
-## Les facteurs clés de succès
-
-### L'implication des métiers
-
-L'automatisation n'est pas un projet IT, c'est un projet métier. Les équipes opérationnelles doivent être impliquées dès le départ : elles connaissent les subtilités des processus, les exceptions, les vraies difficultés. Sans leur adhésion, le meilleur système technique échouera.
-
-### La qualité des données
-
-L'IA apprend des données qu'on lui fournit. Si vos données sont incomplètes, incohérentes ou mal structurées, les résultats seront médiocres. Prévoyez souvent un chantier de nettoyage et de structuration des données en amont.
-
-### La gestion du changement
-
-L'automatisation modifie les rôles et les responsabilités. Certains collaborateurs peuvent craindre pour leur emploi, d'autres résister au changement par habitude. Communiquez clairement sur les objectifs (augmenter les capacités, pas supprimer les emplois), formez les équipes aux nouveaux outils, et valorisez ceux qui s'approprient les nouvelles méthodes.
-
-### La gouvernance
-
-Qui décide quoi automatiser ? Qui valide les règles de décision de l'IA ? Qui est responsable quand l'automatisation dysfonctionne ? Ces questions de gouvernance doivent être tranchées clairement pour éviter les conflits et les zones grises.
-
-## Conclusion : l'automatisation comme avantage compétitif
-
-L'automatisation intelligente n'est plus un luxe réservé aux grandes entreprises. Les outils sont matures, les coûts ont baissé, et les bénéfices sont démontrés.
-
-Les entreprises qui automatisent intelligemment leurs processus gagnent en efficacité, en qualité et en agilité. Elles libèrent leurs collaborateurs des tâches répétitives pour les concentrer sur ce qui crée vraiment de la valeur : la relation client, l'innovation, la résolution de problèmes complexes.
-
-Chez Smart Impulsion, nous accompagnons les entreprises de l'identification des opportunités au déploiement opérationnel, avec une approche pragmatique centrée sur le ROI. Contactez-nous pour un diagnostic de vos processus.
-    `,
-    author: "Mohammad-Ali Bacha",
-    date: "29 décembre 2025",
-    dateISO: "2025-12-29",
-    readTime: "15 min",
-    category: "Automatisation",
-    image: "/business-process-automation-workflow.png",
   },
   {
     slug: "roi-intelligence-artificielle-comment-mesurer",
@@ -2061,7 +1914,7 @@ Chez Smart Impulsion, chaque projet commence par la définition des KPIs et se t
 
 Contactez-nous pour une évaluation gratuite du potentiel ROI de vos projets IA.
     `,
-    author: "Mohammad-Ali Bacha",
+    author: "Laurent Bouzon",
     date: "15 décembre 2025",
     dateISO: "2025-12-15",
     readTime: "14 min",

@@ -20,7 +20,10 @@ import { AnimateOnScroll } from "@/components/animate-on-scroll"
 export const metadata: Metadata = {
   title: "Accompagnement Opérationnel IA | Smart Action | Smart Impulsion",
   description:
-    "Mise en œuvre de solutions IA sur mesure avec accompagnement complet. Du développement au déploiement, nous pilotons vos projets IA avec un suivi du ROI à chaque étape.",
+    "Déploiement de solutions IA sur mesure pour PME et ETI. -32% de temps opérationnel, +24% de ROI. Du développement au déploiement, nous pilotons vos projets IA avec un suivi des résultats.",
+  alternates: {
+    canonical: "https://www.smart-impulsion.com/services/accompagnement",
+  },
   openGraph: {
     title: "Accompagnement Opérationnel IA | Smart Action | Smart Impulsion",
     description:

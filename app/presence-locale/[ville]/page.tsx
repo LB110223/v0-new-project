@@ -71,6 +71,9 @@ export async function generateMetadata({ params }: { params: { ville: string } }
   return {
     title: `Agence IA ${villeInfo.nom} | Smart Impulsion - ROI mesurable`,
     description: `${villeInfo.description} Expertise en IA générative, machine learning et NLP pour les entreprises de ${villeInfo.nom} et sa région.`,
+    alternates: {
+      canonical: `https://www.smart-impulsion.com/presence-locale/${ville}`,
+    },
     keywords: `intelligence artificielle ${villeInfo.nom}, IA ${villeInfo.nom}, ROI mesurable, transformation digitale, machine learning, ${villeInfo.region}, agence IA ${villeInfo.nom}`,
   }
 }
@@ -155,8 +158,8 @@ export default function PresenceLocale({ params }: { params: { ville: string } }
 
             <div className="bg-orange-50 p-6 rounded-lg border border-orange-100 mt-6">
               <p className="text-lg font-medium text-orange-800">
-                "Notre approche pragmatique de l'IA a permis à nos clients de {villeInfo.nom} d'obtenir un ROI moyen de
-                285% sur leurs projets d'intelligence artificielle."
+                "Notre approche pragmatique de l'IA a permis à nos clients de {villeInfo.nom} de réduire leur temps
+                opérationnel de 32% et d'améliorer leur performance commerciale de 18% grâce à l'intelligence artificielle."
               </p>
             </div>
           </section>

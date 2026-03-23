@@ -304,7 +304,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
                   </div>
                   <div>
                     <p className="font-semibold text-foreground">{article.author}</p>
-                    <p className="text-sm text-muted-foreground">Co-fondateur</p>
+                    <p className="text-sm text-muted-foreground">Fondateur & CEO</p>
                   </div>
                 </div>
                 <div className="flex items-center gap-2 text-sm text-muted-foreground">
@@ -384,8 +384,8 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
                         </p>
                         <h3 className="text-xl font-bold text-foreground mb-2">{article.author}</h3>
                         <p className="text-muted-foreground leading-relaxed">
-                          Co-fondateur de Smart Impulsion, expert en intelligence artificielle et transformation
-                          digitale. Passionné par l'accompagnement des PME françaises dans leur adoption de l'IA avec un
+                          Fondateur & CEO de Smart Impulsion, expert en intelligence artificielle et transformation
+                          digitale. Passionné par l'accompagnement des PME et ETI françaises dans leur adoption de l'IA avec un
                           focus sur le ROI mesurable.
                         </p>
                       </div>

@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: "Notre présence locale | Smart Impulsion - IA à ROI mesurable",
   description:
     "Smart Impulsion accompagne les entreprises partout en France dans leur transformation par l'IA avec un ROI mesurable. Découvrez notre présence locale.",
+  alternates: {
+    canonical: "https://www.smart-impulsion.com/presence-locale",
+  },
   keywords:
     "intelligence artificielle, IA, ROI mesurable, transformation digitale, machine learning, France, Lyon, Paris, Marseille, Bordeaux, Nantes",
 }

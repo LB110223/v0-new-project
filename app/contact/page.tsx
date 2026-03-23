@@ -6,7 +6,10 @@ import { Mail, Clock } from "lucide-react"
 export const metadata: Metadata = {
   title: "Contact | Smart Impulsion - Conseil en Intelligence Artificielle",
   description:
-    "Contactez Smart Impulsion pour transformer votre entreprise grâce à l'IA. Premier rendez-vous gratuit pour évaluer vos opportunités et leviers de performance.",
+    "Contactez Smart Impulsion pour une évaluation gratuite de vos opportunités IA. Réponse sous 24h. Conseil en IA à ROI mesurable pour PME et ETI françaises.",
+  alternates: {
+    canonical: "https://www.smart-impulsion.com/contact",
+  },
   openGraph: {
     title: "Contact | Smart Impulsion",
     description: "Échangeons lors d'un premier rendez-vous gratuit pour évaluer vos opportunités IA.",

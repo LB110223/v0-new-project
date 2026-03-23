@@ -23,8 +23,8 @@ const defaultGeneralInfo: GeneralInfo = {
     "Smart Impulsion transforme votre entreprise avec des solutions d'intelligence artificielle garantissant un retour sur investissement mesurable.",
   contactEmail: "contact@smart-impulsion.com",
   phoneNumber: "",
-  address: "Paris, France",
-  roiAverage: "+285%",
+  address: "Lyon, France",
+  roiAverage: "+24%",
   footerText: "Transformez votre entreprise avec l'IA et un ROI mesurable.",
 }
 

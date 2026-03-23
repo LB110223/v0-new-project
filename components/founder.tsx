@@ -47,7 +47,7 @@ export default function Founder() {
               <div className="relative w-full h-full">
                 <Image
                   src="/images/img-0346.jpeg"
-                  alt="Laurent Bouzon - Co-fondateur & CEO de Smart Impulsion"
+                  alt="Laurent Bouzon - Fondateur & CEO de Smart Impulsion"
                   fill
                   className="object-cover object-top"
                   priority

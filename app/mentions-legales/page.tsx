@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: "Mentions Légales | Smart Impulsion",
   description:
     "Mentions légales et informations juridiques de Smart Impulsion, cabinet de conseil en intelligence artificielle.",
+  alternates: {
+    canonical: "https://www.smart-impulsion.com/mentions-legales",
+  },
 }
 
 export default function MentionsLegales() {
@@ -24,13 +27,13 @@ export default function MentionsLegales() {
             <h2 className="text-2xl font-bold text-gray-900 mb-4">1. Informations légales</h2>
             <p>
               Le site Smart Impulsion est édité par la société Smart Impulsion, société par actions simplifiée (SAS) au
-              capital de [montant du capital] euros, immatriculée au Registre du Commerce et des Sociétés de Paris sous
+              capital de [montant du capital] euros, immatriculée au Registre du Commerce et des Sociétés de Lyon sous
               le numéro [numéro RCS], dont le siège social est situé à [adresse du siège social].
             </p>
             <p>
               <strong>Numéro de TVA intracommunautaire :</strong> [numéro TVA]
               <br />
-              <strong>Directeur de la publication :</strong> Laurent Bouzon et Mohammad-Ali Bacha, Co-fondateurs
+              <strong>Directeur de la publication :</strong> Laurent Bouzon, Fondateur & CEO
             </p>
           </section>
 

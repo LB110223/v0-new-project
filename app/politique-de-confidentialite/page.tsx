@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: "Politique de Confidentialité | Smart Impulsion",
   description:
     "Politique de confidentialité et informations sur la protection des données personnelles de Smart Impulsion.",
+  alternates: {
+    canonical: "https://www.smart-impulsion.com/politique-de-confidentialite",
+  },
 }
 
 export default function PolitiqueDeConfidentialite() {
