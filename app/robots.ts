@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://www.smart-impulsion.fr/sitemap.xml",
+    sitemap: "https://www.smart-impulsion.com/sitemap.xml",
   }
 }

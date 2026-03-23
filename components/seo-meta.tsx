@@ -14,7 +14,7 @@ export function SeoMeta({
   description = "Smart Impulsion transforme votre entreprise avec des solutions d'intelligence artificielle garantissant un retour sur investissement mesurable.",
   keywords = "intelligence artificielle, IA, ROI mesurable, transformation digitale, machine learning",
   ogImage = "/og-image.png",
-  ogUrl = "https://www.smart-impulsion.fr",
+  ogUrl = "https://www.smart-impulsion.com",
   twitterCard = "summary_large_image",
 }: SeoMetaProps) {
   return (

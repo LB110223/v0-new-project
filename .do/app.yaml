@@ -1,0 +1,27 @@
+name: smart-impulsion-site
+region: fra
+services:
+  - name: web
+    github:
+      repo: LB110223/v0-new-project
+      branch: main
+      deploy_on_push: true
+    source_dir: /
+    environment_slug: node-js
+    instance_count: 1
+    instance_size_slug: apps-s-1vcpu-0.5gb
+    http_port: 3000
+    build_command: pnpm install --frozen-lockfile && pnpm build
+    run_command: pnpm start
+    envs:
+      - key: NOTION_API_KEY
+        scope: RUN_AND_BUILD_TIME
+        type: SECRET
+        value: "${NOTION_API_KEY}"
+      - key: NOTION_DATABASE_ID
+        scope: RUN_AND_BUILD_TIME
+        type: SECRET
+        value: "${NOTION_DATABASE_ID}"
+      - key: NODE_ENV
+        scope: RUN_AND_BUILD_TIME
+        value: "production"

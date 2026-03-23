@@ -4,7 +4,7 @@ import Image from "next/image"
 import { blogArticles } from "@/lib/blog-data"
 import { ArrowRight, Calendar, Clock, TrendingUp } from "lucide-react"
 
-const baseUrl = "https://www.smart-impulsion.fr"
+const baseUrl = "https://www.smart-impulsion.com"
 
 export const metadata: Metadata = {
   title: "Blog | Smart Impulsion - Actualités IA et Transformation Digitale",

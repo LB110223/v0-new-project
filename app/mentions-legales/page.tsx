@@ -37,13 +37,13 @@ export default function MentionsLegales() {
           <section className="mb-10">
             <h2 className="text-2xl font-bold text-gray-900 mb-4">2. Hébergement</h2>
             <p>
-              Le site Smart Impulsion est hébergé par la société Vercel Inc., dont le siège social est situé au 340 S
-              Lemon Ave #4133, Walnut, CA 91789, USA.
+              Le site Smart Impulsion est hébergé par la société DigitalOcean, LLC, dont le siège social est situé au
+              101 6th Avenue, New York, NY 10013, USA.
             </p>
             <p>
               <strong>Contact :</strong>{" "}
-              <a href="https://vercel.com/contact" className="text-orange-500 hover:underline">
-                https://vercel.com/contact
+              <a href="https://www.digitalocean.com/company/contact" className="text-orange-500 hover:underline">
+                https://www.digitalocean.com/company/contact
               </a>
             </p>
           </section>
