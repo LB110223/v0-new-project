@@ -94,43 +94,38 @@ export default function RootLayout({
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
-            __html: `{
+            __html: JSON.stringify({
               "@context": "https://schema.org",
-              "@type": "Organization",
+              "@type": "LocalBusiness",
               "name": "Smart Impulsion",
+              "description": "Agence de conseil en intelligence artificielle pour PME et ETI. ROI mesurable garanti.",
               "url": "https://www.smart-impulsion.com",
-              "logo": "https://www.smart-impulsion.com/smart-impulsion-logo.png",
-              "description": "Smart Impulsion aide les PME et ETI françaises à obtenir un ROI mesurable avec l'intelligence artificielle. Audit, formation, déploiement.",
+              "telephone": "",
+              "email": "contact@smart-impulsion.com",
               "address": {
                 "@type": "PostalAddress",
                 "addressLocality": "Lyon",
                 "addressRegion": "Auvergne-Rhône-Alpes",
                 "addressCountry": "FR"
               },
-              "contactPoint": {
-                "@type": "ContactPoint",
-                "contactType": "customer service",
-                "email": "contact@smart-impulsion.com"
+              "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 45.764043,
+                "longitude": 4.835659
               },
-              "sameAs": [
-                "https://www.linkedin.com/company/107340725"
-              ],
+              "priceRange": "€€",
+              "image": "https://www.smart-impulsion.com/og-image.png",
               "founder": {
                 "@type": "Person",
                 "name": "Laurent Bouzon",
-                "jobTitle": "Fondateur & CEO",
-                "sameAs": "https://www.linkedin.com/in/laurent-bouzon-150237108/"
+                "jobTitle": "Fondateur & CEO"
               },
-              "knowsAbout": [
-                "Conseil en IA pour PME",
-                "ROI de l'intelligence artificielle",
-                "Audit IA",
-                "Formation IA entreprise",
-                "Automatisation des processus par l'IA",
-                "IA générative pour entreprises",
-                "Transformation digitale PME ETI"
-              ]
-            }`
+              "areaServed": [
+                { "@type": "Country", "name": "France" }
+              ],
+              "serviceType": ["Conseil en intelligence artificielle", "Audit IA", "Formation IA", "Implémentation IA"],
+              "knowsAbout": ["Intelligence artificielle", "ROI IA", "Automatisation", "Machine Learning", "NLP"]
+            })
           }}
         />
       </head>

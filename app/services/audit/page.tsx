@@ -102,9 +102,24 @@ const benefices = [
   { chiffre: "50%", description: "éligible au financement BPI (sous conditions)" },
 ]
 
+const serviceJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Smart Analyse - Audit IA avec projection ROI",
+  "description": "Audit complet de vos processus et données. Identification des opportunités IA avec ROI projeté en 3 à 6 semaines.",
+  "provider": { "@type": "Organization", "name": "Smart Impulsion" },
+  "serviceType": "Audit en intelligence artificielle",
+  "areaServed": { "@type": "Country", "name": "France" },
+  "url": "https://www.smart-impulsion.com/services/audit"
+}
+
 export default function AuditPage() {
   return (
     <main className="min-h-screen bg-white">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceJsonLd) }}
+      />
       {/* Hero Section */}
       <section className="relative bg-black text-white pt-24 pb-16">
         <div className="absolute inset-0 bg-black" />

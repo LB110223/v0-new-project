@@ -86,9 +86,24 @@ const resultats = [
 
 const outils = ["ChatGPT", "Claude", "Copilot", "Gemini", "Mistral", "Midjourney", "Notion AI", "Zapier AI"]
 
+const serviceJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Smart Training - Formation IA sur mesure",
+  "description": "Formations IA personnalisées pour les équipes de PME et ETI. 20 à 40% de gain de temps constaté.",
+  "provider": { "@type": "Organization", "name": "Smart Impulsion" },
+  "serviceType": "Formation en intelligence artificielle",
+  "areaServed": { "@type": "Country", "name": "France" },
+  "url": "https://www.smart-impulsion.com/services/formation"
+}
+
 export default function FormationPage() {
   return (
     <main className="min-h-screen bg-white">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceJsonLd) }}
+      />
       {/* Hero Section */}
       <section className="relative bg-black text-white pt-24 pb-16">
         <div className="absolute inset-0 bg-black" />

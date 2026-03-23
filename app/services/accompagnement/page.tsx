@@ -104,9 +104,24 @@ const resultats = [
   { chiffre: "+24%", description: "de ROI sur les périmètres déployés" },
 ]
 
+const serviceJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Smart Action - Implémentation IA opérationnelle",
+  "description": "Déploiement opérationnel des solutions IA. -32% de temps opérationnel et +24% de ROI sur les initiatives déployées.",
+  "provider": { "@type": "Organization", "name": "Smart Impulsion" },
+  "serviceType": "Implémentation et déploiement IA",
+  "areaServed": { "@type": "Country", "name": "France" },
+  "url": "https://www.smart-impulsion.com/services/accompagnement"
+}
+
 export default function AccompagnementPage() {
   return (
     <main className="min-h-screen bg-white">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceJsonLd) }}
+      />
       {/* Hero Section */}
       <section className="relative bg-black text-white pt-24 pb-16">
         <div className="absolute inset-0 bg-black" />
