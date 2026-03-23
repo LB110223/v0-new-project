@@ -78,6 +78,16 @@ export function Footer() {
                   Smart Action
                 </a>
               </li>
+              <li>
+                <Link href="/a-propos" className="text-gray-600 hover:text-black transition-colors">
+                  A propos
+                </Link>
+              </li>
+              <li>
+                <Link href="/faq" className="text-gray-600 hover:text-black transition-colors">
+                  FAQ
+                </Link>
+              </li>
             </ul>
           </div>
 

@@ -101,6 +101,10 @@ export function Navbar() {
                 </div>
               </div>
 
+              <Link href="/a-propos" className="text-gray-700 hover:text-orange-500 font-medium transition-colors">
+                A propos
+              </Link>
+
               <Link href="/blog" className="text-gray-700 hover:text-orange-500 font-medium transition-colors">
                 Blog
               </Link>
@@ -178,6 +182,14 @@ export function Navbar() {
               ))}
             </div>
           </div>
+
+          <Link
+            href="/a-propos"
+            onClick={() => setIsMobileMenuOpen(false)}
+            className="text-gray-700 hover:text-orange-500 font-medium transition-colors py-3 text-center border-b border-gray-100"
+          >
+            A propos
+          </Link>
 
           <Link
             href="/blog"
