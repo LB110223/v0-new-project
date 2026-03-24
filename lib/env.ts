@@ -4,8 +4,7 @@
  */
 export function validateEnv() {
   const requiredEnvVars = [
-    { key: "NOTION_API_KEY", name: "Clé d'API Notion" },
-    { key: "NOTION_DATABASE_ID", name: "ID de la base de données Notion" },
+    { key: "RESEND_API_KEY", name: "Clé d'API Resend" },
   ]
 
   const missingEnvVars = requiredEnvVars.filter(({ key }) => !process.env[key])

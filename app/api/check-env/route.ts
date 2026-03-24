@@ -3,12 +3,8 @@ import { NextResponse } from "next/server"
 export async function GET() {
   const missingVars = []
 
-  if (!process.env.NOTION_API_KEY) {
-    missingVars.push("NOTION_API_KEY")
-  }
-
-  if (!process.env.NOTION_DATABASE_ID) {
-    missingVars.push("NOTION_DATABASE_ID")
+  if (!process.env.RESEND_API_KEY) {
+    missingVars.push("RESEND_API_KEY")
   }
 
   if (missingVars.length > 0) {
