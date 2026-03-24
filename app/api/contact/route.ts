@@ -6,6 +6,54 @@ export async function POST(request: Request) {
   try {
     const data = (await request.json()) as ContactFormData
 
+    // --- Anti-spam layer 1: Honeypot ---
+    // If the hidden "website" field is filled, it's a bot.
+    // Return success to avoid alerting the bot.
+    if (data.website) {
+      return NextResponse.json({
+        success: true,
+        message: "Votre message a été envoyé avec succès",
+      })
+    }
+
+    // --- Anti-spam layer 2: Time check ---
+    // If the form was submitted in less than 2 seconds, it's likely a bot.
+    // Return success silently.
+    if (data._timestamp) {
+      const elapsed = Date.now() - data._timestamp
+      if (elapsed < 2000) {
+        return NextResponse.json({
+          success: true,
+          message: "Votre message a été envoyé avec succès",
+        })
+      }
+    }
+
+    // --- Anti-spam layer 3: Cloudflare Turnstile ---
+    if (!data.turnstileToken) {
+      return NextResponse.json(
+        { success: false, message: "Veuillez compléter la vérification anti-spam" },
+        { status: 400 },
+      )
+    }
+
+    const turnstileResponse = await fetch("https://challenges.cloudflare.com/turnstile/v0/siteverify", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        secret: process.env.TURNSTILE_SECRET_KEY,
+        response: data.turnstileToken,
+      }),
+    })
+    const turnstileResult = await turnstileResponse.json()
+    if (!turnstileResult.success) {
+      return NextResponse.json(
+        { success: false, message: "Vérification anti-spam échouée" },
+        { status: 403 },
+      )
+    }
+
+    // --- Standard validation ---
     if (!data.name || !data.email || !data.message) {
       return NextResponse.json(
         { success: false, message: "Veuillez remplir tous les champs obligatoires" },

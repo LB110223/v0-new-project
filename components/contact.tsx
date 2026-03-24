@@ -2,11 +2,12 @@
 
 import type React from "react"
 
-import { useState } from "react"
+import { useState, useRef } from "react"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
+import { Turnstile, type TurnstileInstance } from "@marsidev/react-turnstile"
 import type { ContactFormData } from "@/lib/types"
 
 export function Contact() {
@@ -21,6 +22,9 @@ export function Contact() {
   const [isSubmitting, setIsSubmitting] = useState(false)
   const [isSubmitted, setIsSubmitted] = useState(false)
   const [error, setError] = useState<string | null>(null)
+  const [turnstileToken, setTurnstileToken] = useState<string | null>(null)
+  const turnstileRef = useRef<TurnstileInstance>(null)
+  const [formTimestamp] = useState<number>(() => Date.now())
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     setFormState({
@@ -47,7 +51,11 @@ export function Contact() {
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify(formState),
+        body: JSON.stringify({
+          ...formState,
+          turnstileToken,
+          _timestamp: formTimestamp,
+        }),
       })
 
       const data = await response.json()
@@ -61,12 +69,16 @@ export function Contact() {
           service: "",
           message: "",
         })
+        setTurnstileToken(null)
+        turnstileRef.current?.reset()
       } else {
         setError(data.message || "Une erreur est survenue. Veuillez réessayer.")
+        turnstileRef.current?.reset()
       }
     } catch (err) {
       setError("Une erreur de connexion est survenue. Veuillez réessayer.")
       console.error("Erreur lors de la soumission du formulaire:", err)
+      turnstileRef.current?.reset()
     } finally {
       setIsSubmitting(false)
     }
@@ -120,6 +132,20 @@ export function Contact() {
           ) : (
             <form onSubmit={handleSubmit} className="bg-white p-8 rounded-lg border border-gray-200">
               {error && <div className="mb-6 p-4 bg-red-50 border border-red-200 rounded-md text-red-600">{error}</div>}
+
+              {/* Honeypot field - invisible to users, attractive to bots */}
+              <div className="hidden" aria-hidden="true">
+                <label htmlFor="website">Website</label>
+                <input
+                  type="text"
+                  id="website"
+                  name="website"
+                  value={formState.website || ""}
+                  onChange={handleChange}
+                  tabIndex={-1}
+                  autoComplete="off"
+                />
+              </div>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
                 <div>
@@ -208,9 +234,21 @@ export function Contact() {
                 />
               </div>
 
+              {/* Cloudflare Turnstile widget */}
+              <div className="mb-6 flex justify-center">
+                <Turnstile
+                  ref={turnstileRef}
+                  siteKey="0x4AAAAAACvXdvead-GXXOkU"
+                  onSuccess={(token) => setTurnstileToken(token)}
+                  onError={() => setTurnstileToken(null)}
+                  onExpire={() => setTurnstileToken(null)}
+                  options={{ theme: "light", size: "flexible" }}
+                />
+              </div>
+
               <Button
                 type="submit"
-                disabled={isSubmitting}
+                disabled={isSubmitting || !turnstileToken}
                 className="w-full bg-gray-50 border border-gray-300 hover:bg-gray-100 text-gray-800 rounded-md py-6 text-base"
               >
                 {isSubmitting ? (

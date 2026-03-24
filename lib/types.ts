@@ -4,4 +4,8 @@ export interface ContactFormData {
   company: string
   service: string
   message: string
+  // Anti-spam fields
+  turnstileToken?: string
+  website?: string // honeypot
+  _timestamp?: number // time check
 }
