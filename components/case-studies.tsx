@@ -4,7 +4,7 @@ import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { TrendingUp } from "lucide-react"
 import { AnimateOnScroll } from "@/components/animate-on-scroll"
-import { useEffect, useState } from "react"
+import { useState } from "react"
 
 // Types pour les études de cas
 interface CaseStudy {
@@ -13,72 +13,50 @@ interface CaseStudy {
   client: string
   description: string
   tags: string[]
-  roi: string
-  image: string
+  metric: string
+  metricLabel: string
   gradient: string
 }
 
-// Études de cas par défaut
-const defaultCaseStudies = [
+// Études de cas réelles — source : DNA.md
+const defaultCaseStudies: CaseStudy[] = [
   {
-    id: "case-1",
-    title: "Optimisation de la chaîne logistique",
-    client: "Distributeur national",
+    id: "case-lyko",
+    title: "Automatisation outbound & contenu",
+    client: "Lyko",
     description:
-      "Mise en place d'un système prédictif pour optimiser les stocks et la distribution. ROI de 320% sur 18 mois avec une réduction des coûts logistiques de 28%.",
+      "Automatisation de la prospection outbound (vélocité x3, +12% de RDV obtenus) et de la production de contenu blog (vélocité x5). Un gain de productivité massif sur deux fronts stratégiques.",
     tags: ["Smart Analyse", "Smart Action"],
-    roi: "+320%",
-    image: "/placeholder.svg?key=552rf",
+    metric: "x3 à x5",
+    metricLabel: "Vélocité",
     gradient: "from-orange-500 to-orange-600",
   },
   {
-    id: "case-2",
-    title: "Automatisation du service client",
-    client: "Banque française",
+    id: "case-symbiozai",
+    title: "AI Workforce complète",
+    client: "SymbiozAI",
     description:
-      "Développement d'un assistant virtuel intelligent pour le service client. ROI de 215% sur 12 mois avec une réduction du temps de traitement de 65%.",
+      "Conception et mise en place d'une AI Workforce complète : agents IA spécialisés par verticale (marketing, sales, tech) pour industrialiser les opérations et scaler sans masse salariale.",
     tags: ["Smart Training", "Smart Action"],
-    roi: "+215%",
-    image: "/placeholder.svg?key=yonaq",
+    metric: "AI Workforce",
+    metricLabel: "Déployée",
     gradient: "from-orange-400 to-orange-500",
   },
   {
-    id: "case-3",
-    title: "Détection de fraude en temps réel",
-    client: "Assureur national",
+    id: "case-biopropreté",
+    title: "Outbound & agent IA doléances",
+    client: "Bio Propreté Services",
     description:
-      "Implémentation d'un système de détection de fraude basé sur l'IA. ROI de 450% sur 24 mois avec 32% de cas frauduleux supplémentaires identifiés.",
+      "Automatisation de la prospection outbound (vélocité x4) et développement d'un MVP d'agent IA pour la gestion des doléances clients. Résultat : gain de temps opérationnel et meilleure réactivité.",
     tags: ["Smart Analyse", "Smart Action"],
-    roi: "+450%",
-    image: "/placeholder.svg?key=66c2t",
+    metric: "x4",
+    metricLabel: "Vélocité",
     gradient: "from-orange-600 to-orange-700",
   },
 ]
 
 export function CaseStudies() {
-  const [caseStudies, setCaseStudies] = useState(defaultCaseStudies)
-  const [roiAverage, setRoiAverage] = useState("+24%")
-
-  // Charger les études de cas depuis localStorage
-  useEffect(() => {
-    try {
-      const savedCaseStudies = localStorage.getItem("case_studies")
-      if (savedCaseStudies) {
-        setCaseStudies(JSON.parse(savedCaseStudies))
-      }
-
-      // Charger également les informations générales pour le ROI moyen
-      const savedGeneralInfo = localStorage.getItem("general_info")
-      if (savedGeneralInfo) {
-        const generalInfo = JSON.parse(savedGeneralInfo)
-        if (generalInfo.roiAverage) {
-          setRoiAverage(generalInfo.roiAverage)
-        }
-      }
-    } catch (error) {
-      console.error("Erreur lors du chargement des études de cas:", error)
-    }
-  }, [])
+  const [caseStudies] = useState(defaultCaseStudies)
 
   return (
     <section id="etudes-de-cas" className="py-16 md:py-24 bg-white relative overflow-hidden">
@@ -105,26 +83,15 @@ export function CaseStudies() {
           {caseStudies.map((study, index) => (
             <AnimateOnScroll key={study.id} variant="fade-up" delay={index * 200}>
               <Card className="overflow-hidden border-none shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1 group">
-                <div className="aspect-video overflow-hidden relative">
-                  <div
-                    className={`absolute inset-0 bg-gradient-to-br ${study.gradient} opacity-80 group-hover:opacity-90 transition-opacity`}
-                  ></div>
-                  <img
-                    src={study.image || "/placeholder.svg"}
-                    alt={study.title}
-                    className="w-full h-full object-cover mix-blend-overlay"
-                    onError={(e) => {
-                      // Fallback en cas d'erreur de chargement de l'image
-                      e.currentTarget.src = "/placeholder.svg?key=case"
-                    }}
-                  />
+                <div className={`p-6 bg-gradient-to-br ${study.gradient} relative`}>
                   <div className="absolute top-4 right-4 bg-white text-orange-600 font-bold px-3 py-2 rounded-full flex items-center shadow-lg">
                     <TrendingUp className="h-4 w-4 mr-1" />
-                    <span>{study.roi}</span>
+                    <span>{study.metric}</span>
                   </div>
-                  <div className="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/70 to-transparent">
-                    <h3 className="text-xl font-bold text-white">{study.title}</h3>
-                    <p className="text-white/90 font-medium">{study.client}</p>
+                  <div className="pt-2 pb-4">
+                    <p className="text-white/80 text-sm font-medium uppercase tracking-wide">{study.metricLabel}</p>
+                    <h3 className="text-xl font-bold text-white mt-1">{study.title}</h3>
+                    <p className="text-white/90 font-medium mt-1">{study.client}</p>
                   </div>
                 </div>
                 <CardContent className="pt-6">
@@ -148,10 +115,20 @@ export function CaseStudies() {
 
         <AnimateOnScroll variant="fade-up" delay={600}>
           <div className="mt-16 text-center">
-            <p className="text-lg font-medium text-orange-600 mb-4">Nous nous engageons sur des résultats mesurables</p>
-            <div className="inline-flex items-center justify-center bg-white px-8 py-5 rounded-2xl shadow-2xl">
-              <span className="text-2xl font-bold text-slate-800 mr-3">ROI moyen de nos projets:</span>
-              <span className="text-4xl font-bold text-orange-500">{roiAverage}</span>
+            <p className="text-lg font-medium text-orange-600 mb-4">Nos résultats mesurés chez nos clients</p>
+            <div className="inline-flex flex-wrap items-center justify-center gap-6 bg-white px-8 py-5 rounded-2xl shadow-2xl">
+              <div className="text-center">
+                <span className="block text-3xl font-bold text-orange-500">-32%</span>
+                <span className="text-sm text-slate-600">Temps opérationnel</span>
+              </div>
+              <div className="text-center">
+                <span className="block text-3xl font-bold text-orange-500">+18%</span>
+                <span className="text-sm text-slate-600">Perf. commerciale</span>
+              </div>
+              <div className="text-center">
+                <span className="block text-3xl font-bold text-orange-500">24%</span>
+                <span className="text-sm text-slate-600">ROI moyen</span>
+              </div>
             </div>
           </div>
         </AnimateOnScroll>

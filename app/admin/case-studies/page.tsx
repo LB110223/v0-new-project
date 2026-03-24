@@ -20,39 +20,39 @@ interface CaseStudy {
   gradient: string
 }
 
-// Études de cas par défaut
+// Études de cas réelles — source : DNA.md
 const defaultCaseStudies: CaseStudy[] = [
   {
-    id: "case-1",
-    title: "Optimisation de la chaîne logistique",
-    client: "Distributeur national",
+    id: "case-lyko",
+    title: "Automatisation outbound & contenu",
+    client: "Lyko",
     description:
-      "Mise en place d'un système prédictif pour optimiser les stocks et la distribution. ROI de 320% sur 18 mois avec une réduction des coûts logistiques de 28%.",
+      "Automatisation de la prospection outbound (vélocité x3, +12% de RDV obtenus) et de la production de contenu blog (vélocité x5).",
     tags: ["Smart Analyse", "Smart Action"],
-    roi: "+320%",
-    image: "/placeholder.svg?key=552rf",
+    roi: "x3 à x5",
+    image: "/placeholder.svg?key=lyko",
     gradient: "from-orange-500 to-orange-600",
   },
   {
-    id: "case-2",
-    title: "Automatisation du service client",
-    client: "Banque française",
+    id: "case-symbiozai",
+    title: "AI Workforce complète",
+    client: "SymbiozAI",
     description:
-      "Développement d'un assistant virtuel intelligent pour le service client. ROI de 215% sur 12 mois avec une réduction du temps de traitement de 65%.",
+      "Conception et mise en place d'une AI Workforce complète : agents IA spécialisés par verticale pour industrialiser les opérations.",
     tags: ["Smart Training", "Smart Action"],
-    roi: "+215%",
-    image: "/placeholder.svg?key=yonaq",
+    roi: "AI Workforce",
+    image: "/placeholder.svg?key=symbiozai",
     gradient: "from-orange-400 to-orange-500",
   },
   {
-    id: "case-3",
-    title: "Détection de fraude en temps réel",
-    client: "Assureur national",
+    id: "case-biopropreté",
+    title: "Outbound & agent IA doléances",
+    client: "Bio Propreté Services",
     description:
-      "Implémentation d'un système de détection de fraude basé sur l'IA. ROI de 450% sur 24 mois avec 32% de cas frauduleux supplémentaires identifiés.",
+      "Automatisation de la prospection outbound (vélocité x4) et MVP d'agent IA pour la gestion des doléances clients.",
     tags: ["Smart Analyse", "Smart Action"],
-    roi: "+450%",
-    image: "/placeholder.svg?key=66c2t",
+    roi: "x4",
+    image: "/placeholder.svg?key=biopropreté",
     gradient: "from-orange-600 to-orange-700",
   },
 ]

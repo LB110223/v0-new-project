@@ -23,7 +23,7 @@ const villes = {
     specificites:
       "Paris, capitale de l'innovation en France, concentre un écosystème riche d'entreprises technologiques et de grands groupes en quête de solutions IA performantes.",
     casEtude:
-      "Nous avons déployé des solutions d'automatisation intelligente pour plusieurs acteurs financiers parisiens, générant un ROI moyen de 215% sur 12 mois.",
+      "Nos clients — Lyko, SymbiozAI, Bio Propreté Services — mesurent en moyenne -32% de temps opérationnel et +18% de performance commerciale grâce à nos déploiements IA.",
     region: "Île-de-France",
     enriched: false,
   },
@@ -32,9 +32,9 @@ const villes = {
     description:
       "Smart Impulsion accompagne les entreprises marseillaises dans leur transformation numérique par l'IA à ROI mesurable.",
     specificites:
-      "Marseille, avec son port international et son écosystème méditerranéen, présente des opportunités uniques pour l'application de l'IA dans la logistique maritime et le commerce international.",
+      "Marseille, avec son port international et son écosystème méditerranéen, présente des opportunités uniques pour l'application de l'IA dans la logistique, les services et le commerce.",
     casEtude:
-      "Nous avons implémenté des solutions de vision par ordinateur pour optimiser les opérations portuaires d'acteurs majeurs de la région.",
+      "Nos déploiements chez Lyko (vélocité outbound x3), SymbiozAI (AI Workforce complète) et Bio Propreté Services (vélocité x4) illustrent notre capacité à délivrer des résultats concrets et mesurables.",
     region: "Provence-Alpes-Côte d'Azur",
     enriched: false,
   },
@@ -43,9 +43,9 @@ const villes = {
     description:
       "Smart Impulsion propose aux entreprises bordelaises des solutions d'IA avec un retour sur investissement mesurable.",
     specificites:
-      "Bordeaux, avec son écosystème viticole et agroalimentaire, offre un terrain d'application unique pour l'IA dans l'optimisation des processus agricoles et la traçabilité.",
+      "Bordeaux, avec son dynamisme économique et son écosystème tech en pleine croissance, offre un terrain propice à l'adoption de l'IA dans les PME et ETI.",
     casEtude:
-      "Nous avons développé des modèles prédictifs pour plusieurs domaines viticoles de la région, permettant d'optimiser les rendements et la qualité.",
+      "Nos résultats chez nos clients — automatisation outbound (vélocité x3 à x4, +12% de RDV), AI Workforce complète, agents IA métier — démontrent notre approche ROI-first.",
     region: "Nouvelle-Aquitaine",
     enriched: false,
   },
@@ -56,7 +56,7 @@ const villes = {
     specificites:
       "Nantes, reconnue pour son dynamisme numérique et sa qualité de vie, abrite de nombreuses entreprises innovantes en quête de solutions IA pragmatiques.",
     casEtude:
-      "Nous avons déployé des assistants virtuels intelligents pour plusieurs acteurs du service client nantais, réduisant les temps de traitement de 65%.",
+      "Nos résultats mesurés chez nos clients : -32% de temps opérationnel, +18% de performance commerciale, des vélocités multipliées par 3 à 5 sur les processus automatisés.",
     region: "Pays de la Loire",
     enriched: false,
   },
