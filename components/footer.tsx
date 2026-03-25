@@ -23,7 +23,7 @@ const defaultGeneralInfo: GeneralInfo = {
     "Smart Impulsion transforme votre entreprise avec des solutions d'intelligence artificielle garantissant un retour sur investissement mesurable.",
   contactEmail: "contact@smart-impulsion.com",
   phoneNumber: "",
-  address: "Lyon, France",
+  address: "70 quai Perrache, 69002 Lyon",
   roiAverage: "+24%",
   footerText: "Transformez votre entreprise avec l'IA et un ROI mesurable.",
 }
@@ -51,6 +51,9 @@ export function Footer() {
           <div>
             <Logo variant="footer" className="mb-4" />
             <p className="text-gray-600 mb-4">{generalInfo.footerText}</p>
+            {generalInfo.address && (
+              <p className="text-gray-600 text-sm mb-2">{generalInfo.address}</p>
+            )}
             {generalInfo.contactEmail && (
               <p className="text-gray-600">
                 <a href={`mailto:${generalInfo.contactEmail}`} className="hover:text-orange-500 transition-colors">
@@ -64,19 +67,19 @@ export function Footer() {
             <h3 className="text-sm font-bold uppercase text-gray-500 mb-4">Services</h3>
             <ul className="space-y-2">
               <li>
-                <a href="#services" className="text-gray-600 hover:text-black transition-colors">
+                <Link href="/services/formation" className="text-gray-600 hover:text-black transition-colors">
                   Smart Training
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#services" className="text-gray-600 hover:text-black transition-colors">
+                <Link href="/services/audit" className="text-gray-600 hover:text-black transition-colors">
                   Smart Analyse
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#services" className="text-gray-600 hover:text-black transition-colors">
+                <Link href="/services/accompagnement" className="text-gray-600 hover:text-black transition-colors">
                   Smart Action
-                </a>
+                </Link>
               </li>
               <li>
                 <Link href="/a-propos" className="text-gray-600 hover:text-black transition-colors">

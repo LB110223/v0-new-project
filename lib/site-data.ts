@@ -41,7 +41,7 @@ export const testimonials: Testimonial[] = [
       "Smart Impulsion a transformé notre approche de l'IA. Leur focus sur le ROI nous a permis de justifier chaque euro investi avec des résultats concrets.",
     author: "Emmanuel Chochoy",
     position: "CEO",
-    image: "https://i.ibb.co/zVry0KVN/Logo-Principal.png",
+    image: "/images/testimonial-chochoy.png",
   },
   {
     id: "testimonial-2",
@@ -49,7 +49,7 @@ export const testimonials: Testimonial[] = [
       "L'approche méthodique de Smart Impulsion nous a permis d'identifier les opportunités d'IA à fort impact et de les déployer rapidement.",
     author: "Ervan Marduel",
     position: "Directeur Général",
-    image: "https://i.ibb.co/whfVn5xF/295122456-421629786652142-8920593516092008608-n.jpg",
+    image: "/images/testimonial-marduel.jpg",
   },
 ]
 
@@ -60,7 +60,7 @@ export const teamMembers: TeamMember[] = [
     name: "Laurent Bouzon",
     role: "Fondateur & CEO",
     bio: "Serial entrepreneur orienté impact, ayant structuré ses précédentes entreprises autour de l'IA avec une maîtrise des leviers permettant un ROI rapide et mesurable.",
-    image: "https://i.ibb.co/4w8YjnW6/image-avatar-LB.png",
+    image: "/images/avatar-laurent-bouzon.png",
     linkedin: "https://www.linkedin.com/in/laurent-bouzon-150237108/",
   },
 ]
@@ -96,8 +96,8 @@ export const services: Service[] = [
 // Contenu du Hero
 export const heroContent: HeroContent = {
   title: "L'IA au service de votre performance.",
-  highlightedText: "Avec des résultats mesurables.",
+  highlightedText: "Des résultats mesurables pour les PME et ETI.",
   description:
-    "Smart Impulsion ne se contente pas de vous digitaliser. Nous alignons chaque décision technologique sur vos objectifs business, avec un seul critère de succès : un retour sur investissement mesurable, ou rien.",
+    "Smart Impulsion accompagne les PME et ETI françaises dans le déploiement de l'IA. Nous alignons chaque décision technologique sur vos objectifs business, avec un seul critère de succès : un retour sur investissement mesurable, ou rien.",
   ctaText: "Demander une évaluation gratuite",
 }
