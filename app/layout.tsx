@@ -9,6 +9,7 @@ import { Footer } from "@/components/footer"
 import { ScrollToTop } from "@/components/scroll-to-top"
 import { ResizeObserverFix } from "@/components/resize-observer-fix"
 import { AxeptioProvider } from "@/components/axeptio-provider"
+import { GoogleAnalytics } from "@/components/google-analytics"
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -132,6 +133,7 @@ export default function RootLayout({
           {children}
           <Footer />
           <AxeptioProvider />
+          <GoogleAnalytics />
         </ThemeProvider>
 
       </body>
