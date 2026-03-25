@@ -77,16 +77,16 @@ export async function generateMetadata({ params }: { params: { ville: string } }
   // Lyon gets enriched metadata
   if (ville === "lyon") {
     return {
-      title: "Agence IA a Lyon — Conseil en intelligence artificielle pour PME et ETI | Smart Impulsion",
+      title: "Agence IA à Lyon — Conseil en intelligence artificielle pour PME et ETI | Smart Impulsion",
       description:
-        "Smart Impulsion, votre agence IA a Lyon. Conseil, audit et deploiement IA pour PME et ETI lyonnaises. -32% de temps operationnel, ROI mesurable en 4 semaines. French Tech Lyon.",
+        "Smart Impulsion, votre agence IA à Lyon. Conseil, audit et déploiement IA pour PME et ETI lyonnaises. -32% de temps opérationnel, ROI mesurable en 4 semaines. French Tech Lyon.",
       alternates: {
         canonical: "https://www.smart-impulsion.com/presence-locale/lyon",
       },
       openGraph: {
-        title: "Agence IA a Lyon — Conseil en intelligence artificielle pour PME et ETI",
+        title: "Agence IA à Lyon — Conseil en intelligence artificielle pour PME et ETI",
         description:
-          "Smart Impulsion accompagne les PME et ETI lyonnaises dans le deploiement de l'IA avec un ROI mesurable. -32% de temps operationnel en 4 semaines.",
+          "Smart Impulsion accompagne les PME et ETI lyonnaises dans le déploiement de l'IA avec un ROI mesurable. -32% de temps opérationnel en 4 semaines.",
         type: "website",
         locale: "fr_FR",
         url: "https://www.smart-impulsion.com/presence-locale/lyon",
