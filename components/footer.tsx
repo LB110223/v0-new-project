@@ -52,17 +52,17 @@ export function Footer() {
             <Logo variant="footer" className="mb-4" />
             <p className="text-gray-600 mb-4">{generalInfo.footerText}</p>
             {generalInfo.address && (
-              <p className="text-gray-600 text-sm mb-2">{generalInfo.address}</p>
+              <p className="text-gray-600 text-sm mb-1">{generalInfo.address}</p>
             )}
             {generalInfo.phoneNumber && (
-              <p className="text-gray-600 text-sm mb-2">
+              <p className="text-gray-600 text-sm mb-1">
                 <a href={`tel:+33482532816`} className="hover:text-orange-500 transition-colors">
                   {generalInfo.phoneNumber}
                 </a>
               </p>
             )}
             {generalInfo.contactEmail && (
-              <p className="text-gray-600">
+              <p className="text-gray-600 text-sm">
                 <a href={`mailto:${generalInfo.contactEmail}`} className="hover:text-orange-500 transition-colors">
                   {generalInfo.contactEmail}
                 </a>
