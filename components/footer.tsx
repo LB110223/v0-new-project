@@ -22,7 +22,7 @@ const defaultGeneralInfo: GeneralInfo = {
   siteDescription:
     "Smart Impulsion transforme votre entreprise avec des solutions d'intelligence artificielle garantissant un retour sur investissement mesurable.",
   contactEmail: "contact@smart-impulsion.com",
-  phoneNumber: "",
+  phoneNumber: "04 82 53 28 16",
   address: "70 quai Perrache, 69002 Lyon",
   roiAverage: "+24%",
   footerText: "Transformez votre entreprise avec l'IA et un ROI mesurable.",
@@ -53,6 +53,13 @@ export function Footer() {
             <p className="text-gray-600 mb-4">{generalInfo.footerText}</p>
             {generalInfo.address && (
               <p className="text-gray-600 text-sm mb-2">{generalInfo.address}</p>
+            )}
+            {generalInfo.phoneNumber && (
+              <p className="text-gray-600 text-sm mb-2">
+                <a href={`tel:+33482532816`} className="hover:text-orange-500 transition-colors">
+                  {generalInfo.phoneNumber}
+                </a>
+              </p>
             )}
             {generalInfo.contactEmail && (
               <p className="text-gray-600">

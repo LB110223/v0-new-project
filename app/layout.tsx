@@ -94,6 +94,7 @@ export default function RootLayout({
               "name": "Smart Impulsion",
               "description": "Agence de conseil en intelligence artificielle pour PME et ETI. ROI mesurable garanti.",
               "url": "https://www.smart-impulsion.com",
+              "telephone": "+33 4 82 53 28 16",
               "email": "contact@smart-impulsion.com",
               "address": {
                 "@type": "PostalAddress",
