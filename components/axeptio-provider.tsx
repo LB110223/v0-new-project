@@ -5,6 +5,7 @@ declare global {
     axeptioSettings?: {
       clientId: string
       cookiesVersion: string
+      googleConsentMode?: object
     }
     openAxeptioCookies?: () => void
   }
@@ -19,8 +20,17 @@ export function AxeptioProvider() {
       >
         {`
           window.axeptioSettings = {
-            clientId: "6819f18c7725ab15cba26463",
-            cookiesVersion: "smart impulsion-fr-EU",
+            clientId: "6825ac28ce08b489a55f4f14",
+            cookiesVersion: "smart-impulsion-fr-EU",
+            googleConsentMode: {
+              default: {
+                analytics_storage: "denied",
+                ad_storage: "denied",
+                ad_user_data: "denied",
+                ad_personalization: "denied",
+                wait_for_update: 500
+              }
+            }
           };
         `}
       </Script>
