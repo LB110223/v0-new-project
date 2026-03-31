@@ -231,7 +231,7 @@ Pour les entreprises, l'enjeu n'est pas d'adopter ces technologies par effet de 
     dateISO: "2026-02-23",
     readTime: "11 min",
     category: "Systèmes IA",
-    image: "/agent-ia-plateforme-agentic.jpg",
+    image: "/agent-ia-agentic-hero.png",
   },
   {
     slug: "api-ia-choix-strategique-agence-ia",
@@ -388,7 +388,7 @@ L'enjeu n'est pas de trouver la "meilleure" API IA — concept qui n'a guère de
     dateISO: "2026-02-16",
     readTime: "12 min",
     category: "Stratégie IA",
-    image: "/api-ia-choix-strategique.jpg",
+    image: "/api-ia-strategie-hero.png",
   },
   {
     slug: "deepseek-r1-signal-faible-economie-llm",
@@ -523,7 +523,7 @@ DeepSeek R1 n'est pas une fin en soi. C'est un signal parmi d'autres que le marc
     dateISO: "2026-02-09",
     readTime: "10 min",
     category: "Analyse marché",
-    image: "/deepseek-r1-signal-faible.jpg",
+    image: "/deepseek-r1-hero.png",
   },
   {
     slug: "agents-ia-automatisation-nouveau-paradigme-entreprise",
@@ -718,7 +718,7 @@ L'automatisation intelligente et les agents IA ne sont pas une mode passagère. 
     dateISO: "2026-02-02",
     readTime: "12 min",
     category: "Transformation IA",
-    image: "/agents-ia-automatisation-entreprise.jpg",
+    image: "/agents-ia-automatisation-hero.png",
   },
   {
     slug: "analyse-startup-ia-crm-decision-autonome",
@@ -887,7 +887,7 @@ La réponse dépendra du contexte de chaque organisation — taille, maturité d
     dateISO: "2026-01-26",
     readTime: "14 min",
     category: "Analyse marché",
-    image: "/crm-ia-decision-autonome.jpg",
+    image: "/crm-ia-decision-hero.png",
   },
   {
     slug: "agence-ia-comment-choisir-partenaire-transformation",
@@ -1201,7 +1201,7 @@ En revanche, si vous cherchez un partenaire capable de transformer l'IA en avant
     dateISO: "2026-01-19",
     readTime: "18 min",
     category: "Stratégie IA",
-    image: "/agence-ia-guide-choix.jpg",
+    image: "/agence-ia-choix-hero.png",
   },
   {
     slug: "open-source-llm-decision-strategique",
@@ -1354,7 +1354,7 @@ Chez Smart Impulsion, nous accompagnons nos clients dans cette réflexion sans d
     dateISO: "2026-01-12",
     readTime: "15 min",
     category: "Stratégie IA",
-    image: "/open-source-llm-strategy.jpg",
+    image: "/open-source-llm-hero.png",
   },
   {
     slug: "ia-generative-entreprise-applications-concretes",
@@ -1521,7 +1521,7 @@ Contactez-nous pour un diagnostic gratuit de vos opportunités en IA générativ
     dateISO: "2026-01-05",
     readTime: "14 min",
     category: "IA Générative",
-    image: "/generative-ai-creative-technology.jpg",
+    image: "/ia-generative-hero.png",
   },
   {
     slug: "automatisation-processus-ia-guide-pratique",
@@ -1670,7 +1670,7 @@ Chez Smart Impulsion, nous accompagnons les entreprises de l'identification des 
     dateISO: "2025-12-29",
     readTime: "15 min",
     category: "Automatisation",
-    image: "/business-process-automation-workflow.png",
+    image: "/automatisation-processus-hero.png",
   },
   {
     slug: "chatbots-ia-service-client-2025",
@@ -1818,7 +1818,7 @@ Chez Smart Impulsion, nous concevons des assistants conversationnels qui compren
     dateISO: "2025-12-22",
     readTime: "13 min",
     category: "Service Client",
-    image: "/chatbot-customer-service-ai.jpg",
+    image: "/chatbots-ia-hero.png",
   },
   {
     slug: "roi-intelligence-artificielle-comment-mesurer",
@@ -1982,7 +1982,7 @@ Contactez-nous pour une évaluation gratuite du potentiel ROI de vos projets IA.
     dateISO: "2025-12-15",
     readTime: "14 min",
     category: "ROI & Stratégie",
-    image: "/business-analytics-dashboard-roi.jpg",
+    image: "/roi-ia-mesurer-hero.png",
   },
   {
     slug: "intelligence-artificielle-pme-guide-complet",
