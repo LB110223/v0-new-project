@@ -91,17 +91,47 @@ C'est l'échéance majeure. Les obligations suivantes entrent en application :
 
 Trois questions pour le savoir en 60 secondes :
 
-**Question 1 — Utilisez-vous un système d'IA dans votre entreprise ?** Chatbot (ChatGPT, Claude, Gemini), outil de génération de contenu, scoring automatisé, assistant de recrutement, outil de traduction, reconnaissance d'image, analyse prédictive...
-
-Si oui : vous êtes un **déployeur** au sens de l'AI Act. Passez à la question 2. Si non : l'AI Act ne vous concerne pas aujourd'hui. Mais il vous concernera demain — notre <a href="/blog/ia-pour-pme-guide" class="text-orange-700 underline hover:text-orange-800">guide de démarrage IA pour PME</a> vous aidera à anticiper.
-
-**Question 2 — Vos outils IA interagissent-ils directement avec des personnes ou génèrent-ils du contenu ?** Un chatbot sur votre site, un outil qui rédige des emails clients, un générateur d'images pour vos supports marketing...
-
-Si oui : vous avez des **obligations de transparence** à respecter d'ici août 2026 (informer que c'est de l'IA, marquer le contenu généré).
-
-**Question 3 — Utilisez-vous l'IA pour des décisions qui impactent des personnes ?** Tri de CV, scoring de clients pour l'octroi de crédit, évaluation de performance, notation d'élèves, priorisation de dossiers...
-
-Si oui : votre système est potentiellement **à haut risque**. Les obligations sont significatives : documentation technique, gestion des risques, supervision humaine, évaluation des droits fondamentaux.
+<div class="space-y-4 my-6">
+<div class="border border-gray-200 rounded-lg p-5 bg-gray-50">
+<div class="flex items-start gap-3">
+<span class="flex-shrink-0 w-8 h-8 rounded-full bg-orange-600 text-white flex items-center justify-center font-bold text-sm">1</span>
+<div>
+<p class="font-semibold text-gray-900 mb-2">Utilisez-vous un système d'IA dans votre entreprise ?</p>
+<p class="text-gray-600 text-sm">Chatbot (ChatGPT, Claude, Gemini), outil de génération de contenu, scoring automatisé, assistant de recrutement, outil de traduction, reconnaissance d'image, analyse prédictive...</p>
+<div class="mt-3 flex flex-wrap gap-3">
+<span class="text-sm font-medium text-green-700 bg-green-50 px-3 py-1 rounded-full">✓ Oui → Vous êtes un <strong>déployeur</strong>. Passez à la question 2</span>
+<span class="text-sm font-medium text-gray-500 bg-gray-100 px-3 py-1 rounded-full">✗ Non → Pas concerné aujourd'hui, mais <a href="/blog/ia-pour-pme-guide" class="text-orange-700 underline hover:text-orange-800">anticipez avec notre guide</a></span>
+</div>
+</div>
+</div>
+</div>
+<div class="border border-gray-200 rounded-lg p-5 bg-gray-50">
+<div class="flex items-start gap-3">
+<span class="flex-shrink-0 w-8 h-8 rounded-full bg-orange-600 text-white flex items-center justify-center font-bold text-sm">2</span>
+<div>
+<p class="font-semibold text-gray-900 mb-2">Vos outils IA interagissent-ils directement avec des personnes ou génèrent-ils du contenu ?</p>
+<p class="text-gray-600 text-sm">Un chatbot sur votre site, un outil qui rédige des emails clients, un générateur d'images pour vos supports marketing...</p>
+<div class="mt-3 flex flex-wrap gap-3">
+<span class="text-sm font-medium text-green-700 bg-green-50 px-3 py-1 rounded-full">✓ Oui → <strong>Obligations de transparence</strong> à respecter d'ici août 2026</span>
+<span class="text-sm font-medium text-gray-500 bg-gray-100 px-3 py-1 rounded-full">✗ Non → Passez à la question 3</span>
+</div>
+</div>
+</div>
+</div>
+<div class="border border-gray-200 rounded-lg p-5 bg-gray-50">
+<div class="flex items-start gap-3">
+<span class="flex-shrink-0 w-8 h-8 rounded-full bg-orange-600 text-white flex items-center justify-center font-bold text-sm">3</span>
+<div>
+<p class="font-semibold text-gray-900 mb-2">Utilisez-vous l'IA pour des décisions qui impactent des personnes ?</p>
+<p class="text-gray-600 text-sm">Tri de CV, scoring de clients pour l'octroi de crédit, évaluation de performance, notation d'élèves, priorisation de dossiers...</p>
+<div class="mt-3 flex flex-wrap gap-3">
+<span class="text-sm font-medium text-orange-700 bg-orange-50 px-3 py-1 rounded-full">⚠ Oui → Potentiellement <strong>à haut risque</strong> — obligations significatives</span>
+<span class="text-sm font-medium text-green-700 bg-green-50 px-3 py-1 rounded-full">✓ Non → Risque minimal, obligations limitées</span>
+</div>
+</div>
+</div>
+</div>
+</div>
 
 ## Les 4 niveaux de risque de l'AI Act
 
@@ -281,33 +311,64 @@ Envoyez un email à chaque fournisseur d'outil IA : "Quelle est votre stratégie
 
 ## FAQ : les questions que se posent les dirigeants de PME
 
-**Les PME de moins de 50 salariés sont-elles exemptées de l'AI Act ?**
-
-Non. L'AI Act s'applique à toute entreprise qui utilise un système d'IA dans l'Union européenne, quelle que soit sa taille. Il n'y a pas d'exemption fondée sur le nombre de salariés. En revanche, des mesures d'accompagnement sont prévues : accès prioritaire aux bacs à sable réglementaires (sandboxes), coûts de conformité proportionnés, documentation simplifiée, et plafonds d'amendes adaptés.
-
-**Quels outils IA sont considérés à haut risque ?**
-
-Un outil est à haut risque s'il est utilisé dans l'un des huit domaines listés à l'Annexe III : recrutement et gestion des RH, accès aux services essentiels (crédit, assurance), éducation, infrastructure critique, biométrie, application de la loi, migration, justice. Un chatbot qui répond à des questions générales n'est pas à haut risque. Un outil qui trie des CV ou évalue la solvabilité d'un client l'est.
-
-**Combien coûte la mise en conformité AI Act pour une PME ?**
-
-Pour une PME sans système à haut risque (la majorité des cas), comptez entre 3 000 et 15 000 euros : inventaire des outils, formation des équipes, ajustements de transparence, vérification des fournisseurs. Pour une PME avec des systèmes à haut risque, le coût est plus élevé (15 000 à 50 000 euros avec accompagnement spécialisé).
-
-**L'AI Act s'applique-t-il aux outils IA utilisés en interne ?**
-
-Oui. L'AI Act ne distingue pas entre usage interne et usage externe. Si vous utilisez un outil IA en interne pour évaluer vos salariés ou prioriser des dossiers, les mêmes règles s'appliquent. L'obligation de littératie IA concerne toutes les personnes qui utilisent l'IA dans l'entreprise, y compris pour des usages internes.
-
-**Que risque une PME non conforme à l'AI Act ?**
-
-Au niveau financier : des amendes jusqu'à 35 millions d'euros ou 7 % du CA pour les infractions les plus graves, adaptées à la baisse pour les PME. Au niveau commercial : l'exclusion des appels d'offres publics et privés. Au niveau réputationnel : un incident lié à une IA non conforme peut devenir un sujet médiatique et juridique majeur.
-
-**Le vote du Parlement européen du 26 mars 2026 change-t-il les échéances ?**
-
-Le Parlement a voté le report de certaines obligations pour les systèmes à haut risque au 2 décembre 2027 (Digital Omnibus on AI). Mais ce texte doit encore être adopté par le Conseil européen. Les obligations de transparence (article 50) et de littératie IA (article 4) ne sont pas concernées par ce report — elles restent applicables au 2 août 2026. Notre recommandation : préparez-vous pour août 2026.
-
-**Mon entreprise utilise ChatGPT ou un autre LLM via API — suis-je concerné ?**
-
-Oui. Vous êtes un "déployeur" au sens de l'AI Act. À minima, vous devez former vos équipes à l'utilisation responsable (littératie IA), informer les utilisateurs qu'ils interagissent avec une IA si c'est le cas (transparence), et vérifier que votre fournisseur respecte ses propres obligations GPAI. Si vous utilisez ces outils pour des décisions impactant des personnes, des obligations supplémentaires s'appliquent.
+<div class="space-y-4 my-6">
+<div class="border border-gray-200 rounded-lg overflow-hidden">
+<div class="bg-gray-50 px-5 py-4">
+<p class="font-semibold text-gray-900">Les PME de moins de 50 salariés sont-elles exemptées de l'AI Act ?</p>
+</div>
+<div class="px-5 py-4">
+<p class="text-gray-700">Non. L'AI Act s'applique à toute entreprise qui utilise un système d'IA dans l'Union européenne, quelle que soit sa taille. Il n'y a pas d'exemption fondée sur le nombre de salariés. En revanche, des mesures d'accompagnement sont prévues : accès prioritaire aux bacs à sable réglementaires (sandboxes), coûts de conformité proportionnés, documentation simplifiée, et plafonds d'amendes adaptés.</p>
+</div>
+</div>
+<div class="border border-gray-200 rounded-lg overflow-hidden">
+<div class="bg-gray-50 px-5 py-4">
+<p class="font-semibold text-gray-900">Quels outils IA sont considérés à haut risque ?</p>
+</div>
+<div class="px-5 py-4">
+<p class="text-gray-700">Un outil est à haut risque s'il est utilisé dans l'un des huit domaines listés à l'Annexe III : recrutement et gestion des RH, accès aux services essentiels (crédit, assurance), éducation, infrastructure critique, biométrie, application de la loi, migration, justice. Un chatbot qui répond à des questions générales n'est pas à haut risque. Un outil qui trie des CV ou évalue la solvabilité d'un client l'est.</p>
+</div>
+</div>
+<div class="border border-gray-200 rounded-lg overflow-hidden">
+<div class="bg-gray-50 px-5 py-4">
+<p class="font-semibold text-gray-900">Combien coûte la mise en conformité AI Act pour une PME ?</p>
+</div>
+<div class="px-5 py-4">
+<p class="text-gray-700">Pour une PME sans système à haut risque (la majorité des cas), comptez entre 3 000 et 15 000 euros : inventaire des outils, formation des équipes, ajustements de transparence, vérification des fournisseurs. Pour une PME avec des systèmes à haut risque, le coût est plus élevé (15 000 à 50 000 euros avec accompagnement spécialisé).</p>
+</div>
+</div>
+<div class="border border-gray-200 rounded-lg overflow-hidden">
+<div class="bg-gray-50 px-5 py-4">
+<p class="font-semibold text-gray-900">L'AI Act s'applique-t-il aux outils IA utilisés en interne ?</p>
+</div>
+<div class="px-5 py-4">
+<p class="text-gray-700">Oui. L'AI Act ne distingue pas entre usage interne et usage externe. Si vous utilisez un outil IA en interne pour évaluer vos salariés ou prioriser des dossiers, les mêmes règles s'appliquent. L'obligation de littératie IA concerne toutes les personnes qui utilisent l'IA dans l'entreprise, y compris pour des usages internes.</p>
+</div>
+</div>
+<div class="border border-gray-200 rounded-lg overflow-hidden">
+<div class="bg-gray-50 px-5 py-4">
+<p class="font-semibold text-gray-900">Que risque une PME non conforme à l'AI Act ?</p>
+</div>
+<div class="px-5 py-4">
+<p class="text-gray-700">Au niveau financier : des amendes jusqu'à 35 millions d'euros ou 7 % du CA pour les infractions les plus graves, adaptées à la baisse pour les PME. Au niveau commercial : l'exclusion des appels d'offres publics et privés. Au niveau réputationnel : un incident lié à une IA non conforme peut devenir un sujet médiatique et juridique majeur.</p>
+</div>
+</div>
+<div class="border border-gray-200 rounded-lg overflow-hidden">
+<div class="bg-gray-50 px-5 py-4">
+<p class="font-semibold text-gray-900">Le vote du Parlement européen du 26 mars 2026 change-t-il les échéances ?</p>
+</div>
+<div class="px-5 py-4">
+<p class="text-gray-700">Le Parlement a voté le report de certaines obligations pour les systèmes à haut risque au 2 décembre 2027 (Digital Omnibus on AI). Mais ce texte doit encore être adopté par le Conseil européen. Les obligations de transparence (article 50) et de littératie IA (article 4) ne sont pas concernées par ce report — elles restent applicables au 2 août 2026. Notre recommandation : préparez-vous pour août 2026.</p>
+</div>
+</div>
+<div class="border border-gray-200 rounded-lg overflow-hidden">
+<div class="bg-gray-50 px-5 py-4">
+<p class="font-semibold text-gray-900">Mon entreprise utilise ChatGPT ou un autre LLM via API — suis-je concerné ?</p>
+</div>
+<div class="px-5 py-4">
+<p class="text-gray-700">Oui. Vous êtes un "déployeur" au sens de l'AI Act. À minima, vous devez former vos équipes à l'utilisation responsable (littératie IA), informer les utilisateurs qu'ils interagissent avec une IA si c'est le cas (transparence), et vérifier que votre fournisseur respecte ses propres obligations GPAI. Si vous utilisez ces outils pour des décisions impactant des personnes, des obligations supplémentaires s'appliquent.</p>
+</div>
+</div>
+</div>
 
 ## Passez de la théorie à l'action
 
