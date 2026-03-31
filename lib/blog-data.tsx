@@ -3,6 +3,18 @@ export interface BlogFAQ {
   answer: string
 }
 
+export interface HowToStep {
+  name: string
+  text: string
+}
+
+export interface BlogHowTo {
+  name: string
+  description: string
+  totalTime: string
+  steps: HowToStep[]
+}
+
 export interface BlogArticle {
   slug: string
   title: string
@@ -18,6 +30,7 @@ export interface BlogArticle {
   image: string
   imageAlt?: string
   faq?: BlogFAQ[]
+  howTo?: BlogHowTo
 }
 
 export const blogArticles: BlogArticle[] = [
@@ -80,7 +93,7 @@ Trois questions pour le savoir en 60 secondes :
 
 **Question 1 — Utilisez-vous un système d'IA dans votre entreprise ?** Chatbot (ChatGPT, Claude, Gemini), outil de génération de contenu, scoring automatisé, assistant de recrutement, outil de traduction, reconnaissance d'image, analyse prédictive...
 
-Si oui : vous êtes un **déployeur** au sens de l'AI Act. Passez à la question 2. Si non : l'AI Act ne vous concerne pas aujourd'hui. Mais il vous concernera demain.
+Si oui : vous êtes un **déployeur** au sens de l'AI Act. Passez à la question 2. Si non : l'AI Act ne vous concerne pas aujourd'hui. Mais il vous concernera demain — notre <a href="/blog/ia-pour-pme-guide" class="text-orange-700 underline hover:text-orange-800">guide de démarrage IA pour PME</a> vous aidera à anticiper.
 
 **Question 2 — Vos outils IA interagissent-ils directement avec des personnes ou génèrent-ils du contenu ?** Un chatbot sur votre site, un outil qui rédige des emails clients, un générateur d'images pour vos supports marketing...
 
@@ -140,7 +153,7 @@ Au-delà de la classification des risques, voici ce que l'AI Act demande concrè
 - Adapter la formation au contexte d'utilisation (un commercial qui utilise un CRM augmenté n'a pas besoin de la même formation qu'un RH qui utilise un outil de tri de CV)
 - Documenter les formations réalisées (registre de formation)
 
-**Ce que ça ne veut PAS dire** : il n'y a pas d'obligation de nommer un "responsable IA" ni de créer une structure de gouvernance dédiée. Un programme de sensibilisation adapté à vos usages suffit.
+**Ce que ça ne veut PAS dire** : il n'y a pas d'obligation de nommer un "responsable IA" ni de créer une structure de gouvernance dédiée. Un <a href="/services/formation" class="text-orange-700 underline hover:text-orange-800">programme de formation IA adapté à votre équipe</a> suffit.
 
 **Coût estimé** : 1 000 à 5 000 euros pour une PME de 50 salariés (formation externe + temps interne).
 
@@ -156,7 +169,7 @@ Au-delà de la classification des risques, voici ce que l'AI Act demande concrè
 
 ### 3. Inventaire de vos systèmes IA
 
-**Pas explicitement requis par le texte, mais indispensable en pratique.** Vous ne pouvez pas évaluer vos risques si vous ne savez pas quels outils IA vous utilisez.
+**Pas explicitement requis par le texte, mais indispensable en pratique.** Vous ne pouvez pas évaluer vos risques si vous ne savez pas quels outils IA vous utilisez. Un <a href="/services/audit" class="text-orange-700 underline hover:text-orange-800">audit IA structuré</a> permet de cartographier l'ensemble de vos usages — consultez notre <a href="/blog/audit-ia-pme-guide-complet" class="text-orange-700 underline hover:text-orange-800">guide complet de l'audit IA en PME</a> pour la méthodologie détaillée.
 
 **Actions concrètes** :
 
@@ -176,7 +189,7 @@ Si vous utilisez un système classé haut risque (RH, scoring, crédit...) :
 
 ### 5. Vérification de vos fournisseurs
 
-En tant que déployeur, vous avez une responsabilité même si vous n'avez pas développé l'outil.
+En tant que déployeur, vous avez une responsabilité même si vous n'avez pas développé l'outil. Un <a href="/services/accompagnement" class="text-orange-700 underline hover:text-orange-800">accompagnement dans le choix de vos solutions IA</a> peut vous aider à sécuriser cette étape.
 
 **Actions concrètes** :
 
@@ -204,7 +217,7 @@ Les amendes ne sont que la partie visible. Les vrais risques pour une PME :
 
 ### Le coût de la conformité vs. le coût de l'inaction
 
-Pour une PME qui utilise l'IA sans système à haut risque, le coût de mise en conformité se situe entre **3 000 et 15 000 euros** (inventaire, formation, ajustements de transparence). C'est un investissement maîtrisé — l'équivalent de 1 à 3 jours de conseil.
+Pour une PME qui utilise l'IA sans système à haut risque, le coût de mise en conformité se situe entre **3 000 et 15 000 euros** (inventaire, formation, ajustements de transparence). C'est un investissement maîtrisé — l'équivalent de 1 à 3 jours de conseil. Pour évaluer cet investissement en perspective, découvrez comment <a href="/blog/roi-intelligence-artificielle-entreprise" class="text-orange-700 underline hover:text-orange-800">mesurer le ROI de vos initiatives IA</a>.
 
 Ne rien faire, c'est accepter un risque dont le plancher est 10 fois plus élevé que le coût de la conformité.
 
@@ -300,7 +313,7 @@ Oui. Vous êtes un "déployeur" au sens de l'AI Act. À minima, vous devez forme
 
 L'AI Act n'est pas une menace — c'est un cadre. Les PME qui s'y conforment tôt transforment une obligation réglementaire en avantage concurrentiel, exactement comme celles qui ont pris le RGPD au sérieux dès 2018.
 
-Le premier pas, c'est de savoir où vous en êtes.
+Le premier pas, c'est de savoir où vous en êtes. Vous pouvez <a href="/contact" class="text-orange-700 underline hover:text-orange-800">demander un diagnostic gratuit</a> pour évaluer votre situation.
 
 <div class="mt-8 p-8 bg-orange-50 rounded-2xl border border-orange-200">
 <h3 class="text-xl font-bold text-foreground mb-3">Smart Impulsion propose un Audit IA Express qui inclut un diagnostic de conformité AI Act.</h3>
@@ -345,6 +358,33 @@ Le premier pas, c'est de savoir où vous en êtes.
         answer: "Oui. Vous êtes un « déployeur » au sens de l'AI Act. À minima, vous devez : former vos équipes à l'utilisation responsable de ces outils (littératie IA), informer les utilisateurs qu'ils interagissent avec une IA si c'est le cas (transparence), et vous assurer que votre fournisseur (OpenAI, Anthropic, etc.) respecte ses propres obligations GPAI. Si vous utilisez ces outils pour des décisions qui impactent des personnes (RH, scoring), des obligations supplémentaires s'appliquent.",
       },
     ],
+    howTo: {
+      name: "Comment se mettre en conformité avec l'AI Act en 5 étapes",
+      description: "Checklist pour PME : 5 actions concrètes pour préparer la conformité AI Act avant août 2026",
+      totalTime: "P4W",
+      steps: [
+        {
+          name: "Inventaire des outils IA",
+          text: "Listez tous vos outils IA utilisés dans l'entreprise : chatbots, outils d'analyse, automatisation, scoring",
+        },
+        {
+          name: "Classification des risques",
+          text: "Classifiez chaque outil selon les 4 niveaux de risque de l'AI Act : inacceptable, haut risque, risque limité, risque minimal",
+        },
+        {
+          name: "Formation des équipes",
+          text: "Lancez un programme de littératie IA pour vos collaborateurs qui utilisent ou supervisent des systèmes IA",
+        },
+        {
+          name: "Transparence des outils IA",
+          text: "Ajoutez les mentions obligatoires sur vos outils IA en contact avec les clients : chatbots, génération de contenu",
+        },
+        {
+          name: "Vérification des fournisseurs",
+          text: "Demandez à vos fournisseurs IA leur documentation de conformité AI Act et les clauses contractuelles adaptées",
+        },
+      ],
+    },
   },
   {
     slug: "ia-pour-pme-guide",

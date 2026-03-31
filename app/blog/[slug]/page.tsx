@@ -2,7 +2,7 @@ import type { Metadata } from "next"
 import Link from "next/link"
 import Image from "next/image"
 import { notFound } from "next/navigation"
-import { blogArticles, getArticleBySlug, getAllArticleSlugs, type BlogFAQ } from "@/lib/blog-data"
+import { blogArticles, getArticleBySlug, getAllArticleSlugs, type BlogFAQ, type HowToStep } from "@/lib/blog-data"
 import { ArrowRight, Calendar, Clock, Linkedin, Twitter, Share2, BookOpen } from "lucide-react"
 
 interface BlogPostPageProps {
@@ -55,7 +55,7 @@ export async function generateMetadata({ params }: BlogPostPageProps): Promise<M
     },
     twitter: {
       card: "summary_large_image",
-      title: article.title,
+      title: article.seoTitle || `${article.title} | Smart Impulsion`,
       description: article.excerpt,
       images: [article.image.startsWith("http") ? article.image : `${baseUrl}${article.image}`],
     },
@@ -262,6 +262,19 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
     })),
   } : null
 
+  const howToJsonLd = article.howTo ? {
+    "@context": "https://schema.org",
+    "@type": "HowTo",
+    name: article.howTo.name,
+    description: article.howTo.description,
+    totalTime: article.howTo.totalTime,
+    step: article.howTo.steps.map((step: HowToStep) => ({
+      "@type": "HowToStep",
+      name: step.name,
+      text: step.text,
+    })),
+  } : null
+
   return (
     <>
       {/* Article structured data - static content from blog-data.tsx, safe for JSON-LD injection */}
@@ -269,6 +282,9 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
       {faqJsonLd && (
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      )}
+      {howToJsonLd && (
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(howToJsonLd) }} />
       )}
 
       <main className="min-h-screen bg-background">
