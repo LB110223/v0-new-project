@@ -89,12 +89,12 @@ export default function PresenceLocale() {
                   className="bg-white p-6 rounded-lg border border-gray-200 shadow-sm hover:shadow-md transition-shadow group"
                 >
                   <div className="flex items-start mb-2">
-                    <MapPin className="h-5 w-5 text-orange-600 mr-2 mt-1 flex-shrink-0" />
+                    <MapPin className="h-5 w-5 text-orange-700 mr-2 mt-1 flex-shrink-0" />
                     <h3 className="text-xl font-bold group-hover:text-orange-500 transition-colors">{ville.nom}</h3>
                   </div>
                   <p className="text-gray-600 mb-2">{ville.description}</p>
                   <p className="text-sm text-gray-500">Région : {ville.region}</p>
-                  <p className="mt-4 text-orange-600 font-medium group-hover:underline">
+                  <p className="mt-4 text-orange-700 font-medium group-hover:underline">
                     Découvrir notre expertise à {ville.nom} →
                   </p>
                 </Link>

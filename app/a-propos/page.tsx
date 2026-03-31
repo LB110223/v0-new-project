@@ -225,7 +225,7 @@ export default function AProposPage() {
                     <div className="bg-white rounded-xl p-6 border border-gray-200">
                       <div className="flex items-start justify-between mb-2">
                         <h4 className="text-lg font-bold text-gray-900">{offre.name}</h4>
-                        <span className="text-sm font-medium text-orange-600 bg-orange-50 px-3 py-1 rounded-full whitespace-nowrap ml-4">
+                        <span className="text-sm font-medium text-orange-700 bg-orange-50 px-3 py-1 rounded-full whitespace-nowrap ml-4">
                           {offre.prix}
                         </span>
                       </div>
@@ -236,7 +236,7 @@ export default function AProposPage() {
               </div>
 
               <div className="flex items-start gap-3 bg-orange-50 rounded-xl p-6 border border-orange-100">
-                <Zap className="h-6 w-6 text-orange-600 flex-shrink-0 mt-0.5" />
+                <Zap className="h-6 w-6 text-orange-700 flex-shrink-0 mt-0.5" />
                 <p className="text-gray-700">
                   <strong>Des resultats en semaines, pas en mois.</strong> L&apos;Audit IA
                   Express prend 2-3 jours. Le premier quick win est en production en 4 semaines.
@@ -340,7 +340,7 @@ export default function AProposPage() {
                     },
                   ].map((item, index) => (
                     <div key={index} className="flex items-start gap-3">
-                      <CheckCircle className="h-5 w-5 text-orange-600 flex-shrink-0 mt-0.5" />
+                      <CheckCircle className="h-5 w-5 text-orange-700 flex-shrink-0 mt-0.5" />
                       <div>
                         <p className="font-semibold text-gray-900">{item.titre}</p>
                         <p className="text-sm text-gray-600">{item.desc}</p>
@@ -375,10 +375,10 @@ export default function AProposPage() {
                 <div className="bg-black p-8 rounded-lg border border-gray-800 text-center transition-all duration-300 hover:border-orange-500">
                   <div className="flex items-center justify-center mb-4">
                     <result.icon
-                      className={`h-6 w-6 mr-2 ${result.isNegative ? "text-green-500" : "text-orange-600"}`}
+                      className={`h-6 w-6 mr-2 ${result.isNegative ? "text-green-500" : "text-orange-700"}`}
                     />
                     <span
-                      className={`text-4xl font-bold ${result.isNegative ? "text-green-500" : "text-orange-600"}`}
+                      className={`text-4xl font-bold ${result.isNegative ? "text-green-500" : "text-orange-700"}`}
                     >
                       {result.metric}
                     </span>
@@ -394,14 +394,14 @@ export default function AProposPage() {
             <div className="flex justify-center gap-8 max-w-2xl mx-auto">
               <div className="text-center">
                 <div className="flex items-center justify-center gap-2 mb-1">
-                  <Clock className="h-5 w-5 text-orange-600" />
+                  <Clock className="h-5 w-5 text-orange-700" />
                   <span className="text-2xl font-bold text-gray-900">4 semaines</span>
                 </div>
                 <p className="text-sm text-gray-600">Premiers resultats mesurables</p>
               </div>
               <div className="text-center">
                 <div className="flex items-center justify-center gap-2 mb-1">
-                  <Zap className="h-5 w-5 text-orange-600" />
+                  <Zap className="h-5 w-5 text-orange-700" />
                   <span className="text-2xl font-bold text-gray-900">2-3 jours</span>
                 </div>
                 <p className="text-sm text-gray-600">Audit IA Express complet</p>

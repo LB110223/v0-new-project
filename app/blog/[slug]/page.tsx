@@ -278,7 +278,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
 
               {/* Category & Reading Time */}
               <div className="flex items-center gap-3 mb-6">
-                <span className="text-sm font-semibold text-orange-600 uppercase tracking-wide">
+                <span className="text-sm font-semibold text-orange-700 uppercase tracking-wide">
                   {article.category}
                 </span>
                 <span className="w-1 h-1 rounded-full bg-muted-foreground" />
@@ -379,7 +379,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
                         {article.author.charAt(0)}
                       </div>
                       <div>
-                        <p className="text-sm font-medium text-orange-600 uppercase tracking-wide mb-1">
+                        <p className="text-sm font-medium text-orange-700 uppercase tracking-wide mb-1">
                           À propos de l'auteur
                         </p>
                         <h3 className="text-xl font-bold text-foreground mb-2">{article.author}</h3>
@@ -448,7 +448,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
               <div className="max-w-5xl mx-auto">
                 <div className="flex items-center justify-between mb-12">
                   <div>
-                    <p className="text-sm font-medium text-orange-600 uppercase tracking-widest mb-2">
+                    <p className="text-sm font-medium text-orange-700 uppercase tracking-widest mb-2">
                       Continuer la lecture
                     </p>
                     <h2 className="text-2xl md:text-3xl font-bold text-foreground">Articles similaires</h2>
@@ -474,7 +474,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
                         />
                       </div>
                       <div className="flex items-center gap-3 mb-3">
-                        <span className="text-xs font-semibold text-orange-600 uppercase tracking-wide">
+                        <span className="text-xs font-semibold text-orange-700 uppercase tracking-wide">
                           {relatedArticle.category}
                         </span>
                         <span className="w-1 h-1 rounded-full bg-muted-foreground" />

@@ -777,7 +777,7 @@ L'orchestration autonome va plus loin. Le système évalue en continu l'ensemble
 
 ### Une startup européenne au positionnement distinct
 
-<a href="https://www.symbioz.ai/fr" target="_blank" rel="noopener noreferrer" class="text-orange-600 hover:underline">SymbiozAI</a> est une startup qui se positionne sur ce segment des CRM IA natifs. Son approche se distingue des solutions traditionnelles par un parti pris architectural fort : construire un système centré sur la décision autonome plutôt que sur la gestion de données.
+<a href="https://www.symbioz.ai/fr" target="_blank" rel="noopener noreferrer" class="text-orange-700 hover:underline">SymbiozAI</a> est une startup qui se positionne sur ce segment des CRM IA natifs. Son approche se distingue des solutions traditionnelles par un parti pris architectural fort : construire un système centré sur la décision autonome plutôt que sur la gestion de données.
 
 La startup se présente non comme un CRM au sens classique, mais comme un "Autonomous Revenue Brain" — un système d'intelligence capable de piloter de manière autonome les actions commerciales de l'entreprise.
 
@@ -961,13 +961,13 @@ Les consultants indépendants spécialisés en IA sont de plus en plus nombreux.
       <td class="border border-gray-300 px-4 py-3 font-medium">Expertise IA</td>
       <td class="border border-gray-300 px-4 py-3">Variable</td>
       <td class="border border-gray-300 px-4 py-3">Variable</td>
-      <td class="border border-gray-300 px-4 py-3 text-orange-600 font-medium">Forte</td>
+      <td class="border border-gray-300 px-4 py-3 text-orange-700 font-medium">Forte</td>
       <td class="border border-gray-300 px-4 py-3">Variable</td>
     </tr>
     <tr class="bg-gray-50">
       <td class="border border-gray-300 px-4 py-3 font-medium">Capacité de scaling</td>
       <td class="border border-gray-300 px-4 py-3">Moyenne</td>
-      <td class="border border-gray-300 px-4 py-3 text-orange-600 font-medium">Forte</td>
+      <td class="border border-gray-300 px-4 py-3 text-orange-700 font-medium">Forte</td>
       <td class="border border-gray-300 px-4 py-3">Moyenne</td>
       <td class="border border-gray-300 px-4 py-3">Faible</td>
     </tr>
@@ -975,28 +975,28 @@ Les consultants indépendants spécialisés en IA sont de plus en plus nombreux.
       <td class="border border-gray-300 px-4 py-3 font-medium">Proximité client</td>
       <td class="border border-gray-300 px-4 py-3">Faible</td>
       <td class="border border-gray-300 px-4 py-3">Faible</td>
-      <td class="border border-gray-300 px-4 py-3 text-orange-600 font-medium">Forte</td>
-      <td class="border border-gray-300 px-4 py-3 text-orange-600 font-medium">Forte</td>
+      <td class="border border-gray-300 px-4 py-3 text-orange-700 font-medium">Forte</td>
+      <td class="border border-gray-300 px-4 py-3 text-orange-700 font-medium">Forte</td>
     </tr>
     <tr class="bg-gray-50">
       <td class="border border-gray-300 px-4 py-3 font-medium">Coût</td>
       <td class="border border-gray-300 px-4 py-3">Élevé</td>
       <td class="border border-gray-300 px-4 py-3">Moyen/Élevé</td>
       <td class="border border-gray-300 px-4 py-3">Moyen</td>
-      <td class="border border-gray-300 px-4 py-3 text-orange-600 font-medium">Faible</td>
+      <td class="border border-gray-300 px-4 py-3 text-orange-700 font-medium">Faible</td>
     </tr>
     <tr>
       <td class="border border-gray-300 px-4 py-3 font-medium">Agilité</td>
       <td class="border border-gray-300 px-4 py-3">Faible</td>
       <td class="border border-gray-300 px-4 py-3">Faible</td>
-      <td class="border border-gray-300 px-4 py-3 text-orange-600 font-medium">Forte</td>
-      <td class="border border-gray-300 px-4 py-3 text-orange-600 font-medium">Forte</td>
+      <td class="border border-gray-300 px-4 py-3 text-orange-700 font-medium">Forte</td>
+      <td class="border border-gray-300 px-4 py-3 text-orange-700 font-medium">Forte</td>
     </tr>
     <tr class="bg-gray-50">
       <td class="border border-gray-300 px-4 py-3 font-medium">Couverture projet</td>
       <td class="border border-gray-300 px-4 py-3">Stratégie</td>
-      <td class="border border-gray-300 px-4 py-3 text-orange-600 font-medium">Globale</td>
-      <td class="border border-gray-300 px-4 py-3 text-orange-600 font-medium">Globale</td>
+      <td class="border border-gray-300 px-4 py-3 text-orange-700 font-medium">Globale</td>
+      <td class="border border-gray-300 px-4 py-3 text-orange-700 font-medium">Globale</td>
       <td class="border border-gray-300 px-4 py-3">Partielle</td>
     </tr>
   </tbody>

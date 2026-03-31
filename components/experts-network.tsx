@@ -59,7 +59,7 @@ export function ExpertsNetwork() {
             <div className="bg-white rounded-xl p-6 border border-gray-200">
               <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
                 <div>
-                  <div className="text-3xl font-bold text-orange-600">10+</div>
+                  <div className="text-3xl font-bold text-orange-700">10+</div>
                   <div className="text-sm text-gray-600">Experts IA mobilisables</div>
                 </div>
                 <div>

@@ -53,7 +53,7 @@ export function Services() {
                   <h3 className="text-xl font-bold mb-1 text-white">{service.title}</h3>
                   <p className="text-gray-400 font-medium mb-4">{service.subtitle}</p>
                   <p className="text-gray-300 mb-4">{service.description}</p>
-                  <div className="flex items-center text-orange-600 font-medium text-sm group-hover:text-orange-400 transition-colors">
+                  <div className="flex items-center text-orange-700 font-medium text-sm group-hover:text-orange-400 transition-colors">
                     En savoir plus
                     <ArrowRight className="ml-1 h-4 w-4 group-hover:translate-x-1 transition-transform" />
                   </div>
@@ -67,7 +67,7 @@ export function Services() {
           <div className="mt-16 text-center">
             <p className="text-gray-500 mb-2">Notre mission première</p>
             <p className="text-xl font-medium text-black max-w-2xl mx-auto">
-              "Notre approche est basée sur des <span className="text-orange-600">indicateurs de performance</span>{" "}
+              "Notre approche est basée sur des <span className="text-orange-700">indicateurs de performance</span>{" "}
               concrets."
             </p>
           </div>

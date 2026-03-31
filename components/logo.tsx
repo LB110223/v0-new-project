@@ -23,8 +23,8 @@ export function Logo({ className = "", variant = "default" }: LogoProps) {
       <div className="relative font-bold flex items-center">
         <span className={`${textSize} text-black`}>Smart</span>
         <div className="relative">
-          <span className={`${textSize} text-orange-600 ml-1.5`}>Impulsion</span>
-          <ArrowUpRight className={`${iconSize} text-orange-600 absolute -top-1 -right-3`} />
+          <span className={`${textSize} text-orange-700 ml-1.5`}>Impulsion</span>
+          <ArrowUpRight className={`${iconSize} text-orange-700 absolute -top-1 -right-3`} />
         </div>
       </div>
     </div>

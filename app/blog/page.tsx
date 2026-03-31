@@ -90,7 +90,7 @@ export default function BlogPage() {
         <section className="pt-24 pb-12 bg-background">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl">
-              <p className="text-sm font-medium tracking-widest text-orange-600 uppercase mb-4">Le Blog</p>
+              <p className="text-sm font-medium tracking-widest text-orange-700 uppercase mb-4">Le Blog</p>
               <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-4 leading-tight">
                 Insights & Expertises
                 <br />
@@ -190,7 +190,7 @@ export default function BlogPage() {
                     {/* Content */}
                     <div>
                       <div className="flex items-center gap-3 mb-4">
-                        <span className="text-xs font-semibold text-orange-600 uppercase tracking-wide">
+                        <span className="text-xs font-semibold text-orange-700 uppercase tracking-wide">
                           {article.category}
                         </span>
                         <span className="w-1 h-1 rounded-full bg-muted-foreground" />
@@ -202,7 +202,7 @@ export default function BlogPage() {
                       <p className="text-muted-foreground line-clamp-2 mb-4">{article.excerpt}</p>
                       <div className="flex items-center justify-between">
                         <span className="text-sm text-muted-foreground">{article.date}</span>
-                        <span className="inline-flex items-center gap-1 text-orange-600 font-medium text-sm opacity-0 group-hover:opacity-100 transition-opacity">
+                        <span className="inline-flex items-center gap-1 text-orange-700 font-medium text-sm opacity-0 group-hover:opacity-100 transition-opacity">
                           Lire
                           <ArrowRight className="w-4 h-4" />
                         </span>
@@ -221,7 +221,7 @@ export default function BlogPage() {
             <div className="max-w-4xl mx-auto">
               <div className="grid lg:grid-cols-2 gap-12 items-center">
                 <div>
-                  <span className="inline-flex items-center gap-2 text-sm font-medium text-orange-600 uppercase tracking-widest mb-4">
+                  <span className="inline-flex items-center gap-2 text-sm font-medium text-orange-700 uppercase tracking-widest mb-4">
                     <TrendingUp className="w-4 h-4" />
                     Restez informé
                   </span>

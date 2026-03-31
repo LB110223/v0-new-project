@@ -71,7 +71,7 @@ export function CaseStudies() {
             <span className="inline-block px-4 py-1.5 bg-orange-100 text-orange-800 rounded-full text-sm font-medium mb-3 shadow-sm">
               Résultats Prouvés
             </span>
-            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-orange-600">Des ROI mesurables et vérifiables</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-orange-700">Des ROI mesurables et vérifiables</h2>
             <p className="text-lg text-slate-700 max-w-2xl mx-auto">
               Découvrez comment nous avons transformé des entreprises françaises avec des résultats concrets et
               mesurables.
@@ -84,7 +84,7 @@ export function CaseStudies() {
             <AnimateOnScroll key={study.id} variant="fade-up" delay={index * 200}>
               <Card className="overflow-hidden border-none shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1 group">
                 <div className={`p-6 bg-gradient-to-br ${study.gradient} relative`}>
-                  <div className="absolute top-4 right-4 bg-white text-orange-600 font-bold px-3 py-2 rounded-full flex items-center shadow-lg">
+                  <div className="absolute top-4 right-4 bg-white text-orange-700 font-bold px-3 py-2 rounded-full flex items-center shadow-lg">
                     <TrendingUp className="h-4 w-4 mr-1" />
                     <span>{study.metric}</span>
                   </div>
@@ -115,18 +115,18 @@ export function CaseStudies() {
 
         <AnimateOnScroll variant="fade-up" delay={600}>
           <div className="mt-16 text-center">
-            <p className="text-lg font-medium text-orange-600 mb-4">Nos résultats mesurés chez nos clients</p>
+            <p className="text-lg font-medium text-orange-700 mb-4">Nos résultats mesurés chez nos clients</p>
             <div className="inline-flex flex-wrap items-center justify-center gap-6 bg-white px-8 py-5 rounded-2xl shadow-2xl">
               <div className="text-center">
-                <span className="block text-3xl font-bold text-orange-600">-32%</span>
+                <span className="block text-3xl font-bold text-orange-700">-32%</span>
                 <span className="text-sm text-slate-600">Temps opérationnel</span>
               </div>
               <div className="text-center">
-                <span className="block text-3xl font-bold text-orange-600">+18%</span>
+                <span className="block text-3xl font-bold text-orange-700">+18%</span>
                 <span className="text-sm text-slate-600">Perf. commerciale</span>
               </div>
               <div className="text-center">
-                <span className="block text-3xl font-bold text-orange-600">24%</span>
+                <span className="block text-3xl font-bold text-orange-700">24%</span>
                 <span className="text-sm text-slate-600">ROI moyen</span>
               </div>
             </div>

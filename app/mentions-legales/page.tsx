@@ -45,7 +45,7 @@ export default function MentionsLegales() {
             </p>
             <p>
               <strong>Contact :</strong>{" "}
-              <a href="https://www.digitalocean.com/company/contact" className="text-orange-600 hover:underline">
+              <a href="https://www.digitalocean.com/company/contact" className="text-orange-700 hover:underline">
                 https://www.digitalocean.com/company/contact
               </a>
             </p>
@@ -83,14 +83,14 @@ export default function MentionsLegales() {
               Libertés, vous disposez d'un droit d'accès, de rectification, de suppression, de limitation, de
               portabilité et d'opposition aux données vous concernant. Vous pouvez exercer ces droits en nous contactant
               à l'adresse email suivante :{" "}
-              <a href="mailto:contact@smart-impulsion.com" className="text-orange-600 hover:underline">
+              <a href="mailto:contact@smart-impulsion.com" className="text-orange-700 hover:underline">
                 contact@smart-impulsion.com
               </a>
               .
             </p>
             <p>
               Pour plus d'informations sur la façon dont nous traitons vos données, veuillez consulter notre{" "}
-              <Link href="/politique-de-confidentialite" className="text-orange-600 hover:underline">
+              <Link href="/politique-de-confidentialite" className="text-orange-700 hover:underline">
                 Politique de Confidentialité
               </Link>
               .
@@ -111,7 +111,7 @@ export default function MentionsLegales() {
             </p>
             <p>
               Pour plus d'informations sur notre utilisation des cookies, veuillez consulter notre{" "}
-              <Link href="/politique-de-confidentialite" className="text-orange-600 hover:underline">
+              <Link href="/politique-de-confidentialite" className="text-orange-700 hover:underline">
                 Politique de Confidentialité
               </Link>
               .
@@ -154,7 +154,7 @@ export default function MentionsLegales() {
             <p>
               Pour toute question relative aux présentes mentions légales ou à l'utilisation du site Smart Impulsion,
               vous pouvez nous contacter à l'adresse email suivante :{" "}
-              <a href="mailto:contact@smart-impulsion.com" className="text-orange-600 hover:underline">
+              <a href="mailto:contact@smart-impulsion.com" className="text-orange-700 hover:underline">
                 contact@smart-impulsion.com
               </a>
               .

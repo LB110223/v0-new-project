@@ -25,7 +25,7 @@ export default function ContactPage() {
         <div className="container mx-auto px-4">
           <AnimateOnScroll animation="fadeIn">
             <div className="max-w-3xl mx-auto text-center">
-              <span className="inline-block text-orange-600 font-medium mb-4">Parlons de votre projet</span>
+              <span className="inline-block text-orange-700 font-medium mb-4">Parlons de votre projet</span>
               <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">
                 Prêt à transformer votre entreprise avec l'IA ?
               </h1>

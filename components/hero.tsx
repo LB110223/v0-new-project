@@ -22,17 +22,17 @@ export function Hero() {
 
       <div className="container mx-auto px-4 relative">
         <div className="max-w-3xl mx-auto text-center">
-          <AnimateOnScroll variant="fade-down" duration={800} threshold={0.01}>
+          <AnimateOnScroll variant="fade-down" duration={800} threshold={0.01} startVisible>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-black mb-6">
-              {heroContent.title} <span className="text-orange-600">{heroContent.highlightedText}</span>
+              {heroContent.title} <span className="text-orange-700">{heroContent.highlightedText}</span>
             </h1>
           </AnimateOnScroll>
 
-          <AnimateOnScroll variant="fade-up" delay={200} duration={800} threshold={0.01}>
+          <AnimateOnScroll variant="fade-up" delay={200} duration={800} threshold={0.01} startVisible>
             <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">{heroContent.description}</p>
           </AnimateOnScroll>
 
-          <AnimateOnScroll variant="zoom-in" delay={400} duration={800} threshold={0.01}>
+          <AnimateOnScroll variant="zoom-in" delay={400} duration={800} threshold={0.01} startVisible>
             <div className="flex justify-center">
               <Button
                 size="lg"

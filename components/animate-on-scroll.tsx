@@ -23,6 +23,13 @@ interface AnimateOnScrollProps {
   duration?: number
   threshold?: number
   once?: boolean
+  /**
+   * When true, content renders visible on first paint (SSR) and the
+   * entrance animation is skipped.  Use this for above-the-fold / LCP
+   * elements so that they are painted immediately without waiting for
+   * JS hydration + IntersectionObserver.
+   */
+  startVisible?: boolean
 }
 
 export function AnimateOnScroll({
@@ -33,9 +40,10 @@ export function AnimateOnScroll({
   duration = 700,
   threshold = 0.05, // Réduit de 0.1 à 0.05 pour déclencher plus tôt
   once = true,
+  startVisible = false,
 }: AnimateOnScrollProps) {
-  const [isVisible, setIsVisible] = useState(false)
-  const [hasAnimated, setHasAnimated] = useState(false)
+  const [isVisible, setIsVisible] = useState(startVisible)
+  const [hasAnimated, setHasAnimated] = useState(startVisible)
   const ref = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
