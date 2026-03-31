@@ -322,14 +322,16 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
         <section className="pb-8">
           <div className="container mx-auto px-4">
             <div className="max-w-5xl mx-auto">
-              <div className="relative aspect-[21/9] rounded-2xl overflow-hidden shadow-2xl">
+              <div className="relative aspect-[21/9] rounded-2xl overflow-hidden shadow-2xl bg-gray-900">
                 <Image
                   src={article.image || "/placeholder.svg"}
                   alt={article.title}
                   fill
-                  className="object-cover"
+                  className="object-cover saturate-[0.85] contrast-[1.05]"
+                  sizes="(max-width: 1280px) 100vw, 1280px"
                   priority
                 />
+                <div className="absolute inset-0 bg-gradient-to-t from-gray-900/40 via-transparent to-gray-900/10" />
               </div>
             </div>
           </div>
@@ -467,13 +469,16 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
                 <div className="grid md:grid-cols-2 gap-8">
                   {relatedArticles.map((relatedArticle) => (
                     <Link key={relatedArticle.slug} href={`/blog/${relatedArticle.slug}`} className="group block">
-                      <div className="relative aspect-[16/10] rounded-xl overflow-hidden mb-4">
+                      <div className="relative aspect-[16/9] rounded-xl overflow-hidden mb-4 bg-gray-900">
                         <Image
                           src={relatedArticle.image || "/placeholder.svg"}
                           alt={relatedArticle.title}
                           fill
-                          className="object-cover group-hover:scale-105 transition-transform duration-500"
+                          className="object-cover group-hover:scale-105 transition-transform duration-500 saturate-[0.85] contrast-[1.05]"
+                          sizes="(max-width: 768px) 100vw, 50vw"
                         />
+                        <div className="absolute inset-0 bg-gradient-to-t from-gray-900/60 via-gray-900/15 to-gray-900/5" />
+                        <div className="absolute inset-0 bg-orange-500/[0.04]" />
                       </div>
                       <div className="flex items-center gap-3 mb-3">
                         <span className="text-xs font-semibold text-orange-700 uppercase tracking-wide">

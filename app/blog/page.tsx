@@ -108,15 +108,16 @@ export default function BlogPage() {
               <article className="relative rounded-2xl overflow-hidden bg-foreground">
                 <div className="grid lg:grid-cols-2 min-h-[500px]">
                   {/* Image */}
-                  <div className="relative h-64 lg:h-auto order-1 lg:order-2">
+                  <div className="relative h-64 lg:h-auto order-1 lg:order-2 overflow-hidden">
                     <Image
                       src={featuredArticle.image || "/placeholder.svg"}
                       alt={featuredArticle.title}
                       fill
                       className="object-cover group-hover:scale-105 transition-transform duration-700"
+                      sizes="(max-width: 1024px) 100vw, 50vw"
                       priority
                     />
-                    <div className="absolute inset-0 bg-gradient-to-t from-foreground/50 to-transparent lg:bg-gradient-to-r" />
+                    <div className="absolute inset-0 bg-gradient-to-t from-foreground/60 via-foreground/20 to-foreground/10 lg:bg-gradient-to-r" />
                   </div>
                   {/* Content */}
                   <div className="relative p-8 lg:p-12 flex flex-col justify-center order-2 lg:order-1">
@@ -176,14 +177,16 @@ export default function BlogPage() {
                 <article key={article.slug} className="group">
                   <Link href={`/blog/${article.slug}`} className="block">
                     {/* Image */}
-                    <div className="relative aspect-[16/10] rounded-xl overflow-hidden mb-6">
+                    <div className="relative aspect-[16/9] rounded-xl overflow-hidden mb-6 bg-gray-900">
                       <Image
                         src={article.image || "/placeholder.svg"}
                         alt={article.title}
                         fill
-                        className="object-cover group-hover:scale-105 transition-transform duration-500"
+                        className="object-cover group-hover:scale-105 transition-transform duration-500 saturate-[0.85] contrast-[1.05]"
+                        sizes="(max-width: 768px) 100vw, 50vw"
                       />
-                      <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
+                      <div className="absolute inset-0 bg-gradient-to-t from-gray-900/60 via-gray-900/15 to-gray-900/5" />
+                      <div className="absolute inset-0 bg-orange-500/[0.04]" />
                     </div>
                     {/* Content */}
                     <div>
