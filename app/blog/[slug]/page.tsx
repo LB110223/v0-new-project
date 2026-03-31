@@ -322,7 +322,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
         <section className="pb-8">
           <div className="container mx-auto px-4">
             <div className="max-w-5xl mx-auto">
-              <div className="relative aspect-[21/9] rounded-2xl overflow-hidden shadow-2xl bg-gray-900">
+              <div className="relative aspect-[40/21] rounded-2xl overflow-hidden shadow-2xl bg-gray-900">
                 <Image
                   src={article.image || "/placeholder.svg"}
                   alt={article.title}
@@ -469,7 +469,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
                 <div className="grid md:grid-cols-2 gap-8">
                   {relatedArticles.map((relatedArticle) => (
                     <Link key={relatedArticle.slug} href={`/blog/${relatedArticle.slug}`} className="group block">
-                      <div className="relative aspect-[16/9] rounded-xl overflow-hidden mb-4 bg-gray-900">
+                      <div className="relative aspect-[40/21] rounded-xl overflow-hidden mb-4 bg-gray-900">
                         <Image
                           src={relatedArticle.image || "/placeholder.svg"}
                           alt={relatedArticle.title}

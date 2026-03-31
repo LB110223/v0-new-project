@@ -177,7 +177,7 @@ export default function BlogPage() {
                 <article key={article.slug} className="group">
                   <Link href={`/blog/${article.slug}`} className="block">
                     {/* Image */}
-                    <div className="relative aspect-[16/9] rounded-xl overflow-hidden mb-6 bg-gray-900">
+                    <div className="relative aspect-[40/21] rounded-xl overflow-hidden mb-6 bg-gray-900">
                       <Image
                         src={article.image || "/placeholder.svg"}
                         alt={article.title}
