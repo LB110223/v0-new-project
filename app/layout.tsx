@@ -11,7 +11,7 @@ import { ResizeObserverFix } from "@/components/resize-observer-fix"
 import { AxeptioProvider } from "@/components/axeptio-provider"
 import { GoogleAnalytics } from "@/components/google-analytics"
 
-const inter = Inter({ subsets: ["latin"] })
+const inter = Inter({ subsets: ["latin"], display: "swap" })
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.smart-impulsion.com"),
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   ],
   icons: {
     icon: [
-      { url: "/favicon.png", type: "image/png", sizes: "any" },
+      { url: "/favicon.png", type: "image/png", sizes: "48x48" },
       { url: "/icon-192.png", type: "image/png", sizes: "192x192" },
       { url: "/icon-512.png", type: "image/png", sizes: "512x512" },
     ],
@@ -80,7 +80,10 @@ export default function RootLayout({
             `,
           }}
         />
-        <link rel="icon" href="/favicon.png" type="image/png" sizes="any" />
+        <link rel="preconnect" href="https://static.axept.io" />
+        <link rel="preconnect" href="https://www.googletagmanager.com" />
+        <link rel="dns-prefetch" href="https://challenges.cloudflare.com" />
+        <link rel="icon" href="/favicon.png" type="image/png" sizes="48x48" />
         <link rel="icon" href="/icon-192.png" type="image/png" sizes="192x192" />
         <link rel="icon" href="/icon-512.png" type="image/png" sizes="512x512" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />

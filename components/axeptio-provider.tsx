@@ -16,7 +16,7 @@ export function AxeptioProvider() {
     <>
       <Script
         id="axeptio-settings"
-        strategy="beforeInteractive"
+        strategy="afterInteractive"
       >
         {`
           window.axeptioSettings = {
@@ -37,7 +37,7 @@ export function AxeptioProvider() {
       <Script
         id="axeptio-sdk"
         src="https://static.axept.io/sdk.js"
-        strategy="afterInteractive"
+        strategy="lazyOnload"
       />
     </>
   )

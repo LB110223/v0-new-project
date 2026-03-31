@@ -24,7 +24,7 @@ export function Hero() {
         <div className="max-w-3xl mx-auto text-center">
           <AnimateOnScroll variant="fade-down" duration={800} threshold={0.01}>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-black mb-6">
-              {heroContent.title} <span className="text-orange-500">{heroContent.highlightedText}</span>
+              {heroContent.title} <span className="text-orange-600">{heroContent.highlightedText}</span>
             </h1>
           </AnimateOnScroll>
 

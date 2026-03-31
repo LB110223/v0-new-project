@@ -777,7 +777,7 @@ L'orchestration autonome va plus loin. Le système évalue en continu l'ensemble
 
 ### Une startup européenne au positionnement distinct
 
-<a href="https://www.symbioz.ai/fr" target="_blank" rel="noopener noreferrer" class="text-orange-500 hover:underline">SymbiozAI</a> est une startup qui se positionne sur ce segment des CRM IA natifs. Son approche se distingue des solutions traditionnelles par un parti pris architectural fort : construire un système centré sur la décision autonome plutôt que sur la gestion de données.
+<a href="https://www.symbioz.ai/fr" target="_blank" rel="noopener noreferrer" class="text-orange-600 hover:underline">SymbiozAI</a> est une startup qui se positionne sur ce segment des CRM IA natifs. Son approche se distingue des solutions traditionnelles par un parti pris architectural fort : construire un système centré sur la décision autonome plutôt que sur la gestion de données.
 
 La startup se présente non comme un CRM au sens classique, mais comme un "Autonomous Revenue Brain" — un système d'intelligence capable de piloter de manière autonome les actions commerciales de l'entreprise.
 

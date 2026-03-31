@@ -132,7 +132,7 @@ export default function AdminHero() {
               <h3 className="font-medium text-blue-800 mb-2">Aperçu</h3>
               <div className="bg-white p-6 rounded-md border border-blue-100">
                 <h1 className="text-2xl font-bold mb-2">
-                  {heroContent.title} <span className="text-orange-500">{heroContent.highlightedText}</span>
+                  {heroContent.title} <span className="text-orange-600">{heroContent.highlightedText}</span>
                 </h1>
                 <p className="text-gray-600 mb-4">{heroContent.description}</p>
                 <div className="inline-block bg-gray-100 px-4 py-2 rounded-md font-medium">{heroContent.ctaText}</div>

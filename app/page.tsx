@@ -2,7 +2,7 @@ import { Hero } from "@/components/hero"
 import { Services } from "@/components/services"
 import { Results } from "@/components/results"
 import { Testimonials } from "@/components/testimonials"
-import { Contact } from "@/components/contact"
+import { ContactLazy } from "@/components/contact-lazy"
 import Founder from "@/components/founder"
 import { ExpertsNetwork } from "@/components/experts-network"
 
@@ -66,7 +66,7 @@ export default function Home() {
       <Results />
       <ExpertsNetwork />
       <Testimonials />
-      <Contact />
+      <ContactLazy />
     </main>
   )
 }

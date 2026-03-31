@@ -167,7 +167,7 @@ export default function AuditPage() {
             {benefices.map((item, index) => (
               <AnimateOnScroll key={index} animation="fade-up" delay={index * 100}>
                 <div className="text-center">
-                  <div className="text-4xl font-bold text-orange-500 mb-2">{item.chiffre}</div>
+                  <div className="text-4xl font-bold text-orange-600 mb-2">{item.chiffre}</div>
                   <div className="text-gray-600">{item.description}</div>
                 </div>
               </AnimateOnScroll>
@@ -225,7 +225,7 @@ export default function AuditPage() {
               <AnimateOnScroll key={index} animation="fade-up" delay={index * 100}>
                 <div className="bg-gray-50 rounded-xl p-6 hover-lift border border-gray-200">
                   <div className="w-12 h-12 bg-orange-100 rounded-lg flex items-center justify-center mb-4">
-                    <item.icon className="h-6 w-6 text-orange-500" />
+                    <item.icon className="h-6 w-6 text-orange-600" />
                   </div>
                   <h3 className="text-lg font-semibold text-gray-900 mb-2">{item.titre}</h3>
                   <p className="text-gray-600 text-sm">{item.desc}</p>
@@ -253,7 +253,7 @@ export default function AuditPage() {
               <AnimateOnScroll key={index} animation="fade-up" delay={index * 100}>
                 <div className="bg-white rounded-xl p-6 border border-gray-200 text-center hover-lift">
                   <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <dim.icon className="h-8 w-8 text-orange-500" />
+                    <dim.icon className="h-8 w-8 text-orange-600" />
                   </div>
                   <h3 className="text-lg font-semibold text-gray-900 mb-2">{dim.titre}</h3>
                   <p className="text-gray-600 text-sm">{dim.desc}</p>
@@ -323,7 +323,7 @@ export default function AuditPage() {
           <AnimateOnScroll animation="fade-up">
             <div className="max-w-3xl mx-auto text-center">
               <div className="inline-flex items-center justify-center w-16 h-16 bg-orange-100 rounded-full mb-6">
-                <Shield className="h-8 w-8 text-orange-500" />
+                <Shield className="h-8 w-8 text-orange-600" />
               </div>
               <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">Financement possible jusqu'à 50%</h2>
               <p className="text-lg text-gray-600 mb-6">

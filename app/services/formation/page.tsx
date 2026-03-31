@@ -151,7 +151,7 @@ export default function FormationPage() {
             {resultats.map((item, index) => (
               <AnimateOnScroll key={index} animation="fade-up" delay={index * 100}>
                 <div className="text-center">
-                  <div className="text-4xl font-bold text-orange-500 mb-2">{item.chiffre}</div>
+                  <div className="text-4xl font-bold text-orange-600 mb-2">{item.chiffre}</div>
                   <div className="text-gray-600">{item.description}</div>
                 </div>
               </AnimateOnScroll>
@@ -201,7 +201,7 @@ export default function FormationPage() {
               <AnimateOnScroll key={index} animation="fade-up" delay={index * 100}>
                 <div className="bg-gray-50 rounded-xl p-6 hover-lift border border-gray-200">
                   <div className="w-12 h-12 bg-orange-100 rounded-lg flex items-center justify-center mb-4">
-                    <item.icon className="h-6 w-6 text-orange-500" />
+                    <item.icon className="h-6 w-6 text-orange-600" />
                   </div>
                   <h3 className="text-lg font-semibold text-gray-900 mb-2">{item.titre}</h3>
                   <p className="text-gray-600 text-sm">{item.desc}</p>
@@ -230,7 +230,7 @@ export default function FormationPage() {
                 <div className="bg-white rounded-xl border border-gray-200 overflow-hidden hover-lift h-full flex flex-col">
                   <div className="p-6 border-b border-gray-100">
                     <div className="flex items-center justify-between mb-4">
-                      <span className="text-xs font-medium uppercase tracking-wider text-orange-500 bg-orange-50 px-3 py-1 rounded-full">
+                      <span className="text-xs font-medium uppercase tracking-wider text-orange-600 bg-orange-50 px-3 py-1 rounded-full">
                         {formation.niveau}
                       </span>
                       <div className="flex items-center text-gray-500 text-sm">
@@ -324,7 +324,7 @@ export default function FormationPage() {
               <AnimateOnScroll key={index} animation="fade-up" delay={index * 100}>
                 <div className="flex gap-4">
                   <div className="w-12 h-12 bg-orange-100 rounded-lg flex items-center justify-center flex-shrink-0">
-                    <item.icon className="h-6 w-6 text-orange-500" />
+                    <item.icon className="h-6 w-6 text-orange-600" />
                   </div>
                   <div>
                     <h3 className="text-lg font-semibold text-gray-900 mb-1">{item.titre}</h3>

@@ -71,7 +71,7 @@ export function CaseStudies() {
             <span className="inline-block px-4 py-1.5 bg-orange-100 text-orange-800 rounded-full text-sm font-medium mb-3 shadow-sm">
               Résultats Prouvés
             </span>
-            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-orange-500">Des ROI mesurables et vérifiables</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-orange-600">Des ROI mesurables et vérifiables</h2>
             <p className="text-lg text-slate-700 max-w-2xl mx-auto">
               Découvrez comment nous avons transformé des entreprises françaises avec des résultats concrets et
               mesurables.
@@ -118,15 +118,15 @@ export function CaseStudies() {
             <p className="text-lg font-medium text-orange-600 mb-4">Nos résultats mesurés chez nos clients</p>
             <div className="inline-flex flex-wrap items-center justify-center gap-6 bg-white px-8 py-5 rounded-2xl shadow-2xl">
               <div className="text-center">
-                <span className="block text-3xl font-bold text-orange-500">-32%</span>
+                <span className="block text-3xl font-bold text-orange-600">-32%</span>
                 <span className="text-sm text-slate-600">Temps opérationnel</span>
               </div>
               <div className="text-center">
-                <span className="block text-3xl font-bold text-orange-500">+18%</span>
+                <span className="block text-3xl font-bold text-orange-600">+18%</span>
                 <span className="text-sm text-slate-600">Perf. commerciale</span>
               </div>
               <div className="text-center">
-                <span className="block text-3xl font-bold text-orange-500">24%</span>
+                <span className="block text-3xl font-bold text-orange-600">24%</span>
                 <span className="text-sm text-slate-600">ROI moyen</span>
               </div>
             </div>

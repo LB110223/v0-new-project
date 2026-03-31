@@ -231,7 +231,7 @@ export function ContactForm() {
           onSuccess={(token) => setTurnstileToken(token)}
           onError={() => setTurnstileToken(null)}
           onExpire={() => setTurnstileToken(null)}
-          options={{ theme: "light", size: "flexible" }}
+          options={{ theme: "light", size: "flexible", appearance: "interaction-only", execution: "execute" }}
         />
       </div>
 

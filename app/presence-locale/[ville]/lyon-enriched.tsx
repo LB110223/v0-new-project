@@ -126,7 +126,7 @@ export function LyonEnriched() {
               { chiffre: "24%", label: "de ROI moyen" },
             ].map((item, index) => (
               <div key={index} className="text-center">
-                <div className="text-4xl font-bold text-orange-500 mb-2">{item.chiffre}</div>
+                <div className="text-4xl font-bold text-orange-600 mb-2">{item.chiffre}</div>
                 <div className="text-gray-600">{item.label}</div>
               </div>
             ))}
@@ -237,7 +237,7 @@ export function LyonEnriched() {
                   <h3 className="text-xl font-bold text-gray-900 mb-2">{service.name}</h3>
                   <p className="text-gray-600 text-sm mb-4">{service.desc}</p>
                   <div className="space-y-1 text-sm">
-                    <p className="text-orange-500 font-medium">{service.prix}</p>
+                    <p className="text-orange-600 font-medium">{service.prix}</p>
                     <p className="text-gray-400">{service.duree}</p>
                   </div>
                 </div>
@@ -271,7 +271,7 @@ export function LyonEnriched() {
                   { chiffre: "24%", label: "de ROI moyen" },
                 ].map((item, index) => (
                   <div key={index} className="text-center p-4 bg-gray-50 rounded-lg">
-                    <div className="text-2xl font-bold text-orange-500">{item.chiffre}</div>
+                    <div className="text-2xl font-bold text-orange-600">{item.chiffre}</div>
                     <div className="text-sm text-gray-600">{item.label}</div>
                   </div>
                 ))}

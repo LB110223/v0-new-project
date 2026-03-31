@@ -26,7 +26,7 @@ export function Approach() {
                   />
                 </div>
                 <div className="absolute -bottom-4 -right-4 bg-white p-4 rounded-lg shadow-xl z-20">
-                  <p className="text-lg font-bold text-orange-500">+35%</p>
+                  <p className="text-lg font-bold text-orange-600">+35%</p>
                   <p className="text-sm text-slate-600">ROI moyen</p>
                 </div>
               </div>
@@ -38,7 +38,7 @@ export function Approach() {
               <span className="inline-block px-4 py-1.5 bg-orange-100 text-orange-800 rounded-full text-sm font-medium mb-3 shadow-sm">
                 Notre Approche
               </span>
-              <h2 className="text-3xl md:text-4xl font-bold mb-6 text-orange-500">L'IA avec un ROI mesurable</h2>
+              <h2 className="text-3xl md:text-4xl font-bold mb-6 text-orange-600">L'IA avec un ROI mesurable</h2>
               <p className="text-lg text-slate-700 mb-6">
                 Notre mission première est de ne proposer que des solutions et transformations avec un retour sur
                 investissement clairement mesurable. Nous nous engageons sur des résultats concrets.

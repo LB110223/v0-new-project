@@ -44,8 +44,8 @@ export function Results() {
               className="bg-black p-8 rounded-lg border border-gray-800 text-center transition-all duration-300 hover:border-orange-500"
             >
               <div className="flex items-center justify-center mb-4">
-                <result.icon className={`h-6 w-6 mr-2 ${result.isNegative ? "text-green-500" : "text-orange-500"}`} />
-                <span className={`text-4xl font-bold ${result.isNegative ? "text-green-500" : "text-orange-500"}`}>
+                <result.icon className={`h-6 w-6 mr-2 ${result.isNegative ? "text-green-500" : "text-orange-600"}`} />
+                <span className={`text-4xl font-bold ${result.isNegative ? "text-green-500" : "text-orange-600"}`}>
                   {result.metric}
                 </span>
               </div>

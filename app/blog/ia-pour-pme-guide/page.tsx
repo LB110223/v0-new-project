@@ -233,11 +233,11 @@ export default function IAParPMEGuidePage() {
           <div className="container mx-auto px-4">
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-4xl mx-auto text-center">
               <div>
-                <p className="text-2xl md:text-3xl font-bold text-orange-500">-32%</p>
+                <p className="text-2xl md:text-3xl font-bold text-orange-600">-32%</p>
                 <p className="text-sm text-muted-foreground mt-1">Temps opérationnel</p>
               </div>
               <div>
-                <p className="text-2xl md:text-3xl font-bold text-orange-500">+18%</p>
+                <p className="text-2xl md:text-3xl font-bold text-orange-600">+18%</p>
                 <p className="text-sm text-muted-foreground mt-1">Performance commerciale</p>
               </div>
               <div>
@@ -288,21 +288,21 @@ export default function IAParPMEGuidePage() {
                     </p>
                     <ul className="space-y-4 my-6">
                       <li className="flex items-start gap-3">
-                        <CheckCircle2 className="w-5 h-5 text-orange-500 mt-0.5 flex-shrink-0" />
+                        <CheckCircle2 className="w-5 h-5 text-orange-600 mt-0.5 flex-shrink-0" />
                         <div>
                           <strong className="text-foreground">Automatiser les tâches répétitives.</strong>
                           <span className="text-muted-foreground"> Saisie de commandes, tri de documents, prospection, relances — tout ce que vos équipes font à la main et qui mange des heures chaque semaine.</span>
                         </div>
                       </li>
                       <li className="flex items-start gap-3">
-                        <CheckCircle2 className="w-5 h-5 text-orange-500 mt-0.5 flex-shrink-0" />
+                        <CheckCircle2 className="w-5 h-5 text-orange-600 mt-0.5 flex-shrink-0" />
                         <div>
                           <strong className="text-foreground">Générer du contenu.</strong>
                           <span className="text-muted-foreground"> Articles, emails commerciaux, fiches produit, comptes-rendus. Ce qui prenait une journée prend une heure.</span>
                         </div>
                       </li>
                       <li className="flex items-start gap-3">
-                        <CheckCircle2 className="w-5 h-5 text-orange-500 mt-0.5 flex-shrink-0" />
+                        <CheckCircle2 className="w-5 h-5 text-orange-600 mt-0.5 flex-shrink-0" />
                         <div>
                           <strong className="text-foreground">Analyser des données.</strong>
                           <span className="text-muted-foreground"> Prévisions de ventes, scoring de clients, détection d&apos;anomalies. Des décisions basées sur des chiffres, pas sur des intuitions.</span>
@@ -313,7 +313,7 @@ export default function IAParPMEGuidePage() {
                     {/* Callout box */}
                     <div className="bg-muted/50 border border-border rounded-xl p-6 my-8">
                       <div className="flex items-start gap-3">
-                        <Lightbulb className="w-5 h-5 text-orange-500 mt-0.5 flex-shrink-0" />
+                        <Lightbulb className="w-5 h-5 text-orange-600 mt-0.5 flex-shrink-0" />
                         <div>
                           <p className="font-semibold text-foreground mb-1">Ce que l&apos;IA ne fait pas</p>
                           <p className="text-muted-foreground text-sm leading-relaxed">
@@ -366,7 +366,7 @@ export default function IAParPMEGuidePage() {
                       <strong className="text-foreground">80% des cas d&apos;usage de l&apos;IA en PME ne requièrent ni data scientist ni développeur.</strong> Les outils actuels sont conçus pour des profils métier : un commercial peut utiliser l&apos;IA pour prospecter, un comptable pour automatiser du rapprochement, un RH pour trier des candidatures.
                     </p>
                     <p className="text-base leading-[1.7] text-muted-foreground mb-4">
-                      Ce qu&apos;il faut vraiment : comprendre vos processus (quelles tâches mangent le plus de temps), un bon cadrage (identifier les 3 meilleurs leviers), et une <Link href="/services/formation" className="text-orange-500 hover:text-orange-600 underline underline-offset-4 decoration-orange-500/30">formation de 1 à 2 semaines</Link> pour vos équipes.
+                      Ce qu&apos;il faut vraiment : comprendre vos processus (quelles tâches mangent le plus de temps), un bon cadrage (identifier les 3 meilleurs leviers), et une <Link href="/services/formation" className="text-orange-600 hover:text-orange-700 underline underline-offset-4 decoration-orange-500/30">formation de 1 à 2 semaines</Link> pour vos équipes.
                     </p>
 
                     {/* Section 2 : Cas d'usage concrets */}
@@ -462,42 +462,42 @@ export default function IAParPMEGuidePage() {
                           <tr className="hover:bg-muted/50 transition-colors">
                             <td className="py-3 px-4 text-foreground font-medium">Prospection outbound</td>
                             <td className="py-3 px-4 text-muted-foreground">Tous</td>
-                            <td className="py-3 px-4 text-orange-500 font-semibold">Vélocité x3-4</td>
+                            <td className="py-3 px-4 text-orange-600 font-semibold">Vélocité x3-4</td>
                             <td className="py-3 px-4 text-muted-foreground">5-15K</td>
                             <td className="py-3 px-4"><span className="text-xs bg-green-100 text-green-700 px-2 py-0.5 rounded-full">Faible</span></td>
                           </tr>
                           <tr className="hover:bg-muted/50 transition-colors">
                             <td className="py-3 px-4 text-foreground font-medium">Saisie commandes</td>
                             <td className="py-3 px-4 text-muted-foreground">Commerce, industrie</td>
-                            <td className="py-3 px-4 text-orange-500 font-semibold">-12h/semaine</td>
+                            <td className="py-3 px-4 text-orange-600 font-semibold">-12h/semaine</td>
                             <td className="py-3 px-4 text-muted-foreground">5-10K</td>
                             <td className="py-3 px-4"><span className="text-xs bg-green-100 text-green-700 px-2 py-0.5 rounded-full">Faible</span></td>
                           </tr>
                           <tr className="hover:bg-muted/50 transition-colors">
                             <td className="py-3 px-4 text-foreground font-medium">Création de contenu</td>
                             <td className="py-3 px-4 text-muted-foreground">Tous</td>
-                            <td className="py-3 px-4 text-orange-500 font-semibold">Vélocité x5</td>
+                            <td className="py-3 px-4 text-orange-600 font-semibold">Vélocité x5</td>
                             <td className="py-3 px-4 text-muted-foreground">3-8K</td>
                             <td className="py-3 px-4"><span className="text-xs bg-green-100 text-green-700 px-2 py-0.5 rounded-full">Faible</span></td>
                           </tr>
                           <tr className="hover:bg-muted/50 transition-colors">
                             <td className="py-3 px-4 text-foreground font-medium">Gestion réclamations</td>
                             <td className="py-3 px-4 text-muted-foreground">Services</td>
-                            <td className="py-3 px-4 text-orange-500 font-semibold">Zéro perte info</td>
+                            <td className="py-3 px-4 text-orange-600 font-semibold">Zéro perte info</td>
                             <td className="py-3 px-4 text-muted-foreground">5-15K</td>
                             <td className="py-3 px-4"><span className="text-xs bg-yellow-100 text-yellow-700 px-2 py-0.5 rounded-full">Moyenne</span></td>
                           </tr>
                           <tr className="hover:bg-muted/50 transition-colors">
                             <td className="py-3 px-4 text-foreground font-medium">Contrôle qualité</td>
                             <td className="py-3 px-4 text-muted-foreground">Industrie</td>
-                            <td className="py-3 px-4 text-orange-500 font-semibold">Détection auto</td>
+                            <td className="py-3 px-4 text-orange-600 font-semibold">Détection auto</td>
                             <td className="py-3 px-4 text-muted-foreground">10-30K</td>
                             <td className="py-3 px-4"><span className="text-xs bg-yellow-100 text-yellow-700 px-2 py-0.5 rounded-full">Moyenne</span></td>
                           </tr>
                           <tr className="hover:bg-muted/50 transition-colors">
                             <td className="py-3 px-4 text-foreground font-medium">Prévision de ventes</td>
                             <td className="py-3 px-4 text-muted-foreground">Commerce, industrie</td>
-                            <td className="py-3 px-4 text-orange-500 font-semibold">+15-20% précision</td>
+                            <td className="py-3 px-4 text-orange-600 font-semibold">+15-20% précision</td>
                             <td className="py-3 px-4 text-muted-foreground">10-20K</td>
                             <td className="py-3 px-4"><span className="text-xs bg-red-100 text-red-700 px-2 py-0.5 rounded-full">Élevée</span></td>
                           </tr>
@@ -536,10 +536,10 @@ export default function IAParPMEGuidePage() {
 
                     <h3 className="text-xl font-semibold text-foreground mt-10 mb-4">L&apos;accompagnement : 5 000 à 30 000 euros en forfait</h3>
                     <ul className="space-y-2 my-4">
-                      <li className="flex items-start gap-3"><span className="w-1.5 h-1.5 rounded-full bg-orange-500 mt-2.5 flex-shrink-0" /><p className="text-muted-foreground"><Link href="/services/audit" className="text-orange-500 hover:text-orange-600 underline underline-offset-4 decoration-orange-500/30 font-semibold">Audit IA Express</Link> : gratuit à 2 000 euros (2-3 jours). Le point de départ.</p></li>
-                      <li className="flex items-start gap-3"><span className="w-1.5 h-1.5 rounded-full bg-orange-500 mt-2.5 flex-shrink-0" /><p className="text-muted-foreground"><Link href="/services/formation" className="text-orange-500 hover:text-orange-600 underline underline-offset-4 decoration-orange-500/30 font-semibold">Smart Training</Link> (formation équipe) : 3 000 à 8 000 euros.</p></li>
+                      <li className="flex items-start gap-3"><span className="w-1.5 h-1.5 rounded-full bg-orange-500 mt-2.5 flex-shrink-0" /><p className="text-muted-foreground"><Link href="/services/audit" className="text-orange-600 hover:text-orange-700 underline underline-offset-4 decoration-orange-500/30 font-semibold">Audit IA Express</Link> : gratuit à 2 000 euros (2-3 jours). Le point de départ.</p></li>
+                      <li className="flex items-start gap-3"><span className="w-1.5 h-1.5 rounded-full bg-orange-500 mt-2.5 flex-shrink-0" /><p className="text-muted-foreground"><Link href="/services/formation" className="text-orange-600 hover:text-orange-700 underline underline-offset-4 decoration-orange-500/30 font-semibold">Smart Training</Link> (formation équipe) : 3 000 à 8 000 euros.</p></li>
                       <li className="flex items-start gap-3"><span className="w-1.5 h-1.5 rounded-full bg-orange-500 mt-2.5 flex-shrink-0" /><p className="text-muted-foreground"><strong className="text-foreground">Smart Analyse</strong> (audit complet + roadmap IA) : 5 000 à 15 000 euros.</p></li>
-                      <li className="flex items-start gap-3"><span className="w-1.5 h-1.5 rounded-full bg-orange-500 mt-2.5 flex-shrink-0" /><p className="text-muted-foreground"><Link href="/services/accompagnement" className="text-orange-500 hover:text-orange-600 underline underline-offset-4 decoration-orange-500/30 font-semibold">Smart Action</Link> (déploiement) : 10 000 à 30 000 euros.</p></li>
+                      <li className="flex items-start gap-3"><span className="w-1.5 h-1.5 rounded-full bg-orange-500 mt-2.5 flex-shrink-0" /><p className="text-muted-foreground"><Link href="/services/accompagnement" className="text-orange-600 hover:text-orange-700 underline underline-offset-4 decoration-orange-500/30 font-semibold">Smart Action</Link> (déploiement) : 10 000 à 30 000 euros.</p></li>
                     </ul>
                     <p className="text-base leading-[1.7] text-muted-foreground mb-6">
                       Forfait, pas du TJM opaque. Vous savez ce que ça coûte avant de démarrer.
@@ -561,7 +561,7 @@ export default function IAParPMEGuidePage() {
                         <thead>
                           <tr className="border-b-2 border-orange-500">
                             <th className="text-left py-3 px-4 font-semibold text-foreground"></th>
-                            <th className="text-left py-3 px-4 font-semibold text-orange-500">PME (Smart Impulsion)</th>
+                            <th className="text-left py-3 px-4 font-semibold text-orange-600">PME (Smart Impulsion)</th>
                             <th className="text-left py-3 px-4 font-semibold text-muted-foreground">Grand groupe (grand cabinet)</th>
                           </tr>
                         </thead>
@@ -610,7 +610,7 @@ export default function IAParPMEGuidePage() {
                       Ces chiffres ne sont pas théoriques. Ils sont mesurés avant/après, sur des processus réels, chez des PME réelles.
                     </p>
                     <p className="text-base leading-[1.7] text-muted-foreground mb-4">
-                      Pour approfondir la méthodologie de calcul du ROI, consultez notre guide <Link href="/blog/roi-intelligence-artificielle-entreprise" className="text-orange-500 hover:text-orange-600 underline underline-offset-4 decoration-orange-500/30">mesurer le ROI de l&apos;IA en entreprise</Link>.
+                      Pour approfondir la méthodologie de calcul du ROI, consultez notre guide <Link href="/blog/roi-intelligence-artificielle-entreprise" className="text-orange-600 hover:text-orange-700 underline underline-offset-4 decoration-orange-500/30">mesurer le ROI de l&apos;IA en entreprise</Link>.
                     </p>
 
                     <h3 className="text-xl font-semibold text-foreground mt-10 mb-4">Exemple concret : Bio Propreté Services</h3>
@@ -651,7 +651,7 @@ export default function IAParPMEGuidePage() {
                         <div className="absolute -left-3 top-0 w-6 h-6 rounded-full bg-orange-500 text-white flex items-center justify-center text-xs font-bold">1</div>
                         <h3 className="text-lg font-semibold text-foreground mb-2">Semaine 1-2 : l&apos;audit</h3>
                         <p className="text-base leading-[1.7] text-muted-foreground">
-                          Un <Link href="/blog/audit-ia-pme-guide-complet" className="text-orange-500 hover:text-orange-600 underline underline-offset-4 decoration-orange-500/30">audit IA pour PME</Link> de 2-3 jours suffit. Le livrable : vos 3 quick wins identifiés avec ROI projeté pour chacun. Pas un rapport de 200 pages. Un plan d&apos;action chiffré.
+                          Un <Link href="/blog/audit-ia-pme-guide-complet" className="text-orange-600 hover:text-orange-700 underline underline-offset-4 decoration-orange-500/30">audit IA pour PME</Link> de 2-3 jours suffit. Le livrable : vos 3 quick wins identifiés avec ROI projeté pour chacun. Pas un rapport de 200 pages. Un plan d&apos;action chiffré.
                         </p>
                       </div>
                       <div className="relative pl-8 border-l-2 border-orange-500/30">
@@ -727,15 +727,15 @@ export default function IAParPMEGuidePage() {
                       On ne vend pas de la théorie. On déploie ce qui rapporte. Smart Impulsion propose 3 offres, pensées pour les PME :
                     </p>
                     <ul className="space-y-3 my-6">
-                      <li className="flex items-start gap-3"><CheckCircle2 className="w-5 h-5 text-orange-500 mt-0.5 flex-shrink-0" /><p className="text-muted-foreground"><Link href="/services/formation" className="text-orange-500 hover:text-orange-600 underline underline-offset-4 decoration-orange-500/30 font-semibold">Smart Training</Link> : formation de vos équipes à l&apos;IA appliquée à leur métier. 3 000 à 8 000 euros.</p></li>
-                      <li className="flex items-start gap-3"><CheckCircle2 className="w-5 h-5 text-orange-500 mt-0.5 flex-shrink-0" /><p className="text-muted-foreground"><Link href="/services/audit" className="text-orange-500 hover:text-orange-600 underline underline-offset-4 decoration-orange-500/30 font-semibold">Smart Analyse</Link> : audit complet de vos processus + roadmap IA avec ROI projeté. 5 000 à 15 000 euros.</p></li>
-                      <li className="flex items-start gap-3"><CheckCircle2 className="w-5 h-5 text-orange-500 mt-0.5 flex-shrink-0" /><p className="text-muted-foreground"><Link href="/services/accompagnement" className="text-orange-500 hover:text-orange-600 underline underline-offset-4 decoration-orange-500/30 font-semibold">Smart Action</Link> : déploiement concret du cas d&apos;usage, de A à Z. 10 000 à 30 000 euros.</p></li>
+                      <li className="flex items-start gap-3"><CheckCircle2 className="w-5 h-5 text-orange-600 mt-0.5 flex-shrink-0" /><p className="text-muted-foreground"><Link href="/services/formation" className="text-orange-600 hover:text-orange-700 underline underline-offset-4 decoration-orange-500/30 font-semibold">Smart Training</Link> : formation de vos équipes à l&apos;IA appliquée à leur métier. 3 000 à 8 000 euros.</p></li>
+                      <li className="flex items-start gap-3"><CheckCircle2 className="w-5 h-5 text-orange-600 mt-0.5 flex-shrink-0" /><p className="text-muted-foreground"><Link href="/services/audit" className="text-orange-600 hover:text-orange-700 underline underline-offset-4 decoration-orange-500/30 font-semibold">Smart Analyse</Link> : audit complet de vos processus + roadmap IA avec ROI projeté. 5 000 à 15 000 euros.</p></li>
+                      <li className="flex items-start gap-3"><CheckCircle2 className="w-5 h-5 text-orange-600 mt-0.5 flex-shrink-0" /><p className="text-muted-foreground"><Link href="/services/accompagnement" className="text-orange-600 hover:text-orange-700 underline underline-offset-4 decoration-orange-500/30 font-semibold">Smart Action</Link> : déploiement concret du cas d&apos;usage, de A à Z. 10 000 à 30 000 euros.</p></li>
                     </ul>
                     <p className="text-base leading-[1.7] text-muted-foreground mb-4">
                       Ce qui fait la différence : on ne vend pas du temps. On s&apos;engage sur des résultats mesurables. Forfait, pas TJM. ROI projeté avant de démarrer. Si les chiffres ne tiennent pas, on ne lance pas.
                     </p>
                     <p className="text-base leading-[1.7] text-muted-foreground mb-4">
-                      Derrière Smart Impulsion, il y a <Link href="/a-propos" className="text-orange-500 hover:text-orange-600 underline underline-offset-4 decoration-orange-500/30">Laurent Bouzon</Link>. 9 ans de construction de produits tech chez Lyko, co-fondateur de SymbiozAI, board French Tech Lyon. Pas un théoricien — un opérationnel qui a déployé l&apos;IA sur le terrain.
+                      Derrière Smart Impulsion, il y a <Link href="/a-propos" className="text-orange-600 hover:text-orange-700 underline underline-offset-4 decoration-orange-500/30">Laurent Bouzon</Link>. 9 ans de construction de produits tech chez Lyko, co-fondateur de SymbiozAI, board French Tech Lyon. Pas un théoricien — un opérationnel qui a déployé l&apos;IA sur le terrain.
                     </p>
 
                     {/* Section 8 : FAQ */}
@@ -820,7 +820,7 @@ export default function IAParPMEGuidePage() {
                       <div className="flex flex-col sm:flex-row items-start gap-6">
                         <div className="w-20 h-20 bg-gradient-to-br from-orange-400 to-orange-600 rounded-full flex items-center justify-center text-white text-3xl font-bold flex-shrink-0">L</div>
                         <div>
-                          <p className="text-sm font-medium text-orange-500 uppercase tracking-wide mb-1">À propos de l&apos;auteur</p>
+                          <p className="text-sm font-medium text-orange-600 uppercase tracking-wide mb-1">À propos de l&apos;auteur</p>
                           <h3 className="text-xl font-bold text-foreground mb-2">Laurent Bouzon</h3>
                           <p className="text-muted-foreground leading-relaxed">
                             Fondateur & CEO de Smart Impulsion. 9 ans de construction de produits tech chez Lyko, co-fondateur de SymbiozAI, board French Tech Lyon. Pas un théoricien — un opérationnel qui a déployé l&apos;IA sur le terrain, dans des entreprises réelles, avec des résultats mesurables.

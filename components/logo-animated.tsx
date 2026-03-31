@@ -39,12 +39,12 @@ export function LogoAnimated({ className = "", variant = "default", onClick }: L
         </span>
         <div className="relative">
           <span
-            className={`${textSize} text-orange-500 ml-1.5 transition-all duration-300 ${isHovered ? "transform translate-y-0.5" : ""}`}
+            className={`${textSize} text-orange-600 ml-1.5 transition-all duration-300 ${isHovered ? "transform translate-y-0.5" : ""}`}
           >
             Impulsion
           </span>
           <ArrowUpRight
-            className={`${iconSize} text-orange-500 absolute -top-1 -right-3 transition-all duration-300 ${
+            className={`${iconSize} text-orange-600 absolute -top-1 -right-3 transition-all duration-300 ${
               isHovered ? "transform translate-x-0.5 -translate-y-0.5" : ""
             }`}
           />

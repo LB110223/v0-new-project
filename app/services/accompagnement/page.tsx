@@ -169,7 +169,7 @@ export default function AccompagnementPage() {
             {resultats.map((item, index) => (
               <AnimateOnScroll key={index} animation="fade-up" delay={index * 100}>
                 <div className="text-center">
-                  <div className="text-4xl font-bold text-orange-500 mb-2">{item.chiffre}</div>
+                  <div className="text-4xl font-bold text-orange-600 mb-2">{item.chiffre}</div>
                   <div className="text-gray-600">{item.description}</div>
                 </div>
               </AnimateOnScroll>
@@ -196,7 +196,7 @@ export default function AccompagnementPage() {
                 <div className="bg-gray-50 rounded-xl p-6 md:p-8 border border-gray-200 hover-lift h-full">
                   <div className="flex items-start gap-4">
                     <div className="w-12 h-12 bg-orange-100 rounded-lg flex items-center justify-center flex-shrink-0">
-                      <service.icon className="h-6 w-6 text-orange-500" />
+                      <service.icon className="h-6 w-6 text-orange-600" />
                     </div>
                     <div>
                       <h3 className="text-xl font-bold text-gray-900 mb-2">{service.titre}</h3>
@@ -277,7 +277,7 @@ export default function AccompagnementPage() {
               <AnimateOnScroll key={index} animation="fade-up" delay={index * 100}>
                 <div className="bg-gray-50 rounded-xl p-6 border border-gray-200 text-center hover-lift">
                   <div className="w-14 h-14 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <item.icon className="h-7 w-7 text-orange-500" />
+                    <item.icon className="h-7 w-7 text-orange-600" />
                   </div>
                   <h3 className="text-lg font-semibold text-gray-900 mb-2">{item.titre}</h3>
                   <p className="text-gray-600 text-sm">{item.desc}</p>
@@ -296,7 +296,7 @@ export default function AccompagnementPage() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
                 <div>
                   <div className="inline-flex items-center justify-center w-14 h-14 bg-orange-100 rounded-full mb-4">
-                    <Rocket className="h-7 w-7 text-orange-500" />
+                    <Rocket className="h-7 w-7 text-orange-600" />
                   </div>
                   <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">Commencez par un POC</h2>
                   <p className="text-gray-600 mb-6">
@@ -329,7 +329,7 @@ export default function AccompagnementPage() {
                       "Recommandations pour le passage à l'échelle",
                     ].map((item, i) => (
                       <li key={i} className="flex items-start text-gray-600 text-sm">
-                        <CheckCircle className="h-4 w-4 text-orange-500 mr-2 mt-0.5" />
+                        <CheckCircle className="h-4 w-4 text-orange-600 mr-2 mt-0.5" />
                         {item}
                       </li>
                     ))}
