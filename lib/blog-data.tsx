@@ -25,7 +25,7 @@ export const blogArticles: BlogArticle[] = [
     dateISO: "2026-03-23",
     readTime: "14 min",
     category: "Guide / Démarrage",
-    image: "/ai-business-concept.png",
+    image: "/ia-pme-guide-hero.png",
   },
   {
     slug: "roi-intelligence-artificielle-entreprise",
@@ -38,7 +38,7 @@ export const blogArticles: BlogArticle[] = [
     dateISO: "2026-03-23",
     readTime: "15 min",
     category: "Guide / Stratégie IA",
-    image: "/ai-business-concept.png",
+    image: "/roi-ia-entreprise-hero.png",
   },
   {
     slug: "audit-ia-pme-guide-complet",
@@ -51,7 +51,7 @@ export const blogArticles: BlogArticle[] = [
     dateISO: "2026-03-23",
     readTime: "14 min",
     category: "Guide / Méthodologie",
-    image: "/ai-business-concept.png",
+    image: "/audit-ia-pme-hero.png",
   },
   {
     slug: "agent-ia-plateforme-agentic-nouvelle-ere",
@@ -2065,7 +2065,7 @@ Prenez rendez-vous pour un audit gratuit de vos opportunités IA. En une heure, 
     dateISO: "2025-12-08",
     readTime: "12 min",
     category: "IA & PME",
-    image: "/ai-business-concept.png",
+    image: "/ia-pme-guide-complet-hero.png",
   },
 ]
 

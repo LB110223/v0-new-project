@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "ROI de l'IA en entreprise : le guide pour PME et ETI (2026)",
     description:
-      "Méthodes de calcul, benchmarks sectoriels, erreurs à éviter et cas concrets. Tout ce qu'un dirigeant de PME doit savoir pour mesurer et maximiser le ROI de l'IA.",
+      "Méthodes de calcul, benchmarks sectoriels, erreurs à éviter et cas concrets. Tout ce qu'un dirigeant de PME doit savoir pour mesurer le ROI de l'IA.",
     type: "article",
     publishedTime: "2026-03-23",
     authors: ["Laurent Bouzon"],
