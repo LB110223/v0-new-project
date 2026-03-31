@@ -2,7 +2,7 @@ import type { Metadata } from "next"
 import Link from "next/link"
 import Image from "next/image"
 import { notFound } from "next/navigation"
-import { blogArticles, getArticleBySlug, getAllArticleSlugs } from "@/lib/blog-data"
+import { blogArticles, getArticleBySlug, getAllArticleSlugs, type BlogFAQ } from "@/lib/blog-data"
 import { ArrowRight, Calendar, Clock, Linkedin, Twitter, Share2, BookOpen } from "lucide-react"
 
 interface BlogPostPageProps {
@@ -249,10 +249,27 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
     ],
   }
 
+  const faqJsonLd = article.faq && article.faq.length > 0 ? {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: article.faq.map((faqItem: BlogFAQ) => ({
+      "@type": "Question",
+      name: faqItem.question,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: faqItem.answer,
+      },
+    })),
+  } : null
+
   return (
     <>
+      {/* Article structured data - static content from blog-data.tsx, safe for JSON-LD injection */}
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
+      {faqJsonLd && (
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      )}
 
       <main className="min-h-screen bg-background">
         {/* Hero Section */}
