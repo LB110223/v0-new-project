@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     locale: "fr_FR",
     images: [
       {
-        url: `${baseUrl}/ai-business-concept.png`,
+        url: `${baseUrl}/og-image.png`,
         width: 1200,
         height: 630,
         alt: "Blog Smart Impulsion - IA pour les entreprises",
@@ -111,7 +111,7 @@ export default function BlogPage() {
                   <div className="relative h-64 lg:h-auto order-1 lg:order-2 overflow-hidden">
                     <Image
                       src={featuredArticle.image || "/placeholder.svg"}
-                      alt={featuredArticle.title}
+                      alt={featuredArticle.imageAlt || featuredArticle.title}
                       fill
                       className="object-cover group-hover:scale-105 transition-transform duration-700"
                       sizes="(max-width: 1024px) 100vw, 50vw"
@@ -180,7 +180,7 @@ export default function BlogPage() {
                     <div className="relative aspect-[40/21] rounded-xl overflow-hidden mb-6 bg-gray-900">
                       <Image
                         src={article.image || "/placeholder.svg"}
-                        alt={article.title}
+                        alt={article.imageAlt || article.title}
                         fill
                         className="object-cover group-hover:scale-105 transition-transform duration-500 saturate-[0.85] contrast-[1.05]"
                         sizes="(max-width: 768px) 100vw, 50vw"

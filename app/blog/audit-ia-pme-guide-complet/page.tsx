@@ -1,5 +1,6 @@
 import type { Metadata } from "next"
 import Link from "next/link"
+import Image from "next/image"
 import { ArrowRight, Calendar, BookOpen, Linkedin, Twitter, Share2, CheckCircle2, ChevronRight } from "lucide-react"
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
 
@@ -14,10 +15,10 @@ export const metadata: Metadata = {
     title: "Audit IA pour PME : méthodologie, coûts et résultats (Guide 2026)",
     description: "Tout ce qu'un dirigeant de PME doit savoir sur l'audit IA : étapes, coûts (5K-15K), subventions BPI, résultats concrets et erreurs à éviter.",
     type: "article", publishedTime: "2026-03-23", authors: ["Laurent Bouzon"],
-    images: [{ url: `${baseUrl}/ai-business-concept.png`, width: 1200, height: 630, alt: "Audit IA pour PME" }],
+    images: [{ url: `${baseUrl}/audit-ia-pme-hero.png`, width: 1200, height: 630, alt: "Audit IA pour PME" }],
     siteName: "Smart Impulsion", locale: "fr_FR",
   },
-  twitter: { card: "summary_large_image", title: "Audit IA pour PME : guide complet 2026", description: "Étapes, coûts, résultats attendus et erreurs à éviter. Diagnostic en 3 jours." },
+  twitter: { card: "summary_large_image", title: "Audit IA pour PME : guide complet 2026", description: "Étapes, coûts, résultats attendus et erreurs à éviter. Diagnostic en 3 jours.", images: [`${baseUrl}/audit-ia-pme-hero.png`] },
   robots: { index: true, follow: true, googleBot: { index: true, follow: true, "max-video-preview": -1, "max-image-preview": "large", "max-snippet": -1 } },
 }
 
@@ -31,7 +32,7 @@ export default function AuditIAPMEGuidePage() {
     "@context": "https://schema.org", "@type": "Article",
     headline: "Audit IA pour PME : le guide complet pour diagnostiquer et accélérer votre transformation",
     description: "Comment réaliser un audit IA en PME ? Étapes, coûts, résultats attendus et erreurs à éviter.",
-    image: `${baseUrl}/ai-business-concept.png`, datePublished: "2026-03-23", dateModified: "2026-03-23",
+    image: `${baseUrl}/audit-ia-pme-hero.png`, datePublished: "2026-03-23", dateModified: "2026-03-23",
     author: { "@type": "Person", name: "Laurent Bouzon", url: `${baseUrl}/a-propos` },
     publisher: { "@type": "Organization", name: "Smart Impulsion", logo: { "@type": "ImageObject", url: `${baseUrl}/logo.png` } },
     mainEntityOfPage: { "@type": "WebPage", "@id": `${baseUrl}/blog/audit-ia-pme-guide-complet` },
@@ -109,6 +110,24 @@ export default function AuditIAPMEGuidePage() {
           <div><p className="text-2xl md:text-3xl font-bold text-foreground">4 sem.</p><p className="text-sm text-muted-foreground mt-1">Premier gain mesurable</p></div>
           <div><p className="text-2xl md:text-3xl font-bold text-foreground">5-15K</p><p className="text-sm text-muted-foreground mt-1">Budget audit complet</p></div>
         </div></div></section>
+
+        {/* Hero Image */}
+        <section className="pb-8">
+          <div className="container mx-auto px-4">
+            <div className="max-w-5xl mx-auto">
+              <div className="relative aspect-[40/21] w-full overflow-hidden rounded-xl mb-8">
+                <Image
+                  src="/audit-ia-pme-hero.png"
+                  alt="Infographie : méthodologie d'audit IA pour PME - checklist et progression en 5 étapes"
+                  fill
+                  className="object-cover"
+                  priority
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 900px"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
 
         {/* Content */}
         <section className="py-12"><div className="container mx-auto px-4"><div className="max-w-7xl mx-auto"><div className="grid lg:grid-cols-[1fr_280px] gap-12 xl:gap-16">

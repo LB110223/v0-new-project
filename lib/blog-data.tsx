@@ -11,6 +11,7 @@ export interface BlogArticle {
   readTime: string
   category: string
   image: string
+  imageAlt?: string
 }
 
 export const blogArticles: BlogArticle[] = [
@@ -26,6 +27,7 @@ export const blogArticles: BlogArticle[] = [
     readTime: "14 min",
     category: "Guide / Démarrage",
     image: "/ia-pme-guide-hero.png",
+    imageAlt: "Parcours en 4 étapes pour démarrer l'IA en PME : identifier, tester, déployer, mesurer",
   },
   {
     slug: "roi-intelligence-artificielle-entreprise",
@@ -39,6 +41,7 @@ export const blogArticles: BlogArticle[] = [
     readTime: "15 min",
     category: "Guide / Stratégie IA",
     image: "/roi-ia-entreprise-hero.png",
+    imageAlt: "Dashboard ROI IA montrant 312% de retour sur investissement avec métriques de performance",
   },
   {
     slug: "audit-ia-pme-guide-complet",
@@ -52,6 +55,7 @@ export const blogArticles: BlogArticle[] = [
     readTime: "14 min",
     category: "Guide / Méthodologie",
     image: "/audit-ia-pme-hero.png",
+    imageAlt: "Checklist d'audit IA en 5 étapes avec barre de progression pour PME",
   },
   {
     slug: "agent-ia-plateforme-agentic-nouvelle-ere",
@@ -232,6 +236,7 @@ Pour les entreprises, l'enjeu n'est pas d'adopter ces technologies par effet de 
     readTime: "11 min",
     category: "Systèmes IA",
     image: "/agent-ia-agentic-hero.png",
+    imageAlt: "Diagramme d'architecture multi-agents IA avec orchestrateur central",
   },
   {
     slug: "api-ia-choix-strategique-agence-ia",
@@ -389,6 +394,7 @@ L'enjeu n'est pas de trouver la "meilleure" API IA — concept qui n'a guère de
     readTime: "12 min",
     category: "Stratégie IA",
     image: "/api-ia-strategie-hero.png",
+    imageAlt: "Comparatif de 3 fournisseurs d'API IA : OpenAI, Anthropic et Open Source",
   },
   {
     slug: "deepseek-r1-signal-faible-economie-llm",
@@ -524,6 +530,7 @@ DeepSeek R1 n'est pas une fin en soi. C'est un signal parmi d'autres que le marc
     readTime: "10 min",
     category: "Analyse marché",
     image: "/deepseek-r1-hero.png",
+    imageAlt: "Analyse du modèle DeepSeek R1 avec graphique de baisse des coûts LLM",
   },
   {
     slug: "agents-ia-automatisation-nouveau-paradigme-entreprise",
@@ -719,6 +726,7 @@ L'automatisation intelligente et les agents IA ne sont pas une mode passagère. 
     readTime: "12 min",
     category: "Transformation IA",
     image: "/agents-ia-automatisation-hero.png",
+    imageAlt: "Comparaison avant-après : évolution de l'IA assistante vers l'IA autonome en 2026",
   },
   {
     slug: "analyse-startup-ia-crm-decision-autonome",
@@ -888,6 +896,7 @@ La réponse dépendra du contexte de chaque organisation — taille, maturité d
     readTime: "14 min",
     category: "Analyse marché",
     image: "/crm-ia-decision-hero.png",
+    imageAlt: "Interface CRM IA avec scores de leads et actions de décision autonome",
   },
   {
     slug: "agence-ia-comment-choisir-partenaire-transformation",
@@ -1202,6 +1211,7 @@ En revanche, si vous cherchez un partenaire capable de transformer l'IA en avant
     readTime: "18 min",
     category: "Stratégie IA",
     image: "/agence-ia-choix-hero.png",
+    imageAlt: "Checklist de sélection d'une agence IA avec 5 critères d'évaluation",
   },
   {
     slug: "open-source-llm-decision-strategique",
@@ -1355,6 +1365,7 @@ Chez Smart Impulsion, nous accompagnons nos clients dans cette réflexion sans d
     readTime: "15 min",
     category: "Stratégie IA",
     image: "/open-source-llm-hero.png",
+    imageAlt: "Comparaison modèles LLM propriétaires versus open source sur 6 critères",
   },
   {
     slug: "ia-generative-entreprise-applications-concretes",
@@ -1522,6 +1533,7 @@ Contactez-nous pour un diagnostic gratuit de vos opportunités en IA générativ
     readTime: "14 min",
     category: "IA Générative",
     image: "/ia-generative-hero.png",
+    imageAlt: "4 applications concrètes de l'IA générative en entreprise avec taux d'adoption",
   },
   {
     slug: "automatisation-processus-ia-guide-pratique",
@@ -1671,6 +1683,7 @@ Chez Smart Impulsion, nous accompagnons les entreprises de l'identification des 
     readTime: "15 min",
     category: "Automatisation",
     image: "/automatisation-processus-hero.png",
+    imageAlt: "Pipeline d'automatisation IA en 4 étapes avec indicateurs de performance",
   },
   {
     slug: "chatbots-ia-service-client-2025",
@@ -1819,6 +1832,7 @@ Chez Smart Impulsion, nous concevons des assistants conversationnels qui compren
     readTime: "13 min",
     category: "Service Client",
     image: "/chatbots-ia-hero.png",
+    imageAlt: "Interface de chatbot IA service client avec statistiques de résolution",
   },
   {
     slug: "roi-intelligence-artificielle-comment-mesurer",
@@ -1983,6 +1997,7 @@ Contactez-nous pour une évaluation gratuite du potentiel ROI de vos projets IA.
     readTime: "14 min",
     category: "ROI & Stratégie",
     image: "/roi-ia-mesurer-hero.png",
+    imageAlt: "Formule de calcul du ROI IA avec 3 indicateurs clés de performance",
   },
   {
     slug: "intelligence-artificielle-pme-guide-complet",
@@ -2066,6 +2081,7 @@ Prenez rendez-vous pour un audit gratuit de vos opportunités IA. En une heure, 
     readTime: "12 min",
     category: "IA & PME",
     image: "/ia-pme-guide-complet-hero.png",
+    imageAlt: "Guide complet IA pour PME 2026 : 4 piliers stratégiques",
   },
 ]
 

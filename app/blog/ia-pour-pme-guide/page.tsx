@@ -1,5 +1,6 @@
 import type { Metadata } from "next"
 import Link from "next/link"
+import Image from "next/image"
 import { ArrowRight, Calendar, Clock, BookOpen, Linkedin, Twitter, Share2, CheckCircle2, AlertTriangle, Lightbulb, ChevronRight } from "lucide-react"
 import {
   Accordion,
@@ -27,7 +28,7 @@ export const metadata: Metadata = {
     authors: ["Laurent Bouzon"],
     images: [
       {
-        url: `${baseUrl}/ai-business-concept.png`,
+        url: `${baseUrl}/ia-pme-guide-hero.png`,
         width: 1200,
         height: 630,
         alt: "IA pour PME : guide pratique 2026",
@@ -41,6 +42,7 @@ export const metadata: Metadata = {
     title: "IA pour PME : par où commencer ? Guide pratique 2026",
     description:
       "Cas d'usage concrets, budget, ROI attendu et roadmap type. De 0 à vos premiers gains en 4 semaines.",
+    images: [`${baseUrl}/ia-pme-guide-hero.png`],
   },
   robots: {
     index: true,
@@ -71,7 +73,7 @@ export default function IAParPMEGuidePage() {
     headline: "L'IA pour les PME : par où commencer ? Le guide pratique pour dirigeants",
     description:
       "Comment utiliser l'IA en PME sans équipe technique ? Cas d'usage concrets, budget, ROI attendu et roadmap type. De 0 à vos premiers gains en 4 semaines.",
-    image: `${baseUrl}/ai-business-concept.png`,
+    image: `${baseUrl}/ia-pme-guide-hero.png`,
     datePublished: "2026-03-23",
     dateModified: "2026-03-23",
     author: {
@@ -247,6 +249,24 @@ export default function IAParPMEGuidePage() {
               <div>
                 <p className="text-2xl md:text-3xl font-bold text-foreground">80%</p>
                 <p className="text-sm text-muted-foreground mt-1">Sans compétence tech</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Hero Image */}
+        <section className="pb-8">
+          <div className="container mx-auto px-4">
+            <div className="max-w-5xl mx-auto">
+              <div className="relative aspect-[40/21] w-full overflow-hidden rounded-xl mb-8">
+                <Image
+                  src="/ia-pme-guide-hero.png"
+                  alt="Infographie : guide IA pour PME en 4 étapes - identifier, tester, déployer, mesurer"
+                  fill
+                  className="object-cover"
+                  priority
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 900px"
+                />
               </div>
             </div>
           </div>

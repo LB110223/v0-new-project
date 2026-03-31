@@ -1,5 +1,6 @@
 import type { Metadata } from "next"
 import Link from "next/link"
+import Image from "next/image"
 import { ArrowRight, Calendar, BookOpen, Linkedin, Twitter, Share2, CheckCircle2, Lightbulb, ChevronRight } from "lucide-react"
 import {
   Accordion,
@@ -25,7 +26,7 @@ export const metadata: Metadata = {
     type: "article",
     publishedTime: "2026-03-23",
     authors: ["Laurent Bouzon"],
-    images: [{ url: `${baseUrl}/ai-business-concept.png`, width: 1200, height: 630, alt: "ROI de l'IA en entreprise" }],
+    images: [{ url: `${baseUrl}/roi-ia-entreprise-hero.png`, width: 1200, height: 630, alt: "ROI de l'IA en entreprise" }],
     siteName: "Smart Impulsion",
     locale: "fr_FR",
   },
@@ -33,6 +34,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "ROI de l'IA en entreprise : guide complet 2026",
     description: "Méthodes de calcul, benchmarks 2026, erreurs à éviter. -32% de temps opérationnel en moyenne.",
+    images: [`${baseUrl}/roi-ia-entreprise-hero.png`],
   },
   robots: { index: true, follow: true, googleBot: { index: true, follow: true, "max-video-preview": -1, "max-image-preview": "large", "max-snippet": -1 } },
 }
@@ -46,7 +48,7 @@ export default function ROIIAEntreprisePage() {
     "@context": "https://schema.org", "@type": "Article",
     headline: "ROI de l'IA en entreprise : comment mesurer et maximiser votre retour sur investissement",
     description: "Comment mesurer le ROI de l'intelligence artificielle en PME ? Méthodes de calcul, benchmarks 2026, erreurs à éviter.",
-    image: `${baseUrl}/ai-business-concept.png`, datePublished: "2026-03-23", dateModified: "2026-03-23",
+    image: `${baseUrl}/roi-ia-entreprise-hero.png`, datePublished: "2026-03-23", dateModified: "2026-03-23",
     author: { "@type": "Person", name: "Laurent Bouzon", url: `${baseUrl}/a-propos` },
     publisher: { "@type": "Organization", name: "Smart Impulsion", logo: { "@type": "ImageObject", url: `${baseUrl}/logo.png` } },
     mainEntityOfPage: { "@type": "WebPage", "@id": `${baseUrl}/blog/roi-intelligence-artificielle-entreprise` },
@@ -128,6 +130,24 @@ export default function ROIIAEntreprisePage() {
           <div><p className="text-2xl md:text-3xl font-bold text-orange-700">24%</p><p className="text-sm text-muted-foreground mt-1">ROI moyen</p></div>
           <div><p className="text-2xl md:text-3xl font-bold text-foreground">4 sem.</p><p className="text-sm text-muted-foreground mt-1">Time-to-value</p></div>
         </div></div></section>
+
+        {/* Hero Image */}
+        <section className="pb-8">
+          <div className="container mx-auto px-4">
+            <div className="max-w-5xl mx-auto">
+              <div className="relative aspect-[40/21] w-full overflow-hidden rounded-xl mb-8">
+                <Image
+                  src="/roi-ia-entreprise-hero.png"
+                  alt="Infographie ROI de l'IA en entreprise : 312% de retour sur investissement avec métriques clés"
+                  fill
+                  className="object-cover"
+                  priority
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 900px"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
 
         {/* Content + Sidebar */}
         <section className="py-12"><div className="container mx-auto px-4"><div className="max-w-7xl mx-auto"><div className="grid lg:grid-cols-[1fr_280px] gap-12 xl:gap-16">

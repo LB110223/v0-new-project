@@ -325,7 +325,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
               <div className="relative aspect-[40/21] rounded-2xl overflow-hidden shadow-2xl bg-gray-900">
                 <Image
                   src={article.image || "/placeholder.svg"}
-                  alt={article.title}
+                  alt={article.imageAlt || article.title}
                   fill
                   className="object-cover saturate-[0.85] contrast-[1.05]"
                   sizes="(max-width: 1280px) 100vw, 1280px"
@@ -472,7 +472,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
                       <div className="relative aspect-[40/21] rounded-xl overflow-hidden mb-4 bg-gray-900">
                         <Image
                           src={relatedArticle.image || "/placeholder.svg"}
-                          alt={relatedArticle.title}
+                          alt={relatedArticle.imageAlt || relatedArticle.title}
                           fill
                           className="object-cover group-hover:scale-105 transition-transform duration-500 saturate-[0.85] contrast-[1.05]"
                           sizes="(max-width: 768px) 100vw, 50vw"

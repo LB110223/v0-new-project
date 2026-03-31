@@ -36,6 +36,9 @@ export default function robots(): MetadataRoute.Robots {
         allow: "/",
       },
     ],
-    sitemap: "https://www.smart-impulsion.com/sitemap.xml",
+    sitemap: [
+      "https://www.smart-impulsion.com/sitemap.xml",
+      "https://www.smart-impulsion.com/image-sitemap.xml",
+    ],
   }
 }
