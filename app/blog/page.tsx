@@ -7,14 +7,14 @@ import { ArrowRight, Calendar, Clock, TrendingUp } from "lucide-react"
 const baseUrl = "https://www.smart-impulsion.com"
 
 export const metadata: Metadata = {
-  title: "Blog | Smart Impulsion - Actualités IA et Transformation Digitale",
+  title: "Blog IA et transformation digitale | Smart Impulsion",
   description:
     "Découvrez nos articles sur l'intelligence artificielle, le ROI, l'automatisation et la transformation digitale des entreprises françaises.",
   alternates: {
     canonical: `${baseUrl}/blog`,
   },
   openGraph: {
-    title: "Blog | Smart Impulsion - Actualités IA et Transformation Digitale",
+    title: "Blog IA et transformation digitale | Smart Impulsion",
     description:
       "Analyses approfondies, retours d'expérience et conseils pratiques pour réussir votre transformation IA.",
     type: "website",
@@ -92,9 +92,7 @@ export default function BlogPage() {
             <div className="max-w-4xl">
               <p className="text-sm font-medium tracking-widest text-orange-700 uppercase mb-4">Le Blog</p>
               <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-4 leading-tight">
-                Insights & Expertises
-                <br />
-                <span className="text-muted-foreground">sur l'IA en entreprise</span>
+                Insights et expertises sur l'IA en entreprise
               </h1>
               <p className="text-lg text-muted-foreground max-w-2xl">
                 Analyses approfondies, retours d'expérience et conseils pratiques pour réussir votre transformation IA.

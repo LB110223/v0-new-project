@@ -1,6 +1,8 @@
 export interface BlogArticle {
   slug: string
   title: string
+  seoTitle?: string
+  h1?: string
   excerpt: string
   content: string
   author: string
@@ -54,8 +56,10 @@ export const blogArticles: BlogArticle[] = [
   {
     slug: "agent-ia-plateforme-agentic-nouvelle-ere",
     title: "Agent IA et plateforme agentic : pourquoi l'intelligence artificielle entre dans une nouvelle ère",
+    seoTitle: "Agent IA et plateforme agentic : la nouvelle ère | Smart Impulsion",
+    h1: "Des agents IA isolés aux systèmes agentiques coordonnés",
     excerpt:
-      "L'agent IA isolé cède la place aux systèmes agentiques coordonnés. Analyse du passage à l'échelle, du rôle de la mémoire agentique et des implications concrètes pour les entreprises.",
+      "L'agent IA isolé cède la place aux systèmes agentiques coordonnés. Passage à l'échelle, mémoire agentique et implications concrètes pour les entreprises.",
     content: `
 ## L'agent IA comme nouvelle unité de calcul de l'entreprise
 
@@ -232,8 +236,10 @@ Pour les entreprises, l'enjeu n'est pas d'adopter ces technologies par effet de 
   {
     slug: "api-ia-choix-strategique-agence-ia",
     title: "API IA : pourquoi le choix technologique est devenu un enjeu stratégique (et le rôle d'une agence IA)",
+    seoTitle: "API IA : un enjeu stratégique pour les entreprises | Smart Impulsion",
+    h1: "Comment choisir la bonne API d'intelligence artificielle",
     excerpt:
-      "Le choix d'une API d'intelligence artificielle dépasse largement la question technique. Analyse des critères décisionnels et du rôle clé d'une agence IA dans l'orchestration de ces choix.",
+      "Le choix d'une API d'IA dépasse la question technique. Critères décisionnels et rôle clé d'une agence IA dans l'orchestration de ces choix stratégiques.",
     content: `
 ## L'API IA au cœur des architectures d'entreprise
 
@@ -387,8 +393,10 @@ L'enjeu n'est pas de trouver la "meilleure" API IA — concept qui n'a guère de
   {
     slug: "deepseek-r1-signal-faible-economie-llm",
     title: "DeepSeek R1 : pourquoi ce modèle est un signal faible majeur pour l'économie des LLM",
+    seoTitle: "DeepSeek R1 : signal faible pour l'économie LLM | Smart Impulsion",
+    h1: "Ce que DeepSeek R1 change pour le marché des modèles de langage",
     excerpt:
-      "Au-delà des benchmarks, DeepSeek R1 révèle un changement structurel du marché des modèles de langage. Analyse des implications pour les entreprises et l'écosystème IA.",
+      "Au-delà des benchmarks, DeepSeek R1 révèle un changement structurel du marché des modèles de langage. Implications pour les entreprises et l'écosystème IA.",
     content: `
 ## Introduction : une nouvelle donne dans la course aux LLM
 
@@ -520,8 +528,10 @@ DeepSeek R1 n'est pas une fin en soi. C'est un signal parmi d'autres que le marc
   {
     slug: "agents-ia-automatisation-nouveau-paradigme-entreprise",
     title: "Agents IA et automatisation : pourquoi l'entreprise change de paradigme en 2026",
+    seoTitle: "Agents IA et automatisation : nouveau paradigme 2026 | Smart Impulsion",
+    h1: "L'entreprise change de paradigme avec les agents IA autonomes",
     excerpt:
-      "L'IA ne se contente plus d'assister : elle exécute, décide et orchestre. Analyse du basculement vers les agents IA autonomes et de ce que cela implique pour les organisations.",
+      "L'IA ne se contente plus d'assister : elle exécute, décide et orchestre. Analyse du basculement vers les agents IA autonomes pour les organisations.",
     content: `
 ## Une adoption qui dépasse le stade expérimental
 
@@ -713,8 +723,10 @@ L'automatisation intelligente et les agents IA ne sont pas une mode passagère. 
   {
     slug: "analyse-startup-ia-crm-decision-autonome",
     title: "Analyse : une startup IA qui repense le CRM autour de la décision autonome",
+    seoTitle: "CRM et décision autonome : une startup IA repense le modèle | Smart Impulsion",
+    h1: "Comment l'IA native transforme le CRM autour de la décision autonome",
     excerpt:
-      "Le marché du CRM connaît une transformation structurelle avec l'émergence de solutions IA natives. Analyse du positionnement de SymbiozAI, startup européenne qui propose une approche centrée sur la décision autonome plutôt que sur l'accumulation de données.",
+      "Le CRM se transforme avec l'IA native. Analyse du positionnement de SymbiozAI et de son approche centrée décision autonome.",
     content: `
 ## Contexte marché : la saturation des CRM traditionnels
 
@@ -880,8 +892,10 @@ La réponse dépendra du contexte de chaque organisation — taille, maturité d
   {
     slug: "agence-ia-comment-choisir-partenaire-transformation",
     title: "Agence IA : comment choisir le bon partenaire pour transformer votre entreprise",
+    seoTitle: "Agence IA : comment choisir le bon partenaire ? | Smart Impulsion",
+    h1: "Guide pour choisir votre agence IA et réussir votre transformation",
     excerpt:
-      "Face à la multiplication des offres, comment identifier une agence IA capable de délivrer des résultats concrets ? Critères de choix, pièges à éviter et méthodologie pour sélectionner le partenaire adapté à vos enjeux.",
+      "Comment choisir la bonne agence IA ? Critères, pièges à éviter et méthodologie pour sélectionner le partenaire qui maximisera le ROI de votre transformation IA.",
     content: `
 ## Ce qu'est réellement une agence IA en 2026
 
@@ -1192,8 +1206,10 @@ En revanche, si vous cherchez un partenaire capable de transformer l'IA en avant
   {
     slug: "open-source-llm-decision-strategique",
     title: "Pourquoi l'open-source LLM redevient une décision stratégique (et pas idéologique)",
+    seoTitle: "Open-source LLM : décision stratégique ou idéologique ? | Smart Impulsion",
+    h1: "Modèles ouverts vs fermés : une analyse factuelle au-delà du débat de principe",
     excerpt:
-      "Entre coûts d'API croissants, dépendance aux fournisseurs et montée en puissance de Llama et Mistral, le choix entre modèles ouverts et fermés mérite une analyse factuelle, pas un débat de principe.",
+      "Coûts d'API croissants, dépendance fournisseurs, montée de Llama et Mistral : le choix entre modèles ouverts et fermés mérite une analyse factuelle.",
     content: `
 ## Au-delà du débat idéologique
 
@@ -1343,8 +1359,10 @@ Chez Smart Impulsion, nous accompagnons nos clients dans cette réflexion sans d
   {
     slug: "ia-generative-entreprise-applications-concretes",
     title: "IA Générative en Entreprise : Applications Concrètes et Bonnes Pratiques",
+    seoTitle: "IA générative en entreprise : applications concrètes | Smart Impulsion",
+    h1: "Comment les entreprises utilisent l'IA générative en 2026",
     excerpt:
-      "De ChatGPT à Claude, découvrez comment les entreprises utilisent réellement l'IA générative en 2025 et les meilleures pratiques pour en tirer parti.",
+      "De ChatGPT à Claude, découvrez comment les entreprises utilisent réellement l'IA générative en 2026 et les meilleures pratiques pour en tirer parti.",
     content: `
 ## L'explosion de l'IA générative en entreprise
 
@@ -1508,8 +1526,10 @@ Contactez-nous pour un diagnostic gratuit de vos opportunités en IA générativ
   {
     slug: "automatisation-processus-ia-guide-pratique",
     title: "Automatisation des Processus par l'IA : Guide Pratique pour les Entreprises",
+    seoTitle: "Automatisation par l'IA : guide pratique entreprises | Smart Impulsion",
+    h1: "Identifier et déployer l'automatisation IA dans vos processus",
     excerpt:
-      "De la théorie à la pratique : comment identifier, prioriser et déployer l'automatisation IA dans vos processus métier avec des exemples concrets et une méthodologie éprouvée.",
+      "Comment identifier, prioriser et déployer l'automatisation IA dans vos processus métier. Exemples concrets et méthodologie éprouvée.",
     content: `
 ## L'automatisation intelligente : au-delà de la RPA traditionnelle
 
@@ -1655,6 +1675,8 @@ Chez Smart Impulsion, nous accompagnons les entreprises de l'identification des 
   {
     slug: "chatbots-ia-service-client-2025",
     title: "Chatbots IA : Révolutionner votre Service Client en 2025",
+    seoTitle: "Chatbots IA : transformer votre service client | Smart Impulsion",
+    h1: "Comment les chatbots IA nouvelle génération révolutionnent l'expérience client",
     excerpt:
       "Comment les chatbots nouvelle génération transforment l'expérience client : statistiques, cas d'usage et guide d'implémentation pour les PME.",
     content: `
@@ -1801,6 +1823,8 @@ Chez Smart Impulsion, nous concevons des assistants conversationnels qui compren
   {
     slug: "roi-intelligence-artificielle-comment-mesurer",
     title: "Comment mesurer le ROI de vos projets d'Intelligence Artificielle ?",
+    seoTitle: "Mesurer le ROI de vos projets IA : méthode complète | Smart Impulsion",
+    h1: "Méthodologie pour évaluer le retour sur investissement de l'IA",
     excerpt:
       "Méthodologie complète pour évaluer le retour sur investissement de vos initiatives IA, avec formules de calcul, KPIs essentiels et pièges à éviter.",
     content: `
@@ -1962,9 +1986,11 @@ Contactez-nous pour une évaluation gratuite du potentiel ROI de vos projets IA.
   },
   {
     slug: "intelligence-artificielle-pme-guide-complet",
-    title: "L'Intelligence Artificielle pour les PME : Guide Complet 2025",
+    title: "L'Intelligence Artificielle pour les PME : Guide Complet 2026",
+    seoTitle: "IA pour PME : guide complet 2026 | Smart Impulsion",
+    h1: "Comment les PME françaises tirent parti de l'intelligence artificielle",
     excerpt:
-      "Découvrez comment les PME françaises peuvent tirer parti de l'IA pour améliorer leur compétitivité et leur productivité, avec des statistiques concrètes et une méthodologie éprouvée.",
+      "Comment les PME françaises tirent parti de l'IA pour améliorer compétitivité et productivité. Statistiques concrètes et méthodologie éprouvée.",
     content: `
 ## L'IA n'est plus un luxe réservé aux grandes entreprises
 

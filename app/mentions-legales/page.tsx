@@ -26,14 +26,23 @@ export default function MentionsLegales() {
           <section className="mb-10">
             <h2 className="text-2xl font-bold text-gray-900 mb-4">1. Informations légales</h2>
             <p>
-              Le site Smart Impulsion est édité par la société Smart Impulsion, société par actions simplifiée (SAS) au
-              capital de [montant du capital] euros, immatriculée au Registre du Commerce et des Sociétés de Lyon sous
-              le numéro [numéro RCS], dont le siège social est situé à [adresse du siège social].
+              Le site Smart Impulsion est édité par la société ADM HOLDING (nom commercial : Smart Impulsion), société
+              par actions simplifiée (SAS) au capital de 100,00 euros, immatriculée au Registre du Commerce et des
+              Sociétés de Paris sous le numéro 933 805 855 R.C.S. Paris, dont le siège social est situé au 60 rue
+              François Ier, 75008 Paris.
             </p>
             <p>
-              <strong>Numéro de TVA intracommunautaire :</strong> [numéro TVA]
+              <strong>SIREN :</strong> 933 805 855
+              <br />
+              <strong>SIRET :</strong> 933 805 855 00014
+              <br />
+              <strong>Numéro de TVA intracommunautaire :</strong> FR56933805855
+              <br />
+              <strong>Président :</strong> Laurent Bouzon
               <br />
               <strong>Directeur de la publication :</strong> Laurent Bouzon, Fondateur & CEO
+              <br />
+              <strong>Adresse opérationnelle :</strong> 70 quai Perrache, 69002 Lyon
             </p>
           </section>
 

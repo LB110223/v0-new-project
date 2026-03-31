@@ -5,16 +5,16 @@ import { Button } from "@/components/ui/button"
 import { FaqAccordion } from "./faq-accordion"
 
 export const metadata: Metadata = {
-  title: "FAQ — Questions fréquentes sur l'IA en entreprise | Smart Impulsion",
+  title: "FAQ IA en entreprise : 20 questions essentielles | Smart Impulsion",
   description:
-    "Retrouvez les réponses aux 20 questions les plus fréquentes sur l'IA en PME et ETI : ROI, coûts, mise en œuvre, résultats mesurables. Guide complet par Smart Impulsion.",
+    "Réponses aux 20 questions fréquentes sur l'IA en PME et ETI : ROI, coûts, mise en œuvre, résultats. Guide complet Smart Impulsion.",
   alternates: {
     canonical: "https://www.smart-impulsion.com/faq",
   },
   openGraph: {
-    title: "FAQ — Questions fréquentes sur l'IA en entreprise | Smart Impulsion",
+    title: "FAQ IA en entreprise : 20 questions essentielles | Smart Impulsion",
     description:
-      "Retrouvez les réponses aux 20 questions les plus fréquentes sur l'IA en PME et ETI : ROI, coûts, mise en œuvre, résultats mesurables.",
+      "Réponses aux 20 questions fréquentes sur l'IA en PME et ETI : ROI, coûts, mise en œuvre, résultats mesurables.",
     type: "website",
     locale: "fr_FR",
     url: "https://www.smart-impulsion.com/faq",

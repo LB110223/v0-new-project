@@ -11,7 +11,7 @@ import {
 const baseUrl = "https://www.smart-impulsion.com"
 
 export const metadata: Metadata = {
-  title: "IA pour PME : par où commencer ? Guide pratique 2026 | Smart Impulsion",
+  title: "IA pour PME : par où commencer ? Guide 2026 | Smart Impulsion",
   description:
     "Comment utiliser l'IA en PME sans équipe technique ? Cas d'usage concrets, budget, ROI attendu et roadmap type. De 0 à vos premiers gains en 4 semaines.",
   authors: [{ name: "Laurent Bouzon" }],

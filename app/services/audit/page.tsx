@@ -21,7 +21,7 @@ import { AnimateOnScroll } from "@/components/animate-on-scroll"
 export const metadata: Metadata = {
   title: "Audit IA & Diagnostic | Smart Analyse | Smart Impulsion",
   description:
-    "Audit IA pour PME et ETI : identifiez vos opportunités d'optimisation en 3 à 6 semaines. Cartographie des cas d'usage, estimation du ROI et roadmap stratégique actionnable.",
+    "Audit IA pour PME et ETI : identifiez vos opportunités d'optimisation en 3 à 6 semaines. Cas d'usage, estimation du ROI et roadmap actionnable.",
   alternates: {
     canonical: "https://www.smart-impulsion.com/services/audit",
   },
@@ -113,12 +113,59 @@ const serviceJsonLd = {
   "url": "https://www.smart-impulsion.com/services/audit"
 }
 
+const howToJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Comment réaliser un audit IA pour votre PME/ETI",
+  "description": "Notre méthodologie en 4 étapes pour identifier vos opportunités IA avec un ROI estimé, en 3 à 6 semaines.",
+  "totalTime": "P6W",
+  "estimatedCost": {
+    "@type": "MonetaryAmount",
+    "currency": "EUR",
+    "value": "2000"
+  },
+  "step": [
+    {
+      "@type": "HowToStep",
+      "position": 1,
+      "name": "Acculturation & cadrage",
+      "text": "Session de sensibilisation pour aligner tous les acteurs clés sur les fondamentaux de l'IA, ses opportunités et ses limites dans votre contexte. Livrables : compréhension partagée de l'IA, identification des parties prenantes, définition du périmètre d'audit.",
+      "url": "https://www.smart-impulsion.com/services/audit#methodologie"
+    },
+    {
+      "@type": "HowToStep",
+      "position": 2,
+      "name": "Diagnostic & interviews",
+      "text": "Analyse approfondie de vos processus métier via des ateliers et interviews avec chaque département pour identifier les irritants et opportunités. Livrables : cartographie des processus, identification des pain points, liste des cas d'usage potentiels.",
+      "url": "https://www.smart-impulsion.com/services/audit#methodologie"
+    },
+    {
+      "@type": "HowToStep",
+      "position": 3,
+      "name": "Analyse & priorisation",
+      "text": "Évaluation de chaque cas d'usage selon son impact business, sa faisabilité technique et son alignement stratégique pour construire votre roadmap. Livrables : scoring des use cases, estimation du ROI par projet, matrice impact/effort.",
+      "url": "https://www.smart-impulsion.com/services/audit#methodologie"
+    },
+    {
+      "@type": "HowToStep",
+      "position": 4,
+      "name": "Roadmap & restitution",
+      "text": "Présentation de la feuille de route IA avec les projets prioritaires, le planning de mise en œuvre et les ressources nécessaires. Livrables : roadmap IA détaillée, business cases chiffrés, plan d'action opérationnel.",
+      "url": "https://www.smart-impulsion.com/services/audit#methodologie"
+    }
+  ]
+}
+
 export default function AuditPage() {
   return (
     <main className="min-h-screen bg-white">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(howToJsonLd) }}
       />
       {/* Hero Section */}
       <section className="relative bg-black text-white pt-24 pb-16">

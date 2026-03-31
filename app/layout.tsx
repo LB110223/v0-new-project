@@ -15,7 +15,7 @@ const inter = Inter({ subsets: ["latin"], display: "swap" })
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.smart-impulsion.com"),
-  title: "Smart Impulsion | Conseil IA pour PME et ETI - ROI mesurable",
+  title: "Smart Impulsion | Cabinet conseil IA pour PME et ETI",
   description:
     "Smart Impulsion aide les PME et ETI françaises à déployer l'IA avec un ROI mesurable. -32% de temps opérationnel, +18% de performance. Évaluation gratuite.",
   authors: [
@@ -125,7 +125,8 @@ export default function RootLayout({
               "serviceType": ["Conseil en intelligence artificielle", "Audit IA", "Formation IA", "Implémentation IA"],
               "knowsAbout": ["Intelligence artificielle", "ROI IA", "Automatisation", "Machine Learning", "NLP"],
               "sameAs": [
-                "https://www.linkedin.com/company/107340725"
+                "https://www.linkedin.com/company/107340725",
+                "https://g.page/smart-impulsion"
               ],
               "aggregateRating": {
                 "@type": "AggregateRating",
@@ -166,6 +167,88 @@ export default function RootLayout({
                   "@type": "ImageObject",
                   "url": "https://www.smart-impulsion.com/og-image.png"
                 }
+              }
+            })
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "ProfessionalService",
+              "name": "Smart Impulsion",
+              "description": "Cabinet de conseil en intelligence artificielle pour PME et ETI. Audit IA, formation et implémentation avec ROI mesurable.",
+              "url": "https://www.smart-impulsion.com",
+              "logo": "https://www.smart-impulsion.com/og-image.png",
+              "image": "https://www.smart-impulsion.com/og-image.png",
+              "telephone": "+33482532816",
+              "email": "contact@smart-impulsion.com",
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "70 quai Perrache",
+                "addressLocality": "Lyon",
+                "postalCode": "69002",
+                "addressCountry": "FR"
+              },
+              "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 45.7466,
+                "longitude": 4.8262
+              },
+              "founder": {
+                "@type": "Person",
+                "name": "Laurent Bouzon",
+                "jobTitle": "Fondateur & CEO"
+              },
+              "areaServed": {
+                "@type": "Country",
+                "name": "France"
+              },
+              "hasOfferCatalog": {
+                "@type": "OfferCatalog",
+                "name": "Services Smart Impulsion",
+                "itemListElement": [
+                  {
+                    "@type": "Offer",
+                    "itemOffered": {
+                      "@type": "Service",
+                      "name": "Smart Training — Formation IA",
+                      "description": "Formation personnalisée à l'IA pour équipes PME/ETI",
+                      "url": "https://www.smart-impulsion.com/services/formation"
+                    }
+                  },
+                  {
+                    "@type": "Offer",
+                    "itemOffered": {
+                      "@type": "Service",
+                      "name": "Smart Analyse — Audit IA",
+                      "description": "Diagnostic IA avec identification des quick wins et ROI projeté",
+                      "url": "https://www.smart-impulsion.com/services/audit"
+                    }
+                  },
+                  {
+                    "@type": "Offer",
+                    "itemOffered": {
+                      "@type": "Service",
+                      "name": "Smart Action — Accompagnement opérationnel",
+                      "description": "Déploiement de solutions IA sur mesure avec ROI mesurable",
+                      "url": "https://www.smart-impulsion.com/services/accompagnement"
+                    }
+                  }
+                ]
+              },
+              "sameAs": [
+                "https://www.linkedin.com/company/107340725",
+                "https://g.page/smart-impulsion"
+              ],
+              "priceRange": "2000-30000 EUR",
+              "currenciesAccepted": "EUR",
+              "openingHoursSpecification": {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+                "opens": "09:00",
+                "closes": "18:00"
               }
             })
           }}

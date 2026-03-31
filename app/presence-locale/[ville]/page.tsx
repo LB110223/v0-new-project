@@ -8,8 +8,10 @@ import { LyonEnriched } from "./lyon-enriched"
 const villes = {
   lyon: {
     nom: "Lyon",
+    h1: "Agence IA à Lyon pour PME et ETI",
     description:
       "Smart Impulsion accompagne les entreprises lyonnaises dans leur transformation par l'IA avec un ROI mesurable.",
+    metaDescription: "Smart Impulsion, agence IA à Lyon. Conseil, audit et déploiement IA pour PME et ETI lyonnaises. ROI mesurable en 4 semaines.",
     specificites:
       "Lyon, avec son écosystème dynamique de startups et sa French Tech, est un terreau fertile pour l'innovation par l'IA.",
     casEtude:
@@ -19,7 +21,9 @@ const villes = {
   },
   paris: {
     nom: "Paris",
+    h1: "Votre agence IA à Paris : conseil et déploiement pour PME et ETI",
     description: "Smart Impulsion transforme les entreprises parisiennes grâce à des solutions d'IA à ROI mesurable.",
+    metaDescription: "Smart Impulsion, agence IA à Paris. Solutions d'IA à ROI mesurable pour les entreprises parisiennes. IA générative, ML et NLP.",
     specificites:
       "Paris, capitale de l'innovation en France, concentre un écosystème riche d'entreprises technologiques et de grands groupes en quête de solutions IA performantes.",
     casEtude:
@@ -29,8 +33,10 @@ const villes = {
   },
   marseille: {
     nom: "Marseille",
+    h1: "Agence IA à Marseille : conseil et déploiement pour PME et ETI",
     description:
       "Smart Impulsion accompagne les entreprises marseillaises dans leur transformation numérique par l'IA à ROI mesurable.",
+    metaDescription: "Smart Impulsion, agence IA à Marseille. Solutions d'IA à ROI mesurable pour les entreprises marseillaises. Expertise IA complète.",
     specificites:
       "Marseille, avec son port international et son écosystème méditerranéen, présente des opportunités uniques pour l'application de l'IA dans la logistique, les services et le commerce.",
     casEtude:
@@ -40,8 +46,10 @@ const villes = {
   },
   bordeaux: {
     nom: "Bordeaux",
+    h1: "Agence IA à Bordeaux : conseil et déploiement pour PME et ETI",
     description:
       "Smart Impulsion propose aux entreprises bordelaises des solutions d'IA avec un retour sur investissement mesurable.",
+    metaDescription: "Smart Impulsion, agence IA à Bordeaux. Solutions d'IA à ROI mesurable pour les entreprises bordelaises. Conseil et déploiement.",
     specificites:
       "Bordeaux, avec son dynamisme économique et son écosystème tech en pleine croissance, offre un terrain propice à l'adoption de l'IA dans les PME et ETI.",
     casEtude:
@@ -51,8 +59,10 @@ const villes = {
   },
   nantes: {
     nom: "Nantes",
+    h1: "Agence IA à Nantes : conseil et déploiement pour PME et ETI",
     description:
       "Smart Impulsion accompagne les entreprises nantaises dans leur transformation par l'IA avec un ROI mesurable et rapide.",
+    metaDescription: "Smart Impulsion, agence IA à Nantes. Solutions d'IA à ROI mesurable pour les entreprises nantaises. Conseil et déploiement IA.",
     specificites:
       "Nantes, reconnue pour son dynamisme numérique et sa qualité de vie, abrite de nombreuses entreprises innovantes en quête de solutions IA pragmatiques.",
     casEtude:
@@ -77,14 +87,14 @@ export async function generateMetadata({ params }: { params: { ville: string } }
   // Lyon gets enriched metadata
   if (ville === "lyon") {
     return {
-      title: "Agence IA à Lyon — Conseil en intelligence artificielle pour PME et ETI | Smart Impulsion",
+      title: "Agence IA Lyon | Smart Impulsion - Conseil IA pour PME et ETI",
       description:
-        "Smart Impulsion, votre agence IA à Lyon. Conseil, audit et déploiement IA pour PME et ETI lyonnaises. -32% de temps opérationnel, ROI mesurable en 4 semaines. French Tech Lyon.",
+        "Smart Impulsion, agence IA à Lyon. Conseil, audit et déploiement IA pour PME et ETI lyonnaises. ROI mesurable en 4 semaines.",
       alternates: {
         canonical: "https://www.smart-impulsion.com/presence-locale/lyon",
       },
       openGraph: {
-        title: "Agence IA à Lyon — Conseil en intelligence artificielle pour PME et ETI",
+        title: "Agence IA Lyon | Smart Impulsion - Conseil IA pour PME et ETI",
         description:
           "Smart Impulsion accompagne les PME et ETI lyonnaises dans le déploiement de l'IA avec un ROI mesurable. -32% de temps opérationnel en 4 semaines.",
         type: "website",
@@ -98,7 +108,7 @@ export async function generateMetadata({ params }: { params: { ville: string } }
 
   return {
     title: `Agence IA ${villeInfo.nom} | Smart Impulsion - ROI mesurable`,
-    description: `${villeInfo.description} Expertise en IA générative, machine learning et NLP pour les entreprises de ${villeInfo.nom} et sa région.`,
+    description: villeInfo.metaDescription || `${villeInfo.description} Expertise en IA générative, machine learning et NLP pour les entreprises de ${villeInfo.nom} et sa région.`,
     alternates: {
       canonical: `https://www.smart-impulsion.com/presence-locale/${ville}`,
     },
@@ -137,7 +147,7 @@ export default function PresenceLocale({ params }: { params: { ville: string } }
         </Link>
 
         <h1 className="text-3xl md:text-4xl font-bold mb-8 text-gray-900">
-          Agence IA à {villeInfo.nom} | Solutions d&apos;intelligence artificielle à ROI mesurable
+          {villeInfo.h1 || `Agence IA à ${villeInfo.nom} : conseil et déploiement pour PME et ETI`}
         </h1>
 
         <div className="prose prose-lg max-w-none">

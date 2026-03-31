@@ -27,8 +27,10 @@ export async function generateMetadata({ params }: BlogPostPageProps): Promise<M
 
   const baseUrl = "https://www.smart-impulsion.com"
 
+  const pageTitle = article.seoTitle || `${article.title} | Smart Impulsion`
+
   return {
-    title: `${article.title} | Smart Impulsion`,
+    title: pageTitle,
     description: article.excerpt,
     authors: [{ name: article.author }],
     alternates: {
@@ -290,7 +292,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
 
               {/* Title */}
               <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold text-foreground mb-8 leading-tight text-balance">
-                {article.title}
+                {article.h1 || article.title}
               </h1>
 
               {/* Excerpt */}

@@ -20,7 +20,7 @@ import { AnimateOnScroll } from "@/components/animate-on-scroll"
 export const metadata: Metadata = {
   title: "Accompagnement Opérationnel IA | Smart Action | Smart Impulsion",
   description:
-    "Déploiement de solutions IA sur mesure pour PME et ETI. -32% de temps opérationnel, +24% de ROI. Du développement au déploiement, nous pilotons vos projets IA avec un suivi des résultats.",
+    "Déploiement IA sur mesure pour PME et ETI : -32% de temps opérationnel, +24% de ROI. Pilotage complet du développement au déploiement.",
   alternates: {
     canonical: "https://www.smart-impulsion.com/services/accompagnement",
   },
@@ -133,9 +133,9 @@ export default function AccompagnementPage() {
                 <span className="text-sm font-medium uppercase tracking-wider">Smart Action</span>
               </div>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-                Déployez des solutions IA
+                Implémentation IA sur mesure :
                 <br />
-                <span className="text-orange-400">avec un impact réel</span>
+                <span className="text-orange-400">des solutions à impact réel</span>
               </h1>
               <p className="text-xl text-gray-300 mb-8 max-w-2xl">
                 De la conception au déploiement, nous vous accompagnons dans la mise en œuvre opérationnelle de

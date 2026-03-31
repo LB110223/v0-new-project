@@ -15,14 +15,14 @@ import { Button } from "@/components/ui/button"
 import { AnimateOnScroll } from "@/components/animate-on-scroll"
 
 export const metadata: Metadata = {
-  title: "A propos — Smart Impulsion | Conseil IA pour PME et ETI",
+  title: "À propos | Smart Impulsion — Consultants IA pour PME et ETI",
   description:
-    "Decouvrez Smart Impulsion : notre mission, notre approche ROI-first, et le parcours de Laurent Bouzon, fondateur. 9 ans chez Lyko, co-fondateur SymbiozAI, board French Tech Lyon.",
+    "Smart Impulsion : conseil IA à ROI mesurable pour PME et ETI. Fondé par Laurent Bouzon — 9 ans chez Lyko, board French Tech Lyon.",
   alternates: {
     canonical: "https://www.smart-impulsion.com/a-propos",
   },
   openGraph: {
-    title: "A propos — Smart Impulsion | Conseil IA pour PME et ETI",
+    title: "À propos | Smart Impulsion — Consultants IA pour PME et ETI",
     description:
       "Smart Impulsion rend l'IA rentable pour les PME et ETI francaises. -32% de temps operationnel, +18% de performance commerciale, 24% de ROI moyen.",
     type: "website",
@@ -48,6 +48,10 @@ const aboutJsonLd = {
         "9 ans chez Lyko (co-fondateur), co-fondateur SymbiozAI, board member French Tech Lyon.",
       sameAs: "https://www.linkedin.com/in/laurent-bouzon-150237108/",
     },
+    sameAs: [
+      "https://www.linkedin.com/company/107340725",
+      "https://g.page/smart-impulsion",
+    ],
     areaServed: {
       "@type": "Country",
       name: "France",

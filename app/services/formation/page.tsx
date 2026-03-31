@@ -20,7 +20,7 @@ import { AnimateOnScroll } from "@/components/animate-on-scroll"
 export const metadata: Metadata = {
   title: "Formation IA pour Entreprises | Smart Training | Smart Impulsion",
   description:
-    "Formation IA personnalisée pour PME et ETI. De la sensibilisation à la maîtrise opérationnelle, formez vos équipes avec des résultats mesurables : 20 à 40% de gain de temps sur les tâches ciblées.",
+    "Formation IA pour PME et ETI : de la sensibilisation à la maîtrise opérationnelle. 20 à 40% de gain de temps sur les tâches ciblées.",
   alternates: {
     canonical: "https://www.smart-impulsion.com/services/formation",
   },
