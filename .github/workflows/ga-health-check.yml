@@ -1,0 +1,98 @@
+name: GA health check
+
+on:
+  schedule:
+    # 9:00 UTC daily — checks that the prod HTML still contains the GA tracking
+    # snippets. Created 2026-04-10 after a 10-day silent regression where the
+    # Lighthouse optim of 2026-03-31 removed G-GL950W65YF from the HTML without
+    # anyone noticing. See audit at knowledge/data/audits/2026-04-10-ga-regression-investigation.md
+    # in the CoS repo.
+    - cron: "0 9 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  check-ga-tracking:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Fetch production HTML
+        id: fetch
+        run: |
+          set -e
+          mkdir -p /tmp/ga-check
+          HTTP_CODE=$(curl -sS -o /tmp/ga-check/home.html -w "%{http_code}" https://smart-impulsion.com)
+          echo "http_code=$HTTP_CODE" >> "$GITHUB_OUTPUT"
+          echo "bytes=$(wc -c < /tmp/ga-check/home.html)" >> "$GITHUB_OUTPUT"
+          if [ "$HTTP_CODE" != "200" ]; then
+            echo "::error::smart-impulsion.com returned HTTP $HTTP_CODE"
+            exit 1
+          fi
+          echo "Fetched $(wc -c < /tmp/ga-check/home.html) bytes (HTTP $HTTP_CODE)"
+
+      - name: Verify GA markers
+        id: verify
+        run: |
+          set -e
+          HTML=/tmp/ga-check/home.html
+          GA_COUNT=$(grep -c "G-GL950W65YF" "$HTML" || true)
+          GTAG_COUNT=$(grep -c "gtag" "$HTML" || true)
+          DL_COUNT=$(grep -c "dataLayer" "$HTML" || true)
+          BS_COUNT=$(grep -c "ga-bootstrap" "$HTML" || true)
+
+          echo "G-GL950W65YF: $GA_COUNT"
+          echo "gtag:         $GTAG_COUNT"
+          echo "dataLayer:    $DL_COUNT"
+          echo "ga-bootstrap: $BS_COUNT"
+
+          {
+            echo "ga_count=$GA_COUNT"
+            echo "gtag_count=$GTAG_COUNT"
+            echo "dl_count=$DL_COUNT"
+            echo "bs_count=$BS_COUNT"
+          } >> "$GITHUB_OUTPUT"
+
+          MISSING=""
+          [ "$GA_COUNT" -lt 1 ] && MISSING="$MISSING G-GL950W65YF"
+          [ "$GTAG_COUNT" -lt 1 ] && MISSING="$MISSING gtag"
+          [ "$DL_COUNT" -lt 1 ] && MISSING="$MISSING dataLayer"
+          [ "$BS_COUNT" -lt 1 ] && MISSING="$MISSING ga-bootstrap"
+
+          if [ -n "$MISSING" ]; then
+            echo "::error::Missing GA markers in prod HTML:$MISSING"
+            echo "missing=$MISSING" >> "$GITHUB_OUTPUT"
+            exit 1
+          fi
+          echo "All GA markers present — tracking is healthy"
+
+      - name: Create alert issue on failure
+        if: failure()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          RUN_URL="${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          gh issue create \
+            --repo "${{ github.repository }}" \
+            --title "[ALERT] GA tracking missing from prod HTML" \
+            --body "$(cat <<EOF
+          The daily GA health check failed.
+
+          **What happened**: the production HTML at https://smart-impulsion.com is missing one or more Google Analytics markers (\`G-GL950W65YF\`, \`gtag\`, \`dataLayer\`, or \`ga-bootstrap\`). This likely means GA tracking is broken — exactly like the 10-day silent regression of 2026-03-31 → 2026-04-10.
+
+          **Counts from this run**:
+          - \`G-GL950W65YF\`: ${{ steps.verify.outputs.ga_count }}
+          - \`gtag\`: ${{ steps.verify.outputs.gtag_count }}
+          - \`dataLayer\`: ${{ steps.verify.outputs.dl_count }}
+          - \`ga-bootstrap\`: ${{ steps.verify.outputs.bs_count }}
+
+          **Missing markers**: ${{ steps.verify.outputs.missing }}
+
+          **Run**: $RUN_URL
+
+          **Runbook**: see audit \`2026-04-10-ga-regression-investigation.md\` in the CoS knowledge base. The fix pattern is in commit \`49162db\` of this repo — any future regression should revert to that pattern: \`next/script\` beforeInteractive bootstrap that attaches \`window.gtag\` + creates \`dataLayer\` + poses \`gtag('consent','default','denied')\` before loading gtag.js in afterInteractive.
+
+          **Who should fix**: the web-developer agent via the Chief of Staff. Do NOT push a quick fix without a root cause analysis — the previous regression was caused by stacking 5 bugs in one Lighthouse-optim commit.
+          EOF
+          )"
