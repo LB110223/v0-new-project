@@ -35,6 +35,256 @@ export interface BlogArticle {
 
 export const blogArticles: BlogArticle[] = [
   {
+    slug: "audit-ia-vs-consulting-classique",
+    title: "Audit IA vs consulting classique : guide de choix 2026",
+    excerpt:
+      "Audit IA vs consulting classique : 7 différences clés, coûts réels 2026, quand choisir quoi pour votre PME française. Guide factuel et sans jargon.",
+    content: `# Audit IA vs consulting classique : quelle différence et quand choisir quoi
+
+La question revient à chaque premier rendez-vous avec un dirigeant de PME : "Dois-je démarrer par un audit IA ou par une mission de consulting classique ?" Ce choix conditionne votre budget, votre calendrier et la pertinence de votre feuille de route IA. Ce guide comparatif n'a pas pour but de promouvoir l'un au détriment de l'autre : il vous donne les éléments pour choisir le bon outil au bon moment, sans dépenser plus que nécessaire ni sous-calibrer votre ambition.
+
+Selon McKinsey (Global Survey on AI, 2024), 65 % des entreprises utilisent l'IA générative dans au moins une de leurs fonctions. Pourtant, la question qui précède cette adoption reste rarement formalisée : faut-il démarrer par un audit IA ou par une mission de consulting ? Les deux réponses semblent similaires en surface, mais elles s'adressent à des questions profondément différentes.
+
+## Ce qu'est un audit IA : définition, délai et livrable
+
+**Définition.** Un audit IA est un diagnostic opérationnel conduit par un consultant senior sur une durée de 2 à 10 jours ouvrés. Son objectif est de répondre à une question précise : quels sont vos 3 à 5 cas d'usage IA prioritaires, dans quel ordre les traiter, et quel retour sur investissement pouvez-vous raisonnablement attendre ? Ce n'est ni un rapport de conformité ni une étude de marché. C'est un outil de décision opérationnel, livré dans un délai court et à périmètre défini.
+
+Pour produire ce résultat, le consultant passe en revue vos processus opérationnels, évalue la qualité et la disponibilité de vos données, et cartographie vos contraintes budgétaires et humaines. Le diagnostic porte sur 1 à 3 fonctions de l'entreprise selon la durée et la complexité sectorielle.
+
+### Concrètement, que recevez-vous à la fin d'un audit IA ?
+
+Le livrable d'un audit IA fait entre 20 et 40 pages. Il est orienté décision, pas exhaustivité. Vous y trouvez :
+
+- Une cartographie des processus candidats à l'automatisation ou à l'assistance IA
+- Une évaluation de la qualité et de la disponibilité de vos données
+- Un plan de priorités avec estimations de ROI par cas d'usage
+- Une feuille de route opérationnelle pour les 6 à 12 prochains mois
+
+Ce n'est pas un document pour le tiroir. C'est un outil de pilotage qui vous permet de prendre une décision d'investissement fondée sur un diagnostic réel, pas sur une intuition ou une proposition commerciale.
+
+Sur les diagnostics que nous menons, la question numéro un des dirigeants à l'issue de l'audit est systématiquement la même : "Pourquoi n'avons-nous pas fait ça plus tôt ?" La plupart des blocages ne viennent pas de la technologie, mais de l'absence de cadre pour prioriser.
+
+### Les fourchettes de coût réelles en 2026
+
+Les TJM des consultants seniors spécialisés en IA se situent entre 1 200 et 2 000 euros HT par jour en France (données marché France 2026). Ce référentiel permet de comprendre les fourchettes suivantes pour un audit IA PME :
+
+- Audit flash (1 à 3 jours) : 2 000 à 6 000 euros HT
+- Audit standard PME (3 à 5 jours) : 6 000 à 15 000 euros HT
+- Audit ETI multi-sites (5 à 10 jours) : 15 000 à 35 000 euros HT
+
+Ces chiffres sont des fourchettes de marché. Ils varient selon la complexité sectorielle, le nombre de fonctions auditées et le niveau de préparation de votre équipe.
+
+### Ce qu'un audit court ne fait pas
+
+Soyons directs : un audit de 3 jours ne remplace pas une transformation accompagnée. Il ne produit pas d'outil déployé, pas d'équipe formée, pas de changement organisationnel. Il pose le diagnostic. Rien de plus, rien de moins. Et c'est précisément sa valeur : concentrer l'effort là où il produit de l'information décisionnelle, pas de l'exécution prématurée.
+
+## Ce qu'est une mission de consulting classique : définition, durée et périmètre
+
+**Définition.** Une mission de consulting classique est un accompagnement structuré conduit sur une durée de 2 à 9 mois par un cabinet ou un consultant senior. Elle répond à une question différente de l'audit : comment transformer en profondeur votre organisation pour qu'elle intègre l'IA dans ses processus, sa culture et ses systèmes ? Cette réponse suppose que vous savez déjà ce que vous voulez transformer et que vous disposez d'une équipe pour travailler avec les consultants.
+
+Le consulting classique couvre plusieurs fonctions simultanément : finance, opérations, ressources humaines, relation client. Les livrables sont volumineux (80 à 200 pages, parfois davantage) et conçus pour être exhaustifs, pour couvrir tous les scénarios, pour répondre aux questions que le commanditaire n'a pas encore posées.
+
+### Les fourchettes de coût du consulting IA en 2026
+
+- Stratégie IA cabinet mid-market (2 à 4 mois) : 30 000 à 80 000 euros HT
+- Transformation accompagnée (4 à 9 mois) : 80 000 à 300 000 euros HT
+
+Ces montants supposent une organisation capable d'absorber la démarche : une équipe interne disponible pour travailler avec les consultants, un sponsor exécutif impliqué, et une maturité minimale sur le sujet traité.
+
+### Le modèle senior/junior dans les cabinets
+
+Dans les cabinets, le partner ou le directeur signe la proposition et cadre la mission. L'exécution est souvent portée par des consultants juniors à expérimentés. Ce n'est pas un défaut en soi : c'est un modèle économique qui permet de réduire le coût horaire. Mais cela signifie que l'expertise que vous avez achetée lors de la vente n'est pas toujours celle qui est présente dans vos locaux chaque semaine. Ce point mérite d'être posé explicitement lors de la contractualisation.
+
+La perception que le conseil IA est forcément long et onéreux est fréquente dans les PME. Ce ressenti est souvent légitime sur des missions longues mal calibrées, mais il conduit parfois à éviter tout accompagnement externe même quand un format court et ciblé serait parfaitement accessible financièrement.
+
+## Les 7 différences entre audit IA et consulting classique qui comptent vraiment
+
+Ces deux approches se distinguent sur sept dimensions. Voici celles qui ont un impact direct sur votre décision de dirigeant.
+
+### 1. Durée et rythme
+
+L'audit IA produit des résultats en 2 à 10 jours ouvrés. Le consulting classique s'inscrit dans un horizon de 2 à 9 mois. Ce n'est pas qu'une question de tempo : c'est une question de contexte décisionnel. Si votre comité de direction attend une orientation claire avant la prochaine réunion budgétaire, l'audit répond au besoin. Si vous avez du temps et de l'ambition de transformation sur plusieurs fonctions, le consulting prend sens.
+
+### 2. Maturité requise pour chaque approche
+
+C'est le critère le plus sous-estimé. Le consulting classique suppose que vous savez déjà ce que vous voulez transformer et que vous disposez d'une équipe pour accompagner la démarche. L'audit IA, lui, traite l'absence de maturité comme son objet même : il est là pour construire la vision, pas pour l'exécuter.
+
+Selon France Num (Baromètre France Num 2024), seulement 13 % des PME françaises utilisent l'IA dans leur activité quotidienne. Pour les 87 % restantes, démarrer par une mission de consulting sans audit préalable, c'est construire sur un sol non préparé.
+
+Pour les PME qui débutent leur parcours IA, notre [guide complet pour démarrer avec l'IA en PME](/blog/ia-pour-pme-guide) pose les bases avant tout choix méthodologique.
+
+### 3. Indépendance et risque de dépendance
+
+Un bon audit IA vous remet un livrable qui vous appartient entièrement. Vous pouvez le mettre en oeuvre avec le prestataire de l'audit, avec un autre acteur, ou en interne. Zéro dépendance.
+
+Le consulting classique crée parfois une dépendance fonctionnelle : les outils recommandés sont ceux que le cabinet maîtrise, la méthodologie est propriétaire, le suivi post-mission est facturé à part. Cela n'invalide pas l'approche, mais c'est un facteur à intégrer dans votre calcul dès la phase de sélection du prestataire.
+
+### 4. L'interlocuteur réel
+
+Lors d'un audit IA agile, le consultant senior qui conduit les entretiens est aussi celui qui rédige les recommandations. Il n'y a pas d'intermédiaire entre la compréhension de vos enjeux et la production du livrable.
+
+Dans une mission de consulting classique avec un cabinet, vérifiez systématiquement qui sera présent dans vos locaux semaine après semaine. La réponse conditionne la qualité de l'exécution. Sur ce point, exiger une clause de continuité de l'équipe dans le contrat est une bonne pratique.
+
+### 5. Le ROI du diagnostic lui-même
+
+Selon Gartner (juillet 2024), 30 % des projets d'IA générative seront abandonnés après leur phase pilote d'ici fin 2025. La cause principale : l'absence de cadrage initial et de critères de succès définis en amont. Un audit à 8 000 euros qui sécurise un projet à 80 000 euros a un ROI immédiat et mesurable. Ce n'est pas un coût supplémentaire dans votre budget de transformation : c'est une assurance décisionnelle.
+
+Pour approfondir la question du retour sur investissement des projets IA, notre article sur le [ROI de l'intelligence artificielle en entreprise](/blog/roi-intelligence-artificielle-entreprise) détaille les méthodes de calcul et les benchmarks sectoriels.
+
+### 6. La volumétrie du livrable
+
+40 pages orientées décision versus 150 pages orientées exhaustivité. Ce n'est pas une question de qualité : c'est une question d'usage. Un dirigeant de PME a besoin de lire 40 pages avant une réunion de comité de direction, pas 150. Le consulting classique produit des livrables calibrés pour des directions générales qui disposent d'équipes pour les dépouiller et les prioriser. Ce format n'est pas adapté à une PME de 50 à 500 personnes dont le dirigeant lit lui-même chaque document structurant.
+
+### 7. Le spectre couvert
+
+L'audit IA couvre 1 à 3 fonctions de manière ciblée. Le consulting classique couvre plusieurs chantiers simultanément. Si votre enjeu est de savoir où concentrer vos efforts, l'audit répond mieux. Si votre enjeu est de transformer l'ensemble de votre organisation en parallèle sur plusieurs fonctions avec un accompagnement au changement intégré, le consulting classique est le bon format.
+
+Sur les cas d'usage d'automatisation spécifiques par fonction, notre article sur l'[automatisation des processus par l'IA](/blog/automatisation-processus-ia-guide-pratique) détaille les applications les plus fréquentes en PME.
+
+## Pourquoi commencer par l'audit plutôt que par le consulting ?
+
+La question se pose souvent ainsi : "Puisqu'on va finir par faire du consulting de toute façon, autant y aller directement." C'est un raisonnement qui semble logique mais qui omet un facteur clé : le coût de l'incertitude.
+
+Sans audit préalable, les priorités d'une mission de consulting sont posées sur la base des intuitions du management et des observations initiales du cabinet. Ces intuitions sont souvent pertinentes, mais elles ne sont pas fondées sur une analyse systématique des données disponibles, des processus réels et des contraintes opérationnelles. Le résultat : un glissement de périmètre, des chantiers secondaires qui absorbent le budget, et une mission qui s'allonge sans que les priorités stratégiques soient réellement traitées.
+
+En pratique, la majorité des dirigeants de PME hésitent à solliciter un accompagnement externe pour leur démarche IA. Selon France Num (Baromètre France Num 2024), seulement 13 % des PME françaises utilisent des outils d'IA dans leur activité quotidienne. Cet écart entre l'intérêt pour l'IA et son déploiement réel s'explique en partie par la perception que tout accompagnement extérieur implique un engagement de plusieurs mois et un budget élevé. L'audit court casse cette représentation : il est accessible, rapide et produit un résultat actionnable avant tout engagement financier majeur.
+
+L'audit agile en amont d'une mission de consulting n'est pas un doublon de coût. C'est un investissement de cadrage qui réduit le risque et améliore le ROI de la mission qui suit.
+
+## Audit IA ou consulting classique : comment choisir selon votre situation
+
+### Quand l'audit IA est le choix naturel pour une PME
+
+Votre organisation répond à au moins un de ces critères :
+
+- Vous n'avez pas encore de vision claire de vos priorités IA
+- Votre budget pour le diagnostic est inférieur à 20 000 euros HT
+- Vous avez besoin de résultats exploitables en moins de 4 semaines
+- Vous ne disposez pas d'une équipe data ou IT dédiée en interne
+- Vous avez moins de 2 projets IA déjà en production
+
+Le cas le plus fréquent en PME française en 2026 : une question vague ("on devrait faire quelque chose avec l'IA") associée à un budget imprécis. Dans cette configuration, l'audit IA est systématiquement le bon point d'entrée. Il transforme l'incertitude en feuille de route actionnelle.
+
+McKinsey (Global Survey on AI, 2024) note que 65 % des entreprises utilisent désormais l'IA générative dans au moins une fonction (contre 33 % en 2023). Cette adoption rapide crée une pression sur les dirigeants de PME qui n'ont pas encore engagé de démarche structurée. L'audit court joue ici un rôle de régulateur de décision : il permet d'agir vite sur des bases solides, sans se lancer dans un projet mal cadré sous la pression de l'urgence perçue.
+
+Pour comprendre en détail comment se déroule un audit IA et ce qu'il produit concrètement, notre [guide complet de l'audit IA pour PME](/blog/audit-ia-pme-guide-complet) détaille chaque étape de la démarche.
+
+### Quand le consulting classique est le bon format
+
+Le consulting classique prend tout son sens dans des configurations plus avancées.
+
+Votre organisation répond à au moins un de ces critères :
+
+- Un diagnostic a déjà été conduit et vous en connaissez les conclusions
+- Votre budget de transformation dépasse 50 000 euros HT
+- Vous avez besoin de transformer plusieurs fonctions en parallèle sur 4 à 9 mois
+- Vous disposez d'une équipe interne dédiée pour travailler avec les consultants
+- Vos enjeux réglementaires ou de conformité nécessitent une expertise juridique et technique combinée
+
+Dans ces cas, un audit court serait sous-calibré. Le contexte appelle une démarche structurée, multi-compétences, avec un accompagnement au changement intégré.
+
+> Attention aux raccourcis : certains cabinets proposent des "audits" qui sont en réalité des avant-ventes déguisées pour des missions plus longues. Un vrai audit IA vous remet un livrable exploitable indépendamment du prestataire. S'il ne peut pas être mis en oeuvre sans le cabinet qui l'a produit, ce n'est pas un audit.
+
+## Du diagnostic à la mise en oeuvre : le continuum audit vers mission
+
+Dans la pratique, l'audit IA vs consulting classique n'est pas un choix exclusif. Ce sont deux étapes qui s'enchaînent naturellement.
+
+L'audit IA agile sert de point d'entrée pour poser le diagnostic, qualifier les enjeux et construire la confiance entre le dirigeant et le prestataire. Si la mission est bien conduite et que les recommandations sont solides, la question naturelle qui suit est : "Qui va m'aider à mettre en oeuvre ça ?" Ce passage de l'audit vers la mission de transformation est le modèle le plus vertueux pour une PME ou une ETI. Il permet de maîtriser le risque à chaque étape, sans s'engager aveuglément sur un budget dont les contours sont encore flous. Et il permet de choisir son partenaire de mise en oeuvre sur la base d'un livrable concret, pas d'une promesse commerciale.
+
+Pour choisir le bon partenaire pour la phase de mise en oeuvre qui suit l'audit, notre article sur [comment choisir son agence IA](/blog/agence-ia-comment-choisir-partenaire-transformation) vous donne les critères concrets à appliquer.
+
+### Les red flags à surveiller dans les deux cas
+
+Que vous choisissiez un audit ou une mission longue, certains signaux doivent vous alerter.
+
+Pour un audit IA :
+
+- Le prestataire ne demande pas d'accès à vos données avant de produire ses recommandations
+- Le livrable est promis en moins de 48 heures sans entretiens préalables
+- Les recommandations semblent identiques d'un client à l'autre (absence de personnalisation visible dans la proposition)
+- Le prix est anormalement bas (moins de 1 500 euros HT pour un "audit IA complet")
+
+Pour une mission de consulting :
+
+- Le périmètre n'est pas contractuellement fixé dès le départ
+- Le cabinet refuse de nommer les consultants qui seront présents en mission
+- Aucun jalon intermédiaire de validation n'est prévu sur la durée de la mission
+- Le livrable final est conditionné à l'achat d'outils ou de licences recommandés par le cabinet
+
+## Questions fréquentes
+
+### Quelle est la différence entre un audit IA et un audit digital ?
+
+Un audit digital évalue la maturité numérique globale d'une entreprise : outils, infrastructure, usages bureautiques, présence en ligne. Un audit IA est plus ciblé : il analyse les processus candidats à l'automatisation ou à l'assistance par l'IA, évalue la qualité des données disponibles, identifie les cas d'usage à fort potentiel et chiffre un ROI projeté. Le périmètre est plus resserré, la valeur opérationnelle plus directe.
+
+### Un audit IA de 3 jours peut-il vraiment produire des recommandations actionnables ?
+
+Oui, à condition que le prestataire structure sa démarche sur des entretiens ciblés avec les responsables de chaque fonction auditée, une revue des données disponibles et un atelier de priorisation. En 3 jours, on peut couvrir 2 à 3 fonctions, identifier 3 à 5 cas d'usage prioritaires et produire un plan d'action avec des estimations de ROI. Ce n'est pas un rapport académique : c'est un outil de décision.
+
+### Combien coûte un audit IA pour une PME en 2026 ?
+
+Les fourchettes de marché en 2026 sont les suivantes : audit flash (1 à 3 jours) entre 2 000 et 6 000 euros HT, audit standard PME (3 à 5 jours) entre 6 000 et 15 000 euros HT, audit ETI multi-sites (5 à 10 jours) entre 15 000 et 35 000 euros HT. Ces tarifs reflètent les TJM consultants IA senior en France (1 200 à 2 000 euros HT par jour, données marché France 2026).
+
+### Peut-on démarrer directement par une mission de consulting sans audit préalable ?
+
+Techniquement oui. En pratique, c'est risqué. Sans diagnostic préalable, les priorités sont souvent mal posées, le périmètre glisse et le budget s'évapore sur des chantiers secondaires. Gartner (juillet 2024) estime que 30 % des projets d'IA générative seront abandonnés après leur phase pilote d'ici fin 2025, faute de cadrage initial. Un audit court en amont est un investissement de protection, pas un coût supplémentaire.
+
+### L'audit IA remplace-t-il le consulting traditionnel ?
+
+Non. Ce sont deux niveaux de réponse à des questions différentes. L'audit IA dit : où en êtes-vous et quoi faire en priorité. Le consulting classique dit : comment transformer en profondeur votre organisation. Pour la majorité des PME françaises, l'audit est le bon point d'entrée. Pour les ETI engagées dans une transformation multi-fonctions, le consulting prend le relais, souvent dans la continuité d'un audit.
+
+### Comment choisir le bon prestataire pour un audit IA ?
+
+Quatre critères concrets : le consultant senior est-il directement impliqué dans les entretiens ou délègue-t-il à des juniors ? Le livrable est-il orienté décision (plan d'action, ROI chiffré) ou orienté exhaustivité (rapport descriptif) ? Le prestataire a-t-il une expérience sectorielle proche du vôtre ? Et enfin, le livrable vous appartient-il totalement, sans dépendance pour la suite ? Un bon audit IA crée de l'autonomie, pas de la dépendance.
+
+### Un consultant indépendant peut-il conduire un audit IA ou faut-il un cabinet ?
+
+Un consultant indépendant senior peut tout à fait conduire un audit IA de qualité, souvent avec un meilleur ratio valeur/coût qu'un cabinet mid-market. L'avantage d'un cabinet est la capacité à mobiliser plusieurs profils pour des audits ETI multi-sites. L'avantage d'un indépendant est la continuité : le même expert qui pose le diagnostic est celui qui, éventuellement, accompagne la mise en oeuvre. Dans les deux cas, vérifiez les livrables passés, pas les plaquettes commerciales.
+
+Si votre situation correspond à l'un des cinq critères listés plus haut (budget inférieur à 20 000 euros HT, besoin de résultats en moins de 4 semaines, absence d'équipe data interne, moins de 2 projets IA en production), la prochaine étape est concrète.
+
+Smart Impulsion propose un Audit IA Express qui couvre vos fonctions prioritaires, identifie vos cas d'usage à fort potentiel et vous remet un plan d'action avec ROI projeté. En 2 à 3 jours, vous repartez avec une feuille de route opérationnelle et une estimation de retour sur investissement avant de démarrer quoi que ce soit.
+
+[En savoir plus sur l'audit IA express](/services/audit)`,
+    author: "Laurent Bouzon",
+    date: "13 avril 2026",
+    dateISO: "2026-04-13",
+    readTime: "13 min",
+    category: "Audit & Methodologie",
+    image: "/audit-ia-vs-consulting-classique-hero.png",
+    imageAlt: "Image d'illustration pour l'article \"Audit IA vs consulting classique : guide de choix 2026\"",
+    faq: [
+      {
+        question: "Quelle est la différence entre un audit IA et un audit digital ?",
+        answer: "Un audit digital évalue la maturité numérique globale d'une entreprise : outils, infrastructure, usages bureautiques, présence en ligne. Un audit IA est plus ciblé : il analyse les processus candidats à l'automatisation ou à l'assistance par l'IA, évalue la qualité des données disponibles, identifie les cas d'usage à fort potentiel et chiffre un ROI projeté. Le périmètre est plus resserré, la valeur opérationnelle plus directe.",
+      },
+      {
+        question: "Un audit IA de 3 jours peut-il vraiment produire des recommandations actionnables ?",
+        answer: "Oui, à condition que le prestataire structure sa démarche sur des entretiens ciblés avec les responsables de chaque fonction auditée, une revue des données disponibles et un atelier de priorisation. En 3 jours, on peut couvrir 2 à 3 fonctions, identifier 3 à 5 cas d'usage prioritaires et produire un plan d'action avec des estimations de ROI. Ce n'est pas un rapport académique : c'est un outil de décision.",
+      },
+      {
+        question: "Combien coûte un audit IA pour une PME en 2026 ?",
+        answer: "Les fourchettes du marché en 2026 sont les suivantes : audit flash (1 à 3 jours) entre 2 000 et 6 000 euros HT, audit standard PME (3 à 5 jours) entre 6 000 et 15 000 euros HT, audit ETI multi-sites (5 à 10 jours) entre 15 000 et 35 000 euros HT. Ces tarifs reflètent les TJM consultants IA senior en France (1 200 à 2 000 euros HT par jour, données marché France 2026).",
+      },
+      {
+        question: "Peut-on démarrer directement par une mission de consulting sans audit préalable ?",
+        answer: "Techniquement oui. En pratique, c'est risqué : sans diagnostic préalable, les priorités sont souvent mal posées, le périmètre glisse et le budget s'évapore sur des chantiers secondaires. Gartner (juillet 2024) estime que 30 % des projets d'IA générative seront abandonnés après leur phase pilote d'ici fin 2025, faute de cadrage initial. Un audit court en amont est un investissement de protection, pas un coût supplémentaire.",
+      },
+      {
+        question: "L'audit IA remplace-t-il le consulting traditionnel ?",
+        answer: "Non. Ce sont deux niveaux de réponse à des questions différentes. L'audit IA dit : où en êtes-vous et quoi faire en priorité. Le consulting classique dit : comment transformer en profondeur votre organisation. Pour la majorité des PME françaises, l'audit est le bon point d'entrée. Pour les ETI engagées dans une transformation multi-fonctions, le consulting prend le relais, souvent dans la continuité d'un audit.",
+      },
+      {
+        question: "Comment choisir le bon prestataire pour un audit IA ?",
+        answer: "Quatre critères concrets : le consultant senior est-il directement impliqué dans les entretiens ou délègue-t-il à des juniors ? Le livrable est-il orienté décision (plan d'action, ROI chiffré) ou orienté exhaustivité (rapport descriptif) ? Le prestataire a-t-il une expérience sectorielle proche du vôtre ? Et enfin, le livrable vous appartient-il totalement, sans dépendance pour la suite ? Un bon audit IA crée de l'autonomie, pas de la dépendance.",
+      },
+      {
+        question: "Un consultant indépendant peut-il conduire un audit IA ou faut-il un cabinet ?",
+        answer: "Un consultant indépendant senior peut tout à fait conduire un audit IA de qualité, souvent avec un meilleur ratio valeur/coût qu'un cabinet mid-market. L'avantage d'un cabinet est la capacité à mobiliser plusieurs profils pour des audits ETI multi-sites. L'avantage d'un indépendant est la continuité : le même expert qui pose le diagnostic est celui qui, éventuellement, accompagne la mise en oeuvre. Dans les deux cas, vérifiez les livrables passés, pas les plaquettes commerciales.",
+      },
+    ],
+  },
+  {
     slug: "livrable-audit-ia-pme-exemple",
     title: "Livrable audit IA PME : ce que contient un rapport sérieux",
     excerpt:
