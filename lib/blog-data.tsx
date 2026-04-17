@@ -35,6 +35,222 @@ export interface BlogArticle {
 
 export const blogArticles: BlogArticle[] = [
   {
+    slug: "cout-audit-ia-pme-fourchettes-2026",
+    title: "Combien coûte un audit IA pour une PME en 2026 ?",
+    excerpt:
+      "Fourchettes de prix réelles 2026 pour un audit IA PME : de 2 000 euros (TPE) à 50 000 euros (ETI). Diag Bpifrance, aides disponibles, comment lire un devis",
+    content: `# Combien coûte un audit IA pour une PME en 2026 (fourchettes réelles par taille d'entreprise)
+
+Les devis circulent entre 2 000 et 50 000 euros pour une prestation qui s'appelle dans tous les cas "audit IA". Cet écart de 1 à 25 n'est pas du hasard, ni de l'arnaque : il reflète des périmètres radicalement différents, des profils de consultants très variés et des livrables qui n'ont parfois rien en commun.
+
+**En synthèse : un audit IA coûte entre 2 000 et 6 000 euros pour une TPE, entre 6 000 et 20 000 euros pour une PME de 20 à 250 salariés, et entre 15 000 et 50 000 euros pour une ETI. Le Diag Data IA Bpifrance, dispositif officiel France 2030, propose un cadre standardisé à 7 500 euros HT de reste à charge pour les PME éligibles.**
+
+Selon Numeum et PAC, les gains de productivité liés à l'IA générative atteignent 12,5 % en 2025 et devraient progresser à 17 % en 2026. Pour une PME industrielle de 5 millions d'euros de chiffre d'affaires, ces ordres de grandeur rendent un audit de 8 000 euros autofinançable en moins d'un an. La vraie question n'est donc pas "est-ce que ça vaut le coup" : c'est "est-ce que le devis qu'on me présente correspond à ce que j'ai réellement besoin de faire auditer".
+
+Cet article vous donne les fourchettes réelles de marché segmentées par taille d'entreprise (TPE, PME, ETI), la logique qui construit ces prix, les trois options disponibles en 2026 et les cinq points à vérifier avant de signer un devis. Si vous souhaitez d'abord comprendre ce qu'un audit IA couvre réellement, le [guide complet de l'audit IA pour PME](/blog/audit-ia-pme-guide-complet) pose ces fondations.
+
+## Pourquoi les prix varient autant : la logique de construction d'un devis
+
+### TJM x jours x marge : l'équation de base
+
+Un devis d'audit IA, quelle que soit la formulation commerciale, repose sur trois variables simples. D'abord, le tarif journalier moyen (TJM) du consultant mobilisé. Selon le Baromètre des TJM 2025 de Silkhom, publié en juin 2025 et construit sur les données de plus de 20 000 freelances français, un data scientist confirmé (2 à 5 ans d'expérience) facture entre 450 et 600 euros par jour en région parisienne, entre 380 et 500 euros en régions. Un profil senior, au-delà de cinq ans d'expérience, se situe entre 550 et 700 euros par jour à Paris.
+
+Ensuite, le nombre de jours. Un audit léger pour une TPE mobilise 3 à 5 jours. Un audit structuré pour une PME multi-services en mobilise 8 à 15. Un audit ETI multi-sites peut atteindre 20 à 40 jours.
+
+Enfin, la marge du cabinet. D'après le même Baromètre Silkhom 2025, les structures spécialisées Data & IA appliquent généralement une marge de 25 à 30 % sur le TJM du consultant. Une plateforme freelance facture 10 à 12,5 %.
+
+L'équation donne : un audit PME de 10 jours avec un consultant senior à 600 euros/j représente 6 000 euros de main-d'oeuvre. Avec une marge cabinet de 25 %, le coût de prestation atteint 7 500 euros avant livrables. C'est exactement ce que coûte le reste à charge du Diag Data IA Bpifrance : une coïncidence qui n'en est pas une.
+
+### Les livrables qui font monter (ou baisser) le prix
+
+La grille tarifaire de référence ne couvre que les jours de consultant. Les livrables écrits, eux, s'additionnent.
+
+Un rapport d'audit structuré (30 à 60 pages, cartographie des processus, évaluation des données disponibles, priorisation des cas d'usage) représente deux à quatre jours de rédaction supplémentaires. Une roadmap opérationnelle avec chiffrage des initiatives et calendrier d'exécution en ajoute un à deux. Une restitution formelle au comité de direction ou au conseil d'administration, une demi-journée à une journée.
+
+À l'inverse, un audit "express" sans livrable écrit, basé sur un entretien et une présentation orale, peut se négocier sous les 3 000 euros. Il ne s'agit pas d'un mauvais audit, c'est simplement un diagnostic adapté à un périmètre étroit. La valeur n'est pas dans le volume, elle est dans la pertinence des recommandations.
+
+## Fourchettes réelles par taille d'entreprise en 2026
+
+### TPE (moins de 20 salariés) : 2 000 à 6 000 euros
+
+Pour une structure de moins de 20 personnes, le périmètre d'un audit IA est naturellement limité. On audite deux à quatre processus, on évalue les données disponibles (souvent peu structurées), on identifie un ou deux cas d'usage prioritaires. C'est un travail de 3 à 5 jours.
+
+À ce niveau, le profil pertinent est un consultant confirmé, pas nécessairement senior. Selon le Baromètre Silkhom 2025 déjà cité, le TJM d'un consultant data confirmé en régions se situe entre 380 et 500 euros par jour. Un cabinet spécialisé facture la prestation entre 2 000 et 4 500 euros, livrable de synthèse inclus. Un freelance en direct peut descendre à 1 500 euros pour un entretien et une note de 10 pages.
+
+Un audit à 3 000 euros pour une TPE est honnête si le périmètre est clairement délimité et les livrables définis. Ça n'en fait pas un audit de second rang. La comparaison avec un audit ETI à 30 000 euros n'a aucun sens : ce ne sont pas les mêmes entreprises ni les mêmes enjeux à couvrir.
+
+### PME (20 à 250 salariés) : 6 000 à 20 000 euros
+
+C'est la fourchette la plus large, parce que la catégorie "PME" couvre des réalités très différentes : une entreprise de 25 salariés dans le commerce de détail n'a pas le même périmètre qu'une PME industrielle de 220 personnes avec des flux de production complexes.
+
+Pour une PME de 20 à 80 salariés, un audit structuré couvre trois à six processus métier sur 8 à 12 jours. Le coût se situe généralement entre 6 000 et 12 000 euros avec un profil senior ou un binôme consultant/analyste.
+
+Pour une PME de 80 à 250 salariés, plusieurs départements sont impliqués, les enjeux de gouvernance des données sont plus prononcés et la roadmap doit couvrir un horizon pluriannuel. Un tel audit mobilise 12 à 18 jours et se facture entre 12 000 et 20 000 euros selon les livrables.
+
+Sur les diagnostics menés en PME, la question du périmètre est celle qui crée le plus de désaccords sur le devis. Un dirigeant pense "audit global", le prestataire propose un périmètre restreint à deux départements. Ce décalage d'attente explique la majorité des insatisfactions tarifaires : le prix n'est pas le problème, c'est la définition du périmètre qui l'était dès le départ.
+
+C'est dans cette tranche que le Diag Data IA Bpifrance est le plus pertinent : son cadre de 8 jours et son reste à charge de 7 500 euros correspondent au bas de cette fourchette.
+
+### ETI (plus de 250 salariés) : 15 000 à 50 000 euros
+
+Au-delà de 250 salariés, la complexité organisationnelle change la nature de l'audit. On ne cartographie plus quelques processus : on évalue un système d'information partiellement fragmenté, plusieurs entités métier avec leurs propres données, potentiellement des sites multiples.
+
+Un audit ETI sérieux mobilise deux à trois profils (un directeur de mission, un data scientist, un expert métier selon le secteur), soit 20 à 40 jours facturables. Les profils data science senior mobilisés sur ce type de périmètre se facturent entre 700 et 1 000 euros par jour, selon les données 2025 de Silkhom pour les régions hors Paris et les métropoles, et au-delà pour les profils directors. La fourchette réelle pour une ETI de 500 à 1 000 salariés se situe entre 20 000 et 40 000 euros.
+
+Et pour une ETI de 500 salariés avec trois sites de production ? Le périmètre typique couvre le SI central, les processus métier critiques de chaque site et l'évaluation de la gouvernance des données à l'échelle du groupe. Comptez 25 à 35 jours de mission, soit une fourchette de 25 000 à 35 000 euros selon les profils mobilisés, sans financement public disponible.
+
+Les audits dépassant 50 000 euros existent pour des ETI complexes ou des périmètres combinant audit IA et audit cybersécurité des systèmes concernés. Depuis janvier 2026, les ETI ne bénéficient plus du financement Bpifrance sur le Diag Data IA : elles supportent le coût en totalité.
+
+## Les 3 options disponibles en 2026
+
+### Option 1 : le diagnostic interne (DIY)
+
+Un dirigeant peut confier la réalisation d'un premier diagnostic à une équipe interne : DSI, responsable opérations ou un chef de projet désigné. Le coût prestataire est nul. La réalité du coût interne, elle, peut atteindre 5 à 10 jours de travail d'un cadre, soit 3 000 à 7 000 euros en coût d'opportunité.
+
+Le principal biais du DIY tient au manque de recul. Une équipe interne connaît ses processus mais n'a pas la base de comparaison sectorielle d'un consultant externe. Elle sous-estime souvent la qualité (ou l'état) de ses données et surévalue la maturité de ses pratiques. Un diagnostic interne peut servir de première cartographie avant de solliciter un prestataire : c'est un bon usage. Il ne remplace pas une évaluation indépendante.
+
+### Option 2 : le Diag Data IA Bpifrance
+
+Le Diag Data IA est un programme officiel Bpifrance, inscrit dans le cadre France 2030. Depuis janvier 2026, il est structuré ainsi :
+
+- Coût total : 10 000 euros HT
+- Financement Bpifrance : 25 % (soit 2 500 euros)
+- Reste à charge PME : 7 500 euros HT
+- Durée : 8 à 10 jours d'accompagnement répartis sur 3 mois maximum
+- Livrable : identification des cas d'usage IA prioritaires, feuille de route
+
+Les conditions d'éligibilité sont les suivantes : 10 à 2 000 salariés, chiffre d'affaires minimum de 1 million d'euros, plus d'un an d'existence, situation financière saine, entreprise indépendante. La demande se dépose sur diag.bpifrance.fr.
+
+Avant janvier 2026, ce même programme coûtait 13 000 euros HT avec un financement Bpifrance de 42 %. Le reste à charge net était identique (7 500 euros HT), mais le tarif brut plus élevé impliquait un dispositif plus généreux. Le changement de janvier 2026 n'affecte donc pas le reste à charge PME, mais supprime l'accès des ETI à la subvention.
+
+Selon bloom-ai.fr, prestataire agréé Bpifrance, les résultats du programme sont positifs : 93 % des diagnostics identifient des cas d'usage à fort impact productivité, 96 % de satisfaction déclarée, plus de 1 200 entreprises ayant réalisé le diagnostic depuis 2024.
+
+> **Point de vigilance** : le Diag Data IA Bpifrance implique un délai d'instruction administrative de 4 à 8 semaines entre le dépôt du dossier et le démarrage effectif. Pour une PME qui a un projet urgent ou un calendrier contraint, ce délai peut être rédhibitoire.
+
+### Option 3 : l'audit sur mesure cabinet
+
+Un audit sur mesure, réalisé par un cabinet conseil spécialisé, offre trois avantages que le Diag Bpifrance ne couvre pas : la liberté totale de périmètre, un interlocuteur unique qui connaît votre secteur, et une intégration directe au plan de transformation si vous souhaitez aller au-delà du diagnostic.
+
+C'est l'option la plus adaptée si vous avez un enjeu métier précis à analyser (automatisation d'une chaîne logistique, optimisation d'un processus de recouvrement, déploiement d'un outil de prévision des ventes), si vous avez déjà un premier diagnostic et souhaitez approfondir, ou si votre calendrier ne permet pas d'attendre l'instruction Bpifrance.
+
+Pour bien [choisir le bon prestataire IA](/blog/agence-ia-comment-choisir-partenaire-transformation), l'indépendance entre l'audit et la mise en oeuvre est un critère structurant : un cabinet qui audite et déploie ensuite a un intérêt commercial à élargir le périmètre. Ce n'est pas une règle absolue, mais c'est un point à éclaircir en amont.
+
+L'Audit IA Express de Smart Impulsion s'inscrit dans cette catégorie : délai court, périmètre défini avec vous, rapport opérationnel remis en fin de mission. Il est conçu pour les PME qui veulent une réponse rapide et un livrable directement actionnables, sans les contraintes administratives d'un dispositif public. [Découvrez l'Audit IA Express](/services/audit).
+
+## Comment financer un audit IA en 2026
+
+### Le Diag Data IA Bpifrance (dispositif complet)
+
+Nous l'avons décrit ci-dessus. À retenir pour le financement : la prise en charge de 25 % ne s'applique qu'aux PME au sens communautaire (moins de 250 salariés, moins de 50 millions d'euros de chiffre d'affaires). Les ETI doivent financer le coût intégral de 10 000 euros HT.
+
+Un point souvent mal compris : la subvention est versée directement au prestataire agréé, pas à l'entreprise. Vous réglez les 7 500 euros HT, Bpifrance règle les 2 500 euros restants au cabinet. Aucune avance sur la part subventionnée.
+
+Pour candidater, l'entreprise constitue un dossier incluant les deux derniers bilans, l'organigramme et une description de son activité. Le traitement administratif prend en général 4 à 8 semaines. Le délai total entre la décision de lancer le diagnostic et la remise du livrable est souvent de 4 à 5 mois.
+
+### CIR, OPCO et aides régionales
+
+Trois mécanismes complémentaires méritent d'être étudiés avant de signer un devis.
+
+**Le Crédit d'Impôt Recherche (CIR)** : si l'audit IA précède ou accompagne un projet de R&D éligible, les dépenses de conseil peuvent être intégrées dans la base CIR sous certaines conditions. Le taux est de 30 % des dépenses éligibles jusqu'à 100 millions d'euros. Ce n'est pas un dispositif direct pour l'audit, mais il peut réduire significativement le coût d'ensemble d'un projet IA qui commence par un diagnostic.
+
+**Les OPCO** : si l'audit comprend un volet formation (sensibilisation des équipes, appropriation des outils IA), cette partie peut être imputée sur le plan de développement des compétences et financée par votre OPCO. Le montant est variable selon votre branche et votre cotisation.
+
+**Les aides régionales France 2030** : plusieurs régions proposent des co-financements sur les diagnostics numériques et IA, avec des taux pouvant atteindre 40 à 50 % pour certains dispositifs. Ces aides sont hétérogènes selon les territoires : rapprochez-vous de votre conseiller régional ou de la Banque des Territoires pour identifier ce qui s'applique à votre situation.
+
+Peut-on cumuler les aides ? Oui, sous réserve de vérifier les règles de non-cumul propres à chaque dispositif. Le Diag Data IA Bpifrance et une aide régionale sont en principe cumulables, car ils relèvent de financeurs distincts. En revanche, CIR et subvention Bpifrance sur la même ligne de dépense ne sont pas cumulables. Dans les configurations favorables, le reste à charge net d'une PME peut descendre sous les 5 000 euros HT.
+
+Pour aller plus loin sur la construction du cas économique d'un projet IA, l'article consacré à [mesurer le ROI de l'IA](/blog/roi-intelligence-artificielle-entreprise) donne des méthodes concrètes applicables dès la phase de diagnostic.
+
+## Lire un devis d'audit IA : 5 points à vérifier avant de signer
+
+### Ce que le devis doit détailler
+
+**1. Les jours sont-ils ventilés par phase ?**
+
+Un devis sérieux détaille le nombre de jours par phase : collecte d'information et entretiens, analyse et modélisation, rédaction du rapport, restitution. Un devis qui annonce "12 jours d'audit" sans ventilation ne vous permet pas d'évaluer où va votre argent. C'est souvent le signe d'un forfait construit à rebours du budget cible, pas des besoins réels.
+
+**2. Le TJM est-il lisible ou noyé dans un forfait ?**
+
+Un cabinet transparent indique son TJM ou au moins le coût de la journée de mission. Si le devis ne mentionne que le total HT et une vague description de mission, vous ne pouvez pas comparer sérieusement avec d'autres prestataires. Demandez explicitement la décomposition.
+
+**3. Les livrables sont-ils précisément définis ?**
+
+"Rapport d'audit" peut désigner un document de 8 pages ou un dossier de 60 pages avec cartographie des données, matrice de priorisation des cas d'usage et plan d'action chiffré. Ce ne sont pas les mêmes prestations. Le devis doit indiquer le format, le nombre de pages attendu et le contenu de chaque livrable.
+
+**4. La confidentialité de vos données métier est-elle encadrée ?**
+
+Un audit IA implique l'accès à des données internes : processus, volumes, parfois des données clients ou fournisseurs. Le devis doit prévoir une clause de confidentialité explicite, précisant comment les données collectées sont stockées, utilisées et éventuellement détruites après mission. L'absence de clause est un signal d'alerte.
+
+**5. L'audit est-il découplé du projet de mise en oeuvre ?**
+
+> **Signal d'alerte** : un devis qui conditionne la remise du rapport final à la signature d'un contrat de déploiement mélange deux prestations distinctes. L'audit doit être un livrable indépendant, sans obligation de suite commerciale. Si le prestataire propose de déduire le coût de l'audit du projet futur, évaluez l'arrangement avec prudence : ce modèle peut créer une pression commerciale au moment où vous évaluez les recommandations.
+
+### Signaux d'alerte supplémentaires
+
+> **Éviter** : un devis sans mention du profil du consultant qui mènera la mission (niveau d'expérience, secteur de référence), un audit annoncé en "moins d'une semaine" pour une PME de 100 salariés, une proposition qui commence par la solution avant d'avoir posé les questions, des références non vérifiables ou des "études de cas" sans mention d'entreprise ni de secteur.
+
+Un signal particulièrement révélateur : demandez au prestataire de vous citer deux ou trois exemples d'entreprises comparables à la vôtre, avec leur secteur et leur taille, ayant bénéficié de l'audit. Un prestataire sérieux dispose de ces références. Un prestataire opportuniste change de sujet.
+
+## Questions fréquentes sur le coût d'un audit IA
+
+### Combien coûte un audit IA pour une PME en 2026 ?
+
+Pour une PME de 20 à 250 salariés, les fourchettes de marché se situent entre 6 000 et 20 000 euros HT selon la profondeur de l'analyse, le nombre de processus examinés et les livrables attendus. Le Diag Data IA Bpifrance propose un cadre standardisé à 7 500 euros HT pour une PME éligible (reste à charge après financement public de 25 %).
+
+### Le Diag Data IA Bpifrance est-il encore disponible en 2026 ?
+
+Oui. Depuis janvier 2026, son coût est de 10 000 euros HT, dont 25 % pris en charge par Bpifrance, soit 7 500 euros HT à la charge de la PME. Les conditions d'éligibilité : 10 à 2 000 salariés, chiffre d'affaires minimum de 1 million d'euros, plus d'un an d'existence. Les ETI ne bénéficient plus de la subvention depuis janvier 2026. Plus de 1 200 entreprises ont déjà réalisé ce diagnostic depuis 2024.
+
+### Un audit IA à 3 000 euros peut-il être sérieux ?
+
+Oui, à condition que le périmètre soit adapté. Pour une TPE de moins de 20 salariés avec deux ou trois processus à analyser, un audit de 3 à 5 jours réalisé par un consultant confirmé est suffisant et honnête. Le critère n'est pas le montant absolu, c'est la cohérence entre le prix, le nombre de jours déclarés et la taille de l'entreprise auditée.
+
+### Peut-on faire un audit IA en interne, sans prestataire externe ?
+
+C'est possible, mais rarement efficace seul. Un diagnostic interne manque de recul et de références sectorielles. Il peut servir de première cartographie, mais il ne remplace pas une évaluation indépendante. La valeur d'un prestataire externe tient précisément à sa capacité à comparer votre situation à d'autres entreprises similaires.
+
+### Combien de temps dure un audit IA pour une PME ?
+
+Un audit sérieux pour une PME représente entre 8 et 15 jours de travail effectif, étalés sur 4 à 10 semaines. Le Diag Data IA Bpifrance est cadré à 8 jours d'accompagnement sur 3 mois maximum. Un audit sur mesure pour une ETI peut mobiliser 20 à 40 jours selon le nombre de sites et de métiers concernés.
+
+## Passez de la théorie à l'action
+
+Vous avez maintenant les fourchettes de marché, la logique de construction des prix et les critères pour évaluer un devis. La prochaine étape est de déterminer quel périmètre d'audit correspond réellement à vos enjeux, avant de solliciter des prestataires.
+
+L'Audit IA Express de Smart Impulsion est conçu pour les PME qui veulent cette réponse rapidement, sans délai administratif, avec un livrable directement utilisable pour décider. Délai de démarrage sous deux semaines. Rapport remis en fin de mission, sans obligation de suite.
+
+[Demander un Audit IA Express](/services/audit) et obtenir une estimation de périmètre adaptée à votre situation.`,
+    author: "Laurent Bouzon",
+    date: "17 avril 2026",
+    dateISO: "2026-04-17",
+    readTime: "12 min",
+    category: "Audit & Methodologie",
+    image: "/cout-audit-ia-pme-fourchettes-2026-hero.png",
+    imageAlt: "Image d'illustration pour l'article \"Combien coûte un audit IA pour une PME en 2026 ?\"",
+    faq: [
+      {
+        question: "Combien coûte un audit IA pour une PME en 2026 ?",
+        answer: "Pour une PME de 20 à 250 salariés, les fourchettes de marché se situent entre 6 000 et 20 000 euros HT selon la profondeur de l'analyse, le nombre de processus examinés et les livrables attendus. Le Diag Data IA Bpifrance propose un cadre standardisé à 7 500 euros HT pour une PME éligible (reste à charge après financement public de 25 %).",
+      },
+      {
+        question: "Le Diag Data IA Bpifrance est-il encore disponible en 2026 ?",
+        answer: "Oui. Depuis janvier 2026, son coût est de 10 000 euros HT, dont 25 % pris en charge par Bpifrance, soit 7 500 euros HT à la charge de la PME. Les conditions d'éligibilité : 10 à 2 000 salariés, chiffre d'affaires minimum de 1 million d'euros, plus d'un an d'existence. Les ETI ne bénéficient plus de la subvention depuis janvier 2026. Plus de 1 200 entreprises ont déjà réalisé ce diagnostic depuis 2024.",
+      },
+      {
+        question: "Un audit IA à 3 000 euros peut-il être sérieux ?",
+        answer: "Oui, à condition que le périmètre soit adapté. Pour une TPE de moins de 20 salariés avec deux ou trois processus à analyser, un audit de 3 à 5 jours réalisé par un consultant confirmé est suffisant et honnête. Le critère n'est pas le montant absolu, c'est la cohérence entre le prix, le nombre de jours déclarés et la taille de l'entreprise auditée.",
+      },
+      {
+        question: "Peut-on faire un audit IA en interne, sans prestataire externe ?",
+        answer: "C'est possible, mais rarement efficace seul. Un diagnostic interne manque de recul et de références sectorielles. Il peut servir de première cartographie, mais il ne remplace pas une évaluation indépendante. La valeur d'un prestataire externe tient précisément à sa capacité à comparer votre situation à d'autres entreprises similaires.",
+      },
+      {
+        question: "Combien de temps dure un audit IA pour une PME ?",
+        answer: "Un audit sérieux pour une PME représente entre 8 et 15 jours de travail effectif, étalés sur 4 à 10 semaines. Le Diag Data IA Bpifrance est cadré à 8 jours d'accompagnement sur 3 mois maximum. Un audit sur mesure pour une ETI peut mobiliser 20 à 40 jours selon le nombre de sites et de métiers concernés.",
+      },
+    ],
+  },
+  {
     slug: "cas-usage-ia-pme-par-metier",
     title: "Cas d'usage IA en PME : panorama par metier 2026",
     excerpt:
