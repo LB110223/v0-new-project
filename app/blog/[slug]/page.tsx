@@ -97,7 +97,10 @@ function extractTableOfContents(content: string): { id: string; title: string; l
 
 // Fonction pour formater le contenu avec des IDs pour les ancres
 function formatContent(content: string): string {
-  // D'abord, traiter les listes à puces et numérotées en les groupant
+  // Strip H1 redondant en tête du body (le titre article est déjà affiché par le template hero)
+  content = content.replace(/^#\s+.+\n+/, "")
+
+  // D'abord, traiter les listes à puces, les listes numérotées et les tableaux GFM en les groupant
   const lines = content.split("\n")
   const processedLines: string[] = []
   let inList = false
@@ -124,10 +127,73 @@ function formatContent(content: string): string {
   }
 
   const orderedListRegex = /^\s*\d+\.\s+(.+)$/
+  const tableRowRegex = /^\s*\|(.+)\|\s*$/
+  const tableSeparatorRegex = /^\s*\|(\s*:?-+:?\s*\|)+\s*$/
 
-  for (const line of lines) {
+  // Transforme le markdown inline d'une cellule (gras uniquement pour l'instant, suffisant pour les tableaux actuels)
+  const renderCell = (raw: string): string => {
+    return raw
+      .trim()
+      .replace(/\*\*(.+?)\*\*/g, '<strong class="font-semibold text-foreground">$1</strong>')
+  }
+
+  const parseRow = (line: string): string[] => {
+    // Retire les pipes délimitateurs en tête et fin, puis split
+    const inner = line.trim().replace(/^\|/, "").replace(/\|$/, "")
+    return inner.split("|").map((c) => c.trim())
+  }
+
+  for (let i = 0; i < lines.length; i++) {
+    const line = lines[i]
     const trimmedLine = line.trim()
     const orderedMatch = line.match(orderedListRegex)
+
+    // Détection d'une ouverture de tableau : ligne pipe + ligne suivante = séparateur
+    if (
+      tableRowRegex.test(line) &&
+      i + 1 < lines.length &&
+      tableSeparatorRegex.test(lines[i + 1])
+    ) {
+      // Fermer les listes ouvertes
+      flushBulletList()
+      flushOrderedList()
+
+      const headerCells = parseRow(line)
+      const bodyRows: string[][] = []
+
+      // Sauter la ligne de séparation
+      let j = i + 2
+      while (j < lines.length && tableRowRegex.test(lines[j])) {
+        bodyRows.push(parseRow(lines[j]))
+        j++
+      }
+
+      const thead = `<thead class="bg-orange-50/50 text-foreground font-semibold"><tr>${headerCells
+        .map(
+          (c) =>
+            `<th class="px-4 py-3 border-b border-border text-left">${renderCell(c)}</th>`,
+        )
+        .join("")}</tr></thead>`
+
+      const tbody = `<tbody>${bodyRows
+        .map(
+          (row) =>
+            `<tr class="border-b border-border hover:bg-orange-50/30">${row
+              .map(
+                (c) => `<td class="px-4 py-3 align-top">${renderCell(c)}</td>`,
+              )
+              .join("")}</tr>`,
+        )
+        .join("")}</tbody>`
+
+      processedLines.push(
+        `<div class="my-6 overflow-x-auto rounded-lg border border-border"><table class="w-full text-sm text-left text-muted-foreground">${thead}${tbody}</table></div>`,
+      )
+
+      // Avancer l'index principal jusqu'à la dernière ligne consommée
+      i = j - 1
+      continue
+    }
 
     // Vérifier si c'est une ligne de liste à puces
     if (trimmedLine.startsWith("- ")) {
