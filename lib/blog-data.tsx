@@ -43,13 +43,17 @@ export const blogArticles: BlogArticle[] = [
 
 Quinze millions d'euros. C'est l'amende maximale prévue par l'Article 99 du Règlement (UE) 2024/1689 pour une organisation qui déploie un système IA haut risque sans respecter ses obligations. Trois pour cent du chiffre d'affaires mondial si ce seuil est plus élevé.
 
-La CNIL a placé le recrutement automatisé dans ses contrôles prioritaires 2026, selon son communiqué du 3 avril 2026. Ce n'est pas un signal à ignorer. Si votre PME utilise un logiciel qui trie ou classe des candidatures, vous êtes dans le viseur.
+> **À retenir** — La CNIL a placé le recrutement automatisé dans ses contrôles prioritaires 2026, selon son communiqué du 3 avril 2026. Si votre PME utilise un logiciel qui trie ou classe des candidatures, vous êtes dans le viseur.
 
 Selon le Baromètre France Num 2025, 26 % des TPE/PME françaises utilisaient l'IA en 2025, contre 13 % en 2024. Et selon Bpifrance Le Lab (juin 2025, 1 209 dirigeants interrogés), 58 % des dirigeants de PME-ETI considèrent l'IA comme un enjeu de survie à moyen terme. Pourtant, la majorité d'entre eux ne savent pas encore quelles obligations leur incombent en tant que déployeurs, c'est-à-dire les organisations qui utilisent un système IA sans l'avoir fabriqué ni certifié.
 
-Cet article traite trois cas d'usage RH concrets : le tri de CV automatisé, la paie avec composantes IA, et la gestion des collaborateurs en poste. Pour chacun, vous trouverez ce que le règlement impose, à qui, et dans quel délai.
+Cet article traite trois cas d'usage RH concrets :
 
-Si vous voulez d'abord cadrer votre connaissance du texte, consultez [notre guide complet sur l'AI Act pour les PME](/blog/ai-act-pme-guide-2026).
+- Le tri de CV automatisé
+- La paie avec composantes IA
+- La gestion des collaborateurs en poste
+
+Pour chacun, vous trouverez ce que le règlement impose, à qui, et dans quel délai. Si vous voulez d'abord cadrer votre connaissance du texte, consultez [notre guide complet sur l'AI Act pour les PME](/blog/ai-act-pme-guide-2026).
 
 ## Ce que le règlement classe vraiment comme haut risque
 
@@ -57,17 +61,31 @@ Si vous voulez d'abord cadrer votre connaissance du texte, consultez [notre guid
 
 L'AI Act distingue quatre niveaux de risque. Ce qui intéresse la fonction RH se trouve essentiellement dans la catégorie "haut risque", définie par l'Annexe III du Règlement (UE) 2024/1689.
 
-La confusion fréquente porte sur le niveau au-dessus : les pratiques interdites (Article 5). L'analyse émotionnelle lors d'entretiens vidéo, par exemple, est interdite depuis le 2 février 2025 au titre de l'Article 5. Un outil qui analyse les micro-expressions d'un candidat pour en déduire sa personnalité ou sa fiabilité n'est pas simplement haut risque. Son utilisation est illégale. La sanction maximale passe alors à 35 millions d'euros ou 7 % du chiffre d'affaires mondial, selon l'Article 99 alinéa 3 du règlement.
+La confusion fréquente porte sur le niveau au-dessus : les pratiques interdites (Article 5). L'analyse émotionnelle lors d'entretiens vidéo, par exemple, est interdite depuis le 2 février 2025 au titre de l'Article 5. Un outil qui analyse les micro-expressions d'un candidat pour en déduire sa personnalité ou sa fiabilité n'est pas simplement haut risque. Son utilisation est illégale.
 
-Pour les outils haut risque non interdits, on reste sur les 15 millions d'euros ou 3 % du CA mondial. La nuance mérite d'être retenue.
+> **Attention au plafond de sanction** — Pour les pratiques interdites (Art. 5), la sanction maximale passe à 35 millions d'euros ou 7 % du chiffre d'affaires mondial (Art. 99 al. 3). Pour les outils haut risque non interdits, on reste sur 15 millions d'euros ou 3 % du CA mondial. La nuance mérite d'être retenue.
 
 ### Les outils que vous avez déjà
 
-L'Annexe III point 4 couvre un périmètre plus large que ce que la plupart des DRH imaginent. Il inclut les systèmes IA utilisés pour le recrutement (présélection, tri, classement, décisions d'embauche), mais aussi pour la gestion en poste : conditions de travail, promotion, résiliation de contrat, allocation de tâches, suivi et évaluation des performances et des comportements.
+L'Annexe III point 4 couvre un périmètre plus large que ce que la plupart des DRH imaginent. Il inclut les systèmes IA utilisés dans plusieurs situations :
+
+- **Recrutement** : présélection, tri, classement, décisions d'embauche
+- **Conditions de travail** en poste
+- **Promotion** et évolution de carrière
+- **Résiliation** de contrat
+- **Allocation de tâches** et de missions
+- **Suivi et évaluation** des performances et des comportements
 
 Autrement dit : si votre logiciel de gestion RH intègre un module IA d'évaluation de performance ou de détection de risque de départ, il entre potentiellement dans ce périmètre.
 
+### Éditeur vs déployeur : deux rôles, deux régimes d'obligations
+
 La distinction que le règlement introduit est celle entre l'éditeur (qui fabrique et certifie le système) et le déployeur (l'organisation qui utilise ce système dans ses propres processus, sans l'avoir conçu). Vous n'avez pas à certifier le système. Mais vous avez des obligations propres, et elles sont contraignantes.
+
+| Rôle | Qui ? | Obligations principales |
+|------|-------|------------------------|
+| **Éditeur** | Fabricant du système IA | Certification CE, documentation technique (Art. 11), inscription base EU AI Act, conformité Art. 16 |
+| **Déployeur** | Organisation qui l'utilise (vous) | Supervision humaine (Art. 14 + Art. 26 al. 2), logs 6 mois (Art. 26 al. 6), information travailleurs/représentants (Art. 26 al. 7), information candidats (Art. 26 al. 11) |
 
 Pour comprendre comment ce cadre s'inscrit dans votre démarche IA globale, l'article [par où commencer avec l'IA en PME](/blog/ia-pour-pme-guide) donne un point d'entrée utile.
 
@@ -77,13 +95,11 @@ Pour comprendre comment ce cadre s'inscrit dans votre démarche IA globale, l'ar
 
 Vous utilisez un logiciel qui reçoit des candidatures, les classe selon des critères définis, et vous propose une liste de profils à contacter en priorité. C'est le cas d'un logiciel de gestion des candidatures avec tri automatique. Ce système entre dans la catégorie haut risque au titre de l'Annexe III point 4 du Règlement (UE) 2024/1689.
 
-En tant que déployeur, vos obligations principales sont les suivantes.
+En tant que déployeur, vos obligations principales sont au nombre de trois :
 
-Premièrement, supervision humaine : vous ne pouvez pas laisser le système prendre des décisions finales de recrutement sans intervention humaine. L'Article 26 alinéa 2 du règlement impose que le déployeur s'assure que les personnes responsables disposent des compétences et de l'autorité nécessaires pour contester les décisions du système.
-
-Deuxièmement, tenue des logs : l'Article 26 alinéa 6 impose une conservation des journaux d'utilisation pendant au minimum six mois. Vérifiez que votre éditeur vous fournit ces logs et que vous les conservez effectivement.
-
-Troisièmement, information des travailleurs et représentants : l'Article 26 alinéa 7 impose que vous informiez les travailleurs concernés ET leurs représentants avant le déploiement d'un système IA affectant les conditions de travail. L'Article 26 alinéa 11 étend cette obligation aux personnes naturelles soumises au système, ce qui inclut les candidats dans le cadre du recrutement.
+1. **Supervision humaine effective** — Vous ne pouvez pas laisser le système prendre des décisions finales de recrutement sans intervention humaine. L'Article 26 alinéa 2 du règlement impose que le déployeur s'assure que les personnes responsables disposent des compétences et de l'autorité nécessaires pour contester les décisions du système.
+2. **Tenue des logs** — L'Article 26 alinéa 6 impose une conservation des journaux d'utilisation pendant au minimum six mois. Vérifiez que votre éditeur vous fournit ces logs et que vous les conservez effectivement.
+3. **Information des travailleurs, représentants et candidats** — L'Article 26 alinéa 7 impose que vous informiez les travailleurs concernés ET leurs représentants avant le déploiement d'un système IA affectant les conditions de travail. L'Article 26 alinéa 11 étend cette obligation aux personnes naturelles soumises au système, ce qui inclut les candidats dans le cadre du recrutement.
 
 ### Quelle est la responsabilité exacte du déployeur par rapport à l'éditeur ?
 
@@ -91,15 +107,27 @@ C'est la question que posent la plupart des DRH lors d'un premier cadrage. La r�
 
 L'éditeur a les obligations de certification, d'inscription dans la base de données EU AI Act, et de fourniture de la documentation technique nécessaire à la supervision. Si votre éditeur ne vous fournit pas cette documentation, il n'a pas respecté ses obligations envers vous, et vous pouvez l'exiger contractuellement.
 
-Vous avez, de votre côté, les obligations de déploiement : supervision humaine effective, conservation des logs, information des candidats, formation de vos recruteurs à la littératie IA (Article 4 en vigueur depuis le 2 février 2025). Si vous déployez un outil non documenté, vous n'avez pas respecté les vôtres, même si la faute initiale incombe à l'éditeur.
+Vous avez, de votre côté, les obligations de déploiement :
 
-Posez par écrit deux questions à votre éditeur : ce système figure-t-il dans la base de données EU AI Act ? Quelle documentation technique me permettant d'assurer la supervision humaine pouvez-vous me fournir ?
+- Supervision humaine effective
+- Conservation des logs
+- Information des candidats
+- Formation de vos recruteurs à la littératie IA (Article 4 en vigueur depuis le 2 février 2025)
+
+Si vous déployez un outil non documenté, vous n'avez pas respecté les vôtres, même si la faute initiale incombe à l'éditeur.
+
+> **Posez deux questions par écrit à votre éditeur**
+> 1. Ce système figure-t-il dans la base de données EU AI Act ?
+> 2. Quelle documentation technique me permettant d'assurer la supervision humaine pouvez-vous me fournir ?
 
 ### CNIL et double exposition réglementaire
 
 Le recrutement automatisé expose les PME à une double contrainte réglementaire. L'AI Act d'un côté, le RGPD de l'autre.
 
-La CNIL contrôle les deux. Elle a placé le recrutement automatisé dans ses priorités de contrôle pour 2026, selon son communiqué du 3 avril 2026. Un outil de tri de CV collecte des données personnelles sensibles, parfois des données particulières (origine, âge, sexe détectable dans le prénom). La base légale de ce traitement, sa proportionnalité, et les droits des candidats à une explication ou à une révision humaine relèvent du RGPD. L'existence d'une supervision humaine réelle et la documentation du système relèvent de l'AI Act.
+La CNIL contrôle les deux. Elle a placé le recrutement automatisé dans ses priorités de contrôle pour 2026, selon son communiqué du 3 avril 2026. Un outil de tri de CV collecte des données personnelles sensibles, parfois des données particulières (origine, âge, sexe détectable dans le prénom). Le partage des responsabilités entre les deux textes se lit comme suit :
+
+- **RGPD** : base légale du traitement, proportionnalité, droits des candidats à l'explication et à la révision humaine.
+- **AI Act** : existence d'une supervision humaine réelle, documentation technique, information spécifique sur le traitement IA.
 
 Si vous n'avez pas de délégué à la protection des données, ce point mérite une consultation juridique rapide.
 
@@ -109,33 +137,50 @@ Si vous n'avez pas de délégué à la protection des données, ce point mérite
 
 La grande majorité des logiciels de paie ne sont pas des systèmes IA au sens du règlement. Ils appliquent des règles légales et conventionnelles, des taux, des barèmes. Ce calcul mécanique n'est pas de l'IA au sens du Règlement (UE) 2024/1689.
 
-La situation change si votre logiciel intègre des fonctionnalités qui vont au-delà du calcul : modélisation prédictive des primes variables, recommandation d'évolution salariale basée sur un scoring de performance, détection de risque de turn-over liée à des indicateurs comportementaux. Ces fonctionnalités entrent potentiellement dans le champ de l'Annexe III point 4, car elles peuvent affecter les conditions de la relation de travail.
+La situation change si votre logiciel intègre des fonctionnalités qui vont au-delà du calcul. Quelques exemples typiques qui font basculer dans le périmètre Annexe III :
 
-La formulation doit rester prudente ici. L'Annexe III point 4 parle de "décisions affectant les conditions des relations de travail". Si votre outil de paie prend ou recommande ce type de décisions par voie automatisée, il entre potentiellement dans ce périmètre. La qualification définitive nécessite l'avis d'un juriste.
+- Modélisation prédictive des primes variables
+- Recommandation d'évolution salariale basée sur un scoring de performance
+- Détection de risque de turn-over liée à des indicateurs comportementaux
+- Catégorisation automatisée des collaborateurs pour l'attribution de missions ou de formations
+
+Ces fonctionnalités entrent potentiellement dans le champ de l'Annexe III point 4, car elles peuvent affecter les conditions de la relation de travail.
+
+> **Nuance importante** — L'Annexe III point 4 parle de "décisions affectant les conditions des relations de travail". Si votre outil de paie prend ou recommande ce type de décisions par voie automatisée, il entre potentiellement dans ce périmètre. La qualification définitive nécessite l'avis d'un juriste.
 
 ### Ce qu'il faut vérifier auprès de votre éditeur
 
-Trois questions concrètes à poser à l'éditeur de votre logiciel de paie.
+Trois questions concrètes à poser à l'éditeur de votre logiciel de paie :
 
-Premièrement : votre logiciel intègre-t-il des fonctionnalités de modélisation ou de recommandation basées sur l'IA, au-delà du calcul réglementaire ? Si oui, lesquelles ?
-
-Deuxièmement : si ces fonctionnalités existent, le système a-t-il fait l'objet d'une procédure de conformité AI Act ? Est-il ou sera-t-il inscrit dans la base de données EU AI Act ?
-
-Troisièmement : quelles garanties contractuelles pouvez-vous me fournir sur la conformité du système aux obligations de l'AI Act applicables à l'éditeur (Article 16 du Règlement (UE) 2024/1689) ?
+1. Votre logiciel intègre-t-il des fonctionnalités de modélisation ou de recommandation basées sur l'IA, au-delà du calcul réglementaire ? Si oui, lesquelles ?
+2. Si ces fonctionnalités existent, le système a-t-il fait l'objet d'une procédure de conformité AI Act ? Est-il ou sera-t-il inscrit dans la base de données EU AI Act ?
+3. Quelles garanties contractuelles pouvez-vous me fournir sur la conformité du système aux obligations de l'AI Act applicables à l'éditeur (Article 16 du Règlement (UE) 2024/1689) ?
 
 Conservez les réponses écrites. Si un contrôle CNIL ou une inspection du travail intervient, votre diligence dans cette démarche constitue un élément de preuve.
 
-La Commission européenne a proposé en novembre 2025 un report possible de certaines obligations (Digital Omnibus) vers décembre 2027. Cette proposition n'avait pas encore été adoptée au 21 avril 2026. Ne construisez pas votre plan d'action sur un report incertain.
+### Digital Omnibus : ne pariez pas sur le report
+
+La Commission européenne a proposé en novembre 2025 un report possible de certaines obligations (Digital Omnibus) vers décembre 2027. Cette proposition n'avait pas encore été adoptée au 21 avril 2026.
+
+> **Ne construisez pas votre plan d'action sur un report incertain.** La deadline légalement opposable reste le 2 août 2026 pour les systèmes haut risque de l'Annexe III. Se planifier sur la base d'un report hypothétique revient à prendre un risque juridique délibéré. Et si le report est finalement adopté, votre travail de conformité reste une bonne pratique de gouvernance.
 
 ## Cas 3 : Vos collaborateurs en poste
 
 ### Scoring et évaluation automatisée
 
-L'Annexe III point 4 du Règlement (UE) 2024/1689 ne se limite pas au recrutement. Elle couvre explicitement : l'allocation de tâches, les conditions de travail, la promotion, la résiliation de contrat, et le suivi ou l'évaluation des comportements et des performances.
+L'Annexe III point 4 du Règlement (UE) 2024/1689 ne se limite pas au recrutement. Elle couvre explicitement cinq situations qui concernent vos salariés en poste :
+
+- Allocation de tâches
+- Conditions de travail
+- Promotion
+- Résiliation de contrat
+- Suivi et évaluation des comportements et des performances
 
 Si vous utilisez un outil de gestion de la performance qui calcule automatiquement un score d'employé, classe vos équipes, ou génère des alertes sur des comportements, vous êtes potentiellement dans le périmètre haut risque.
 
-Les conséquences pratiques sont les mêmes que pour le recrutement : supervision humaine obligatoire, conservation des logs six mois minimum, information du salarié. Avec une spécificité supplémentaire : l'Article 26 alinéa 7 impose d'informer les travailleurs et leurs représentants AVANT le déploiement. Pas après. Pas au moment de l'incident. Avant.
+Les conséquences pratiques sont les mêmes que pour le recrutement : supervision humaine obligatoire, conservation des logs six mois minimum, information du salarié.
+
+> **Spécificité temporelle** — L'Article 26 alinéa 7 impose d'informer les travailleurs et leurs représentants **AVANT** le déploiement. Pas après. Pas au moment de l'incident. Avant.
 
 ### Informer le CSE avant de déployer
 
@@ -149,11 +194,24 @@ Si vous avez un CSE, inscrivez ce sujet à l'ordre du jour de votre prochaine r�
 
 ## Plan d'action en 5 étapes avant l'échéance
 
+Voici la séquence réaliste pour une PME ou ETI sans équipe juridique IA dédiée, avec moins de quatre mois disponibles :
+
+1. **Inventaire** (mai 2026) — Cartographier les outils RH avec composante IA
+2. **Classification** (juin 2026) — Qualifier chacun au regard de l'Annexe III
+3. **Contractualisation éditeurs** (juin 2026) — Sécuriser documentation et logs
+4. **Documentation interne** (juillet 2026) — Registre, notice candidat, procédure de supervision
+5. **Formation des équipes RH** (juillet 2026) — Littératie IA au sens de l'Art. 4
+
 ### Étape 1 : Inventaire (mai 2026)
 
 Listez tous les outils numériques utilisés par la fonction RH. Pour chacun, posez une question binaire : cet outil contient-il une composante qui classe, note, recommande ou prédit un résultat concernant une personne ? Si oui, il est candidat à la catégorie haut risque.
 
-Ne vous limitez pas aux outils achetés pour la RH. Les outils transverses (outil de communication interne avec scoring d'engagement, plateforme de formation avec recommandation automatique de parcours) peuvent aussi entrer dans le périmètre.
+Ne vous limitez pas aux outils achetés pour la RH. Les outils transverses peuvent aussi entrer dans le périmètre :
+
+- Outil de communication interne avec scoring d'engagement
+- Plateforme de formation avec recommandation automatique de parcours
+- Outils de gestion des temps et activités avec analyse comportementale
+- SIRH avec modules prédictifs
 
 L'inventaire révèle souvent des outils dont le périmètre IA n'avait pas été analysé au moment de l'achat, notamment les plateformes de formation avec recommandation automatique et les outils de gestion de la performance.
 
@@ -165,21 +223,35 @@ Le résultat attendu : une liste avec trois colonnes (outil haut risque confirm�
 
 ### Étape 3 : Contractualisation éditeurs (juin 2026)
 
-Pour chaque outil haut risque identifié, envoyez une demande écrite à l'éditeur. Demandez la documentation technique, la confirmation d'inscription dans la base de données EU AI Act, et les conditions d'accès aux logs sur six mois.
+Pour chaque outil haut risque identifié, envoyez une demande écrite à l'éditeur. Demandez au minimum :
+
+- La documentation technique (au sens de l'Article 11)
+- La confirmation d'inscription dans la base de données EU AI Act
+- Les conditions d'accès aux logs sur six mois
+- Le calendrier de marquage CE pour les systèmes haut risque
 
 Certains éditeurs sont déjà préparés. D'autres découvrent le sujet. La réponse de l'éditeur vous indique à la fois son niveau de maturité réglementaire et votre niveau d'exposition résiduelle.
 
 ### Étape 4 : Documentation interne (juillet 2026)
 
-Trois documents à produire : le registre des systèmes IA RH (vous pouvez l'intégrer à votre registre de traitement RGPD), la notice d'information candidat, et la procédure de supervision humaine.
+Trois documents à produire :
 
-La procédure de supervision humaine est souvent négligée. Elle décrit concrètement comment un recruteur peut contester une décision du système, qui a l'autorité de l'annuler, et dans quel délai. Sans elle, votre "supervision humaine" n'existe que sur le papier.
+- **Registre des systèmes IA RH** (vous pouvez l'intégrer à votre registre de traitement RGPD)
+- **Notice d'information candidat** à insérer dans les offres d'emploi, la politique de confidentialité et les formulaires
+- **Procédure de supervision humaine** qui décrit comment un recruteur peut contester une décision du système, qui a l'autorité de l'annuler, et dans quel délai
+
+La procédure de supervision humaine est souvent négligée. Sans elle, votre "supervision humaine" n'existe que sur le papier.
 
 ### Étape 5 : Formation des équipes RH (juillet 2026)
 
 L'Article 4 du Règlement (UE) 2024/1689 est en vigueur depuis le 2 février 2025. Vos recruteurs et gestionnaires RH qui utilisent des outils IA doivent disposer d'un niveau suffisant de littératie IA.
 
-Cette formation n'a pas besoin d'être technique. Elle doit couvrir : ce que fait l'outil, ce qu'il ne fait pas, ses limites connues, et comment réagir quand un candidat ou un salarié conteste une décision qui l'implique.
+Cette formation n'a pas besoin d'être technique. Elle doit couvrir quatre points :
+
+- Ce que fait l'outil
+- Ce qu'il ne fait pas
+- Ses limites connues (biais potentiels, cas où il se trompe)
+- Comment réagir quand un candidat ou un salarié conteste une décision qui l'implique
 
 Pour une approche structurée de l'ensemble de cette démarche, l'article [comment se déroule un audit IA en PME](/blog/audit-ia-pme-guide-complet) détaille la méthode étape par étape.
 
@@ -209,7 +281,15 @@ Oui, depuis le 2 février 2025. L'Article 4 du Règlement (UE) 2024/1689 est en 
 
 Vos outils RH sont déjà en place. La question n'est plus de savoir si vous êtes concerné. Elle est de savoir si vous êtes en ordre.
 
-Smart Impulsion propose un Audit IA Express qui inventorie vos outils IA RH, les classe selon l'AI Act et produit la documentation de base (registre des systèmes, notice d'information candidat, procédure de supervision humaine). En 2 à 3 jours ouvrés, vous disposez d'une base documentaire solide avant l'échéance réglementaire.
+Smart Impulsion propose un Audit IA Express qui couvre l'essentiel du travail de conformité :
+
+- Inventaire de vos outils IA RH
+- Classification selon l'AI Act (Annexe III point 4)
+- Registre des systèmes IA
+- Notice d'information candidat
+- Procédure de supervision humaine
+
+En 2 à 3 jours ouvrés, vous disposez d'une base documentaire solide avant l'échéance réglementaire.
 
 [En savoir plus sur l'Audit IA Express](/services/audit)`,
     author: "Laurent Bouzon",
