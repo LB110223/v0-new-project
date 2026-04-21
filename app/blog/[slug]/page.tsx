@@ -97,17 +97,42 @@ function extractTableOfContents(content: string): { id: string; title: string; l
 
 // Fonction pour formater le contenu avec des IDs pour les ancres
 function formatContent(content: string): string {
-  // D'abord, traiter les listes à puces en les groupant
+  // D'abord, traiter les listes à puces et numérotées en les groupant
   const lines = content.split("\n")
   const processedLines: string[] = []
   let inList = false
   let listItems: string[] = []
+  let inOrderedList = false
+  let orderedListItems: string[] = []
+
+  const flushBulletList = () => {
+    if (inList) {
+      processedLines.push(`<ul class="my-4 space-y-1">${listItems.join("")}</ul>`)
+      inList = false
+      listItems = []
+    }
+  }
+
+  const flushOrderedList = () => {
+    if (inOrderedList) {
+      processedLines.push(
+        `<ol class="my-4 space-y-2 list-none pl-0">${orderedListItems.join("")}</ol>`,
+      )
+      inOrderedList = false
+      orderedListItems = []
+    }
+  }
+
+  const orderedListRegex = /^\s*\d+\.\s+(.+)$/
 
   for (const line of lines) {
     const trimmedLine = line.trim()
+    const orderedMatch = line.match(orderedListRegex)
 
-    // Vérifier si c'est une ligne de liste
+    // Vérifier si c'est une ligne de liste à puces
     if (trimmedLine.startsWith("- ")) {
+      // Fermer une éventuelle liste numérotée en cours
+      flushOrderedList()
       if (!inList) {
         inList = true
         listItems = []
@@ -117,21 +142,30 @@ function formatContent(content: string): string {
       listItems.push(
         `<li class="flex items-start gap-3 mb-2"><span class="w-1.5 h-1.5 rounded-full bg-orange-500 mt-2 flex-shrink-0"></span><span class="text-base text-muted-foreground">${itemContent}</span></li>`,
       )
+    } else if (orderedMatch) {
+      // Ligne de liste numérotée (uniquement en début de ligne)
+      // Fermer une éventuelle liste à puces en cours
+      flushBulletList()
+      if (!inOrderedList) {
+        inOrderedList = true
+        orderedListItems = []
+      }
+      const itemContent = orderedMatch[1]
+      const index = orderedListItems.length + 1
+      orderedListItems.push(
+        `<li class="flex items-start gap-3 mb-2"><span class="flex-shrink-0 w-6 h-6 rounded-full bg-orange-500 text-white text-sm font-semibold flex items-center justify-center">${index}</span><span class="text-base text-muted-foreground pt-0.5">${itemContent}</span></li>`,
+      )
     } else {
       // Si on était dans une liste, la fermer
-      if (inList) {
-        processedLines.push(`<ul class="my-4 space-y-1">${listItems.join("")}</ul>`)
-        inList = false
-        listItems = []
-      }
+      flushBulletList()
+      flushOrderedList()
       processedLines.push(line)
     }
   }
 
-  // Fermer la liste si on était encore dedans à la fin
-  if (inList) {
-    processedLines.push(`<ul class="my-4 space-y-1">${listItems.join("")}</ul>`)
-  }
+  // Fermer les listes si on était encore dedans à la fin
+  flushBulletList()
+  flushOrderedList()
 
   const formatted = processedLines
     .join("\n")
