@@ -260,10 +260,17 @@ function formatContent(content: string): string {
       /^> (.+)$/gm,
       '<blockquote class="border-l-4 border-orange-500 pl-6 py-4 my-6 bg-orange-50/50 rounded-r-lg italic text-base text-foreground/80">$1</blockquote>',
     )
+    // Paragraphes - séparer AVANT le gras pour éviter que `\n\n**Titre.**` ne soit bloqué
+    // par le lookahead (qui verrait `<strong>` après transformation du gras et ne splitterait pas).
+    // Le lookahead whiteliste uniquement les tags de BLOC déjà générés plus haut (h2, h3, ul, ol,
+    // blockquote, table wrapper div) : on ne veut pas ouvrir un <p> avant eux. Les tags inline
+    // comme <strong>, <em>, <a>, <code> en début de paragraphe doivent déclencher le split.
+    .replace(
+      /\n\n(?!<(?:h[1-6]|ul|ol|blockquote|div|table|thead|tbody|tr|th|td)[\s>])/g,
+      '</p><p class="text-base leading-relaxed text-muted-foreground mb-4">',
+    )
     // Gras
     .replace(/\*\*(.+?)\*\*/g, '<strong class="font-semibold text-foreground">$1</strong>')
-    // Paragraphes - ne pas transformer les lignes qui commencent par < (HTML) ou sont vides
-    .replace(/\n\n(?!<)/g, '</p><p class="text-base leading-relaxed text-muted-foreground mb-4">')
 
   return `<p class="text-base leading-relaxed text-muted-foreground mb-4">${formatted}</p>`
 }
