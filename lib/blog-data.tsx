@@ -35,6 +35,276 @@ export interface BlogArticle {
 
 export const blogArticles: BlogArticle[] = [
   {
+    slug: "embarquer-equipe-projet-ia",
+    title: "Comment embarquer son équipe dans un projet IA",
+    excerpt:
+      "Mon équipe ne suivra pas : la vérité sur les résistances aux projets IA et 7 leviers concrets pour embarquer vos collaborateurs.",
+    content: `# Comment embarquer son équipe dans un projet IA
+
+**Comment embarquer son équipe dans un projet IA en PME ?** La réponse courte : en répondant à "qu'est-ce que ça change pour moi ?" avant de montrer le premier outil. La résistance des équipes n'est presque jamais idéologique : elle est proportionnelle au flou du projet. Un dirigeant qui comble ce vide avant le lancement résout l'essentiel des blocages avant même qu'ils s'expriment.
+
+"Mon équipe ne suivra pas." C'est la phrase qu'on entend dans 8 PME sur 10. Avant l'outil, avant le budget : c'est cette objection qui bloque. Ce qui suit est tiré de projets IA en PME qui ont bien fonctionné, et d'autres arrêtés au bout de 6 semaines parce que personne n'avait préparé le terrain humain. Pas de témoignages "notre équipe a adoré tout de suite".
+
+Pour poser le cadre technique et stratégique de vos projets IA, consultez d'abord [notre guide IA pour PME : par où commencer](/blog/ia-pour-pme-guide).
+
+> **Laurent Bouzon** est consultant senior en transformation IA pour PME et ETI. Il accompagne des dirigeants dans le déploiement de leurs premiers cas d'usage IA, avec un focus ROI et conduite du changement.
+
+## Résistance au changement IA : pourquoi les équipes bloquent (et ce n'est pas ce que vous croyez)
+
+**Pourquoi les équipes résistent-elles aux projets IA ?** Pas pour les raisons qu'on croit. On distingue trois types de résistance dans les projets IA en PME. Ils n'ont pas la même origine et n'appellent pas la même réponse.
+
+### Les trois causes réelles, par ordre de fréquence
+
+- **La résistance par flou** : personne n'a expliqué clairement ce qui va changer dans les tâches quotidiennes. L'équipe comble le vide par les pires hypothèses. C'est la cause la plus fréquente, et la plus facile à traiter. Elle suffit à faire échouer un projet techniquement solide.
+- **La résistance par surcharge** : on demande à l'équipe la plus surchargée de tester un outil en plus de son travail habituel. Le pilote échoue parce que personne n'avait le temps de l'adopter, pas parce que l'outil était mauvais. Le diagnostic posé ("l'outil ne marche pas") est faux.
+- **La résistance par peur du remplacement** : réelle, mais minoritaire. Elle mérite une réponse directe, pas une esquive : elle représente moins de 20% des cas de blocage observés en contexte PME.
+
+La plupart des dirigeants surindexent sur la troisième. Résultat : ils font des réunions sur "l'IA n'est pas là pour vous remplacer" pendant que leurs équipes souffrent en silence d'un pilote mal cadré.
+
+> **Point clé.** La résistance est proportionnelle au flou. Un projet IA bien annoncé, avec un périmètre clair et un cas d'usage lisible, génère moins de résistance qu'un projet vague présenté comme "une opportunité de transformation".
+
+### Le contexte français rend l'exercice particulièrement difficile
+
+Selon Gallup (*State of the Global Workplace*, 2026), **8% des salariés français se déclarent engagés dans leur entreprise**, le taux le plus bas d'Europe. Un collaborateur non engagé ne sabote pas un projet IA : il l'évite passivement.
+
+L'enquête Ipsos pour Jedha (juin 2025, 1 000 actifs français) confirme : **60% se sentent "livrés à eux-mêmes" face aux transformations IA** et **76% n'ont reçu aucune formation à l'IA**. Ces chiffres décrivent un vide : c'est ce vide que le dirigeant doit combler avant de déployer quoi que ce soit.
+
+### Le biais de survivance qu'on ne nomme jamais
+
+Les témoignages "notre équipe a adhéré immédiatement" parlent tous de pilotes bien conduits. On n'entend pas parler des projets abandonnés après 3 mois d'opposition passive. Le taux d'adoption réelle est inférieur au taux déclaré : la différence, c'est l'outil "utilisé" mais contourné dès que possible.
+
+## Les 7 leviers pour embarquer son équipe dans un projet IA
+
+**Comment embarquer concrètement son équipe dans un projet IA ?** Ces leviers sont séquentiels. Les sauter ou les réordonner explique la plupart des échecs.
+
+### Leviers 1 à 4 : avant et pendant le pilote
+
+**Levier 1 : Annoncer avant de choisir l'outil.** La plupart des dirigeants font l'inverse : ils signent un contrat, puis organisent une réunion pour "présenter la nouvelle solution". La décision est prise sans l'équipe. Le bon ordre : expliquez le problème à résoudre avant de nommer l'outil. "Nos équipes passent 4 heures par semaine à recopier des données. On cherche une solution. Voici ce qu'on ne touchera pas." Livrable : une note d'une page avec le pourquoi, le périmètre, ce qui ne change pas.
+
+**Levier 2 : Identifier 1 à 2 ambassadeurs métier avant le pilote.** Un ambassadeur n'est pas le meilleur technicien : c'est un volontaire crédible auprès de ses collègues, qui participe au pilote et restitue les résultats en langage métier. Livrable : fiche de rôle d'une page (2 à 3 heures par semaine sur 4 semaines).
+
+**Levier 3 : Cadrer ce qui ne changera pas.** Répondez par écrit, périmètre par périmètre. "Le traitement des factures sera assisté par l'IA. Les relations fournisseurs et la validation finale restent dans les mains du comptable." Livrable : une note interne d'une page signée par le dirigeant.
+
+> **Red flag.** Si vous ne pouvez pas répondre précisément à "qu'est-ce qui ne change pas dans le poste de X ?", le pilote n'est pas encore assez cadré pour être annoncé.
+
+**Levier 4 : Lancer un pilote petit et visible.** Le pilote doit produire un résultat partageable en moins de 30 jours, sur 3 à 5 personnes. Pas le cas d'usage le plus ambitieux : le plus lisible. Un premier succès documenté vaut plus qu'un grand projet sans résultat visible avant 6 mois. Livrable : une démo interne de 15 minutes à J+30.
+
+### Leviers 5 à 7 : pendant et après le pilote
+
+**Levier 5 : Répondre honnêtement aux questions sur les postes impactés.** Certains postes seront effectivement impactés. "L'IA aide, elle ne remplace pas" détruit la crédibilité dès que l'équipe voit que des tâches disparaissent. La bonne réponse est directe : "les tâches de saisie vont diminuer, les tâches d'analyse vont augmenter. Voici comment on prépare ça ensemble." Livrable : une FAQ interne de 5 questions avec des réponses réelles.
+
+**Levier 6 : Relier la formation à l'obligation AI Act article 4.**
+
+> **Définition : littératie IA.** La littératie IA désigne la capacité d'un collaborateur à comprendre ce que fait un outil IA, à identifier ses limites et à l'utiliser de façon appropriée dans ses tâches professionnelles. Ce n'est pas de la programmation ni de la data science : c'est la compétence minimale pour utiliser un assistant IA métier sans produire d'erreurs non détectées.
+
+L'article 4 de l'AI Act (Règlement UE 2024/1689) impose à tout déployeur d'IA de s'assurer que son personnel dispose des compétences suffisantes. Entrée en vigueur le 2 février 2025, la supervision s'applique à partir du **2 août 2026** (source : Commission européenne / AI Office). Ce cadrage transforme le débat interne : ce n'est plus "est-ce qu'on forme les équipes ?" mais "comment on remplit l'obligation avant août 2026 ?". Livrable : un plan de formation par poste ciblé sur les cas d'usage réels, qui constitue votre trace de conformité AI Act.
+
+> **À retenir.** Selon l'enquête Ipsos pour Jedha (juin 2025, 1 000 actifs français), 76% des actifs français n'ont reçu aucune formation à l'IA. Parmi ceux utilisant des outils IA fournis par leur entreprise, seulement 25% ont bénéficié d'un accompagnement. L'obligation AI Act article 4 transforme ce vide en risque légal.
+
+**Levier 7 : Mesurer et communiquer les résultats en interne.** Le pilote se termine et rien ne se passe : le prochain déploiement repart de zéro en termes de confiance. Publiez les résultats à J+30 et J+90, à l'équipe concernée (pas en COMEX) :
+
+- **Temps gagné** : en heures par semaine, par personne ou par processus
+- **Volume traité** : ce que l'outil a produit pendant la période, comparé à la période précédente
+- **Retours des utilisateurs** : verbatim courts, positifs et négatifs (la crédibilité vient de l'honnêteté)
+- **Problèmes rencontrés** : et comment ils ont été résolus
+
+Livrable : un email ou une réunion flash de 15 minutes avec les chiffres réels.
+
+**Récapitulatif des livrables par levier :**
+
+- Levier 1 : note d'une page (pourquoi, périmètre, ce qui ne change pas)
+- Levier 2 : fiche de rôle ambassadeur (2 à 3 heures par semaine sur 4 semaines)
+- Levier 3 : note interne d'une page signée par le dirigeant (zones non touchées)
+- Levier 4 : démo interne de 15 minutes à J+30
+- Levier 5 : FAQ interne de 5 questions avec réponses réelles
+- Levier 6 : plan de formation ciblé par poste (3 à 4 heures, trace de conformité AI Act)
+- Levier 7 : email ou réunion flash de 15 minutes avec chiffres réels à J+30 et J+90
+
+## Adoption IA en entreprise : le rôle clé des managers intermédiaires
+
+**Quel est le rôle des managers intermédiaires dans l'adoption IA ?** Gallup (*State of the Global Workplace*, 2026) est explicite : les salariés dont le manager soutient activement l'usage de l'IA sont **8,7 fois plus susceptibles d'affirmer que l'IA a transformé le travail dans leur organisation**.
+
+### Le multiplicateur que vous sous-estimez
+
+Si votre manager intermédiaire n'est pas convaincu, il ne sabote pas le projet. Il l'évite passivement, ne le défend pas quand les équipes résistent, et ne l'intègre pas dans son animation quotidienne. Le résultat est le même qu'un sabotage actif, mais sans que vous puissiez l'identifier.
+
+> **Red flag.** Si vous déployez un outil IA sans avoir organisé une session privée avec votre manager avant l'équipe, la correction est possible mais coûte 3 à 4 semaines de recalibrage.
+
+### Comment embarquer le manager sans en faire un chef de projet IA
+
+Le manager intermédiaire n'a pas à devenir expert en IA. Il a trois rôles précis : débloquer le temps de son équipe pour le pilote, relayer les résultats chiffrés, et signaler les blocages sans les minimiser. Ces trois rôles représentent 2 à 3 heures par semaine pendant la durée du pilote. Pas plus.
+
+## Transformation numérique PME : les anti-patterns qui font échouer l'adoption
+
+**Quelles erreurs font échouer les projets IA du côté humain ?** Quatre erreurs concentrent l'essentiel des échecs d'adoption observés en PME.
+
+### Les erreurs d'annonce et de formation
+
+**La session ChatGPT d'une heure pour toute l'entreprise.** Elle ne forme personne et génère une fausse impression d'accompagnement. La formation utile est courte (3-4 heures par poste), ciblée sur les cas d'usage réels, en petits groupes homogènes.
+
+**L'annonce en réunion hebdomadaire sans préparation.** Le couloir devient le lieu de débat. Préparez les cinq questions que l'équipe posera :
+
+- "Pourquoi maintenant ?" : répondez sur le problème concret, pas sur la tendance marché
+- "Qui a décidé, et sur quels critères ?" : montrez que le choix est rationnel
+- "Qu'est-ce qui change dans mon travail quotidien ?" : réponse poste par poste
+- "Si ça ne marche pas, que se passe-t-il ?" : ayez un plan B
+- "Est-ce que mon poste est menacé ?" : répondez directement
+
+### Les erreurs de pilote
+
+**Le pilote imposé à l'équipe la plus surchargée.** Le pilote échoue parce que l'équipe n'a pas le temps de l'adopter, et la conclusion tirée est que "l'outil ne marche pas". Choisissez l'équipe pilote sur trois critères :
+
+- **Disponibilité réelle** : 2 à 3 heures par semaine pendant 4 à 6 semaines ; si l'équipe ne peut pas dégager ce temps, décalez le pilote
+- **Cas d'usage visible** : résultats mesurables en moins de 30 jours
+- **Taille** : 3 à 5 personnes maximum, pas une équipe entière dès le départ
+
+**Le discours "l'IA va vous aider" sans démonstration.** Montrez concrètement : une démo de 10 minutes sur une tâche réelle vaut plus qu'une heure de slides.
+
+> **Point clé.** Selon Deloitte (*State of AI in the Enterprise*, 2026), 37% des entreprises utilisent l'IA de manière superficielle sans modifier leurs processus, et seulement 1 sur 5 dispose d'un modèle de gouvernance mature. Le facteur humain fait la différence entre un déploiement qui produit des résultats et un déploiement qui végète.
+
+## AI Act article 4 : l'embarquement n'est plus optionnel
+
+**Qu'impose l'AI Act article 4 aux PME en matière de formation IA ?**
+
+> **Définition : change management IA.** Le change management IA désigne les actions menées par le dirigeant pour préparer ses collaborateurs à adopter un outil IA : annonce du projet, identification des ambassadeurs, formation ciblée, communication des résultats. Il se distingue de la conduite du changement générique par son ancrage sur un cas d'usage précis et une durée courte (4 à 8 semaines).
+
+### Ce que dit l'obligation
+
+L'article 4 de l'AI Act (Règlement UE 2024/1689) impose à tout déployeur d'IA de s'assurer que son personnel dispose des compétences suffisantes pour utiliser les systèmes IA de manière appropriée. Entrée en application le 2 février 2025, la supervision par les autorités commence le **2 août 2026** (source : Commission européenne / AI Office, texte officiel du règlement).
+
+Vous êtes un "déployeur" dès lors que vous utilisez un outil IA sectoriel, un module IA dans votre ERP ou un assistant IA généraliste. Les PME sont concernées. Pour une lecture complète, consultez notre article [AI Act 2026 : ce que les PME doivent savoir](/blog/ai-act-pme-guide-2026).
+
+### Ce que ça change dans votre agenda
+
+Concrètement, l'obligation AI Act article 4 impose quatre actions :
+
+1. **Documenter les outils IA déployés** et les postes concernés (un tableur suffit)
+2. **Identifier le niveau de compétences requis** pour chaque usage
+3. **Organiser une formation ciblée** sur chaque cas d'usage réel, à raison de 3 à 4 heures par poste, en groupes de 3 à 5 personnes
+4. **Conserver une trace** des formations : date, contenu, participants, formateur
+
+> **À retenir.** L'AI Act article 4 transforme la question "est-ce qu'on forme les équipes ?" en "comment on documente notre conformité avant août 2026 ?". C'est un changement de registre utile pour les dirigeants dont les équipes résistent à la formation.
+
+### L'argument réglementaire comme levier interne
+
+Un dirigeant qui présente la formation IA comme "une obligation légale avant août 2026" rencontre moins de résistance qu'un dirigeant qui la présente comme "une opportunité". L'argument réglementaire neutralise le débat de principe : il reste à discuter du format, pas du "si".
+
+## Conduite du changement IA : vous êtes le change manager par défaut
+
+Dans une PME de moins de 100 personnes, il n'y a pas de DRH dédié, pas de responsable transformation. Le dirigeant est le change manager par défaut. Cette réalité n'est pas un problème : un dirigeant de PME peut parler directement à chaque équipe, répondre aux questions individuelles, ajuster le discours en temps réel. Mais cette proximité est une responsabilité directe. Si le projet IA échoue côté humain, il n'y a personne d'autre sur qui reporter la cause.
+
+Quatre actions restent dans vos mains, quelle que soit la taille de votre équipe :
+
+- **L'annonce du projet** : le message sur le sens et le périmètre vient de vous, pas d'un prestataire.
+- **La réponse aux questions sur les postes impactés** : vous seul avez la légitimité de dire ce qui change.
+- **Le choix du premier cas d'usage** : décision stratégique non délégable.
+- **La communication des résultats en interne** : les chiffres du pilote doivent venir de vous pour avoir du poids.
+
+Pour cadrer le bon premier cas d'usage, notre [guide complet de l'audit IA pour PME](/blog/audit-ia-pme-guide-complet) est l'étape préalable qui évite le choix par défaut (le plus visible, pas forcément le plus pertinent).
+
+## Questions fréquentes
+
+### Comment faire accepter l'IA à ses employés ?
+
+La résistance est proportionnelle au flou du projet, pas à une opposition idéologique. Répondez à "qu'est-ce que ça change pour moi ?" avant de montrer le premier outil : nommez le problème résolu, le périmètre touché, et ce qui ne changera pas poste par poste. Nommez un ambassadeur métier volontaire. Cadrez par écrit les zones non touchées. Ces trois actions, menées avant le lancement, résolvent la majorité des blocages observés en PME sans nécessiter ni DRH ni budget de communication.
+
+### Pourquoi les équipes résistent-elles aux projets IA ?
+
+Trois causes par ordre de fréquence. La résistance par flou : personne n'a expliqué ce qui change dans les tâches quotidiennes, l'équipe comble le vide par les pires hypothèses. La résistance par surcharge : on pilote sur l'équipe qui n'a pas le temps. La résistance par peur du remplacement : minoritaire. Les deux premières causent l'essentiel des blocages. Un dirigeant qui traite le flou et la surcharge résout 80% du problème avant même d'aborder le sujet des postes impactés.
+
+### Qu'est-ce que l'obligation de littératie IA de l'AI Act pour les entreprises ?
+
+L'article 4 de l'AI Act (Règlement UE 2024/1689) impose à tout déployeur d'IA de s'assurer que son personnel dispose de compétences suffisantes pour utiliser les outils déployés. Entrée en vigueur le 2 février 2025, la supervision commence le 2 août 2026. Toute PME utilisant ChatGPT, un module IA ERP ou un outil sectoriel IA est concernée. Source : Commission européenne / AI Office, texte officiel du règlement.
+
+### Comment embarquer un manager réfractaire à un projet IA ?
+
+Embarquez le manager avant l'équipe. Organisez une session privée de 30 minutes : montrez le pilote, expliquez ce qui change dans son rôle et ce qui ne change pas, donnez-lui les questions que son équipe va poser. Un manager non convaincu n'oppose pas de résistance frontale : il évite passivement et ne défend pas le projet. Selon Gallup (*State of the Global Workplace*, 2026), les salariés dont le manager soutient l'IA sont 8,7 fois plus susceptibles de constater sa transformation réelle.
+
+### Comment déployer l'IA dans une PME sans DRH ?
+
+Le dirigeant est le change manager par défaut. Quatre actions suffisent : choisir le bon cas d'usage (visible en moins de 30 jours), nommer un ambassadeur métier volontaire, tenir une réunion de 30 minutes sur le pourquoi avant de montrer l'outil, et publier les résultats à J+30. Ces quatre actions ne nécessitent ni DRH ni consultant dédié, et représentent 4 à 5 heures de votre temps sur 4 semaines.
+
+## Passez à l'action sur le bon premier cas d'usage
+
+L'embarquement commence par un choix : sur quel cas d'usage lancer le premier pilote. Un pilote mal choisi est la première cause d'échec d'adoption : l'équipe est surchargée, les résultats ne sont pas visibles, et la conclusion tirée est que "l'IA ne marche pas chez nous".
+
+Smart Impulsion propose un Audit IA Express qui identifie le bon premier cas d'usage pour votre PME. En 2 à 3 jours, vous repartez avec une feuille de route priorisée et un ROI projeté.
+
+[En savoir plus sur l'Audit IA Express](/services/audit)`,
+    author: "Laurent Bouzon",
+    date: "23 avril 2026",
+    dateISO: "2026-04-23",
+    readTime: "14 min",
+    category: "IA & PME",
+    image: "/embarquer-equipe-projet-ia-hero.png",
+    imageAlt: "Image d'illustration pour l'article \"Comment embarquer son équipe dans un projet IA\"",
+    faq: [
+      {
+        question: "Comment faire accepter l'IA à ses employés ?",
+        answer: "La résistance est rarement idéologique. Elle est proportionnelle au flou du projet et à l'absence de réponse à 'qu'est-ce que ça change pour moi ?'. Répondre clairement à cette question avant le premier pilote, nommer un ambassadeur métier volontaire et cadrer ce qui ne changera pas dans le périmètre de chaque poste résout la majorité des blocages observés en PME.",
+      },
+      {
+        question: "Comment former ses équipes à l'IA en PME sans budget dédié ?",
+        answer: "L'obligation de littératie IA de l'AI Act (article 4, en vigueur dès août 2026) s'impose à tous les déployeurs d'IA, y compris les PME. Des ressources gratuites existent via France Num et l'AI Office. L'essentiel n'est pas une formation générale ChatGPT, mais une formation courte et ciblée sur les cas d'usage réels de l'équipe. Comptez 3 à 4 heures par poste, pas 3 jours.",
+      },
+      {
+        question: "Pourquoi les équipes résistent-elles aux projets IA ?",
+        answer: "Trois causes distinctes existent. La peur du remplacement (minoritaire mais visible). Le flou sur le projet : personne n'a expliqué concrètement ce qui allait changer dans les tâches quotidiennes. La surcharge de transition : on demande à l'équipe la plus occupée de tester un outil en plus de son travail normal. Les deux dernières causes représentent l'essentiel des blocages réels en PME.",
+      },
+      {
+        question: "Qu'est-ce que l'obligation de littératie IA de l'AI Act pour les entreprises ?",
+        answer: "L'article 4 de l'AI Act impose à tout déployeur d'IA de s'assurer que son personnel dispose d'un niveau suffisant de compétences pour utiliser les outils IA déployés. Cette obligation est entrée en vigueur le 2 février 2025. L'application des règles de supervision commence le 2 août 2026. Une PME qui déploie ChatGPT ou un outil IA sectoriel est concernée. Source : Commission européenne / AI Office.",
+      },
+      {
+        question: "Comment embarquer un manager réfractaire à un projet IA ?",
+        answer: "Embarquez le manager avant l'équipe, pas en même temps. Montrez-lui le pilote en privé, expliquez ce que ça change dans son rôle de manager (moins de reporting manuel, visibilité sur les volumes traités) et ce que ça ne change pas. Un manager non convaincu devient un frein silencieux qui bloque l'adoption sans jamais l'exprimer frontalement. Selon Gallup 2026, les salariés dont le manager soutient l'IA sont 8,7 fois plus susceptibles de constater sa transformation réelle.",
+      },
+      {
+        question: "Quels sont les signes que mon projet IA va échouer à cause du facteur humain ?",
+        answer: "Quatre signaux d'alerte : l'outil est déployé mais personne n'a expliqué pourquoi ce cas d'usage précis a été choisi. L'équipe pilote est la plus surchargée de l'entreprise. La formation a duré une heure générique sans lien avec les tâches réelles. Le manager intermédiaire n'a pas été briefé avant l'équipe. Si deux de ces quatre conditions sont réunies, le projet prend un risque d'adoption passive ou d'abandon silencieux dans les 60 jours.",
+      },
+      {
+        question: "Comment déployer l'IA dans une PME sans DRH ?",
+        answer: "Le dirigeant est le change manager par défaut. Cela signifie : choisir le bon premier cas d'usage (pas le plus ambitieux, le plus visible), nommer un ambassadeur métier volontaire dans l'équipe pilote, tenir une réunion courte de 30 minutes pour expliquer le pourquoi avant de montrer l'outil, et publier les résultats du pilote en interne à la fin du premier mois. Ces quatre actions ne nécessitent ni DRH ni consultant dédié.",
+      },
+    ],
+    howTo: {
+      name: "7 leviers pour embarquer son équipe dans un projet IA en PME",
+      description: "Séquence actionnable pour un dirigeant de PME sans DRH : de l'annonce du projet au premier pilote visible, avec les livrables concrets à chaque étape.",
+      totalTime: "PT720H",
+      steps: [
+        {
+          name: "Annoncer le projet avant de choisir l'outil",
+          text: "Organisez une réunion courte (30 min) pour expliquer le pourquoi du projet IA avant de montrer un outil. Livrable : une diapositive qui répond à 'pourquoi maintenant, sur quel périmètre, et qu'est-ce qui ne changera pas'.",
+        },
+        {
+          name: "Identifier 1 à 2 ambassadeurs métier volontaires",
+          text: "Recrutez des ambassadeurs dans l'équipe pilote avant le lancement, pas après. Critère : volontaires, pas les plus compétents techniquement. Livrable : fiche de rôle ambassadeur distribuée avant le pilote.",
+        },
+        {
+          name: "Cadrer ce qui ne changera pas",
+          text: "Par écrit, listez les périmètres de poste non touchés par le pilote. Cela réduit la résistance par incertitude, la cause la plus fréquente. Livrable : note interne d'une page, signée par le dirigeant.",
+        },
+        {
+          name: "Lancer un pilote petit et visible",
+          text: "Choisissez un cas d'usage qui produit un résultat visible en moins de 30 jours, sur une équipe de 3 à 5 personnes maximum. Pas le cas le plus ambitieux : le plus partageable. Livrable : démo interne à J+30.",
+        },
+        {
+          name: "Répondre honnêtement aux questions sur les postes impactés",
+          text: "Préparez une réponse directe à 'est-ce que ce poste va disparaître ?'. Esquiver détruit la crédibilité. Livrable : une FAQ interne de 5 questions avec vos réponses réelles.",
+        },
+        {
+          name: "Relier la formation à l'obligation AI Act article 4",
+          text: "Transformez la formation IA en obligation légale, pas en option. L'article 4 de l'AI Act impose la littératie IA dès août 2026. Livrable : plan de formation de 3 à 4 heures par poste sur les cas d'usage réels.",
+        },
+        {
+          name: "Mesurer et communiquer les résultats en interne",
+          text: "À J+30 et J+90, publiez un bilan chiffré du pilote à toute l'équipe : temps gagné, erreurs évitées, retours des utilisateurs. Livrable : email ou réunion flash de 15 minutes avec les chiffres réels.",
+        },
+      ],
+    },
+  },
+  {
     slug: "ia-fonction-commerciale-pme-methodologie",
     title: "IA dans la fonction commerciale PME : cas d'usage et méthodologie",
     excerpt:
