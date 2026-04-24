@@ -35,6 +35,269 @@ export interface BlogArticle {
 
 export const blogArticles: BlogArticle[] = [
   {
+    slug: "audit-ia-express-3-jours-methodologie",
+    title: "Audit IA Express : méthodologie en 3 jours | Smart Impulsion",
+    excerpt:
+      "Audit IA Express en 3 jours : notre méthodologie étape par étape, livrables nommés, ROI projeté. Comment démarrer avec Smart Impulsion.",
+    content: `# Audit IA Express : notre méthodologie en 3 jours (et ce que vous recevez)
+
+**L'Audit IA Express est un diagnostic structuré en trois jours d'intervention qui permet à une PME ou ETI d'identifier ses cas d'usage IA prioritaires et de repartir avec une feuille de route opérationnelle à 90 jours.** Il ne s'agit ni d'un audit de cybersécurité, ni d'un projet pilote, ni d'une étude de marché : c'est un point de départ décisionnel, conçu pour un dirigeant qui n'a pas encore tranché.
+
+Selon l'INSEE (Première n°2061, 2024), seulement **10 % des entreprises françaises de 10 salariés et plus** utilisent l'IA dans leur activité. Parallèlement, 58 % des dirigeants de PME et ETI considèrent l'IA comme un enjeu de survie à moyen terme, selon Bpifrance Le Lab (juin 2025). Ce fossé entre la prise de conscience et le passage à l'acte n'est pas un problème de volonté. C'est un problème de méthode.
+
+La plupart des dirigeants que nous rencontrons savent qu'ils doivent agir. Ce qu'ils ignorent, c'est par où commencer concrètement, ce que ça implique pour leurs équipes, et ce qu'ils obtiendront en retour. La méthodologie de l'Audit IA Express répond à ces trois questions en trois jours, avec des livrables nommés et actionnables dès la semaine suivante.
+
+> **Chiffre à retenir** : 43 % des PME et ETI françaises n'analysent pas leurs propres données pour piloter leur activité (Bpifrance Le Lab, juin 2025). L'audit commence souvent par révéler ce que l'entreprise sait déjà faire, sans pourtant exploiter.
+
+## À qui s'adresse l'Audit IA Express
+
+L'Audit IA Express est conçu pour un profil de dirigeant précis. Avant de vous engager dans cette démarche d'audit IA, voici les critères qui définissent un prospect qualifié.
+
+### Profil idéal
+
+Vous êtes probablement au bon endroit si votre entreprise réunit ces caractéristiques :
+
+- Entre 10 et 500 salariés, secteur industriel, services B2B, distribution ou négoce
+- Au moins un processus répétitif identifiable (traitement de commandes, gestion des devis, reportings manuels, qualification des demandes entrantes)
+- Un dirigeant ou directeur opérationnel disponible une demi-journée sur la durée de l'audit
+- Pas de DSI, ou une DSI de taille réduite sans capacité projet dédiée à l'IA
+- Une conviction que quelque chose peut être amélioré, sans encore savoir quoi prioriser
+
+Vous n'avez pas besoin d'avoir déjà utilisé un outil d'IA. Vous n'avez pas besoin d'un budget défini à l'avance. L'audit sert précisément à construire ce budget.
+
+**Faut-il des données structurées pour démarrer un audit IA ?** Non. La majorité des PME auditées disposent de données partielles, hétérogènes ou peu documentées. L'évaluation de la qualité des données fait partie intégrante du diagnostic : identifier ce qui manque est aussi utile qu'identifier ce qui existe. Selon Bpifrance Le Lab (juin 2025), 43 % des PME et ETI n'analysent pas leurs propres données pour piloter leur activité. Le point de départ imparfait est la norme, pas l'exception.
+
+### Ce que l'audit ne fait pas
+
+Gérer les attentes est une partie intégrante de la méthode. L'Audit IA Express n'est pas :
+
+- Un audit de cybersécurité ou de conformité réglementaire (ces sujets méritent des expertises dédiées)
+- Une étude de marché sur les outils IA disponibles
+- Une mise en oeuvre technique (aucun code, aucun déploiement pendant les 3 jours)
+- Un engagement à une roadmap de 18 mois
+
+En trois jours, l'objectif est d'identifier où agir en priorité et pourquoi. La mise en oeuvre vient après.
+
+> **Point de méthode** : un audit qui promet trop en trop peu de temps est un signal d'alerte. Notre rôle est de vous donner une boussole fiable, pas un plan exhaustif dont la moitié sera obsolète dans six mois.
+
+## Les 3 jours de l'Audit IA Express
+
+1. **Jour 1 : Cartographie** : comprendre votre terrain
+2. **Jour 2 : Identification** : vos 5 cas d'usage prioritaires
+3. **Jour 3 : Restitution** : votre feuille de route 90 jours
+
+## Jour 1 : Cartographie de votre terrain
+
+Le premier jour est le plus dense en échanges humains. L'objectif est de construire une représentation fidèle de votre entreprise : ses processus, ses données, ses contraintes. Aucune recommandation n'est formulée avant cette cartographie.
+
+### Matin : entretien dirigeant et cadrage stratégique
+
+La journée commence par un entretien d'une heure trente avec le dirigeant ou le membre du CODIR mandaté pour l'audit. Ce n'est pas une réunion de présentation de nos services. C'est un entretien structuré autour de vos priorités :
+
+- Quels sont les trois problèmes opérationnels qui vous coûtent le plus de temps ou d'argent aujourd'hui ?
+- Quelles initiatives d'amélioration ont été tentées ces 18 derniers mois, avec quels résultats ?
+- Quelles contraintes pèsent sur la décision (budget, SI existant, résistances internes, délais réglementaires) ?
+- Quelle ambition réaliste visez-vous à 12 mois ?
+
+Ces questions permettent de calibrer l'audit sur les enjeux réels, pas sur une vision idéale déconnectée des contraintes terrain.
+
+L'après-midi du premier jour est réservée aux entretiens métiers.
+
+### Après-midi : entretiens métiers et cartographie des processus
+
+Deux à trois entretiens de 45 minutes chacun avec des responsables opérationnels sont conduits : un responsable commercial ou ADV, un responsable de production ou de service, et si pertinent un responsable RH ou finance. Le nombre et le choix des interlocuteurs sont adaptés à votre organisation.
+
+Ces entretiens suivent un guide structuré commun :
+
+- Description du processus principal et de ses étapes manuelles
+- Volume traité par semaine et temps consacré par personne
+- Sources de données utilisées (fichiers Excel, ERP, messagerie, CRM)
+- Points de friction récurrents et erreurs les plus fréquentes
+- Niveau de confiance dans les données disponibles
+
+À l'issue du Jour 1 de l'audit IA Express, toutes les notes sont consolidées dans un tableau unique.
+
+**Combien de temps les opérationnels doivent-ils prévoir le Jour 1 ?** Quarante-cinq minutes par interlocuteur métier. Le format est court par conception : un entretien trop long génère de la fatigue et moins d'informations utiles qu'un échange ciblé et bien préparé.
+
+> **Livrable Jour 1 : Carte de maturité IA**
+>
+> Document d'une à deux pages synthétisant vos processus clés, leur niveau de digitalisation actuel, la qualité estimée de vos données et les premières zones de potentiel IA identifiées. Ce document est partagé avec vous avant le début du Jour 2.
+
+## Jour 2 : Identifier vos 5 cas d'usage prioritaires
+
+Le deuxième jour de l'audit IA Express bascule de l'observation vers l'analyse. À partir de la Carte de maturité IA produite la veille, le travail consiste à identifier et scorer les cas d'usage les plus pertinents, en partant de votre connaissance métier.
+
+### Analyse des données disponibles
+
+Avant les échanges de la matinée, une revue rapide de vos sources de données est conduite. Il ne s'agit pas d'un audit data approfondi, mais d'une évaluation pragmatique :
+
+- Quelles données existent et sont accessibles (sans transformation majeure) ?
+- Quelles données seraient nécessaires pour les cas d'usage pressentis et sont absentes ou incomplètes ?
+- Quelles contraintes de confidentialité ou de souveraineté s'appliquent ?
+
+Cette étape évite l'écueil classique : identifier des cas d'usage séduisants sur le papier, mais impossibles à mettre en oeuvre faute de données structurées.
+
+### Co-construction et scoring des cas d'usage
+
+Une session de travail de deux heures est organisée avec deux à trois personnes clés (dirigeant et un ou deux opérationnels). Le format est délibérément interactif : les cas d'usage ne sont pas imposés par Smart Impulsion, ils émergent du croisement entre nos observations et votre connaissance métier.
+
+Chaque cas d'usage identifié est évalué sur quatre critères :
+
+- **ROI potentiel** : gain de temps estimé, réduction d'erreurs, impact sur le chiffre d'affaires ou la marge
+- **Faisabilité données** : les données nécessaires existent-elles dans un format exploitable ?
+- **Complexité d'intégration** : combien de systèmes existants sont impactés ?
+- **Délai de mise en oeuvre** : peut-on obtenir un premier résultat en moins de 90 jours ?
+
+Le score composite permet de classer les cas d'usage et de retenir les cinq prioritaires.
+
+**Pourquoi cinq cas d'usage et pas davantage ?** Parce qu'une liste de dix priorités est une liste sans priorité. Cinq cas d'usage forçent le choix. Ils sont suffisamment nombreux pour couvrir plusieurs périmètres (commercial, opérations, finance) et suffisamment peu pour que la roadmap reste réaliste sur 90 jours.
+
+> **Livrable Jour 2 : Top 5 cas d'usage**
+>
+> Fiche synthétique pour chacun des cinq cas d'usage retenus : description fonctionnelle, ROI estimé, données requises, complexité et délai indicatif. Ce document constitue la base de travail du Jour 3.
+
+## Jour 3 : Restitution et feuille de route 90 jours
+
+Le troisième et dernier jour de l'audit IA Express est celui de la synthèse et de la transmission. L'objectif est que vous repartiez avec un document utilisable immédiatement, pas une présentation de 80 diapositives qui restera dans un tiroir.
+
+### Rédaction de la synthèse exécutive
+
+La matinée du Jour 3 est consacrée à la rédaction de la synthèse. Ce travail se fait en interne, sans solliciter votre équipe. La synthèse comprend :
+
+- Un résumé de la situation actuelle (maturité IA, points forts, angles morts)
+- Les cinq cas d'usage priorisés avec leur justification
+- Une roadmap 90 jours séquencée en trois phases (amorçage, premier résultat, consolidation)
+- Les ressources nécessaires par phase (compétences, budget estimé, partenaires potentiels)
+- Les trois décisions à prendre dans les deux prochaines semaines
+
+La roadmap est volontairement limitée à 90 jours. Au-delà, les priorités évoluent, les contraintes changent, et un plan trop détaillé devient rapidement obsolète.
+
+### Présentation executive et validation de la roadmap
+
+L'après-midi est structuré en deux temps. Une présentation de 60 minutes réunit le dirigeant et, selon votre souhait, un ou deux membres du CODIR. Nous présentons les conclusions, les cas d'usage retenus et la roadmap. Les questions et objections sont intégrées au document final.
+
+Un temps de 30 minutes est ensuite dédié à la discussion sur les étapes suivantes : qui fait quoi, avec qui, dans quel délai. Ce n'est pas un closing commercial. C'est une transmission de responsabilité.
+
+**L'audit peut-il se faire entièrement à distance ?** Oui. Les entretiens du Jour 1 et du Jour 2 peuvent être conduits en visioconférence avec partage d'écran. La présentation du Jour 3 est recommandée en présentiel pour faciliter les échanges avec le CODIR, mais ce n'est pas une contrainte absolue. L'efficacité de l'audit dépend de la qualité des échanges, pas de leur modalité.
+
+> **Livrable Jour 3 : Roadmap 90 jours**
+>
+> Document de synthèse de quatre à six pages comprenant la carte de maturité finale, le Top 5 cas d'usage scorés, la roadmap séquencée et les prochaines étapes recommandées. Format PDF transmis sous 48 heures après la présentation.
+
+## Ce que vous recevez à l'issue des 3 jours
+
+À la fin de l'Audit IA Express, trois documents structurés sont entre vos mains :
+
+- **Carte de maturité IA** : état des lieux de vos processus clés, de la qualité de vos données et de votre niveau de digitalisation actuel. Un document à partager en interne pour aligner vos équipes sur le diagnostic.
+- **Top 5 cas d'usage** : les cinq opportunités IA les plus pertinentes pour votre entreprise, classées par ROI potentiel et faisabilité. Chaque fiche inclut une estimation de gains et un délai indicatif de mise en oeuvre.
+- **Roadmap 90 jours** : le plan d'action priorisé, séquencé en trois phases, avec les ressources nécessaires et les décisions à prendre. Utilisable directement, que vous poursuiviez avec Smart Impulsion ou non.
+
+Ces livrables sont rédigés pour être lus par un dirigeant, pas par un consultant. Pas de jargon technique, pas de tableaux incompréhensibles hors contexte, pas de préconisations conditionnelles à dix hypothèses non vérifiées.
+
+Pour comprendre comment ces livrables s'inscrivent dans une démarche d'audit IA complète, consultez [notre guide complet de l'audit IA pour PME](/blog/audit-ia-pme-guide-complet).
+
+## Audit IA Express vs Diag Data IA Bpifrance
+
+Le Diag Data IA est un dispositif public cofinancé par Bpifrance, opéré par des cabinets agréés. Il est utile de comparer les deux démarches honnêtement, car elles répondent à des situations différentes.
+
+| Critère | Audit IA Express SI | Diag Data IA Bpifrance |
+|---|---|---|
+| Durée d'intervention | 3 jours concentrés | 8 jours sur 3 mois |
+| Délai de livraison | Sous 1 semaine | 3 mois |
+| Reste à charge | Tarif sur devis | 7 500 EUR HT |
+| Accès | Direct, sans dossier | Dossier Bpifrance requis |
+| Focus | Cas d'usage + roadmap 90 j | Data gouvernance + usages |
+| Public cible | PME 10-500 sal., urgence décision | PME avec enjeu data structurel |
+
+Le Diag Data IA Bpifrance est pertinent si votre enjeu principal est la gouvernance et la structuration de vos données sur le long terme. L'Audit IA Express est plus adapté si vous avez besoin d'une décision rapide et d'une feuille de route opérationnelle dans les semaines qui suivent.
+
+Les deux démarches sont complémentaires : certains de nos clients ont réalisé l'Audit IA Express pour décider s'ils devaient lancer un Diag Data IA. D'autres ont utilisé les livrables de l'Audit IA Express pour constituer leur dossier Bpifrance.
+
+> **À noter** : 26 % des TPE-PME françaises utilisaient l'IA fin 2024, contre 13 % en 2023, soit un doublement en un an (Baromètre France Num 2025, Crédoc/DGE). La fenêtre de différenciation concurrentielle se referme. Attendre la démarche la plus lente n'est pas toujours la décision la plus prudente.
+
+Pour affiner votre choix de partenaire au-delà de la comparaison des dispositifs, lisez notre article [comment choisir le bon partenaire pour votre transformation IA](/blog/agence-ia-comment-choisir-partenaire-transformation).
+
+## Questions fréquentes
+
+**L'audit peut-il se faire à distance ?**
+
+Oui. Les entretiens du Jour 1 et du Jour 2 peuvent être conduits en visioconférence, avec un partage d'écran pour la cartographie des processus. La présentation du Jour 3 est recommandée en présentiel pour faciliter les échanges avec le CODIR, mais ce n'est pas une contrainte absolue. L'efficacité de l'audit dépend de la qualité des échanges, pas de la modalité.
+
+**Combien de temps les participants doivent-ils prévoir ?**
+
+Le dirigeant doit prévoir environ deux heures sur les trois jours (une heure trente le Jour 1, trente minutes le Jour 2 pour la session de co-construction, et une heure trente le Jour 3 pour la restitution). Les opérationnels impliqués dans les entretiens métiers prévoient quarante-cinq minutes chacun.
+
+**Faut-il avoir une DSI ou un responsable IT pour bénéficier de l'audit ?**
+
+Non. L'Audit IA Express est conçu pour les entreprises sans équipe technique dédiée. Le prérequis est d'avoir au minimum un processus répétitif et un dirigeant disponible pour les échanges.
+
+**Quelle est la différence avec le Diag Data IA de Bpifrance ?**
+
+Le Diag Data IA Bpifrance dure 8 jours sur 3 mois, avec un reste à charge de 7 500 EUR HT. L'Audit IA Express est conçu pour aller plus vite : 3 jours d'intervention concentrés, livrables actionnables sous une semaine. Les deux démarches sont complémentaires selon vos contraintes de temps et de budget.
+
+**L'audit engage-t-il à une mission de transformation IA avec Smart Impulsion ?**
+
+Non. L'Audit IA Express est une prestation indépendante. À l'issue des 3 jours, vous disposez d'une feuille de route que vous pouvez mettre en oeuvre avec les partenaires de votre choix. Pour mesurer ce que peut rapporter concrètement un projet IA avant de vous décider, consultez notre article sur [comment mesurer le ROI de vos projets IA](/blog/roi-intelligence-artificielle-entreprise).
+
+## Passez de la théorie à l'action
+
+Le fossé entre les 58 % de dirigeants qui considèrent l'IA comme un enjeu de survie et les 10 % qui l'ont effectivement déployée n'est pas un problème de budget. C'est un problème de première étape.
+
+L'Audit IA Express donne cette première étape : un diagnostic factuel, des cas d'usage priorisés et une roadmap que vos équipes peuvent s'approprier dès la semaine suivante. La méthodologie de l'audit IA Express est pensée pour produire des résultats concrets, pas des rapports de 100 pages.
+
+[Demander un audit IA Express](/services/audit)
+
+L'échange de cadrage initial est gratuit et sans engagement. Il dure 30 minutes et permet de vérifier ensemble si votre situation correspond au profil pour lequel l'audit est conçu.`,
+    author: "Laurent Bouzon",
+    date: "24 avril 2026",
+    dateISO: "2026-04-24",
+    readTime: "11 min",
+    category: "Audit & Methodologie",
+    image: "/audit-ia-express-3-jours-methodologie-hero.png",
+    imageAlt: "Image d'illustration pour l'article \"Audit IA Express : méthodologie en 3 jours | Smart Impulsion\"",
+    faq: [
+      {
+        question: "Combien coûte l'Audit IA Express Smart Impulsion ?",
+        answer: "Le tarif de l'Audit IA Express est communiqué lors du premier échange de cadrage, qui est gratuit et sans engagement. L'investissement est dimensionné pour des PME et ETI de 10 à 500 salariés. Contactez-nous via /services/audit pour obtenir une proposition adaptée à votre contexte.",
+      },
+      {
+        question: "Faut-il avoir une DSI ou un responsable IT pour bénéficier de l'audit ?",
+        answer: "Non. L'Audit IA Express est conçu pour les entreprises sans équipe technique dédiée. Le prérequis est d'avoir au minimum un processus répétitif (administratif, commercial, opérationnel) et un dirigeant disponible une demi-journée sur les trois jours d'intervention.",
+      },
+      {
+        question: "Quelle est la différence avec le Diag Data IA de Bpifrance ?",
+        answer: "Le Diag Data IA Bpifrance dure 8 jours sur 3 mois, avec un reste à charge de 7 500 EUR HT. L'Audit IA Express est conçu pour aller plus vite : 3 jours d'intervention concentrés, livrables actionnables sous une semaine. Les deux démarches sont complémentaires selon vos contraintes de temps et de budget.",
+      },
+      {
+        question: "Quels livrables concrets reçoit-on à l'issue des 3 jours ?",
+        answer: "Trois documents structurés : une Carte de maturité IA (état des lieux de vos processus et données), un Top 5 cas d'usage (classé par ROI potentiel et faisabilité), et une Roadmap 90 jours (plan d'action priorisé avec jalons et ressources nécessaires).",
+      },
+      {
+        question: "L'audit engage-t-il à une mission de transformation IA avec Smart Impulsion ?",
+        answer: "Non. L'Audit IA Express est une prestation indépendante. À l'issue des 3 jours, vous disposez d'une feuille de route que vous pouvez mettre en oeuvre avec les partenaires de votre choix. Certains clients poursuivent avec Smart Impulsion, d'autres non : les deux options sont prévues dès le départ.",
+      },
+    ],
+    howTo: {
+      name: "Audit IA Express Smart Impulsion en 3 jours",
+      description: "Méthodologie structurée en 3 jours pour diagnostiquer la maturité IA d'une PME ou ETI, identifier les cas d'usage prioritaires et produire une feuille de route 90 jours actionnables.",
+      totalTime: "PT72H",
+      steps: [
+        {
+          name: "Jour 1 : Cartographie",
+          text: "Entretien dirigeant le matin pour cadrer les enjeux stratégiques, puis entretiens métiers l'après-midi pour cartographier les processus clés. Livrable : Carte de maturité IA.",
+        },
+        {
+          name: "Jour 2 : Identification",
+          text: "Analyse des données disponibles et scoring des cas d'usage avec les équipes opérationnelles. Livrable : Top 5 cas d'usage classés par ROI potentiel.",
+        },
+        {
+          name: "Jour 3 : Restitution",
+          text: "Rédaction de la synthèse exécutive et présentation de la roadmap 90 jours au dirigeant et aux parties prenantes clés. Livrable : Roadmap 90 jours avec jalons et ressources.",
+        },
+      ],
+    },
+  },
+  {
     slug: "embarquer-equipe-projet-ia",
     title: "Comment embarquer son équipe dans un projet IA",
     excerpt:
