@@ -35,6 +35,252 @@ export interface BlogArticle {
 
 export const blogArticles: BlogArticle[] = [
   {
+    slug: "audit-ia-express-methodologie",
+    title: "Audit IA Express : méthodologie en 3 jours",
+    excerpt:
+      "Déroulé concret d'un audit IA Express pour PME : préparation, diagnostic terrain, livrables et critères de décision post-audit. Ancré AI Act art.4.",
+    content: `# Audit IA Express : la méthodologie en 3 jours pour diagnostiquer votre maturité IA
+
+Un audit IA Express est une intervention structurée de 2 à 3 jours qui permet à une PME ou ETI de mesurer sa maturité IA réelle, d'identifier ses cas d'usage prioritaires et de disposer d'une roadmap avec ROI projeté, avant de s'engager dans le moindre chantier de transformation.
+
+Neuf pour cent. C'est la part des PME françaises de moins de 50 salariés qui utilisent au moins une technologie d'intelligence artificielle en 2024, selon l'INSEE Première n°2061. Pourtant, dans le même temps, 26 % des TPE-PME déclarent utiliser l'IA en 2025 selon le Baromètre France Num 2025. L'écart entre ces deux chiffres n'est pas une anomalie statistique : il révèle une confusion profonde sur ce qu'est réellement l'usage de l'IA dans une PME. Et c'est précisément pour sortir de cette confusion qu'un audit IA a de la valeur.
+
+L'audit IA Express Smart Impulsion ne dure pas 3 semaines. Ce n'est pas un chantier avec 10 consultants, pas un rapport de 200 pages que vous lirez en diagonale avant de le classer. En 2 à 3 jours d'intervention structurée, vous savez où vous en êtes, ce qui est actionnable à 30 jours, et ce que vous pouvez attendre comme retour sur investissement avant de vous engager dans quoi que ce soit.
+
+Voici comment cela se passe concrètement.
+
+## Pourquoi faire un audit IA maintenant
+
+La question n'est pas "est-ce que l'IA est utile pour les PME". Elle est réglée. La question est : "est-ce que vous savez ce que vous faites avec l'IA, et est-ce que cela vous expose à un risque ?"
+
+### Le déclencheur réglementaire : AI Act article 4
+
+L'obligation de littératie en IA est exécutoire depuis le 2 février 2025. L'article 4 du Règlement (UE) 2024/1689, dit AI Act, impose à toute entreprise qui déploie un système IA de garantir un niveau suffisant de compétences IA chez son personnel concerné. Une PME qui utilise ChatGPT pour rédiger des offres commerciales est qualifiée de "déployeur" au sens de l'article 3(4) du règlement. Elle est donc soumise à cette obligation.
+
+> Selon l'article 4 du Règlement (UE) 2024/1689 (AI Act), applicable depuis le 2 février 2025, toute entreprise déployant un système IA (quelle que soit sa taille) doit garantir un niveau suffisant de compétences IA chez son personnel concerné. Ce n'est pas une recommandation : c'est une obligation légale en vigueur.
+
+Pour approfondir les implications réglementaires pour votre structure, le [guide AI Act PME 2026](/blog/ai-act-pme-guide-2026) détaille l'ensemble des obligations par catégorie d'entreprise.
+
+### Le déclencheur économique : ROI sans cadre, c'est du coût
+
+31 % des TPE et PME françaises utilisent l'IA générative en janvier 2025, selon le Baromètre Bpifrance Le Lab, L'Observatoire de la Compétitivité (édition janvier 2025). La même étude Bpifrance précise que seulement 9 % des entreprises françaises ont investi dans l'IA ces trois dernières années, et seulement 2 % le font de manière régulière. Ce que cela signifie : des usages répandus mais non structurés, peu de démarches documentées. Un outil utilisé sans cadre ne génère pas de ROI mesurable. Il génère des habitudes, parfois des risques, rarement de la valeur documentée.
+
+L'audit IA est le seul moyen de transformer un usage dispersé en investissement traçable.
+
+## Avant l'audit : ce que vous préparez en 15 minutes
+
+L'un des freins les plus fréquents chez les dirigeants : la peur de ne pas être "prêts" pour un audit. Cette peur est infondée. Vous n'avez pas besoin d'une cartographie des processus ni d'un bilan de maturité numérique pour démarrer.
+
+Trois éléments suffisent pour préparer un audit IA Express :
+
+- L'organigramme fonctionnel de votre entreprise (les grandes fonctions, pas l'annuaire complet)
+- La liste des outils numériques utilisés par département : ERP, CRM, outils métier, abonnements SaaS
+- Un premier inventaire des processus qui vous "coûtent" le plus : tâches répétitives, variations de qualité, délais récurrents
+
+> L'audit IA Express démarre précisément pour vous aider à formuler ce que vous ne savez pas encore articuler. Venir sans réponse, c'est normal. Venir sans questions, c'est le seul risque.
+
+Ce cadrage préliminaire peut se faire à distance, en 30 à 45 minutes, avant la première journée d'intervention.
+
+### Ce que vous n'avez pas besoin de préparer
+
+- Pas de cartographie exhaustive des processus
+- Pas de rapport de maturité numérique préexistant
+- Pas de dossier de présentation de votre activité
+
+L'auditeur reconstruit le contexte à partir de l'entretien de cadrage. Votre temps de préparation se mesure en minutes, pas en jours.
+
+## Comment se déroule un audit IA Express : le déroulé jour par jour
+
+### Jour 1 : cadrage et entretiens direction
+
+La première journée commence par un entretien de cadrage avec le dirigeant ou le CODIR. Durée : 2 heures maximum. L'objectif est de comprendre les priorités stratégiques, les tensions opérationnelles actuelles, et les usages IA déjà en place, même informels.
+
+Ce premier entretien suit une structure fixe :
+
+1. Contexte stratégique : cap à 18 mois, enjeux de croissance ou de maîtrise des coûts
+2. Cartographie rapide des outils numériques en place
+3. Identification des fonctions à fort potentiel IA (opérations, commercial, RH, finance)
+4. Premier inventaire des usages IA existants : qui utilise quoi, depuis quand, avec quel niveau de formation
+
+> Ce que l'on cherche en jour 1 : pas les réponses, mais les bonnes questions. Les tensions que la direction ne sait pas encore formuler comme des problèmes IA sont souvent les plus riches.
+
+L'après-midi du jour 1 est consacré aux premiers entretiens terrain avec les responsables de fonctions prioritaires, identifiés pendant le cadrage.
+
+### Jour 2 : diagnostic terrain approfondi
+
+Le deuxième jour est le cœur du diagnostic. L'auditeur rencontre 4 à 6 responsables de processus sur des créneaux d'une heure. Le périmètre couvre les axes suivants :
+
+- Maturité des données : qualité, disponibilité, structuration des données métier
+- Processus automatisables : tâches répétitives, saisies, contrôles, reportings manuels
+- Compétences disponibles : qui dans l'équipe a déjà travaillé avec des outils IA, quel niveau de formation
+- Gouvernance et conformité : qui valide les usages IA actuels, existe-t-il une politique d'usage
+
+Chaque entretien se conclut par une notation provisoire sur chacun de ces axes. Cette notation alimentera le scoring final du rapport.
+
+### Jour 3 : consolidation et restitution
+
+Le troisième jour est consacré à la consolidation des données terrain et à la restitution formelle. La restitution dure 2 à 3 heures. Elle s'adresse au dirigeant et, selon le périmètre, aux responsables de fonctions concernés.
+
+C'est lors de cette restitution que vous recevez le rapport complet, la roadmap et les projections de ROI.
+
+## Le livrable : contenu d'un bon rapport d'audit IA
+
+La qualité d'un audit se juge à son livrable. Pas à la durée de l'intervention, pas au nombre de slides. Voici les quatre composantes d'un rapport d'audit IA Express sérieux.
+
+### Le scoring de maturité IA
+
+Le scoring évalue votre organisation sur quatre axes : données, processus, compétences, gouvernance. Chaque axe est noté sur une échelle simple (par exemple de 1 à 4), avec une justification factuelle tirée des entretiens terrain. Ce scoring n'est pas un jugement. C'est un point de départ objectif pour prioriser les actions.
+
+> Un scoring de maturité honnête dit trois choses : où vous êtes fort, où vous êtes faible, et pourquoi. Il ne dit pas ce que vous "devriez" faire en théorie. Il dit ce que vous pouvez faire maintenant.
+
+### La cartographie des cas d'usage prioritaires
+
+Le rapport identifie 3 à 5 cas d'usage IA adaptés à votre contexte, classés par niveau de faisabilité et d'impact potentiel. Chaque cas d'usage est décrit avec :
+
+- Le processus concerné et le problème actuel
+- Le type de solution IA envisageable (sans jargon technique)
+- Les prérequis de mise en oeuvre (données disponibles, compétences requises)
+- Le niveau de risque et de complexité
+
+### La roadmap 30 jours et 90 jours
+
+La roadmap distingue deux horizons. Les quick wins à 30 jours sont des actions démarrables immédiatement, sans investissement lourd :
+
+- Formation d'une équipe pilote sur un ou deux outils IA déjà accessibles
+- Cadrage d'un premier cas d'usage sur un processus déjà outillé
+- Mise en place d'une politique d'usage IA simple et documentée
+
+Les chantiers à 90 jours concernent les transformations plus structurantes : intégration dans les outils métier, formation élargie, gouvernance des données.
+
+Pour cadrer votre approche budgétaire, le pillar [ROI de l'IA en entreprise](/blog/roi-intelligence-artificielle-entreprise) détaille les méthodes de calcul et les benchmarks disponibles.
+
+### L'estimation du ROI projeté
+
+Pour chaque cas d'usage prioritaire, le rapport inclut une estimation du ROI projeté à 6 et 12 mois. Cette estimation s'appuie sur les données de votre propre organisation (volume de tâches, coût horaire des ressources concernées, fréquence des erreurs ou des retraitements) et sur des benchmarks sectoriels publics. Elle n'est pas garantie. Elle est la base de votre décision d'investissement.
+
+### La synthèse de conformité AI Act
+
+Le rapport inclut une lecture rapide de vos usages IA actuels au regard de l'article 4 du Règlement (UE) 2024/1689 (AI Act, en vigueur depuis 2025). Quels outils utilisez-vous ? Qui dans l'équipe les utilise ? Existe-t-il une documentation minimale ? Cette synthèse n'est pas un audit juridique complet. C'est un signal d'alerte ou de réassurance, selon votre situation.
+
+## Après l'audit : comment décider
+
+La restitution terminée, vous avez un rapport. Vous n'avez pas encore une décision. La décision requiert un arbitrage clair entre trois options. Plusieurs signaux dans le rapport orientent naturellement cet arbitrage :
+
+- Un scoring élevé sur l'axe données avec un cas d'usage identifié à faible complexité : vous démarrez les quick wins sans attendre
+- Un scoring faible sur l'axe gouvernance ou un écart de conformité AI Act documenté : vous priorisez le cadrage réglementaire avant l'investissement
+- Des cas d'usage à fort ROI potentiel mais nécessitant une intégration métier : vous engagez un partenaire sur un périmètre défini
+
+### Option 1 : démarrer les quick wins immédiatement
+
+Si le scoring de maturité révèle des fondations solides (données accessibles, un ou deux cas d'usage à faible complexité, équipe réceptive), la bonne décision est de démarrer sans délai. Le risque de sur-analyse est réel : chaque mois sans action sur un quick wins identifié est un mois de ROI perdu.
+
+### Option 2 : lancer un chantier structurant
+
+Si les cas d'usage prioritaires nécessitent une préparation des données ou une intégration dans les outils métier, l'étape suivante est la sélection d'un partenaire. Le guide [comment choisir son partenaire de transformation IA](/blog/agence-ia-comment-choisir-partenaire-transformation) vous donne les critères pour éviter les pièges les plus fréquents.
+
+### Option 3 : approfondir avec un dispositif subventionné
+
+Pour les PME éligibles, le Diag Data IA Bpifrance reste une option sérieuse : 10 000 euros HT au total, avec un reste à charge PME de 7 500 euros HT (dispositif révisé en janvier 2026), 8 jours d'intervention répartis sur 3 mois maximum. Ce dispositif est adapté si vous souhaitez une démarche plus approfondie avec un financement public, et si vous avez le temps de conduire un processus de 3 mois. L'audit express de 3 jours peut servir de cadrage préalable avant d'engager ce dispositif.
+
+Pour comprendre l'ensemble des options de diagnostic IA disponibles pour une PME, le [guide complet de l'audit IA pour PME](/blog/audit-ia-pme-guide-complet) couvre les formats, les coûts et les critères de choix.
+
+## 3 questions pour savoir si vous êtes prêt maintenant
+
+Ce n'est pas un questionnaire de maturité. Ce sont trois questions binaires. Si vous répondez oui aux trois, un audit IA Express a du sens pour vous dans les 30 prochains jours.
+
+**Question 1 : avez-vous au moins un processus qui vous "coûte" visiblement trop cher en temps ou en erreurs ?**
+
+Si vous avez un exemple concret en tête en lisant cette phrase, c'est suffisant. Vous n'avez pas besoin de l'avoir documenté ni quantifié. L'audit s'en charge.
+
+**Question 2 : votre équipe utilise-t-elle déjà des outils IA, même de manière informelle ?**
+
+Un usage informel non cadré est un risque (AI Act article 4 du Règlement UE 2024/1689) et une opportunité (preuve de réceptivité). Les deux justifient un audit.
+
+**Question 3 : êtes-vous en position de décider d'un investissement de quelques dizaines de milliers d'euros dans les 6 prochains mois si le ROI est documenté ?**
+
+Un audit sans capacité de décision est un exercice académique. L'audit express a de la valeur uniquement si vous êtes en mesure d'agir sur ses conclusions.
+
+> Si vous répondez oui aux trois questions, le seul risque est d'attendre encore 3 mois avant de démarrer.
+
+## Questions fréquentes
+
+### L'audit IA Express s'adresse-t-il uniquement aux PME qui n'ont pas encore démarré ?
+
+Non. L'audit IA Express Smart Impulsion s'adresse aussi aux PME qui ont déjà des usages IA en place mais sans cadre structuré. Dans ce cas, l'audit sert à cartographier ce qui existe, évaluer les risques de conformité au regard de l'article 4 du Règlement (UE) 2024/1689 (AI Act), et identifier les opportunités d'extension. Un usage spontané non documenté est souvent le point de départ le plus productif pour un audit.
+
+### Combien de temps dure un audit IA Express pour une PME ?
+
+Un audit IA Express structuré se déroule sur 2 à 3 jours d'intervention effective. Cette durée couvre le cadrage initial avec la direction, les entretiens terrain avec les responsables de processus clés, et la restitution formelle avec la roadmap et le ROI projeté. C'est distinct du Diag Data IA Bpifrance, qui prévoit 8 jours répartis sur 3 mois maximum.
+
+### Quels documents préparer avant un audit IA ?
+
+La préparation se limite à l'essentiel : un organigramme des fonctions principales, la liste des outils numériques utilisés par département, et un premier inventaire des processus chronophages ou à forte variation de qualité. Vous n'avez pas besoin de cartographie exhaustive ni de rapport de maturité numérique préexistant.
+
+### Que contient le livrable d'un audit IA Express ?
+
+Un bon rapport d'audit IA Express Smart Impulsion comprend quatre éléments : un scoring de maturité IA sur les axes données, processus, compétences et gouvernance ; une cartographie des 3 à 5 cas d'usage prioritaires avec niveau de faisabilité ; une roadmap à deux horizons (30 jours et 90 jours) ; et une estimation du ROI projeté par cas d'usage. Il inclut aussi une synthèse des écarts de conformité au regard de l'AI Act article 4.
+
+### Quelle est la différence entre un audit IA Express et le Diag Data IA Bpifrance ?
+
+Le Diag Data IA Bpifrance est un dispositif subventionné (10 000 euros HT, reste à charge PME de 7 500 euros HT) qui couvre 8 jours d'intervention sur 3 mois. Il est adapté aux PME souhaitant une démarche approfondie avec financement public. Un audit IA Express de 3 jours répond à un besoin de cadrage rapide avant de s'engager dans un programme plus long. Les deux sont complémentaires.
+
+## Passez de la théorie à l'action
+
+Vous avez maintenant une vision claire de ce que contient un audit IA Express : le déroulé, les livrables, et les critères pour décider ensuite.
+
+Smart Impulsion propose un Audit IA Express qui vous donne, en 2 à 3 jours, une lecture factuelle de votre maturité IA, une roadmap priorisée par niveau de faisabilité, et un ROI projeté par cas d'usage avant de démarrer le moindre chantier. Vous repartez avec un rapport structuré sur lequel vous pouvez arbitrer, pas une présentation générique.
+
+[En savoir plus sur l'audit IA express](/services/audit)`,
+    author: "Laurent Bouzon",
+    date: "30 avril 2026",
+    dateISO: "2026-04-30",
+    readTime: "11 min",
+    category: "Audit & Methodologie",
+    image: "/audit-ia-express-methodologie-hero.png",
+    imageAlt: "Image d'illustration pour l'article \"Audit IA Express : méthodologie en 3 jours\"",
+    faq: [
+      {
+        question: "Combien de temps dure un audit IA Express pour une PME ?",
+        answer: "Un audit IA Express structuré se déroule sur 2 à 3 jours d'intervention effective. Cette durée couvre le cadrage initial avec la direction, les entretiens terrain avec les responsables de processus clés, et la restitution formelle avec la roadmap et le ROI projeté. C'est distinct du Diag Data IA Bpifrance, qui prévoit 8 jours répartis sur 3 mois maximum. L'audit express vise un diagnostic de cadrage rapide, pas un chantier de transformation.",
+      },
+      {
+        question: "Quels documents préparer avant un audit IA ?",
+        answer: "La préparation se limite à l'essentiel : un organigramme des fonctions principales, la liste des outils numériques utilisés par département (ERP, CRM, outils métier), et un premier inventaire non exhaustif des processus chronophages ou à forte variation de qualité. Vous n'avez pas besoin de cartographie exhaustive ni de rapport de maturité numérique. L'audit démarre précisément pour vous aider à structurer ce que vous ne savez pas encore formuler.",
+      },
+      {
+        question: "Que contient le livrable d'un audit IA Express ?",
+        answer: "Un bon rapport d'audit IA Express comprend quatre éléments : un scoring de maturité IA sur les axes données, processus, compétences et gouvernance ; une cartographie des 3 à 5 cas d'usage prioritaires avec niveau de faisabilité ; une roadmap à deux horizons (30 jours pour les quick wins, 90 jours pour les chantiers structurants) ; et une estimation du ROI projeté par cas d'usage. Il inclut aussi une synthèse des écarts de conformité au regard de l'AI Act article 4.",
+      },
+      {
+        question: "L'AI Act oblige-t-il les PME à faire un audit IA ?",
+        answer: "L'AI Act n'impose pas explicitement un audit IA formel. En revanche, l'article 4 du Règlement (UE) 2024/1689, applicable depuis le 2 février 2025, oblige toute entreprise qui déploie un système IA à garantir un niveau suffisant de compétences IA chez son personnel concerné. Une PME utilisant ChatGPT ou un outil d'analyse prédictive est qualifiée de déployeur au sens de l'article 3(4) du règlement. L'audit est le moyen le plus direct de documenter et structurer cette obligation de littératie.",
+      },
+      {
+        question: "Quelle est la différence entre un audit IA Express et le Diag Data IA Bpifrance ?",
+        answer: "Le Diag Data IA Bpifrance est un dispositif subventionné (10 000 euros HT, reste à charge PME de 7 500 euros HT depuis janvier 2026) qui couvre 8 jours d'intervention sur 3 mois. Il est adapté aux PME souhaitant une démarche approfondie avec financement public. Un audit IA Express de 3 jours répond à un besoin de cadrage rapide : comprendre sa situation actuelle, prioriser les chantiers et disposer d'un ROI projeté avant de s'engager dans un programme plus long. Les deux dispositifs sont complémentaires, pas concurrents.",
+      },
+    ],
+    howTo: {
+      name: "Audit IA Express en 3 jours",
+      description: "Méthodologie Smart Impulsion pour diagnostiquer la maturité IA d'une PME en 3 jours",
+      totalTime: "PT72H",
+      steps: [
+        {
+          name: "Cadrage initial",
+          text: "Réunion de cadrage avec la direction (1 à 2 heures) : définir le périmètre de l'audit, identifier les fonctions et processus à examiner, collecter les documents de base (organigramme, liste des outils numériques, processus prioritaires). Cette étape peut se faire à distance. Elle se termine par un agenda des entretiens terrain validé.",
+        },
+        {
+          name: "Diagnostic terrain",
+          text: "Entretiens avec les responsables de 4 à 6 processus clés (opérations, commercial, RH, finance selon le périmètre). Observation des outils en place. Évaluation sur 4 axes : maturité des données, processus automatisables, compétences IA disponibles, gouvernance et conformité AI Act. Cette étape prend 1 à 2 jours selon la taille de la PME.",
+        },
+        {
+          name: "Livrables et roadmap",
+          text: "Restitution formelle à la direction : scoring de maturité IA, cartographie des 3 à 5 cas d'usage prioritaires avec niveau de faisabilité, roadmap 30 jours et 90 jours, estimation du ROI projeté par cas d'usage, synthèse des écarts de conformité AI Act article 4. La restitution dure 2 à 3 heures et inclut une session de questions-réponses pour arbitrer les priorités.",
+        },
+      ],
+    },
+  },
+  {
     slug: "business-case-ia-pme-construire-justifier",
     title: "Business case IA PME : construire et convaincre votre COMEX",
     excerpt:
