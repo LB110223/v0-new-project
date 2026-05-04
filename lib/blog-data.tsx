@@ -35,6 +35,306 @@ export interface BlogArticle {
 
 export const blogArticles: BlogArticle[] = [
   {
+    slug: "formation-ia-dirigeants-guide-pratique-2026",
+    title: "Formation IA dirigeants : le guide pratique 2026",
+    excerpt:
+      "Formation IA dirigeants et équipes : AI Act article 4 en vigueur, supervision août 2026. Qui former, quel budget, comment documenter. Guide PME.",
+    content: `# Formation IA pour dirigeants et équipes : le guide pratique 2026
+
+72 % des cadres français souhaitent se former à l'IA. Seulement 24 % l'ont fait (APEC, juin 2025). Un écart de 48 points entre l'intention et la réalité, qui ne se comblera pas seul. La formation IA dirigeants est le levier le moins activé et le plus déterminant pour enclencher la transformation en PME.
+
+Pendant ce temps, l'article 4 de l'AI Act est entré en vigueur le 2 février 2025 : toute entreprise qui déploie un système d'IA doit documenter la formation de ses équipes. Les autorités nationales commenceront les contrôles le 2 août 2026. Il reste treize semaines.
+
+La question n'est plus "faut-il former ?" Elle est plus concrète : qui former en priorité, sur quoi, dans quel ordre, avec quel budget, et comment en garder la trace pour ne pas se retrouver en défaut documentaire lors d'un contrôle.
+
+Cet article répond à ces quatre questions. Sans catalogue de formations, sans jargon réglementaire indigeste. Avec la posture d'un cabinet conseil qui a vu des PME partir dans tous les sens sur ce sujet, et ce qui, sur le terrain, produit des résultats.
+
+Pour poser le contexte global de la transformation IA en PME, le [guide de démarrage IA pour les PME](/blog/ia-pour-pme-guide) reste la référence d'entrée.
+
+## Ce que l'AI Act article 4 exige vraiment
+
+**Définition AI Act article 4 (littératie IA) :** L'article 4 du Règlement européen sur l'intelligence artificielle (UE 2024/1689, entré en application le 2 février 2025) impose aux fournisseurs et aux déployeurs de systèmes d'IA de "prendre des mesures pour garantir, dans toute la mesure du possible, un niveau suffisant de maîtrise de l'IA de leur personnel et de toute autre personne traitant avec les systèmes d'IA en leur nom". Cette obligation de littératie IA s'applique à toute entreprise utilisant un outil d'IA dans ses opérations, quelle que soit sa taille.
+
+La confusion est fréquente autour de cette obligation. Commençons par ce que le texte dit réellement, et ce qu'il ne dit pas.
+
+### Ce que le texte impose
+
+> **Ce que cela signifie concrètement.** Toute entreprise qui utilise un outil d'IA dans ses opérations (traitement de documents, assistance à la rédaction, analyse de données, chatbot client) est concernée. L'obligation porte sur les personnes qui utilisent ou supervisent ces systèmes, pas sur l'ensemble des effectifs.
+
+La date d'entrée en vigueur est le 2 février 2025. La date à laquelle les autorités nationales (en France : DGCCRF, CNIL, Défenseur des droits) commenceront à contrôler est le 2 août 2026.
+
+### Ce que le texte n'impose pas
+
+C'est là que la plupart des guides juridiques s'arrêtent. L'AI Act article 4 n'impose pas :
+
+- de durée minimale de formation (pas de "40 heures obligatoires")
+- de certification formelle des salariés
+- de recours à un organisme accrédité spécifique
+- de formation identique pour tous les profils
+
+Ce qui compte pour le régulateur : prouver que chaque personne impliquée a reçu une formation **adaptée à son rôle**. Un opérateur de saisie qui utilise un outil d'assistance IA n'a pas le même besoin de formation que le responsable informatique qui configure ce même outil.
+
+> **Ce qu'on voit sur le terrain.** Les entreprises qui se retrouveront en difficulté lors des contrôles ne seront pas celles dont les formations étaient insuffisantes, mais celles qui n'auront pas gardé la moindre trace. L'obligation est documentaire avant d'être pédagogique.
+
+Pour aller plus loin sur l'ensemble du calendrier et des obligations réglementaires, notre [guide complet sur l'AI Act pour les PME](/blog/ai-act-pme-guide-2026) détaille les échéances section par section.
+
+## Formation IA dirigeants : qui former en priorité et dans quel ordre
+
+Selon l'étude Bpifrance Le Lab 2025, dans 73 % des PME-ETI françaises, c'est le dirigeant qui impulse les projets IA. Ce chiffre a une implication directe : si le dirigeant n'est pas formé, personne ne peut arbitrer les investissements, superviser les usages ou assumer la responsabilité réglementaire en connaissance de cause.
+
+**Qui doit être formé en priorité ?** Smart Impulsion préconise une logique de rôle en trois niveaux, dans cet ordre : dirigeant en premier, managers de proximité en deuxième, opérationnels utilisateurs en troisième. Cette séquence n'est pas arbitraire : chaque niveau conditionne l'efficacité du suivant.
+
+### Le dirigeant : comprendre pour décider (semaines 1 à 4)
+
+Le dirigeant n'a pas besoin de savoir configurer un outil d'IA. Il a besoin de comprendre :
+
+- ce que l'IA peut faire dans son contexte métier (et ce qu'elle ne peut pas faire)
+- les risques réglementaires (AI Act, RGPD) et leur impact sur son entreprise
+- comment évaluer un projet IA : questions à poser, critères d'un ROI crédible
+- les responsabilités qu'il assume en tant que déployeur
+
+**Format recommandé :** formation de niveau 1, 4 à 8 heures, en présentiel ou distanciel. Priorité : semaines 1 à 4 du plan de formation.
+
+### Le manager de proximité : superviser les usages (semaines 4 à 8)
+
+Le manager est le premier niveau de supervision des usages IA dans son équipe. Il doit être capable de :
+
+- identifier les usages appropriés et les usages à risque
+- détecter les erreurs ou les résultats problématiques produits par un outil d'IA
+- répondre aux questions de son équipe sur ce qui est autorisé ou non
+- relayer les incidents vers le bon interlocuteur interne
+
+**Format recommandé :** formation de niveau 1 renforcé, une journée. Inclure des exemples concrets du secteur d'activité.
+
+### L'opérationnel utilisateur d'IA : former aux outils et aux risques (semaines 6 à 12)
+
+54 % des professionnels déclarent n'avoir reçu aucune formation à l'IA en entreprise (Baromètre Lefebvre Dalloz Compétences, 2025). Parmi ceux qui ont été formés, seulement 10 % ont reçu une formation aux enjeux réglementaires et aux risques. C'est le profil le plus exposé et le moins couvert.
+
+Pour les opérationnels, la formation cible deux dimensions :
+
+- **Usage correct de l'outil** : comprendre ce que produit le système, vérifier les résultats, ne pas transmettre de données confidentielles à des services externes sans habilitation
+- **Risques spécifiques au rôle** : erreurs typiques, situations qui nécessitent une vérification humaine, données sensibles à ne pas saisir
+
+**Format recommandé :** formation de niveau 2 pour les utilisateurs intensifs (1 à 2 jours, sur l'outil spécifique utilisé). Niveau 1 pour les utilisateurs occasionnels (demi-journée de sensibilisation).
+
+> **Point clé.** Former tout le monde au même niveau est une erreur coûteuse. Un RH qui utilise un outil d'IA pour dépouiller des CV a besoin d'une formation différente d'un comptable qui utilise une assistance à la saisie. La grille par profil évite de diluer le budget sur des formations génériques sans impact réel.
+
+## Niveau 1 ou niveau 2 : comment choisir
+
+La distinction entre acculturation générale et formation métier est celle que les PME comprennent le moins, et qui explique la majorité des dépenses mal orientées. Dans le cadre d'une formation IA dirigeants, ce choix conditionne l'efficacité du budget alloué.
+
+**Quelle est la différence entre une formation IA niveau 1 et niveau 2 ?** La formation de niveau 1 (acculturation, 2 à 8 heures) développe la compréhension des systèmes d'IA et des obligations réglementaires. La formation de niveau 2 (formation métier, 1 à 2 jours) développe la compétence d'usage sur un outil précis dans un contexte professionnel identifié. Les deux sont nécessaires, mais pas pour les mêmes personnes ni aux mêmes étapes.
+
+### Niveau 1 : acculturation générale (2 à 8 heures)
+
+**Définition Formation IA niveau 1 (acculturation) :** Une formation d'acculturation à l'IA est une formation généraliste qui couvre les fondamentaux : nature et fonctionnement d'un système d'IA, risques courants (erreurs, biais, données personnelles), cadre réglementaire applicable (AI Act, RGPD), et périmètre des usages autorisés en entreprise. Elle s'adresse à l'ensemble des collaborateurs exposés à un système d'IA, indépendamment de leur niveau de maîtrise technique.
+
+Le niveau 1 répond à des questions simples :
+
+- Qu'est-ce qu'un système d'IA, comment produit-il un résultat ?
+- Quels sont les risques courants (erreurs, données personnelles, biais) ?
+- Que dit la loi et qu'est-ce que cela implique dans mon travail ?
+- Quels usages sont autorisés, lesquels sont à valider par ma hiérarchie ?
+
+Ce niveau est **obligatoire pour tous** : il constitue la base documentaire de conformité AI Act. Il peut être assuré par un organisme de formation en groupe (6 à 20 personnes), avec une attestation de présence nominative en sortie.
+
+> **À retenir.** Le niveau 1 ne forme pas à utiliser un outil. Il forme à comprendre ce qu'on utilise. Ces deux objectifs sont distincts et ne se substituent pas l'un à l'autre.
+
+### Niveau 2 : formation métier IA (1 à 2 jours)
+
+**Définition Formation IA niveau 2 (formation métier) :** Une formation métier IA est une formation opérationnelle ciblée sur un usage précis : utiliser tel outil d'IA pour telle tâche dans tel contexte professionnel. Son objectif est la montée en compétence opérationnelle, avec un ROI mesurable à l'issue : le collaborateur utilise l'outil de façon productive, sans erreurs, avec les bons réflexes de vérification adaptés à son rôle.
+
+Cette formation n'a de sens que si l'usage cible est identifié en amont. Former une équipe commerciale à l'IA générative sans avoir défini quels processus elle va couvrir, c'est de la formation en avance de phase : le collaborateur rentrera sans savoir comment appliquer ce qu'il a appris.
+
+C'est ici que l'audit préalable est nécessaire. Sans cartographie des usages en place et de ceux à potentiel ROI, il est impossible de cibler la formation de niveau 2 sur les bons profils. L'[audit IA pour PME](/blog/audit-ia-pme-guide-complet) est précisément conçu pour produire cette cartographie avant de lancer un plan de formation.
+
+Pour identifier les usages prioritaires par département, l'article [IA générative en entreprise : applications concrètes](/blog/ia-generative-entreprise-applications-concretes) donne une vue sectorielle utile pour arbitrer.
+
+## Budget réaliste et financement
+
+**Combien coûte concrètement un plan de formation IA pour une PME ?** Comptez entre 8 000 et 20 000 euros brut pour une PME de 20 à 30 personnes (dirigeants et managers en première vague, opérationnels ensuite), avant financement OPCO. Avec une prise en charge OPCO à 70-100 % pour les PME de moins de 50 salariés, le reste à charge peut être très faible, sous réserve que le dossier soit soumis avant le début de la formation.
+
+Les fourchettes de coût varient selon le format, le prestataire et le niveau de personnalisation. Voici les ordres de grandeur observés sur le marché français.
+
+### Fourchettes de coût indicatives
+
+Formations en groupe (6 à 15 personnes) :
+
+- **Niveau 1, demi-journée collective** : 1 500 à 3 500 euros pour le groupe, soit 100 à 400 euros par personne
+- **Niveau 1, journée complète** : 2 500 à 6 000 euros pour le groupe
+- **Niveau 2, 2 jours sur outil spécifique** : 3 000 à 8 000 euros pour le groupe, avec personnalisation sectorielle
+
+### Le financement OPCO : ce que peu de dirigeants utilisent
+
+**Définition OPCO (Opérateur de Compétences) :** Un OPCO est un organisme paritaire agréé par l'État qui collecte et gère les contributions de formation des entreprises relevant de sa branche professionnelle. Il peut financer tout ou partie des formations dans le cadre du Plan de Développement des Compétences. Il existe 11 OPCO en France ; chaque entreprise est rattachée à un OPCO selon son code convention collective.
+
+Les PME de moins de 50 salariés peuvent bénéficier d'une prise en charge allant jusqu'à 100 % du coût pédagogique via leur OPCO dans le cadre du Plan de Développement des Compétences.
+
+Conditions à réunir :
+
+- L'organisme de formation doit être **certifié Qualiopi** (vérifiable sur le registre officiel)
+- Le dossier OPCO doit être **soumis avant le début de la formation** (délai de traitement : 2 à 4 semaines selon l'OPCO)
+- La formation doit s'inscrire dans le Plan de Développement des Compétences de l'entreprise
+
+Pour les PME de 50 à 300 salariés, le taux de prise en charge est généralement de 30 à 70 % selon l'OPCO et le type de formation.
+
+### Le CPF : complément utile pour les formations individuelles
+
+**Définition CPF (Compte Personnel de Formation) :** Le Compte Personnel de Formation est un dispositif légal (article L. 6111-1 du Code du travail) qui permet à chaque actif d'accumuler des droits à la formation tout au long de sa carrière. Ces droits sont monétisés : jusqu'à 500 euros par an (plafonné à 5 000 euros cumulés), ou 800 euros pour les peu qualifiés. Depuis 2024, un reste à charge de 102 euros s'applique pour les formations individuelles à l'initiative du salarié.
+
+Smart Impulsion préconise d'utiliser le CPF en complément du financement OPCO, et non à sa place : il est pertinent pour des formations individuelles certifiantes, mais ne remplace pas le financement collectif via l'OPCO pour un plan de formation d'entreprise.
+
+> **Ce que cachent les formations gratuites en ligne.** Un MOOC gratuit ne génère pas d'attestation nominative, ne trace pas le temps passé par profil, et n'est pas réalisé par un organisme certifié Qualiopi. Pour compléter une formation, oui. Pour constituer un dossier de conformité AI Act, non.
+
+### Qu'est-ce que la certification Qualiopi et pourquoi est-elle indispensable ?
+
+**Définition Qualiopi :** La certification Qualiopi (décret n° 2019-565 du 6 juin 2019) est la certification qualité nationale délivrée aux organismes de formation par des certificateurs accrédités. Elle est obligatoire depuis le 1er janvier 2022 pour accéder aux financements publics et mutualisés (OPCO, CPF, Pôle emploi). Un organisme non certifié Qualiopi ne permet pas de mobiliser les fonds OPCO. La vérification est possible directement auprès de votre OPCO ou sur le portail officiel du Ministère du Travail (travail-emploi.gouv.fr).
+
+## Documenter la formation pour le régulateur
+
+C'est le point que zéro concurrent ne couvre de façon opérationnelle, et c'est pourtant le plus important pour éviter un défaut de conformité lors d'un contrôle.
+
+**Que faut-il exactement conserver pour prouver la conformité à l'AI Act article 4 ?** Smart Impulsion préconise de constituer un dossier par session de formation (et non par salarié), contenant sept éléments précis. L'AI Act n'impose pas de format spécifique : un tableau interne suffit, à condition qu'il soit exhaustif et accessible à la direction et aux RH.
+
+### Ce qu'il faut conserver
+
+L'AI Act article 4 n'impose pas de format spécifique de documentation. Un tableau interne simple est suffisant, à condition qu'il contienne les éléments suivants :
+
+- **Nom et prénom** du collaborateur formé
+- **Fonction et rôle** dans l'utilisation du système d'IA concerné
+- **Date et durée** de la formation
+- **Nom et coordonnées de l'organisme** de formation
+- **Intitulé et programme** de la formation (thèmes couverts)
+- **Attestation de présence** nominative (délivrée par l'organisme)
+- **Lien entre la formation et le rôle** : une phrase qui explique pourquoi cette personne avait besoin de cette formation pour sa fonction
+
+### Durée de conservation recommandée
+
+L'AI Act ne fixe pas de durée de conservation explicite pour la documentation de formation. La recommandation opérationnelle de Smart Impulsion : conserver les documents pendant toute la durée d'utilisation du système d'IA concerné, plus 5 ans après l'arrêt.
+
+1. Constituer un dossier par session de formation (et non par salarié)
+2. Archiver les attestations nominatives dans un dossier partagé accessible à la direction et aux RH
+3. Mettre à jour le registre interne à chaque nouvelle session
+4. Prévoir une revue annuelle pour identifier les nouveaux profils exposés à l'IA
+
+> **Ce que l'on voit en pratique.** Les entreprises qui ont déjà réalisé un audit IA disposent d'une cartographie des usages par profil, ce qui rend la documentation de conformité nettement plus simple à constituer. C'est une des raisons pour lesquelles l'audit précède logiquement le plan de formation.
+
+## Les 3 erreurs classiques des PME
+
+### Erreur 1 : former tout le monde au même niveau
+
+La tentation est forte : une formation collective d'une journée pour toute l'entreprise, case cochée. En pratique, cette approche produit deux effets négatifs. Les dirigeants et managers reçoivent une formation trop opérationnelle pour leurs besoins réels. Les opérationnels reçoivent une formation trop générale pour développer des compétences d'usage concrètes. Le budget est consommé, les compétences ne suivent pas.
+
+La formation doit être différenciée par profil, même dans une PME de 20 personnes.
+
+### Erreur 2 : utiliser des MOOC gratuits comme seule preuve de formation
+
+Les plateformes de MOOC proposent des contenus de qualité variable. Certains sont utiles pour sensibiliser. Aucun ne produit une attestation de présence nominative avec programme détaillé, conforme à ce que le régulateur peut demander.
+
+Les PME qui constituent leur dossier de conformité uniquement avec des captures d'écran de MOOC complétés prennent un risque documentaire réel à partir du 2 août 2026.
+
+### Erreur 3 : former avant d'avoir identifié les usages cibles
+
+Former une équipe à l'IA générative alors qu'aucun usage opérationnel n'est défini, c'est un investissement sans ancrage. Le collaborateur rentrera de la formation sans savoir comment appliquer ce qu'il a appris dans son travail quotidien.
+
+Le bon séquençage, tel que Smart Impulsion le préconise :
+
+1. Audit des usages IA en place et à potentiel ROI
+2. Formation de niveau 1 pour tous les profils exposés (conformité)
+3. Formation de niveau 2 ciblée sur les usages prioritaires identifiés par l'audit
+4. Déploiement opérationnel avec accompagnement
+
+Inverser les étapes 1 et 3 est l'erreur la plus fréquente, et la plus coûteuse.
+
+> **Red flag.** Si un prestataire de formation vous propose un plan de formation avant d'avoir posé la moindre question sur les usages IA en place dans vos équipes, il vend un catalogue, pas un diagnostic.
+
+## Questions fréquentes
+
+### L'AI Act article 4 oblige-t-il toutes les PME à former leurs salariés ?
+
+L'obligation s'applique à tout déployeur de systèmes d'IA, quelle que soit la taille de l'entreprise. Si votre PME utilise un outil intégrant de l'IA (assistant IA, outil d'analyse de données, logiciel métier avec fonctions d'IA), vous êtes concerné. Elle est en vigueur depuis le 2 février 2025, avec supervision nationale à partir du 2 août 2026.
+
+### Combien coûte une formation IA pour une PME de 15 personnes ?
+
+Pour une PME de 15 personnes avec un plan de formation différencié (dirigeant et 2 managers en niveau 1 renforcé, 12 opérationnels en sensibilisation collective), le coût brut est généralement compris entre 5 000 et 12 000 euros. Avec un financement OPCO à 70-100 %, le reste à charge peut être très faible, sous réserve que le dossier soit soumis avant le début de la formation.
+
+### Faut-il une certification formelle pour satisfaire à l'AI Act article 4 ?
+
+Non. L'AI Act article 4 n'impose pas de certification. Il exige une documentation interne adaptée au rôle : attestation de présence nominative, programme de formation, lien entre la formation et la fonction. Un organisme certifié Qualiopi y suffit.
+
+### Par où commencer : le dirigeant ou les équipes opérationnelles ?
+
+Par le dirigeant. Sans compréhension des enjeux de l'IA à ce niveau, les décisions d'investissement et de déploiement sont arbitrées sans cadre de référence. La formation du dirigeant (4 à 8 heures, niveau 1) conditionne la pertinence de toutes les formations suivantes : c'est le levier avec le meilleur rapport impact sur investissement.
+
+### Les formations en ligne gratuites suffisent-elles pour être conforme à l'AI Act ?
+
+Pas seules. Un MOOC ne génère pas d'attestation nominative, ne documente pas le lien entre la formation et le rôle professionnel, et n'est pas réalisé par un organisme certifié Qualiopi. Utile en complément, mais insuffisant seul pour un contrôle réglementaire.
+
+## Passez de la théorie à l'action
+
+La formation IA dirigeants et équipes sans cartographie préalable des usages, c'est choisir les formations avant de savoir quoi former. Le résultat : des budgets dépensés sur des contenus génériques qui ne changent pas les pratiques.
+
+Smart Impulsion propose un Audit IA Express qui identifie les usages IA déjà en place dans vos équipes, ceux à fort potentiel ROI, et les profils qui ont besoin d'une formation de niveau 2 ciblée. En 2 à 3 jours, vous repartez avec une cartographie des usages prioritaires, une grille de priorisation des formations par profil, et les éléments nécessaires pour constituer votre dossier de conformité AI Act avant le 2 août 2026.
+
+[En savoir plus sur l'Audit IA Express](/services/audit)`,
+    author: "Laurent Bouzon",
+    date: "4 mai 2026",
+    dateISO: "2026-05-04",
+    readTime: "17 min",
+    category: "Formation IA",
+    image: "/formation-ia-dirigeants-guide-pratique-2026-hero.png",
+    imageAlt: "Image d'illustration pour l'article \"Formation IA dirigeants : le guide pratique 2026\"",
+    faq: [
+      {
+        question: "L'AI Act article 4 oblige-t-il les PME à former leurs salariés à l'IA ?",
+        answer: "Oui, depuis le 2 février 2025. L'article 4 de l'AI Act impose à tout déployeur de systèmes d'IA de garantir un niveau suffisant de maîtrise de l'IA de son personnel. Il n'impose pas de durée minimale ni de certification formelle, mais exige une documentation interne : qui a été formé, sur quoi, à quelle date. Les autorités nationales commenceront les contrôles à partir du 2 août 2026.",
+      },
+      {
+        question: "Combien coûte une formation IA pour les équipes d'une PME ?",
+        answer: "Comptez entre 300 et 1 500 euros par personne pour une formation de niveau 1 (acculturation, demi-journée à une journée), et entre 1 500 et 3 000 euros pour une formation de niveau 2 (formation métier, 1 à 2 jours). Les PME de moins de 50 salariés peuvent bénéficier d'une prise en charge jusqu'à 100 % via leur OPCO, sous condition que l'organisme de formation soit certifié Qualiopi. Le dossier OPCO doit être déposé avant le début de la formation.",
+      },
+      {
+        question: "Faut-il une certification formelle pour satisfaire à l'obligation de l'AI Act ?",
+        answer: "Non. L'AI Act article 4 n'impose aucune certification formelle. Ce qui compte : une documentation interne qui prouve que chaque personne impliquée dans l'utilisation ou le déploiement d'un système d'IA a reçu une formation adaptée à son rôle. Un attestation de présence, le programme de formation et la liste des participants par fonction suffisent pour constituer un dossier de conformité.",
+      },
+      {
+        question: "Par où commencer : le dirigeant ou les équipes opérationnelles ?",
+        answer: "Par le dirigeant. Selon l'étude Bpifrance Le Lab 2025, dans 73 % des PME-ETI françaises, c'est le dirigeant qui impulse les projets IA. Si le dirigeant ne comprend pas les enjeux, les limites et les cas d'usage de l'IA, il ne peut ni arbitrer les investissements, ni superviser les usages de ses équipes, ni assumer la responsabilité réglementaire. La formation du dirigeant est le levier avec le meilleur rapport impact sur investissement.",
+      },
+      {
+        question: "Les MOOC et formations gratuites en ligne suffisent-ils pour satisfaire l'AI Act ?",
+        answer: "Pas seuls. Un MOOC gratuit ne génère pas d'attestation de présence nominative, ne décrit pas le programme par rapport à un rôle professionnel, et n'est pas réalisé par un organisme certifié Qualiopi. Il peut compléter une formation, mais ne constitue pas à lui seul une preuve de conformité documentaire. Pour le volet réglementaire, privilégiez un organisme de formation certifié qui délivre une attestation nominative avec programme détaillé. ",
+      },
+    ],
+    howTo: {
+      name: "Déployer un plan de formation IA conforme AI Act en PME",
+      description: "Méthode en 5 étapes pour identifier qui former, choisir le bon niveau de formation, financer via OPCO/CPF, et documenter la conformité avant le 2 août 2026.",
+      totalTime: "PT720H",
+      steps: [
+        {
+          name: "Identifier les profils exposés à l'IA dans vos équipes",
+          text: "Listez les fonctions qui utilisent ou supervisent un système d'IA (même un outil comme Copilot, ChatGPT, ou un logiciel métier intégrant de l'IA). Ces profils sont soumis à l'obligation de l'article 4.",
+        },
+        {
+          name: "Prioriser par rôle et par niveau de formation requis",
+          text: "Dirigeant et managers en premier (niveau 1, 4 à 8 heures). Opérationnels utilisateurs en deuxième (niveau 1 pour tous, niveau 2 pour les usages intensifs). Niveau 2 uniquement sur les usages prioritaires identifiés par un audit préalable.",
+        },
+        {
+          name: "Sélectionner un organisme certifié Qualiopi",
+          text: "La certification Qualiopi est une condition nécessaire pour mobiliser les fonds OPCO. Vérifiez la certification sur le site officiel Qualiopi avant de signer un contrat de formation.",
+        },
+        {
+          name: "Déposer le dossier OPCO avant le début de la formation",
+          text: "Pour les PME de moins de 50 salariés, l'OPCO peut couvrir jusqu'à 100 % du coût pédagogique. Le dossier doit être déposé et validé avant la première session. Délai de traitement moyen : 2 à 4 semaines.",
+        },
+        {
+          name: "Constituer le dossier de conformité AI Act",
+          text: "Conservez pour chaque session : attestation de présence nominative, programme de formation, description du lien entre la formation et le rôle professionnel. Un tableau interne simple suffit. Durée de conservation recommandée : durée d'utilisation du système IA plus 5 ans.",
+        },
+      ],
+    },
+  },
+  {
     slug: "audit-ia-express-methodologie",
     title: "Audit IA Express : méthodologie en 3 jours",
     excerpt:
