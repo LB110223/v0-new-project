@@ -35,6 +35,260 @@ export interface BlogArticle {
 
 export const blogArticles: BlogArticle[] = [
   {
+    slug: "consultant-ia-pme-comment-choisir",
+    title: "Consultant IA pour PME : comment choisir",
+    excerpt:
+      "Consultant IA, agence IA, freelance : quelles différences, quels livrables, quels tarifs réels pour une PME française en 2026 ?",
+    content: `# Consultant IA pour PME : comment choisir
+
+Une PME dans le secteur de la logistique signe un contrat avec un interlocuteur qui se présente comme « expert en transformation IA ». Six semaines plus tard, elle reçoit un document de 40 slides. Pas de plan d'action chiffré, pas de priorisation, pas de délai engageant. Juste une cartographie des possibles, rédigée en langage généraliste.
+
+Ce scénario n'est pas une exception. C'est une conséquence directe d'une confusion que le marché entretient : les termes « consultant IA », « agence IA », « freelance IA » et « ESN repositionnée » désignent des réalités très différentes, mais sont utilisés de façon interchangeable par ceux qui vendent et par ceux qui achètent.
+
+**Trois définitions pour clarifier d'emblée.** Un consultant IA (indépendant ou en cabinet spécialisé) produit une analyse stratégique et une feuille de route : il répond à « que faire et pourquoi ». Une agence IA est un prestataire technique qui déploie des outils une fois que la stratégie est définie : elle répond à « comment le faire ». Une ESN repositionnée IA facture des jours-hommes en régie, sans engagement contractuel sur le résultat.
+
+Selon l'enquête TIC Entreprises 2024 de l'INSEE, 9 % des entreprises françaises de 10 à 49 salariés déclarent utiliser une technologie d'intelligence artificielle, contre 33 % pour les entreprises de 250 salariés ou plus. Cet écart de 24 points ne tient pas uniquement à des différences de budget ou de compétences internes. Il tient aussi à un déficit d'accompagnement structuré : les PME n'ont pas de DSI expérimenté, pas de lab interne, pas de budget R&D fléché IA. Elles dépendent d'interlocuteurs externes, et choisissent souvent le mauvais.
+
+Cet article s'adresse aux dirigeants de PME qui envisagent de faire appel à un consultant IA : pour comprendre qui fait quoi sur ce marché, quelles questions poser avant de signer, et ce qu'un bon premier engagement doit concrètement produire.
+
+Si vous en êtes encore à l'étape de vous demander par où commencer avec l'IA, [par où commencer avec l'IA en PME](/blog/ia-pour-pme-guide) est l'étape d'avant. Ce guide est fait pour ceux qui ont dépassé cette étape et cherchent à qualifier leur interlocuteur.
+
+## Les 4 profils du marché : qui fait vraiment quoi
+
+Le marché du conseil IA en France en 2026 ne fonctionne pas comme un marché homogène. Quatre types d'interlocuteurs coexistent, avec des modèles économiques, des livrables et des niveaux d'engagement très différents.
+
+### Le consultant indépendant
+
+Le consultant indépendant travaille seul, sur une mission bornée dans le temps et dans le périmètre. Son atout principal : l'engagement personnel. Vous interlocutez directement avec la personne qui produit le travail, pas avec un commercial qui passe le relais à une équipe junior.
+
+Sa limite est symétrique : bande passante réduite. Il ne peut pas mobiliser des ressources supplémentaires en cas de dépassement de périmètre, et ses disponibilités sont contraintes par ses autres missions en cours.
+
+Ce profil est adapté pour :
+
+- Un premier diagnostic ciblé sur un périmètre fonctionnel bien délimité
+- Un audit de maturité IA sur une direction ou un processus spécifique
+- Une mission de cadrage avant de mandater une agence pour le déploiement technique
+
+> Signal d'alerte : un consultant indépendant qui propose d'emblée une régie mensuelle sans définir de livrable précis cherche à sécuriser du revenu récurrent, pas à résoudre votre problème.
+
+### Le cabinet conseil IA spécialisé
+
+Le cabinet conseil IA spécialisé combine plusieurs consultants séniors, une méthodologie propriétaire et, souvent, une expertise sectorielle développée sur plusieurs clients similaires. Il s'engage sur un livrable contractualisé : pas seulement des recommandations génériques, mais un plan d'action adapté à votre contexte.
+
+C'est le profil le plus adapté pour une PME qui veut un premier engagement structuré, avec une référence sectorielle vérifiable et un niveau d'exigence sur le livrable.
+
+> Signal d'alerte : un cabinet qui ne peut pas citer de référence nominative dans votre secteur (ou un secteur proche) n'a pas l'expertise sectorielle qu'il revendique.
+
+Pour aller plus loin sur la distinction entre conseil et déploiement technique, consultez [notre guide complet sur l'audit IA PME](/blog/audit-ia-pme-guide-complet), qui détaille également ce qu'un diagnostic structuré doit produire comme livrables concrets.
+
+### L'agence IA
+
+L'agence IA est un prestataire de déploiement technique. Elle construit des outils, intègre des API, développe des applications IA sur mesure. Ce n'est pas un prestataire de conseil stratégique : elle répond à la question « comment le faire » une fois que la question « quoi faire et pourquoi » a été tranchée.
+
+Confier à une agence IA la définition de votre stratégie IA, c'est demander à un architecte de décider à votre place où vous voulez habiter. Le résultat sera techniquement correct et stratégiquement déconnecté de vos enjeux réels.
+
+Pour comprendre quand l'agence IA est la bonne réponse et comment la sélectionner, [comment choisir une agence IA](/blog/agence-ia-comment-choisir-partenaire-transformation) traite cette question en détail.
+
+### L'ESN repositionnée IA
+
+Les grandes ESN (entreprises de services du numérique) ont massivement ajouté « IA » à leur catalogue depuis 2023. Elles disposent de commerciaux, de légitimité de marque et d'un discours IA rodé. Mais leur modèle économique reste la régie : elles facturent des jours-hommes, pas des résultats.
+
+Un profil « consultant IA » mis à disposition par une ESN sera souvent un développeur ou un data analyst reclassifié, sans expérience de conseil stratégique ni connaissance sectorielle de votre métier.
+
+> Signal d'alerte : une ESN qui répond à votre demande de diagnostic IA avec une proposition de régie de 3 mois à 3 ou 4 profils ne comprend pas votre besoin, ou choisit délibérément de l'ignorer.
+
+**Tableau comparatif des 4 profils**
+
+| Profil | Mission type | Adapté pour | Signal d'alerte |
+|---|---|---|---|
+| Consultant indépendant | Audit ciblé, feuille de route bornée | PME recherchant un engagement direct et personnel | Régie ouverte sans livrable défini |
+| Cabinet conseil IA | Diagnostic complet, stratégie IA, pilote ROI | PME voulant références sectorielles et méthodologie | Absence de références nominatives vérifiables |
+| Agence IA | Déploiement technique, développement d'outils | PME ayant déjà une feuille de route validée | Proposition de stratégie sans diagnostic préalable |
+| ESN repositionnée IA | Mise à disposition de profils techniques en régie | Projets de grande envergure avec équipe interne IT | Régie multi-profils sur périmètre flou |
+
+## 5 questions à poser avant de signer
+
+Ces cinq questions ne visent pas à tester les connaissances techniques de votre interlocuteur. Elles visent à qualifier son niveau d'engagement sur ce qui compte pour vous :
+
+- Le livrable : qu'est-ce qui sera remis, sous quel format, à quelle date
+- La méthode : comment le travail est structuré et conduit
+- Le ROI : comment le résultat sera mesuré
+- Le contrat : forfait ou régie, clause de sortie, jalons intermédiaires
+- La conformité : AI Act article 4, documentation des compétences
+
+**Q1. Quel livrable me remettrez-vous à J+N ?**
+
+Réponse attendue : un document précis, daté, avec un contenu défini. Le minimum attendu comprend :
+
+- Un plan d'action chiffré avec cas d'usage priorisés
+- Une feuille de route avec hypothèses ROI explicites
+- Un délai de remise contractuel, pas indicatif
+
+Red flag : « nous vous remettrons une synthèse de nos travaux » sans préciser le format, le contenu ou la date. Le slide deck de 40 pages sans engagement est la forme la plus répandue de ce red flag.
+
+**Q2. Avez-vous des références dans mon secteur (ou un secteur comparable) ?**
+
+Réponse attendue : au moins un nom d'entreprise, une taille comparable à la vôtre, un résultat mesurable. Le consultant doit accepter que vous contactiez cette référence.
+
+Red flag : des références flottantes (« nous avons accompagné des PME industrielles »), des noms sans possibilité de vérification, ou des cas d'usage dans des secteurs sans rapport avec le vôtre.
+
+**Q3. Comment mesurez-vous le ROI de votre intervention ?**
+
+Réponse attendue : une méthode explicite, des indicateurs définis en amont (gain de temps, réduction d'erreurs, augmentation de throughput), et un engagement sur la mesurabilité du résultat à 3 ou 6 mois. Pour aller plus loin sur cette question, [mesurer le ROI de votre projet IA](/blog/roi-intelligence-artificielle-entreprise) détaille les méthodes applicables à une PME.
+
+Red flag : « le ROI dépend de votre investissement dans la durée » ou « nous créons les conditions du succès ». Ces formules transfèrent l'entière responsabilité du résultat vers vous.
+
+**Q4. Proposez-vous une mission forfaitaire ou de la régie ?**
+
+Réponse attendue : pour un premier engagement PME, la réponse doit être « forfait borné ». Un forfait définit un périmètre, un livrable, un prix et un délai. Une régie définit uniquement un tarif journalier.
+
+Red flag : une proposition en régie pour un premier diagnostic. La régie est un modèle économique adapté à l'exécution longue durée avec un pilotage client mature, pas à un premier diagnostic pour une PME qui ne sait pas encore ce qu'elle cherche.
+
+**Q5. Comment gérez-vous la conformité AI Act dans votre mission ?**
+
+Réponse attendue : mention explicite de l'article 4 du Règlement UE 2024/1689 (obligation de littératie IA) et de son calendrier d'application. Le consultant doit savoir que son client est soumis à cette obligation et proposer de l'intégrer au livrable.
+
+Red flag : silence complet sur le sujet, ou réponse du type « c'est votre service juridique qui s'en occupe ». L'obligation de littératie IA est en vigueur depuis le 2 février 2025. Un consultant IA qui l'ignore en 2026 n'est pas un consultant IA : c'est quelqu'un qui a ajouté « IA » à son profil LinkedIn.
+
+> Un bon consultant répond à ces cinq questions sans hésitation. Un mauvais reformule les questions pour y répondre de façon elliptique. La différence est visible en moins de vingt minutes d'entretien.
+
+## Quand le consultant IA est la bonne réponse
+
+Recourir à un consultant IA n'est pas toujours la bonne étape. Voici les situations où c'est clairement justifié, et celles où ça ne l'est pas.
+
+### Trois cas où le consultant est la bonne réponse
+
+**Vous déployez des outils IA sans feuille de route ni mesure de ROI.** Vos équipes utilisent ChatGPT, Copilot ou Notion AI, mais personne ne sait exactement sur quels processus, avec quels résultats, et selon quelle priorité. C'est la situation la plus courante dans les PME en 2026. Un consultant vous aide à cartographier l'existant, identifier les 2 ou 3 cas d'usage à fort ROI, et poser les bases d'une feuille de route cohérente.
+
+**L'AI Act crée une obligation de conformité déjà en vigueur.** L'article 4 du Règlement UE 2024/1689 impose aux déployeurs et superviseurs de systèmes IA de s'assurer que leur personnel possède un niveau de compétence suffisant. Cette obligation de littératie IA est applicable depuis le 2 février 2025 (Titles I et II du Règlement entrent en application 6 mois après l'entrée en vigueur, soit le 2 février 2025). Si votre PME utilise des outils IA dans ses processus métier, elle est concernée. Pour comprendre l'ensemble du cadre réglementaire, [les obligations AI Act pour les PME en 2026](/blog/ai-act-pme-guide-2026) détaille les échéances et les actions à engager.
+
+**Vous voulez identifier vos cas d'usage prioritaires avant d'investir.** Avant de mandater une agence pour développer un outil IA, ou de déployer une solution SaaS IA coûteuse, un diagnostic structuré vous permet de savoir si le cas d'usage est réellement prioritaire, si les données nécessaires sont disponibles, et si le ROI attendu est réaliste. Investir 7 500 € dans un diagnostic pour éviter d'investir 80 000 € dans le mauvais projet est une arithmétique que peu de dirigeants contestent.
+
+À titre de référence, le Diagnostic Data IA Bpifrance représente une mission de 10 jours sur 3 mois maximum, pour un coût total de 13 000 € HT dont 5 500 € pris en charge par Bpifrance, soit 7 500 € HT de reste à charge pour la PME (source : les-aides.fr, dispositif Bpifrance). Il produit un plan d'action avec recommandations chiffrées, priorisées et adaptées au contexte de l'entreprise. C'est le standard de référence pour ce qu'un premier engagement doit produire.
+
+### Deux cas où le consultant n'est pas la bonne réponse
+
+**Vous cherchez uniquement un développeur pour coder une fonctionnalité IA.** Si vous avez déjà une feuille de route validée, des cas d'usage définis, et un besoin de déploiement technique, vous avez besoin d'une agence IA ou d'un développeur spécialisé, pas d'un consultant stratégique.
+
+**Vous cherchez de l'exécution, pas du conseil.** Si votre PME dispose déjà d'une équipe IT capable de piloter des projets IA et que vous avez défini vos priorités, le consultant stratégique est une sur-couche inutile. Passez directement à l'exécution.
+
+> La question à se poser avant de solliciter un consultant : « est-ce que je sais ce que je veux faire et pourquoi, ou est-ce que j'ai besoin qu'on m'aide à le définir ? » Si la réponse à la deuxième option est oui, le consultant est la bonne étape.
+
+## Ce qu'un bon premier engagement doit produire
+
+La distinction la plus importante à comprendre sur le marché du conseil IA n'est pas entre consultant indépendant et cabinet. C'est entre un prestataire qui s'engage sur un livrable et un prestataire qui s'engage sur des jours de présence.
+
+Un bon premier engagement produit quatre éléments non négociables :
+
+- Un plan d'action chiffré avec priorisation par ROI attendu et faisabilité opérationnelle
+- Une feuille de route avec hypothèses ROI explicites et testables à 3 ou 6 mois
+- Un budget cible et un délai engageants pour la phase suivante (pas « à affiner selon l'avancement »)
+- Une distinction claire entre phase 1 (diagnostic et cadrage) et phase 2 (mise en oeuvre)
+
+### Le plan d'action chiffré
+
+Pas une liste de recommandations génériques, pas un catalogue de technologies possibles : une liste courte de cas d'usage, classés par ROI attendu et faisabilité opérationnelle, avec des estimations de gain vérifiables. La priorisation est la valeur ajoutée principale du consultant sur ce point : n'importe qui peut lister des possibles, seul quelqu'un qui connaît votre secteur peut hiérarchiser correctement.
+
+Un bon plan d'action chiffré comprend :
+
+- Les cas d'usage retenus, classés par priorité ROI et faisabilité
+- Pour chaque cas : les données nécessaires, la complexité technique estimée, le gain projeté
+- Les cas d'usage écartés et les raisons de leur mise de côté
+
+### La feuille de route avec hypothèses ROI testables
+
+La feuille de route indique quoi faire, dans quel ordre, selon quel calendrier. Les hypothèses ROI sont les conditions dans lesquelles le gain prévu se matérialisera. Un bon consultant formule ces hypothèses explicitement. Un mauvais prestataire évite de le faire pour ne pas être tenu responsable du résultat.
+
+### Un budget et un délai engageants
+
+Pas « variable selon vos ressources internes ». Un budget cible pour la phase suivante, un délai réaliste, et les conditions de révision si le périmètre change. Cette transparence est le signe d'un consultant qui a déjà livré des missions comparables à la vôtre.
+
+### La distinction entre phase 1 et phase 2
+
+Le premier engagement ne couvre pas la mise en oeuvre. Il couvre le diagnostic, la sélection des cas d'usage et le cadrage du premier pilote. La phase 2 (déploiement, intégration, formation) est un second contrat, avec un interlocuteur qui peut d'ailleurs être différent.
+
+Confondre les deux phases dans un seul contrat est un red flag. Cela signifie soit que le consultant veut sécuriser le maximum de revenu avant que vous ayez validé la qualité de son diagnostic, soit qu'il n'a pas la clarté méthodologique pour distinguer les deux étapes.
+
+> Si vous cherchez exactement ce type de premier engagement : un diagnostic structuré qui se termine par un plan d'action chiffré, pas des slides, c'est ce que produit l'[Audit IA Express Smart Impulsion](/services/audit). Un périmètre défini, un livrable contractualisé, un délai engageant. Sans régie ouverte, sans jargon inutile.
+
+Pour comprendre comment évaluer le retour sur investissement de ce premier engagement, [mesurer le ROI de votre projet IA](/blog/roi-intelligence-artificielle-entreprise) détaille les indicateurs et méthodes adaptés à une PME.
+
+## Passez de la théorie à l'action
+
+Le marché du conseil IA en 2026 offre des interlocuteurs de qualités très inégales. Distinguer le vrai consultant IA du prestataire opportuniste ne demande pas de compétences techniques : il suffit de poser les cinq questions de qualification décrites dans cet article et d'exiger un livrable précis avant de signer.
+
+Trois critères résument ce qu'il faut vérifier avant de mandater un interlocuteur :
+
+1. Il s'engage sur un livrable contractualisé, pas sur des jours de présence
+2. Il cite des références sectorielles vérifiables, pas des « secteurs similaires »
+3. Il propose une mission forfaitaire bornée pour votre premier engagement, pas une régie ouverte
+
+Si vous avez identifié le besoin d'un diagnostic structuré mais n'avez pas encore trouvé le bon interlocuteur, l'[Audit IA Express Smart Impulsion](/services/audit) produit exactement ce type de livrable : un plan d'action chiffré, priorisé, sur votre secteur et vos données, avec un délai et un budget engageants.
+
+**Sources**
+
+- INSEE, Enquête TIC Entreprises 2024 : [https://www.insee.fr/fr/statistiques/8616837](https://www.insee.fr/fr/statistiques/8616837)
+- Bpifrance, Diagnostic Data IA (via les-aides.fr) : [https://les-aides.fr/aide/aVkf3w/bpifrance/diagnostic-data-intelligence-artificielle.html](https://les-aides.fr/aide/aVkf3w/bpifrance/diagnostic-data-intelligence-artificielle.html)
+- leto.legal, Guide AI Act conformité (synthèse réglementaire Art. 4) : [https://www.leto.legal/guides/ai-act-conformite](https://www.leto.legal/guides/ai-act-conformite)
+- Règlement UE 2024/1689 (AI Act), Article 4, Littératie en matière d'IA : EUR-Lex, CELEX:32024R1689`,
+    author: "Laurent Bouzon",
+    date: "7 mai 2026",
+    dateISO: "2026-05-07",
+    readTime: "14 min",
+    category: "Audit & Methodologie",
+    image: "/consultant-ia-pme-comment-choisir-hero.png",
+    imageAlt: "Image d'illustration pour l'article \"Consultant IA pour PME : comment choisir\"",
+    faq: [
+      {
+        question: "Quelle est la différence entre un consultant IA et une agence IA ?",
+        answer: "Le consultant (indépendant ou en cabinet) livre une analyse et une feuille de route orientées décision stratégique. L'agence livre un déploiement technique : un outil, une intégration, une mise en production. Les deux peuvent être complémentaires mais ils ne répondent pas à la même question. L'un répond à « que dois-je faire et pourquoi », l'autre à « comment le faire techniquement ».",
+      },
+      {
+        question: "Combien coûte un consultant IA pour une PME en 2026 ?",
+        answer: "Un premier diagnostic structuré cofinancé par Bpifrance (Diagnostic Data IA) représente 7 500 euros HT de reste à charge pour 10 jours d'intervention sur 3 mois. Selon les données disponibles du marché 2026, une mission bornée (audit et feuille de route) pour une PME se situe généralement entre 5 000 et 15 000 euros HT en fonction de la taille et de la complexité du périmètre.",
+      },
+      {
+        question: "Comment savoir si j'ai besoin d'un consultant IA ou si je peux me débrouiller seul ?",
+        answer: "Si vous utilisez déjà des outils IA (ChatGPT, Copilot, ou d'autres) sans avoir défini quels processus vous voulez transformer, quel ROI vous attendez et comment vous allez mesurer le résultat, vous avez besoin d'un consultant, pas d'un outil supplémentaire. La question n'est pas « ai-je les outils », mais « ai-je la méthode ».",
+      },
+      {
+        question: "L'AI Act oblige-t-il les PME à recourir à un consultant IA ?",
+        answer: "L'article 4 du Règlement UE 2024/1689 (AI Act) n'impose pas de recourir à un consultant externe. Il impose que votre personnel déployant ou supervisant des systèmes IA possède un niveau de compétence suffisant, documenté. Cette obligation de littératie IA est en vigueur depuis le 2 février 2025. Un consultant peut vous aider à structurer et valider cette conformité, mais l'obligation s'adresse à votre organisation, pas à un prestataire.",
+      },
+      {
+        question: "ESN ou cabinet conseil IA : quelle différence pour une PME ?",
+        answer: "Une ESN repositionnée IA met des profils techniques en régie : vous payez des jours-hommes sans engagement contractuel sur le résultat. Un cabinet conseil IA spécialisé s'engage sur un livrable défini à l'avance (diagnostic, feuille de route, cadrage de pilote) avec un ROI mesurable. Pour une PME, la régie ouverte est rarement la bonne formule sur un premier engagement : le compteur tourne sans jalons clairs.",
+      },
+    ],
+    howTo: {
+      name: "Comment qualifier un consultant IA avant de signer",
+      description: "Cinq questions à poser à tout prestataire se présentant comme consultant IA, pour évaluer son niveau d'engagement réel sur le livrable, la méthode, le ROI et la conformité AI Act.",
+      totalTime: "PT20M",
+      steps: [
+        {
+          name: "Demander le livrable précis",
+          text: "Exiger un document daté avec un contenu défini : plan d'action chiffré, feuille de route avec hypothèses ROI, délai de remise contractuel. Tout autre réponse est un signal d'alerte.",
+        },
+        {
+          name: "Vérifier les références sectorielles",
+          text: "Demander au moins un nom d'entreprise nominatif, de taille comparable, avec un contact vérifiable. Les références flottantes (« PME industrielles ») ne comptent pas.",
+        },
+        {
+          name: "Interroger sur la mesure du ROI",
+          text: "Demander une méthode explicite et des indicateurs définis en amont : gain de temps, réduction d'erreurs, augmentation de throughput. Le consultant doit s'engager sur la mesurabilité à 3 ou 6 mois.",
+        },
+        {
+          name: "Clarifier forfait ou régie",
+          text: "Pour un premier engagement PME, exiger un forfait borné avec périmètre, livrable, prix et délai définis. Une proposition en régie sur un premier diagnostic est un signal d'alerte.",
+        },
+        {
+          name: "Vérifier la maîtrise de l'AI Act",
+          text: "Demander comment le consultant intègre l'article 4 du Règlement UE 2024/1689 dans sa mission. Cette obligation de littératie IA est en vigueur depuis le 2 février 2025. Un prestataire qui l'ignore n'est pas à jour sur le contexte réglementaire de ses clients.",
+        },
+      ],
+    },
+  },
+  {
     slug: "formation-ia-dirigeants-ai-act-obligations-2026",
     title: "Formation IA dirigeants : obligations AI Act 2026",
     excerpt:
