@@ -35,6 +35,290 @@ export interface BlogArticle {
 
 export const blogArticles: BlogArticle[] = [
   {
+    slug: "conduite-changement-ia-pme-embarquer-equipes",
+    title: "Conduite du changement IA en PME : guide pratique",
+    excerpt:
+      "76% des actifs français n'ont reçu aucune formation IA. Guide pratique pour diagnostiquer la maturité humaine de vos équipes et éviter l'échec du projet.",
+    content: `# Conduite du changement IA en PME : embarquez vos équipes avant de lancer
+
+Vingt-huit pour cent des actifs français se sentent déjà dépassés par les transformations liées à l'IA, et ce avant même d'avoir reçu la moindre formation (Ipsos/Jedha 2025). Ce n'est pas un problème de résistance au changement. C'est la conséquence directe d'un déploiement sans accompagnement.
+
+**Qu'est-ce que la conduite du changement IA ?** C'est l'ensemble des actions structurées qui permettent à une organisation de préparer ses équipes avant de déployer un outil d'intelligence artificielle : diagnostic des profils, communication du sens, sélection du cas pilote, désignation des relais internes. Sans ce travail en amont, même la technologie la mieux choisie reste inutilisée.
+
+Pour les dirigeants de PME qui s'apprêtent à lancer un premier projet IA, cette réalité devrait orienter les priorités. Non pas parce qu'elle est décourageante, mais parce qu'elle indique clairement où se situe le vrai risque. La technologie, dans la majorité des cas, n'est pas le problème. Ce qui fait échouer un projet IA en PME, c'est l'absence de préparation humaine en amont.
+
+Cet article donne une méthode concrète pour évaluer la configuration de vos équipes avant de lancer, identifier les leviers d'action par profil, et éviter le scénario le plus fréquent : un pilote technique réussi que personne n'utilise trois mois après le déploiement. Si vous débutez sur le sujet, le [guide de démarrage IA pour dirigeants](/blog/ia-pour-pme-guide) pose les bases avant d'aller plus loin.
+
+## Ce qui fait vraiment échouer les projets IA
+
+### Le facteur humain pèse plus que l'algorithme
+
+Les transformations organisationnelles échouent majoritairement pour des raisons humaines, pas techniques. McKinsey le documente depuis plusieurs années : la résistance des collaborateurs et le comportement des managers figurent parmi les premiers obstacles identifiés par les organisations dont la transformation n'a pas abouti.
+
+Un outil IA non utilisé, c'est une licence payée chaque mois pour rien. C'est aussi un message interne désastreux : "l'IA, ça ne marche pas chez nous."
+
+> **A retenir.** La résistance des collaborateurs est citée comme frein par 22% des dirigeants de PME-ETI dans l'étude Bpifrance Le Lab 2025 (1 209 dirigeants interrogés). Ce chiffre sous-estime la réalité : la résistance passive, celle qui ne s'exprime pas en réunion, ne se mesure pas dans les sondages.
+
+### Le déficit de formation est structurel, pas individuel
+
+Seulement 21% des salariés français (tous secteurs et tailles d'entreprises confondus) ont reçu une formation à l'IA dans un cadre professionnel, selon le rapport Ipsos BVA pour Google publié en mars 2026. Ce taux tombe à 16% dans les micro-entreprises. Et 76% des actifs déclarent n'avoir reçu aucune formation pour comprendre ou utiliser l'IA au travail (Ipsos/Jedha 2025, enquête sur 1 000 actifs français).
+
+Ce n'est pas une question de motivation individuelle. C'est un manque structurel d'accompagnement. Quand un collaborateur dit "je ne vois pas à quoi ça sert", il exprime souvent "personne ne m'a montré ce que ça changerait pour moi."
+
+> **Chiffre clé.** 62% des salariés français interrogés déclarent vouloir des formations ancrées dans des cas concrets directement applicables à leurs tâches, selon la même étude Ipsos BVA pour Google (mars 2026, salariés d'entreprises privées françaises). Ils ne rejettent pas l'IA. Ils demandent qu'on leur montre ce qu'elle change pour eux, pas pour l'entreprise.
+
+## La spécificité PME : le dirigeant porte tout
+
+### Sponsor, DRH et chef de projet en une seule personne
+
+Dans 73% des PME-ETI françaises, les projets IA sont impulsés directement par le dirigeant (Bpifrance Le Lab 2025). Ce chiffre décrit une réalité structurelle : en PME, il n'y a pas de CDO, pas d'équipe change management dédiée, pas de DRH formé aux transformations digitales. Le dirigeant est à la fois celui qui décide, celui qui finance et celui qui doit convaincre.
+
+Cette concentration de rôles est une force pour la vitesse de décision. Elle est aussi une faiblesse pour la qualité de l'adoption. Un projet porté par une seule personne, sans relais internes, reste fragile.
+
+> **Point clé.** Gallup mesure, dans son *State of the Global Workplace 2026*, que les salariés dont le manager soutient activement l'utilisation de l'IA sont 8,7 fois plus susceptibles de déclarer que l'IA a transformé la façon dont le travail se fait dans leur organisation ("Employees whose managers actively support AI use are 8.7 times as likely to strongly agree that the AI has transformed how work gets done in their organization"). En PME, ce manager, c'est vous. Ce multiplicateur joue dans les deux sens.
+
+### Ce que les grandes entreprises font que vous ne pouvez pas reproduire
+
+Les articles sur la conduite du changement IA s'adressent généralement à des organisations avec une équipe RH et un budget dédié au change management. Ce cadre ne s'applique pas à une PME de 30 à 200 personnes.
+
+Les contraintes spécifiques PME à intégrer dans la méthode :
+
+- **Pas de chef de projet change dédié** : le dirigeant ou un manager opérationnel porte le sujet en parallèle de ses activités
+- **Budget formation limité** : les formations longues de plusieurs jours ne sont pas réalistes pour les équipes en production
+- **Résistance plus visible** : dans une structure à taille humaine, un collaborateur sceptique a une influence sur l'ensemble de l'équipe, pas seulement sur son service
+- **Pas de communication descendante formelle** : les annonces par email ou réunion plénière ont moins d'effet qu'un échange direct et informel
+- **Le dirigeant est aussi un modèle** : si vous n'utilisez pas vous-même les outils IA au quotidien, vos équipes le remarquent
+
+## Les quatre profils de vos collaborateurs face à l'IA
+
+Un atelier de deux heures avec vos équipes suffit à identifier à quelle catégorie appartient chaque collaborateur. Pas besoin d'un questionnaire élaboré. Posez une question simple en groupe : "Qu'est-ce que vous aimeriez que l'IA fasse pour vous dans votre travail ?"
+
+La façon dont chacun répond (ou ne répond pas) est plus révélatrice que n'importe quel sondage anonyme.
+
+Les quatre profils à repérer dans votre équipe :
+
+- **Sceptique actif** : s'oppose ouvertement, cite des risques précis, influence les collègues indécis
+- **Attentiste** : ne dit ni oui ni non, attend de voir un résultat avant de s'impliquer
+- **Curieux** : pose des questions, teste déjà des outils en dehors du cadre, cherche à comprendre
+- **Champion potentiel** : utilise déjà l'IA, peut citer des gains de temps concrets, veut aller plus vite
+
+### Le sceptique actif
+
+**Signal détectable.** Il s'oppose ouvertement, cite des risques concrets (erreurs, perte de contrôle, remplacement de poste), et influence les collègues moins tranchés. Il n'est pas de mauvaise foi. Il a souvent des arguments légitimes.
+
+**Ce qui ne fonctionne pas.** Le convaincre avec des arguments généraux sur "l'avenir de l'IA". Le rassurer avec des promesses floues.
+
+**Le levier.** Lui confier un rôle de référent critique sur le pilote. Sa fonction : identifier les erreurs et les limites du système. Ce rôle valorise son scepticisme et le transforme en contribution utile.
+
+### L'attentiste
+
+**Signal détectable.** Il ne dit ni oui ni non. Il attend de voir. Il ne pose pas de questions en réunion mais en pose en couloir, après coup.
+
+**Ce qui ne fonctionne pas.** L'ignorer en pensant qu'il suivra naturellement quand le projet avancera.
+
+**Le levier.** Lui montrer un cas d'usage sur son propre métier, pas un exemple générique. Un commercial attentiste bascule quand il voit qu'un outil IA réduit concrètement le temps qu'il passe à rédiger des comptes rendus de réunion.
+
+### Le curieux
+
+**Signal détectable.** Il pose des questions, a souvent déjà testé un outil IA en dehors du travail, et cherche à comprendre les mécanismes.
+
+**Ce qui ne fonctionne pas.** Le laisser expérimenter seul sans cadre. Il risque d'utiliser des outils non validés par l'entreprise avec des données sensibles.
+
+**Le levier.** L'impliquer tôt dans le choix du cas pilote. Sa curiosité devient une force si elle est canalisée dans le périmètre du projet.
+
+### Le champion potentiel
+
+**Signal détectable.** Il a déjà adopté un ou plusieurs outils IA dans son travail. Il peut citer des exemples précis de gain de temps. Il est impatient que l'entreprise avance.
+
+**Ce qui ne fonctionne pas.** Le laisser agir en autonomie sans coordination avec le reste de l'équipe. Il peut créer une fracture entre "ceux qui utilisent l'IA" et les autres.
+
+**Le levier.** En faire l'ambassadeur officiel du projet pilote. Pas un projet parallèle, pas un poste à temps plein. Une mission claire : montrer à ses collègues comment ça marche concrètement, et remonter les frictions terrain.
+
+> **Grille à appliquer.** Avant de lancer votre projet IA, listez vos 5 à 10 collaborateurs les plus concernés et positionnez chacun sur ces quatre profils. Cela vous donne votre plan de communication personnalisé : pas le même message pour le sceptique et pour le champion.
+
+## Le coût invisible de mal accompagner l'adoption
+
+### Licences inutilisées, temps perdu, défiance accumulée
+
+On chiffre rarement le coût d'un projet IA qui n'est pas adopté. Pourtant, il est concret et se décompose en trois niveaux :
+
+- **Coût direct** : licences SaaS payées sans utilisation, jours de conseil pour un déploiement que personne n'utilise
+- **Coût indirect** : temps passé par le dirigeant et les managers à relancer l'adoption, réunions supplémentaires, ajustements
+- **Coût de la défiance future** : le prochain projet IA sera dix fois plus difficile à lancer. Les équipes diront "on a déjà essayé, ça n'a pas marché"
+
+Ce troisième coût est le plus difficile à quantifier et le plus durable. Une expérience négative crée une résistance institutionnelle qui peut bloquer les initiatives suivantes pendant plusieurs années. Pour chiffrer ce retour sur investissement, le [guide ROI de l'IA en entreprise](/blog/roi-intelligence-artificielle-entreprise) donne les méthodes adaptées aux PME.
+
+### L'IA fantôme : un risque sous-estimé
+
+Seulement 14% des actifs français interrogés déclarent que leur entreprise a mis en place une politique interne d'utilisation de l'IA, selon Ipsos BVA pour Google (mars 2026, salariés d'entreprises privées françaises). Conséquence directe : 42% des travailleurs du même panel déclarent utiliser des comptes personnels pour les outils IA au travail, selon la même étude.
+
+Vos collaborateurs utilisent déjà l'IA. La question n'est plus "vont-ils l'adopter", c'est "dans quel cadre". Un projet mal accompagné crée de l'utilisation non contrôlée, avec des risques concrets :
+
+- **Données clients uploadées** sur des plateformes personnelles sans contrat de confidentialité
+- **Documents internes traités** par des outils grand public hors périmètre RGPD de l'entreprise
+- **Résultats non vérifiés** utilisés dans des livrables clients sans validation humaine
+- **Pratiques disparates** selon les équipes, rendant toute gouvernance ultérieure très difficile
+
+> **Red flag.** Si vous n'avez pas de politique interne d'utilisation de l'IA et que vous lancez un projet sans accompagnement, vous ne savez pas ce que vos équipes font déjà avec des outils IA non validés. L'audit préalable n'est pas seulement utile pour le déploiement, il est nécessaire pour la maîtrise des risques.
+
+## Trois leviers pour réussir le changement IA sans forcer
+
+### Premier levier : communiquer le "pourquoi" avant le "comment"
+
+L'erreur la plus fréquente : annoncer l'outil en réunion d'équipe sans avoir expliqué en quoi il change le travail de chacun. Le message reçu n'est pas "on va être plus efficaces", c'est "on va changer nos méthodes de travail, et on ne sait pas encore pourquoi."
+
+La séquence qui fonctionne en PME :
+
+1. Identifier avec chaque manager les deux ou trois tâches les plus chronophages de son équipe
+2. Expliquer en quoi l'IA peut réduire le temps passé sur ces tâches spécifiques
+3. Seulement ensuite, présenter l'outil et la façon de l'utiliser
+
+Cette séquence prend plus de temps qu'une annonce globale. Elle réduit la résistance de façon durable.
+
+### Deuxième levier : choisir le bon cas pilote
+
+Le choix du premier cas d'usage est le déterminant principal de l'adhésion des équipes. Un pilote réussi crée un effet d'entraînement. Un pilote raté crée une défiance durable.
+
+Un bon cas pilote réunit ces critères :
+
+- **Visible** : les équipes concernées voient le résultat directement dans leur travail quotidien
+- **A faible risque** : pas de données clients sensibles, pas de processus critique pour l'activité
+- **Bénéfice perceptible en 4 semaines** : si les équipes ne voient pas d'amélioration en un mois, elles abandonnent
+- **Porté par un champion identifié** : quelqu'un dans l'équipe qui croit dans le projet et qui peut répondre aux questions des collègues
+
+Pour identifier les cas d'usage les plus adaptés à votre secteur, les [applications IA concrètes en entreprise](/blog/ia-generative-entreprise-applications-concretes) recensent les usages les plus fréquemment déployés en PME, classés par fonction.
+
+### Troisième levier : un relais interne, pas un projet parallèle
+
+La tentation est de créer un "groupe de travail IA" avec une réunion hebdomadaire. En PME, cette structure tue les projets. Personne n'a le temps, la motivation s'érode, et les autres équipes perçoivent l'IA comme un projet à part.
+
+Un relais interne efficace en PME, c'est une seule personne par équipe concernée, avec une mission simple et limitée dans le temps :
+
+- Montrer à ses collègues comment utiliser l'outil sur un cas concret (2 heures max)
+- Remonter au dirigeant les frictions terrain (pas une réunion de bilan, un message en fin de semaine)
+- Devenir la référence pour les questions pratiques de ses collègues
+
+Ce n'est pas un rôle supplémentaire. C'est une extension d'un rôle existant.
+
+## Par où commencer cette semaine ?
+
+### L'auto-diagnostic en 5 questions
+
+Avant de lancer votre projet IA, posez-vous ces cinq questions. Elles prennent 15 minutes et évitent 3 mois de déploiement difficile.
+
+1. **Savez-vous quels collaborateurs utilisent déjà des outils IA, de quelle façon, et avec quelles données ?** Si non, vous avez une priorité avant de lancer : dresser l'état des lieux de l'utilisation existante.
+
+2. **Avez-vous identifié au moins un champion potentiel dans votre équipe ?** Si vous ne voyez personne pour ce rôle, votre premier cas pilote risque de manquer d'ancrage terrain.
+
+3. **Pouvez-vous nommer le cas d'usage pilote avec ses critères de succès mesurables ?** "Utiliser l'IA pour être plus efficace" n'est pas un cas pilote. "Réduire de 40% le temps de rédaction des rapports de visite d'ici 6 semaines" en est un.
+
+4. **Avez-vous prévu de former vos équipes sur le cas d'usage spécifique, pas sur l'IA en général ?** Une formation de 2 heures sur un usage concret vaut dix fois plus qu'une présentation générique de ChatGPT.
+
+5. **Avez-vous mis en place une politique minimale d'utilisation des outils IA dans votre entreprise ?** Même une page simple (quels outils sont validés, quelles données peuvent être utilisées) réduit le risque d'utilisation non contrôlée.
+
+> **A retenir.** Si plus de deux de ces questions restent sans réponse précise, vous n'êtes pas encore prêt à lancer. Ce n'est pas un frein, c'est un diagnostic : les réponses à ces questions sont les premières livrables de la phase de préparation. Un [audit IA complet](/blog/audit-ia-pme-guide-complet) intègre systématiquement ce volet humain dans son périmètre.
+
+Si après cet auto-diagnostic vous constatez que plusieurs réponses restent floues, c'est souvent le signe qu'un cadrage externe apporte de la valeur.
+
+## Passez de la théorie à l'action
+
+La conduite du changement IA ne s'improvise pas, mais elle ne nécessite pas non plus des mois de préparation. En PME, deux à trois semaines de travail structuré suffisent à poser les bases : diagnostic humain, identification du cas pilote, désignation du champion interne, politique minimale d'utilisation.
+
+Smart Impulsion propose un Audit IA Express qui inclut systématiquement un volet équipe : cartographie des profils, identification des freins réels, sélection du bon cas pilote. En 2 à 3 jours, vous repartez avec un plan d'adoption opérationnel et un ROI projeté avant de dépenser le moindre euro en déploiement.
+
+[En savoir plus sur l'audit IA express](/services/audit)
+
+## Questions fréquentes
+
+### Comment embarquer ses équipes dans un projet IA sans résistance ?
+
+Diagnostiquez les profils de vos collaborateurs (sceptiques, attentistes, curieux, champions) avant de lancer. Communiquez le "pourquoi" avant le "comment". Choisissez un premier cas d'usage visible avec des bénéfices perceptibles en 4 semaines. La résistance recule quand les équipes voient un résultat concret sur leur propre travail.
+
+### Pourquoi la plupart des projets IA échouent à cause du facteur humain ?
+
+Les transformations échouent majoritairement pour des raisons humaines, pas techniques. Selon Gallup (*State of the Global Workplace 2026*), les salariés dont le manager soutient activement l'utilisation de l'IA sont 8,7 fois plus susceptibles de déclarer que l'IA a transformé la façon dont le travail se fait dans leur organisation. En PME, ce manager, c'est vous.
+
+### Faut-il former ses équipes avant de lancer un projet IA ?
+
+Oui. 76% des actifs français n'ont reçu aucune formation pour utiliser l'IA dans leur travail (Ipsos/Jedha 2025). Une formation courte ancrée sur le cas d'usage spécifique réduit la résistance mieux qu'une réunion d'annonce. 62% des salariés français interrogés demandent précisément des formations pratiques ancrées sur leurs tâches quotidiennes (Ipsos BVA pour Google, mars 2026).
+
+### Quel est le rôle du dirigeant dans l'adoption de l'IA en PME ?
+
+En PME, le dirigeant est simultanément le sponsor, le responsable RH et souvent le premier utilisateur. Dans 73% des PME-ETI françaises, les projets IA sont impulsés par le seul dirigeant (Bpifrance Le Lab 2025). Si vous n'utilisez pas vous-même les outils IA au quotidien, vos équipes le remarquent.
+
+### Comment choisir le bon cas pilote pour convaincre ses équipes ?
+
+Trois critères : visible (les équipes voient le résultat directement), à faible risque (pas de données sensibles, pas de processus critique), bénéfice perceptible en 4 semaines. Un pilote aux bénéfices abstraits génère une défiance durable. Consultez les [applications IA concrètes en entreprise](/blog/ia-generative-entreprise-applications-concretes) pour les candidats dans votre secteur.
+
+### Comment identifier les profils résistants à l'IA dans son équipe ?
+
+Organisez un atelier de 2 heures autour d'une question : "Qu'est-ce que vous aimeriez que l'IA fasse pour vous ?" Les sceptiques s'opposent ouvertement, les attentistes se taisent, les curieux posent des questions, les champions arrivent avec des idées. Cette session suffit à cartographier votre équipe.
+
+### Quelles sont les étapes d'une conduite du changement IA en PME ?
+
+Quatre étapes : (1) Diagnostic humain, cartographier les profils et les freins. (2) Communication du "pourquoi", expliquer ce que l'IA change pour chaque métier. (3) Pilote visible, résultats en 4 semaines. (4) Ancrage, désigner un champion interne et mesurer l'adoption réelle.`,
+    author: "Laurent Bouzon",
+    date: "11 mai 2026",
+    dateISO: "2026-05-11",
+    readTime: "15 min",
+    category: "IA & PME",
+    image: "/conduite-changement-ia-pme-embarquer-equipes-hero.png",
+    imageAlt: "Image d'illustration pour l'article \"Conduite du changement IA en PME : guide pratique\"",
+    faq: [
+      {
+        question: "Comment embarquer ses équipes dans un projet IA sans résistance ?",
+        answer: "Commencez par un diagnostic humain avant le pilote technique : identifiez les profils de vos collaborateurs (sceptiques, attentistes, curieux, champions), communiquez le 'pourquoi' avant le 'comment', et choisissez un premier cas d'usage visible dont les bénéfices sont perceptibles en 4 semaines. La résistance recule quand les équipes voient un résultat concret sur leur propre travail.",
+      },
+      {
+        question: "Pourquoi la plupart des projets IA échouent à cause du facteur humain ?",
+        answer: "Les transformations organisationnelles échouent majoritairement pour des raisons humaines, pas techniques : résistance des collaborateurs, absence de formation, manque de soutien managérial. Selon Gallup (State of the Global Workplace 2026), les salariés dont le manager soutient activement l'utilisation de l'IA sont 8,7 fois plus susceptibles de déclarer que l'IA a transformé la façon dont le travail se fait dans leur organisation.",
+      },
+      {
+        question: "Faut-il former ses équipes avant de lancer un projet IA ?",
+        answer: "Oui, et les chiffres le confirment. 76% des actifs français n'ont reçu aucune formation pour utiliser l'IA dans leur travail (Ipsos/Jedha 2025) et 28% se sentent déjà dépassés. Une formation courte ancrée sur des cas concrets réduit la résistance bien mieux qu'une réunion d'annonce. 62% des salariés français interrogés demandent précisément ce type de formation pratique ancrée sur leurs tâches (Ipsos BVA pour Google, mars 2026).",
+      },
+      {
+        question: "Quel est le rôle du dirigeant dans l'adoption de l'IA en PME ?",
+        answer: "En PME, le dirigeant est simultanément le sponsor du projet, le responsable RH et souvent le premier utilisateur. Cette concentration de rôles est à double tranchant : elle accélère les décisions, mais fragilise l'adoption si le dirigeant n'entraîne pas ses équipes concrètement. Dans 73% des PME-ETI françaises, les projets IA sont impulsés par le seul dirigeant (Bpifrance Le Lab 2025).",
+      },
+      {
+        question: "Comment choisir le bon cas pilote pour convaincre ses équipes ?",
+        answer: "Un bon cas pilote réunit trois conditions : visible (les équipes voient le résultat directement), à faible risque (pas de données clients sensibles, pas de processus critique), et avec des bénéfices perceptibles en 4 semaines maximum. Un pilote trop long ou aux bénéfices abstraits génère une défiance durable. Consultez les applications IA concrètes par métier pour identifier les candidats dans votre secteur.",
+      },
+      {
+        question: "Comment identifier les profils résistants à l'IA dans son équipe ?",
+        answer: "Organisez un atelier de 2 heures avec vos équipes autour d'une question simple : 'Qu'est-ce que vous aimeriez que l'IA fasse pour vous ?' Les sceptiques actifs s'opposent ouvertement, les attentistes se taisent, les curieux posent des questions, les champions potentiels arrivent avec des idées. Cette simple session vous donne une carte humaine de votre équipe avant de lancer.",
+      },
+      {
+        question: "Quelles sont les étapes d'une conduite du changement IA en PME ?",
+        answer: "Quatre étapes séquentielles : (1) Diagnostic humain, cartographier les profils et les freins de vos équipes. (2) Communication du 'pourquoi', expliquer ce que l'IA change pour chaque métier, pas juste pour l'entreprise. (3) Pilote visible, choisir un cas d'usage avec résultats en 4 semaines. (4) Ancrage, désigner un champion interne et mesurer l'adoption réelle, pas l'utilisation déclarée.",
+      },
+    ],
+    howTo: {
+      name: "Conduite du changement IA en PME : méthode en 4 étapes",
+      description: "Méthode pratique pour embarquer vos équipes avant de lancer un projet IA, adaptée à la réalité des PME sans équipe change management dédiée.",
+      totalTime: "PT336H",
+      steps: [
+        {
+          name: "Diagnostic humain",
+          text: "Cartographier les profils de vos collaborateurs face à l'IA (sceptique, attentiste, curieux, champion) via un atelier de 2 heures. Identifier les freins dominants et les relais potentiels.",
+        },
+        {
+          name: "Communication du pourquoi",
+          text: "Expliquer à chaque métier ce que l'IA change concrètement pour lui, pas seulement pour l'entreprise. Organiser des échanges en petit groupe, pas d'annonce globale en réunion.",
+        },
+        {
+          name: "Lancement du cas pilote",
+          text: "Choisir un premier cas d'usage visible, à faible risque, avec des bénéfices perceptibles en 4 semaines. Impliquer les champions identifiés à l'étape 1 comme ambassadeurs.",
+        },
+        {
+          name: "Ancrage et mesure",
+          text: "Désigner un champion interne, mesurer l'adoption réelle (pas l'utilisation déclarée), et documenter les bénéfices pour légitimer l'extension du projet.",
+        },
+      ],
+    },
+  },
+  {
     slug: "consultant-ia-pme-comment-choisir",
     title: "Consultant IA pour PME : comment choisir",
     excerpt:
