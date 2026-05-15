@@ -35,6 +35,257 @@ export interface BlogArticle {
 
 export const blogArticles: BlogArticle[] = [
   {
+    slug: "rgpd-ia-pme-obligations-cnil-2026",
+    title: "RGPD IA PME : obligations CNIL 2026 et plan d'action",
+    excerpt:
+      "83 sanctions CNIL en 2025, 486,8 M€ d'amendes, contrôles recrutement annoncés pour H2 2026 : voici le plan d'action RGPD IA pour PME sans DPO dédié.",
+    content: `En janvier 2026, la CNIL a infligé 5 millions d'euros d'amende à France Travail pour trois manquements techniques : absence d'authentification multifacteur robuste, journalisation insuffisante des accès, habilitations trop larges. Pas d'IA sophistiquée en cause. Des basiques de sécurité non respectés.
+
+Trois mois plus tard, le 3 avril 2026, la CNIL annonçait ses contrôles prioritaires pour le reste de l'année : le recrutement, avec un focus explicite sur les outils de décision automatisée et les systèmes IA utilisés dans les processus RH.
+
+Si vous dirigez une PME qui utilise un ATS, ChatGPT dans vos processus, ou Microsoft Copilot au quotidien, vous n'êtes pas hors périmètre. Voici ce que vous devez savoir, et faire, avant la fin 2026.
+
+## Ce que la CNIL va contrôler en 2026, et pourquoi les PME doivent s'en préoccuper
+
+### Le recrutement, premier axe de contrôle
+
+Le 3 avril 2026, la CNIL a publié ses [contrôles prioritaires 2026](https://www.cnil.fr/fr/controles-prioritaires-2026). Le recrutement figure en tête de liste, avec trois points d'attention explicites :
+
+- La présence ou non de **décision automatisée** dans le traitement des candidatures (article 22 RGPD : droit à l'intervention humaine)
+- L'**information délivrée aux candidats** sur le traitement de leurs données personnelles
+- Les **durées de conservation** des candidatures non retenues
+
+> "La CNIL va vérifier si les entreprises qui utilisent des outils de tri automatique de CV informent correctement leurs candidats et respectent leur droit à une intervention humaine. C'est l'article 22 du RGPD appliqué à l'IA."
+
+Si votre ATS classe automatiquement les candidatures, si votre outil RH attribue un score à chaque profil, ou si vous utilisez un outil IA pour pré-filtrer des CV, vous entrez dans cette catégorie. La taille de votre entreprise ne vous exclut pas du périmètre.
+
+Ce contrôle n'est pas isolé. La CNIL est appelée à devenir autorité de surveillance de marché pour les systèmes IA à haut risque dans le secteur du travail, au titre de l'AI Act. Le contrôle 2026 sur le recrutement préfigure ce nouveau rôle.
+
+### Les chiffres qui donnent la mesure du risque
+
+La CNIL n'a pas de seuil de taille pour déclencher un contrôle. Une PME de 30 salariés est aussi exposée qu'une ETI de 500 personnes dès lors qu'une plainte est déposée par un candidat ou un salarié. Or la mécanique est simple : un candidat reçoit un refus automatique d'un ATS, se renseigne sur ses droits, dépose une plainte. La CNIL instruit. Le contexte sanctionnel a changé de dimension. Quelques ordres de grandeur issus des bilans officiels de la CNIL :
+
+- **83 sanctions** prononcées en 2025 pour un total de **486,8 millions d'euros** d'amendes ([bilan sanctions CNIL 2025](https://www.cnil.fr/fr/bilan-sanctions-2025))
+- **5 629 violations** de données personnelles notifiées à la CNIL en 2024, soit **+20 % par rapport à 2023** ([rapport annuel CNIL 2024](https://www.cnil.fr/fr/rapport-annuel-2024))
+- **17 772 plaintes** reçues en 2024 : record annuel, dont **13 % dans le secteur du travail**
+- En 2025 : **16 organisations sanctionnées** pour surveillance excessive des salariés, **14** pour défaut de sécurité des données
+
+Ces chiffres traduisent une réalité simple : la CNIL contrôle, sanctionne, et le secteur RH est surreprésenté dans les plaintes. Une plainte d'un candidat ou d'un salarié peut déclencher un contrôle à tout moment, quelle que soit la taille de l'entreprise.
+
+## RGPD et IA : vos obligations quand vous utilisez ChatGPT, Copilot ou un outil IA SaaS
+
+### L'obligation que presque personne n'a remplie : le DPA avec votre fournisseur IA
+
+Dès que vous utilisez un outil IA SaaS qui traite des données personnelles, le RGPD impose un contrat de sous-traitance avec votre fournisseur : le **DPA** (Data Processing Agreement, ou accord de traitement des données en français). Ce document définit les obligations du fournisseur concernant les données que vous lui confiez : finalités autorisées, mesures de sécurité, sous-traitants ultérieurs, durée de conservation, procédure en cas de violation.
+
+La règle est simple :
+
+- Vous êtes **responsable de traitement** : vous décidez pourquoi et comment les données sont traitées
+- Votre fournisseur IA est **sous-traitant** : il traite les données pour votre compte
+- L'article 28 du RGPD oblige à formaliser cette relation par un contrat écrit
+
+> "Utiliser ChatGPT dans un contexte professionnel sans DPA signé, c'est confier des données personnelles à un tiers sans encadrement contractuel. C'est un manquement direct à l'article 28 RGPD, immédiatement contrôlable."
+
+Les DPA existent. OpenAI en propose un dans les conditions de ChatGPT Entreprise. Microsoft le propose dans ses conditions Microsoft 365 Copilot. Ce ne sont pas des documents à négocier de zéro : ce sont des contrats standardisés à accepter et à archiver.
+
+Ce qu'il faut faire maintenant :
+
+- Identifiez tous vos outils IA SaaS qui traitent des données personnelles
+- Vérifiez pour chacun si un DPA a été signé (compte administrateur, section "conditions" ou "privacy")
+- Signez ou activez les DPA manquants
+- Archivez la preuve de signature dans votre dossier conformité
+
+### Le registre des traitements : pourquoi ChatGPT doit y figurer
+
+Le registre des traitements (article 30 RGPD) est l'inventaire de toutes les activités de traitement de données personnelles de votre organisation. Il est obligatoire pour toute entreprise de plus de 250 salariés, et recommandé pour toutes les autres.
+
+Quand vous utilisez ChatGPT pour rédiger des emails commerciaux en collant des données clients, vous créez un traitement. Quand vous utilisez Copilot pour analyser des rapports RH, vous créez un traitement. Ces traitements doivent figurer dans votre registre avec :
+
+- La **finalité** (pourquoi vous traitez ces données)
+- Les **catégories de données** traitées
+- La **base légale** (intérêt légitime, contrat, consentement...)
+- La **durée de conservation**
+- Le **sous-traitant** (fournisseur IA) avec référence au DPA
+
+La CNIL met à disposition un modèle de registre des traitements en téléchargement libre sur son site (section "Les outils de la conformité"). Ce tableur pré-formaté couvre toutes les colonnes exigées par l'article 30. Il n'y a pas de raison d'improviser : une PME sans registre existant peut en créer un conforme en deux à trois heures, en se basant sur ce modèle.
+
+### Les 72 heures que vous n'avez pas le droit de rater
+
+En cas de violation de données personnelles (fuite, accès non autorisé, ransomware), l'article 33 du RGPD impose de notifier la CNIL dans un délai de **72 heures**.
+
+> "5 629 violations notifiées à la CNIL en 2024, soit 20 % de plus qu'en 2023. Le nombre d'incidents augmente avec la multiplication des outils numériques. Et le délai de 72 heures ne souffre aucune exception."
+
+Cette obligation suppose que vous sachiez, à tout moment, quelles données sont traitées par quels outils. D'où l'importance du registre des traitements et de l'inventaire des outils IA : sans cartographie préalable, vous ne pouvez pas évaluer le périmètre d'une violation en moins de 72 heures. La notification se fait directement sur le portail notifications de la CNIL (notifications.cnil.fr). Elle doit décrire la nature de la violation, les données concernées, les conséquences probables, et les mesures prises pour y remédier.
+
+## RGPD + AI Act : quand les deux s'appliquent en même temps
+
+### L'obligation de littératie IA déjà en vigueur
+
+Depuis le **2 février 2025**, l'article 4 de l'AI Act impose à toute organisation qui déploie un système IA de s'assurer que ses collaborateurs disposent d'un niveau suffisant de **littératie IA** : comprendre ce qu'est l'outil, ses limites, ses risques, et comment l'utiliser de manière responsable.
+
+Cette obligation s'applique à votre PME si vous utilisez ChatGPT, Copilot, ou n'importe quel autre outil IA. La sanction prévue pour manquement à l'article 4 : jusqu'à **7,5 millions d'euros ou 1,5 % du chiffre d'affaires mondial**.
+
+En pratique, cela signifie :
+
+- Former ou sensibiliser vos collaborateurs à l'usage des outils IA qu'ils utilisent
+- Documenter cette sensibilisation (date, contenu, participants)
+- Encadrer les usages par une charte ou une politique interne
+
+Ce n'est pas une formation de plusieurs jours. Une session d'une heure sur les bonnes pratiques d'usage, documentée, constitue déjà un élément de preuve. Dans les missions d'accompagnement, c'est systématiquement le premier livrable : un support de sensibilisation d'une heure, adapté aux outils effectivement utilisés dans l'entreprise, avec liste des participants et date. L'absence totale de toute démarche est le vrai risque.
+
+Pour aller plus loin sur ce sujet, notre [guide sur l'AI Act pour PME](/blog/ai-act-pme-guide-2026) détaille l'ensemble du calendrier d'obligations et les sanctions applicables selon le type de système.
+
+### Le cas des outils de tri de CV et scoring RH
+
+L'AI Act classe explicitement le **tri automatisé de CV et la sélection de candidats** comme **système à haut risque** (Annexe III). Dans la terminologie AI Act, un système à haut risque est un système IA dont la défaillance ou le biais peut avoir des conséquences importantes sur les droits des personnes (ici, l'accès à l'emploi). Ce classement a des conséquences concrètes pour votre PME.
+
+Un système IA à haut risque dans le domaine RH est soumis à :
+
+- Une **documentation technique** complète du système
+- Une évaluation des risques avant déploiement
+- Une **supervision humaine** effective sur les décisions
+- La possibilité pour les individus concernés de contester une décision automatisée (article 22 RGPD)
+
+Si vous utilisez un ATS avec scoring automatique, vous êtes en principe **"deployer"** d'un système à haut risque au sens de l'AI Act (c'est-à-dire l'organisation qui met en œuvre le système dans un contexte réel), par opposition au fournisseur qui l'a conçu. Le fournisseur de l'outil a ses propres obligations (documentation, certification), mais vous avez les vôtres en tant que deployer : vérifier que le système est conforme, informer les candidats, maintenir une intervention humaine dans le processus de décision finale.
+
+Pour une analyse complète de ces enjeux, voir notre article sur [l'usage de l'IA dans le recrutement et la paie](/blog/ai-act-rh-tri-cv-paie-pme).
+
+### Cumul de sanctions possible ?
+
+Oui. Le RGPD et l'AI Act sont deux règlements distincts, avec des régimes de sanctions indépendants. Ils ne se substituent pas l'un à l'autre.
+
+> "Une PME utilisant un outil de tri de CV non conforme peut théoriquement recevoir deux sanctions distinctes : une au titre du RGPD (absence de DPA, absence d'information des candidats) et une au titre de l'AI Act (système haut risque non documenté, absence de supervision humaine)."
+
+Les plafonds :
+
+- **RGPD** : jusqu'à 20 millions d'euros ou 4 % du chiffre d'affaires mondial annuel
+- **AI Act** : jusqu'à 35 millions d'euros ou 7 % du CA mondial pour les infractions les plus graves ; 7,5 millions ou 1,5 % pour le manquement à la littératie IA (article 4)
+
+En pratique, la CNIL applique le principe de proportionnalité. Les PME ne sont pas les premières cibles des sanctions les plus lourdes. Mais l'absence totale de démarche de conformité, doublée d'une plainte d'un candidat, constitue un risque réel et documenté.
+
+## Plan d'action RGPD IA PME en 5 étapes pour une PME sans DPO dédié
+
+La conformité RGPD et AI Act ne requiert pas un DPO à plein temps. Elle requiert une démarche structurée, un référent interne désigné, et cinq actions concrètes. Voici le plan d'action RGPD IA PME, réalisable en moins d'une journée de travail.
+
+1. **Inventorier vos outils IA.** Listez dans un tableur tous les outils numériques avec une composante IA : ChatGPT, Copilot, ATS avec scoring, outil de paie prédictif, chatbot, outil d'analyse RH. Pour chaque outil, notez : données personnelles traitées (oui/non), fournisseur, DPA signé (oui/non/inconnu). Comptez 15 minutes par outil.
+
+2. **Signer les DPA manquants.** Pour chaque outil IA traitant des données personnelles sans DPA signé, activez l'accord de sous-traitance dans le portail du fournisseur. OpenAI, Microsoft, Notion, HubSpot, Slack ont des DPA standardisés disponibles. Si un fournisseur n'en propose pas, c'est un signal d'alerte.
+
+3. **Mettre à jour votre registre des traitements.** Ajoutez chaque outil IA comme une ligne dans votre registre RGPD (article 30) : finalité, données, base légale, durée de conservation, sous-traitant avec référence au DPA. Le modèle CNIL est disponible en téléchargement gratuit.
+
+4. **Rédiger une charte d'usage IA.** Une page suffit, structurée en trois parties : (a) la liste des outils IA autorisés dans votre organisation et leurs usages acceptés, (b) les données qui ne doivent jamais être saisies dans un outil IA tiers : données clients identifiantes, données de santé, données de salariés, informations confidentielles, (c) le référent interne à contacter en cas de doute ou d'incident. Faites-la signer ou intégrez-la au règlement intérieur. Cette charte sert aussi de preuve pour l'obligation de littératie IA (AI Act article 4).
+
+5. **Vérifier vos mesures de sécurité de base.** Trois points qui ont valu 5 millions d'euros d'amende à France Travail en janvier 2026 : authentification multifacteur activée sur tous les outils sensibles, habilitations à jour et limitées aux personnes concernées, journalisation des accès en place. Ce sont des obligations de base de l'article 32 RGPD, pas de la haute technologie.
+
+> "Ces cinq étapes ne règlent pas tous les sujets de conformité RGPD d'une PME. Elles adressent les manquements les plus fréquemment sanctionnés et les plus visibles lors d'un contrôle CNIL sur les outils IA."
+
+[Un audit IA permet de cartographier vos risques](/blog/audit-ia-pme-guide-complet) en partant de l'inventaire des outils existants, d'identifier les manquements prioritaires, et de produire un plan d'action séquencé. C'est la version structurée de ces cinq étapes, avec un regard externe.
+
+## Questions fréquentes
+
+### Mon logiciel RH ou ATS fait du tri automatique de CV : suis-je concerné par l'AI Act haut risque ?
+
+Probablement oui. L'AI Act (Annexe III) classe les systèmes IA utilisés pour le filtrage, le classement ou la sélection de candidats dans la catégorie haut risque. Cela s'applique à vous en tant que "deployer" : l'entreprise qui utilise l'outil dans son processus de recrutement. Vos obligations principales sont d'informer les candidats, de maintenir une intervention humaine dans la décision finale, et de vérifier que le fournisseur de l'outil respecte ses propres obligations de conformité AI Act.
+
+### L'obligation de formation IA (AI Act article 4) concerne-t-elle les PME ?
+
+Oui, sans exception de taille. L'article 4 de l'AI Act s'applique à toute organisation qui déploie un système IA, ce qui inclut toute PME utilisant ChatGPT, Copilot, ou un autre outil IA. L'obligation est en vigueur depuis le 2 février 2025. Il ne s'agit pas d'une formation certifiante : une sensibilisation documentée sur les bonnes pratiques d'usage des outils IA utilisés dans votre PME constitue une première base de conformité.
+
+### On n'a pas de DPO : est-ce que cela nous expose automatiquement ?
+
+Non. La désignation d'un DPO est obligatoire uniquement pour certaines catégories d'organisations (traitements à grande échelle de données sensibles, autorités publiques). La grande majorité des PME n'y est pas soumise. L'absence de DPO ne dispense pas des obligations RGPD, mais ne constitue pas en elle-même un manquement. Ce qui compte : désigner un référent interne, tenir un registre des traitements à jour, et signer les DPA avec vos fournisseurs.
+
+### Quelles sont les vraies priorités si on n'a ni DPO ni juriste interne ?
+
+Dans l'ordre : (1) DPA signés avec vos fournisseurs IA, (2) registre des traitements mis à jour, (3) charte d'usage IA formalisée. Ces trois actions couvrent les manquements les plus fréquemment relevés par la CNIL lors des contrôles sur les outils numériques. Elles sont réalisables sans juriste, avec les modèles disponibles sur le site de la CNIL.
+
+### La CNIL peut-elle contrôler une PME de 30 salariés ?
+
+Oui. La CNIL n'a pas de seuil de taille pour déclencher un contrôle. Un contrôle peut être déclenché par une plainte (d'un candidat, d'un salarié, d'un client), par une violation de données notifiée, ou dans le cadre d'un contrôle sectoriel. Les contrôles sur plainte représentent une part importante de l'activité de la CNIL. En 2024, 17 772 plaintes ont été reçues, dont 13 % dans le secteur du travail.
+
+### Comment savoir si mon fournisseur IA propose un DPA ?
+
+Cherchez dans les conditions générales du fournisseur les termes "Data Processing Agreement", "DPA", "Accord de sous-traitance" ou "Data Processing Addendum". OpenAI le propose dans les conditions de ChatGPT Entreprise. Microsoft le propose dans le portail d'administration Microsoft 365. Notion, Slack, HubSpot ont leurs DPA dans leurs portails administrateurs. Si vous ne trouvez pas, contactez le support du fournisseur. L'absence de DPA proposé est un critère de sélection des fournisseurs IA.
+
+### Quel est le délai pour se mettre en conformité avant les contrôles CNIL H2 2026 ?
+
+Les contrôles peuvent intervenir à tout moment du second semestre 2026. Les cinq étapes du plan d'action décrit dans cet article sont réalisables en moins d'une journée. Les DPA manquants peuvent être signés en quelques heures. La charte d'usage IA peut être rédigée en une matinée. Il n'y a pas de délai minimum imposé, mais chaque semaine sans DPA signé est une semaine de manquement documenté.
+
+## Passez à l'action avant que la CNIL ne le fasse à votre place
+
+Les obligations RGPD et AI Act applicables aux PME utilisant des outils IA ne sont pas hors de portée. Elles sont précises, documentées par la CNIL, et réalisables sans équipe juridique dédiée.
+
+Ce qui distingue les entreprises sanctionnées n'est pas la taille ou la sophistication de leurs outils. C'est l'absence de démarche. Pas de registre mis à jour. Pas de DPA signé. Pas de charte interne. Pas de MFA activé. Des manquements basiques, identifiables en une demi-journée d'audit.
+
+Notre **Audit IA Express** cartographie en une journée les outils IA en usage dans votre PME, identifie les manquements RGPD et AI Act, et produit un plan d'action priorisé avec les actions à fort impact. Le rapport de France Travail tient en trois lignes : MFA, journalisation, habilitations. Le vôtre ne devrait pas ressembler à ça.
+
+[Demander un Audit IA Express](/services/audit)`,
+    author: "Laurent Bouzon",
+    date: "15 mai 2026",
+    dateISO: "2026-05-15",
+    readTime: "14 min",
+    category: "Compliance & AI Act",
+    image: "/rgpd-ia-pme-obligations-cnil-2026-hero.png",
+    imageAlt: "Image d'illustration pour l'article \"RGPD IA PME : obligations CNIL 2026 et plan d'action\"",
+    faq: [
+      {
+        question: "Mon entreprise utilise ChatGPT ou Copilot : est-ce que je dois faire quelque chose au titre du RGPD ?",
+        answer: "Oui. Dès lors que vous utilisez un outil IA SaaS qui traite des données personnelles (noms, emails, données RH, données clients), vous êtes responsable de traitement au sens du RGPD. Vous devez signer un DPA (accord de sous-traitance) avec le fournisseur, inscrire l'outil dans votre registre des traitements, définir une base légale, et mettre en place des mesures de sécurité adaptées. L'absence de DPA est un manquement immédiatement sanctionnable.",
+      },
+      {
+        question: "La CNIL va-t-elle vraiment contrôler des PME sur l'IA en 2026 ?",
+        answer: "Les contrôles prioritaires 2026 de la CNIL ciblent d'abord les entreprises qui recrutent à grande échelle. Les PME utilisant un ATS avec tri automatisé de CV ou un scoring de candidats sont directement dans le périmètre. Plus largement, toute plainte d'un candidat ou d'un salarié peut déclencher un contrôle, quelle que soit la taille de l'entreprise : 17 772 plaintes ont été reçues par la CNIL en 2024, dont 13 % dans le secteur du travail.",
+      },
+      {
+        question: "Qu'est-ce que la CNIL va vérifier concrètement dans les contrôles recrutement 2026 ?",
+        answer: "Selon l'annonce du 3 avril 2026, la CNIL vérifiera trois points précis : (1) la présence ou non de décision automatisée dans le traitement des candidatures et le respect de l'article 22 RGPD (droit à l'intervention humaine), (2) l'information délivrée aux candidats sur le traitement de leurs données, (3) les durées de conservation des candidatures non retenues. Si vous utilisez un ATS ou un outil de scoring, ces trois éléments doivent être en ordre.",
+      },
+      {
+        question: "On n'a pas de DPO, on fait comment pour être en règle ?",
+        answer: "La désignation d'un DPO n'est obligatoire que pour certaines catégories d'entreprises (traitement à grande échelle de données sensibles, autorité publique). Une PME ordinaire peut être en conformité sans DPO dédié. Il faut un référent interne (RH, DAF ou DirIT selon l'organisation), un registre des traitements à jour, des DPA signés avec chaque fournisseur IA, et une charte d'usage IA formalisée. Un audit IA permet de structurer cette démarche en une journée.",
+      },
+      {
+        question: "Quelle est la différence entre le RGPD et l'AI Act pour mon entreprise ?",
+        answer: "Le RGPD régit la protection des données personnelles : il s'applique dès que vous traitez des données sur des individus, avec ou sans IA. L'AI Act régit les systèmes d'intelligence artificielle eux-mêmes : il impose des obligations selon le niveau de risque du système (interdit, haut risque, risque limité, risque minimal). Les deux textes se cumulent : utiliser un outil IA qui traite des données personnelles vous soumet simultanément au RGPD et à l'AI Act.",
+      },
+      {
+        question: "Peut-on cumuler une amende RGPD et une amende AI Act ?",
+        answer: "Oui. Les deux règlements sont indépendants et leurs sanctions ne se substituent pas l'une à l'autre. Le RGPD prévoit jusqu'à 20 millions d'euros ou 4 % du chiffre d'affaires mondial. L'AI Act prévoit jusqu'à 35 millions d'euros ou 7 % du CA mondial pour les infractions les plus graves. Une PME utilisant un système de tri de CV automatisé non conforme pourrait théoriquement recevoir deux sanctions distinctes : une au titre du RGPD (traitement des données sans base légale, absence de DPA) et une au titre de l'AI Act (système haut risque non documenté, absence de supervision humaine).",
+      },
+      {
+        question: "Qu'est-ce qu'un DPA et faut-il vraiment en signer un avec OpenAI ou Microsoft ?",
+        answer: "Un DPA (Data Processing Agreement, ou accord de traitement des données) est le contrat qui encadre la relation entre vous (responsable de traitement) et votre fournisseur IA (sous-traitant). Le RGPD l'impose dès que vous confiez des données personnelles à un tiers. OpenAI propose un DPA dans les conditions de ChatGPT Entreprise. Microsoft en propose un dans ses conditions d'utilisation Microsoft 365. Si vous utilisez la version gratuite ou standard sans DPA signé, vous êtes en manquement. C'est un document à signer, pas à négocier de zéro.",
+      },
+    ],
+    howTo: {
+      name: "Plan d'action RGPD IA PME en 5 étapes",
+      description: "Mise en conformité RGPD et AI Act pour une PME de 20 à 250 salariés utilisant des outils IA, sans DPO dédié, en moins d'une journée de travail.",
+      totalTime: "PT8H",
+      steps: [
+        {
+          name: "Etape 1 : Inventorier vos outils IA",
+          text: "Listez dans un tableur tous les outils numériques utilisés dans votre PME qui intègrent une composante IA : ChatGPT, Copilot, ATS avec scoring, outil de paie avec prédiction, chatbot, outil d'analyse RH. Pour chaque outil, notez : données personnelles traitées (oui/non), fournisseur, DPA signé (oui/non/inconnu). Comptez 15 minutes par outil.",
+        },
+        {
+          name: "Etape 2 : Signer les DPA manquants",
+          text: "Pour chaque outil IA traitant des données personnelles sans DPA signé, accédez aux conditions du fournisseur et signez ou activez l'accord de sous-traitance. OpenAI propose un DPA dans ChatGPT Entreprise. Microsoft le propose dans les conditions Microsoft 365 Copilot. Notion, Slack IA, HubSpot IA ont des DPA disponibles dans leurs portails administrateurs. Si le fournisseur ne propose pas de DPA, c'est un signal d'alerte fort.",
+        },
+        {
+          name: "Etape 3 : Mettre à jour votre registre des traitements",
+          text: "Ajoutez chaque outil IA inventorié comme une ligne dans votre registre des traitements RGPD (article 30). Précisez pour chaque ligne : finalité du traitement, catégories de données, base légale (intérêt légitime, contrat, consentement), durée de conservation, sous-traitant (fournisseur IA) avec référence au DPA. Si vous n'avez pas de registre, c'est le moment de le créer : la CNIL met à disposition un modèle tableur gratuit.",
+        },
+        {
+          name: "Etape 4 : Rédiger une charte d'usage IA",
+          text: "Rédigez une charte d'usage des outils IA à destination de vos collaborateurs. Elle doit couvrir : quels outils sont autorisés et dans quels usages, quelles données ne doivent jamais être saisies dans un outil IA tiers (données clients identifiantes, données sensibles, données de salariés), et qui contacter en cas de doute. Une page suffit. Faites-la signer ou intégrez-la au règlement intérieur. C'est aussi la base de votre obligation de littératie IA au sens de l'AI Act article 4.",
+        },
+        {
+          name: "Etape 5 : Vérifier vos mesures de sécurité de base",
+          text: "Contrôlez trois points qui ont valu 5 millions d'euros d'amende à France Travail en janvier 2026 : (1) l'authentification multifacteur (MFA) est-elle activée sur tous vos outils sensibles, y compris vos outils IA ? (2) Les habilitations sont-elles à jour, c'est-à-dire limitées aux personnes qui en ont besoin ? (3) Les accès sont-ils journalisés, permettant de savoir qui a accédé à quoi et quand ? Ces trois mesures sont des obligations de base de l'article 32 RGPD.",
+        },
+      ],
+    },
+  },
+  {
     slug: "formation-ia-pme-comment-prioriser",
     title: "Formation IA en PME : comment prioriser avant d'acheter",
     excerpt:
