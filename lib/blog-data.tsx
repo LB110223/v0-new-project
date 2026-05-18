@@ -35,6 +35,255 @@ export interface BlogArticle {
 
 export const blogArticles: BlogArticle[] = [
   {
+    slug: "budget-ia-pme",
+    title: "Budget IA PME : combien allouer et comment répartir",
+    excerpt:
+      "Budget IA PME : 9 % des PME investissent vraiment dans l'IA. Cadre en 3 enveloppes, fourchettes vérifiées, dispositifs Bpifrance et CII pour financer.",
+    content: `Le budget IA PME désigne l'ensemble des ressources financières qu'une petite ou moyenne entreprise consacre à des projets d'intelligence artificielle produisant un retour mesurable : réduction de coûts, gain de temps opérationnel, amélioration d'un indicateur métier. Cette définition exclut les abonnements à des outils SaaS grand public, qui relèvent de la productivité individuelle, pas de la transformation.
+
+Selon une enquête Bpifrance Le Lab publiée en janvier 2025, seulement 9 % des PME et TPE françaises ont investi dans l'intelligence artificielle au cours des trois dernières années. Parmi elles, 2 % seulement réalisent des investissements réguliers. En parallèle, 31 % utilisent des outils IA, principalement des abonnements SaaS grand public.
+
+Ce fossé entre usage et investissement pose une question directe pour tout dirigeant PME : quand on parle de "budget IA PME", de quoi parle-t-on exactement ? Et surtout, combien faut-il allouer pour que cet investissement produise quelque chose de mesurable ?
+
+## Utiliser l'IA vs investir dans l'IA : une distinction que peu de dirigeants font
+
+Un abonnement ChatGPT à 20 € par mois n'est pas un budget IA PME. C'est un outil de productivité individuelle, au même titre qu'un abonnement à un outil de mise en forme de documents ou à une plateforme de visioconférence.
+
+Le budget IA au sens stratégique commence ailleurs. Il commence quand un projet est relié à un résultat mesurable : réduction du temps de traitement d'un processus, baisse du coût unitaire d'une tâche répétitive, amélioration d'un taux de conversion sur un flux existant. Sans cette connexion, la dépense reste dans la catégorie "expérimentation" et produit rarement un retour sur investissement quantifiable.
+
+Pourquoi cette distinction est-elle importante pour la décision budgétaire ? Parce qu'elle détermine le niveau de rigueur attendu sur les critères de sélection des projets, le choix des prestataires, et la façon dont vous évaluez les résultats. Une enveloppe "expérimentation" se gère différemment d'un investissement sur un processus critique.
+
+> La distinction entre "utiliser l'IA" et "investir dans l'IA" n'est pas sémantique. Elle conditionne la façon dont vous allouez les ressources, choisissez les prestataires, et évaluez les résultats. Pour poser les bases avant d'allouer un budget IA PME, l'[IA pour les PME : le guide pratique pour dirigeants](/blog/ia-pour-pme-guide) fournit le cadrage initial.
+
+La plupart des articles sur le sujet raisonnent en "tarif de prestation" : combien coûte un audit, combien coûte un POC, combien coûte un déploiement. C'est utile pour négocier avec un prestataire. Ce n'est pas un cadre de décision pour un dirigeant qui construit sa ligne budgétaire annuelle.
+
+## Les deux pièges symétriques à éviter
+
+Avant de poser des chiffres, deux erreurs structurelles méritent d'être nommées :
+
+- **Le sous-investissement qui ne produit rien.** Une PME qui alloue 2 000 € à un "projet IA" obtient souvent un proof of concept sans suite opérationnelle, ou une démonstration qui ne passe jamais en production. Le budget était trop contraint pour financer l'intégration, la formation, et la conduite du changement. Résultat : le projet est abandonné, et le dirigeant conclut que "l'IA ne marche pas pour les PME".
+- **Le sur-investissement sans ROI cadré.** À l'opposé, une PME qui engage 80 000 € sur un projet IA sans avoir défini de KPI de succès avant le lancement se retrouve avec un livrable dont elle ne sait pas évaluer la valeur. Les prestataires ont livré, mais l'entreprise n'a pas les outils pour mesurer si l'investissement était justifié.
+
+Ces deux cas de figure ont un point commun : ils surviennent aussi bien dans des entreprises ayant un budget serré que dans celles disposant de ressources. La taille du budget ne protège pas contre une mauvaise priorisation.
+
+> Ces deux pièges ont la même racine : l'absence de priorisation des cas d'usage avant l'engagement budgétaire. C'est précisément ce que permet un audit IA structuré : identifier les leviers à ROI avéré dans votre contexte, avant de choisir combien et où investir. Voir [audit IA pour PME : le guide complet](/blog/audit-ia-pme-guide-complet).
+
+## Une grille en 3 enveloppes
+
+Plutôt qu'une ligne budgétaire unique "IA", une approche en trois enveloppes distinctes donne au dirigeant une lisibilité sur ce qu'il finance et sur le retour attendu de chaque poste.
+
+### Enveloppe 1 : outillage SaaS et formation initiale
+
+**Fourchette annuelle : 500 € à 5 000 €**
+
+Cette enveloppe couvre les abonnements aux outils SaaS IA (assistants génératifs, outils de traitement documentaire, plateformes no-code d'automatisation légère) et la formation initiale des équipes à leur usage productif.
+
+Ce que cette enveloppe finance concrètement :
+
+- Licences d'outils comme Microsoft Copilot, Notion AI, ou des outils sectoriels
+- Sessions de formation pratique pour les collaborateurs (demi-journées terrain, pas des formations théoriques)
+- Expérimentation contrôlée sur des tâches à faible risque (rédaction de synthèses, analyse de documents, préparation de rapports)
+
+Ce que cette enveloppe ne couvre pas : aucun projet d'intégration, aucun développement sur mesure, aucune automatisation de processus métier. L'outillage SaaS produit des gains individuels de productivité. Ce n'est pas de la transformation opérationnelle.
+
+> Le critère de ROI pour cette enveloppe est simple : gain de temps par utilisateur. Si un outil à 30 €/mois fait gagner 2 heures par semaine à un collaborateur dont le coût horaire est de 35 €, le retour sur investissement est visible en moins d'un mois.
+
+### Enveloppe 2 : premier projet structurant
+
+**Fourchette : 15 000 € à 50 000 €**
+
+C'est l'enveloppe qui transforme l'expérimentation en valeur opérationnelle mesurable. Elle finance un projet périmétré : automatisation d'un processus répétitif, assistant documentaire interne basé sur vos données, analyse automatisée d'un flux de données récurrent.
+
+Les postes typiques dans cette enveloppe :
+
+- Cadrage et spécification du périmètre (souvent sous-estimé : 10 à 15 % du budget)
+- Préparation et nettoyage des données (souvent le poste le plus élevé : 20 à 30 % du budget)
+- Développement et intégration par un prestataire spécialisé
+- Tests, recette, et mise en production
+- Formation des utilisateurs métier concernés
+
+Le poste données est systématiquement sous-estimé par les PME qui lancent leur premier projet. Les données existent rarement dans un format directement exploitable. Les nettoyer, les structurer, et les valider peut représenter plus de temps que le développement lui-même.
+
+> Le critère de ROI pour cette enveloppe doit être défini avant le lancement, pas après. Identifiez le KPI métier cible : coût unitaire de traitement d'un dossier, délai moyen de réponse à une demande client, taux d'erreur sur une tâche récurrente. Si ce KPI n'existe pas encore, mesurez-le pendant 4 semaines avant de lancer le projet. Pour aller plus loin sur la méthode de mesure : [comment mesurer le ROI de vos projets d'intelligence artificielle](/blog/roi-intelligence-artificielle-comment-mesurer).
+
+### Enveloppe 3 : accompagnement stratégique et conduite du changement
+
+**Fourchette : 7 500 € à 20 000 €**
+
+Cette enveloppe est la plus souvent négligée dans la construction d'un budget IA PME. Elle couvre ce qui conditionne le succès de l'ensemble : l'audit de maturité initial, le cadrage stratégique, l'accompagnement à la conduite du changement, et la montée en compétence durable des équipes.
+
+Ce que cette enveloppe finance :
+
+- Audit de maturité IA et priorisation des cas d'usage
+- Définition des KPI de succès avant engagement sur les projets
+- Accompagnement des équipes pendant le déploiement (pas uniquement technique)
+- Gouvernance des données et conformité (RGPD, AI Act pour les usages concernés)
+- Capitalisation sur les apprentissages du premier projet
+
+Le plancher de 7 500 € correspond au reste à charge du Diagnostic Data IA de Bpifrance : une prestation de 10 000 € HT sur 8 jours d'expertise, dont 25 % sont pris en charge par Bpifrance pour les PME (source : Bpifrance, conditions en vigueur au 1er janvier 2026). C'est un référentiel concret pour cette catégorie de dépense.
+
+> Budgéter sans accompagnement, c'est souvent l'erreur n°2 des PME après le sous-investissement. La conduite du changement n'est pas un luxe. Sur des projets IA en PME, l'adoption par les équipes est le premier facteur d'échec opérationnel, devant les problèmes techniques.
+
+## Financer votre budget IA PME : les leviers publics sous-utilisés
+
+C'est l'angle le plus absent des guides existants sur le sujet. Les dispositifs publics de financement de l'IA en PME existent, ils fonctionnent, et ils sont sous-utilisés.
+
+Bpifrance s'est engagée à soutenir l'IA à hauteur de 10 milliards d'euros d'ici 2029 (source : Bpifrance, communiqué officiel 2024). Fin 2025, 3,9 milliards d'euros avaient déjà été déployés via France 2030 sur des projets à composante IA, et plus de 600 PME et ETI avaient bénéficié du Diagnostic Data IA (environ 50 demandes par mois selon Bpifrance Presse).
+
+Trois dispositifs méritent l'attention d'un dirigeant PME en 2026 :
+
+1. **Diag Data IA (Bpifrance)** : prestation de 10 000 € HT sur 8 jours d'expertise, prise en charge à 25 % par Bpifrance pour les PME, reste à charge 7 500 € HT (source : Bpifrance, conditions au 1er janvier 2026). C'est le levier le plus direct pour financer l'enveloppe accompagnement.
+
+2. **Prêt Boost Intelligence Artificielle (Bpifrance)** : de 5 000 à 75 000 €, taux variable selon conditions de marché (indicatif : à partir de 4,79 % au 1er janvier 2025, à vérifier sur flash.bpifrance.fr), durée modulable de 3 à 5 ans avec un différé de 12 mois, aucune garantie demandée, décaissement en 48h. Accessible 100 % en ligne. Réservé aux PME de moins de 50 salariés créées depuis plus de 3 ans.
+
+3. **Crédit d'Impôt Innovation (CII)** : 20 % des dépenses éligibles (30 à 40 % pour les DOM et la Corse), plafonné à 400 000 € de dépenses, valable jusqu'au 31 décembre 2027 (source : DGFiP, BOI-BIC-RICI-10-10-45). Applicable aux projets IA sur mesure qui correspondent à la conception de prototypes ou d'installations pilotes.
+
+> Ces trois dispositifs ne s'excluent pas mutuellement. Une PME qui mobilise le Diag Data IA pour cadrer son investissement, le Prêt Boost pour financer le premier projet, et le CII en déclaration fiscale couvre une part substantielle de son budget IA PME d'amorçage. La condition : anticiper, pas attendre d'avoir déjà engagé les dépenses.
+
+La raison pour laquelle ces dispositifs restent sous-utilisés est simple : ils demandent du temps administratif pour les identifier et les constituer. Un accompagnateur externe connaissant ces mécanismes rembourse souvent sa propre prestation par les aides qu'il permet de mobiliser.
+
+## Connecter chaque enveloppe à un ROI mesurable
+
+La grille en 3 enveloppes n'est utile que si chaque poste est relié à un critère de retour sur investissement avant l'engagement. C'est la logique décrite dans le [ROI de l'IA en entreprise : comment mesurer et maximiser votre retour sur investissement](/blog/roi-intelligence-artificielle-entreprise).
+
+Voici la traduction pratique par enveloppe :
+
+**Enveloppe 1 : Outillage SaaS**
+
+- Critère : gain de temps par utilisateur par semaine (à mesurer sur 30 jours)
+- Signal d'alerte : si le gain de temps est inférieur à 1 heure par semaine par utilisateur, l'outil n'a pas été correctement adopté ou ne correspond pas aux tâches réelles
+- Décision de maintien : à 3 mois, si le gain de temps est stable et documenté, renouveler la licence ; sinon, pivoter vers un autre outil
+
+**Enveloppe 2 : Premier projet**
+
+- Critère : KPI métier défini avant le lancement (coût unitaire, délai, taux d'erreur)
+- Signal d'alerte : si le KPI n'a jamais été mesuré avant le projet, la comparaison est impossible
+- Décision de suite : à 6 mois post-déploiement, comparer le KPI avec la baseline pré-projet
+
+**Enveloppe 3 : Accompagnement**
+
+- Critère : coût d'une mauvaise priorisation vs coût du diagnostic
+- Signal d'alerte : si l'entreprise a déjà lancé un projet IA sans ROI mesurable, le coût réel de l'absence d'audit est déjà visible
+- Logique inverse : un Diag Data IA à 7 500 € de reste à charge qui évite un projet de 40 000 € mal cadré produit un ROI de 32 500 €
+
+> La question n'est pas "est-ce qu'on peut se permettre un audit avant d'investir ?". La question est "quel est le coût d'investir sans audit ?"
+
+## Ce que révèle la comparaison internationale
+
+Les organisations les plus matures sur le sujet consacrent une part croissante de leur budget digital aux technologies IA. Selon le McKinsey State of AI (novembre 2025), plus d'un tiers des organisations classées parmi les meilleures pratiques consacrent plus de 20 % de leur budget digital à l'IA.
+
+Ce chiffre est à contextualiser : il reflète des organisations internationales, souvent de grande taille, avec des maturités numériques très différentes de la PME française moyenne. Ce n'est pas un objectif à copier, c'est un indicateur de direction.
+
+Ce que ce benchmark dit aux dirigeants PME :
+
+- L'IA n'est pas un poste qu'on peut ignorer dans la planification budgétaire à 2 ou 3 ans
+- Le delta entre les PME qui investissent (9 %, selon Bpifrance Le Lab, jan. 2025) et celles qui utilisent seulement des outils gratuits (31 %) va se creuser en termes d'avantage concurrentiel
+- Commencer petit et mesurer rigoureusement vaut mieux qu'attendre d'avoir le "bon" budget
+
+Le parallèle avec d'autres vagues technologiques est instructif. Les PME françaises qui ont investi tôt dans les ERP dans les années 2000, ou dans le e-commerce dans les années 2010, ont bénéficié d'un avantage structurel durable sur leurs concurrents. L'IA suit une logique similaire : la fenêtre d'avantage pour les primo-investisseurs n'est pas illimitée.
+
+## Avant de budgéter : la question de la priorisation
+
+La décision budgétaire la plus utile n'est pas de choisir entre 30 000 et 60 000 €. C'est de savoir sur quels cas d'usage allouer les ressources disponibles.
+
+Deux PME avec le même budget IA PME peuvent obtenir des résultats très différents selon que leurs investissements portent sur des processus où l'IA apporte une valeur mesurable, ou sur des périmètres où l'automatisation n'est pas pertinente compte tenu de la structure de leurs données ou de leurs flux opérationnels.
+
+C'est pourquoi l'audit de maturité IA précède logiquement la décision budgétaire. Pas pour retarder l'action, mais pour orienter les ressources sur les leviers à ROI avéré plutôt que sur les sujets qui semblent attractifs en surface.
+
+### Trois questions à poser avant d'engager
+
+Concrètement, un audit de maturité IA répond à trois questions avant toute décision budgétaire :
+
+- **Quels processus sont structurés et documentés ?** C'est le prérequis à toute automatisation. Un processus mal défini ne s'automatise pas, il se digitalise dans le désordre.
+- **Quels KPI sont déjà mesurés ?** Sans mesure de départ, évaluer un retour sur investissement est impossible.
+- **Quels projets ont le rapport impact/complexité le plus favorable dans votre contexte ?** La réponse dépend de vos données, de vos flux opérationnels, de vos ressources internes.
+
+L'[Audit IA Express Smart Impulsion](/services/audit) est conçu pour répondre à cette question en amont : quels sont les 2 ou 3 cas d'usage où un investissement IA dans votre entreprise produit un retour mesurable dans les 6 à 12 mois ? Avec cette priorisation, la décision budgétaire devient beaucoup plus simple à construire et à défendre en interne.
+
+## Questions fréquentes
+
+### Combien une PME doit-elle allouer à l'IA en 2026 ?
+
+Il n'existe pas de budget universel, mais une grille en 3 enveloppes permet de structurer la décision : outillage SaaS (500 à 5 000 €/an), premier projet structurant (15 000 à 50 000 €), accompagnement externe (7 500 à 20 000 €). Le point de départ est toujours un audit des cas d'usage à ROI avéré, pas un tarif de prestataire.
+
+### Quelles aides publiques existent pour financer un projet IA en PME ?
+
+Trois dispositifs principaux : le Diag Data IA de Bpifrance (10 000 € HT, 25 % pris en charge pour les PME, reste à charge 7 500 € HT, conditions au 1er janvier 2026), le Prêt Boost IA Bpifrance (5 000 à 75 000 €, sans garantie, pour PME de moins de 50 salariés), et le Crédit d'Impôt Innovation (20 % des dépenses éligibles, plafonné à 400 000 €, jusqu'au 31 décembre 2027, source : DGFiP).
+
+### Un abonnement ChatGPT compte-t-il comme budget IA ?
+
+Non. Un abonnement à un outil SaaS grand public est un outil de productivité individuelle. Le budget IA PME au sens stratégique commence quand un projet est connecté à un ROI mesurable : gain de temps chiffré, réduction d'un coût identifié, amélioration d'un KPI précis.
+
+### Quel est le premier investissement IA recommandé pour une PME ?
+
+Avant d'engager tout budget projet, un audit IA de maturité permet d'identifier les cas d'usage à ROI avéré dans votre contexte spécifique. Sans cette priorisation, le risque est d'investir sur un sujet où l'IA n'apporte pas de valeur mesurable, ou d'ignorer un levier évident faute de méthode.
+
+### Combien coûte réellement un premier projet IA pour une PME ?
+
+Un premier projet IA périmétré (automatisation d'un processus, assistant documentaire interne, analyse de données récurrente) se situe entre 15 000 et 50 000 € selon la complexité de l'intégration et la qualité des données disponibles. Le poste données est systématiquement sous-estimé : il représente souvent 20 à 30 % du budget total.
+
+### Le Prêt Boost IA Bpifrance est-il accessible à toutes les PME ?
+
+Le Prêt Boost IA est accessible aux PME de moins de 50 salariés créées depuis plus de 3 ans et disposant d'un emprunt bancaire en cours de plus de 3 ans. Il est accessible 100 % en ligne, sans garantie demandée, avec un décaissement en 48h après signature (source : Bpifrance, 2025).
+
+### Comment connecter un budget IA à un ROI mesurable ?
+
+Chaque enveloppe budgétaire doit être associée à un indicateur avant engagement : pour l'outillage SaaS, mesurez le gain de temps par utilisateur ; pour un premier projet, définissez un KPI métier avant le lancement ; pour l'accompagnement, évaluez le coût d'une mauvaise priorisation par rapport au coût du diagnostic.
+
+### Faut-il prévoir un budget IA spécifique pour la conformité AI Act ?
+
+Pour les PME dont les processus entrent dans le périmètre des systèmes à haut risque définis par l'AI Act (RH, crédit, sécurité), la mise en conformité implique des coûts de documentation, d'audit et de gouvernance des données à anticiper dès la phase de cadrage. Pour les usages courants (assistants génératifs internes, automatisation de processus administratifs), l'impact réglementaire direct reste limité en 2026. Pour cadrer ce sujet : [AI Act 2026 : ce que les PME doivent savoir](/blog/ai-act-pme-guide-2026).
+
+## Passez de la théorie à l'action
+
+Construire un budget IA PME solide commence par savoir où concentrer les ressources disponibles. Sans priorisation des cas d'usage, même un budget bien dimensionné peut se disperser sur des projets sans retour mesurable.
+
+Smart Impulsion propose un Audit IA Express qui identifie les 2 à 3 leviers à ROI avéré dans votre entreprise. En 2 à 3 jours, vous repartez avec une cartographie des cas d'usage prioritaires, des fourchettes de ROI par projet, et un premier cadrage budgétaire réaliste.
+
+[En savoir plus sur l'Audit IA Express](/services/audit)`,
+    author: "Laurent Bouzon",
+    date: "18 mai 2026",
+    dateISO: "2026-05-18",
+    readTime: "11 min",
+    category: "Strategie & ROI",
+    image: "/budget-ia-pme-hero.png",
+    imageAlt: "Image d'illustration pour l'article \"Budget IA PME : combien allouer et comment répartir\"",
+    faq: [
+      {
+        question: "Combien une PME doit-elle allouer à l'IA en 2026 ?",
+        answer: "Il n'existe pas de budget universel, mais une grille en 3 enveloppes permet de structurer la décision : outillage SaaS (500 à 5 000 €/an), premier projet structurant (15 000 à 50 000 €), accompagnement externe (7 500 à 20 000 €). Le point de départ est toujours un audit des cas d'usage à ROI avéré, pas un tarif de prestataire.",
+      },
+      {
+        question: "Quelles aides publiques existent pour financer un projet IA en PME ?",
+        answer: "Trois dispositifs principaux : le Diag Data IA de Bpifrance (10 000 € HT, 25 % pris en charge pour les PME, reste à charge 7 500 € HT, conditions 2026), le Prêt Boost IA Bpifrance (5 000 à 75 000 €, sans garantie, pour PME de moins de 50 salariés), et le Crédit d'Impôt Innovation (20 % des dépenses éligibles, plafonné à 400 000 €, jusqu'au 31 décembre 2027, source : DGFiP).",
+      },
+      {
+        question: "Un abonnement ChatGPT compte-t-il comme budget IA ?",
+        answer: "Non. Un abonnement à un outil SaaS grand public (ChatGPT, Copilot, Notion AI) est un outil de productivité individuelle. Le budget IA PME au sens stratégique commence quand un projet est connecté à un ROI mesurable : gain de temps chiffré, réduction d'un coût identifié, amélioration d'un KPI précis. Sans cette connexion à un résultat mesurable, la dépense reste dans la catégorie expérimentation.",
+      },
+      {
+        question: "Quel est le premier investissement IA recommandé pour une PME ?",
+        answer: "Avant d'engager tout budget projet, un audit IA de maturité permet d'identifier les cas d'usage à ROI avéré dans votre contexte spécifique. Sans cette priorisation, le risque est d'investir sur un sujet où l'IA n'apporte pas de valeur mesurable, ou d'ignorer un levier évident faute de méthode.",
+      },
+      {
+        question: "Combien coûte réellement un premier projet IA pour une PME ?",
+        answer: "Un premier projet IA périmétré (automatisation d'un processus, assistant documentaire interne, analyse de données récurrente) se situe entre 15 000 et 50 000 € selon la complexité de l'intégration et la qualité des données disponibles. Le poste données est systématiquement sous-estimé : il représente souvent 20 à 30 % du budget total.",
+      },
+      {
+        question: "Le Prêt Boost IA Bpifrance est-il accessible à toutes les PME ?",
+        answer: "Le Prêt Boost IA est accessible aux PME de moins de 50 salariés créées depuis plus de 3 ans et disposant d'un emprunt bancaire en cours de plus de 3 ans. Il est accessible 100 % en ligne, sans garantie demandée, avec un décaissement en 48h après signature. La fourchette va de 5 000 à 75 000 € à un taux variable selon les conditions de marché (indicatif : à partir de 4,79 % au 1er janvier 2025, à vérifier sur flash.bpifrance.fr).",
+      },
+      {
+        question: "Comment connecter un budget IA à un ROI mesurable ?",
+        answer: "Chaque enveloppe budgétaire doit être associée à un indicateur avant engagement : pour l'outillage SaaS, mesurez le gain de temps par utilisateur ; pour un premier projet, définissez un KPI métier avant le lancement (coût unitaire d'un processus, taux d'erreur, délai de traitement) ; pour l'accompagnement, évaluez le coût d'une mauvaise priorisation par rapport au coût du diagnostic.",
+      },
+      {
+        question: "Faut-il prévoir un budget IA spécifique pour la conformité AI Act ?",
+        answer: "Oui, pour les PME dont les processus entrent dans le périmètre des systèmes à haut risque définis par l'AI Act (RH, crédit, sécurité). La mise en conformité implique des coûts de documentation, d'audit et de gouvernance des données à anticiper dès la phase de cadrage. Pour les usages courants (assistants génératifs internes, automatisation de processus administratifs), l'impact réglementaire direct est limité en 2026, mais la gouvernance des données reste un prérequis.",
+      },
+    ],
+  },
+  {
     slug: "rgpd-ia-pme-obligations-cnil-2026",
     title: "RGPD IA PME : obligations CNIL 2026 et plan d'action",
     excerpt:
