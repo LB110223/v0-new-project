@@ -35,6 +35,310 @@ export interface BlogArticle {
 
 export const blogArticles: BlogArticle[] = [
   {
+    slug: "litteratie-ia-pme-ai-act-article-4",
+    title: "Littératie IA en PME : ce que l'article 4 de l'AI Act impose avant août 2026",
+    seoTitle: "Littératie IA en PME : AI Act article 4 | Smart Impulsion",
+    excerpt:
+      "AI Act article 4 : littératie IA obligatoire pour les PME depuis février 2025. Obligations, plan d'action et financement OPCO pour les dirigeants.",
+    content: `Depuis le 2 février 2025, votre entreprise est soumise à une obligation légale que la plupart des dirigeants de PME ignorent encore. L'article 4 de l'AI Act (Règlement (UE) 2024/1689) impose à tout déployeur de systèmes d'IA de s'assurer que ses collaborateurs disposent d'un niveau suffisant de littératie en matière d'IA. La littératie IA désigne l'ensemble des compétences permettant à un collaborateur de comprendre ce qu'est un système d'IA, comment il fonctionne, et ce qu'implique son utilisation responsable. Si votre entreprise utilise Copilot, un chatbot de service client, ou un outil de recrutement assisté par algorithme, elle est un déployeur au sens du règlement.
+
+Pas une recommandation. Une obligation.
+
+Ce que cela signifie concrètement pour votre organisation, qui est concerné, et par quoi commencer : voici ce que vous devez savoir avant qu'août 2026 ne rende la pression réglementaire plus intense.
+
+
+
+## Ce que l'article 4 de l'AI Act impose exactement
+
+Le texte du règlement (UE) 2024/1689 est sobre. L'article 4 tient en une formulation brève mais contraignante :
+
+> "Les fournisseurs et les déployeurs de systèmes d'IA prennent des mesures pour s'assurer, dans toute la mesure du possible, d'un niveau suffisant de littératie en matière d'IA de leur personnel et de toute autre personne intervenant dans l'exploitation et l'utilisation de systèmes d'IA en leur nom."
+
+Trois mots clés structurent cette obligation : **mesures**, **niveau suffisant**, **personnel**.
+
+### Ce que "mesures" signifie réellement
+
+Le législateur européen n'a pas imposé de format. Ni un nombre d'heures de formation minimum, ni un programme certifiant obligatoire, ni un test à faire passer à vos salariés. L'article 4 est une obligation de moyens, non de résultat. Une session de sensibilisation collective de deux heures, documentée, avec liste de présence et support de formation, constitue déjà une "mesure" au sens du règlement.
+
+Ce que le règlement attend, c'est une démarche proactive et traçable. L'absence totale de trace documentée n'est pas une option défendable.
+
+### Ce que "niveau suffisant" veut dire
+
+Le règlement précise que ce niveau doit être évalué en tenant compte de :
+
+- Les connaissances techniques et l'expérience préalable des collaborateurs concernés
+- Leur formation et leur éducation existantes
+- Le contexte dans lequel les systèmes IA sont utilisés
+- Les personnes ou groupes de personnes sur lesquels les systèmes IA produisent des effets
+
+> La littératie IA au sens de l'AI Act ne vise pas à former des experts en IA. Elle vise à s'assurer que chaque collaborateur qui interagit avec un système IA comprend les limites de cet outil, ses risques potentiels dans son contexte d'usage, et la responsabilité humaine qui demeure dans les décisions prises avec son aide.
+
+### Ce qui n'est PAS dans l'article 4
+
+Le texte n'impose pas :
+
+- De certification obligatoire pour les salariés
+- D'audit externe requis par le règlement
+- De format de documentation standardisé
+- De délai de mise en conformité progressif pour les PME
+
+Sa mise en oeuvre est à la discrétion de l'entreprise, à condition d'être proportionnée et documentée.
+
+
+
+## Fournisseur ou déployeur ? La distinction qui change tout pour les PME
+
+La grande majorité des PME françaises ne développent pas leurs propres systèmes d'IA. Elles utilisent des outils existants : Copilot de Microsoft, des fonctionnalités IA intégrées dans leur logiciel de comptabilité, un chatbot de service client configuré par un prestataire, un outil RH avec scoring automatique des candidatures.
+
+Dans le vocabulaire de l'AI Act, cette réalité a un nom : vous êtes un **déployeur**.
+
+### Deux statuts, deux périmètres d'obligation
+
+L'article 3 du règlement définit clairement les deux rôles :
+
+- **Fournisseur** : toute entité qui développe un système IA et le place sur le marché, ou le met en service sous sa propre marque
+- **Déployeur** : toute personne ou entité utilisant un système IA dans un contexte professionnel, sous sa propre autorité
+
+La très grande majorité des PME françaises sont dans cette situation : elles utilisent des outils IA développés par des tiers, sans avoir elles-mêmes mis sur le marché un système d'IA. Leur périmètre d'obligation est très différent de celui des éditeurs de logiciels.
+
+Les fournisseurs sont soumis aux obligations les plus lourdes : évaluation de conformité, documentation technique, enregistrement auprès des autorités nationales. En tant que déployeur, vous n'avez pas à valider la conformité du logiciel que vous utilisez : c'est la responsabilité de Microsoft ou de l'éditeur de votre outil RH. Votre obligation porte sur vos propres collaborateurs.
+
+### Les outils qui déclenchent l'obligation
+
+Concrètement, l'article 4 s'applique dès lors que votre entreprise utilise :
+
+- Des assistants IA intégrés (Copilot dans Microsoft 365, Gemini dans Google Workspace)
+- Des outils de génération de contenu assistés par IA (rédaction, résumé, traduction automatisée)
+- Des fonctionnalités de scoring ou de recommandation dans un CRM ou un ERP
+- Des chatbots de service client s'appuyant sur un modèle de langage
+- Des outils RH avec analyse automatisée de CV ou d'entretiens
+- Tout outil de prise de décision assistée par un algorithme d'IA
+
+Pour aller plus loin sur la manière dont l'AI Act s'applique aux PME françaises dans sa globalité, consultez [notre guide complet sur l'AI Act pour les PME](/blog/ai-act-pme-guide-2026).
+
+
+
+## Littératie IA en pratique : qui former et sur quoi dans votre organisation
+
+L'ambiguïté volontaire du règlement sur le contenu de la formation peut être déstabilisante. Voici comment la traduire en décisions opérationnelles.
+
+### Qui est concerné dans votre organisation
+
+L'article 4 vise "le personnel et toute autre personne intervenant dans l'exploitation et l'utilisation de systèmes d'IA". En pratique, cela couvre trois catégories distinctes :
+
+1. **Les utilisateurs directs** : toute personne qui utilise quotidiennement un outil IA dans son travail (commerciaux avec Copilot, assistants administratifs avec des outils de génération de texte, RH avec des plateformes de recrutement assistées)
+2. **Les responsables de l'utilisation** : les managers qui supervisent des équipes utilisant des systèmes IA et qui valident ou interprètent les résultats produits
+3. **Les décideurs** : les dirigeants qui définissent la politique d'usage des systèmes IA dans l'entreprise
+
+La bonne approche n'est pas de former tout le monde au même niveau. C'est de calibrer le contenu selon le rôle et l'exposition réelle à des décisions pilotées par l'IA.
+
+### Ce que chaque niveau doit comprendre
+
+Pour les **utilisateurs directs**, le socle minimum comprend :
+
+- Comprendre qu'un outil IA produit des résultats probabilistes, non des certitudes
+- Identifier les biais potentiels dans les résultats (texte généré, recommandations, scores)
+- Savoir quand ne pas faire confiance à un résultat IA sans vérification humaine
+- Connaître les règles internes d'utilisation (données confidentielles, données personnelles, limites d'usage)
+
+Pour les **managers et décideurs**, le niveau doit être supérieur :
+
+- Comprendre les implications réglementaires des outils IA utilisés par leur équipe
+- Savoir identifier un système IA à haut risque (RH, crédit, scoring de performance)
+- Documenter les usages IA dans leur périmètre pour la conformité article 4
+- Comprendre les responsabilités de l'entreprise en tant que déployeur
+
+Deux erreurs fréquentes sont à éviter : surestimer l'obligation (envoyer tout le monde sur un MOOC de 40 heures est disproportionné) ou la sous-estimer (un email avec un lien Wikipédia ne constitue pas une "mesure" au sens du règlement). Pour les PME qui démarrent avec l'IA, une session de sensibilisation de 2 à 4 heures, documentée et adaptée aux outils réellement utilisés, constitue un point de départ défendable. Pour structurer l'usage de l'IA dans vos équipes, lisez notre article sur [comment démarrer avec l'IA en PME](/blog/ia-pour-pme-guide).
+
+
+
+## Le calendrier réel : ce qui est déjà obligatoire, ce qui arrive en août 2026
+
+C'est le point que la quasi-totalité des articles sur l'AI Act ne mentionne pas, et c'est pourtant le plus important.
+
+### Ce qui s'applique depuis le 2 février 2025
+
+L'AI Act est entré en vigueur le 1er août 2024. Mais son calendrier d'application est progressif. Ce que beaucoup ignorent : l'article 4 fait partie du Chapitre I du règlement, qui est entré en application dès le **2 février 2025** (article 113 du règlement).
+
+> L'obligation de littératie IA n'est pas une obligation future. Elle s'applique depuis le 2 février 2025. Si votre entreprise utilise des outils IA et n'a pas pris de mesures depuis cette date, elle est techniquement en défaut depuis plus d'un an.
+
+Avec l'article 4, les pratiques d'IA interdites (article 5) sont également entrées en application à la même date. Si votre entreprise a adopté un outil IA avant février 2025 sans former ses équipes, l'obligation court depuis lors.
+
+### Ce qu'août 2026 change réellement
+
+La date du 2 août 2026 correspond à l'application générale du règlement. À partir de cette date :
+
+- Les obligations pour les systèmes à haut risque entrent pleinement en vigueur (articles 6 à 49)
+- Les obligations de transparence pour certains systèmes IA s'activent (article 50)
+- Les autorités nationales de surveillance deviennent pleinement opérationnelles
+- La pression réglementaire et les inspections seront significativement plus intenses
+
+Août 2026 ne crée pas l'obligation de littératie IA. Elle existait depuis février 2025. Mais elle rend l'environnement réglementaire global plus exigeant, et les entreprises sans documentation de conformité seront exposées à une attention accrue des autorités nationales.
+
+### Un calendrier simplifié pour les PME
+
+| Date | Ce qui s'applique |
+|---|---|
+| 1er août 2024 | Entrée en vigueur de l'AI Act |
+| 2 février 2025 | Application article 4 (littératie IA) et article 5 (pratiques interdites) |
+| 2 août 2026 | Application générale : systèmes à haut risque, transparence, surveillance active |
+
+
+
+## Financement : OPCO, FNE-Formation et dispositifs disponibles pour les PME
+
+L'obligation de littératie IA a un coût. Mais ce coût est financable, souvent intégralement, via les dispositifs existants.
+
+### Les OPCO : votre premier levier
+
+Les Opérateurs de Compétences (OPCO) financent la formation professionnelle en France. La formation à l'IA et à ses implications réglementaires entre dans le périmètre des formations finançables, sous réserve que le prestataire soit certifié Qualiopi.
+
+Ce que vous pouvez faire financer via votre OPCO :
+
+- Sessions de sensibilisation à l'IA et à l'AI Act pour vos équipes
+- Formations approfondies pour les managers et responsables d'équipes utilisant l'IA
+- Modules de formation spécifiques à des outils IA (Copilot, outils sectoriels)
+- Accompagnement externe pour élaborer une politique interne d'usage de l'IA
+
+La démarche est directe : contacter votre OPCO pour valider l'éligibilité du programme envisagé.
+
+### FNE-Formation et CPF
+
+Le **FNE-Formation** couvre les formations IA lors de mutations technologiques, avec une prise en charge pouvant atteindre 100 % des coûts pédagogiques pour les PME en transformation numérique. Le **CPF** finance les formations IA certifiantes pour les salariés souhaitant se former individuellement.
+
+> L'article 62 de l'AI Act impose explicitement aux États membres d'organiser des actions de formation et de sensibilisation spécifiquement adaptées aux PME sur l'application du règlement. Cette disposition crée une base légale pour que des dispositifs d'aide publique française couvrent ces formations dans les années à venir.
+
+### Ordres de grandeur budgétaires
+
+Pour une PME de 20 à 100 salariés :
+
+- Session de sensibilisation collective (demi-journée) : 1 500 à 4 000 euros HT, souvent finançable à 100 % via OPCO
+- Formation approfondie managers (1 journée, prestataire Qualiopi) : 2 500 à 6 000 euros HT, finançable en tout ou partie
+- Accompagnement pour structurer la politique interne et la documentation de conformité : de 1 500 à 8 000 euros HT
+
+Dans tous les cas, contactez votre OPCO avant de sélectionner un prestataire : les taux de prise en charge varient selon les accords de branche. Smart Impulsion, cabinet conseil IA spécialisé pour les PME et ETI françaises, peut vous accompagner pour structurer ce dossier et identifier les dispositifs adaptés à votre situation.
+
+
+
+## Obligation littératie IA : documenter la conformité article 4
+
+En l'absence de format imposé par le règlement, la documentation de conformité à l'article 4 est à construire selon votre propre logique. Mais elle doit exister et être accessible rapidement.
+
+### Pourquoi documenter si l'article 4 n'a pas de sanction directe
+
+C'est la nuance que tout dirigeant de PME doit comprendre. L'article 99 du règlement (celui qui fixe les amendes) liste explicitement les obligations dont la violation est sanctionnable. L'article 4 n'y figure pas. Les amendes pouvant aller jusqu'à 15 M€ ou 3 % du chiffre d'affaires mondial visent d'autres manquements : manquements aux obligations des fournisseurs et déployeurs pour les systèmes à haut risque. Les pratiques interdites (article 5) exposent quant à elles à des sanctions encore plus élevées (35 M€ ou 7 % du CA).
+
+Cela ne signifie pas que l'obligation est optionnelle. Cela signifie que le risque immédiat n'est pas une amende massive. Le risque réel est double :
+
+- **Risque de conformité globale** : en cas d'incident impliquant un système IA (décision automatisée contestée, biais dans un outil RH), l'absence de documentation sur la littératie IA aggrave la situation réglementaire de votre entreprise
+- **Risque réputationnel** : à mesure que les autorités nationales deviennent actives après août 2026, les entreprises sans documentation s'exposeront à une attention accrue des régulateurs et de leurs clients
+
+### Ce que vous devez pouvoir produire
+
+Un dossier de conformité article 4 doit pouvoir répondre à trois questions :
+
+1. Quels systèmes IA sont utilisés dans l'entreprise, par quelles équipes, dans quels contextes ?
+2. Quelles mesures ont été prises pour s'assurer du niveau de littératie IA de ces équipes ?
+3. Quand ces mesures ont-elles été mises en place, et comment sont-elles maintenues dans le temps ?
+
+Concrètement, quatre éléments documentés suffisent :
+
+- Un inventaire des outils IA utilisés (fournisseur, usage, équipes concernées)
+- Les supports de formation utilisés (ordre du jour, date, liste des participants)
+- La politique interne d'usage de l'IA, même sous forme d'une charte d'une page
+- Un mécanisme de mise à jour pour chaque nouvel outil IA déployé
+
+> La règle pratique : si un inspecteur de l'autorité nationale compétente vous demandait demain quelles mesures vous avez prises pour l'article 4, pourriez-vous produire un document en moins de dix minutes ? Si la réponse est non, c'est précisément là que se situe votre priorité.
+
+Ce travail a une valeur opérationnelle en lui-même : il révèle souvent des usages IA non formalisés, des doublons d'outils, et des risques de sécurité des données non identifiés. Pour aller plus loin sur le diagnostic IA structuré, consultez notre article sur [l'audit IA adapté aux PME](/blog/audit-ia-pme-guide-complet).
+
+
+
+## Par où commencer : un plan d'action en 4 étapes pour une PME
+
+L'obligation est réelle mais gérable. Voici un plan d'action opérationnel pour une PME de 20 à 150 salariés qui utilise des outils IA sans avoir encore formalisé sa démarche au titre de l'article 4.
+
+### Étape 1 : Cartographier les usages IA existants (1 à 2 jours)
+
+Avant de former, il faut savoir quoi former. Cette étape consiste à recenser :
+
+- Quels outils IA sont utilisés dans l'entreprise, par outil
+- Quelles équipes les utilisent et dans quels processus précis
+- Quel est le niveau de criticité de l'usage (décision automatisée, aide à la rédaction, analyse de données)
+- Qui sont les fournisseurs et quelle documentation de conformité ils fournissent
+
+Ce recensement peut prendre la forme d'un tableur simple. Il constitue la base de votre inventaire IA au sens de l'article 4, et révèle souvent des usages non formalisés dans les équipes.
+
+### Étape 2 : Évaluer le niveau de littératie existant (1 jour)
+
+Un court questionnaire interne (5 à 10 questions) permet de calibrer le besoin réel. Questions types :
+
+- Savez-vous si l'outil que vous utilisez quotidiennement intègre un composant IA ?
+- Comment vérifiez-vous la fiabilité des résultats produits par cet outil ?
+- Savez-vous quelles données vous ne devez pas entrer dans ces outils ?
+- Avez-vous reçu une formation sur l'utilisation responsable de l'IA ?
+
+Les réponses indiquent où concentrer l'effort et quel niveau d'approfondissement est nécessaire.
+
+### Étape 3 : Mettre en place un programme de sensibilisation calibré (2 à 4 semaines)
+
+Sur la base des résultats de l'étape 2, adaptez le programme :
+
+- Pour les usages courants (Copilot, génération de texte) : une session collective de 2 à 4 heures suffit dans la grande majorité des cas
+- Pour les usages à impact décisionnel (scoring RH, analyse financière assistée) : une formation d'une journée avec un prestataire externe est à privilégier
+- Pour les managers et décideurs : un atelier spécifique sur les implications réglementaires et les responsabilités du déployeur
+
+Documentez chaque session : date, participants, contenu abordé, durée. C'est la pièce centrale de votre dossier de conformité.
+
+### Étape 4 : Formaliser la politique interne et prévoir la mise à jour (1 semaine)
+
+La conformité article 4 n'est pas un événement ponctuel. C'est une obligation continue. Formalisez :
+
+- Une charte d'usage de l'IA interne, même courte : elle démontre l'existence d'un cadre
+- Un mécanisme de revue annuelle des usages IA et du niveau de littératie
+- Un processus d'intégration pour les nouveaux outils IA déployés dans l'entreprise
+- Un point de contact interne responsable du suivi de la conformité IA
+
+> Une PME de 50 personnes utilisant principalement Copilot et un outil de chatbot service client peut être en ordre au titre de l'article 4 en moins d'un mois, avec un budget formation de 3 000 à 5 000 euros, finançable via son OPCO.
+
+
+
+## Agir maintenant, pas en réaction
+
+En 2024, seulement 10 % des entreprises françaises de 10 salariés ou plus déclaraient utiliser l'IA (INSEE Première n°2061, 2025). Chez les petites entreprises de 10 à 49 salariés, ce taux tombait à 9 %. Ces chiffres progressent vite, mais la grande majorité des PME qui ont adopté l'IA l'ont fait sans accompagnement réglementaire structuré.
+
+L'article 4 de l'AI Act change la donne. Pas parce qu'il impose des amendes immédiates. Mais parce qu'il crée une obligation documentable qui, en cas d'incident ou de contrôle, sera le premier élément que les autorités chercheront. Et parce que l'environnement réglementaire autour d'août 2026 rend cette obligation progressivement incontournable.
+
+Pour une PME avec des usages IA standards, se conformer à l'article 4 est accessible et rapide. L'obligation pousse les PME à structurer leurs usages IA et à former leurs équipes à utiliser ces outils efficacement : une bonne pratique de gestion qui se trouve désormais être aussi une exigence réglementaire.
+
+Si vous souhaitez évaluer le niveau de préparation de votre entreprise face aux obligations de l'AI Act, identifier quels systèmes IA utilisés dans vos équipes déclenchent l'obligation de littératie, et ce que vous devez mettre en place en priorité, l'[Audit IA Express de Smart Impulsion](/services/audit) est conçu pour produire ce diagnostic en 3 jours ouvrés.`,
+    author: "Laurent Bouzon",
+    date: "20 mai 2026",
+    dateISO: "2026-05-20",
+    readTime: "10 min",
+    category: "Formation IA",
+    image: "/litteratie-ia-pme-ai-act-article-4-hero.png",
+    imageAlt: "Image d'illustration pour l'article \"Littératie IA en PME : ce que l'article 4 de l'AI Act impose avant août 2026\"",
+    faq: [
+      {
+        question: "Qu'est-ce que la littératie IA selon l'AI Act ?",
+        answer: "La littératie IA désigne l'ensemble des compétences permettant à un collaborateur de comprendre ce qu'est un système d'IA, comment il fonctionne dans les grandes lignes, et ce qu'implique son utilisation responsable. L'AI Act ne fixe pas de niveau précis : il impose une obligation de moyens proportionnée au contexte et aux usages réels dans l'entreprise.",
+      },
+      {
+        question: "Mon entreprise est-elle concernée par l'article 4 de l'AI Act ?",
+        answer: "Oui, si votre entreprise utilise un outil intégrant de l'IA (Copilot, un chatbot de service client, un outil RH assisté par IA), vous êtes un déployeur au sens du règlement. L'article 4 s'applique dès le 2 février 2025 et exige que vos collaborateurs qui utilisent ces outils disposent d'un niveau suffisant de compréhension de l'IA.",
+      },
+      {
+        question: "Quelles sont les sanctions pour non-respect de l'article 4 ?",
+        answer: "L'article 99 du règlement ne prévoit pas de sanction spécifique pour le seul non-respect de l'article 4. Le risque est davantage réputationnel et de conformité globale : en cas d'incident impliquant un système IA, l'absence de littératie documentée peut aggraver la situation. La prudence commande néanmoins d'agir dès maintenant.",
+      },
+      {
+        question: "Quel budget prévoir pour se conformer à l'article 4 ?",
+        answer: "L'obligation est souple : une session de sensibilisation documentée (2-4 heures) peut suffire pour des équipes utilisant des outils IA standards. Des formations plus approfondies (1-2 jours) sont à prévoir si l'usage est intensif. Les OPCO peuvent financer tout ou partie de la formation selon votre secteur et votre taille.",
+      },
+    ],
+  },
+  {
     slug: "budget-ia-pme",
     title: "Budget IA PME : combien allouer et comment répartir",
     excerpt:
