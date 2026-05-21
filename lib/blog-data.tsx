@@ -35,6 +35,247 @@ export interface BlogArticle {
 
 export const blogArticles: BlogArticle[] = [
   {
+    slug: "business-case-ia-pme-trame-codir",
+    title: "Business case IA en PME : trame en 5 blocs pour le CODIR",
+    seoTitle: "Business case IA PME : trame CODIR en 5 blocs",
+    excerpt:
+      "Construire et défendre un business case IA en PME, de la feuille blanche au go/no-go CODIR. Trame en 5 blocs, 4 raisons d'échec, réponses DAF.",
+    content: `Un business case IA PME est un dossier de décision structuré qui justifie un investissement dans un projet d'IA en quantifiant les coûts, les gains attendus et les risques sur un périmètre défini. Il permet au CODIR (Comité de Direction) ou au DAF (Directeur Administratif et Financier) de voter sur une base factuelle plutôt que sur des intuitions.
+
+73% des dirigeants de PME-ETI qui lancent un projet IA l'impulsent eux-mêmes, selon Bpifrance Le Lab (juin 2025). Mais quand vient le moment de présenter le business case IA PME au CODIR ou au DAF, la plupart se retrouvent sans trame chiffrée. Le résultat : une discussion qui tourne en rond pendant des mois, ou un projet lancé trop vite sur des hypothèses fragiles.
+
+La question n'est pas "faut-il faire de l'IA". 58% des dirigeants de PME-ETI françaises considèrent déjà l'IA comme un enjeu pour la pérennité à 3-5 ans (Bpifrance Le Lab, juin 2025). La question est : comment construire un dossier de décision qui tient la route face à un DAF rigoureux, depuis la feuille blanche jusqu'au vote en Comité de Direction.
+
+Ce guide donne la structure. Pas un tutoriel Excel, pas une liste de buzzwords à placer. Une trame de travail testée sur les vrais blocages des PME françaises.
+
+## Pourquoi les business cases IA échouent avant même d'être présentés
+
+Les business cases IA échouent principalement à cause de quatre erreurs de construction, bien avant la présentation au CODIR : absence de baseline mesurable, sous-estimation du coût total, confusion technologie/usage métier, et omission de la conduite du changement.
+
+La plupart des échecs ne surviennent pas en production. Ils se produisent en amont, au moment de la construction du dossier lui-même. Gartner estimait en juillet 2024 qu'au moins 30% des projets d'IA générative seraient abandonnés après la phase de preuve de concept, notamment en raison d'une valeur métier non démontrée dès le départ.
+
+> "At least 30% of generative AI projects will be abandoned after proof of concept by the end of 2025, due to poor data quality, inadequate risk controls, escalating costs or unclear business value."
+> *Rita Sallam, Distinguished VP Analyst, Gartner (juillet 2024)*
+
+Ces abandons ne sont pas des accidents. Quatre causes reviennent de manière systématique.
+
+### Erreur n°1 : promettre des gains sans baseline mesurable
+
+Le dirigeant présente un gain de productivité attendu de 30%, sans avoir mesuré le niveau de productivité actuel. Le DAF demande : "30% de gain sur quoi, exactement ?" La réponse est vague. Le dossier perd toute crédibilité.
+
+Un business case IA solide commence par établir un baseline sur le processus cible, avant d'estimer les gains. Pas l'inverse.
+
+### Erreur n°2 : sous-estimer le coût total de possession
+
+Le devis du prestataire porte sur le développement. Il ne couvre pas la formation des équipes, l'intégration dans le système d'information existant, la maintenance annuelle, les coûts d'API ou de licence du modèle. En PME, le TCO réel dépasse souvent le budget initial de 40 à 60%.
+
+### Erreur n°3 : présenter la technologie avant le cas d'usage métier
+
+"On va déployer une solution d'IA générative pour notre service clients." Cette phrase ne dit rien au DAF. Ce qu'il veut savoir : quel processus précis, combien d'heures économisées, sur quelle équipe, avec quel impact sur quel indicateur financier.
+
+La technologie est un moyen. Le cas d'usage métier est le sujet du business case.
+
+### Erreur n°4 : ignorer la conduite du changement
+
+57% des responsables ayant vécu au moins un échec de projet IA expliquent que leur initiative a échoué parce qu'ils attendaient trop, trop vite, en supposant que l'IA automatiserait immédiatement des tâches complexes sans préparation organisationnelle (Gartner, avril 2026).
+
+> "57% of I&O leaders who reported at least one failure said their AI initiatives failed because they expected too much, too fast. They assumed AI would immediately automate complex tasks, cut costs, or fix long-standing operational issues."
+> *Melanie Freeze, Director of Research, Gartner (avril 2026)*
+
+Le changement de méthode de travail pour les équipes concernées doit apparaître dans le business case. S'il n'y est pas, le DAF le verra comme un angle mort.
+
+## La trame en 5 blocs du business case IA PME
+
+Pour construire un business case IA en PME, structurez votre dossier en 5 blocs : périmètre fonctionnel, coût total de possession (TCO), gains attendus en 3 scénarios, risques et plan de mitigation, jalons de décision go/no-go. Chaque bloc répond à une question précise que votre CODIR posera.
+
+Un business case IA en PME ne nécessite pas 80 diapositives. Il nécessite 5 blocs bien construits, chacun répondant à une question précise que votre CODIR va poser.
+
+Pour approfondir l'identification des cas d'usage à fort potentiel avant de chiffrer, consultez notre article sur les [cas d'usage IA par métier](/blog/cas-usage-ia-pme-par-metier).
+
+### Bloc 1 : Périmètre fonctionnel
+
+Ce bloc répond à la question : "Sur quel problème précis travaille-t-on ?" Il cadre le processus cible, son volume et son KPI (indicateur clé de performance) de succès.
+
+Trois questions à documenter :
+
+- Quel processus exact est ciblé (nom du processus, équipe concernée, volume traité par mois) ?
+- Quel est le baseline actuel mesurable (heures passées, taux d'erreur, délai de traitement) ?
+- Quel KPI de succès sera suivi après déploiement ?
+
+**Exemple illustratif.** Une PME industrielle de 50 salariés cible son processus de facturation fournisseurs : 120 factures par mois, traitement manuel de 35 minutes par facture, taux d'erreur de 8%. Le KPI cible : réduire le temps de traitement de 35 à 20 minutes et le taux d'erreur à moins de 2%.
+
+Sans ce bloc, tout le reste du dossier est fragilisé.
+
+### Bloc 2 : Coût total de possession réaliste
+
+Ce bloc répond à la question : "Combien ça coûte vraiment ?" Le TCO (Total Cost of Ownership, soit le coût total de possession) d'un projet IA PME va au-delà du devis prestataire : il inclut l'intégration, la formation, la maintenance et les licences récurrentes.
+
+Le TCO d'un projet IA PME comprend plusieurs postes :
+
+- Développement ou paramétrage de la solution (selon les prestataires du secteur, de 15 000 à 50 000 EUR HT pour un projet métier standard)
+- Intégration dans le système d'information existant (ERP, CRM)
+- Formation des équipes utilisatrices
+- Maintenance et évolutions sur 12 mois
+- Coûts récurrents (licences, API, hébergement)
+
+**À déduire pour obtenir le coût net :**
+
+- Le Diag Data IA Bpifrance (total 10 000 EUR HT, reste à charge PME 7 500 EUR HT sur 8 à 10 jours de diagnostic) peut constituer la première phase du projet et sera intégré au TCO.
+- Selon les OPCO et les secteurs, la prise en charge formation IA peut atteindre plusieurs milliers d'euros par participant pour les PME de moins de 50 salariés. À vérifier selon votre secteur auprès de votre OPCO.
+
+**Toujours présenter le TCO sur 3 ans**, pas seulement sur l'année 1. C'est sur 3 ans que le ROI se compare à des alternatives (recruter un ETP supplémentaire, externaliser le processus).
+
+### Bloc 3 : Gains attendus chiffrés en 3 scénarios
+
+Ce bloc répond à la question : "Qu'est-ce qu'on gagne, dans le meilleur et le pire des cas ?"
+
+Présentez systématiquement trois scénarios. Ne choisissez pas un chiffre unique.
+
+1. **Scénario prudent** : 15% de gain de temps sur le processus cible, aucun autre bénéfice comptabilisé
+2. **Scénario central** : 25% de gain de temps, réduction des erreurs de 50%, légère amélioration de la satisfaction équipe
+3. **Scénario optimiste** : 35% de gain de temps, extension possible à un second processus en année 2
+
+Ces fourchettes sont cohérentes avec les données McKinsey : seuls 39% des organisations mesurent un impact EBIT lié à l'IA au niveau global, et parmi elles, moins de 5% de l'EBIT leur est en moyenne attribuable (McKinsey, The State of AI in 2025, novembre 2025, n=1 993 organisations).
+
+> "Just 39 percent report EBIT impact at the enterprise level. Most of those respondents say that less than 5 percent of their organization's EBIT is attributable to AI use."
+> *McKinsey & Company, The State of AI in 2025 (novembre 2025)*
+
+Travailler avec le scénario prudent pour le calcul de rentabilité. Si le projet est rentable dans ce scénario, il est défendable en CODIR. S'il n'est rentable qu'en scénario optimiste, vous prenez un risque de crédibilité.
+
+Pour aller plus loin sur la méthodologie de calcul du ROI après déploiement, notre article sur la [méthodologie pas à pas de mesure du ROI IA](/blog/roi-intelligence-artificielle-comment-mesurer) détaille les indicateurs à suivre.
+
+### Bloc 4 : Risques et plan de mitigation
+
+Ce bloc répond à la question : "Qu'est-ce qui peut mal tourner ?"
+
+Un dossier sans analyse des risques est un dossier naïf. Votre DAF l'identifiera immédiatement.
+
+Les risques à documenter :
+
+- Qualité des données en entrée (données incomplètes, non structurées, historiques insuffisants)
+- Résistance au changement des équipes utilisatrices
+- Dépendance à un prestataire unique
+- Évolution réglementaire (AI Act, article 4 sur la littératie IA en vigueur depuis août 2025)
+- Dérive des coûts en cours de projet
+
+Pour chaque risque identifié, documentez une mesure de mitigation et son coût si applicable.
+
+### Bloc 5 : Jalons de décision go/no-go
+
+Ce bloc répond à la question : "Quand est-ce qu'on décide de continuer ou d'arrêter ?"
+
+C'est le bloc le plus souvent oublié. C'est aussi celui qui rassure le plus votre DAF.
+
+Proposez un point de go/no-go à 3 mois, avec des critères objectifs :
+
+- Le baseline établi en Bloc 1 a-t-il été atteint à 80% ?
+- Le coût de déploiement est-il dans l'enveloppe prévue (marge de 15%) ?
+- Les utilisateurs ont-ils adopté l'outil à un taux minimum (à définir selon le processus) ?
+
+Si les trois critères sont verts à 3 mois : on continue. Si l'un d'eux est rouge : on révise ou on arrête. Cette clause de sortie explicite transforme un engagement ouvert en investissement géré.
+
+Seulement 28% des projets IA dans les directions infrastructure et opérations réussissent pleinement selon Gartner (avril 2026). Le point de go/no-go à 3 mois est précisément le mécanisme qui sépare les organisations qui récupèrent rapidement d'un projet raté de celles qui s'enlisent pendant 18 mois.
+
+## Les deux objections classiques du DAF, avec des réponses chiffrées
+
+Votre dossier est prêt. Les deux objections les plus fréquentes du DAF face à un business case IA sont "le ROI est incertain" et "on n'a pas les données". Les deux ont des réponses chiffrées, à condition d'avoir anticipé ces points dans votre trame.
+
+### Objection 1 : "C'est trop cher et le ROI est incertain"
+
+La réponse n'est pas de défendre le chiffre. C'est de montrer que vous avez anticipé l'incertitude.
+
+Présentez le TCO net (après aides BPI et OPCO), et appuyez-vous sur le scénario prudent uniquement. Calculez le seuil de rentabilité : à partir de combien de mois le gain de temps compense-t-il le coût d'investissement ?
+
+**Sur l'exemple illustratif facturation (scénario prudent) :**
+
+- Périmètre : 120 factures par mois, 35 min de traitement manuel par facture
+- Gain retenu : 15 min gagnées par facture = 30 heures par mois
+- Économie mensuelle : 30h x 25 EUR chargé = 750 EUR, soit 9 000 EUR par an
+- TCO net : 25 000 EUR (après aides)
+- Seuil de rentabilité : 33 mois dans le scénario prudent
+
+Ce calcul peut paraître modeste. Mais il est défendable. Et votre DAF préfère un dossier conservateur à un dossier optimiste qui s'effondre au premier trimestre de déploiement.
+
+Complétez par le rappel du contexte marché : 26% des TPE-PME françaises utilisaient l'IA en 2025, contre 13% en 2024 (Baromètre France Num 2025). La fenêtre de différenciation concurrentielle existe, mais elle se referme.
+
+> "Le nombre de TPE/PME utilisant des solutions d'intelligence artificielle a doublé en un an, atteignant 26%."
+> *Baromètre France Num 2025 (DGE/Crédoc, n=11 021 entreprises, publication septembre 2025)*
+
+### Objection 2 : "On n'a pas les données / l'infrastructure"
+
+43% des dirigeants de PME-ETI n'analysent pas leurs données pour piloter leur activité (Bpifrance Le Lab, juin 2025). Ce n'est pas une exception. C'est la norme.
+
+La réponse à cette objection n'est pas de minimiser le problème. C'est de le quantifier et de le mettre en première étape du plan.
+
+La dette data a une réalité connue : elle se diagnostique et se traite. Le Diag Data IA Bpifrance est précisément conçu pour cela :
+
+- Durée : 8 à 10 jours de diagnostic sur 3 mois maximum
+- Coût : 10 000 EUR HT total, reste à charge PME 7 500 EUR HT (prise en charge BPI 25%)
+- Livrables : état des données, cas d'usage prioritaires, estimation de gains, feuille de route
+
+"On n'a pas les données" n'est pas une raison de ne pas démarrer. C'est le point de départ du business case.
+
+Pour un aperçu complet de ce que couvre un audit IA en PME, notre [guide complet de l'audit IA pour PME](/blog/audit-ia-pme-guide-complet) détaille les étapes, les livrables et ce qu'il faut en attendre.
+
+## L'audit comme socle du business case : construire sur du factuel
+
+Un business case IA s'appuie sur des hypothèses. Un diagnostic préalable, comme l'Audit IA Express proposé par Smart Impulsion, fournit les données factuelles qui rendent ces hypothèses défendables en CODIR.
+
+### Ce que l'Audit IA Express apporte à votre dossier
+
+L'Audit IA Express Smart Impulsion produit trois livrables qui alimentent directement votre trame en 5 blocs :
+
+- Cartographie des processus à fort potentiel IA (alimente le Bloc 1, périmètre)
+- Évaluation de la maturité de vos données et identification des manques (alimente le Bloc 4, risques)
+- Estimation de gains plausibles sur les cas d'usage prioritaires (alimente le Bloc 3, scénarios)
+
+L'audit n'est pas un achat séparé. Il est le premier jalon du business case. Son coût s'intègre dans le TCO du Bloc 2. Et il réduit l'incertitude sur les gains attendus, ce qui rend votre scénario prudent beaucoup plus crédible face à votre DAF.
+
+[Démarrez par un Audit IA Express](/services/audit) pour disposer d'une base factuelle avant de construire votre dossier CODIR.
+
+Pour comprendre comment structurer la mesure du ROI IA dans la durée, notre article pilier sur le [ROI de l'IA en entreprise](/blog/roi-intelligence-artificielle-entreprise) donne les grandes lignes de la méthode.
+
+## Le business case est un processus, pas un document
+
+Le dossier que vous présentez au CODIR n'est pas la fin du travail. C'est le début d'un pilotage rigoureux.
+
+Un business case IA PME bien construit ne dure pas 18 mois de délibération. Il prend 3 à 6 semaines à structurer, et il aboutit à un vote clair sur un périmètre limité, avec un point de go/no-go à 3 mois.
+
+Ce qui différencie les PME qui avancent de celles qui restent en attente n'est pas le niveau de maturité IA de départ. C'est la rigueur du dossier de décision. INSEE Première n°2061 montrait en 2025 que seules 10% des entreprises françaises de 10 salariés ou plus utilisaient au moins une technologie d'IA, contre 13% dans la moyenne européenne. L'écart avec nos voisins européens s'explique en partie par l'absence de processus de décision structuré au niveau direction.
+
+> "En 2024, 10% des entreprises françaises de 10 salariés ou plus déclarent utiliser au moins une technologie d'intelligence artificielle."
+> *INSEE Première n°2061 (publication 2025)*
+
+La bonne décision n'est pas forcément un "go". Parfois le business case révèle que les données ne sont pas prêtes, que le processus cible n'est pas le bon, ou que le coût net ne se justifie pas encore. Ce résultat est utile. Il vaut mieux six semaines de travail qui aboutissent à "pas maintenant, voici pourquoi" que dix-huit mois d'hésitation collective suivis d'un déploiement raté.
+
+Le premier pas est le plus structurant. Construisez d'abord le périmètre. Le reste suit.`,
+    author: "Laurent Bouzon",
+    date: "21 mai 2026",
+    dateISO: "2026-05-21",
+    readTime: "10 min",
+    category: "Strategie & ROI",
+    image: "/business-case-ia-pme-trame-codir-hero.png",
+    imageAlt: "Image d'illustration pour l'article \"Business case IA en PME : trame en 5 blocs pour le CODIR\"",
+    faq: [
+      {
+        question: "Combien de temps faut-il pour construire un business case IA en PME ?",
+        answer: "Entre 3 et 6 semaines, selon la disponibilité des données internes. La phase de diagnostic (identifier le processus cible et établir un baseline mesurable) prend généralement 1 à 2 semaines. La structuration financière en 5 blocs et la préparation de la présentation CODIR occupent les semaines suivantes. Un Audit IA Express préalable réduit cette durée en fournissant directement les données nécessaires au bloc 'Périmètre' et au bloc 'Gains attendus'.",
+      },
+      {
+        question: "Quel budget prévoir pour un premier projet IA en PME ?",
+        answer: "Selon les prestataires du secteur, un premier projet IA métier standard en PME (automatisation d'un processus, assistant documentaire, analyse de données) se situe entre 15 000 et 50 000 EUR HT. Ce budget doit être ajusté des aides disponibles : le Diag Data IA Bpifrance couvre 25% du diagnostic préalable (reste à charge 7 500 EUR), et selon les OPCO et les secteurs, la prise en charge formation peut atteindre plusieurs milliers d'euros par participant. Le TCO réel est souvent inférieur de 20 à 30% au devis brut.",
+      },
+      {
+        question: "Comment présenter un business case IA à un DAF sceptique ?",
+        answer: "Trois points font la différence face à un DAF sceptique. Premier point : ne pas promettre un ROI global, mais un gain mesurable sur un processus précis avec un baseline établi avant le projet. Deuxième point : inclure un point de sortie explicite (go/no-go à 3 mois avec critères chiffrés). Troisième point : intégrer le scénario prudent (15% de gain de temps) comme base de calcul, pas le scénario optimiste. Le DAF doit voir que vous avez anticipé les risques, pas que vous avez vendu du rêve.",
+      },
+      {
+        question: "Quelle est la différence entre un business case d'exploration et un business case d'industrialisation ?",
+        answer: "Le business case d'exploration cible un premier projet délimité, sur 3 mois, avec un budget indicatif de 10 à 30 000 EUR. L'objectif est de prouver la valeur sur un périmètre restreint avant de décider d'élargir. Le business case d'industrialisation vise un déploiement multi-métiers sur 12 à 24 mois, avec un budget de 60 à 150 000 EUR. Il suppose que la preuve de valeur a été faite. En PME, commencer par l'exploration est quasi systématiquement la bonne stratégie.",
+      },
+    ],
+  },
+  {
     slug: "litteratie-ia-pme-ai-act-article-4",
     title: "Littératie IA en PME : ce que l'article 4 de l'AI Act impose avant août 2026",
     seoTitle: "Littératie IA en PME : AI Act article 4 | Smart Impulsion",
