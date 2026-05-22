@@ -1,4 +1,0 @@
-# pnpm 11+ : configuration des build scripts autorisés
-# (anciennement dans package.json sous "pnpm.onlyBuiltDependencies")
-onlyBuiltDependencies:
-  - sharp
