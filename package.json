@@ -63,8 +63,8 @@
     "vaul": "^1.1.2",
     "zod": "3.25.76"
   },
-  "pnpm": {
-    "onlyBuiltDependencies": ["sharp"]
+  "engines": {
+    "pnpm": ">=9"
   },
   "devDependencies": {
     "@types/node": "^22",
