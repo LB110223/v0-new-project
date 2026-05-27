@@ -35,6 +35,245 @@ export interface BlogArticle {
 
 export const blogArticles: BlogArticle[] = [
   {
+    slug: "gouvernance-ia-entreprise-registre-politique-dpo",
+    title: "Gouvernance IA en entreprise : registre, politique d'usage et DPO",
+    excerpt:
+      "Gouvernance IA entreprise : registre IA PME, politique d'usage interne et rôle du DPO face à l'AI Act. Prêt avant août 2026.",
+    content: `En 2025, 26% des TPE et PME françaises utilisent l'IA, soit le double de 2024, selon le Baromètre France Num 2025 du Ministère de l'Économie. Mais dans 87% des entreprises, aucune politique interne ne définit les règles d'utilisation de ces outils, selon l'étude YouGov réalisée pour Salesforce auprès de 14 000 salariés dans 14 pays.
+
+L'adoption accélère. La gouvernance IA, elle, n'a pas suivi.
+
+Ce décalage n'est plus seulement un risque managérial. À partir du 2 août 2026, les obligations de l'AI Act entrent pleinement en vigueur pour les systèmes IA à haut risque. Et même les PME qui utilisent de l'IA tierce, sans en être fournisseurs, ont des responsabilités précises à assumer en matière de conformité IA 2026.
+
+Cet article vous donne trois outils concrets pour combler ce vide de gouvernance IA avant l'échéance : le registre IA PME, la politique d'usage interne, et le positionnement de votre DPO comme garant de la conformité. Pour comprendre le cadre réglementaire général, l'article [AI Act 2026 : ce que les PME doivent savoir (et faire) avant août](/blog/ai-act-pme-guide-2026) pose les fondations. Ici, on descend au niveau opérationnel.
+
+
+## Ce que l'AI Act impose concrètement à une PME utilisatrice d'IA
+
+La confusion la plus fréquente chez les dirigeants PME tient à une question simple : "L'AI Act me concerne-t-il vraiment ?" Et plus directement : "Quelle gouvernance IA dois-je mettre en place ?"
+
+La réponse dépend de votre position dans la chaîne de valeur IA.
+
+### Fournisseur ou déployeur : une distinction qui change tout
+
+Dans le vocabulaire de l'AI Act, un **fournisseur** est l'entité qui développe ou met sur le marché un système IA. Un **déployeur** (ou utilisateur professionnel) est l'entité qui utilise ce système dans un contexte professionnel, sans l'avoir construit. La gouvernance IA à mettre en place diffère selon cette position.
+
+La très grande majorité des PME françaises appartient à cette seconde catégorie. Votre entreprise utilise ChatGPT, Microsoft Copilot, un outil RH avec notation automatique, ou un logiciel de gestion financière intégrant de l'IA ? Vous êtes déployeur.
+
+Cette distinction change substantiellement vos obligations :
+
+- **Fournisseur d'un système IA à haut risque** : obligations lourdes comprenant le système de gestion des risques (art. 9), le système de management qualité documenté (art. 17), le marquage CE, le registre EU et la déclaration de conformité.
+- **Déployeur d'un système IA à haut risque** : obligations allégées mais réelles, à savoir vérifier que votre fournisseur respecte ses propres obligations, documenter vos mesures de supervision humaine et former vos équipes.
+- **Utilisateur d'un système IA à risque limité ou nul** : pas d'obligation formelle au titre de l'AI Act, mais les bonnes pratiques de gouvernance IA (registre, politique d'usage) restent pertinentes pour maîtriser le Shadow AI.
+
+### Qu'impose l'article 4 de l'AI Act, déjà applicable depuis août 2025 ?
+
+*L'article 4 de l'AI Act est une obligation de littératie IA : tous les fournisseurs et déployeurs doivent s'assurer que leur personnel dispose des compétences nécessaires pour utiliser, superviser ou rejeter les sorties des systèmes IA qu'ils manipulent. Elle est en vigueur depuis le 2 août 2025.*
+
+Avant de parler d'août 2026, une obligation est déjà active depuis le 2 août 2025 : l'article 4 de l'AI Act impose à tous les fournisseurs et déployeurs de s'assurer que leur personnel dispose du niveau de compétences IA nécessaire à l'exercice de leurs fonctions.
+
+Ce n'est pas une obligation de formation lourde. C'est une obligation de preuve : si la CNIL vous contrôle, vous devez être en mesure de démontrer que vos collaborateurs savent comment utiliser les outils IA qu'ils manipulent, quelles données ils peuvent y saisir, et quand ils doivent valider ou rejeter une sortie automatisée.
+
+> L'article 4 de l'AI Act est en vigueur depuis le 2 août 2025. Il impose à tous les fournisseurs et déployeurs de s'assurer que leur personnel dispose du niveau de compétences IA nécessaire. Source : texte consolidé AI Act, ai-act-service-desk.ec.europa.eu.
+
+La politique d'usage interne, abordée dans la troisième section, est précisément le document qui vous permet de remplir cette obligation sans déployer un programme de formation coûteux.
+
+### Ce qu'imposent les articles 9 et 17 aux déployeurs
+
+L'article 9 impose aux fournisseurs un système continu de gestion des risques. En tant que déployeur, vous n'avez pas à construire ce système, mais vous devez **vérifier que votre fournisseur l'a fait** et obtenir les justificatifs correspondants.
+
+L'article 17 § 2 est la disposition de proportionnalité clé pour les PME : il précise que la mise en oeuvre du système de management qualité doit être proportionnée à la taille de l'organisation. Pour une PME déployeuse au sens de l'AI Act déployeur PME, s'inspirer de cet article pour structurer sa gouvernance IA interne est une bonne pratique qui peut être invoquée en cas de contrôle.
+
+> La bonne question à poser à votre fournisseur d'IA n'est pas "est-ce conforme ?" mais "pouvez-vous me fournir la documentation de votre système de gestion des risques AI Act ?"
+
+
+## Le registre IA : votre inventaire de bonne foi
+
+Si vous deviez n'implémenter qu'un seul outil de gouvernance IA entreprise avant août 2026, ce serait le registre IA PME.
+
+### Qu'est-ce qu'un registre IA et en quoi diffère-t-il du registre RGPD ?
+
+*Un registre IA est un inventaire structuré de tous les systèmes d'intelligence artificielle utilisés dans votre organisation : outil par outil, finalité par finalité, avec leur niveau de risque AI Act et les mesures de supervision humaine associées. Ce n'est pas le registre des traitements RGPD, mais les deux documents sont complémentaires.*
+
+Premier pilier d'une gouvernance IA solide, le registre IA ne doit pas être confondu avec vos obligations RGPD existantes. Votre entreprise tient déjà un registre des traitements au titre de l'article 30 du RGPD. Ce registre recense les finalités de traitement des données personnelles, les bases légales, les durées de conservation et les destinataires.
+
+Le registre IA est différent. Il recense les **systèmes IA que vous utilisez**, indépendamment de la question des données personnelles. Certains systèmes IA ne traitent pas de données personnelles et figurent quand même dans le registre IA. D'autres font l'objet d'une fiche dans les deux registres, avec des informations complémentaires dans chacun.
+
+La CNIL a publié 13 fiches pratiques sur l'IA et le RGPD. Aucune n'est spécifiquement dédiée au registre IA AI Act : c'est un vide documentaire de gouvernance IA que les PME doivent combler elles-mêmes.
+
+### Les 6 champs minimaux d'une fiche système IA
+
+Pour chaque système IA utilisé dans votre entreprise, documentez a minima :
+
+1. **Nom du système et fournisseur** : désignation commerciale, éditeur, version utilisée.
+2. **Finalité métier** : à quoi sert cet outil dans votre organisation ? Qui l'utilise ?
+3. **Données traitées** : catégories de données saisies ou générées, qu'il s'agisse de données personnelles, de données confidentielles ou de données clients.
+4. **Classification de risque AI Act** : risque nul, limité, haut, ou inacceptable. Pour les systèmes à haut risque (Annexe III), précisez le domaine concerné : RH, crédit, sécurité.
+5. **Mesures de supervision humaine en place** : qui valide les sorties automatisées ? Quelle procédure en cas d'anomalie ?
+6. **Statut de conformité fournisseur** : avez-vous obtenu la documentation AI Act de votre fournisseur ? Indiquez la date de vérification.
+
+> "Sans ce registre, la preuve de bonne foi lors d'un contrôle CNIL est impossible." -- Village-Justice, Jeremy Couchet, 2025
+
+> Un registre IA bien tenu répond à une seule question : si la CNIL contrôle votre entreprise demain, pouvez-vous démontrer que vous savez quels systèmes IA vous utilisez, pourquoi, et avec quelles précautions ? Sans ce document, la réponse est non par défaut.
+
+### Le Shadow AI : commencer par ce que vous ne voyez pas
+
+L'étude YouGov/Salesforce de décembre 2023, menée auprès de 14 000 salariés dans 14 pays, révèle que 58% des employés utilisent des outils d'IA non approuvés par leur employeur. Plus préoccupant : 49% ont recours à des outils que leur entreprise a explicitement interdits.
+
+Avant de rédiger votre registre IA PME, commencez par cartographier ce que vos équipes utilisent réellement. Cette cartographie du Shadow AI est souvent la première étape de la gouvernance IA, décrite dans le [Guide complet Audit IA pour PME](/blog/audit-ia-pme-guide-complet) : elle révèle des usages non maîtrisés, des données confidentielles potentiellement exposées, et parfois des systèmes à haut risque utilisés sans supervision.
+
+La cartographie du Shadow AI peut se faire simplement : un questionnaire anonyme par département, complété par une analyse des licences logicielles actives et une revue des accès réseau. Ce n'est pas un audit technique lourd. C'est une démarche de transparence managériale.
+
+
+## La politique d'usage IA : ce document que 87% des entreprises n'ont pas
+
+Repartons du chiffre : selon l'étude YouGov/Salesforce de 2023 menée auprès de 14 000 salariés dans 14 pays, 87% des salariés interrogés déclarent que leur employeur n'a pas de politique clairement définie sur l'IA générative. Ce n'est pas une statistique sur la technologie. C'est une statistique sur le management et sur l'absence de gouvernance IA structurée.
+
+### Qu'est-ce qu'une politique d'usage IA et que doit-elle contenir ?
+
+*Une politique d'usage IA est le document interne qui définit, pour l'ensemble des collaborateurs, quels outils IA sont autorisés, dans quelles conditions, quelles données ne peuvent jamais y être saisies, et qui est responsable en cas d'incident. Pour une PME, ce document peut tenir en deux à cinq pages.*
+
+La politique d'usage IA n'est pas un règlement intérieur supplémentaire, ni un document juridique réservé aux grandes structures. L'objectif n'est pas l'exhaustivité : c'est la clarté.
+
+### Les 5 règles fondatrices d'une politique d'usage IA
+
+Deuxième pilier de la gouvernance IA en entreprise, la politique d'usage définit les règles opérationnelles que tout collaborateur doit respecter. Toute politique d'usage IA adaptée à une PME doit couvrir au minimum ces cinq domaines :
+
+- **Les outils autorisés, encadrés et interdits** : une liste nominative des outils approuvés, avec leurs conditions d'usage. Les outils non listés sont considérés comme non autorisés jusqu'à validation.
+- **Les règles sur les données sensibles** : quelles catégories de données ne doivent jamais être saisies dans un outil IA externe ? Données clients, données financières, données RH, informations couvertes par un NDA. Définissez les lignes rouges explicitement.
+- **L'obligation de vérification humaine** : aucune sortie IA ne doit être transmise à un client, intégrée à un document contractuel ou utilisée pour une décision à enjeu sans relecture humaine préalable. Ce principe doit être formalisé et tracé.
+- **Les responsabilités et circuits d'escalade** : qui approuve l'ajout d'un nouvel outil IA ? Qui doit être prévenu en cas d'incident ? Quel est le délai de réponse attendu ?
+- **Les sanctions applicables** : une politique sans conséquences n'est pas une politique. Les manquements aux règles sur les données sensibles doivent faire l'objet de sanctions précisées dans le document, en cohérence avec le règlement intérieur existant.
+
+> Une politique d'usage IA qui interdit l'IA générative sans nuance sera contournée en 48 heures. Celle qui définit des règles claires et des outils validés sera respectée, parce qu'elle est utile autant pour les équipes que pour la direction.
+
+### L'articulation avec le règlement intérieur
+
+La politique d'usage IA doit être annexée au règlement intérieur ou y faire explicitement référence. Cette articulation est importante pour deux raisons : elle lui donne une valeur opposable en cas de litige avec un salarié, et elle s'intègre naturellement dans les obligations de littératie IA de l'article 4 de l'AI Act.
+
+La révision de la politique doit être prévue au minimum une fois par an. En pratique, chaque changement réglementaire majeur, ou l'adoption d'un nouvel outil IA structurant, doit déclencher une mise à jour.
+
+> L'investissement dans une gouvernance IA n'est pas uniquement un coût de conformité. C'est ce qui permet de [valoriser le ROI de l'IA en entreprise](/blog/roi-intelligence-artificielle-entreprise) sur le long terme, en évitant les incidents coûteux liés au Shadow AI ou aux usages non maîtrisés.
+
+
+## Le DPO face à l'AI Act : garant naturel, périmètre à clarifier
+
+L'AI Act ne crée pas de fonction d'"AI Officer" obligatoire. Cette absence de désignation formelle laisse les dirigeants de PME face à une question pratique : qui pilote la gouvernance IA et la conformité IA 2026 en interne ?
+
+### Pourquoi le DPO est-il le candidat naturel pour piloter la gouvernance IA ?
+
+*Le DPO (Délégué à la Protection des Données) est le profil le plus adapté pour piloter la gouvernance IA en PME : il combine une approche risk-based déjà rodée avec le RGPD, une connaissance fine des flux de données, et une position transverse dans l'organisation. L'AI Act ne l'impose pas, mais la logique opérationnelle y conduit naturellement.*
+
+Quatre raisons expliquent ce positionnement :
+
+- **Même logique risk-based** : le DPO pilote déjà la conformité RGPD selon une approche par les risques, exactement la même logique que l'AI Act.
+- **Connaissance des données** : comprendre quelles données sont traitées par quels systèmes est la compétence centrale du DPO. Elle s'applique directement à l'inventaire des systèmes IA.
+- **Position transverse** : le DPO travaille avec tous les métiers (RH, finance, IT, commercial). Cette transversalité est indispensable pour cartographier les usages IA dans l'ensemble de l'organisation.
+- **Culture d'audit** : rédiger des politiques, conduire des analyses de risque, documenter des contrôles, ce sont les activités quotidiennes du DPO, directement réutilisables pour la gouvernance IA.
+
+La CNIL intègre dans son programme de travail 2026 des ressources spécifiques au DPO intelligence artificielle, confirmant le rôle central de cette fonction dans la gouvernance IA des organisations.
+
+### Ce que le DPO ne doit pas prendre en charge
+
+Le DPO n'est pas juridiquement responsable de la conformité AI Act. Il reste dans un rôle de conseil et de contrôle interne, sans engager sa responsabilité personnelle comme au titre du RGPD.
+
+Lui confier la gouvernance IA ne doit pas créer de conflit d'intérêts : si le DPO valide à la fois les traitements de données et les systèmes IA, son indépendance doit rester garantie.
+
+### Quand le DPO externalisé doit-il intervenir sur l'AI Act ?
+
+*Dans les PME où le DPO est mutualisé ou externalisé, la gouvernance IA ne fait pas automatiquement partie de sa mission. Elle doit être inscrite explicitement dans la lettre de mission, avec les responsabilités précises attendues sur l'AI Act.*
+
+Dans de nombreuses PME, le DPO est externe : mutualisé entre plusieurs structures, ou confié à un cabinet spécialisé. Ce dispositif est parfaitement légal et souvent adapté aux réalités des PME de 50 à 250 salariés.
+
+Dans ce cas, la gouvernance IA entreprise doit figurer explicitement dans la lettre de mission du DPO externe. Sans cette mention, il n'est pas tenu d'intervenir sur les sujets AI Act et vous n'avez aucun interlocuteur désigné pour piloter votre conformité IA 2026.
+
+Les responsabilités concrètes à inscrire dans cette lettre de mission :
+
+- Participer à la cartographie des systèmes IA (registre IA)
+- Valider la politique d'usage interne
+- Conduire les analyses d'impact élargies pour les systèmes à haut risque (proches des DPIA RGPD)
+- Vérifier les clauses AI Act dans les contrats fournisseurs
+- Contrôler les informations délivrées aux utilisateurs finaux (art. 50 de l'AI Act)
+
+> La question n'est pas "mon DPO peut-il s'occuper de l'AI Act ?" mais "ai-je clairement défini ce que j'attends de lui sur ce sujet ?"
+
+
+## Plan d'action en 3 mois : ce que vous devez faire avant août 2026
+
+L'échéance du 2 août 2026 paraît lointaine jusqu'à ce qu'on intègre les délais réels : mobilisation interne, contractualisation fournisseurs, formation des équipes. Voici le calendrier opérationnel pour une PME de 50 à 250 salariés qui part de zéro.
+
+### Mois 1 : cartographier avant de gouverner
+
+L'inventaire précède la gouvernance IA. On ne peut pas rédiger un registre IA PME sans savoir quels outils sont réellement utilisés dans l'entreprise.
+
+Étapes prioritaires du premier mois :
+
+1. Désigner un responsable de la gouvernance IA interne (DPO, DSI ou dirigeant selon la taille).
+2. Lancer la cartographie des outils IA utilisés par département, y compris les outils non approuvés (Shadow AI).
+3. Identifier les systèmes potentiellement à haut risque au sens de l'Annexe III de l'AI Act : outils RH de notation, scoring crédit, surveillance de sécurité physique.
+4. Recenser les contrats fournisseurs concernant des systèmes IA et vérifier l'existence de clauses AI Act.
+
+### Mois 2 : documenter et formaliser la gouvernance IA
+
+Une fois la cartographie posée, le mois 2 est consacré à la production des deux documents fondamentaux de la gouvernance IA :
+
+- Rédiger le registre IA (6 champs par système identifié au mois 1).
+- Rédiger la politique d'usage IA (2 à 5 pages, validée par la direction et le DPO).
+- Envoyer aux fournisseurs de systèmes à haut risque une demande formelle de documentation AI Act.
+- Pour les systèmes à haut risque en usage actif : conduire une analyse d'impact (proche DPIA) avec le DPO.
+
+### Mois 3 : former, communiquer, planifier
+
+Le troisième mois active la dimension humaine de la gouvernance IA :
+
+- Former les équipes à la politique d'usage (obligation art. 4 de l'AI Act, littératie IA). Une session de 2 heures par département suffit pour les PME.
+- Communiquer officiellement la politique d'usage à l'ensemble des collaborateurs, avec accusé de réception.
+- Planifier la révision annuelle du registre et de la politique.
+- Si des systèmes à haut risque sont identifiés : programmer un point de suivi trimestriel avec le DPO.
+
+> Ce plan d'action de gouvernance IA mobilise principalement du temps interne : entre 5 et 15 jours selon la taille de votre structure et le nombre de systèmes IA recensés. C'est l'investissement minimum pour sécuriser l'ensemble de vos usages IA avant août 2026.
+
+Vous souhaitez établir votre registre IA et votre politique d'usage avant l'échéance, sans mobiliser vos équipes sur plusieurs semaines ? L'Audit IA Express de Smart Impulsion accompagne les PME et ETI en 3 jours pour cartographier leurs systèmes IA, qualifier leurs niveaux de risque et produire les documents de gouvernance adaptés à leur structure. [Découvrir l'Audit IA Express](/services/audit)
+
+
+## Ce que vous devez retenir sur la gouvernance IA en entreprise
+
+La gouvernance IA en entreprise n'est pas un sujet réservé aux grandes structures avec une direction juridique dédiée. C'est un sujet de management, et la conformité IA 2026 n'a jamais été aussi urgente.
+
+Trois points essentiels à retenir :
+
+- **Le registre IA** est votre première ligne de défense : sans inventaire de vos systèmes, vous ne pouvez ni évaluer vos risques ni prouver votre bonne foi face à la CNIL.
+- **La politique d'usage** est votre levier de management immédiat : elle comble le vide que 87% des employeurs ont laissé, et elle répond dès maintenant à l'obligation de littératie IA de l'article 4 de l'AI Act.
+- **Le DPO** est votre interlocuteur naturel pour piloter cette gouvernance IA, à condition de clarifier son périmètre AI Act, surtout s'il est externalisé.
+
+L'AI Act impose une date limite, pas une norme d'excellence. Ce qui est attendu des PME, c'est la proportionnalité et la bonne foi dans leur gouvernance IA : deux qualités que les trois outils décrits dans cet article vous permettent de démontrer concrètement.`,
+    author: "Laurent Bouzon",
+    date: "27 mai 2026",
+    dateISO: "2026-05-27",
+    readTime: "15 min",
+    category: "Compliance & AI Act",
+    image: "/gouvernance-ia-entreprise-registre-politique-dpo-hero.png",
+    imageAlt: "Image d'illustration pour l'article \"Gouvernance IA en entreprise : registre, politique d'usage et DPO\"",
+    faq: [
+      {
+        question: "Qu'est-ce qu'un registre IA et est-il obligatoire pour une PME ?",
+        answer: "Un registre IA est un inventaire documenté de tous les systèmes d'intelligence artificielle utilisés dans votre entreprise. Il n'est pas formellement imposé aux PME déployeuses (non fournisseurs) par l'AI Act, mais il constitue la pièce maîtresse de votre gouvernance IA et la preuve de bonne foi indispensable lors d'un contrôle CNIL. Sans ce registre, il est impossible de démontrer que vous avez évalué les risques de vos outils IA.",
+      },
+      {
+        question: "Une politique d'usage IA est-elle une obligation légale pour les PME ?",
+        answer: "Pas directement au titre de l'AI Act si votre PME est uniquement déployeuse d'IA tierce. En revanche, l'article 4 de l'AI Act impose depuis le 2 août 2025 que votre personnel dispose du niveau de compétences IA nécessaire (littératie IA). La politique d'usage interne est le document de preuve le plus accessible pour démontrer cette conformité lors d'un contrôle.",
+      },
+      {
+        question: "Le DPO est-il obligatoirement responsable de la gouvernance IA dans une PME ?",
+        answer: "Non, l'AI Act ne crée pas de fonction d'AI Officer obligatoire. Mais le DPO, par sa culture du risque, sa connaissance des données et sa position transverse dans l'organisation, est le profil le plus naturel pour piloter la conformité IA en PME. Dans les PME où le DPO est externalisé ou mutualisé, il convient de clarifier son périmètre IA Act dans la lettre de mission.",
+      },
+      {
+        question: "Que risque une PME qui ne met pas en place de gouvernance IA avant août 2026 ?",
+        answer: "Les sanctions de l'AI Act peuvent atteindre 3% du chiffre d'affaires mondial pour les manquements aux obligations des déployeurs. Mais au-delà des sanctions, l'absence de gouvernance expose la PME à des fuites de données confidentielles via le Shadow AI, à des responsabilités contractuelles vis-à-vis des clients, et à une perte de crédibilité lors des appels d'offres qui intègrent désormais des critères de conformité IA.",
+      },
+    ],
+  },
+  {
     slug: "ia-finance-pme-cas-usage-daf",
     title: "IA finance PME : 5 cas d'usage concrets pour le DAF",
     excerpt:
