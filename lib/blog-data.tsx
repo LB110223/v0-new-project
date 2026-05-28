@@ -35,6 +35,238 @@ export interface BlogArticle {
 
 export const blogArticles: BlogArticle[] = [
   {
+    slug: "gouvernance-ia-entreprise-cadre-pme-eti",
+    title: "Gouvernance IA en entreprise : cadre concret PME-ETI",
+    excerpt:
+      "Structurer la gouvernance IA sans juriste ni DSI à temps plein. Cadre en 4 blocs actionnables : cartographie, responsabilités, arbitrage, revue.",
+    content: `## La gouvernance IA : l'angle mort des PME qui expérimentent
+
+**La gouvernance IA est l'ensemble des règles, rôles et processus qui encadrent l'usage des systèmes d'intelligence artificielle dans une organisation.** Pour une PME, cela se résume à quatre questions : quels outils IA utilise-t-on, qui en est responsable, comment arbitre-t-on les nouveaux projets, et que fait-on quand quelque chose tourne mal.
+
+Quand on demande à un dirigeant de PME où en est son entreprise avec la gouvernance IA, la réponse est souvent la même : "On teste ChatGPT, on a intégré un outil de compta qui fait de l'IA, et un de nos chefs de service a lancé un projet de génération de contenu." Beaucoup d'activité. Zéro cadre.
+
+> 73 % des PME-ETI françaises font de leur dirigeant le seul impulseur de l'IA dans leur organisation (Bpifrance Le Lab, juin 2025). Cela signifie qu'en son absence, les décisions ne se prennent pas, ou se prennent sans filet.
+
+Ce n'est pas un problème de volonté. C'est un problème de structure.
+
+### Le shadow IA : une réalité qui s'installe sans bruit
+
+Dans la plupart des PME, les équipes utilisent des outils IA sans que la direction le sache. Un assistant RH génère des comptes rendus d'entretien sur un outil grand public. Un commercial résume ses propositions commerciales via une IA en ligne. Un comptable utilise une fonctionnalité IA de son logiciel sans que personne ne sache ce que cela implique pour la confidentialité des données.
+
+Ce phénomène porte un nom : le shadow IA. Il se distingue du shadow IT par un risque supplémentaire : les décisions produites par ces outils sont souvent non auditables, difficilement contestables, et peuvent engager l'entreprise à son insu.
+
+51 % des organisations ayant déployé de l'IA ont subi au moins un incident négatif dans les douze derniers mois (McKinsey State of AI 2025). Ce chiffre ne concerne pas uniquement les grandes entreprises avec des systèmes complexes. Il concerne aussi les usages informels.
+
+> La gouvernance IA ne signifie pas ralentir les expérimentations. Cela signifie savoir ce qui se passe réellement, pour pouvoir répondre quand quelque chose tourne mal.
+
+### Gouvernance ne veut pas dire bureaucratie
+
+Le mot "gouvernance" fait peur. Il évoque des comités, des chartes de 40 pages, des réunions sans fin. Ce n'est pas ce dont une PME a besoin.
+
+Pour une structure de 50 à 500 salariés, un cadre de gouvernance IA peut tenir en trois pages et se maintenir en deux heures par trimestre. Ce qui compte n'est pas le volume du dispositif, mais sa capacité à produire des décisions claires sur quatre questions : quels systèmes IA utilise-t-on, qui en est responsable, comment arbitre-t-on les nouveaux projets, et que fait-on quand quelque chose ne fonctionne pas comme prévu.
+
+
+
+## Bloc 1 : Cartographier les systèmes IA en place
+
+Avant de définir des règles, il faut savoir de quoi on parle. Or 43 % des PME-ETI n'analysent pas leurs données pour piloter leur activité (Bpifrance Le Lab, 2025). La cartographie IA est donc souvent le premier vrai contact d'une direction avec la réalité numérique de son entreprise.
+
+### Ce qu'il faut inventorier
+
+L'inventaire porte sur trois catégories :
+
+- **Les outils IA autonomes** : ChatGPT, Copilot, Mistral, outils de génération d'images ou de texte utilisés en dehors du SI de l'entreprise.
+- **Les fonctionnalités IA intégrées dans des SaaS** : le scoring automatique dans votre logiciel de recrutement, la détection d'anomalies dans votre ERP, le résumé automatique dans votre outil de visioconférence.
+- **Les projets IA en cours ou à l'étude** : tout ce qui est en test, en réflexion, ou en discussion avec un prestataire.
+
+La distinction entre IA intégrée SaaS et IA activement pilotée est déterminante. Dans le premier cas, vous n'avez souvent pas accès au modèle sous-jacent ni à ses paramètres : vous êtes utilisateur passif. Dans le second cas, vous avez une responsabilité active sur les résultats produits.
+
+### Le registre IA minimal en 30 minutes
+
+Un tableau à cinq colonnes suffit pour démarrer :
+
+1. Nom de l'outil ou de la fonctionnalité IA
+2. Usage effectif dans l'entreprise
+3. Données traitées (personnelles, confidentielles, publiques)
+4. Propriétaire interne (qui en est responsable)
+5. Statut (actif, en test, suspendu)
+
+> Ce registre n'est pas qu'un outil de conformité. C'est le premier document de pilotage IA de votre entreprise. Il rend visibles des usages qui existent déjà mais restent invisibles pour la direction.
+
+Pour les entreprises utilisant des systèmes IA qualifiés de "haut risque" au sens de l'AI Act (recrutement, gestion RH, accès au crédit, sécurité), ce registre devient une obligation réglementaire avant août 2026. Pour les autres, c'est simplement une bonne pratique qui prend 30 minutes. Le [guide complet sur l'AI Act pour PME](/blog/ai-act-pme-guide-2026) détaille les critères de qualification haut risque si vous souhaitez vérifier votre situation.
+
+
+
+## Bloc 2 : Définir les responsabilités sans organigramme dédié
+
+La plupart des PME n'ont pas de Chief AI Officer. Elles n'ont pas non plus de DSI à temps plein pour gérer les questions d'IA. Ce n'est pas un obstacle à la gouvernance. C'est simplement un paramètre de conception.
+
+### Trois rôles suffisent
+
+Une gouvernance IA opérationnelle dans une PME repose sur trois rôles, qui peuvent être tenus par des personnes en charge d'autres responsabilités :
+
+- **Le dirigeant** : valide les projets IA qui engagent l'entreprise, tranche les arbitrages budgétaires, signe les clauses contractuelles liées à l'IA.
+- **Le référent métier** : pour chaque système IA actif, une personne dans l'organisation est désignée comme interlocutrice de premier niveau. Elle signale les anomalies, fait le lien avec le prestataire, forme les utilisateurs directs.
+- **Le prestataire ou éditeur** : dans le cadre contractuel, il doit pouvoir répondre à des questions précises sur le comportement du système, ses données d'entraînement, et les mises à jour qui affectent les résultats.
+
+> Le risque de la gouvernance informelle n'est pas l'absence de règles écrites. C'est l'absence de nom en face de chaque responsabilité. Quand un incident survient, la première question est toujours : "Qui savait, et qui décidait ?"
+
+### Encadrer l'usage des outils IA grand public
+
+26 % des TPE-PME déclarent utiliser l'IA en 2025, soit le double de l'année précédente (Baromètre France Num 2025). Dans la réalité, ce chiffre sous-estime l'usage effectif, car il ne capture pas les usages individuels non déclarés.
+
+Une note interne simple, partagée avec toutes les équipes, suffit pour poser les bases :
+
+- Quels outils IA grand public sont autorisés pour quel type de tâche
+- Quelles données ne doivent jamais être saisies dans un outil IA externe (données clients identifiées, informations financières sensibles, documents contractuels)
+- Comment signaler un usage problématique
+
+Ce document n'a pas besoin d'être un règlement intérieur. Une page claire, validée par la direction, et relayée par les managers lors d'une réunion d'équipe suffit pour la grande majorité des PME.
+
+### La clause IA dans les contrats fournisseurs
+
+Quand vous achetez un SaaS qui intègre de l'IA, vous signez souvent des conditions générales qui incluent des droits d'utilisation de vos données pour améliorer les modèles. C'est une réalité peu visible, mais aux conséquences potentiellement importantes pour la confidentialité de vos informations métier.
+
+Deux questions à poser systématiquement à vos fournisseurs logiciels :
+
+- Mes données sont-elles utilisées pour entraîner vos modèles IA ? Dans quelles conditions ?
+- En cas de modification substantielle du système IA intégré, de quelle façon et dans quel délai en serez-vous informé ?
+
+
+
+## Bloc 3 : Arbitrer les projets IA avec une grille simple
+
+57 % des dirigeants n'ont pas de stratégie IA formalisée, alors que 58 % la jugent vitale pour leur entreprise (Bpifrance Le Lab, 2025). Ce paradoxe est révélateur : les dirigeants savent que l'IA compte, mais ne disposent pas d'un outil de décision structuré pour arbitrer les projets.
+
+### Quatre questions avant de lancer un projet IA
+
+Quelle que soit la taille du projet, ces quatre questions permettent de filtrer les bonnes idées des mauvaises priorités :
+
+1. **Quel problème résout-on réellement ?** Si la réponse n'est pas articulée en termes de coût, de temps ou de risque évité, le projet n'est pas mûr.
+2. **Qui dans l'équipe utilisera le résultat ?** Un outil IA que les opérationnels n'adoptent pas produit un ROI nul. L'adoption doit être anticipée, pas espérée.
+3. **Quelles données mobilise-t-on, et avons-nous le droit de les utiliser ?** La question RGPD n'est pas optionnelle dès lors que des données personnelles sont impliquées. La CNIL a publié 13 fiches pratiques IA entre 2024 et 2025 précisément pour outiller les entreprises sur ce point.
+4. **Que se passe-t-il si le système produit une erreur ?** Tout système IA fait des erreurs. La question n'est pas de savoir si cela arrivera, mais quel est le mécanisme de détection et de correction.
+
+> Un projet IA qui ne passe pas ce filtre en 20 minutes de discussion n'est pas prêt pour une décision d'investissement. Ce n'est pas un frein à l'innovation. C'est de la rigueur appliquée au budget.
+
+### Prioriser sans DSI : trois critères
+
+Pour les PME sans responsable informatique dédié, un critère de priorisation en trois axes permet de classer les projets candidats :
+
+- **ROI attendu** : gain de temps ou d'argent chiffrable à 12 mois, pas une projection sur 5 ans
+- **Niveau de risque** : données sensibles impliquées, décisions engageantes pour des tiers, dépendance à un prestataire unique
+- **Charge de conformité** : niveau d'exposition à l'AI Act, obligations RGPD spécifiques, secteur réglementé
+
+Un projet avec ROI élevé, risque faible et charge de conformité limitée mérite d'être traité en priorité. Un projet avec ROI incertain et risque élevé mérite d'attendre, ou d'être recadré.
+
+La mise en place d'une gouvernance IA est aussi l'occasion de revoir vos projets IA sous l'angle du retour sur investissement, un sujet que nous avons traité en détail dans notre article sur le [ROI de l'IA en entreprise](/blog/roi-intelligence-artificielle-entreprise).
+
+### Décider quand arrêter un projet IA
+
+C'est la décision la moins documentée dans les PME, et pourtant l'une des plus importantes. Un projet IA doit avoir des critères d'arrêt définis avant son lancement : un horizon temporel, un indicateur de performance minimal, et un responsable habilité à prendre la décision de stop.
+
+Sans cela, les projets IA qui ne fonctionnent pas ne meurent jamais vraiment. Ils consomment du temps de supervision, génèrent de la frustration dans les équipes, et occupent une ligne budgétaire qui pourrait être réallouée.
+
+
+
+## Bloc 4 : La revue trimestrielle IA en deux heures
+
+Une gouvernance IA sans revue régulière est une gouvernance statique. Elle photographie une situation à un instant T et devient obsolète en quelques semaines, au rythme d'évolution des outils et des usages.
+
+### Ce qu'une revue IA doit produire
+
+Une revue trimestrielle IA efficace produit trois livrables concrets :
+
+- **Une mise à jour du registre** : nouveaux outils détectés, anciens outils abandonnés, changements de version importants
+- **Un point sur les incidents** : tout comportement inattendu du système, toute erreur détectée, toute réclamation liée à un outil IA
+- **Une liste de décisions** : projets à lancer, projets à arrêter, questions contractuelles à traiter avec les prestataires
+
+Deux heures suffisent si le registre est maintenu à jour entre les revues. La réunion n'est pas le lieu de découverte des informations. C'est le lieu de décision.
+
+### Signaux d'alerte à surveiller
+
+Entre les revues, certains signaux méritent une remontée immédiate :
+
+- Un outil IA produit des résultats manifestement erronés sur des décisions engageantes (refus de crédit, évaluation RH, détection de fraude)
+- Un collaborateur signale qu'il a saisi des données sensibles dans un outil non approuvé
+- Un prestataire annonce une mise à jour majeure de son système IA sans avoir documenté les impacts sur les résultats
+- Un client ou un partenaire soulève une question sur l'usage de l'IA dans vos processus
+
+> Ces signaux ne sont pas des crises en eux-mêmes. Ils le deviennent si personne n'est en charge de les traiter.
+
+
+
+## Gouvernance IA et AI Act : les trois obligations minimales pour PME en 2026
+
+Le cadre réglementaire s'applique, qu'on ait ou non mis en place une gouvernance. Trois obligations sont directement opposables aux PME à ce stade.
+
+### L'obligation de littératie IA (article 4)
+
+Depuis le 2 février 2025, l'AI Act impose à toutes les entreprises qui déploient ou utilisent des systèmes IA de s'assurer que leurs collaborateurs disposent d'un niveau suffisant de compréhension de l'IA pour exercer leur travail. Ce n'est pas une obligation de formation diplômante. C'est une obligation de s'assurer que les personnes qui utilisent des outils IA comprennent ce qu'ils font et ce qu'ils ne font pas.
+
+Concrètement, cela signifie qu'un commercial qui utilise un outil IA de suggestion de prix doit comprendre comment ce prix est calculé, et savoir identifier une recommandation anormale.
+
+### Le registre des systèmes IA à haut risque
+
+Pour les entreprises qui utilisent des systèmes IA classés haut risque par l'AI Act, un registre formalisé sera requis avant août 2026. Le [guide AI Act pour PME](/blog/ai-act-pme-guide-2026) recense les catégories concernées. Si vous opérez dans les RH, la finance, la santé, ou la sécurité, la vérification de votre exposition est urgente.
+
+### Les recommandations CNIL
+
+La CNIL a publié 13 fiches pratiques IA entre 2024 et 2025, ainsi que des recommandations formelles en février 2025. Elles couvrent notamment l'information des personnes concernées, la minimisation des données utilisées par les systèmes IA, et les conditions de licéité des traitements automatisés. Ces documents sont publics et actionnables sans expertise juridique préalable. Ils constituent une base de conformité IA accessible à toute PME qui souhaite sécuriser ses usages.
+
+
+
+## La gouvernance est le prérequis du ROI
+
+Il y a une corrélation directe entre la présence d'un cadre de gouvernance et la capacité à mesurer le ROI des projets IA. Les entreprises qui ne savent pas quels systèmes IA elles utilisent ne peuvent pas mesurer leur impact. Celles qui n'ont pas défini de responsabilités ne peuvent pas corriger les dérives. Celles qui n'arbitrent pas leurs projets financent des initiatives sans retour.
+
+> 10 % des entreprises françaises de plus de 10 salariés utilisent l'IA, contre 13 % en moyenne en Europe (INSEE Première n°2061, 2025). L'écart ne s'explique pas uniquement par un manque d'appétit technologique. Il reflète aussi l'absence de cadre pour sécuriser la décision d'adoption.
+
+Mettre en place une gouvernance IA ne demande ni juriste spécialisé, ni DSI dédié, ni budget important. Cela demande une demi-journée de travail structuré, un engagement de la direction, et un calendrier de revue maintenu dans la durée.
+
+### Ce que la gouvernance IA produit concrètement
+
+Une gouvernance IA pour PME, c'est quatre éléments opérationnels :
+
+- Un registre tenu à jour des systèmes IA en usage
+- Trois rôles nommés (dirigeant, référent métier, prestataire)
+- Une grille d'arbitrage en quatre questions pour chaque nouveau projet
+- Une revue trimestrielle de deux heures pour décider et corriger
+
+Rien de plus. Rien qui nécessite un juriste ou un DSI à temps plein.
+
+Pour aller plus loin sur le volet conformité, notre [guide sur le registre IA et la politique d'usage](/blog/gouvernance-ia-entreprise-registre-politique-dpo) détaille comment formaliser ces documents en cohérence avec les attentes du DPO et de l'AI Act.
+
+Si vous souhaitez accélérer cette mise en place avec un regard externe, notre [Audit IA Express](/services/audit) produit en trois jours un diagnostic complet de votre maturité IA : registre des systèmes, cartographie des risques, et feuille de route priorisée. C'est le point de départ que Laurent Bouzon et l'équipe Smart Impulsion recommandent aux dirigeants qui veulent structurer leur démarche sans partir d'une page blanche.
+
+Pour aller plus loin sur la méthodologie :
+- L'[audit IA pour PME](/blog/audit-ia-pme-guide-complet) détaille chaque étape du diagnostic, des livrables et du plan d'action
+- Le [guide de démarrage IA pour PME](/blog/ia-pour-pme-guide) pose les fondations stratégiques avant d'aborder les questions de gouvernance
+
+> La gouvernance IA n'est pas une fin en soi. C'est ce qui rend les investissements IA défendables, mesurables et pérennes.`,
+    author: "Laurent Bouzon",
+    date: "28 mai 2026",
+    dateISO: "2026-05-28",
+    readTime: "8 min",
+    category: "Compliance & AI Act",
+    image: "/gouvernance-ia-entreprise-cadre-pme-eti-hero.png",
+    imageAlt: "Image d'illustration pour l'article \"Gouvernance IA en entreprise : cadre concret PME-ETI\"",
+    faq: [
+      {
+        question: "Qu'est-ce que la gouvernance IA pour une PME ?",
+        answer: "La gouvernance IA est l'ensemble des règles, rôles et processus qui encadrent l'usage des systèmes d'intelligence artificielle dans une organisation. Pour une PME, cela signifie concrètement : savoir quels outils IA sont utilisés, par qui, dans quel but, et qui est responsable en cas de problème. Ce n'est pas un projet informatique. C'est une décision de direction.",
+      },
+      {
+        question: "La gouvernance IA est-elle obligatoire pour les PME ?",
+        answer: "En partie. Depuis le 2 février 2025, l'AI Act impose à toutes les entreprises qui déploient ou utilisent de l'IA une obligation de littératie IA (article 4). Les entreprises utilisant des systèmes IA dits à haut risque devront tenir un registre avant août 2026. La CNIL a publié 13 fiches pratiques IA et des recommandations en février 2025. Une gouvernance minimale est donc à la fois une obligation réglementaire partielle et un prérequis pour éviter les incidents.",
+      },
+      {
+        question: "Combien de temps faut-il pour mettre en place une gouvernance IA ?",
+        answer: "Une gouvernance IA minimale peut être mise en place en moins d'une journée de travail : 30 minutes pour inventorier les systèmes IA actifs, 1 heure pour clarifier les rôles et responsabilités, 2 heures pour définir les règles d'usage. L'essentiel n'est pas la taille du document produit, mais que les décisions soient prises et partagées avec les équipes concernées.",
+      },
+    ],
+  },
+  {
     slug: "gouvernance-ia-entreprise-registre-politique-dpo",
     title: "Gouvernance IA en entreprise : registre, politique d'usage et DPO",
     excerpt:
