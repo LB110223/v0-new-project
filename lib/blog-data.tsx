@@ -35,6 +35,231 @@ export interface BlogArticle {
 
 export const blogArticles: BlogArticle[] = [
   {
+    slug: "ia-recrutement-pme-guide-decision",
+    title: "IA recrutement PME : par quelle étape commencer ?",
+    excerpt:
+      "Grille effort/ROI/risque pour introduire l'IA dans votre recrutement en PME, obligations AI Act et premier indicateur ROI à poser.",
+    content: `# IA recrutement PME : par quelle étape commencer (et ce que l'AI Act impose)
+
+Le recrutement est devenu l'un des terrains d'expérimentation IA les plus actifs en entreprise. Mais la réalité terrain diverge fortement du discours ambiant. Selon le 1er Baromètre national IA appliquée aux RH (Parlons RH / Talenco, 2025), **62 % des entreprises déclarent utiliser l'IA dans le recrutement**, principalement pour rédiger des descriptions de postes. Le screening automatisé de CV, lui, reste marginal. Et l'APEC indique que seulement **13 % des ETI et grandes entreprises** ont utilisé l'IA pour recruter des cadres en 2025 (contre 6 % en 2024).
+
+Autrement dit : la grande majorité des entreprises qui "font de l'IA en recrutement" ont adopté un outil de rédaction. C'est un début utile. Ce n'est pas une transformation.
+
+Cet article ne liste pas des outils. Il propose un cadre de décision pour le DRH ou le dirigeant de PME qui veut aller plus loin sans se perdre dans l'offre, et sans ignorer les nouvelles obligations réglementaires qui entrent en vigueur.
+
+## L'état réel : entre suradoption médiatique et sous-usage terrain
+
+### Ce que les chiffres disent vraiment
+
+La majorité des entreprises françaises qui "font de l'IA en recrutement" ont adopté un outil de rédaction d'offres (pas un système de sélection automatisée). Selon le 1er Baromètre Parlons RH / Talenco (2025), l'usage dominant de l'IA en recrutement porte sur la **rédaction de descriptions de postes**, pas sur le filtrage de candidatures. C'est une nuance importante : écrire une fiche de poste avec l'aide d'un outil d'IA générative est une tâche bureautique augmentée. Automatiser la sélection de candidats est un acte à conséquences juridiques.
+
+Selon l'INSEE (octobre 2025), **10 % des entreprises françaises de 10 salariés ou plus déclarent utiliser une technologie d'intelligence artificielle**. Ce taux reste faible, et il masque des écarts considérables selon la taille. Les ETI et grandes entreprises adoptent ; les PME de moins de 50 salariés restent majoritairement en dehors.
+
+> "En 2024, 10 % des entreprises françaises de 10 salariés ou plus déclarent utiliser une technologie d'intelligence artificielle." (INSEE, octobre 2025)
+
+### Pourquoi ce décalage persiste
+
+Trois facteurs expliquent le retard des PME :
+
+- L'absence de fonction RH dédiée dans les structures de moins de 100 salariés
+- La méfiance légitime face aux outils de sourcing qui promettent des gains sans démonstration de ROI réelle
+- L'incertitude réglementaire : l'AI Act est perçu comme un risque flou, ce qui freine l'expérimentation plutôt que de l'orienter
+
+Le signal positif : selon l'APEC ("Les cadres et l'IA - 2026"), **50 % des cadres français utilisent l'IA au moins une fois par semaine en 2026**, soit une progression de 15 points sur un an. Les collaborateurs en charge du recrutement sont donc de plus en plus à l'aise avec ces outils. La contrainte principale n'est plus technique, elle est méthodologique et réglementaire.
+
+> "La moitié d'entre eux l'utilisent désormais au moins une fois par semaine." (APEC, Les cadres et l'IA - 2026)
+
+## Les 4 étapes du funnel recrutement : grille effort / ROI / risque
+
+Le **funnel recrutement** désigne la séquence des étapes allant de la publication d'une offre jusqu'à l'intégration du candidat retenu. Pour une PME, ce funnel comporte quatre phases distinctes dont la rentabilité à automatiser est très inégale. Avant de choisir un outil, il faut identifier quelle étape justifie en priorité une intervention IA (selon la grille effort / ROI / risque développée par Smart Impulsion).
+
+### Étape 1 : Sourcing et rédaction d'offres
+
+**Effort d'implémentation : faible. ROI : rapide. Risque réglementaire : quasi nul.**
+
+C'est le point d'entrée naturel, et les chiffres confirment que c'est là que la majorité des entreprises commence. Un outil d'IA générative (ou un outil RH intégrant l'IA) peut produire une première version d'offre d'emploi en moins de 5 minutes à partir d'un brief interne minimal.
+
+Le gain réel n'est pas le temps de rédaction en lui-même. Un RH expérimenté rédige vite. C'est la **cohérence entre les offres** publiées sur différents canaux, et la réduction du biais inconscient dans la formulation (formulations genrées, exigences surestimées). Ce dernier point est documenté par la CNIL dans ses recommandations sur l'IA et les ressources humaines.
+
+Indicateur à suivre : temps moyen de publication d'une offre (de la décision de recruter à la mise en ligne).
+
+### Étape 2 : Planification et coordination des entretiens
+
+**Effort d'implémentation : faible à modéré. ROI : mesurable sous 30 jours. Risque réglementaire : faible.**
+
+La coordination d'agendas entre candidats, managers et RH est une source de friction chronophage et invisible. Des outils d'automatisation des créneaux (intégrés aux ATS ou indépendants) peuvent réduire ce délai de plusieurs jours sur un processus de 3 à 4 semaines.
+
+C'est une automatisation de processus, pas une automatisation de décision. Elle ne touche pas à l'évaluation du candidat, donc elle n'entre pas dans le périmètre haut risque de l'AI Act.
+
+> Le gain sur la planification est souvent le plus rapide à documenter : il suffit de chronométrer le nombre d'échanges nécessaires avant et après implémentation.
+
+### Étape 3 : Screening et présélection de CV
+
+**Effort d'implémentation : modéré à élevé. ROI : conditionnel. Risque réglementaire : élevé.**
+
+C'est l'étape qui concentre le plus d'offres commerciales, et le plus de risques mal compris. Le **screening automatisé** désigne tout mécanisme qui filtre ou classe des candidatures sans qu'un humain examine individuellement chaque dossier avant la décision. Un tel outil entre dans la catégorie des **systèmes à haut risque** selon l'AI Act (voir section suivante).
+
+Le ROI potentiel est réel sur des volumes élevés : pour une PME qui reçoit plus de 200 CV par poste, un premier filtre automatisé sur des critères objectifs (diplôme, localisation, disponibilité) peut faire gagner 3 à 4 heures par recrutement. En dessous de 50 candidatures, le gain est marginal et le risque d'erreur algorithme est proportionnellement plus élevé.
+
+**Recommandation** : n'activez cette étape qu'après avoir établi une baseline de mesure (voir section 4) et vérifié la conformité de votre outil avec l'éditeur.
+
+### Étape 4 : Onboarding et suivi d'intégration
+
+**Effort d'implémentation : modéré. ROI : moyen terme. Risque réglementaire : faible.**
+
+L'IA peut ici automatiser des séquences d'emails d'accueil, créer des parcours de formation personnalisés, ou envoyer des questionnaires d'intégration à J+30 et J+90. Le ROI s'observe sur la **rétention à 6 mois**, un indicateur souvent sous-mesuré en PME.
+
+Selon Cegid (Baromètre recrutement 2025), 67,6 % des entreprises équipées d'un ATS constatent un impact positif sur leur rentabilité. Cette donnée éditeur est à prendre avec recul : elle indique une corrélation entre outillage et résultat, pas une causalité directe.
+
+> **Tableau de priorisation synthétique**
+>
+> | Étape | Effort | ROI | Risque AI Act |
+> |---|---|---|---|
+> | Rédaction d'offres | Faible | Rapide | Quasi nul |
+> | Planification entretiens | Faible-modéré | Rapide | Faible |
+> | Screening CV | Modéré-élevé | Conditionnel | Élevé |
+> | Onboarding | Modéré | Moyen terme | Faible |
+
+## Ce que l'AI Act impose concrètement
+
+### La classification "haut risque" s'applique au recrutement
+
+L'**Annexe III de l'AI Act** (règlement européen 2024/1689) liste les domaines où les systèmes d'IA sont automatiquement classifiés à haut risque. Le recrutement en fait partie : l'AI Act européen classe les systèmes d'IA utilisés pour le **recrutement ou la sélection de personnes** comme systèmes à haut risque, dans cette Annexe III. Cette classification vise explicitement les systèmes qui :
+
+- trient des CV de façon automatisée
+- évaluent et notent des candidats
+- prennent ou influencent des décisions d'embauche sans supervision humaine suffisante
+
+À partir d'août 2026, les obligations pour les entreprises utilisatrices (pas seulement les éditeurs) incluront :
+
+1. Informer les candidats qu'un système d'IA est utilisé dans le processus
+2. Maintenir une supervision humaine documentée des décisions automatiques
+3. Conserver des journaux d'audit des décisions pour une durée minimale
+4. Vérifier que l'éditeur de l'outil a fourni sa documentation technique et sa déclaration de conformité
+
+> Ces obligations s'appliquent à l'entreprise qui **utilise** l'outil, pas seulement à celle qui le développe.
+
+### Ce que la CNIL ajoute
+
+La CNIL a inscrit dans son programme de travail 2026 la finalisation de ses travaux sur l'IA dans le secteur du travail, avec un focus particulier sur les **biais algorithmiques**. Les recommandations antérieures de la CNIL sur l'IA et les RH (2023) restent applicables : collecte minimale des données, droit à l'explication pour les candidats, interdiction des traitements biométriques non consentis.
+
+Pour une PME, la traduction pratique est simple :
+
+- Si votre ATS intègre un moteur de scoring automatique de CV, demandez à l'éditeur sa documentation AI Act
+- Informez les candidats en amont, dans votre politique de recrutement
+- Conservez une trace des décisions humaines finales, distinctes des recommandations algorithmiques
+
+### Le piège de l'éditeur non-conforme
+
+Un nombre non négligeable d'éditeurs d'ATS positionnent des fonctions de "matching IA" sans avoir encore formalisé leur documentation AI Act. En tant qu'entreprise utilisatrice, vous restez coresponsable. Avant d'activer une fonctionnalité de présélection automatisée, trois questions à poser à votre éditeur :
+
+- Disposez-vous d'une déclaration de conformité AI Act pour cette fonctionnalité ?
+- Existe-t-il un mécanisme de supervision humaine documenté ?
+- Quels biais le système a-t-il été audité pour détecter ?
+
+L'absence de réponse claire est un signal d'alerte, pas un argument de négociation.
+
+Pour aller plus loin sur la conformité AI Act appliquée à votre contexte, consultez notre guide [AI Act 2026 : ce que les PME doivent savoir](/blog/ai-act-pme-guide-2026).
+
+## Comment poser un premier indicateur ROI
+
+### Pourquoi la plupart des PME ne mesurent pas
+
+Pour mesurer le ROI de l'IA en recrutement, la condition préalable est d'avoir une baseline chiffrée avant tout déploiement. Or le problème n'est pas le manque de volonté. C'est l'absence de cette baseline. Si vous ne savez pas combien coûte aujourd'hui un recrutement (en temps RH, en coût d'annonce, en nombre de semaines avant embauche), vous ne pourrez pas mesurer l'effet d'un outil IA.
+
+Trois indicateurs suffisent pour un premier dispositif de mesure :
+
+- **Temps-par-embauche (TPE)** : délai moyen entre la publication de l'offre et la signature du contrat. Mesurez-le sur vos 5 derniers recrutements. C'est votre baseline.
+- **Coût-par-recrue (CPR)** : somme des charges internes (temps RH × taux journalier), des coûts d'annonce et des frais de cabinet ou d'outil. Une estimation grossière suffit pour commencer.
+- **Taux de rétention à 6 mois** : pourcentage de recrues encore présentes 6 mois après leur prise de poste. C'est l'indicateur de qualité du recrutement, et c'est celui que les PME oublient systématiquement.
+
+> La baseline n'a pas besoin d'être parfaite. Elle a besoin d'exister avant le déploiement de l'outil.
+
+### Protocole minimal de mesure
+
+Une approche en trois temps :
+
+1. **Avant déploiement** : relevez les trois indicateurs sur les 6 derniers mois. Notez les données dans un tableau simple.
+2. **Pendant le pilote** : appliquez l'outil sur 2 à 3 recrutements en parallèle du processus classique, ou séquentiellement si votre volume est faible.
+3. **Après 60 jours** : comparez les indicateurs. Si l'écart est inférieur à 15 %, le ROI n'est pas encore visible : prolongez ou changez d'étape du funnel.
+
+Ce protocole est volontairement minimal. Son objectif n'est pas de produire une analyse statistiquement robuste. C'est de créer une **culture de la mesure** dans la fonction RH. Les PME qui entament ce chemin sont celles qui progressent le plus rapidement dans leur maturité IA.
+
+Pour cadrer la méthode de mesure à l'échelle de votre transformation IA globale, l'article [ROI de l'IA en entreprise : comment mesurer et maximiser votre retour sur investissement](/blog/roi-intelligence-artificielle-entreprise) apporte des outils complémentaires.
+
+### Éviter l'erreur d'attribution
+
+Un écueil fréquent : attribuer à l'outil ce qui revient à d'autres facteurs. Si votre délai de recrutement se réduit après un déploiement, c'est peut-être parce que le marché de l'emploi s'est détendu, que vous avez revu vos critères, ou que votre offre était mieux rédigée. L'outil IA a pu contribuer, mais comment savoir dans quelle proportion ?
+
+La réponse honnête : vous ne pouvez pas toujours isoler la variable. Ce qui compte, c'est de poser les indicateurs, de documenter les changements de contexte, et de construire une lecture évolutive plutôt qu'un verdict binaire.
+
+## Un diagnostic avant un outil
+
+Avant de choisir un outil ou d'activer une fonctionnalité IA dans votre ATS, un audit préalable de votre processus de recrutement actuel permet d'éviter deux erreurs classiques : automatiser un processus défaillant, ou déployer un outil trop complexe pour le volume réel de recrutements de votre structure.
+
+Ce travail de diagnostic couvre typiquement :
+
+- la cartographie de votre funnel recrutement actuel et de ses goulots d'étranglement
+- la vérification de vos obligations réglementaires selon les outils envisagés (AI Act, RGPD)
+- la définition d'une baseline de mesure sur les trois indicateurs ROI clés
+- l'identification des cas d'usage prioritaires selon votre volume et votre profil de recrutement
+
+C'est précisément ce que propose l'[Audit IA Express](/services/audit) de Smart Impulsion : un diagnostic structuré en 2 à 3 jours pour identifier les cas d'usage IA prioritaires dans votre contexte (recrutement, mais aussi finance, opérations ou relation client). Avec un livrable actionnable, pas une présentation de 80 slides.
+
+Pour comprendre comment le recrutement s'inscrit dans une cartographie plus large des cas d'usage IA en PME, consultez notre article [IA et cas d'usage en PME par métier](/blog/cas-usage-ia-pme-par-metier). Et si vous souhaitez cadrer la démarche d'audit avant toute décision d'outil, le guide [Audit IA pour PME](/blog/audit-ia-pme-guide-complet) détaille la méthodologie complète.
+
+## FAQ pratiques
+
+### L'IA peut-elle vraiment faire gagner du temps sur un recrutement en PME ?
+
+Oui, mais le gain dépend de l'étape ciblée. La rédaction d'offres et la planification d'entretiens sont les deux étapes où le ROI est immédiat et le risque réglementaire faible. Le screening automatisé de CV exige un cadrage conformité AI Act avant déploiement. Commencer par les tâches à faible risque permet de créer une culture interne favorable avant d'aborder les sujets plus complexes.
+
+### Mon ATS utilise l'IA pour classer les CV. Suis-je concerné par l'AI Act ?
+
+Oui. Si votre outil filtre ou classe automatiquement des candidatures sans intervention humaine systématique, il entre dans la catégorie des systèmes de recrutement classifiés haut risque à l'Annexe III du règlement européen. À partir d'août 2026, cela imposera une obligation de transparence envers les candidats et un mécanisme de supervision humaine documenté. Vérifiez avec votre éditeur s'il dispose d'une déclaration de conformité.
+
+### Par quels indicateurs mesurer le ROI de l'IA en recrutement ?
+
+Trois indicateurs suffisent pour un premier bilan : le temps-par-embauche (délai de la publication à la signature), le coût-par-recrue (temps RH + coût annonce + coût outil), et le taux de rétention à 6 mois. Ces trois métriques sont souvent disponibles dans votre ATS ou SIRH. L'objectif n'est pas la perfection de la mesure. C'est d'avoir une baseline avant déploiement pour pouvoir comparer après.
+
+### Faut-il un grand projet IA pour améliorer son recrutement ?
+
+Non. Les PME qui obtiennent des résultats commencent par un seul cas d'usage (souvent la rédaction d'offres) pendant 6 à 8 semaines, mesurent l'effet, puis élargissent. Un audit préalable de 2 à 3 jours permet de prioriser les étapes selon votre contexte : volume de recrutements, profils ciblés, outillage existant.
+
+### Quelle est la différence entre IA à haut risque et IA à faible risque en recrutement ?
+
+Selon l'AI Act, un système IA est à haut risque en recrutement dès lors qu'il prend ou influence automatiquement des décisions de sélection ou de classement sans supervision humaine suffisante. Un outil qui aide à rédiger une offre, ou qui envoie des rappels d'entretien, est à faible risque : il assiste un humain sans décider à sa place. La distinction détermine les obligations réglementaires applicables à votre entreprise.`,
+    author: "Laurent Bouzon",
+    date: "29 mai 2026",
+    dateISO: "2026-05-29",
+    readTime: "8 min",
+    category: "Cas d'usage",
+    image: "/ia-recrutement-pme-guide-decision-hero.png",
+    imageAlt: "Image d'illustration pour l'article \"IA recrutement PME : par quelle étape commencer ?\"",
+    faq: [
+      {
+        question: "L'IA peut-elle vraiment faire gagner du temps sur un recrutement en PME ?",
+        answer: "Oui, mais le gain dépend de l'étape ciblée. La rédaction d'offres et la planification d'entretiens sont les deux étapes où le ROI est immédiat et le risque réglementaire faible. Le screening automatisé de CV, lui, exige un cadrage conformité AI Act avant déploiement. Commencer par les tâches à faible risque permet de créer une culture interne favorable avant d'aborder les sujets plus complexes.",
+      },
+      {
+        question: "Mon ATS utilise l'IA pour classer les CV. Suis-je concerné par l'AI Act ?",
+        answer: "Oui, si votre outil filtre ou classe automatiquement des candidatures sans intervention humaine systématique, il entre dans la catégorie 'systèmes de recrutement' classifiés haut risque à l'Annexe III du règlement européen. À partir d'août 2026, cela imposera une obligation de transparence envers les candidats et un mécanisme de supervision humaine documenté. Vérifiez avec votre éditeur s'il dispose d'une déclaration de conformité.",
+      },
+      {
+        question: "Par quels indicateurs mesurer le ROI de l'IA en recrutement ?",
+        answer: "Trois indicateurs suffisent pour un premier bilan : le temps-par-embauche (délai moyen entre publication de l'offre et signature), le coût-par-recrue (charges internes + coût outil), et le taux de rétention à 6 mois. Ces trois métriques existent souvent dans votre ATS ou RH. L'objectif n'est pas la perfection de la mesure, c'est d'avoir une baseline avant déploiement pour pouvoir comparer.",
+      },
+      {
+        question: "Faut-il un grand projet IA pour améliorer son recrutement ?",
+        answer: "Non. Les PME qui obtiennent des résultats commencent par un seul cas d'usage (souvent la rédaction d'offres) pendant 6 à 8 semaines, mesurent l'effet, puis élargissent. Un audit préalable de 2 à 3 jours permet de prioriser les étapes selon votre contexte : volume de recrutements, profils ciblés, outillage existant.",
+      },
+      {
+        question: "Quelle est la différence entre IA à haut risque et IA à faible risque en recrutement ?",
+        answer: "Selon l'AI Act, un système IA est à haut risque en recrutement dès lors qu'il prend ou influence automatiquement des décisions de sélection ou de classement sans supervision humaine suffisante. Un outil qui aide à rédiger une offre, ou qui envoie des rappels d'entretien, est à faible risque : il assiste un humain sans décider à sa place. La distinction détermine les obligations réglementaires applicables à votre entreprise.",
+      },
+    ],
+  },
+  {
     slug: "gouvernance-ia-entreprise-cadre-pme-eti",
     title: "Gouvernance IA en entreprise : cadre concret PME-ETI",
     excerpt:
