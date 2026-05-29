@@ -9,7 +9,7 @@ export default function GuideImages() {
           <div className="p-6 bg-blue-600 text-white">
             <div className="flex items-center justify-between">
               <h1 className="text-2xl font-bold">Guide : Comment héberger des images pour votre site</h1>
-              <Link href="/admin-panel-si2023" className="text-white hover:text-blue-100">
+              <Link href="/" className="text-white hover:text-blue-100">
                 <ArrowLeft className="h-5 w-5" />
               </Link>
             </div>
@@ -140,10 +140,10 @@ export default function GuideImages() {
 
             <div className="mt-8">
               <Link
-                href="/admin-panel-si2023"
+                href="/"
                 className="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-blue-600 hover:bg-blue-700"
               >
-                Retour au panneau d'administration
+                Retour à l'accueil
               </Link>
             </div>
           </div>
