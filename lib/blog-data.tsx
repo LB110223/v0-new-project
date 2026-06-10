@@ -36,304 +36,282 @@ export interface BlogArticle {
 export const blogArticles: BlogArticle[] = [
   {
     slug: "roi-intelligence-artificielle-comment-mesurer",
-    title: "Mesurer le ROI IA : la méthode en 4 étapes pour PME",
+    title: "ROI IA en PME : 5 indicateurs concrets (avec formules)",
     excerpt:
-      "Seules 8 % des entreprises mesurent un ROI IA réel. Voici le protocole opérationnel en 4 étapes pour calculer et présenter le ROI de vos projets IA en PME.",
-    content: `# Mesurer le ROI IA : la méthode en 4 étapes pour PME
+      "Les 5 indicateurs ROI IA que les dirigeants de PME suivent vraiment après un premier projet : formules, pièges et horizons de mesure réalistes.",
+    content: `# Les 5 indicateurs ROI IA en PME que les dirigeants mesurent vraiment
 
-Pour mesurer le ROI d'un projet IA, il faut une méthode, pas une intuition. Selon l'AI Pulse Survey de KPMG (printemps 2026, 2 110 dirigeants dans 20 pays), 95 % des entreprises ont une stratégie IA et 64 % déclarent en tirer des bénéfices réels. Pourtant, seules 8 % affichent un retour sur investissement effectivement mesuré. Ce paradoxe n'est pas anecdotique : il décrit exactement ce qui se passe dans la majorité des PME françaises qui ont lancé un premier projet IA.
+88% des organisations utilisent l'IA dans au moins une fonction, selon McKinsey (State of AI 2025). Pourtant, seules 39% d'entre elles lient cette utilisation à un impact mesurable sur leur résultat d'exploitation (McKinsey, State of AI 2025). Et selon IBM (ROI of AI Report 2024), à peine 47% des entreprises déclarent un ROI positif sur leurs projets IA.
 
-Le problème n'est pas que le ROI n'existe pas. Le problème, c'est l'absence de méthode pour le mesurer. Et sans mesure documentée, pas de budget pour le projet suivant.
+Faites le calcul : 1 entreprise sur 2 atteint un ROI positif, mais seules 39% le voient sur leur compte de résultat. L'écart n'est pas un problème de technologie. C'est un problème de mesure. Et pour mesurer le ROI IA en PME, il faut d'abord choisir les bons indicateurs ROI IA : pas 20 KPIs abstraits, mais cinq mesures concrètes adaptées à votre contexte.
 
-En PME, la difficulté est encore plus profonde. Selon Bpifrance Le Lab (enquête auprès de 1 209 dirigeants, 2025), 43 % des PME et ETI françaises n'analysent pas leurs données pour piloter leur activité. Avant même de calculer le ROI IA, il faut un système de pilotage minimal. Sans données de base, pas de baseline. Sans baseline, pas de comparaison avant/après.
+Les dirigeants de PME qui ont déployé leur premier projet IA se retrouvent souvent dans la même situation six mois plus tard : l'outil est en place, les équipes l'utilisent, mais personne ne sait exactement ce que ça a rapporté. L'état initial n'a pas été documenté. La mesure a commencé trop tôt. Les coûts réels du projet ont été sous-estimés. Sur les audits IA que mène Laurent Bouzon (Smart Impulsion), la première question des dirigeants est toujours : "Comment je sais si ça a vraiment marché ?"
 
-Cet article décrit un protocole en 4 étapes pour mesurer concrètement le ROI de vos projets IA, sans équipe data, avec les outils que vous avez déjà. Il est rédigé par Laurent Bouzon, fondateur de Smart Impulsion, cabinet conseil IA B2B pour dirigeants de PME et ETI françaises. Pour le cadrage stratégique sur ce que représente le ROI IA et les benchmarks sectoriels, consultez d'abord [l'article pilier sur le ROI de l'IA en entreprise](/blog/roi-intelligence-artificielle-entreprise). Si vous en êtes aux prémices et cherchez par où commencer avec l'IA, le [guide pratique IA pour les PME](/blog/ia-pour-pme-guide) est le point de départ adapté.
+Un indicateur ROI IA PME est une mesure qui compare l'état d'un processus avant et après déploiement, en intégrant tous les coûts réels. Cet article n'en propose pas 20. Il en propose cinq qu'un dirigeant peut suivre avec ses outils habituels, à trois moments précis. Et il met en lumière les deux coûts cachés que presque personne n'intègre dans son calcul.
 
-Les 4 étapes que nous allons parcourir :
+Pour le cadre général du ROI IA en entreprise, l'article [mesurer et maximiser votre ROI IA](/blog/roi-intelligence-artificielle-entreprise) pose les fondations. Ce qui suit descend d'un cran : la pratique terrain, 12 mois après le déploiement.
 
-1. Construire la baseline avant de commencer
-2. Choisir 3 KPI, pas 12
-3. Calculer le ROI : gains bruts, gains nets, gains non-financiers
-4. Présenter le ROI au CODIR pour obtenir le budget suivant
+## Pourquoi les PME peinent à mesurer le ROI IA
 
-## Étape 1 : construire la baseline pour mesurer le ROI IA
+Gartner, dans une étude publiée en avril 2026 auprès de 782 directeurs IT et opérations, est sans appel : seuls 28% des projets IA atteignent pleinement leurs objectifs de ROI. 20% échouent complètement. Et 57% des dirigeants ayant connu un échec l'attribuent à des attentes trop élevées fixées trop rapidement.
 
-**Réponse directe.** La baseline est la photographie documentée de vos processus avant tout déploiement IA. C'est la condition non négociable d'une mesure ROI crédible : sans elle, vous ne pouvez pas démontrer que le projet a produit quoi que ce soit, ni obtenir le budget pour le suivant.
+> **Chiffre à retenir.** 28% des projets IA atteignent pleinement leur ROI cible (Gartner, avril 2026, enquête 782 directeurs I&O). Ce n'est pas un chiffre de crise : c'est un chiffre de cadrage réaliste pour fixer les bons objectifs.
 
-Sur les audits IA que Smart Impulsion conduit auprès de PME et ETI françaises, la question revient systématiquement : comment prouver que notre projet IA a eu un impact ? La réponse est toujours la même. Si la baseline n'a pas été construite avant le déploiement, la démonstration est impossible. Le problème ne vient pas du projet IA, il vient de l'absence de point de comparaison.
+Trois raisons structurelles expliquent pourquoi les PME se retrouvent sans mesure de ROI fiable. Les voici dans l'ordre où elles apparaissent.
 
-### Ce que vous devez mesurer en amont
+### Le problème de la baseline manquante
 
-Quatre indicateurs suffisent pour construire une baseline solide dans une PME :
+La baseline désigne la mesure de l'état initial avant tout déploiement : temps de traitement, coût par transaction, taux d'erreur. Sans elle, aucune comparaison n'est possible. C'est mathématique. Pourtant, la majorité des projets IA en PME démarrent sans que personne n'ait mesuré ces grandeurs avant de commencer.
 
-- **Temps passé par tâche** : combien d'heures par semaine votre équipe consacre aux tâches que le projet IA va traiter
-- **Volume traité par ETP** : combien de dossiers, factures, demandes ou documents un équivalent temps plein traite par semaine ou par mois
-- **Taux d'erreur** : pourcentage d'erreurs ou de reprises sur les tâches concernées (relances, corrections, litiges)
-- **Coût par transaction** : coût moyen d'une opération (traitement d'une facture, qualification d'une demande, rédaction d'un compte-rendu)
+Six mois plus tard, la question "ça a changé quoi ?" reste sans réponse chiffrée. On sait que c'est "mieux". On ne peut pas le prouver.
 
-Un tableur suffit. Vous n'avez pas besoin d'un outil de Business Intelligence ni d'un data analyst pour collecter ces données. Vous avez besoin de 4 semaines de mesure régulière avant le premier déploiement.
+La baseline n'est pas une formalité administrative. C'est le seul moyen de transformer un ressenti positif en ROI démontrable : au dirigeant, au DAF, aux actionnaires. Un [audit IA PME](/blog/audit-ia-pme-guide-complet) sérieux commence toujours par établir cette baseline avant de toucher à la technologie.
 
-### Pourquoi 4 semaines minimum
+### Le problème de l'horizon temporel
 
-Quatre semaines permettent de lisser les variations ponctuelles (pic d'activité, absence, migration logicielle) et d'obtenir une moyenne représentative. Une mesure sur une seule semaine peut être trompeuse à la hausse comme à la baisse.
+Les 30 premiers jours après un déploiement IA ne mesurent pas le ROI. Ils mesurent l'adoption. Ce sont deux choses différentes.
 
-> **Point clé.** Si vous n'avez aucune donnée sur vos processus actuels, commencez à mesurer maintenant, avant même de choisir votre projet IA. La baseline se construit en amont. Vous ne pouvez pas la reconstituer après coup.
+Un taux d'utilisation faible à J+45 ne signifie pas que le projet échoue. Il signifie que les équipes apprennent encore. Si on interprète ce signal comme un échec et qu'on coupe le projet, on perd la mise. C'est exactement ce que Gartner décrit : des attentes calées sur une semaine 6 qui conduisent à l'abandon avant que le ROI ait eu le temps de se matérialiser.
 
-### Ce que la baseline rend possible
+Le ROI opérationnel apparaît rarement avant J+90. L'impact sur le résultat, lui, se voit à J+180.
 
-Avec une baseline documentée, vous pouvez :
+### Le problème des coûts cachés
 
-- Comparer objectivement l'avant et l'après déploiement
-- Identifier le KPI qui a le plus progressé et celui qui n'a pas bougé
-- Calculer un ROI net que vous pourrez défendre devant votre CODIR
-- Ajuster le projet si les résultats s'écartent des projections
+Le calcul du ROI brut d'un projet IA est souvent réalisé ainsi : gains estimés divisés par coût de la licence et du déploiement. Ce calcul oublie deux postes qui représentent, selon les projets, entre 20% et 40% du coût total réel.
 
-> **A retenir.** Selon Bpifrance Le Lab (2025), 43 % des PME-ETI françaises ne font pas d'analyse de données pour piloter leur activité. Ce chiffre explique en grande partie pourquoi les projets IA ne produisent pas de ROI documenté : le problème précède l'IA.
+Un business case IA typique en PME intègre :
 
-La construction de la baseline est l'étape la plus difficile à réaliser seul, surtout quand les processus concernés sont peu formalisés. C'est précisément ce que l'Audit IA Express de Smart Impulsion cadre en 3 jours. En partant de vos processus existants, l'audit documente la baseline qui rend votre ROI incontestable au premier bilan. [Découvrir l'Audit IA Express](/services/audit)
+- Le coût de la licence logicielle ou de l'abonnement
+- Le coût du déploiement technique (paramétrage, intégration SI)
+- Parfois, les jours de conseil au démarrage
 
-Pour aller plus loin sur la méthodologie d'audit avant déploiement, consultez également [le guide complet de l'audit IA pour PME](/blog/audit-ia-pme-guide-complet).
+Il oublie systématiquement la conduite du changement et la conformité réglementaire. Ces deux postes sont détaillés dans la section dédiée plus bas. Leur existence explique pourquoi un projet qui "semblait rentable sur le papier" ne l'est plus sur la feuille de paie.
 
-## Étape 2 : choisir 3 KPI pour suivre vos projets IA
+## La grille J+30 / J+90 / J+180
 
-**Réponse directe.** Pour suivre efficacement un projet IA, choisissez 3 KPIs maximum avant le déploiement, adaptés au type de projet (automatisation documentaire, aide à la décision ou service client), et maintenez-les jusqu'au bilan final sans les modifier.
+La meilleure question à poser avant de lancer un projet IA n'est pas "quel ROI on va faire ?". C'est "à quel moment on va mesurer quoi ?".
 
-Le réflexe naturel quand on lance un projet IA est de vouloir tout mesurer. On installe des dizaines de métriques, on construit des dashboards complexes, et au bout de 6 mois on ne sait plus quoi regarder. Résultat : aucune décision n'est prise, le projet stagne, et le CODIR demande des preuves que vous n'avez pas.
+La grille ci-dessous ne demande pas d'équipe data. Elle demande de la discipline.
 
-La règle est simple : **3 KPI maximum par projet**, choisis avant le déploiement et maintenus jusqu'au bilan final.
+### J+30 : adoption et prise en main
 
-### Grille de sélection par type de projet
+À un mois, le ROI financier n'est pas encore là. Ce qu'on mesure à J+30, c'est si les conditions du ROI futur sont réunies.
 
-Le choix des KPIs dépend du type de projet IA que vous déployez. Voici une grille directement utilisable :
+Les indicateurs pertinents à J+30 :
 
-**Automatisation documentaire** (factures, contrats, comptes-rendus, courriers) :
-- Temps de traitement moyen par document
-- Taux d'erreur ou de reprise nécessitant une intervention humaine
-- Volume traité par ETP sur la période
+- **Taux d'adoption interne** : quel pourcentage des utilisateurs cibles utilise l'outil au moins une fois par semaine ?
+- **Temps de formation réel** : combien d'heures ont été consacrées à la prise en main, par rapport au plan initial ?
+- **Points de résistance** : quelles équipes n'utilisent pas l'outil, et pourquoi ?
 
-**Aide à la décision** (analyse de données, reporting, qualification de demandes) :
-- Temps moyen pour produire une décision ou un rapport
-- Taux de décisions révisées après coup (proxy de qualité)
-- Nombre de cas traités sans escalade vers un expert
+> **Signal d'alerte J+30.** Si le taux d'adoption est inférieur à 40% à J+30, ce n'est pas un problème technologique. C'est un problème d'accompagnement. Augmenter le budget de conduite du changement à ce stade coûte moins cher que de redéployer six mois plus tard.
 
-**Service client avec IA** (chatbot, traitement des demandes entrantes) :
-- Taux de résolution sans intervention humaine
-- Volume traité sans augmentation des effectifs
-- Délai moyen de réponse ou de traitement
+Un taux d'adoption de 30% à J+30 peut encore devenir 75% à J+90 si les raisons du blocage sont traitées. Ignorer ce signal, c'est compromettre le ROI de J+180.
 
-> **Pourquoi seulement 3 KPIs.** Plus vous suivez d'indicateurs, plus vous créez de surface d'interprétation contradictoire. Si votre temps de traitement baisse mais que votre taux d'erreur monte, le projet a-t-il réussi ou échoué ? Avec 3 KPIs bien choisis, la réponse est toujours claire.
+### J+90 : efficacité opérationnelle
 
-### Les KPIs à éviter
+À trois mois, les équipes maîtrisent l'outil. On peut maintenant mesurer ce qu'il change réellement dans les opérations.
 
-Certains indicateurs paraissent logiques mais posent des problèmes en pratique :
+Les indicateurs pertinents à J+90 :
 
-- **Satisfaction utilisateur** (trop subjectif, ne mesure pas le ROI financier)
-- **Nombre de tâches automatisées** (volume sans valeur sans lien au coût)
-- **Temps économisé en heures brutes** sans coût horaire associé (ne parle pas au CODIR)
-- **NPS interne** (corrélation avec le ROI trop faible pour des décisions budgétaires)
+- **Temps de traitement avant/après** : sur un type de tâche spécifique (traitement de factures, rédaction d'e-mails, analyse de documents), combien de temps la même tâche prenait-elle avant ? Combien maintenant ?
+- **Taux d'erreur ou de retravail** : sur 100 traitements, combien nécessitaient une correction ? Ce chiffre a-t-il évolué ?
+- **Coût par transaction** : le coût unitaire d'un traitement (facture, commande, ticket support) a-t-il baissé ?
 
-Pour identifier les KPIs les plus adaptés à votre secteur et à vos cas d'usage spécifiques, le [guide sur l'automatisation des processus par l'IA](/blog/automatisation-processus-ia-guide-pratique) offre un panorama utile avant de définir vos indicateurs.
+C'est à J+90 que les PME qui ont documenté leur baseline voient les premiers chiffres concrets. Et c'est à ce stade qu'on peut commencer à parler de retour sur investissement avec son DAF.
 
-## Étape 3 : calculer le ROI IA en distinguant gains bruts et nets
+### J+180 : impact sur les résultats
 
-**Réponse directe.** Le ROI d'un projet IA se calcule ainsi : ROI = [(Gains annuels nets - Coûts totaux) / Coûts totaux] × 100. Les gains bruts regroupent les heures économisées valorisées au coût horaire chargé et la réduction d'erreurs. Les gains nets déduisent de ces gains bruts l'ensemble des coûts réels du projet. Ce chiffre net est le seul pertinent pour décider de la suite.
+À six mois, on peut mesurer l'impact sur les résultats de l'entreprise : délais clients, qualité des livrables, satisfaction des équipes, éventuellement contribution au chiffre d'affaires.
 
-Avec une baseline documentée et 3 KPIs définis, vous avez les matériaux nécessaires pour calculer un ROI défendable. La formule est la suivante :
+Les indicateurs pertinents à J+180 :
 
-**ROI = [(Gains annuels nets - Coûts totaux) / Coûts totaux] × 100**
+- **ROI net calculé** : gains mesurés (économies de temps, réduction d'erreurs, délais réduits) divisés par le coût total réel du projet (licence + déploiement + formation + conduite du changement + conformité AI Act). On détaille la formule ci-dessous.
+- **Score d'utilité perçue** : les utilisateurs estiment-ils que l'outil leur fait gagner du temps ? Une note de 1 à 5 sur une question simple vaut mieux que 20 KPIs non renseignés.
+- **Évolution du volume traité** : la même équipe traite-t-elle plus de volume qu'avant ?
 
-### Calculer les gains bruts
+> **À retenir.** Un ROI calculé à J+30 est presque toujours négatif ou nul, parce qu'on ne compte que les coûts (déploiement, formation) sans les gains (pas encore stabilisés). Ce n'est pas un signal d'échec. C'est le fonctionnement normal d'un investissement.
 
-Les **gains bruts** représentent la valeur totale générée par le projet avant toute déduction. Ils regroupent deux composantes principales :
+## Les 5 indicateurs ROI IA que les PME suivent vraiment
 
-- **Gains de productivité** : heures économisées par semaine × coût horaire chargé × 52 semaines. Le coût horaire chargé d'un salarié en France inclut les charges patronales, soit environ 1,4 à 1,6 fois le salaire brut horaire.
-- **Réduction d'erreurs** : nombre d'erreurs évitées par mois × coût moyen d'une erreur (litige client, reprise, pénalité, ressaisie). Ce coût est souvent sous-estimé.
+Voici les cinq indicateurs qui ressortent dans les projets IA accompagnés en PME. Tous sont mesurables sans équipe data, avec Excel ou l'ERP existant. Tous ont une formule simple.
 
-Un exemple concret : un gestionnaire traite 200 factures par semaine à raison de 6 minutes par facture, soit 20 heures/semaine. Un projet IA ramène ce temps à 8 heures/semaine. Pour un coût horaire chargé de 35 €, le gain annuel de productivité est de 12 heures × 35 € × 52 semaines = 21 840 €.
+Pour des exemples par fonction métier (production, RH, finance, service client), voir l'article sur l'[automatisation des processus](/blog/automatisation-processus-ia-guide-pratique).
 
-> **A retenir.** Les gains de productivité sont facilement calculables. Les gains qualité (réduction d'erreurs, conformité) sont souvent les plus importants mais les moins documentés faute de baseline initiale. C'est une raison supplémentaire de mesurer le taux d'erreur avant le déploiement.
+### 1. Taux d'adoption interne
 
-### Calculer les coûts réels
+**Ce que ça mesure.** La proportion des utilisateurs cibles qui utilisent réellement l'outil au moins une fois par semaine.
 
-Les **gains nets** s'obtiennent en déduisant des gains bruts l'ensemble des coûts réels du projet. Ces coûts comprennent plusieurs postes que l'on sous-estime régulièrement :
+**Formule.** (Nombre d'utilisateurs actifs sur 7 jours / Nombre d'utilisateurs cibles total) × 100
 
-- **Développement ou intégration** : paramétrage de l'outil, connexion aux systèmes existants (ERP, messagerie, GED)
-- **Licences logicielles** : coût annuel de la solution IA retenue
-- **Formation des équipes** : temps de formation des utilisateurs et des responsables
-- **Accompagnement externe** : prestataire ou consultant pour le déploiement
-- **Maintenance première année** : corrections, ajustements, mises à jour
+**Exemple.** Une PME de distribution déploie un outil IA pour la gestion des e-mails entrants clients (tri, qualification, réponse automatique). 12 collaborateurs ciblés, 9 utilisent l'outil chaque semaine à J+60. Taux d'adoption : 75%.
 
-À ces postes s'ajoutent en 2026, pour les entreprises concernées par l'AI Act, les **coûts de conformité** : documentation des systèmes IA déployés, formation à la littératie IA (obligation de l'article 4 de l'AI Act), et éventuellement recours à un conseil externe pour évaluer le niveau de risque du système. Pour une PME qui déploie un système d'IA à risque limité, ces coûts se situent généralement entre 5 000 et 15 000 € par an. Le [guide AI Act pour PME](/blog/ai-act-pme-guide-2026) détaille les obligations applicables selon le niveau de risque de vos systèmes.
+**Piège d'interprétation.** Un taux d'adoption élevé ne garantit pas un ROI positif. Il garantit que les conditions du ROI sont réunies. Si les utilisateurs adoptent mais que les processus n'ont pas été redessinés, le gain de temps disparaît dans d'autres tâches sans valeur ajoutée.
 
-### Délai de retour sur investissement
+> **Pourquoi c'est l'indicateur précurseur.** Les 6% d'entreprises que McKinsey qualifie de "high performers" sur le ROI IA (State of AI 2025) ont un point commun : elles ont restructuré leurs workflows avant de mesurer les gains. Le taux d'adoption sans redesign processus ne génère pas de ROI mesurable.
 
-Le délai de rentabilité varie selon le type de projet et la taille de l'entreprise. En PME française, on observe généralement :
+### 2. Temps de traitement avant/après
 
-- Automatisation documentaire simple : 4 à 8 mois
-- Aide à la décision avec intégration ERP : 8 à 14 mois
-- Service client avec déploiement progressif : 6 à 12 mois
+**Ce que ça mesure.** Le delta de temps sur une tâche répétitive spécifique.
 
-Selon l'étude Trends of AI 2026 de KPMG (356 décideurs français, 62 % directeurs et C-level), la capacité à mesurer le ROI IA a doublé en un an dans les grandes organisations françaises : de 1 sur 3 en 2025 à 2 sur 3 en 2026. Pour les PME, ce rattrapage reste à construire. La méthode décrite ici est précisément conçue pour combler cet écart, sans infrastructure data complexe.
+**Formule.** ((Temps moyen avant - Temps moyen après) / Temps moyen avant) × 100 = % de gain
 
-> **Red flag.** Ne mesurez pas le ROI avant 3 mois après le déploiement complet. Un projet mesuré trop tôt, avant que les utilisateurs aient adopté l'outil, affiche systématiquement un ROI sous-estimé. Ce faux signal négatif peut conduire à arrêter un projet qui aurait été rentable à 9 mois.
+**Exemple.** Un service comptabilité traite en moyenne 45 minutes par facture fournisseur (saisie, vérification, validation). Après déploiement d'un outil IA de traitement de documents, la même opération prend 12 minutes. Gain : 73%. Sur 200 factures par mois, c'est 110 heures récupérées.
 
-### Valoriser les gains non-financiers
+**Piège d'interprétation.** Mesurer sur un seul collaborateur ou sur une semaine atypique fausse le résultat. Il faut un échantillon de 3 à 4 semaines consécutives, avec plusieurs utilisateurs, pour avoir une mesure stable.
 
-Certains bénéfices réels ne rentrent pas dans la formule ROI classique, mais méritent d'être documentés pour le CODIR :
+### 3. Coût par transaction
 
-- **Conformité réglementaire** : réduction du risque de sanction RGPD ou AI Act
-- **Qualité de vie au travail** : suppression de tâches répétitives à faible valeur pour les équipes
-- **Image employeur** : argument pour le recrutement dans des secteurs en tension
-- **Réduction du risque opérationnel** : continuité de traitement même en cas d'absence ou de pic d'activité
+**Ce que ça mesure.** Le coût unitaire d'un traitement (facture, commande, ticket, document).
 
-Ces gains ne s'inventent pas. Ils se documentent : enquête interne avant/après, suivi des arrêts maladie sur la période, retours qualitatifs des équipes. Ils complètent le ROI financier sans le remplacer.
+**Formule.** Coût total du département sur la période / Nombre de transactions traitées sur la période
 
-## Étape 4 : présenter le ROI au CODIR
+**Exemple.** Un service client de PME industrielle emploie 3 personnes à temps plein pour traiter les demandes entrantes. Coût salarial annuel (chargé) : 90 000 €. Volume annuel : 4 500 tickets. Coût par ticket avant IA : 20 €. Après déploiement d'un assistant IA et réduction à 2 ETP : coût par ticket à 14 €. Gain par transaction : 30%.
 
-**Réponse directe.** Pour présenter le ROI d'un projet IA à la direction, structurez votre présentation en 4 éléments : la baseline documentée avant le projet, le KPI principal avec sa progression chiffrée, le chiffre net en euros (gains moins coûts), et une projection à 12 mois. Les gains non-financiers s'ajoutent en complément, jamais comme argument principal.
+**Piège d'interprétation.** Si le volume de transactions augmente après déploiement (souvent le cas, car l'outil absorbe plus de demandes), le coût total peut rester stable alors que le coût unitaire baisse. Les deux métriques racontent des histoires différentes. Mesurez les deux.
 
-Vous avez calculé un ROI documenté. L'enjeu maintenant est de le présenter de façon à obtenir le budget du projet suivant. C'est là que beaucoup de projets échouent, non par manque de résultats, mais par excès de complexité dans la présentation.
+### 4. Taux d'erreur ou de retravail
 
-### La structure en 4 éléments
+**Ce que ça mesure.** La proportion de traitements qui nécessitent une correction ou un retraitement.
 
-Un CODIR a besoin de 4 informations, pas plus :
+**Formule.** (Nombre de traitements retravaillés / Nombre total de traitements) × 100
 
-1. **La baseline** : où vous en étiez avant le projet (les 3 KPIs mesurés)
-2. **Le KPI principal** : l'indicateur qui a le plus progressé, avec la valeur avant et après
-3. **Le chiffre net** : gains annuels moins coûts totaux, en euros
-4. **La projection 12 mois** : extrapolation simple du ROI sur la prochaine année, avec l'hypothèse principale
+**Exemple.** Un cabinet de conseil en ressources humaines traite des fiches de poste. Avant IA : 23% des fiches nécessitaient une révision significative avant envoi au client. Après déploiement d'un outil de génération assistée : 8% de révisions. Réduction du retravail : 65%.
 
-> **Point clé.** Ce que veut entendre un dirigeant : "avant, cette tâche coûtait X par an. Maintenant, elle coûte Y. La différence nette après tous les coûts est Z, et dans 12 mois elle sera W." Ce que veulent montrer les équipes techniques : un tableau de 15 métriques avec des graphiques d'évolution. Ces deux formats ne s'adressent pas au même public.
+**Piège d'interprétation.** Cet indicateur est particulièrement utile pour les processus où l'erreur a un coût direct (conformité, satisfaction client, délais contractuels). Sur des tâches à faible criticité, il peut paraître secondaire. L'inverse est vrai : c'est souvent sur les processus à forte criticité que le ROI de la réduction d'erreurs est le plus rapide.
 
-### Comment intégrer les gains non-financiers
+### 5. Score d'utilité perçue
 
-Les gains non-financiers se présentent en complément du chiffre net, jamais comme argument principal. La formulation recommandée : "Au-delà du ROI financier de Z€, ce projet a également réduit notre exposition au risque [réglementaire / opérationnel / RH]. Ce bénéfice n'est pas chiffré dans la formule, mais voici comment on l'observe."
+**Ce que ça mesure.** La perception des utilisateurs sur la valeur que leur apporte l'outil au quotidien.
 
-### Le timing optimal
+**Formule.** Question unique posée mensuellement : "Sur une échelle de 1 à 5, cet outil vous fait-il gagner du temps de façon concrète ?" Moyenne sur l'ensemble des utilisateurs actifs.
 
-Ne présentez pas le ROI avant 6 mois de déploiement pour un premier bilan complet. Si vous devez faire un point intermédiaire à 3 mois, présentez-le explicitement comme un état d'avancement, pas comme un bilan définitif.
+**Exemple.** Une ETI du secteur distribution pose cette question à 18 utilisateurs à J+60, J+90 et J+120. Les scores : 2,8 / 3,4 / 4,1. La progression confirme que l'adoption monte et que la valeur perçue suit. Un score stable en dessous de 3 à J+90 est un signal d'alerte.
 
-### Préparer le terrain pour le projet suivant
+**Pourquoi cet indicateur compte.** Selon IBM (ROI of AI Report, 2024), les économies directement chiffrables arrivent en quatrième position dans les métriques de ROI IA prioritaires, derrière la rapidité d'exécution, l'innovation et la productivité perçue. Un dirigeant qui ne mesure que les euros rate les deux tiers des signaux de valeur.
 
-La présentation ROI au CODIR a un objectif secondaire aussi important que le premier : légitimer le projet suivant. Terminez votre présentation en identifiant le prochain cas d'usage candidat, avec une fourchette de ROI projeté basée sur la même méthodologie. Vous avez maintenant les outils pour le faire.
+Les cinq indicateurs ci-dessus forment une liste numérotée de mesures progressives :
 
-## 3 erreurs qui faussent le ROI IA en PME
+1. **Taux d'adoption interne** : est-ce que les équipes utilisent vraiment l'outil ?
+2. **Temps de traitement avant/après** : est-ce que ça va plus vite ?
+3. **Coût par transaction** : est-ce que ça coûte moins cher ?
+4. **Taux d'erreur ou de retravail** : est-ce que la qualité s'améliore ?
+5. **Score d'utilité perçue** : est-ce que les équipes en voient la valeur ?
 
-Ces trois erreurs se produisent dans presque tous les premiers projets IA en PME. Les identifier permet de les éviter ou de corriger le tir avant qu'elles ne compromettent la crédibilité du projet.
+## Les 2 coûts cachés absents de tous les calculs
 
-### Erreur 1 : mesurer trop tôt
+Le calcul du ROI brut d'un projet IA oublie presque systématiquement deux postes. Pas par mauvaise foi : par habitude d'un modèle mental hérité des projets informatiques classiques, où le coût s'arrête à la licence et au déploiement.
 
-C'est l'erreur la plus fréquente. Un projet IA prend du temps à stabiliser : le modèle ajuste ses paramètres, les utilisateurs modifient leurs habitudes de travail, les exceptions sont traitées au fur et à mesure. Un bilan à 4 semaines post-déploiement est presque toujours trop tôt.
+### La conduite du changement
 
-L'impact sur le ROI apparent est mesurable et souvent trompeur. Un projet d'automatisation documentaire mesuré à 1 mois peut afficher un ROI de -15 % (coûts déjà engagés, bénéfices pas encore pleinement réalisés). Le même projet mesuré à 9 mois affichera souvent un ROI de +80 à +150 %, une fois l'adoption complète et les ajustements effectués.
+Former une équipe à un nouvel outil IA prend du temps. Mais la formation n'est que la partie visible.
 
-> **Red flag.** Si votre prestataire vous propose un bilan ROI à 4 semaines, méfiez-vous. C'est soit une méconnaissance des délais réels de déploiement, soit une démonstration de résultats prématurés à des fins commerciales.
+La conduite du changement comprend :
 
-### Erreur 2 : confondre gains bruts et gains nets
+- **Les heures de formation initiale** : 4 à 8 heures par utilisateur, selon la complexité de l'outil
+- **L'accompagnement sur la durée** : séances de questions-réponses, ajustements de paramétrage, aide à la prise en main des cas limites (3 à 6 mois)
+- **Le coût de la résistance interne** : les collaborateurs qui n'adoptent pas consomment du temps de management
+- **Le risque de churn usage** : un utilisateur qui abandonne l'outil à J+60 représente un investissement formation perdu
 
-On calcule les heures économisées, on multiplie par le coût horaire, on obtient un chiffre impressionnant. Mais on oublie de déduire les coûts réels : maintenance annuelle de la solution, temps de supervision humaine nécessaire (le projet IA ne supprime pas toujours le poste, il le transforme), mises à jour, et depuis 2026, les coûts de conformité AI Act pour les systèmes concernés.
+Sur un projet IA PME de taille standard (10 à 20 utilisateurs, déploiement sur 3 mois), ce poste représente généralement entre 20% et 35% du budget total du projet, un montant réel souvent absent du business case initial.
 
-Un projet qui affiche 40 000 € de gains bruts mais nécessite 28 000 € de coûts annuels produit un ROI de 43 %, pas de 40 000 €. Ce n'est pas la même décision budgétaire.
+> **Red flag.** Un business case IA qui ne mentionne pas la ligne "conduite du changement" sous-estime son coût total de 20 à 35%. Un ROI calculé sur cette base est systématiquement surestimé.
 
-La liste des coûts à ne pas oublier :
+### La conformité AI Act 2026
 
-- Licences annuelles de la solution (souvent indexées sur le volume ou les utilisateurs)
-- Temps de maintenance et de supervision interne (généralement sous-estimé à 20-30 % du temps initialement prévu)
-- Mises à jour ou réadaptations liées à l'évolution de vos données ou de vos processus
-- Coûts de conformité AI Act si votre système entre dans le périmètre du règlement
+L'Article 4 du règlement européen sur l'IA impose une obligation de littératie IA avant le 2 août 2026. Concrètement, les entreprises qui déploient des outils IA doivent s'assurer que les personnes qui les utilisent disposent d'un niveau minimal de compétences pour comprendre ce qu'elles font.
 
-### Erreur 3 : changer de KPI en cours de projet
+Ce n'est pas une obligation théorique. Pour les PME qui déploient des outils IA dans des processus opérationnels, cela signifie :
 
-Vous avez défini 3 KPIs avant le déploiement. Trois mois plus tard, les résultats ne sont pas ceux attendus sur le KPI principal. La tentation est forte de modifier les indicateurs pour valoriser ce qui a bien marché. C'est un biais de confirmation classique, et votre CODIR le détectera.
+- Des sessions de formation conformité (distinctes de la formation usage)
+- Une documentation des usages IA dans l'entreprise
+- Une revue régulière des risques liés à chaque cas d'usage
 
-> **Point clé.** Si vous changez de KPIs en cours de projet, vous perdez toute capacité comparative avec la baseline. Le résultat devient ininterprétable et votre crédibilité sur le projet suivant est entamée. Si les résultats décevants sur un KPI méritent une explication, donnez-la : un délai d'adoption plus long que prévu, un cas d'usage légèrement différent de l'hypothèse initiale. C'est plus convaincant que de substituer un indicateur par un autre.
+Pour plus de détails sur les obligations réglementaires applicables aux PME, l'article [AI Act PME 2026](/blog/ai-act-pme-guide-2026) détaille le calendrier et les obligations concrètes.
+
+Ce poste est prévisible. Son coût se chiffre en heures et en honoraires d'accompagnement, pas en millions. Mais l'ignorer dans le calcul ROI revient à présenter un résultat net plus flatteur que la réalité.
+
+> **Formule ROI net à intégrer dans votre calcul.**
+>
+> **ROI net = Gains mesurés à J+180 / (Licence + Déploiement + Formation + Conduite du changement + Conformité AI Act)**
+>
+> Les deux derniers postes sont ceux que les business cases PME oublient le plus souvent. Sans eux, le ROI net calculé est systématiquement surestimé.
 
 ## Questions fréquentes
 
-### Quelle est la formule pour calculer le ROI d'un projet IA ?
+### Comment mesurer le ROI d'un projet IA en PME ?
 
-La formule est la suivante : ROI = [(Gains annuels nets - Coûts totaux) / Coûts totaux] × 100. Les gains annuels nets se calculent ainsi : heures économisées par semaine × coût horaire chargé × 52, plus la réduction d'erreurs multipliée par leur coût moyen. Les coûts totaux regroupent le développement, les licences, la formation, l'accompagnement et la maintenance de la première année, auxquels s'ajoutent les coûts de conformité AI Act le cas échéant. C'est le chiffre net qui compte pour décider de la suite, pas les gains bruts seuls.
+Documentez une baseline avant tout déploiement : temps de traitement actuel, coût par transaction, taux d'erreur. Puis appliquez la grille temporelle : à J+30, mesurez l'adoption. À J+90, mesurez l'efficacité opérationnelle. À J+180, calculez le ROI net en intégrant tous les coûts réels. Cinq indicateurs suffisent pour une PME sans équipe data : taux d'adoption, temps de traitement avant/après, coût par transaction, taux d'erreur et score d'utilité perçue.
 
-### Combien de temps faut-il attendre avant de mesurer le ROI d'un projet IA ?
+### Combien de temps faut-il pour voir un ROI sur un projet IA ?
 
-Minimum 3 mois après le déploiement complet, idéalement 6 à 9 mois pour un premier bilan représentatif. Un projet mesuré trop tôt, avant l'adoption réelle par les utilisateurs, génère systématiquement une sous-estimation du ROI. Un bilan intermédiaire à 3 mois peut être présenté comme état d'avancement, à condition de ne pas le qualifier de bilan définitif.
+Le ROI opérationnel (gain de temps, réduction d'erreurs) devient mesurable à partir de J+90 dans la majorité des projets. L'impact sur le compte de résultat, lui, se voit à J+180. Selon IBM (2024), 58% des organisations passent d'un pilote à la production en moins d'un an. Le ROI mesurable demande souvent 3 à 6 mois supplémentaires après ce passage. Gartner (2026) confirme que 57% des échecs viennent d'attentes fixées trop tôt : ne mesurez pas le ROI à 30 jours.
 
-### Quels KPIs suivre pour mesurer le ROI de l'IA ?
+### Pourquoi mon projet IA ne génère pas encore de ROI visible ?
 
-3 KPIs maximum par projet, définis avant le déploiement. Le choix dépend du type de projet : automatisation documentaire (temps de traitement, taux d'erreur), aide à la décision (temps de décision, taux de révisions), service client IA (taux de résolution, volume traité). Ces indicateurs doivent être mesurables sans outil BI avancé, et maintenus jusqu'au bilan final sans modification.
+Trois causes probables. La plus fréquente : aucune baseline n'a été documentée avant le déploiement, ce qui rend toute comparaison impossible. La deuxième : l'horizon de mesure est trop court, l'impact n'est pas encore stabilisé à J+45 ou J+60. La troisième : les coûts réels ne sont pas tous comptabilisés (conduite du changement, conformité), ce qui donne un ROI net en dessous des projections. Seuls 28% des projets IA atteignent pleinement leurs objectifs de ROI selon Gartner (2026) : ce n'est pas exceptionnel, c'est la norme. La bonne nouvelle : ces causes sont toutes corrigeables.
 
-### Comment présenter le ROI d'un projet IA à la direction ?
+### Quels sont les coûts cachés d'un projet IA en PME ?
 
-Quatre éléments suffisent : la baseline documentée avant le projet, le KPI principal avec sa progression chiffrée, le chiffre net en euros (gains moins coûts), et une projection à 12 mois. Les gains non-financiers (conformité, qualité de vie au travail) s'ajoutent en complément, jamais comme argument central. Les dirigeants veulent un chiffre net et une projection, pas une liste de métriques techniques.
+Deux postes sont quasi-systématiquement absents des calculs initiaux. La conduite du changement (formation, accompagnement sur 3 à 6 mois, gestion de la résistance) représente 20 à 35% du budget total réel d'un projet. La conformité AI Act (Article 4, obligation de littératie IA avant le 2 août 2026) ajoute un coût prévisible mais souvent ignoré. Ces deux postes ne sont pas des surprises si on les anticipe. Ils le deviennent si on les découvre après le lancement.
 
-### Pourquoi mon projet IA ne montre pas de ROI après 3 mois ?
+### Comment expliquer le ROI de l'IA à mon DAF ?
 
-Trois causes probables : vous mesurez avant la stabilisation complète du système et l'adoption réelle par les équipes, vous n'avez pas de baseline documentée et la comparaison avant/après est impossible, ou les coûts initiaux pèsent encore sur le calcul alors que les bénéfices ne sont pas encore pleinement matérialisés. Un ROI négatif à 3 mois ne préjuge pas du ROI à 9 mois. Attendez avant de tirer des conclusions définitives.
+Partez des indicateurs que votre DAF connaît : coût par traitement, taux d'erreur, délai moyen. Montrez l'écart avant/après avec des données réelles issues de la baseline. Intégrez tous les coûts dans le calcul : licence, déploiement, formation, conduite du changement, conformité. Fixez un horizon réaliste : J+180 pour les premiers impacts sur le résultat. Un ROI honnête, avec hypothèses explicites et données réelles, vaut mieux qu'un ROI optimiste sans base de calcul. C'est aussi ce qui permet de défendre un deuxième projet.
 
 ## Passez de la théorie à l'action
 
-Vous disposez maintenant d'un protocole en 4 étapes pour mesurer le ROI IA de vos projets avec les outils que vous avez déjà. La plupart des PME qui échouent à documenter un ROI s'arrêtent à la première étape faute de baseline.
+Mesurer le ROI IA en PME commence avant le déploiement, pas après. Sans baseline documentée, sans indicateurs ROI IA définis et sans horizon temporel réaliste, vous avancez à l'aveugle. Et vous ne pourrez jamais prouver à votre DAF, à votre CODIR ou à vos actionnaires que l'investissement était justifié.
 
-Smart Impulsion, cabinet conseil IA B2B pour PME et ETI françaises, propose un Audit IA Express qui construit cette baseline en 3 jours. L'audit part de vos processus actuels, identifie les données disponibles et pose les indicateurs de mesure adaptés à votre activité. Vous repartez avec une baseline documentée et un ROI projeté avant tout déploiement.
+Smart Impulsion propose un Audit IA Express qui établit cette baseline avant tout déploiement : cartographie de vos cas d'usage, identification des cinq indicateurs mesurables dans votre contexte, et feuille de route ROI avec hypothèses explicites. En 2 à 3 jours, vous repartez avec un point de départ documenté et un ROI projeté avant de dépenser le premier euro de déploiement.
 
-[En savoir plus sur l'Audit IA Express](/services/audit)`,
+Pour démarrer votre premier projet IA sur des bases solides, consultez aussi le [guide pratique IA pour PME](/blog/ia-pour-pme-guide).
+
+[En savoir plus sur l'audit IA express](/services/audit)`,
     author: "Laurent Bouzon",
-    date: "9 juin 2026",
-    dateISO: "2026-06-09",
-    readTime: "14 min",
+    date: "10 juin 2026",
+    dateISO: "2026-06-10",
+    readTime: "13 min",
     category: "Strategie & ROI",
     image: "/roi-intelligence-artificielle-comment-mesurer-hero.png",
-    imageAlt: "Image d'illustration pour l'article \"Mesurer le ROI IA : la méthode en 4 étapes pour PME\"",
+    imageAlt: "Image d'illustration pour l'article \"ROI IA en PME : 5 indicateurs concrets (avec formules)\"",
     faq: [
       {
-        question: "Quelle est la formule pour calculer le ROI d'un projet IA ?",
-        answer: "La formule de base : ROI = [(Gains annuels nets - Coûts totaux) / Coûts totaux] × 100. Les gains annuels nets incluent les heures économisées multipliées par le coût horaire chargé, plus la réduction d'erreurs multipliée par leur coût moyen. Les coûts totaux intègrent le développement, les licences, la formation, l'accompagnement et la maintenance de la première année. C'est cette formule nette, et non les gains bruts seuls, que Smart Impulsion recommande de présenter au CODIR.",
+        question: "Comment mesurer le ROI d'un projet IA en PME ?",
+        answer: "Commencez par documenter une baseline avant tout déploiement : temps de traitement actuel, coût par transaction, taux d'erreur. Puis mesurez à J+30 (adoption), J+90 (efficacité opérationnelle) et J+180 (impact sur les résultats). Cinq indicateurs suffisent pour une PME sans équipe data : taux d'adoption, temps de traitement avant/après, coût par transaction, taux d'erreur, score d'utilité perçue.",
       },
       {
-        question: "Combien de temps faut-il attendre avant de mesurer le ROI d'un projet IA ?",
-        answer: "Minimum 3 mois après le déploiement complet, idéalement 6 à 9 mois pour un premier bilan solide. Mesurer trop tôt, avant la stabilisation du système et l'adoption réelle par les utilisateurs, génère systématiquement une sous-estimation du ROI. Un projet mesuré à 1 mois peut afficher un ROI négatif alors qu'il sera positif à 9 mois. Ce délai est cohérent avec les observations terrain de Smart Impulsion sur les audits IA menés auprès de PME françaises.",
+        question: "Combien de temps faut-il pour voir un ROI sur un projet IA ?",
+        answer: "Selon IBM (2024), 58% des organisations passent d'un pilote à la production en moins d'un an. Mais le ROI mesurable sur le compte de résultat apparaît généralement entre J+90 et J+180. Les premières semaines révèlent l'adoption, pas encore le ROI financier. Fixer des objectifs à 30 jours est l'erreur la plus fréquente : Gartner (2026) indique que 57% des échecs viennent d'attentes trop élevées fixées trop rapidement.",
       },
       {
-        question: "Quels KPIs suivre pour mesurer le ROI de l'IA ?",
-        answer: "Maximum 3 KPIs par projet, choisis en fonction du type de projet : automatisation documentaire (temps de traitement, taux d'erreur), aide à la décision (qualité des décisions prises, temps de décision), service client IA (taux de résolution, volume traité sans recrutement supplémentaire). Ces KPIs doivent être mesurables sans outil de Business Intelligence avancé.",
+        question: "Pourquoi mon projet IA ne génère pas encore de ROI visible ?",
+        answer: "Trois raisons structurelles expliquent l'absence de ROI visible : l'absence de baseline documentée avant le déploiement (sans état initial, aucune comparaison n'est possible), un horizon de mesure trop court (le ROI opérationnel apparaît rarement avant J+90), et des coûts cachés non intégrés dans le calcul, notamment la conduite du changement et la conformité AI Act. Selon Gartner (2026), seuls 28% des projets IA atteignent pleinement leurs objectifs de ROI.",
       },
       {
-        question: "Comment présenter le ROI d'un projet IA à la direction ?",
-        answer: "Structure en 4 éléments : 1 baseline documentée avant le projet, 1 KPI principal avec sa progression, 1 chiffre net (gains moins coûts), 1 projection à 12 mois. Les dirigeants veulent un chiffre net et une projection, pas une liste de métriques techniques. Les gains non-financiers (conformité, qualité de vie au travail) s'ajoutent en complément, jamais comme argument principal.",
+        question: "Quels sont les coûts cachés d'un projet IA en PME ?",
+        answer: "Deux postes sont quasi-systématiquement absents des calculs initiaux. D'abord, la conduite du changement : formation des équipes, accompagnement sur 3 à 6 mois, gestion de la résistance interne. Ce poste représente souvent 20 à 35% du budget total d'un projet. Ensuite, la conformité AI Act : l'Article 4 du règlement européen impose une obligation de littératie IA avant le 2 août 2026, ce qui représente un coût réel à provisionner.",
       },
       {
-        question: "Comment construire une baseline avant un projet IA ?",
-        answer: "La baseline est la photographie documentée de vos processus avant tout déploiement IA. Elle comporte quatre indicateurs : temps passé par tâche clé (en heures/semaine), volume traité par équivalent temps plein, taux d'erreur sur les tâches concernées, coût par transaction ou par document traité. Un tableur suffit pour une PME. Prévoir minimum 4 semaines de mesure avant le premier déploiement pour obtenir des données représentatives et non biaisées par un pic d'activité ponctuel.",
-      },
-      {
-        question: "Quelle est la différence entre gains bruts et gains nets en ROI IA ?",
-        answer: "Les gains bruts représentent la valeur totale générée par le projet avant déduction des coûts : heures économisées valorisées au coût horaire chargé, erreurs évitées, délais réduits. Les gains nets déduisent de ces gains bruts l'ensemble des coûts réels : développement, licences annuelles, formation des équipes, accompagnement, maintenance et, selon le cas, les coûts de conformité liés à l'AI Act. C'est le chiffre net qui compte pour le CODIR, pas les gains bruts.",
-      },
-      {
-        question: "Pourquoi mon projet IA ne montre pas de ROI après 3 mois ?",
-        answer: "Trois causes fréquentes : vous mesurez trop tôt (avant que les utilisateurs aient adopté l'outil), vous n'avez pas de baseline documentée (impossible de comparer avec l'avant), ou vous avez changé de KPI en cours de route. La stabilisation d'un projet IA prend en général entre 2 et 4 mois après le déploiement. Un ROI négatif à 3 mois ne préjuge pas du ROI à 9 mois.",
+        question: "Comment expliquer le ROI de l'IA à mon DAF ?",
+        answer: "Partez des indicateurs que votre DAF connaît déjà : coût par traitement (facture, commande, ticket support), taux d'erreur sur les saisies, délai moyen de traitement. Montrez l'écart avant/après avec des données réelles. Intégrez les coûts complets : licence, déploiement, formation, maintenance. Et fixez un horizon réaliste : J+180 pour les premiers impacts sur le résultat. Un ROI honnête, avec hypothèses explicites, vaut mieux qu'un ROI optimiste sans base de calcul.",
       },
     ],
     howTo: {
-      name: "Méthode en 4 étapes pour mesurer le ROI d'un projet IA en PME",
-      description: "Protocole opérationnel pour mesurer et présenter le retour sur investissement d'un projet IA, de la construction de la baseline jusqu'à la présentation au CODIR.",
-      totalTime: "PT720H",
+      name: "Méthode J+30 / J+90 / J+180 pour mesurer le ROI IA en PME",
+      description: "Grille temporelle en trois étapes pour mesurer le retour sur investissement d'un projet IA dans une PME, des premiers indicateurs d'adoption jusqu'à l'impact sur les résultats.",
+      totalTime: "PT4320H",
       steps: [
         {
-          name: "Construire la baseline avant de commencer",
-          text: "Documenter l'état actuel des processus concernés pendant minimum 4 semaines : temps passé par tâche, volume traité par ETP, taux d'erreur, coût par transaction. Un tableur suffit.",
+          name: "J+30 : mesurer l'adoption et la prise en main",
+          text: "Calculer le taux d'adoption interne (% des utilisateurs cibles qui utilisent l'outil au moins une fois par semaine), mesurer le temps de formation réel et comparer au plan initial, identifier les résistances et les besoins d'accompagnement non anticipés.",
         },
         {
-          name: "Choisir 3 KPI, pas 12",
-          text: "Sélectionner 3 indicateurs maximum adaptés au type de projet (automatisation, aide à la décision ou service client). Choisir des KPIs mesurables sans outil BI avancé.",
+          name: "J+90 : mesurer l'efficacité opérationnelle",
+          text: "Comparer les temps de traitement avant/après sur un échantillon représentatif, calculer le taux d'erreur ou de retravail avant/après, mesurer le coût par transaction sur les processus automatisés.",
         },
         {
-          name: "Calculer le ROI en distinguant gains bruts, nets et non-financiers",
-          text: "Calculer les gains bruts (heures x coût horaire + réduction erreurs), déduire les coûts complets (dev, licences, formation, maintenance, conformité AI Act) pour obtenir les gains nets. Identifier les gains non-financiers séparément.",
-        },
-        {
-          name: "Présenter le ROI au CODIR pour obtenir le budget suivant",
-          text: "Structurer la présentation en 4 éléments : 1 baseline, 1 KPI principal, 1 chiffre net, 1 projection 12 mois. Inclure les gains non-financiers en complément, sans les mettre en avant comme argument principal.",
+          name: "J+180 : mesurer l'impact sur les résultats",
+          text: "Calculer le ROI net en intégrant tous les coûts (licence, déploiement, formation, conduite du changement, conformité AI Act), mesurer l'impact sur les résultats opérationnels (délais clients, qualité, satisfaction équipes), valider ou réviser la feuille de route pour la suite.",
         },
       ],
     },
