@@ -35,6 +35,278 @@ export interface BlogArticle {
 
 export const blogArticles: BlogArticle[] = [
   {
+    slug: "feuille-de-route-ia-pme",
+    title: "Feuille de route IA PME : méthode en 4 étapes",
+    excerpt:
+      "Une méthode en 4 étapes pour construire votre feuille de route IA PME, prioriser les bons cas d'usage et intégrer la deadline AI Act article 4.",
+    content: `# Feuille de route IA pour PME : méthode en 4 étapes pour prioriser sans se perdre
+
+Beaucoup de dirigeants de PME ont déjà utilisé l'IA. Un abonnement ChatGPT pour les emails, un outil de synthèse de réunions, un chatbot sur le site. Et pourtant, quand on leur demande quel ROI ils en tirent, la réponse est souvent la même : "c'est utile, mais on ne sait pas vraiment."
+
+Ce n'est pas un problème d'outil. C'est un problème d'ordre. Selon l'INSEE Première n°2061 (juillet 2025), 69 % des entreprises qui utilisent l'IA s'appuient sur des logiciels du commerce prêts à l'emploi, sans intégration métier ni stratégie. L'IA est présente, mais elle n'est pas pilotée. Et l'écart avec les grandes entreprises se creuse vite : entre 2023 et 2024, l'écart d'adoption IA entre les entreprises de 250 salariés et plus et les PME de moins de 50 salariés est passé de 16 à 24 points (INSEE Première n°2061, juillet 2025).
+
+**Qu'est-ce qu'une feuille de route IA pour une PME ?** C'est un document de une à deux pages, produit par le dirigeant, qui liste les cas d'usage IA prioritaires de l'entreprise, classe ces cas selon des critères explicites (effort, ROI estimé, risque réglementaire), désigne un premier pilote avec ses indicateurs de succès, et fixe un calendrier à 90 jours. Ce n'est pas un plan stratégique pluriannuel ni un cahier des charges technique : c'est l'arbitrage de départ qui permet de lancer le bon premier projet sans disperser les ressources.
+
+Une feuille de route IA n'est pas un document PowerPoint qu'un consultant remet après trois semaines de mission. C'est un arbitrage que le dirigeant doit pouvoir poser seul, avant de mandater qui que ce soit. Cet article décrit une méthode en quatre étapes exécutables en quatre semaines.
+
+> **À retenir.** L'absence de feuille de route ne signifie pas absence d'IA : elle signifie que l'IA coûte sans qu'on le mesure, et qu'elle ne scalerait pas même si on le voulait.
+
+## Pourquoi l'ordre dispersé ne crée pas de ROI
+
+La plupart des PME n'ont pas de feuille de route IA pour une raison simple : personne ne leur a dit qu'elles devaient en construire une avant de tester des outils. Le réflexe naturel est d'expérimenter, puis de voir ce qui marche.
+
+### Le piège de la fausse adoption
+
+L'adoption dispersée ressemble à de l'agilité. Ce n'en est pas. Quand une équipe utilise ChatGPT pour les emails, une autre pour les comptes-rendus, et une troisième pour chercher des informations, chaque usage est individuel et non reproductible. Aucun processus n'est transformé. Le gain reste personnel, pas organisationnel.
+
+Selon Gartner (rapport "Hype Cycle for Artificial Intelligence, 2024"), moins d'un projet IA sur trois passe du pilote à la production dans les grandes entreprises, un ratio encore plus défavorable en PME où les ressources de déploiement sont contraintes. L'absence de priorisation initiale est l'une des premières causes d'abandon des projets IA après le pilote : des équipes testent, obtiennent un résultat encourageant, puis le projet reste en preuve de concept sans jamais passer en production. Ce n'est pas un problème de technologie. C'est un problème de méthode.
+
+> **Red flag.** Si vous ne pouvez pas nommer un processus que l'IA a transformé de façon mesurable dans votre entreprise, vous êtes en phase d'expérimentation non pilotée. Ce n'est pas une critique : c'est le point de départ de la méthode.
+
+### La digitalisation avant l'IA, pas après
+
+Bpifrance Le Lab a enquêté en 2025 auprès de 1 200 dirigeants de PME et ETI françaises. Le résultat est net : une entreprise engagée dans la transformation numérique est cinq fois plus susceptible d'utiliser l'IA efficacement. Une entreprise qui analyse ses données est deux fois et demie plus susceptible d'en tirer un usage concret.
+
+Ce chiffre a une implication directe pour la méthode : la feuille de route IA commence par un inventaire de la maturité numérique, pas par un catalogue d'outils IA à tester. Les fondamentaux (données accessibles, processus documentés, responsabilités claires) conditionnent tout le reste. C'est précisément ce que couvre un [audit IA structuré pour PME](/blog/audit-ia-pme-guide-complet).
+
+Les quatre profils de dirigeants identifiés par Bpifrance illustrent l'état réel du terrain :
+
+- **Sceptiques (27 %)** : ne perçoivent pas encore l'enjeu opérationnel de l'IA pour leur activité
+- **Bloqués (26 %)** : conscients de l'enjeu mais paralysés par l'absence de méthode ou de ressources dédiées
+- **Expérimentateurs (28 %)** : actifs sur des outils mais sans déploiement à grande échelle ni processus transformé
+- **Innovateurs (19 %)** : déjà en production avec des cas d'usage réels et des résultats mesurables
+
+Cet article s'adresse principalement aux bloqués et aux expérimentateurs : ceux qui savent qu'ils doivent avancer, mais qui manquent d'un fil directeur.
+
+**Combien de temps faut-il pour construire une feuille de route IA PME ?** Quatre semaines suffisent pour produire un premier document opérationnel. Chaque semaine couvre une étape précise : inventaire des douleurs métier, filtrage par critères effort/ROI/risque, choix du pilote avec indicateurs de succès, formalisation et décision sur le prochain pas. Ce calendrier est volontairement court pour éviter la paralysie par l'analyse.
+
+## Semaine 1 : cartographier vos processus sans mentionner l'IA
+
+La première erreur est de commencer par une liste de cas d'usage IA potentiels. C'est l'ordre inverse. On commence par les problèmes, pas par les solutions.
+
+### L'inventaire des irritants métier
+
+Organisez en semaine 1 des entretiens courts (30 à 45 minutes) avec les responsables de vos trois ou quatre fonctions principales : commercial, opérations, finance, RH selon votre secteur. La question à poser n'est pas "que pourrait faire l'IA pour vous ?" mais "quels processus vous coûtent le plus de temps chaque semaine, ou freinent le plus votre capacité à servir vos clients ?"
+
+À l'issue de ces entretiens, vous disposez d'une liste de 10 à 15 problèmes concrets. Classez-les selon trois critères simples :
+
+- **Fréquence** : ce problème se pose-t-il quotidiennement, hebdomadairement ou ponctuellement ?
+- **Impact** : s'il était résolu, combien d'heures seraient libérées par semaine, ou combien d'erreurs seraient évitées par mois ?
+- **Visibilité** : le problème est-il visible par le client ou strictement interne ? Un dysfonctionnement visible par le client a un coût de réputation en plus du coût opérationnel.
+
+Ne filtrez pas encore selon la faisabilité IA. L'objectif de la semaine 1 est d'avoir une carte des douleurs métier, pas un cahier des charges technique.
+
+### La question ROI avant la question technologie
+
+Chaque problème identifié mérite une estimation grossière du coût annuel pour l'entreprise. Un processus de facturation manuel qui mobilise deux heures par semaine d'un collaborateur à 40 000 euros annuels représente environ 2 000 euros de coût direct, plus l'impact sur les délais clients.
+
+Ces estimations n'ont pas besoin d'être précises au centime. Elles servent à calibrer l'échelle des enjeux avant la semaine 2. Vous pouvez vous appuyer sur le cadre de [mesure du ROI de l'IA en entreprise](/blog/roi-intelligence-artificielle-entreprise) pour structurer cette estimation.
+
+> **Point clé.** La cartographie des processus prend deux à trois demi-journées. Si elle prend plus de temps, c'est que vous avez trop de périmètre. Concentrez-vous sur les trois fonctions qui concentrent le plus de friction opérationnelle.
+
+Pour identifier les cas d'usage IA les plus courants dans votre secteur, l'article sur [l'automatisation des processus par l'IA en PME](/blog/automatisation-processus-ia-guide-pratique) vous donnera des points de repère concrets par type de processus.
+
+## Semaine 2 : filtrer avec la grille effort/ROI/risque
+
+Vous avez maintenant une liste de problèmes classés par impact. La semaine 2 consiste à transformer cette liste en shortlist de cas d'usage IA candidats, en appliquant trois critères de filtre.
+
+### Les trois critères du dirigeant pragmatique
+
+Pour chaque problème de la liste semaine 1, évaluez sur une échelle simple (faible / moyen / élevé) :
+
+1. **Effort de mise en oeuvre** : combien de temps et de budget pour déployer une solution IA sur ce processus ? Y a-t-il des dépendances sur votre SI existant ? Des données déjà disponibles et accessibles ?
+2. **ROI estimé** : quel gain annuel en heures libérées, en erreurs évitées, ou en délai client réduit ? Exprimez-le en valeur monétaire même approximative.
+3. **Niveau de risque RGPD et AI Act** : le processus implique-t-il des données personnelles ? Des décisions qui concernent des salariés ou des clients ? Un risque de biais ou d'erreur à fort impact ?
+
+Les cas d'usage qui combinent effort faible, ROI élevé et risque limité constituent votre priorité 1. Ceux avec un ROI élevé mais un effort élevé sont en priorité 2 (à planifier à 6-12 mois). Les autres sont documentés mais mis de côté.
+
+> **Red flag.** Si votre priorité 1 implique des données clients sensibles ou des décisions RH automatisées, reclassez-le en priorité 2 le temps de clarifier le cadre RGPD. Un pilote qui crée un incident de conformité coûte bien plus qu'un démarrage plus prudent.
+
+### Le facteur AI Act article 4 dans vos arbitrages
+
+L'article 4 du Règlement UE 2024/1689, en vigueur depuis le 2 février 2025, impose à toute entreprise déployant un système IA de s'assurer que son personnel dispose d'un niveau suffisant de littératie IA. Les contrôles nationaux débutent en août 2026. La sanction maximale pour non-conformité à cet article est de 7,5 millions d'euros ou 1,5 % du chiffre d'affaires mondial annuel.
+
+**Qu'est-ce que l'obligation de littératie IA de l'AI Act impose concrètement à une PME ?** L'article 4 du Règlement UE 2024/1689 n'exige pas de certifications formelles. Il exige que les personnes qui utilisent ou supervisent des systèmes IA dans l'entreprise comprennent les capacités et les limites de ces systèmes, les risques qu'ils peuvent générer, et les situations où une revue humaine est nécessaire. Pour une PME qui démarre, cela se traduit par une session de sensibilisation de deux heures avant le lancement du pilote, et une documentation des décisions encadrées par l'IA.
+
+Ce contexte réglementaire influence trois décisions dans votre feuille de route :
+
+- **Le choix du premier cas d'usage** : préférez un cas d'usage qui implique un ou deux utilisateurs formés plutôt qu'un déploiement large sur toute une équipe sans montée en compétences préalable.
+- **La planification de la formation** : intégrez dès la semaine 2 un volet "littératie IA" dans votre calendrier, même minimal. Ce n'est pas une obligation de certification : c'est une obligation de moyens.
+- **La documentation des choix** : notez par écrit quel outil est utilisé, sur quel processus, avec quelle supervision humaine. Ce niveau de traçabilité est la base d'une réponse documentée en cas de contrôle. Notre article sur l'[AI Act pour les PME en 2026](/blog/ai-act-pme-guide-2026) détaille les obligations concrètes par type de déploiement.
+
+## Semaine 3 : choisir un cas d'usage pilote et définir le succès
+
+La semaine 3 est celle où la plupart des dirigeants s'arrêtent trop longtemps. Trop de cas d'usage encore en lice, trop de débat interne sur les priorités. La règle est simple : on choisit un seul cas d'usage pilote.
+
+### Pourquoi un seul, et lequel
+
+Lancer deux pilotes simultanément divise l'attention du pilote interne et rend l'analyse des résultats plus difficile. Un seul pilote, bien défini, avec des indicateurs clairs, produit des apprentissages utilisables. Deux pilotes flous produisent deux résultats ambigus.
+
+Le bon premier cas d'usage répond à ces conditions :
+
+- **Données disponibles** : les données nécessaires existent déjà, sont accessibles et relativement propres (pas de projet data préalable de six mois).
+- **Périmètre limité** : le processus implique une seule équipe ou une seule fonction, pas une transformation transverse.
+- **Résultat mesurable** : on peut observer un avant/après en moins de 90 jours.
+- **Responsable identifié** : un membre de l'équipe accepte de piloter le cas d'usage et d'en rendre compte.
+
+Les cas d'usage les plus fréquemment retenus comme premier pilote dans les PME françaises concernent l'analyse de documents (contrats, factures, comptes-rendus), la génération de contenus structurés (fiches produit, devis, rapports) ou la structuration de données entrantes (emails clients, formulaires). Selon le Baromètre France Num 2024, ces trois catégories représentent les usages les plus répandus parmi les TPE-PME françaises ayant déjà déployé un outil d'IA générative.
+
+### Les indicateurs de succès que vous posez avant de commencer
+
+C'est le point que les équipes oublient le plus souvent. Avant de lancer le pilote, définissez par écrit :
+
+- Le problème que vous résolvez (une phrase, pas un paragraphe)
+- Le temps actuel consacré au processus (heures par semaine)
+- L'objectif de réduction (ex : diviser par deux le temps de traitement)
+- Le délai d'évaluation (ex : mesurer à 60 jours)
+- Le seuil d'arrêt (ex : si à 30 jours le gain est inférieur à 20 %, on réévalue)
+
+Ces indicateurs ne servent pas à prouver que l'IA fonctionne. Ils servent à apprendre vite si elle ne fonctionne pas comme prévu, et à décider objectivement de la suite.
+
+**Pourquoi définir les indicateurs de succès avant de lancer le pilote, et pas après ?** Parce qu'un résultat sans référence initiale ne veut rien dire. Si vous mesurez le temps de traitement d'un processus uniquement après avoir déployé l'IA, vous n'avez aucune base de comparaison crédible. L'indicateur défini avant le lancement est ce qui transforme une expérimentation en pilote évaluable, et ce qui vous permet de décider objectivement si vous passez en production ou si vous pivotez.
+
+> **Point clé.** Un pilote sans indicateurs définis à l'avance n'est pas un pilote : c'est une expérimentation. La différence entre les deux est qu'un pilote peut passer en production, une expérimentation reste éternellement "en cours".
+
+## Semaine 4 : formaliser et décider du prochain pas
+
+La feuille de route IA est un document d'une à deux pages, pas un plan stratégique de quarante slides. La semaine 4 sert à coucher par écrit ce que les trois semaines précédentes ont produit.
+
+### Ce que contient une feuille de route utile
+
+Une feuille de route PME opérationnelle contient six éléments :
+
+- **Le cas d'usage pilote retenu** : description en une phrase, processus concerné, équipe impliquée
+- **Les indicateurs de succès** : ceux définis en semaine 3
+- **Le budget estimé** : fourchette de coût (conseil, licence outil, temps interne)
+- **Le responsable pilote interne** : nom, disponibilité estimée
+- **Le calendrier à 90 jours** : jalons de démarrage, mesure intermédiaire, évaluation finale
+- **Les cas d'usage en réserve** : la liste de la priorité 2, documentée et datée
+
+Ce document n'a pas vocation à être partagé avec un prestataire au premier rendez-vous. Il sert d'abord à aligner l'équipe de direction sur les choix et à structurer le brief si vous mandatez un partenaire externe.
+
+### Seul ou accompagné : quand le regard externe change la donne
+
+Certaines PME peuvent exécuter ce pilote en autonomie totale, notamment sur des cas d'usage simples avec des outils disponibles en mode SaaS. D'autres ont besoin d'un regard externe pour trois raisons précises :
+
+- **Valider les hypothèses de ROI** : l'estimation faite en interne sur le gain horaire ou la réduction d'erreurs gagnerait à être confrontée à ce qu'on observe sur des cas d'usage similaires en PME.
+- **Identifier les angles morts** : un responsable interne voit rarement les dépendances SI ou les risques de conformité qu'un auditeur externe repère en quelques heures.
+- **Calibrer le brief prestataire** : si vous décidez de faire appel à un intégrateur ou un cabinet, une feuille de route validée en externe produit un brief plus précis, donc des propositions commerciales plus comparables.
+
+Ce n'est pas une critique de la capacité des équipes. C'est simplement qu'un regard extérieur structuré, sur deux ou trois jours, évite des mois d'itération coûteuse.
+
+## L'obligation AI Act article 4 : intégrez la littératie dans votre calendrier
+
+Le Règlement UE 2024/1689 est entré en vigueur progressivement. L'article 4 sur la littératie IA s'applique depuis le 2 février 2025. Les contrôles nationaux en France débutent en août 2026. Cela laisse deux mois pour structurer une réponse documentée.
+
+L'obligation n'est pas de délivrer une certification à vos équipes. Elle est de prendre des mesures raisonnables pour garantir que les personnes qui utilisent ou supervisent des systèmes IA dans votre entreprise comprennent ce qu'ils font et pourquoi. Pour une PME qui lance un premier pilote IA, cela peut se traduire par :
+
+- Une session de deux heures avec l'équipe concernée avant le démarrage du pilote
+- Une documentation des choix d'outil et des décisions encadrées par l'IA
+- Un processus de revue humaine sur les outputs IA qui touchent des clients ou des données personnelles
+
+La CNIL a publié en 2024 des recommandations sur l'utilisation des systèmes d'IA au travail, qui convergent avec l'article 4 de l'AI Act sur la nécessité d'informer et de former les salariés concernés avant tout déploiement. Intégrer ce volet dans votre feuille de route dès la semaine 4 est la manière la plus simple de vous conformer, sans sur-investir dans une démarche formelle disproportionnée pour votre taille.
+
+> **À retenir.** La deadline AI Act article 4 (août 2026) n'est pas une menace abstraite. C'est un levier concret pour inscrire la littératie IA dans le calendrier de votre feuille de route, au même titre que le budget ou le responsable pilote.
+
+## Questions fréquentes
+
+### Comment construire une feuille de route IA pour une PME ?
+
+En quatre semaines structurées : cartographie des processus et identification des douleurs métier (semaine 1), filtrage des cas d'usage avec une grille effort/ROI/risque (semaine 2), sélection d'un seul pilote avec indicateurs de succès définis à l'avance (semaine 3), formalisation du document d'une à deux pages et décision sur le prochain pas (semaine 4). Le point de départ est toujours un problème métier, jamais un outil IA.
+
+### Par quoi commencer pour déployer l'IA en PME ?
+
+Par un inventaire des processus qui coûtent le plus en temps ou qui freinent la croissance, sans mentionner l'IA à ce stade. Selon Bpifrance Le Lab (juin 2025), une entreprise déjà engagée dans sa transformation numérique est cinq fois plus susceptible d'utiliser l'IA avec succès. Les fondamentaux numériques (données accessibles, processus documentés) conditionnent tout le reste.
+
+### Comment prioriser les cas d'usage IA avec des ressources limitées ?
+
+Trois critères suffisent pour arbitrer : l'effort de mise en oeuvre (délai, coût, dépendances SI), le ROI estimé (gain horaire annuel, gain qualité, gain délai client) et le niveau de risque RGPD ou AI Act. Les cas d'usage à fort ROI, faible effort et risque limité passent en priorité 1. Ne jamais lancer deux pilotes simultanément.
+
+### La feuille de route IA est-elle obligatoire avec l'AI Act ?
+
+L'AI Act n'impose pas une feuille de route comme document formel. Mais l'article 4 du Règlement UE 2024/1689 impose à toute entreprise déployant un système IA de garantir un niveau suffisant de littératie IA à son personnel, avec des contrôles nationaux à partir d'août 2026. La feuille de route est le vecteur naturel pour planifier cette montée en compétences de façon documentée.
+
+### Quelle est la différence entre un audit IA et une feuille de route IA ?
+
+La feuille de route est la décision interne du dirigeant sur quoi faire, dans quel ordre, avec quelles ressources. L'audit IA est un diagnostic externe qui évalue votre maturité data, valide vos cas d'usage prioritaires et produit un ROI projeté par cas retenu. Construire sa feuille de route avant l'audit permet de poser un brief structuré et d'en tirer un résultat plus actionnable.
+
+### Peut-on construire sa feuille de route IA sans consultant ?
+
+Oui, pour la première version. La méthode en quatre étapes décrite ici est conçue pour être exécutée par le dirigeant seul ou avec un membre de son équipe de direction. Le regard externe apporte de la valeur en phase de validation (semaine 4) et pour affiner le ROI projeté, pas en phase d'inventaire initial.
+
+### Comment calculer le ROI d'un projet IA avant de le lancer ?
+
+En estimant trois éléments : le coût de mise en oeuvre (conseil ou intégration, licence outil, temps interne de déploiement), le gain annuel projeté (heures libérées multipliées par le coût horaire interne, ou réduction d'erreurs valorisée en coût de retraitement) et l'horizon de retour en mois. Une fourchette grossière vaut mieux qu'un chiffre précis sans hypothèses explicitées.
+
+## Passez de la théorie à l'action
+
+Vous avez maintenant la méthode pour construire votre première feuille de route IA en quatre semaines. La question qui se pose ensuite est souvent : "ai-je vu juste sur les cas d'usage prioritaires, et mes hypothèses de ROI tiennent-elles face à ce qu'on observe sur le terrain ?"
+
+Smart Impulsion propose un Audit IA Express qui permet de valider votre feuille de route interne, d'identifier les angles morts que le regard interne ne voit pas, et de chiffrer le ROI projeté sur vos cas d'usage prioritaires avant de lancer le pilote. En deux à trois jours, vous repartez avec un diagnostic de maturité, une shortlist affinée de cas d'usage et des fourchettes de ROI argumentées.
+
+[En savoir plus sur l'audit IA express](/services/audit)`,
+    author: "Laurent Bouzon",
+    date: "22 juin 2026",
+    dateISO: "2026-06-22",
+    readTime: "11 min",
+    category: "Audit & Methodologie",
+    image: "/feuille-de-route-ia-pme-hero.png",
+    imageAlt: "Image d'illustration pour l'article \"Feuille de route IA PME : méthode en 4 étapes\"",
+    faq: [
+      {
+        question: "Comment construire une feuille de route IA pour une PME ?",
+        answer: "En quatre semaines, un dirigeant peut construire une feuille de route IA solide sans consultant : semaine 1 pour cartographier les processus et identifier les douleurs métier, semaine 2 pour filtrer les cas d'usage avec une grille effort/ROI/risque RGPD, semaine 3 pour sélectionner un seul pilote et définir ses indicateurs de succès, semaine 4 pour formaliser le document et décider du prochain pas. L'essentiel est de partir des problèmes réels, pas des technologies disponibles.",
+      },
+      {
+        question: "Par quoi commencer pour déployer l'IA en PME ?",
+        answer: "Commencez par un inventaire des processus qui coûtent le plus en temps ou qui freinent la croissance, sans mentionner l'IA à ce stade. Selon Bpifrance Le Lab (juin 2025), une entreprise déjà engagée dans sa transformation numérique est 5 fois plus susceptible d'utiliser l'IA efficacement. Les fondamentaux numériques (données accessibles, processus documentés) conditionnent tout le reste.",
+      },
+      {
+        question: "Comment prioriser les cas d'usage IA quand on a des ressources limitées ?",
+        answer: "Trois critères suffisent pour arbitrer : l'effort de mise en oeuvre (délai, coût, dépendances SI), le ROI estimé (gain horaire annuel, gain qualité, gain délai client) et le niveau de risque RGPD ou AI Act. Les cas d'usage à fort ROI, faible effort et risque limité passent en premier. Ne jamais lancer deux pilotes simultanément : l'attention du dirigeant est une ressource rare.",
+      },
+      {
+        question: "La feuille de route IA est-elle obligatoire avec l'AI Act ?",
+        answer: "L'AI Act n'impose pas une 'feuille de route IA' comme document formel. Mais l'article 4 du Règlement UE 2024/1689 impose à toute entreprise déployant un système IA de garantir un niveau suffisant de littératie IA à son personnel, avec des contrôles nationaux à partir d'août 2026. La feuille de route est le vecteur naturel pour planifier cette montée en compétences.",
+      },
+      {
+        question: "Quelle est la différence entre un audit IA et une feuille de route IA ?",
+        answer: "L'audit IA est un diagnostic externe qui évalue votre maturité data, identifie les cas d'usage prioritaires et produit un ROI projeté par cas. La feuille de route est la décision interne du dirigeant sur quoi faire, dans quel ordre, avec quelles ressources. L'audit valide et affine une feuille de route existante. Construire sa feuille de route avant l'audit permet de mieux en tirer parti.",
+      },
+      {
+        question: "Peut-on construire sa feuille de route IA sans consultant ?",
+        answer: "Oui, pour la première version. La méthode en 4 étapes décrite dans cet article est conçue pour être exécutée par le dirigeant seul ou avec un membre de son équipe de direction. Le consultant ou le regard externe apporte de la valeur en phase de validation (semaine 4) et pour affiner le ROI projeté sur les cas d'usage retenus, pas en phase d'inventaire initial.",
+      },
+      {
+        question: "Combien de temps faut-il pour construire une stratégie IA PME ?",
+        answer: "Quatre semaines pour une première feuille de route opérationnelle. Ce délai couvre l'inventaire des processus (semaine 1), la qualification et le filtrage des cas d'usage (semaine 2), le choix du pilote et la définition du succès (semaine 3), et la formalisation du document (semaine 4). Ce n'est pas un plan stratégique sur 3 ans : c'est un arbitrage de départ pour lancer le bon premier projet.",
+      },
+    ],
+    howTo: {
+      name: "Construire sa feuille de route IA en PME",
+      description: "Méthode en 4 étapes que le dirigeant peut exécuter seul en 4 semaines pour prioriser ses cas d'usage IA avec des critères concrets effort/ROI/risque.",
+      totalTime: "PT672H",
+      steps: [
+        {
+          name: "Semaine 1 : cartographier les processus et identifier les douleurs réelles",
+          text: "Inventorier les 10 à 15 processus qui consomment le plus de temps ou freinent la croissance, sans mentionner l'IA. Identifier les irritants métier avec les responsables opérationnels. Résultat : une liste de problèmes classés par impact sur le terrain.",
+        },
+        {
+          name: "Semaine 2 : qualifier et filtrer avec la grille effort/ROI/risque",
+          text: "Pour chaque problème identifié, évaluer l'effort de mise en oeuvre (faible/moyen/élevé), le ROI estimé (gain horaire, gain qualité, gain délai) et le niveau de risque RGPD ou AI Act. Les cas à fort ROI, faible effort et risque limité passent en priorité 1.",
+        },
+        {
+          name: "Semaine 3 : sélectionner un cas d'usage pilote et définir le succès",
+          text: "Choisir un seul cas d'usage prioritaire. Définir 2 à 3 indicateurs de succès mesurables avant de commencer (pas après). Estimer le coût de mise en oeuvre et le gain annuel projeté. Identifier le responsable interne du pilote.",
+        },
+        {
+          name: "Semaine 4 : formaliser la feuille de route et décider du prochain pas",
+          text: "Rédiger un document d'une à deux pages : cas d'usage retenu, indicateurs de succès, budget, responsable, calendrier à 90 jours et cas d'usage suivants en réserve. Décider si le pilote se lance en autonomie ou avec un regard externe pour valider les hypothèses de ROI.",
+        },
+      ],
+    },
+  },
+  {
     slug: "ia-agentique-pme-dirigeants-decision-2026",
     title: "IA agentique pour PME : la décision 2026 | Smart Impulsion",
     excerpt:
