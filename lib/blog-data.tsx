@@ -35,6 +35,235 @@ export interface BlogArticle {
 
 export const blogArticles: BlogArticle[] = [
   {
+    slug: "diagnostic-ia-pme",
+    title: "Diagnostic IA PME : livrables à exiger avant de signer",
+    excerpt:
+      "Ce que vous devez obtenir d'un diagnostic IA PME, comment financer via Bpifrance (40%, 6 000 EUR HT) et repérer les audits commerciaux déguisés.",
+    content: `# Diagnostic IA PME en 2026 : ce que vous devez exiger comme livrable
+
+55% des TPE-PME françaises utilisaient une IA générative fin 2025, contre 31% fin 2024 (d'après Bpifrance Le Lab, février 2026). En un an, la proportion a gagné 24 points. Pourtant, selon l'INSEE, seules 10% des entreprises françaises de 10 salariés ou plus déclarent utiliser une technologie d'intelligence artificielle de façon structurée, contre 13% en moyenne dans l'Union européenne (INSEE, Première n°2061, octobre 2025).
+
+L'écart entre ces deux chiffres dit tout. Utiliser ChatGPT ponctuellement n'est pas la même chose que structurer l'IA dans ses processus. La plupart des dirigeants sont au premier stade. Peu ont transformé cet usage en avantage opérationnel documenté et piloté. Le diagnostic IA PME est précisément la brique qui permet de passer de l'un à l'autre.
+
+Le problème : le marché vous explique le diagnostic du point de vue du prestataire. Jamais du vôtre.
+
+> **Ce qu'il faut retenir avant de lire la suite :**
+> - Un diagnostic IA PME est une mission d'évaluation externe, pas un audit informatique ni une formation déguisée.
+> - Bpifrance finance 40% du coût via le Diag Data IA (reste à charge : 6 000 EUR HT) depuis le 17 juin 2026.
+> - Cinq livrables sont à contractualiser avant de signer : rapport de maturité, carte des cas d'usage, matrice priorité-ROI, feuille de route 12 mois, plan de gouvernance.
+> - Un "audit commercial déguisé" est une mission dont l'objectif réel est de vendre les services du prestataire, pas d'évaluer vos besoins de façon neutre.
+
+## Ce qu'est vraiment un diagnostic IA PME (et ce que ce n'est pas)
+
+**Un diagnostic IA PME est une mission d'évaluation externe qui mesure la maturité actuelle d'une entreprise sur quatre dimensions (données, processus, compétences, gouvernance), puis identifie les cas d'usage IA prioritaires selon leur faisabilité et leur potentiel de retour sur investissement.** La mission est conduite par un consultant externe indépendant et débouche sur des livrables contractualisés, pas sur une présentation commerciale.
+
+Ce n'est pas un audit informatique. Ce n'est pas non plus une formation IA habillée en conseil. Et ce n'est certainement pas un rapport générique que le prestataire adapte avec votre logo en première page.
+
+> Un diagnostic sérieux produit des livrables que vous pouvez évaluer vous-même, sans avoir à croire sur parole ce que le prestataire vous dit.
+
+Trois types de prestations coexistent sur le marché sous ce même terme :
+
+- **Le diagnostic stratégique indépendant** : mission menée par un consultant sans conflit d'intérêt sur les outils recommandés, qui produit une analyse des processus réels et des données disponibles, et se conclut par une feuille de route priorisée par ROI.
+- **L'audit commercial déguisé** : mission dont l'objectif implicite est de justifier l'achat des services ou outils du prestataire. Le diagnostic est le premier acte d'un cycle de vente, pas une évaluation neutre. On le reconnaît à cinq signaux détaillés plus bas.
+- **L'auto-évaluation gratuite en ligne** : outils de France Num (francenum.gouv.fr) ou questionnaires sectoriels qui donnent une première lecture utile, mais ne remplacent pas une analyse sur vos processus et données réels.
+
+La distinction entre les deux premiers n'est pas toujours évidente lors du premier entretien. C'est pourquoi vous avez besoin d'une grille de livrables à exiger avant de signer.
+
+## Les 5 livrables minimum d'un bon diagnostic IA
+
+Un diagnostic bien conduit identifie plusieurs cas d'usage actionnables dans les 8 jours d'intervention : à condition de contractualiser les bons livrables.
+
+Voici les cinq livrables que tout diagnostic IA PME sérieux doit produire, et que vous devez contractualiser avant le démarrage de la mission.
+
+### Livrable 1 : le rapport de maturité IA
+
+Ce document évalue votre niveau actuel sur quatre dimensions : qualité et accessibilité des données, processus susceptibles d'être outillés par l'IA, compétences disponibles en interne, infrastructure technique. Il doit être chiffré par dimension, pas seulement qualitatif.
+
+- Score de maturité par axe (données, processus, compétences, infrastructure)
+- Comparaison sectorielle si disponible
+- Identification des blocages prioritaires à lever avant tout déploiement
+
+Ce rapport doit vous parler à vous, pas à un ingénieur IA. Si vous ne comprenez pas les recommandations sans traduction, c'est un signal.
+
+### Livrable 2 : la carte des cas d'usage
+
+Le prestataire doit lister les cas d'usage IA identifiés dans vos processus, avec pour chacun : le processus concerné, le volume de travail actuellement mobilisé, le type d'IA applicable et une estimation de l'effort de mise en œuvre.
+
+> Les processus administratifs sont ceux qui ont le plus progressé parmi les usages IA en France : de 11% en 2023 à 24% en 2024, selon l'INSEE (Première n°2061, octobre 2025). C'est souvent là que les premiers cas d'usage d'un diagnostic PME apparaissent : facturation, reporting, gestion documentaire.
+
+Pour comprendre comment l'IA s'intègre concrètement dans ces processus, l'article [Automatisation des processus par l'IA](/blog/automatisation-processus-ia-guide-pratique) détaille les cas d'usage les plus matures et les prérequis à vérifier avant de se lancer.
+
+La carte des cas d'usage doit couvrir vos processus réels, observés et discutés avec vos équipes opérationnelles, pas uniquement avec la direction.
+
+### Livrable 3 : la matrice priorité-ROI
+
+Tous les cas d'usage identifiés ne méritent pas d'être traités dans le même ordre. La matrice priorité-ROI croise l'impact attendu (gain de temps, réduction d'erreurs, gain commercial) avec la facilité de mise en œuvre (qualité des données disponibles, complexité d'intégration, compétences requises).
+
+Elle vous permet de décider par vous-même de l'ordre de déploiement, sans dépendre du calendrier commercial du prestataire.
+
+- Axe vertical : impact métier estimé
+- Axe horizontal : effort d'implémentation
+- Quadrant prioritaire : fort impact, faible effort
+
+Pour aller plus loin sur les méthodes de mesure du retour sur investissement attendu, l'article [ROI de l'IA en entreprise](/blog/roi-intelligence-artificielle-entreprise) détaille les indicateurs à suivre par type de projet.
+
+### Livrable 4 : la feuille de route sur 12 mois
+
+La feuille de route traduit les conclusions de la matrice en séquence d'actions concrètes : quel projet démarrer, avec qui, dans quel délai, avec quel budget indicatif.
+
+Elle doit inclure :
+
+1. Les 2 à 3 projets pilotes à lancer en priorité, avec périmètre défini
+2. Les prérequis à remplir avant chaque projet (nettoyage de données, formation, etc.)
+3. Les jalons de suivi à 3, 6 et 12 mois
+4. Une estimation budgétaire indicative par projet (hors diagnostic)
+
+Ce dernier point est rarement fourni spontanément. Demandez-le explicitement. Les premiers projets d'implémentation (intégration, formation, paramétrage) dépassent systématiquement le coût du diagnostic. Anticipez ce budget dès la feuille de route pour éviter une mauvaise surprise post-diagnostic.
+
+### Livrable 5 : le plan de gouvernance post-diagnostic
+
+C'est le livrable le plus souvent absent. Un rapport dans un tiroir ne produit aucun ROI. Le plan de gouvernance répond à une question simple : qui pilote la suite, comment et avec quels indicateurs de suivi ?
+
+Il doit désigner un référent IA interne (ou préciser qu'il faut en recruter un), définir une fréquence de revue des avancées et proposer des KPI de suivi simples, mesurables trimestriellement.
+
+> Ce cinquième livrable est le meilleur indicateur du sérieux du prestataire. S'il ne le propose pas spontanément, posez la question avant de signer. Son absence est le signe le plus fréquent qu'un diagnostic restera lettre morte.
+
+## Financer votre diagnostic : le Diag Data IA Bpifrance en 2026
+
+**Le Diag Data IA est un dispositif de financement public géré par Bpifrance**, intégré au plan "Osez l'IA" de France 2030. Il finance une partie du coût d'un diagnostic IA pour les PME et ETI éligibles, à condition de passer par un expert agréé figurant sur la liste Bpifrance. Les conditions ont changé le 17 juin 2026.
+
+**Conditions en vigueur au 25 juin 2026 :**
+
+- Coût total de la prestation : 10 000 EUR HT (montant fixé par Bpifrance)
+- Prise en charge Bpifrance : 40% (soit 4 000 EUR)
+- Reste à charge de la PME : 6 000 EUR HT
+- Durée de la mission : 8 jours d'intervention d'un expert agréé Bpifrance
+- Durée maximale : 3 mois
+
+**Critères d'éligibilité :**
+
+- Entre 10 et 2 000 ETP
+- Chiffre d'affaires minimum de 1 000 000 EUR sur un bilan de 12 mois
+- Plus d'un an d'existence
+- Entreprise indépendante (les filiales de grands groupes ne sont pas éligibles)
+
+> Attention : plusieurs sources en ligne (blogs de prestataires, comparateurs) indiquent encore le taux de 25% et un reste à charge de 7 500 EUR HT. Ce sont les conditions qui prévalaient avant le 17 juin 2026. Les conditions actuelles ont été vérifiées sur mesaidespubliques.infogreffe.fr (source officielle) et confirmées par au moins deux prestataires agréés Bpifrance mis à jour post-17 juin.
+
+La démarche passe par un prestataire agréé Bpifrance, qui soumet le dossier de financement. Si vous souhaitez vérifier les conditions directement, le site de référence est [mesaidespubliques.infogreffe.fr](https://mesaidespubliques.infogreffe.fr/aides/aide-au-diagnostic-data-intelligence-artificielle).
+
+Pour comprendre ce que couvre un audit IA de façon plus large, l'article [Audit IA pour PME : le guide complet](/blog/audit-ia-pme-guide-complet) détaille les différentes formes d'évaluation disponibles et leurs périmètres respectifs.
+
+## Les 5 signaux d'alerte d'un audit commercial déguisé
+
+**Un audit commercial déguisé est une mission présentée comme un diagnostic IA neutre, mais dont l'objectif réel est de créer les conditions d'une vente ultérieure des services ou produits du prestataire.** Tous les prestataires agréés par Bpifrance ne présentent pas le même niveau d'indépendance dans leurs recommandations. Voici les signaux qui doivent vous alerter pendant ou après la mission.
+
+### Signal 1 : il n'a rencontré que les décisionnels
+
+Un diagnostic sérieux implique des entretiens avec les équipes opérationnelles, pas uniquement avec la direction. Si l'expert n'a pas passé de temps avec les utilisateurs des processus (comptabilité, service client, logistique selon votre secteur), son évaluation est incomplète. La réalité terrain est souvent très différente de ce que la direction décrit.
+
+### Signal 2 : toutes les recommandations pointent vers ses outils ou partenaires
+
+Le rapport conclut que votre entreprise a besoin de la solution X (dont il est revendeur) ou de la formation Y (qu'il commercialise). Les recommandations d'outils dans un diagnostic neutre doivent être motivées par vos contraintes, pas par le catalogue du prestataire.
+
+### Signal 3 : la feuille de route n'est pas chiffrée
+
+"Déployer un outil de traitement automatique des factures" sans estimation de coût ni de délai n'est pas une feuille de route. C'est une liste de voeux. Si le prestataire refuse de chiffrer même indicativement les prochaines étapes, demandez-vous pourquoi.
+
+### Signal 4 : vos données n'ont pas été analysées
+
+Un diagnostic IA sans examen de la qualité des données disponibles est un diagnostic partiel. La maturité data est le premier facteur qui détermine la faisabilité des cas d'usage. Si personne n'a regardé vos fichiers, vos exports ERP ou vos bases documentaires, les recommandations ont peu de valeur opérationnelle.
+
+### Signal 5 : le rapport fait moins de 20 pages
+
+Un document de 8 à 12 pages avec des schémas génériques n'est pas un diagnostic sur votre entreprise. C'est un template mis à votre nom. Un rapport sérieux contient des éléments spécifiques à votre secteur, vos processus et vos données.
+
+## Les questions à poser avant de signer avec un prestataire
+
+Avant de valider un devis de diagnostic IA PME, posez ces questions directement. Les réponses vagues ou évasives sont en elles-mêmes une information.
+
+- **Quels livrables sont contractualisés ?** Demandez la liste précise dans le contrat, pas dans une présentation commerciale.
+- **L'expert est-il agréé Bpifrance ?** Si vous souhaitez bénéficier du financement, l'expert doit figurer sur la liste des prestataires agréés Bpifrance.
+- **Combien d'entretiens avec les équipes opérationnelles sont prévus ?** Un diagnostic sans entretiens terrain est un diagnostic de surface.
+- **Avez-vous des références clients dans mon secteur ?** Demandez des contacts que vous pouvez appeler, pas des logos sur un slide.
+- **Les recommandations d'outils sont-elles indépendantes de vos partenariats commerciaux ?** La question peut être inconfortable. Une réponse honnête est rassurante.
+- **Quel est votre processus si les données disponibles sont insuffisantes pour certains cas d'usage ?** Un prestataire sérieux a une réponse à cette question.
+
+Pour aller plus loin sur les critères de sélection d'un partenaire IA, l'article [Agence IA : comment choisir le bon partenaire](/blog/agence-ia-comment-choisir-partenaire-transformation) détaille une grille de 6 critères applicables à tout type de prestataire.
+
+## Questions fréquentes
+
+### Combien de temps dure un diagnostic IA PME ?
+
+Avec le dispositif Diag Data IA Bpifrance, la mission est cadrée à 8 jours d'intervention sur 3 mois maximum. Pour des diagnostics hors dispositif Bpifrance, la durée varie de 2 à 5 jours selon la taille de l'entreprise et la profondeur de l'analyse.
+
+### Puis-je faire un auto-diagnostic IA avant de payer un prestataire ?
+
+Oui. France Num propose un questionnaire gratuit sur francenum.gouv.fr qui donne une première lecture de votre niveau de numérisation et d'usage de l'IA. C'est un bon point de départ pour préparer le brief d'un prestataire, mais il ne remplace pas une analyse de vos processus et données réels.
+
+### Quelle est la différence entre audit IA, diagnostic IA et feuille de route IA ?
+
+Le diagnostic IA évalue votre maturité et identifie les opportunités. L'audit IA entre davantage dans le détail des processus, des données et de l'infrastructure. La feuille de route traduit ces conclusions en plan d'action séquencé. Ces termes sont souvent utilisés de façon interchangeable par les prestataires, d'où l'intérêt de contractualiser les livrables attendus plutôt que le nom de la prestation.
+
+### Combien vont me coûter les projets IA après le diagnostic ?
+
+Les premiers projets d'implémentation (intégration, formation, paramétrage) dépassent systématiquement le coût du diagnostic. Anticipez ce budget dès la feuille de route.
+
+### Le Diag Data IA Bpifrance est-il accessible aux ETI ?
+
+Oui, à condition que l'ETI soit indépendante et compte moins de 2 000 ETP avec un chiffre d'affaires minimum de 1 000 000 EUR. Les ETI filiales de grands groupes ne sont pas éligibles.
+
+### Comment vérifier qu'un prestataire est bien agréé Bpifrance ?
+
+La liste des experts agréés pour le Diag Data IA est consultable directement auprès de Bpifrance. Vous pouvez également vérifier les conditions du dispositif et la liste des prestataires sur mesaidespubliques.infogreffe.fr, la plateforme officielle de référence pour les aides publiques aux entreprises.
+
+## Passez de l'évaluation à l'action
+
+La valeur d'un diagnostic IA PME ne vient pas du rapport. Elle vient de l'implémentation.
+
+La question n'est pas "faut-il faire un diagnostic ?" mais "quel diagnostic, avec qui, et qu'en ferez-vous une fois les résultats en main ?"
+
+Si vous voulez aller au-delà du bilan de maturité et disposer d'un plan d'action directement opérationnel, l'Audit IA Express Smart Impulsion intègre la priorisation ROI et le plan de déploiement dans une mission de 3 jours, sans engagement prestataire long terme. Conçu pour les dirigeants de PME et ETI qui veulent des recommandations actionnables, pas un rapport supplémentaire.
+
+[Découvrez l'Audit IA Express Smart Impulsion](/services/audit)`,
+    author: "Laurent Bouzon",
+    date: "25 juin 2026",
+    dateISO: "2026-06-25",
+    readTime: "12 min",
+    category: "Audit & Methodologie",
+    image: "/diagnostic-ia-pme-hero.png",
+    imageAlt: "Image d'illustration pour l'article \"Diagnostic IA PME : livrables à exiger avant de signer\"",
+    faq: [
+      {
+        question: "Combien coûte un diagnostic IA PME en 2026 avec Bpifrance ?",
+        answer: "Le Diag Data IA Bpifrance coûte 10 000 EUR HT au total. Depuis le 17 juin 2026, Bpifrance prend en charge 40% du coût, soit 4 000 EUR. Le reste à charge pour la PME est donc de 6 000 EUR HT. La mission couvre 8 jours d'intervention d'un expert agréé, sur 3 mois maximum.",
+      },
+      {
+        question: "Quelles sont les conditions d'éligibilité au Diag Data IA Bpifrance en 2026 ?",
+        answer: "La PME doit compter entre 10 et 2 000 ETP, réaliser au minimum 1 000 000 EUR de chiffre d'affaires sur un bilan de 12 mois et exister depuis plus d'un an. Les ETI indépendantes dans cette fourchette sont également éligibles.",
+      },
+      {
+        question: "Le taux de financement Bpifrance a-t-il changé récemment ?",
+        answer: "Oui. Avant le 17 juin 2026, la prise en charge était de 25% (reste à charge : 7 500 EUR HT). Depuis cette date, le taux est passé à 40% (reste à charge : 6 000 EUR HT). Plusieurs sources en ligne n'ont pas encore mis à jour cette information au moment de la publication de cet article.",
+      },
+      {
+        question: "Qu'est-ce que je reçois concrètement à la fin d'un diagnostic IA ?",
+        answer: "Un diagnostic sérieux doit produire cinq livrables minimum : un rapport de maturité IA, une carte des cas d'usage identifiés, une matrice priorité-ROI, une feuille de route sur 12 mois et un plan de gouvernance post-diagnostic. Si l'un de ces livrables est absent, demandez pourquoi avant d'accepter le rapport final.",
+      },
+      {
+        question: "Comment détecter un audit commercial déguisé en diagnostic IA ?",
+        answer: "Cinq signaux alertent : le prestataire n'a consulté que des interlocuteurs décisionnels (pas les opérationnels), le rapport recommande exclusivement ses propres outils ou partenaires, la feuille de route n'a pas de chiffrage des coûts d'implémentation, il n'y a pas de plan de gouvernance, et les données de l'entreprise n'ont pas été examinées directement.",
+      },
+      {
+        question: "Quelle est la différence entre diagnostic IA, audit IA et feuille de route IA ?",
+        answer: "Le diagnostic IA évalue votre maturité et identifie les opportunités. L'audit IA entre davantage dans le détail des processus, des données et de l'infrastructure. La feuille de route traduit les conclusions du diagnostic ou de l'audit en plan d'action séquencé. Ces trois termes sont parfois utilisés de façon interchangeable par les prestataires, ce qui peut prêter à confusion.",
+      },
+      {
+        question: "Puis-je faire un auto-diagnostic IA avant de payer un prestataire ?",
+        answer: "Oui. France Num propose un outil gratuit en ligne (francenum.gouv.fr) qui donne une première lecture de votre niveau de numérisation et d'usage de l'IA. C'est un bon point de départ, mais il ne remplace pas un diagnostic externe sur vos processus réels, votre qualité de données et vos enjeux métier.",
+      },
+    ],
+  },
+  {
     slug: "feuille-de-route-ia-pme",
     title: "Feuille de route IA PME : méthode en 4 étapes",
     excerpt:
