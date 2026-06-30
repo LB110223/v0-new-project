@@ -35,6 +35,253 @@ export interface BlogArticle {
 
 export const blogArticles: BlogArticle[] = [
   {
+    slug: "plan-de-formation-ia-entreprise",
+    title: "Plan de formation IA entreprise : 4 étapes Article 4",
+    excerpt:
+      "54 % des professionnels français sans formation IA. 4 étapes pour construire un plan conforme Article 4 avant les sanctions CNIL d'août 2026.",
+    content: `# Plan de formation IA entreprise : le guide pratique en 4 étapes (Article 4)
+
+54 % des professionnels français n'ont reçu aucune formation à l'IA, d'après le 4e Baromètre de la formation professionnelle de Lefebvre Dalloz Compétences (édition 2026, 551 répondants). Parmi ceux qui ont été formés, seuls 10 % l'ont été sur les enjeux réglementaires et les risques associés.
+
+Or l'obligation existe depuis le 2 février 2025. Ce n'est pas une promesse pour "bientôt" : c'est déjà du droit applicable. Dans 33 jours, la CNIL (Commission Nationale de l'Informatique et des Libertés, autorité française compétente pour l'AI Act) peut sanctionner.
+
+**La réponse courte est : un plan de formation IA conforme Article 4 tient en quatre décisions, prend moins d'une semaine à mettre en place, et coûte souvent moins de 500 € pour une PME de 20 personnes.**
+
+Pour la majorité des dirigeants de PME, le message "vous devez former vos équipes à l'IA avant août 2026" ne dit rien sur le comment. Pas de DRH dédié, pas de budget formation structuré, pas de temps pour monter un programme en douze mois. Ce guide vous explique comment construire un plan de formation IA entreprise opérationnel cette semaine, sans acheter un programme à 5 000 € par collaborateur.
+
+## Ce que l'Article 4 impose vraiment (et ce qu'il n'impose pas)
+
+Commençons par dissiper les idées reçues, parce qu'elles coûtent cher en mauvaises décisions.
+
+L'Article 4 du Règlement (UE) 2024/1689 (communément appelé AI Act) impose aux déployeurs d'IA de veiller à ce que leurs équipes disposent d'un niveau de compétence adapté à leur rôle, aux systèmes qu'elles utilisent et au risque associé. C'est le principe de proportionnalité, explicité dans le Considérant 20 du texte.
+
+Ce que l'Article 4 n'impose pas :
+
+- Aucune certification obligatoire
+- Aucune durée minimale de formation
+- Aucun programme labellisé ou formateur accrédité
+- Aucun SIRH spécifique pour tracer les formations
+
+Ce qui EST obligatoire, en revanche : pouvoir prouver que chaque collaborateur utilisant l'IA a reçu une information adaptée sur ce que c'est, comment ça fonctionne, et les risques liés à son usage dans son poste.
+
+> **À retenir :** L'Article 4 de l'AI Act (Règlement UE 2024/1689) n'exige pas de certification, pas de durée minimale, pas de formateur accrédité. Il exige une formation proportionnée et traçable. Rien de plus.
+
+### Deux dates à distinguer
+
+Le calendrier officiel, tel que confirmé par la Commission européenne dans sa FAQ AI Literacy (mise à jour février 2025), est le suivant :
+
+- **2 février 2025** : obligation Article 4 en vigueur pour tous les déployeurs d'IA, sans seuil de taille ni de chiffre d'affaires
+- **2 août 2026** : date à partir de laquelle les autorités nationales (la CNIL en France) peuvent prononcer des sanctions administratives
+
+Cette distinction est souvent mal comprise. L'obligation n'attend pas août 2026 : elle est déjà active depuis 18 mois. Août 2026, c'est la date à partir de laquelle la CNIL peut prononcer des sanctions administratives en cas de non-conformité (Règlement (UE) 2024/1689, Article 99). Le montant exact dépend du niveau de manquement et de la taille de l'entreprise, mais les sanctions peuvent représenter plusieurs dizaines de milliers d'euros pour une PME.
+
+Par ailleurs, indépendamment des sanctions administratives, la responsabilité civile de l'employeur peut être engagée sur le fondement du droit commun si un collaborateur non sensibilisé aux limites d'un outil IA cause un dommage.
+
+> Selon le Baromètre France Num 2025 (DGE/Crédoc, 11 021 entreprises enquêtées), 26 % des TPE-PME françaises utilisent déjà des solutions IA, soit le double de l'année précédente. Un seul usage IA dans votre entreprise suffit à déclencher l'obligation Article 4 pour l'ensemble de vos collaborateurs.
+
+Pour le contexte réglementaire complet sur l'AI Act, vous pouvez consulter notre guide [AI Act 2026 : ce que les PME doivent savoir (et faire) avant août](/blog/ai-act-pme-guide-2026).
+
+## Étape 1 : Cartographier les profils IA en 30 minutes
+
+Avant de bâtir votre plan de formation IA, vous avez besoin d'une vue claire de qui utilise quoi. Cette cartographie prend une demi-heure et conditionne tout le reste : le contenu des formations, le temps nécessaire, et le budget.
+
+### La méthode concrète
+
+Prenez une feuille ou un tableur. Listez tous les outils IA utilisés dans votre entreprise : ChatGPT, Microsoft Copilot, un logiciel de comptabilité avec fonctions prédictives, un outil RH avec recommandations automatisées, un chatbot sur votre site. Puis, pour chaque collaborateur, identifiez son profil d'usage.
+
+Trois profils opérationnels suffisent :
+
+- **Profil A (utilisateur occasionnel)** : utilise un outil IA de temps en temps, sans que son poste soit structuré autour. Sensibilisation courte suffisante, environ 1 heure.
+- **Profil B (utilisateur régulier métier)** : l'IA est intégrée à ses tâches quotidiennes (rédaction, analyse, support client, comptabilité). Formation pratique adaptée à l'outil, 3 à 4 heures.
+- **Profil C (décideur ou super-utilisateur)** : choisit, configure ou supervise les systèmes IA de l'entreprise. Formation aux enjeux, aux risques et aux implications légales, demi-journée.
+
+> Selon Bpifrance Le Lab (étude PME-ETI et IA, juin 2025), 73 % des projets IA dans les PME-ETI sont impulsés par le dirigeant lui-même. Conséquence directe : le dirigeant doit être le premier à se former, et au niveau C (décideur). Ce n'est pas une formalité, c'est une obligation Article 4 personnelle.
+
+D'après l'INSEE (enquête "Intelligence artificielle dans les entreprises", octobre 2024, publiée octobre 2025), 10 % des entreprises françaises de 10 salariés ou plus déclaraient utiliser une technologie d'IA. Pour les PME de 10 à 49 salariés, ce taux est de 9 %. Même un seul usage, par un seul collaborateur, suffit à déclencher l'obligation pour l'ensemble de l'entreprise.
+
+Si vous débutez avec l'IA, notre guide [L'IA pour les PME : par où commencer ?](/blog/ia-pour-pme-guide) vous donnera les bases pour identifier vos usages actuels et futurs.
+
+## Étape 2 : Définir le contenu de formation par profil
+
+### Contenu proportionné par profil
+
+L'Article 4 du Règlement (UE) 2024/1689 s'appuie sur la proportionnalité : le contenu doit être adapté au niveau de risque et au rôle de chaque collaborateur. Voici ce que cela signifie en pratique pour votre plan de formation IA.
+
+**Pour le profil A (utilisateur occasionnel) :**
+
+- Comprendre ce qu'est l'IA et comment elle génère ses résultats
+- Savoir reconnaître une erreur possible (les systèmes IA se trompent et semblent confiants)
+- Connaître les règles internes sur ce qu'on peut ou ne peut pas soumettre à un outil IA
+
+Une session de 45 minutes avec un support simple suffit. Inutile d'acheter un MOOC à 500 € ou de faire appel à un cabinet externe pour ce niveau.
+
+**Pour le profil B (utilisateur régulier métier) :**
+
+- Maîtriser l'outil dans son contexte métier spécifique
+- Comprendre quelles données l'outil utilise et ce qu'il en fait
+- Connaître les règles RGPD applicables à son usage (notamment si des données personnelles transitent)
+
+**Pour le profil C (décideur ou super-utilisateur) :**
+
+- Comprendre les obligations Article 4 et les responsabilités associées
+- Connaître les niveaux de risque de l'AI Act et savoir situer ses outils
+- Savoir quelles responsabilités s'appliquent en cas d'incident lié à l'IA
+
+> La bonne question n'est pas "quelle formation acheter ?". Elle est "quel niveau de compréhension faut-il démontrer pour chaque profil, et comment le prouver ?" Ces deux questions ont des réponses différentes. Seule la seconde relève de l'Article 4.
+
+## Étape 3 : Constituer la preuve documentaire en moins d'une journée
+
+Lors d'un contrôle, la CNIL cherchera à vérifier trois choses : que la formation a bien eu lieu, que son contenu était adapté au risque, et que les collaborateurs concernés ont participé.
+
+Trois documents suffisent lors d'un contrôle CNIL :
+
+1. **Liste d'émargement datée et signée** : noms, prénoms, fonctions, date, durée, signature de chaque participant
+2. **Support de formation** : même un diaporama de 10 slides ou un ordre du jour détaillé suffit à attester du contenu
+3. **Attestation individuelle de participation** : une ligne par collaborateur confirmant sa présence et le contenu couvert
+
+Pas besoin d'un logiciel RH dédié. Un dossier Google Drive ou SharePoint intitulé "Conformité AI Act" avec ces trois documents par session de formation est suffisant.
+
+Pour aller plus loin sur la documentation de conformité dans le cadre d'un audit plus complet de vos usages IA, consultez notre guide [Audit IA pour PME : le guide complet](/blog/audit-ia-pme-guide-complet).
+
+## Étape 4 : Financer votre plan de formation IA via l'OPCO avant le 2 août
+
+Les OPCO (Opérateurs de Compétences) sont les organismes paritaires qui gèrent les fonds de la formation professionnelle continue en France, définis par la loi du 5 septembre 2018 "pour la liberté de choisir son avenir professionnel". Si vous n'avez jamais eu à déposer un dossier, voici l'essentiel.
+
+### Identifier votre OPCO
+
+Votre OPCO de rattachement dépend de votre convention collective et de votre secteur d'activité :
+
+- **OPCO Atlas** : conseil, numérique, banque, assurance, expertise comptable
+- **OPCO EP** : santé, social, médico-social, animation
+- **Constructys** : bâtiment et travaux publics
+- **Ocapiat** : agriculture, pêche, coopératives agroalimentaires
+- **Autres OPCO** selon votre secteur (Afdas pour les médias, Akto pour l'hôtellerie-restauration, etc.)
+
+### Ce que l'OPCO peut financer
+
+Pour les PME de moins de 50 salariés, certains OPCO peuvent prendre en charge jusqu'à 100 % des coûts pédagogiques d'une formation externe, selon leurs priorités sectorielles 2026. Contactez directement votre OPCO pour obtenir les barèmes exacts à jour : les montants varient selon le secteur et le programme.
+
+Deux règles absolues à respecter :
+
+- Déposer le dossier **avant** le démarrage de la formation (pas de financement rétroactif)
+- Prévoir un délai d'instruction d'environ 15 jours (délai indicatif OPCO Atlas)
+
+### Si vous optez pour une formation interne
+
+Si un salarié compétent anime la session, ou si vous construisez vous-même un support de sensibilisation, le coût est quasi nul. L'OPCO ne finance que les formations externes, mais la conformité Article 4 ne l'exige pas. La documentation reste obligatoire dans tous les cas.
+
+> Avec 33 jours avant le 2 août 2026 et 15 jours de délai d'instruction OPCO, la fenêtre de dépôt de dossier pour une formation externe se ferme cette semaine. Pour une formation interne, vous avez encore le temps, à condition de commencer maintenant.
+
+## Plan d'action : déployer votre plan de formation IA dans les 33 prochains jours
+
+Voici une séquence réaliste pour une PME de 10 à 50 personnes :
+
+**Semaine 1 : Cartographier les profils IA (J1 à J5)**
+Listez tous les outils IA utilisés dans l'entreprise. Associez chaque collaborateur à son profil (A, B ou C). Durée estimée : 2 à 3 heures pour le dirigeant.
+
+**Semaine 2 : Définir le contenu de formation par profil (J6 à J10)**
+Préparez les supports de formation par profil. Pour le profil A, un diaporama de 10 slides suffit. Pour le profil B, appuyez-vous sur la documentation de l'outil utilisé. Pour le profil C, appuyez-vous sur le guide AI Act ou faites appel à un consultant pour une demi-journée. Si formation externe prévue : déposez le dossier OPCO cette semaine.
+
+**Semaine 3 : Constituer la preuve documentaire (J11 à J20)**
+Organisez les sessions de formation. Selon la taille de l'entreprise, 1 à 3 sessions selon les profils. Recueillez les émargements à chaud, en fin de session.
+
+**Semaine 4 : Financer via l'OPCO / finaliser (J21 à J33)**
+Finalisez les attestations individuelles. Archivez l'ensemble des documents dans le dossier "Conformité AI Act". Vérifiez que personne n'a été oublié dans la cartographie initiale.
+
+Ce calendrier tient pour une PME qui part de zéro. Si vous avez déjà commencé à formaliser des usages IA, vous pouvez compresser les semaines 1 et 2 en quelques jours.
+
+### Ce que vous n'avez pas à faire
+
+- Acheter un programme de formation à 5 000 € par collaborateur
+- Obtenir une certification officielle pour vos formateurs internes
+- Mettre en place un SIRH spécifique pour tracer les formations
+- Attendre d'avoir un DRH pour avancer
+
+L'Article 4 est l'une des obligations réglementaires les moins coûteuses à satisfaire pour une PME, à condition de ne pas la sur-compliquer. Le vrai risque n'est pas l'investissement, c'est l'inaction.
+
+## Questions fréquentes sur la formation IA et l'Article 4
+
+### L'Article 4 s'applique-t-il aux PME qui utilisent juste ChatGPT ?
+
+Oui. L'obligation de littératie IA (Article 4 du Règlement (UE) 2024/1689) s'applique à tout déployeur d'IA, sans seuil de taille ni de budget. Dès lors qu'un collaborateur utilise un outil IA dans son travail, l'entreprise est soumise à l'obligation depuis le 2 février 2025. ChatGPT, Copilot, un logiciel métier avec fonctions IA intégrées : tous déclenchent l'obligation.
+
+### Quelle durée minimale de formation exige l'AI Act ?
+
+Aucune. L'Article 4 n'impose ni durée minimale ni format obligatoire. Il impose une formation proportionnée au rôle, aux outils et au risque. Une session interne de 45 minutes avec un support documenté peut suffire pour un utilisateur occasionnel.
+
+### Que risque une PME qui n'a pas formé ses équipes avant le 2 août 2026 ?
+
+À partir du 2 août 2026, la CNIL (Commission Nationale de l'Informatique et des Libertés) peut prononcer des sanctions administratives pour non-respect des obligations de littératie IA (Règlement (UE) 2024/1689, Article 99). Le montant des sanctions dépend du type de manquement et de la taille de l'entreprise. Par ailleurs, la responsabilité civile de l'employeur peut être engagée sur le fondement du droit commun si un collaborateur non sensibilisé aux limites d'un outil IA cause un dommage.
+
+### Une formation interne sans formateur certifié est-elle valable ?
+
+Oui. L'AI Act (Règlement (UE) 2024/1689) n'exige pas de formateur certifié. Ce qui compte, c'est la proportionnalité du contenu et la traçabilité : liste d'émargement signée, support de formation, attestation individuelle de participation. Un salarié compétent peut animer la session.
+
+### Comment savoir quel OPCO finance ma formation IA entreprise ?
+
+Votre OPCO de rattachement dépend de votre convention collective. Votre fédération professionnelle ou votre expert-comptable peut vous orienter rapidement. Pour les PME de moins de 50 salariés, la prise en charge peut atteindre 100 % des coûts pédagogiques selon votre OPCO et les priorités sectorielles 2026 (indicatif : contactez directement votre OPCO pour les barèmes à jour).
+
+## Passez à l'action avant le 2 août
+
+Il reste 33 jours. Pour une formation interne, c'est suffisant. Pour une formation externe avec financement OPCO, le dossier doit être déposé cette semaine.
+
+Si vous n'avez pas encore cartographié vos usages IA et que vous préférez ne pas improviser une démarche de conformité seul, l'Audit IA Express permet de faire exactement ça : identifier tous vos outils IA, établir les profils collaborateurs, préparer les supports de formation adaptés et constituer le dossier documentaire, le tout en une session de travail structurée.
+
+[Découvrir l'Audit IA Express](/services/audit)`,
+    author: "Laurent Bouzon",
+    date: "30 juin 2026",
+    dateISO: "2026-06-30",
+    readTime: "12 min",
+    category: "Formation IA",
+    image: "/plan-de-formation-ia-entreprise-hero.png",
+    imageAlt: "Image d'illustration pour l'article \"Plan de formation IA entreprise : 4 étapes Article 4\"",
+    faq: [
+      {
+        question: "L'Article 4 de l'AI Act s'applique-t-il aux PME qui utilisent juste ChatGPT ?",
+        answer: "Oui. L'obligation de littératie IA (Article 4) s'applique à tout déployeur d'IA, sans seuil de taille ni de budget. Dès lors qu'un collaborateur utilise un outil IA dans son travail (ChatGPT, Copilot, un logiciel métier avec fonctions IA), l'entreprise est soumise à l'obligation depuis le 2 février 2025.",
+      },
+      {
+        question: "Quelle durée minimale de formation exige l'AI Act ?",
+        answer: "Aucune. L'Article 4 impose une formation proportionnée au rôle, aux outils utilisés et au risque associé, mais ne fixe ni durée minimale ni format obligatoire. Une session interne de 45 minutes avec un support documenté peut suffire pour un utilisateur occasionnel.",
+      },
+      {
+        question: "Que risque une PME qui n'a pas formé ses équipes avant le 2 août 2026 ?",
+        answer: "À partir du 2 août 2026, la CNIL peut prononcer des sanctions administratives pour non-respect des obligations de littératie IA (Règlement (UE) 2024/1689, Article 99). Le montant dépend du type de manquement et de la taille de l'entreprise. Par ailleurs, la responsabilité civile de l'employeur peut être engagée sur le fondement du droit commun si un collaborateur non sensibilisé cause un dommage avec un outil IA.",
+      },
+      {
+        question: "Une formation interne sans formateur certifié est-elle valable ?",
+        answer: "Oui. L'AI Act n'exige pas de formateur certifié ni de programme labellisé. Ce qui compte, c'est que la formation soit adaptée au niveau de risque et que vous puissiez le prouver : liste d'émargement signée, support de formation, attestation individuelle de participation. Un salarié compétent peut animer la session.",
+      },
+      {
+        question: "Comment savoir quel OPCO finance ma formation IA ?",
+        answer: "Votre OPCO de rattachement dépend de votre convention collective. Les principaux pour les PME de services : OPCO Atlas (conseil, numérique, banque, assurance, expertise comptable), OPCO EP (santé, social, médico-social), Constructys (BTP), Ocapiat (agriculture, coopératives). Votre fédération professionnelle ou votre expert-comptable peut vous orienter rapidement. Pour les PME de moins de 50 salariés, certains OPCO prennent en charge jusqu'à 100 % des coûts pédagogiques (contactez directement votre OPCO pour les barèmes 2026).",
+      },
+    ],
+    howTo: {
+      name: "Construire un plan de formation IA conforme Article 4",
+      description: "Guide en 4 étapes pour mettre en place un plan de formation IA opérationnel et conforme AI Act pour une PME",
+      totalTime: "PT33H",
+      steps: [
+        {
+          name: "Cartographier les profils IA",
+          text: "Listez tous les outils IA utilisés dans l'entreprise, puis associez à chaque collaborateur son profil d'usage : utilisateur occasionnel (1h de sensibilisation), utilisateur régulier métier (3-4h), décideur ou super-utilisateur (demi-journée). Cette cartographie prend 30 minutes et conditionne tout le reste.",
+        },
+        {
+          name: "Définir le contenu de formation par profil",
+          text: "Pour le profil A (occasionnel) : comprendre ce qu'est l'IA, reconnaître les erreurs possibles, savoir quand ne pas faire confiance à un résultat. Pour le profil B (régulier) : maîtriser l'outil dans son contexte métier, connaître les règles RGPD applicables. Pour le profil C (décideur) : obligations Article 4, niveaux de risque AI Act, responsabilités en cas d'incident.",
+        },
+        {
+          name: "Constituer la preuve documentaire",
+          text: "Trois documents suffisent pour prouver la conformité lors d'un contrôle CNIL : une liste d'émargement datée et signée, un support de formation (même 10 slides), et une attestation individuelle de participation. À stocker dans un dossier dédié : Google Drive ou SharePoint conviennent.",
+        },
+        {
+          name: "Financer via l'OPCO",
+          text: "Identifiez votre OPCO de rattachement et déposez votre dossier de financement avant le démarrage de la formation. Délai d'instruction : environ 15 jours. Pour les PME de moins de 50 salariés, la prise en charge peut atteindre 100 % des coûts pédagogiques selon votre OPCO et les priorités sectorielles 2026. Si vous optez pour une formation interne, l'OPCO n'est pas applicable, mais le coût est quasi nul.",
+        },
+      ],
+    },
+  },
+  {
     slug: "premier-projet-ia-pme",
     title: "Premier projet IA en PME : bien choisir son chantier",
     h1: "Premier projet IA en PME : comment choisir le bon chantier (et éviter les 3 erreurs qui font échouer)",
