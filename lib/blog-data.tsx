@@ -35,6 +35,237 @@ export interface BlogArticle {
 
 export const blogArticles: BlogArticle[] = [
   {
+    slug: "checklist-article-4-ai-act-pme-aout-2026",
+    title: "Checklist Article 4 AI Act PME : 5 livrables avant le 2 août 2026",
+    excerpt:
+      "J-30 avant la deadline CNIL. La checklist article 4 AI Act PME : 5 livrables à produire en une journée pour prouver votre conformité.",
+    content: `# Checklist Article 4 AI Act PME : 5 livrables de conformité avant le 2 août 2026
+
+Depuis le 26 mars 2026, un message circule dans les médias spécialisés : "l'AI Act est repoussé à 2027". C'est vrai, en partie. Le Digital Omnibus, adopté à une large majorité par le Parlement européen, a bien reporté les obligations pour les systèmes IA à haut risque (Annexe III) au 2 décembre 2027. Mais l'Article 4, celui qui concerne la littératie IA de vos collaborateurs, n'a pas bougé d'un jour.
+
+L'enforcement par les autorités nationales (la CNIL en France) commence le 2 août 2026. Vous avez moins de 30 jours.
+
+Cet article n'est pas une introduction à l'Article 4. Si vous cherchez un panorama complet du règlement, consultez [notre guide AI Act PME](/blog/ai-act-pme-guide-2026). Ici, l'objectif est différent : vous donner la checklist Article 4 AI Act PME, soit les 5 livrables concrets à produire pour prouver votre conformité en cas de contrôle, réalisables en une journée, sans prestataire externe.
+
+## Ce que le Digital Omnibus n'a pas reporté
+
+La confusion est compréhensible. Le Digital Omnibus a modifié un calendrier complexe, et les titres de presse ont souvent simplifié en annonçant un "report de l'AI Act".
+
+Voici la distinction qui compte pour votre PME :
+
+- **Systèmes IA à haut risque (Annexe III)** : obligations reportées au 2 décembre 2027. Cela concerne les outils IA utilisés pour des décisions d'embauche, de crédit, de scoring comportemental, ou des applications dans des secteurs critiques. Si votre PME n'utilise pas ce type de systèmes, cette échéance ne vous concerne pas encore.
+- **Article 4 (littératie IA)** : PAS reporté. En application depuis le 2 février 2025. Enforcement national au 2 août 2026.
+
+> **Définition - Article 4 AI Act (Règlement UE 2024/1689)** : L'Article 4 impose à tout déployeur de système IA de prendre des mesures pour que ses collaborateurs disposent d'un niveau suffisant de maîtrise de l'IA, proportionné à leur rôle et aux systèmes qu'ils utilisent. C'est une obligation de moyens documentés, pas une obligation de résultat chiffré.
+
+> **Définition - Déployeur (Article 3, §4 AI Act)** : Un déployeur est toute personne physique ou morale, autorité publique, agence ou autre organisme qui utilise un système IA sous sa propre responsabilité dans un contexte professionnel. Développer l'IA en interne n'est pas requis : utiliser ChatGPT, Microsoft Copilot ou tout logiciel intégrant une fonctionnalité IA suffit à qualifier une PME de déployeur au sens du règlement.
+
+Les violations des obligations opérateurs (dont l'Article 4) relèvent de l'Article 99(4) du règlement : sanctions maximales à 15 M€ ou 3% du chiffre d'affaires mondial annuel. Pour les PME, la protection prévue à l'Article 99 joue en votre faveur : c'est le montant le **moins élevé** des deux qui s'applique, et non le plus élevé comme pour les grandes entreprises. Une PME à 5 M€ de CA risque jusqu'à 150 000 €. Ce n'est pas négligeable, mais ce n'est pas 15 M€.
+
+À cela s'ajoute un risque de responsabilité civile, actif depuis le 2 août 2025 : si un collaborateur insuffisamment formé cause un préjudice via un outil IA, la responsabilité de l'entreprise peut être engagée.
+
+## Qui est concerné ? Presque toutes les PME françaises
+
+L'Article 4 vise les "déployeurs" de systèmes IA. Un déployeur, c'est toute organisation qui utilise un système IA dans un contexte professionnel, qu'elle l'ait développé ou non.
+
+Si vos collaborateurs utilisent l'un des outils suivants, vous êtes déployeur au sens du règlement :
+
+- ChatGPT, Claude, Gemini ou tout autre assistant IA en ligne
+- Microsoft Copilot, Copilot for M365, GitHub Copilot
+- Un outil de scoring client, de tri de CV, de prévision de chiffre d'affaires
+- Toute fonctionnalité "IA" intégrée dans votre ERP, CRM, outil RH ou solution comptable
+
+Il n'existe pas de seuil de taille. Pas d'exemption PME dans le texte du règlement.
+
+> Selon l'INSEE Première n°2061 (Clément Lefebvre, 2025), 10% des entreprises françaises de 10 salariés ou plus déclaraient utiliser au moins une technologie IA en 2024, contre 6% en 2023 et en dessous de la moyenne UE de 13%. Par taille : 9% pour les entreprises de 10 à 49 salariés, 15% pour les 50 à 249, 33% pour les 250 salariés et plus. Toutes ces entreprises sont des déployeurs au sens de l'Article 4, sans exception.
+
+Et si votre entreprise n'est pas encore dans ces statistiques mais que vos équipes utilisent ChatGPT à titre personnel pour leur travail (ce qu'on appelle le shadow IA), vous êtes également concerné. L'obligation porte sur l'usage réel, pas sur les outils officiellement validés par la direction.
+
+Si vous n'avez pas encore identifié vos cas d'usage IA prioritaires, [commencez par ce guide pratique](/blog/ia-pour-pme-guide) avant de passer à la checklist ci-dessous.
+
+## La checklist Article 4 AI Act PME : les 5 livrables de conformité
+
+Voici les cinq documents qui constituent le minimum opposable à un contrôle CNIL. Ils forment une séquence logique : chaque livrable prépare le suivant.
+
+Pour une PME qui démarre de zéro, la séquence recommandée en une journée est la suivante :
+
+1. Matin (9h-12h) : produire le Livrable 1 (inventaire des outils IA) et le Livrable 2 (cartographie des niveaux par rôle)
+2. Début d'après-midi (13h-16h) : rédiger la Charte d'utilisation (Livrable 3) et préparer le formulaire d'attestation du Registre (Livrable 5)
+3. Fin d'après-midi (16h-17h) : poser la structure du Module de sensibilisation (Livrable 4), à finaliser et déployer dans les deux semaines suivantes
+
+### Livrable 1 : l'inventaire des outils IA (2 à 3 heures)
+
+Commencez par cartographier ce que vous utilisez réellement. L'inventaire est le fondement de tout le reste.
+
+Pour chaque système IA utilisé dans votre entreprise, documentez :
+
+- Nom de l'outil et fournisseur
+- Finalité (à quoi sert-il concrètement ?)
+- Service(s) ou collaborateur(s) utilisateur(s)
+- Type de données traitées (données personnelles ? données clients ? données confidentielles ?)
+- Niveau d'automatisation (aide à la décision ou décision automatisée ?)
+
+Le piège le plus fréquent : oublier le shadow IA. Les outils que vos collaborateurs utilisent sans validation officielle de la direction font partie de l'inventaire. Un collaborateur commercial qui utilise ChatGPT pour rédiger des emails avec des données clients, c'est un système IA à inventorier.
+
+Autre piège courant : confondre ce registre IA avec le registre de traitement RGPD. Ce sont deux logiques distinctes. Le registre RGPD raisonne par traitement de données. L'inventaire IA raisonne par système : qu'est-ce que le système fait, qui l'utilise, dans quel contexte. Les deux documents sont complémentaires, pas substituables.
+
+> Format minimal acceptable : un tableau Excel ou Google Sheets. Pas besoin d'outil dédié. L'essentiel est que le document soit daté, signé par un responsable, et à jour au moment du contrôle.
+
+### Livrable 2 : la cartographie des niveaux de besoin par rôle (30 à 45 minutes)
+
+L'Article 4 exige une approche proportionnée au rôle de chaque collaborateur. Un assistant comptable qui utilise une fonctionnalité d'autocomplétion IA dans son logiciel n'a pas les mêmes besoins de formation qu'un responsable marketing qui génère des contenus avec ChatGPT quotidiennement.
+
+Une cartographie en deux ou trois niveaux suffit :
+
+- **Niveau 1 : Utilisateur occasionnel** : connaît les risques de base (réponses inventées par l'IA, fuite de données), sait qu'il ne doit pas saisir de données confidentielles
+- **Niveau 2 : Utilisateur régulier** : comprend les limites de l'outil utilisé, sait vérifier les outputs avant de les utiliser, connaît la charte de l'entreprise
+- **Niveau 3 : Référent IA** (optionnel pour les PME) : maîtrise la classification des risques, peut former les collègues, interlocuteur interne en cas de problème
+
+Cette cartographie prouve que vous avez réfléchi à la proportionnalité, ce qui est précisément ce que le texte réglementaire demande.
+
+### Livrable 3 : la charte d'utilisation de l'IA (2 à 3 heures)
+
+La charte d'utilisation est le document de référence de votre politique IA interne. C'est elle que vous présenterez en premier lors d'un contrôle.
+
+Son contenu minimum :
+
+- Liste des outils IA autorisés dans l'entreprise (et, idéalement, ceux qui sont interdits)
+- Données qui ne doivent jamais être saisies dans un outil IA externe : données personnelles de clients, informations commerciales confidentielles, contrats, données bancaires
+- Obligation de vérification humaine systématique des outputs IA avant toute action ou transmission
+- Procédure de signalement d'un incident ou d'un doute (à qui se référer, comment)
+- Identification du référent IA interne (peut être le dirigeant, le responsable IT, ou le DPO si l'entreprise en a un)
+
+La charte peut s'intégrer à votre règlement intérieur ou à votre charte informatique existante. Elle doit être signée par la direction. Deux à trois pages suffisent : un document de 20 pages que personne ne lit n'a aucune valeur en cas de contrôle.
+
+> La charte d'utilisation IA n'est pas un document RH parmi d'autres. C'est la preuve que la direction de l'entreprise a pris position sur l'usage de l'IA et en assume la responsabilité. La signature du dirigeant est indispensable.
+
+### Livrable 4 : le module de sensibilisation (2 à 3 heures de préparation, 45 minutes de session)
+
+C'est le coeur de l'obligation : démontrer qu'une démarche pédagogique a été effectivement menée auprès des collaborateurs concernés. Un email d'information ne suffit pas. Il faut une session documentée ou un module tracé.
+
+Contenu minimum du support de sensibilisation :
+
+- Qu'est-ce que l'IA : définition accessible, sans jargon technique
+- Comment fonctionnent les outils utilisés dans l'entreprise, et leurs limites
+- Le risque d'hallucination : pourquoi les outputs IA peuvent être faux, et pourquoi vérifier est systématique
+- Le risque de fuite de données : ce qu'on ne saisit jamais, et pourquoi
+- Les règles de la charte d'utilisation de l'entreprise
+
+L'Article 4 ne prescrit aucun format obligatoire (la Commission européenne le confirme : l'obligation de moyens s'adapte à votre contexte). Les formats compatibles en pratique :
+
+- Présentation collective (PowerPoint, 30 à 45 minutes)
+- Vidéo interne avec quiz de validation
+- E-learning basique avec confirmation de lecture
+- Atelier pratique avec mise en situation
+
+Aucune certification externe n'est requise. L'Article 4 est une obligation de moyens, pas de certification. Adaptez le contenu aux niveaux définis dans le Livrable 2 : les utilisateurs occasionnels n'ont pas besoin d'une session dense sur les modèles de langage.
+
+### Livrable 5 : le registre de formation et les attestations (30 minutes, puis mise à jour continue)
+
+Le registre de formation est votre preuve opposable. C'est ce document qui démontre à la CNIL que vous avez effectivement mis en oeuvre l'obligation, et pas seulement rédigé des documents qui dorment dans un dossier.
+
+Pour chaque collaborateur ayant suivi la sensibilisation, consignez :
+
+- Nom et prénom
+- Poste et service
+- Date de la formation ou sensibilisation
+- Titre du support utilisé
+- Signature ou confirmation écrite (email suffit pour les formations en ligne)
+
+Ce registre est vivant. À chaque arrivée d'un nouveau collaborateur, il doit être mis à jour avant que cette personne commence à utiliser des outils IA. À chaque adoption d'un nouvel outil IA dans l'entreprise, une mise à jour de la sensibilisation est recommandée. Prévoyez une révision annuelle minimum.
+
+| Livrable | Temps estimé | Format minimal |
+|---|---|---|
+| 1. Inventaire des outils IA | 2-3 heures | Tableau (Excel/Sheets) : nom, fournisseur, finalité, service, données traitées |
+| 2. Cartographie des niveaux par rôle | 30-45 minutes | Document 1 page : 2-3 niveaux d'utilisateurs selon la fonction |
+| 3. Charte d'utilisation de l'IA | 2-3 heures | Document 2-3 pages signé par la direction |
+| 4. Module de sensibilisation | 2-3h prépa + 45 min session | Support présentiel ou e-learning avec trace documentée |
+| 5. Registre de formation et attestations | 30 min + mise à jour continue | Liste nominative avec dates, signatures ou confirmations écrites |
+
+## Ce que vous ne devez pas faire
+
+Plusieurs approches, intuitivement raisonnables, sont insuffisantes au regard de l'Article 4.
+
+- **Envoyer un email "pour information"** : un email n'est pas une formation. Il n'y a ni vérification de compréhension, ni trace de prise de connaissance réelle. Ce n'est pas opposable en cas de contrôle.
+- **Copier-coller une charte trouvée en ligne sans l'adapter** : une charte générique non signée, non datée, sans référence à vos outils réels n'a aucune valeur. Le contrôleur vérifie la cohérence entre l'inventaire et la charte.
+- **Attendre d'avoir l'ISO 42001 pour agir** : la certification ISO 42001 est utile mais pas requise par l'Article 4. En l'attendre, vous prenez le risque d'être non conforme au 2 août pour quelque chose de réalisable en une journée.
+- **Déléguer entièrement à un prestataire sans vous impliquer** : l'obligation incombe à l'organisation déployeuse. Un consultant peut vous aider à structurer les livrables, mais la direction doit valider, signer et s'approprier la démarche. Si vous choisissez de faire appel à un accompagnateur, lisez d'abord [notre guide pour choisir le bon partenaire IA](/blog/agence-ia-comment-choisir-partenaire-transformation).
+- **Confondre RGPD et AI Act** : vos obligations RGPD existantes ne couvrent pas l'Article 4. Les deux réglementations coexistent et s'alimentent mutuellement, mais elles demandent des livrables distincts.
+
+## Après le 2 août : quelle suite ?
+
+Atteindre la conformité Article 4 avant le 2 août est la priorité immédiate. Mais ce n'est pas un exercice ponctuel.
+
+Les livrables produits doivent vivre. Chaque nouveau collaborateur doit être formé avant d'utiliser des outils IA. Chaque nouvel outil adopté doit être ajouté à l'inventaire et intégré à la charte. Le registre de formation doit être tenu à jour en continu.
+
+L'horizon suivant à planifier dès maintenant : les obligations pour les systèmes IA à haut risque (Annexe III). Si votre entreprise utilise des outils IA pour des décisions d'embauche, de crédit, de scoring ou dans des secteurs sensibles, la deadline est le 2 décembre 2027. Ce n'est pas si loin, et la préparation prend du temps.
+
+> Selon la FAQ AI Literacy de la Commission européenne (digital-strategy.ec.europa.eu, 2026), 80% des 251 European Digital Innovation Hubs (EDIHs) en Europe proposent déjà des services axés sur l'IA, dont l'accompagnement à la conformité AI Act Article 4. En France, le réseau France 2030 (BPI) remplit un rôle comparable.
+
+Si vous souhaitez aller au-delà du minimum réglementaire et transformer votre conformité en avantage compétitif, [un audit IA complet](/blog/audit-ia-pme-guide-complet) permet d'identifier précisément vos usages, leurs niveaux de risque et les priorités de documentation.
+
+> 58% des dirigeants de PME-ETI françaises considèrent l'IA comme importante ou très importante pour la pérennité de leur entreprise à 3-5 ans (Bpifrance Le Lab, enquête auprès de 1 209 dirigeants, 2025). Si c'est stratégique pour vous, autant sécuriser la base réglementaire de cet usage maintenant plutôt qu'en urgence.
+
+## Questions fréquentes sur la checklist Article 4 AI Act PME
+
+### L'article 4 s'applique-t-il à ma PME si je n'ai développé aucune IA en interne ?
+
+Oui. L'Article 4 cible les "déployeurs" de systèmes IA : toute organisation qui utilise un outil IA dans un contexte professionnel. ChatGPT, Copilot, un logiciel avec fonctionnalité IA intégrée : vous êtes concerné. Il n'existe ni seuil de taille ni exemption PME dans le texte du règlement.
+
+### Quelle différence entre l'article 4 et les obligations pour les systèmes IA à haut risque ?
+
+L'Article 4 s'applique à tous les déployeurs, sans distinction de taille ni de secteur. Les obligations pour les systèmes à haut risque (Annexe III) sont plus lourdes et ont été reportées au 2 décembre 2027 par le Digital Omnibus (vote du Parlement européen, 26 mars 2026). L'Article 4, lui, entre en enforcement le 2 août 2026 comme prévu : le report ne le concerne pas.
+
+### Combien de temps faut-il pour produire les 5 livrables ?
+
+Une journée de travail suffit pour les quatre livrables structurants (inventaire, cartographie, charte, registre). Le module de sensibilisation se finalise dans les deux semaines suivantes (2-3 heures de préparation, 45 minutes de session collective). L'ensemble peut être opérationnel avant le 2 août si vous démarrez maintenant.
+
+### Faut-il faire appel à un prestataire externe pour être conforme ?
+
+Non. Pour une PME avec des usages IA standards (ChatGPT, Copilot, logiciels métier), les cinq livrables se produisent en interne en une journée. Un prestataire apporte de la valeur si vous souhaitez aller au-delà du minimum réglementaire, ou si vous utilisez des outils IA pour des décisions sensibles (embauche, crédit, scoring).
+
+### Que risque concrètement ma PME si je ne suis pas conforme au 2 août 2026 ?
+
+Depuis le 2 août 2026, la CNIL peut contrôler et sanctionner. Les violations de l'Article 4 (obligations opérateurs) relèvent de l'Article 99(4) du règlement : sanctions maximales à 15 M€ ou 3% du chiffre d'affaires mondial annuel. Pour les PME, l'Article 99 retient le montant le moins élevé des deux : une PME à 5 M€ de CA risque jusqu'à 150 000 €. S'ajoute un risque de responsabilité civile en cas de préjudice causé par un collaborateur insuffisamment formé à l'usage des outils IA.
+
+## Passez à l'action avant le 2 août
+
+Cette checklist Article 4 AI Act PME représente le minimum documentaire pour une PME ordinaire. Les cinq livrables décrits ci-dessus sont réalisables en interne, en une journée, par un dirigeant ou un responsable IT/RH avec de la méthode.
+
+Si vous souhaitez aller plus vite, sécuriser votre interprétation ou préparer dès maintenant l'échéance Annexe III de décembre 2027, l'Audit IA Express Smart Impulsion vous accompagne : identification de vos systèmes IA, évaluation de leur niveau de risque, production de la documentation requise, en trois jours de travail collectif.
+
+[Demander un Audit IA Express](/services/audit)`,
+    author: "Laurent Bouzon",
+    date: "3 juillet 2026",
+    dateISO: "2026-07-03",
+    readTime: "13 min",
+    category: "Compliance & AI Act",
+    image: "/checklist-article-4-ai-act-pme-aout-2026-hero.png",
+    imageAlt: "Image d'illustration pour l'article \"Checklist Article 4 AI Act PME : 5 livrables avant le 2 août 2026\"",
+    faq: [
+      {
+        question: "L'article 4 s'applique-t-il à ma PME si je n'ai développé aucune IA en interne ?",
+        answer: "Oui. L'Article 4 s'applique aux 'déployeurs' de systèmes IA, c'est-à-dire toute organisation qui utilise un système IA dans un contexte professionnel. Si vos collaborateurs utilisent ChatGPT, Microsoft Copilot, un outil de scoring ou tout logiciel avec une fonctionnalité IA intégrée, vous êtes concerné, que vous ayez développé ou non un système IA en interne. Il n'existe pas de seuil de taille ni d'exemption PME dans le texte du règlement.",
+      },
+      {
+        question: "Quelle différence entre l'article 4 et les obligations pour les systèmes IA à haut risque ?",
+        answer: "L'Article 4 impose une obligation de littératie IA pour tous les déployeurs et fournisseurs, quelle que soit la nature du système IA utilisé. Les obligations pour les systèmes à haut risque (Annexe III) sont distinctes et nettement plus lourdes : évaluation de conformité, registre UE, supervision humaine renforcée. Ces dernières ont été reportées au 2 décembre 2027 par le Digital Omnibus (vote du 26 mars 2026). L'Article 4, lui, n'a pas été reporté : son enforcement commence le 2 août 2026.",
+      },
+      {
+        question: "Combien de temps faut-il pour produire les 5 livrables ?",
+        answer: "Une journée de travail suffit pour les quatre premiers livrables structurants (inventaire, cartographie des rôles, charte, registre). Le module de sensibilisation (Livrable 4) nécessite 2 à 3 heures de préparation supplémentaires et une session collective de 45 minutes avec vos équipes, idéalement dans les deux semaines qui suivent. L'ensemble peut donc être opérationnel avant le 2 août si vous commencez maintenant.",
+      },
+      {
+        question: "Faut-il faire appel à un prestataire externe pour être conforme ?",
+        answer: "Non, pour une PME dont les usages IA se limitent à ChatGPT, Copilot ou des outils métier standards. Les cinq livrables peuvent être produits en interne avec un dirigeant ou un responsable RH/IT mobilisé une journée. Un prestataire apporte de la valeur si vous souhaitez aller au-delà du minimum réglementaire : cartographier vos systèmes IA à haut risque (Annexe III, deadline décembre 2027), ou si vous utilisez des outils IA sur des décisions sensibles (embauche, crédit, scoring clients).",
+      },
+      {
+        question: "Que risque concrètement ma PME si je ne suis pas conforme au 2 août 2026 ?",
+        answer: "Depuis le 2 août 2026, la CNIL peut contrôler et sanctionner. Pour l'Article 4, les violations des obligations opérateurs relèvent de l'Article 99(4) : sanctions maximales à 15 M€ ou 3% du chiffre d'affaires mondial annuel. Pour les PME, la protection prévue à l'Article 99 retient le montant le moins élevé des deux : une PME à 5 M€ de CA risque jusqu'à 150 000 €, pas 15 M€. S'ajoute un risque civil depuis le 2 août 2025 : si un collaborateur insuffisamment formé cause un préjudice via un outil IA, la responsabilité de l'entreprise peut être engagée.",
+      },
+    ],
+  },
+  {
     slug: "plan-de-formation-ia-entreprise",
     title: "Plan de formation IA entreprise : 4 étapes Article 4",
     excerpt:
