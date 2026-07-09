@@ -35,6 +35,263 @@ export interface BlogArticle {
 
 export const blogArticles: BlogArticle[] = [
   {
+    slug: "cout-ia-entreprise-tco-grille-pme",
+    title: "Coût IA entreprise : grille TCO pour PME avant de signer",
+    excerpt:
+      "Le coût réel d'un projet IA dépasse souvent le devis de 30 à 50 %. Grille TCO en 4 postes et questions à poser au prestataire avant de signer.",
+    content: `# Coût IA entreprise : grille TCO pour PME avant de signer
+
+Un DAF reçoit un devis pour un projet IA. Quarante pages bien présentées, un périmètre clair, un montant de 25 000 € HT. Le TCO (coût total de possession, c'est-à-dire l'ensemble des dépenses liées au projet sur sa durée de vie opérationnelle) ne figure nulle part dans ce document. Dix-huit mois plus tard, en préparant la revue annuelle des coûts, il réalise que le projet a consommé 62 000 €. Pas de dérapage visible, pas de mauvaise volonté du prestataire. Juste des postes que personne n'avait budgétés : l'intégration avec le logiciel de gestion qui a pris trois fois plus de temps que prévu, les appels API facturés à l'usage une fois le déploiement effectif, les deux jours de formation par service, le responsable opérationnel qui a passé 30 % de son temps pendant six mois à piloter le projet.
+
+Ce scénario se répète. Selon Deloitte (étude « Intelligence artificielle : quel retour sur investissement ? », 2025, 249 entreprises françaises interrogées), seulement **18 % des entreprises françaises constatent déjà un ROI** sur leurs investissements IA. L'écart entre les promesses du devis et la réalité du terrain n'est pas un problème de technologie. C'est un problème de cadrage financier.
+
+Gartner prévient : **au moins 50 % des projets GenAI dépasseront leur budget prévu d'ici 2028**, en raison de mauvais choix architecturaux et d'un manque de savoir-faire opérationnel. Ce n'est pas une fatalité. C'est le résultat d'un budget construit sur le devis initial, pas sur le coût total de possession.
+
+La grille TCO ci-dessous couvre 4 postes, calibrée pour une PME de 50 à 250 salariés, avec les questions à poser à votre prestataire avant de signer. L'objectif n'est pas de vous dissuader d'investir dans l'IA, mais de vous donner les bons outils pour instruire le dossier devant votre CODIR. Pour comprendre d'abord comment fonctionne un [guide complet de l'IA pour PME](/blog/ia-pour-pme-guide), commencez par poser les bases avant d'entrer dans les chiffres.
+
+## Ce que couvre vraiment le coût d'un projet IA
+
+La grille TCO en 4 postes couvre :
+
+1. **Poste 1 : Investissement initial** : licences, développement, intégration SI (le seul visible dans le devis)
+2. **Poste 2 : Récurrence opérationnelle** : API, hébergement, monitoring, mises à jour des modèles
+3. **Poste 3 : Coûts humains et organisationnels** : formation, conduite du changement, temps manager mobilisé
+4. **Poste 4 : Provision pour échec ou sortie** : coût de sortie contrat, migration des données, ressources perdues
+
+Chaque section ci-dessous développe un poste avec les ordres de grandeur et les questions à poser.
+
+### Devis vs TCO : deux réalités différentes
+
+Un devis de prestataire IA couvre typiquement ce qui est livrable et facturable : la conception, le développement, le paramétrage, parfois une phase de recette. C'est le coût de fabrication. Le TCO (coût total de possession) couvre l'ensemble des dépenses liées au projet sur sa durée de vie opérationnelle, généralement 36 mois pour un projet de transformation IA en PME.
+
+La différence entre les deux n'est pas anecdotique. À titre de référence de marché, les professionnels du cadrage financier tablent généralement sur 15 à 25 % du coût initial par an pour la maintenance et l'exploitation : une hypothèse à vérifier avec votre prestataire selon l'architecture choisie. Sur trois ans, le TCO total peut dépasser le devis initial de 45 à 75 %, sans compter les coûts humains et organisationnels.
+
+> **Point clé.** Le devis d'un prestataire IA est la partie émergée de l'iceberg. Il ne représente généralement que 40 à 60 % du coût réel sur 36 mois. Construire un budget IA sur le devis seul, c'est piloter avec un tableau de bord incomplet.
+
+### Pourquoi les PME sous-estiment le TCO
+
+Trois biais récurrents expliquent les dérives budgétaires :
+
+- **Le biais du pilote** : un POC à 10 000 € avec 5 utilisateurs ne consomme pas les mêmes ressources qu'un déploiement à 80 collaborateurs. Le passage à l'échelle multiplie les coûts d'infrastructure et d'API.
+- **Le biais de la liste de prix** : les dirigeants raisonnent sur les postes explicites du devis (développement, licences) sans anticiper les postes implicites (formation, intégration, gouvernance des données).
+- **Le biais du projet court** : un projet IA n'est pas une prestation ponctuelle. C'est une infrastructure qui vit, évolue, consomme des ressources et nécessite une maintenance continue.
+
+## Poste 1 : l'investissement initial, le seul coût visible
+
+**Combien coûte un projet IA pour une PME de 50 à 250 salariés ?** La réponse varie fortement selon la complexité et le niveau d'intégration SI, mais les fourchettes ci-dessous donnent un ordre de grandeur réaliste pour un premier déploiement sérieux.
+
+### Licences et développement
+
+Le premier poste est aussi le seul que la plupart des entreprises budgètent correctement. Il comprend :
+
+- **Licences SaaS** : abonnement à une plateforme IA (outil de génération de documents, assistant métier, outil d'analyse). Pour une PME, les licences démarrent entre 2 000 et 10 000 € HT par an selon le nombre d'utilisateurs et le niveau de fonctionnalité.
+- **Développement sur mesure** : adaptation à votre métier, configuration des modèles, création des interfaces. Un développement sérieux pour une PME se situe entre 8 000 et 30 000 € HT selon la complexité.
+- **Paramétrages et tests** : recette fonctionnelle, tests utilisateurs, corrections. Souvent estimé à 15-20 % du coût de développement, ce poste est parfois inclus dans le devis, parfois facturé séparément.
+
+### L'intégration SI : le poste systématiquement sous-estimé
+
+L'intégration avec vos systèmes existants (logiciel de gestion, GED, ERP, outil RH) est le poste qui surprend le plus souvent les équipes projet. Connecter un outil IA à vos données réelles, dans vos formats réels, avec vos règles métier réelles, prend du temps.
+
+> **Red flag.** Si un prestataire vous propose un devis qui ne détaille pas séparément le poste intégration SI, demandez-lui de l'expliciter. Un poste "intégration incluse dans le développement" sans estimation d'heures est un signal d'alerte.
+
+En pratique, l'intégration SI représente 20 à 40 % du coût de développement total sur un projet de taille moyenne. Sur un projet à 25 000 €, cela peut représenter 5 000 à 10 000 € de travaux d'intégration qu'un devis optimiste aura minorés.
+
+Pour les PME éligibles (10 à 2 000 salariés), le Diag Data IA du plan Osez l'IA (DGE) offre une alternative structurée : une prestation de 8 jours-hommes pour évaluer la maturité data et cadrer les cas d'usage, pour **10 000 € HT avec 40 % pris en charge par France 2030**, soit un reste à charge de **6 000 € HT**. C'est un outil de cadrage qui réduit le risque d'engagement sur un projet mal dimensionné. Une fois le TCO identifié, la [méthode de mesure du ROI IA](/blog/roi-intelligence-artificielle-comment-mesurer) permet de valider si l'investissement se justifie.
+
+## Poste 2 : la récurrence opérationnelle, ce que personne ne facture d'avance
+
+### API, hébergement, monitoring
+
+Une fois le projet livré, les compteurs continuent de tourner. Ce second poste est celui que les équipes financières découvrent souvent avec surprise au premier bilan annuel.
+
+Les coûts récurrents comprennent :
+
+- **Abonnements API** : pour les projets qui utilisent des modèles de langage génératifs (analyse de documents, génération de contenu, assistant métier), les appels API sont facturés à l'usage. À petite échelle, ils sont négligeables. À 80 utilisateurs actifs, ils représentent un poste à part entière dans le budget annuel.
+- **Hébergement et infrastructure** : serveur, stockage, base de données. Variable selon l'architecture choisie.
+- **Monitoring et supervision** : vérification de la qualité des réponses, détection des erreurs, tableaux de bord de performance. Ce poste est souvent oublié dans les budgets initiaux.
+- **Mises à jour des modèles** : les modèles d'IA évoluent. Une mise à jour majeure peut nécessiter de retravailler les configurations ou de re-tester l'ensemble du périmètre.
+
+> **A retenir.** Selon Gartner (rapport 2026), au moins 50 % des projets GenAI dépasseront leur budget prévu d'ici 2028, principalement en raison de mauvais choix architecturaux. L'un des choix architecturaux les plus courants : opter pour une solution qui facture à l'usage sans avoir modélisé la consommation réelle au déploiement.
+
+### La dérive des coûts d'API : le piège des projets IA générative
+
+**Quels sont les coûts récurrents d'un projet IA une fois livré ?** Au-delà de l'investissement initial, un projet IA générative génère des dépenses continues : abonnements API, hébergement, monitoring, mises à jour, soit en règle générale 15 à 25 % du coût initial par an. C'est ce poste que les bilans annuels révèlent le plus souvent comme sous-estimé.
+
+Pour les projets qui utilisent des modèles de langage génératifs, la dérive des coûts d'API au passage à l'échelle est la surprise la plus fréquente. Un pilote avec 10 utilisateurs consomme des ressources limitées. Un déploiement réel avec 80 utilisateurs qui envoient 20 requêtes par jour représente un volume radicalement différent.
+
+Le bon réflexe : demandez à votre prestataire une simulation de coûts d'API sur la base d'un scénario d'usage réaliste (nombre d'utilisateurs, fréquence d'utilisation, volume de données traitées). Si la réponse est vague, le risque de dérive est réel. Ce sujet est directement lié à la [question du ROI de l'IA en entreprise](/blog/roi-intelligence-artificielle-entreprise) : un projet dont les coûts récurrents explosent ne peut pas atteindre le ROI cible.
+
+## Poste 3 : les coûts humains et organisationnels, l'impensé du budget
+
+### Formation et adoption
+
+C'est le poste le moins visible dans les devis, et souvent le plus sous-estimé dans les budgets internes. Un outil IA livré sans formation est un outil que vos équipes n'utiliseront pas, ou qu'elles utiliseront mal, générant des erreurs coûteuses.
+
+Les coûts de formation incluent :
+
+- **Temps de formation par collaborateur** : comptez 4 à 8 heures par utilisateur pour un outil métier simple, 2 à 4 jours pour un outil plus complexe intégré dans les processus quotidiens.
+- **Création des supports et procédures** : documentation interne, guides pratiques, référentiels. Souvent assuré par une ressource interne dont le temps n'est pas comptabilisé.
+- **Formation continue** : à chaque mise à jour majeure, une session de re-formation est nécessaire. Sur 3 ans, comptez au minimum une session annuelle.
+
+> **Red flag.** Un devis qui mentionne "formation incluse" sans détailler le nombre d'heures, le format (présentiel, distanciel, e-learning) et le nombre de participants couvre rarement la réalité du besoin. Demandez le plan de formation détaillé avant de signer.
+
+### Conduite du changement et temps manager
+
+La conduite du changement est le grand absent des budgets IA PME. Mettre en place un outil IA modifie des processus, crée des résistances, nécessite des arbitrages et génère des demandes de clarification. Tout cela mobilise du temps, et ce temps a un coût.
+
+En pratique, un responsable opérationnel qui pilote un projet IA de taille moyenne consacre 20 à 30 % de son temps au projet pendant 4 à 6 mois. Pour un cadre dont le coût chargé est de 6 000 € par mois, c'est entre 5 000 et 10 000 € de temps manager que le devis du prestataire ne couvre pas.
+
+Les coûts organisationnels à budgéter :
+
+- **Chef de projet interne** : temps de coordination, réunions d'avancement, interface avec le prestataire
+- **Référents métier** : les experts qui valident les cas d'usage, testent les livrables, remontent les anomalies
+- **Direction** : temps de décision, validation des jalons, gestion des arbitrages
+- **Support utilisateurs** : réponse aux questions des équipes en phase de démarrage
+
+Pour aller plus loin sur la structuration d'un diagnostic avant projet, le [guide complet de l'audit IA pour PME](/blog/audit-ia-pme-guide-complet) détaille comment cadrer ces dimensions organisationnelles avant d'engager un prestataire.
+
+## Poste 4 : la provision pour échec ou sortie, budgéter le risque
+
+### 30 % des projets n'arrivent pas en production
+
+En 2024, Gartner publiait un chiffre qui mérite d'être intégré dans tout budget IA sérieux : **au moins 30 % des projets GenAI seront abandonnés après la phase de proof of concept**, en raison de la mauvaise qualité des données, d'un contrôle insuffisant des risques, de coûts qui s'envolent ou d'une valeur métier insuffisamment définie.
+
+Pour une PME qui engage 30 000 € dans un projet IA, cette statistique signifie qu'une chance sur trois, le projet ne produira pas les livrables attendus. Ce n'est pas un aveu de faiblesse que de l'intégrer dans le budget. C'est la même logique que provisionner des créances douteuses : on n'espère pas les perdre, mais on prévoit le cas où ça arrive.
+
+> **Point clé.** Budgéter l'échec n'est pas du pessimisme. Un audit sérieux évalue le scénario d'échec, pas seulement le cas idéal. Un prestataire qui ne peut pas vous décrire les conditions de sortie de son contrat mérite qu'on lui pose la question directement.
+
+**Quel budget faut-il provisionner pour le risque d'échec d'un projet IA ?** Les professionnels du cadrage financier recommandent de réserver 10 à 15 % du budget total du projet en provision de sortie, une enveloppe qui couvre les coûts de migration des données, la résiliation anticipée d'un contrat SaaS annuel et les ressources internes mobilisées sans retour. Cette provision n'est pas du pessimisme : c'est la même logique qu'une provision pour créances douteuses.
+
+### Ce que contient une provision pour sortie
+
+La provision pour échec ou sortie doit couvrir :
+
+- **Coût de sortie d'un contrat SaaS annuel** : si votre abonnement est annuel et que vous sortez à 6 mois, vous avez engagé 50 % d'une année sans retour.
+- **Migration des données** : récupérer vos données depuis la plateforme du prestataire peut nécessiter un travail technique non trivial, surtout si les données ont été transformées ou enrichies.
+- **Ressources internes mobilisées sans retour** : les heures de formation, de paramétrage, de tests et de réunions investies sur un projet qui n'aboutit pas.
+- **Coût du projet de remplacement** : si le projet échoue, il faut recommencer. Prévoir le coût d'un second cycle de cadrage et de sélection.
+
+L'ordre de grandeur d'une provision raisonnable : 10 à 15 % du budget total du projet, réservé en trésorerie pour couvrir ces risques.
+
+### Un exemple illustratif : ce que donne la grille sur un projet réel
+
+Pour rendre la grille concrète, voici un ordre de grandeur illustratif pour une PME de 120 salariés ayant déployé un assistant IA métier (traitement documentaire) avec intégration à son logiciel de gestion :
+
+- **Devis initial signé** : 28 000 € HT (développement + intégration + recette)
+- **Poste 1 : Investissement initial réel** : 34 000 € HT (intégration SI 6 000 € au-dessus du devis, découverte en phase de tests)
+- **Poste 2 : Récurrence opérationnelle sur 24 mois** : 14 000 € HT (abonnements API + hébergement + 2 mises à jour modèles)
+- **Poste 3 : Coûts humains sur 18 mois** : 12 000 € HT (formation 3 services + 25 % du temps d'un responsable opérationnel pendant 6 mois)
+- **Poste 4 : Provision sortie** : 4 200 € HT (résiliation anticipée SaaS + migration données si pivot)
+
+**TCO total sur 36 mois : 64 200 € HT**, soit 2,3 fois le devis initial signé.
+
+> **A retenir.** Ces chiffres sont illustratifs, pas des données propriétaires : ils sont construits à partir de la grille et des fourchettes de marché présentées dans cet article. Votre prestataire doit être en mesure de vous produire une simulation équivalente avant signature.
+
+## Quatre questions à poser à votre prestataire avant de signer
+
+La grille TCO en 4 postes sert à construire votre budget interne. Ces questions servent à tester la solidité du devis que vous avez en face. Posez-les systématiquement, dans cet ordre :
+
+1. Quelle est votre hypothèse de consommation API sur 12 mois à pleine charge ?
+2. Qu'est-ce qui n'est pas couvert dans ce devis ?
+3. Quelles sont les conditions de sortie du contrat ?
+4. Quel est votre engagement sur la maintenance des modèles sur 24 mois ?
+
+Le détail de chaque question et ce que vous devez attendre comme réponse :
+
+### Question 1 : Quelle est votre hypothèse de consommation API sur 12 mois à pleine charge ?
+
+Si le prestataire ne peut pas vous donner une simulation chiffrée basée sur un scénario d'usage réaliste (nombre d'utilisateurs, fréquence, volume), le risque de dérive des coûts récurrents est élevé. Une réponse vague ("ça dépend de votre usage") sans chiffres associés est un signal d'alerte.
+
+### Question 2 : Qu'est-ce qui n'est pas couvert dans ce devis ?
+
+Posez la question directement. Un bon prestataire liste explicitement ce qui est hors périmètre : formation des utilisateurs, intégration avec tel système, migration des données existantes, monitoring post-production. Si rien n'est hors périmètre, c'est soit un devis très complet (vérifiez chaque poste), soit un devis qui inclut tout au niveau le plus superficiel.
+
+### Question 3 : Quelles sont les conditions de sortie du contrat ?
+
+Délai de préavis, modalités de récupération des données, propriété intellectuelle des configurations développées sur mesure. Ces clauses ont un impact direct sur le coût de la provision pour sortie que vous devez budgéter.
+
+### Question 4 : Quel est votre engagement sur la maintenance des modèles sur 24 mois ?
+
+Les modèles d'IA évoluent. Une configuration optimale aujourd'hui peut nécessiter des ajustements dans 12 mois si le modèle sous-jacent change. Qui prend en charge ces ajustements ? À quel coût ? Avec quel délai de réponse ?
+
+Les réponses à ces quatre questions vous permettent de compléter votre grille TCO avec des chiffres réels, pas des hypothèses optimistes.
+
+## Questions fréquentes
+
+### Quel est le coût d'un projet IA pour une PME en 2026 ?
+
+Un pilote IA démarre entre 5 000 et 15 000 € HT. Un déploiement opérationnel pour une PME de 50 à 250 salariés se situe entre 20 000 et 60 000 € HT selon la complexité et l'intégration SI. Ces chiffres couvrent l'investissement initial. Le TCO sur 36 mois dépasse systématiquement ces fourchettes de 30 à 80 % selon la maturité numérique et la nature du projet.
+
+### Quels sont les coûts cachés d'un projet IA ?
+
+Les trois postes les moins visibles dans un devis IA : la récurrence opérationnelle (abonnements API, monitoring, mises à jour modèle), les coûts humains (formation, conduite du changement, temps manager) et la provision pour échec ou sortie de contrat. Ces postes représentent entre 40 et 60 % du coût total sur 3 ans pour un projet de taille moyenne.
+
+### Comment calculer le TCO d'un projet IA ?
+
+Le TCO d'un projet IA se calcule en 4 postes sur 36 mois : investissement initial (licences, développement, intégration SI), récurrence opérationnelle annuelle, coûts humains et organisationnels, provision pour risque ou sortie. Selon Gartner (2026), au moins 50 % des projets GenAI dépasseront leur budget prévu d'ici 2028.
+
+### Quel budget prévoir pour l'IA en PME ?
+
+Pour une PME de 50 à 250 salariés, un premier projet IA sérieux nécessite un budget initial de 20 000 à 50 000 € HT, avec une récurrence annuelle de 15 à 25 % pour la maintenance et les API. Les coûts humains ajoutent 20 à 40 % supplémentaires. Un TCO réaliste sur 3 ans se situe entre 60 000 et 150 000 € HT pour un projet de taille moyenne.
+
+### Comment financer un projet IA PME en France ?
+
+Le dispositif Diag Data IA (plan Osez l'IA, DGE) permet à une PME éligible de financer un diagnostic de 8 jours-hommes pour 6 000 € HT de reste à charge (10 000 € HT total, 40 % pris en charge par France 2030). D'autres dispositifs existent via Bpifrance, les régions et les OPCO pour la formation IA.
+
+### Qu'est-ce que le Diag Data IA et combien ça coûte ?
+
+Le Diag Data IA est une prestation de 8 jours-hommes d'un expert agréé, dans le cadre du plan Osez l'IA piloté par la DGE. Son coût est de 10 000 € HT avec 40 % pris en charge par France 2030, soit un reste à charge de 6 000 € HT pour la PME éligible (10 à 2 000 salariés). Il permet d'évaluer la maturité data, d'identifier les cas d'usage prioritaires et de cadrer le TCO avant tout engagement.
+
+### Pourquoi les projets IA dépassent-ils toujours le budget prévu ?
+
+Selon Gartner (2026), au moins 50 % des projets GenAI dépasseront leur budget d'ici 2028, en raison de mauvais choix architecturaux et d'un manque de savoir-faire opérationnel. Les causes principales : sous-estimation de l'intégration SI, dérive des coûts d'API au passage à l'échelle, coûts humains absents du devis initial, absence de provision pour les aléas.
+
+## Passez de la théorie à l'action
+
+Ces quatre questions méritent des réponses précises, chiffrées, indépendantes du prestataire que vous avez en face. C'est exactement ce que produit un audit de cadrage sérieux : une vision complète du TCO avant engagement, pas après.
+
+Smart Impulsion propose un Audit IA Express qui traduit votre ambition IA en grille de coûts réelle, cas d'usage par cas d'usage, avec les hypothèses explicitées. En 2 à 3 jours, vous repartez avec un TCO structuré sur 36 mois, une priorisation des projets par rapport coût-valeur et une feuille de route budgétable devant votre CODIR.
+
+[En savoir plus sur l'audit IA express](/services/audit)`,
+    author: "Laurent Bouzon",
+    date: "9 juillet 2026",
+    dateISO: "2026-07-09",
+    readTime: "16 min",
+    category: "Strategie & ROI",
+    image: "/cout-ia-entreprise-tco-grille-pme-hero.png",
+    imageAlt: "Image d'illustration pour l'article \"Coût IA entreprise : grille TCO pour PME avant de signer\"",
+    faq: [
+      {
+        question: "Quel est le coût d'un projet IA pour une PME en 2026 ?",
+        answer: "Un pilote IA démarre entre 5 000 et 15 000 € HT. Un déploiement opérationnel se situe entre 20 000 et 60 000 € HT selon la complexité et l'intégration SI requise. Ces chiffres couvrent l'investissement initial : le TCO sur 36 mois dépasse systématiquement ces fourchettes de 30 à 80 % selon la maturité de l'entreprise et la nature du projet.",
+      },
+      {
+        question: "Quels sont les coûts cachés d'un projet IA ?",
+        answer: "Les trois postes les moins visibles dans un devis IA sont : la récurrence opérationnelle (abonnements API, monitoring, mises à jour modèle, hébergement), les coûts humains (formation des utilisateurs, conduite du changement, temps manager mobilisé) et la provision pour échec ou sortie de contrat. Ces postes représentent souvent 40 à 60 % du coût total sur 3 ans.",
+      },
+      {
+        question: "Comment calculer le TCO d'un projet IA ?",
+        answer: "Le TCO d'un projet IA se calcule en 4 postes sur 36 mois : investissement initial (licences, développement, intégration SI), récurrence opérationnelle annuelle (API, maintenance, monitoring), coûts humains et organisationnels (formation, conduite du changement, chef de projet interne), et une provision pour risque ou sortie. Selon Gartner (2026), au moins 50 % des projets GenAI dépasseront leur budget prévu d'ici 2028.",
+      },
+      {
+        question: "Quel budget prévoir pour l'IA en PME ?",
+        answer: "Pour une PME de 50 à 250 salariés, un premier projet IA sérieux nécessite un budget initial de 20 000 à 50 000 € HT, auquel s'ajoute une récurrence annuelle de 15 à 25 % de ce montant pour la maintenance et les API. Les coûts humains (formation, conduite du changement) représentent 20 à 40 % supplémentaires selon la maturité numérique de l'entreprise. Un TCO réaliste sur 3 ans se situe entre 60 000 et 150 000 € HT pour un projet de taille moyenne.",
+      },
+      {
+        question: "Comment financer un projet IA PME en France ?",
+        answer: "Le dispositif Diag Data IA (plan national Osez l'IA, DGE) permet à une PME de 10 à 2 000 salariés de financer un diagnostic expert de 8 jours-hommes pour 6 000 € HT de reste à charge (10 000 € HT total, avec 40 % pris en charge par France 2030). D'autres dispositifs existent via Bpifrance, les régions et les OPCO pour la formation. Un audit de cadrage préalable est recommandé avant tout engagement.",
+      },
+      {
+        question: "Qu'est-ce que le Diag Data IA de Bpifrance et combien ça coûte ?",
+        answer: "Le Diag Data IA est une prestation de 8 jours-hommes d'un expert agréé, dans le cadre du plan Osez l'IA piloté par la Direction Générale des Entreprises (DGE). Son coût est de 10 000 € HT, avec une prise en charge de 40 % par France 2030, soit un reste à charge de 6 000 € HT pour la PME ou ETI éligible (10 à 2 000 salariés). Il permet d'évaluer la maturité data, d'identifier les cas d'usage prioritaires et de cadrer le TCO avant tout projet.",
+      },
+      {
+        question: "Pourquoi les projets IA dépassent-ils toujours le budget prévu ?",
+        answer: "Selon Gartner (2026), au moins 50 % des projets GenAI dépasseront leur budget d'ici 2028, en raison de mauvais choix architecturaux et d'un manque de savoir-faire opérationnel. Les principales causes : sous-estimation de l'intégration SI (souvent le double du coût prévu), dérive des coûts d'API au passage à l'échelle, coûts humains absents du devis initial, et absence de provision pour les aléas ou la sortie de contrat.",
+      },
+    ],
+  },
+  {
     slug: "checklist-article-4-ai-act-pme-aout-2026",
     title: "Checklist Article 4 AI Act PME : 5 livrables avant le 2 août 2026",
     excerpt:
