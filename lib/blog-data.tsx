@@ -35,6 +35,309 @@ export interface BlogArticle {
 
 export const blogArticles: BlogArticle[] = [
   {
+    slug: "benchmark-roi-ia-secteur-pme",
+    title: "Benchmark ROI IA par secteur PME : résultats sourcés 2025",
+    excerpt:
+      "ROI médian IA par secteur PME en France (industrie, BTP, logistique, commerce, services B2B). Cas d'usage rentables et variables clés. Données 2025.",
+    content: `# Benchmark ROI IA par secteur : ce que les PME obtiennent vraiment
+
+**Article de Laurent Bouzon, smart-impulsion.com, juillet 2026**
+
+**Source principale de cet article :** dataset ENDKOO / Denis Atlan (200 déploiements IA B2B en France, 2022-2025, publié sur data.gouv.fr sous licence ouverte), complété par INSEE Première n°2061 (juillet 2025), IBM Institute for Business Value France (2025), Bpifrance Le Lab (juin 2025) et Gartner (2024).
+
+Un DAF de PME industrielle lit que "l'IA produit un ROI de 160% en moyenne". Ce chiffre ne lui dit rien. Son secteur, ses processus, la maturité de son SI, le profil de ses équipes : autant de variables qui déterminent si son entreprise peut atteindre ce chiffre, ou si elle sera dans les 30% qui abandonnent après le pilote.
+
+Voici les benchmarks ROI IA disponibles en France par secteur, avec les cas d'usage les plus rentables et les variables qui font qu'un même projet IA donne 80% de ROI dans un contexte et 400% dans un autre. Mise en garde d'entrée : les chiffres élevés ne sont accessibles qu'aux projets bien cadrés, pas à la moyenne du marché.
+
+> **Biais méthodologique à retenir.** Les benchmarks sectoriels cités dans cet article s'appuient sur le dataset ENDKOO / Denis Atlan (200 déploiements IA B2B en France, 2022-2025, publié sur data.gouv.fr sous licence ouverte). 82,5% des projets analysés sont des clients directs du cabinet, accompagnés par un expert externe. Le ROI "réel marché" (projets auto-gérés inclus) est structurellement plus bas.
+
+## Synthèse : ROI IA médian par secteur PME en France (2025)
+
+**Quel est le ROI IA médian par secteur en France ?** Voici les chiffres issus du dataset ENDKOO (200 déploiements B2B, 2022-2025) et les taux d'adoption de l'INSEE (2024) :
+
+| Secteur | ROI médian (24 mois) | Taux d'adoption IA | Délai de retour typique |
+|---|---|---|---|
+| Commerce / distribution | 242% | 10% | 12-18 mois |
+| Industrie manufacturière | 171% | 7% | 18-24 mois |
+| Logistique / transport | 152% | 5% | 12-18 mois |
+| Services B2B | 123% | N/D | 6-12 mois |
+| BTP / construction | 62% | 3% | 18-30 mois |
+| **Toutes PME (médiane)** | **159%** | N/D | **12-24 mois** |
+
+*Sources : dataset ENDKOO / Denis Atlan (data.gouv.fr), INSEE Première n°2061 (juillet 2025)*
+
+Ces chiffres concernent des projets accompagnés par un expert externe. Gartner (2024) estime qu'au moins 30% des projets d'IA générative sont abandonnés après le proof of concept : ces projets ne figurent pas dans les benchmarks.
+
+## Pourquoi les benchmarks globaux ne vous disent rien
+
+### Le piège de la moyenne toutes PME confondues
+
+Prenons un chiffre souvent cité : le ROI médian de 159% sur 200 déploiements IA en France (dataset ENDKOO 2025). Ce chiffre est réel et utile pour calibrer l'ambition. Mais le PDG d'une société de BTP de 120 salariés et la DG d'un cabinet de conseil B2B de 40 personnes n'évoluent pas dans le même univers de données, de processus et de maturité digitale.
+
+La même divergence s'observe sur les gains de productivité. Selon l'étude IBM Institute for Business Value "The Race for ROI" (2025, 500 répondants en France) : 60% des entreprises françaises déclarent des gains de productivité mesurables grâce à l'IA. Ce taux tombe à **48% pour les PME** contre 65% pour les grandes entreprises.
+
+> **Ce que ce chiffre révèle.** L'écart PME/grande entreprise n'indique pas que l'IA "marche moins bien" en PME. Il indique que les PME sont moins avancées sur les prérequis : données structurées, SI intégré, compétences internes. C'est une question de conditions de départ, pas de potentiel.
+
+### L'adoption sectorielle : un point de départ indispensable
+
+**Quels secteurs utilisent l'IA en France ?** Selon l'INSEE (Première n°2061, juillet 2025, données 2024) :
+
+- **Construction (BTP)** : 3% des entreprises utilisent l'IA
+- **Transport et logistique** : 5%
+- **Industrie manufacturière** : 7%
+- **Commerce et distribution** : 10%
+- **ICT (services numériques)** : 42%
+
+Ces taux sont le meilleur indicateur de la maturité sectorielle. Un secteur à 3% d'adoption n'est pas en retard sur l'IA : il est en retard sur la digitalisation qui conditionne l'IA.
+
+Bpifrance Le Lab (juin 2025, 1 209 dirigeants enquêtés) identifie quatre profils d'adoption dans les PME-ETI françaises : Sceptiques (27%), Bloqués (26%), Expérimentateurs (28%), Innovateurs (19%). La ventilation sectorielle est explicite : BTP et transport sont sur-représentés parmi les Sceptiques ; l'industrie parmi les Expérimentateurs ; les TIC, services aux entreprises et finance parmi les Innovateurs.
+
+> **Clé de lecture.** Si votre secteur est sur-représenté chez les Sceptiques, le benchmark ROI reflète les projets des premiers de cordée, pas la moyenne. L'écart avec votre situation réelle est probablement plus grand qu'il n'y paraît.
+
+## Industrie manufacturière : potentiel réel, passage à l'échelle difficile
+
+**Quel est le ROI de l'IA dans l'industrie manufacturière ?** Le ROI médian est de **171%** sur des projets accompagnés (dataset ENDKOO 2025), avec un délai de retour de 18 à 24 mois.
+
+### Les cas d'usage à ROI mesurable
+
+L'industrie est le secteur qui essaie le plus, mais qui scale le moins. Seulement 7% des industriels français utilisent l'IA (INSEE 2024), et la majorité des projets restent au stade pilote.
+
+Les deux cas d'usage industriels à ROI documenté :
+
+- **Maintenance prédictive** : réduction des coûts de maintenance de 18 à 25% dans les industries lourdes (McKinsey, "Digitally enabled reliability: Beyond predictive maintenance", 2018). Le ROI vient de la réduction des pannes non planifiées et de l'optimisation des stocks de pièces détachées.
+- **Contrôle qualité par vision** : les coûts de non-qualité représentent 5 à 10% du chiffre d'affaires dans l'industrie manufacturière (AFNOR). L'IA de vision réduit le taux de défauts détectés en aval. ROI rapide sur des lignes à fort volume.
+
+### Ce qui bloque le passage à l'échelle
+
+Le problème est le chemin entre le pilote et la production industrielle. Les obstacles les plus courants en PME :
+
+- Données capteurs inexistantes ou non structurées (la maintenance prédictive suppose un historique de pannes)
+- SI de production (MES, ERP) non connecté aux outils d'analyse
+- Compétences internes absentes pour maintenir un modèle en production
+- Résistance des équipes de maintenance (crainte de remplacement)
+
+> **Biais de survivance à retenir.** Le ROI médian de 171% dans l'industrie ne concerne que les projets accompagnés par un expert externe qui ont passé le cap du pilote. Capgemini Research Institute (Smart Factories @ Scale, 2019) estime que seulement 14% des industriels considèrent leur déploiement usine intelligente comme un succès à l'échelle. Les 86% restants ne figurent pas dans les benchmarks.
+
+## Services B2B : le ROI le plus rapide, mais diffus
+
+**Quel est le ROI de l'IA dans les services B2B ?** Le ROI médian est de **123%** (dataset ENDKOO 2025), avec un délai de retour plus court que les autres secteurs : 6 à 12 mois pour les projets documentaires.
+
+### Où l'IA délivre en moins de 12 mois
+
+Ce chiffre est trompeur : les projets services B2B ont un délai de retour sur investissement plus court, car ils s'appuient sur des processus documentaires, répétitifs et déjà digitalisés.
+
+Les cas d'usage à ROI rapide en services B2B :
+
+- Génération assistée de propositions commerciales et d'offres
+- Résumés automatiques de compte-rendu clients et de réunions
+- Rédaction de rapports, comptes rendus d'audit, synthèses réglementaires
+- Traitement des demandes entrantes par classification automatique
+
+> **Point de méthode.** L'IBM IBV 2025 cite le service client (31%), l'IT/développement (28%) et le marketing (24%) comme les fonctions où les gains de productivité IA sont les plus déclarés. Ces trois fonctions sont sur-représentées dans les PME de services B2B.
+
+### Pourquoi le ROI médian est plus bas que l'industrie
+
+La logique est contre-intuitive. Les services B2B déploient plus facilement l'IA (moins de prérequis techniques), mais les gains sont plus diffus. Le gain de productivité sur un consultant est réel, mais difficile à monétiser directement. Les projets documentaires réduisent des heures non facturables, pas des coûts de production mesurables. Un projet industrie qui fonctionne a un ROI mesurable ligne à ligne. Un projet services B2B délivre un ROI dispersé sur l'ensemble des équipes.
+
+## Commerce et distribution : le secteur qui rattrape son retard
+
+**Quel est le ROI de l'IA dans le commerce et la distribution ?** Le ROI médian est de **242%**, le plus élevé de tous les secteurs analysés (dataset ENDKOO 2025).
+
+### Un doublement du taux d'adoption en un an
+
+Le commerce et la distribution ont réalisé le saut le plus rapide en 2024 : le taux d'adoption IA est passé de 4% à 10% en un an (INSEE Première n°2061, 2025). Ce doublement en volume d'entreprises adoptantes est le signal d'un changement de posture dans le secteur.
+
+Cet écart avec les autres secteurs s'explique par un facteur structurel : le commerce dispose de données transactionnelles riches, structurées et continues.
+
+Les cas d'usage commerce à fort ROI :
+
+- Prévision de la demande et optimisation des stocks (réduction du taux de rupture et des invendus)
+- Personnalisation des recommandations produits
+- Optimisation des prix dynamiques
+- Traitement automatisé des retours et réclamations clients
+
+### Les conditions qui permettent d'atteindre ce ROI
+
+Le ROI de 242% est un médian sur des projets accompagnés. Pour une PME commerce qui démarre, les prérequis sont stricts :
+
+- Un historique de données transactionnelles sur au moins 24 à 36 mois
+- Un ERP ou un outil de gestion des stocks connecté
+- Une équipe ou un prestataire capable d'interpréter les sorties du modèle (les prévisions IA ne se pilotent pas seules)
+
+> **Alerte biais.** Le ROI de 242% est le chiffre le plus souvent repris hors contexte par les prestataires IA pour vendre des projets commerce. Il correspond aux projets les mieux structurés, pas à la moyenne des PME de distribution qui se lancent sans données propres ni SI adapté.
+
+## BTP : un retard structurel, pas une fatalité
+
+**Quel est le ROI de l'IA dans le BTP ?** Le ROI médian est de **62%**, le plus bas des secteurs analysés (dataset ENDKOO 2025). Le taux d'adoption est de 3% (INSEE 2024), le plus faible de tous les secteurs.
+
+### Comprendre le ROI médian le plus bas du marché
+
+Ce n'est pas une coïncidence : c'est la même cause vue sous deux angles. Le BTP est un secteur à faible maturité digitale, avec des processus peu standardisés et des données rarement captées sous forme exploitable. Les données de coûts, de délais et de qualité sont souvent dans des tableurs, des mails ou des têtes de chefs de chantier. Bpifrance Le Lab (2025) place la construction parmi les secteurs sur-représentés chez les "Sceptiques" face à l'IA : un positionnement qui traduit une réalité opérationnelle, pas une posture idéologique.
+
+### Les cas d'usage accessibles en PME BTP
+
+Malgré ce contexte, des projets IA en BTP délivrent un ROI positif. Les plus accessibles pour une PME :
+
+- **Chiffrage assisté** : analyse automatique de cahiers des charges, estimation d'heures par poste à partir d'historiques de projets similaires
+- **Analyse de plans et documents techniques** : extraction automatique d'informations clés depuis les CCAP, CCTP, plans DWG (gain de temps sur l'appel d'offres)
+- **Suivi administratif de chantier** : génération de comptes rendus de réunion, suivi des réserves, relances fournisseurs
+- **Gestion des ressources humaines** : planification des équipes et des sous-traitants sur la base des commandes
+
+Pour atteindre ces cas d'usage, le prérequis est la digitalisation des données de base : devis, historiques de projets, suivi de chantier. Sans cette base, aucun modèle IA ne peut délivrer.
+
+> **Perspective.** Le BTP est le secteur où l'audit IA préalable apporte le plus de valeur : non pas pour déployer l'IA immédiatement, mais pour identifier les deux ou trois actions de digitalisation qui, en 6 à 12 mois, créeront les conditions d'un premier projet rentable.
+
+## Logistique : des gains réels avec des prérequis exigeants
+
+**Quel est le ROI de l'IA dans la logistique ?** Le ROI médian est de **152%** (dataset ENDKOO 2025), avec un taux d'adoption de 5% (INSEE 2024).
+
+### Le rapport potentiel/adoption le plus élevé
+
+Parmi les secteurs analysés, la logistique présente le rapport potentiel/adoption le plus élevé : les cas d'usage sont documentés, les gains mesurables, mais le secteur reste largement en dehors du mouvement.
+
+Les cas d'usage logistique à ROI démontré :
+
+- **Optimisation des tournées** : réduction du nombre de kilomètres parcourus, meilleure allocation des créneaux de livraison
+- **Prévision de la demande** : réduction des stocks tampons grâce à une meilleure anticipation des volumes
+- **Gestion des incidents** : détection automatique des anomalies de flux (retards, ruptures) et priorisation des alertes
+- **Traitement documentaire** : automatisation des bons de livraison, lettres de voiture, réclamations transporteurs
+
+### La barrière de la donnée temps réel
+
+Les modèles d'optimisation logistique nécessitent des données en temps réel ou quasi-réel. Une minorité des PME logistique françaises dispose d'une infrastructure de données temps réel adaptée. Les prérequis concrets : TMS avec historique sur 12 mois minimum, connectivité temps réel entre véhicules et système central, équipe capable de piloter les sorties du modèle. Sans ces éléments, le projet reste un pilote sur périmètre restreint.
+
+## Les trois variables qui font passer du bas au haut de fourchette
+
+**Qu'est-ce qui détermine si une PME atteint le haut ou le bas de fourchette de son secteur ?** Trois variables structurelles expliquent la majorité des écarts.
+
+### Variable 1 : la maturité des données
+
+C'est le prérequis le plus discriminant. Bpifrance Le Lab (2025) mesure que les entreprises qui pratiquent l'analyse de données ont **2,5 fois plus de chances d'adopter l'IA** avec succès que celles qui ne le font pas.
+
+La checklist minimale pour un projet IA viable :
+
+- Données historiques disponibles sur au moins 18 à 24 mois
+- Données stockées dans un système consultable (pas uniquement dans des tableurs ou des e-mails)
+- Taux de complétude acceptable (moins de 15% de champs vides sur les données critiques)
+- Référentiels partagés entre les équipes (un "produit" ou un "client" doit avoir le même identifiant partout)
+
+> **Chiffre clé.** 43% des PME-ETI françaises ne pilotent pas leur activité avec des données (Bpifrance Le Lab, 2025). Pour ces entreprises, un projet IA ne peut pas délivrer le ROI médian du benchmark sectoriel : les prérequis ne sont pas réunis.
+
+### Variable 2 : la répétitivité des processus
+
+L'IA délivre son ROI maximal sur des processus répétitifs, à volume élevé, avec des règles stables. Un processus qui change de règles tous les 3 mois, ou qui dépend d'un jugement humain non formalisé, est un mauvais candidat IA.
+
+La grille de qualification :
+
+1. **Volume** : le processus traite-t-il plus de 50 occurrences par semaine ?
+2. **Répétitivité** : les règles de traitement sont-elles stables sur 12 mois ?
+3. **Mesurabilité** : peut-on mesurer un gain avant/après de façon objective ?
+4. **Tolérance à l'erreur** : une erreur du modèle est-elle rattrapable avant impact client ?
+
+Les processus qui cochent les quatre cases sont ceux où le benchmark sectoriel haut est atteignable. Pour les autres, le ROI existe, mais il sera plus modeste et plus long à mesurer.
+
+### Variable 3 : l'accompagnement et la gouvernance du projet
+
+**Pourquoi un projet IA bien cadré a-t-il un ROI plus élevé ?** Gartner (juillet 2024) estime qu'au moins 30% des projets d'IA générative sont abandonnés après le proof of concept. Les quatre causes : mauvaise qualité des données, absence de contrôle des risques, coûts sous-estimés, valeur métier non démontrée.
+
+Ce chiffre éclaire la mécanique des benchmarks. Les ROI de 170-240% du dataset ENDKOO concernent des projets qui ont survécu au POC grâce à un cadrage initial, une gouvernance claire et une mesure de la valeur dès le départ. Les 30% abandonnés ne figurent pas dans les statistiques.
+
+> **Ce que cela signifie pour votre décision.** Viser le benchmark sectoriel haut sans avoir résolu les prérequis (données, processus, gouvernance) revient à comparer votre performance sportive à celle des athlètes olympiques sans tenir compte de votre condition physique de départ. Le benchmark est une cible, pas une promesse.
+
+Pour aller plus loin sur la méthodologie de mesure, [consultez notre guide sur la mesure du ROI IA](/blog/roi-intelligence-artificielle-comment-mesurer), qui détaille les KPIs par type de projet.
+
+## Les prérequis avant de consulter un benchmark
+
+Trois questions méritent une réponse honnête avant de vous comparer à votre secteur :
+
+- **Vos données sont-elles accessibles ?** Si la réponse est "pas vraiment", le benchmark ne vous est pas encore applicable.
+- **Votre processus cible est-il répétitif et mesurable ?** Un cas d'usage flou ou à faible volume ne produira pas le ROI médian.
+- **Avez-vous un pilotage projet en place ?** Un responsable interne identifié, des jalons, une mesure de la valeur dès le pilote.
+
+La segmentation Bpifrance structure la réponse. Profil "Bloqué" ou "Sceptique" (53% des PME-ETI) : le premier investissement utile n'est pas un projet IA, c'est comprendre ce qui bloque. Profil "Expérimentateur" (28%) : comment passer du pilote à la production. Profil "Innovateur" (19%) : le benchmark sert à calibrer la roadmap.
+
+[L'approche développée dans notre pilier ROI](/blog/roi-intelligence-artificielle-entreprise) couvre les méthodes de calcul. [Notre pilier sur les cas d'usage IA par métier en PME](/blog/cas-usage-ia-pme-par-metier) recense les candidats prioritaires par fonction, et [notre guide sur l'automatisation des processus par l'IA](/blog/automatisation-processus-ia-guide-pratique) détaille les candidats à fort potentiel dans chaque secteur.
+
+La vraie question est : "suis-je dans les conditions pour atteindre le haut ou le bas de fourchette de mon secteur ?" [Notre guide complet sur l'audit IA pour PME](/blog/audit-ia-pme-guide-complet) couvre les étapes et critères d'évaluation.
+
+## Questions fréquentes
+
+### Quel est le ROI moyen de l'IA dans les PME françaises ?
+
+159% sur 24 mois (dataset ENDKOO 2025, 200 déploiements accompagnés). Ce chiffre exclut les projets abandonnés après le pilote. IBM France (2025) mesure que 48% des PME déclarent des gains de productivité mesurables, contre 65% pour les grandes entreprises.
+
+### L'IA est-elle rentable pour une PME industrielle ?
+
+Oui, sous conditions. ROI médian de 171% sur projets accompagnés (ENDKOO 2025), avec maintenance prédictive et contrôle qualité comme cas d'usage phares. Seulement 7% des industriels français utilisent l'IA (INSEE 2024) : la plupart restent au stade pilote.
+
+### Quel secteur bénéficie le plus de l'IA en termes de ROI ?
+
+Le commerce-distribution affiche le ROI médian le plus élevé (242%), suivi de l'industrie (171%), la logistique (152%), les services B2B (123%) et le BTP (62%). Voir le tableau synthétique en début d'article.
+
+### Combien de temps faut-il pour voir un retour sur investissement IA dans une PME ?
+
+12 à 24 mois sur les projets accompagnés (ENDKOO 2025). Les cas d'usage documentaires en services B2B et l'optimisation des tournées en logistique restituent un ROI en 6 à 12 mois.
+
+### Pourquoi les projets IA échouent-ils malgré un ROI potentiel élevé ?
+
+Gartner (juillet 2024) estime qu'au moins 30% des projets d'IA générative sont abandonnés après le POC. Les quatre causes : qualité des données insuffisante, absence de gouvernance, coûts sous-estimés, valeur métier non démontrée.
+
+### Le BTP peut-il avoir un ROI positif avec l'IA ?
+
+Oui, avec des prérequis plus exigeants. ROI médian de 62% (ENDKOO 2025), le plus bas des secteurs. Les cas d'usage accessibles sont le chiffrage assisté, l'analyse de documents d'appel d'offres et le suivi administratif de chantier.
+
+### Comment comparer le ROI de mon projet IA à celui de mes concurrents du même secteur ?
+
+Situez votre secteur dans les benchmarks (ENDKOO, INSEE), puis évaluez vos trois variables : maturité des données, répétitivité du processus, gouvernance projet. Un audit IA répond à la question concrète : haut ou bas de fourchette pour votre secteur ?
+
+## Passez de la théorie à l'action
+
+Les benchmarks sectoriels sont des repères, pas des garanties. Un ROI de 171% en industrie ou de 242% en commerce n'est atteignable que si les trois variables structurelles sont en place : maturité des données, répétitivité des processus, gouvernance du projet.
+
+Avant de vous fixer un objectif ROI, la question utile est : "dans quelles conditions se trouve actuellement mon entreprise ?"
+
+Smart Impulsion propose un Audit IA Express qui identifie précisément votre positionnement par rapport au benchmark de votre secteur. En 2 à 3 jours, vous repartez avec les 3 à 5 cas d'usage prioritaires pour votre secteur et votre situation, une évaluation de votre maturité data, et un ROI projeté par cas d'usage avec les hypothèses explicites.
+
+[En savoir plus sur l'audit IA express](/services/audit)`,
+    author: "Laurent Bouzon",
+    date: "13 juillet 2026",
+    dateISO: "2026-07-13",
+    readTime: "13 min",
+    category: "Strategie & ROI",
+    image: "/benchmark-roi-ia-secteur-pme-hero.png",
+    imageAlt: "Image d'illustration pour l'article \"Benchmark ROI IA par secteur PME : résultats sourcés 2025\"",
+    faq: [
+      {
+        question: "Quel est le ROI moyen de l'IA dans les PME françaises ?",
+        answer: "Sur 200 déploiements IA B2B analysés en France (dataset ENDKOO / Denis Atlan, data.gouv.fr), le ROI médian est de 159% sur 24 mois. Ces projets étaient accompagnés par un expert externe. IBM France (2025) mesure que 48% des PME déclarent des gains de productivité mesurables, contre 65% pour les grandes entreprises.",
+      },
+      {
+        question: "L'IA est-elle rentable pour une PME industrielle ?",
+        answer: "Oui, sous conditions. Le ROI médian dans l'industrie manufacturière atteint 171% sur des projets bien cadrés (dataset ENDKOO 2025). Les cas d'usage les plus rentables sont la maintenance prédictive (réduction des coûts maintenance de 18 à 25% selon McKinsey) et le contrôle qualité par vision. Seulement 7% des industriels français utilisent l'IA (INSEE 2024) : la plupart restent au stade pilote.",
+      },
+      {
+        question: "Quel secteur bénéficie le plus de l'IA en termes de ROI ?",
+        answer: "Le retail/commerce affiche le ROI médian le plus élevé (242%) selon le dataset ENDKOO 2025. Viennent ensuite l'industrie (171%), la logistique (152%), les services B2B (123%) et le BTP (62%). Ces écarts reflètent la maturité digitale et la répétitivité des processus dans chaque secteur.",
+      },
+      {
+        question: "Combien de temps faut-il pour voir un retour sur investissement IA dans une PME ?",
+        answer: "Sur des projets accompagnés (dataset ENDKOO 2025), le ROI médian est atteint en 12 à 24 mois. Les cas d'usage à ROI rapide (6 à 12 mois) sont l'automatisation documentaire en services B2B et l'optimisation des tournées en logistique. Les projets industrie ont des délais plus longs mais un ROI souvent plus élevé.",
+      },
+      {
+        question: "Pourquoi les projets IA échouent-ils malgré un ROI potentiel élevé ?",
+        answer: "Gartner (juillet 2024) estime qu'au moins 30% des projets d'IA générative sont abandonnés après le proof of concept. Les quatre causes principales : mauvaise qualité des données, absence de contrôle des risques, coûts sous-estimés, valeur métier non démontrée. Les benchmarks ROI élevés ne concernent que les projets qui ont survécu au pilote.",
+      },
+      {
+        question: "Le BTP peut-il avoir un ROI positif avec l'IA ?",
+        answer: "Oui, mais les prérequis sont plus exigeants. Avec un ROI médian de 62% (ENDKOO 2025), le BTP est le secteur le moins performant. Les cas d'usage les plus accessibles sont le chiffrage assisté, l'analyse de plans et le suivi administratif de chantier. La digitalisation des données de base est un passage obligé.",
+      },
+      {
+        question: "Comment comparer le ROI de mon projet IA à celui de mes concurrents du même secteur ?",
+        answer: "Situez votre secteur dans les benchmarks disponibles (dataset ENDKOO, données INSEE). Ensuite, évaluez vos trois variables clés : maturité des données, répétitivité des processus, gouvernance du projet. Un audit IA répond à la question concrète : êtes-vous dans les conditions pour atteindre le haut ou le bas de fourchette du benchmark de votre secteur ?",
+      },
+    ],
+  },
+  {
     slug: "ia-fonction-achats-pme-cas-usage",
     title: "IA fonction achats PME : 4 cas d'usage accessibles en 2026",
     excerpt:
