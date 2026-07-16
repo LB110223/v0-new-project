@@ -35,6 +35,215 @@ export interface BlogArticle {
 
 export const blogArticles: BlogArticle[] = [
   {
+    slug: "ai-act-article-4-pme-non-conforme-que-risquez-vous",
+    title: "Article 4 de l'AI Act : ce que risque votre PME si vous n'avez encore rien fait",
+    seoTitle: "AI Act article 4 non conforme : ce que risque votre PME",
+    h1: "AI Act article 4 non conforme : que risque votre PME si vous n'avez encore rien fait ?",
+    excerpt:
+      "AI Act article 4 non conforme PME : contrôles CNIL dès le 2 août. Sanctions, risques réels et 3 actions en 5 heures pour se placer en bonne foi.",
+    content: `Une PME française non conforme à l'Article 4 de l'AI Act au 2 août 2026 s'expose à deux types de risques : un risque financier plafonné à 3 % du chiffre d'affaires annuel (Article 99 du Règlement UE 2024/1689), et un risque réputationnel et contractuel en cas d'incident ou de plainte salariale. Le risque de contrôle proactif dans les six premiers mois reste faible pour les PME sans systèmes à haut risque. Le risque déclenché par un incident, lui, est immédiat dès le 2 août.
+
+Voilà la réponse calibrée. Ni alarmisme, ni déni.
+
+Le 2 août 2026 ne marque pas le début de l'obligation. L'Article 4 est en vigueur depuis le 2 février 2025, soit 18 mois déjà. Le 2 août marque le début des contrôles effectifs par les autorités nationales de surveillance du marché. C'est cette différence qui change la lecture de votre situation.
+
+## Ce que l'Article 4 impose concrètement
+
+### Qu'est-ce que l'Article 4 de l'AI Act ?
+
+L'Article 4 du Règlement (UE) 2024/1689, dit AI Act, impose aux fournisseurs et déployeurs de systèmes d'IA de prendre des mesures suffisantes pour assurer la **littératie IA** de leur personnel et de toute personne intervenant dans l'utilisation de ces systèmes en leur nom.
+
+La littératie IA est définie à l'Article 3, paragraphe 56 de l'AI Act comme "les compétences, connaissances et capacités de compréhension permettant une utilisation éclairée des systèmes d'IA, ainsi qu'une conscience des opportunités et des risques associés". Ce n'est pas une formation diplômante. C'est une obligation de démarche documentée, proportionnée à la taille de l'entreprise et à ses usages réels.
+
+### Ce que "littératie IA" veut dire en pratique pour votre PME
+
+En pratique, pour votre PME, l'Article 4 signifie trois choses vérifiables :
+
+- Votre personnel sait ce qu'est un système d'IA et comment l'utiliser de façon responsable
+- Vos collaborateurs connaissent les risques liés au partage de données sensibles avec des outils IA
+- Vous pouvez démontrer que des mesures ont été prises, avec des livrables datés
+
+### Qui est concerné dans votre entreprise ?
+
+Toute personne "directement en contact avec un système d'IA" (formulation de la Commission européenne dans ses FAQ officielles). Selon une étude Microsoft France / YouGov de février 2026, 61 % des collaborateurs utilisant l'IA en entreprise le font via leurs comptes personnels au moins une fois par semaine. Dans une PME de 2026, cela couvre probablement plus de monde que vous ne le pensez.
+
+> L'usage non supervisé via comptes personnels n'est pas seulement un risque de sécurité des données : c'est la preuve que votre entreprise n'a pas mis en place les mesures de littératie IA requises par l'Article 4. Ces deux risques se renforcent mutuellement et constituent un double facteur aggravant en cas de contrôle.
+
+## Ce qui change le 2 août 2026
+
+### Quelles autorités peuvent contrôler votre PME à partir du 2 août ?
+
+Le 2 août n'est pas une date symbolique. C'est la date à partir de laquelle les autorités nationales de surveillance du marché ont compétence légale pour contrôler et sanctionner les manquements à l'Article 4.
+
+En France, la répartition est la suivante :
+
+- **CNIL** : désignée autorité de surveillance du marché pour les usages IA touchant à la biométrie, l'emploi, l'enseignement, les processus démocratiques et la migration. Pour une PME utilisant l'IA dans ses RH, son recrutement ou sa relation client, la CNIL est l'interlocuteur de première ligne.
+- **DGCCRF** : coordination générale et point de contact unique pour la surveillance du marché AI Act.
+- **ACPR** : systèmes IA dans l'évaluation de solvabilité et la tarification d'assurance.
+
+La CNIL a inscrit dans son programme de travail 2026 une priorité explicite sur les secteurs emploi et RH, ainsi que sur la gouvernance IA des entreprises. Ce n'est pas une coïncidence avec la date du 2 août.
+
+### Le Digital Omnibus a-t-il repoussé la deadline de l'Article 4 ?
+
+Non. Le Digital Omnibus, dont l'accord provisoire a été adopté par le Conseil de l'UE le 29 juin 2026, reporte effectivement plusieurs obligations AI Act, mais uniquement pour les systèmes à haut risque listés en Annexe III, repoussés au 2 décembre 2027.
+
+> L'Article 4 sur la littératie IA n'est pas affecté par le Digital Omnibus. L'obligation est en vigueur depuis le 2 février 2025 et l'enforcement commence le 2 août 2026, sans modification. Si vous avez entendu que "l'AI Act a été repoussé", c'est vrai pour certaines obligations spécifiques, pas pour celle-ci.
+
+## Le vrai risque pour votre PME
+
+### Le risque proactif est faible dans les 6 premiers mois
+
+Les autorités nationales de surveillance du marché ne vont pas lancer des contrôles massifs sur les PME dès le 3 août 2026. Aucune administration ne démarre ainsi. La priorité dans les premiers mois sera l'accompagnement des acteurs de bonne foi, la publication de guides, et les contrôles des acteurs les plus exposés (grandes entreprises, déployeurs de systèmes à haut risque).
+
+Pour une PME de 20 à 250 salariés n'utilisant pas de systèmes IA à haut risque, la probabilité d'un contrôle proactif dans les 6 premiers mois est faible. C'est la réalité, et il serait malhonnête de vous faire croire le contraire.
+
+### Le risque réactif est réel et non négligeable
+
+Le scénario de risque concret pour une PME n'est pas le contrôle proactif. C'est le contrôle déclenché par un événement.
+
+Les facteurs qui transforment une non-conformité latente en risque immédiat :
+
+- Un incident IA survient dans votre entreprise : fuite de données partagées avec un outil IA via compte personnel, décision automatisée contestée par un salarié ou un client
+- Un salarié dépose une plainte à la CNIL impliquant un usage IA dans le cadre RH (recrutement, évaluation de performance)
+- Un donneur d'ordre ou un client grand compte vous demande une attestation de conformité AI Act dans le cadre d'un appel d'offres ou d'un audit fournisseur
+- Un contentieux prud'homal fait apparaître l'utilisation d'un outil IA dans une procédure disciplinaire ou un licenciement
+
+Dans l'un de ces scénarios, votre non-conformité à l'Article 4 devient un facteur aggravant. Et le contrôle n'est plus une question de probabilité : il est certain.
+
+### Quelles sanctions financières pour une PME non conforme à l'Article 4 ?
+
+Le non-respect de l'Article 4 relève de la catégorie "autres violations" définie à l'Article 99, paragraphe 4 de l'AI Act : jusqu'à **15 millions d'euros ou 3 % du chiffre d'affaires annuel mondial total**, le montant le plus élevé étant retenu pour les grandes entreprises.
+
+Pour les PME, l'Article 99, paragraphe 6 prévoit une protection explicite : **le montant retenu est le moins élevé des deux**. Ce n'est pas une interprétation, c'est dans le texte.
+
+Deux exemples concrets :
+
+- PME à 5 M€ de CA : 3 % = **150 000 €** de plafond théorique maximum
+- PME à 2 M€ de CA : 3 % = **60 000 €** de plafond théorique maximum
+
+Ces montants sont des plafonds, pas des montants automatiques. L'Article 99 exige que les sanctions soient proportionnées et tient compte des "mesures prises pour atténuer le préjudice" et de la coopération avec les autorités. Une PME qui produit des preuves de démarche lors d'un contrôle sera traitée très différemment d'une entreprise qui n'a rien fait et refuse de coopérer.
+
+> Un dirigeant qui peut présenter trois documents datés lors d'un contrôle (inventaire des outils IA, compte-rendu de sensibilisation, note de désignation d'un référent interne) se place immédiatement en position d'entreprise de bonne foi. C'est le facteur atténuant le plus accessible et le plus décisif face à une autorité de contrôle.
+
+## Ce que vous pouvez encore faire en 17 jours
+
+Vous n'aurez pas le temps de déployer un programme de formation complet d'ici le 2 août. Mais vous pouvez construire une preuve de diligence en moins de 5 heures, ce weekend si nécessaire.
+
+### Action 1 : Inventaire des outils IA utilisés (2 heures)
+
+L'objectif est de cartographier ce qui existe réellement dans votre entreprise, pas ce que vous avez officiellement autorisé.
+
+Méthode :
+
+1. Envoi d'un email à tous les managers : "Quels outils IA utilisez-vous ou votre équipe utilise-t-elle, même à titre personnel, dans le cadre professionnel ?"
+2. Tour de table lors de la prochaine réunion d'équipe ou call management
+3. Compilation dans un tableau simple : outil, service concerné, usage, données entrées
+
+Le Shadow IA (61 % des utilisateurs IA via comptes personnels, selon Microsoft France / YouGov, février 2026) rend cet inventaire non trivial. Ne vous attendez pas à une liste courte. ChatGPT, Copilot, Gemini, Mistral, Perplexity : les usages sont probablement plus étendus que vous ne le croyez.
+
+**Livrable attendu** : document Word ou Excel daté, signé ou envoyé par le dirigeant, listant les outils IA identifiés et leurs usages.
+
+### Action 2 : Session de sensibilisation documentée (2 heures)
+
+Une formation complète prend des semaines. Une sensibilisation traçable prend une matinée.
+
+Le contenu minimum à couvrir lors d'une session collective (ou d'une note écrite envoyée à tous) :
+
+- Ce qu'est un système d'IA et pourquoi l'AI Act s'en préoccupe
+- Ce qu'il est acceptable et inacceptable de partager avec un outil IA
+- Les risques liés à l'usage de comptes personnels pour des tâches professionnelles
+- Le référent interne à contacter en cas de question
+
+La session peut durer 45 minutes. Ce n'est pas l'exhaustivité qui compte, c'est la traçabilité.
+
+**Livrable attendu** : invitation ou email de convocation envoyé avec liste de présence signée, ou accusé de réception d'une note d'information. Daté.
+
+### Action 3 : Désignation d'un référent IA interne (30 minutes)
+
+Une note interne d'une page, signée par le dirigeant, désignant une personne responsable du suivi des questions IA dans l'entreprise.
+
+Ce référent n'a pas besoin d'être un expert. Il peut être le DRH, le DSI, le responsable qualité, ou le dirigeant lui-même dans une TPE. Sa mission : être l'interlocuteur en cas de contrôle et assurer le suivi des actions de mise en conformité.
+
+**Livrable attendu** : note interne datée et signée, d'une page maximum.
+
+### Le total : moins de 5 heures
+
+| Action | Durée estimée | Livrable |
+|---|---|---|
+| Inventaire des outils IA | 2 heures | Liste datée des outils et usages |
+| Session de sensibilisation | 2 heures | Invitation + liste de présence datée |
+| Désignation référent IA | 30 minutes | Note interne datée et signée |
+
+Ces trois documents constituent votre preuve de diligence de base. Ils ne vous rendent pas entièrement conformes à l'Article 4, mais ils démontrent que votre entreprise a pris des mesures. C'est la différence entre une non-conformité de mauvaise foi et une démarche engagée.
+
+Pour aller plus loin sur les actions concrètes avant la deadline, consultez [les 5 livrables de la checklist Article 4](/blog/checklist-article-4-ai-act-pme-aout-2026) que nous avons publiée spécifiquement pour cette période.
+
+## La preuve de diligence comme bouclier
+
+Trois documents en moins de 5 heures, c'est le minimum. Mais la preuve de diligence la plus solide est un dossier structuré qui documente votre situation réelle, vos risques identifiés, et les actions engagées.
+
+### Pourquoi la documentation compte autant que l'action
+
+L'Article 99 de l'AI Act prévoit explicitement que les sanctions doivent être "efficaces, proportionnées et dissuasives", en tenant compte notamment des "mesures prises par l'opérateur pour atténuer le préjudice" et du "degré de coopération avec les autorités".
+
+Ce n'est pas une clause de style. C'est le levier sur lequel s'appuie toute défense en cas de contrôle. Une entreprise qui arrive face à une autorité de contrôle avec un dossier documenté (inventaire, compte-rendu de sensibilisation, note de désignation, plan de mise en conformité) sera traitée fondamentalement différemment d'une entreprise qui n'a rien.
+
+Selon l'INSEE (enquête TIC 2024), seules 9 % des PME françaises de moins de 50 salariés utilisent officiellement une technologie d'IA. Pourtant, 61 % des collaborateurs utilisant l'IA le font via des comptes personnels (Microsoft France / YouGov, février 2026). Votre entreprise est probablement dans ce deuxième groupe sans en avoir pleinement conscience.
+
+> La conformité documentée n'est pas un luxe réservé aux grandes entreprises. C'est le seul actif qui transforme une situation de non-conformité en position défendable lors d'un contrôle de la CNIL ou d'une autre autorité de surveillance du marché.
+
+### Ce que produit un Audit IA Express
+
+Les trois actions du plan J-17 sont un premier pas nécessaire. Mais elles ne produisent pas un dossier de conformité structuré.
+
+Laurent Bouzon, consultant IA chez Smart Impulsion, observe que les dirigeants sous-estiment régulièrement le périmètre réel de leurs usages IA, en particulier les usages via comptes personnels non déclarés. C'est précisément ce point aveugle qu'un Audit IA Express est conçu pour documenter.
+
+Un [Audit IA Express](/services/audit) produit en moins de 48 heures un rapport complet documentant :
+
+- L'inventaire exhaustif des systèmes IA utilisés dans votre entreprise
+- L'évaluation de vos obligations au titre de l'AI Act selon vos usages réels
+- L'identification des risques prioritaires (en particulier les usages Shadow IA et les systèmes à haut risque potentiels)
+- Un plan d'actions priorisé et chiffré pour atteindre une conformité documentée
+
+Ce rapport est le document qui transforme votre démarche J-17 en actif de conformité structuré. C'est ce que vous présentez à la CNIL, à un donneur d'ordre, ou à un conseil juridique si un incident survient après le 2 août.
+
+Pour comprendre ce que couvre exactement ce type de démarche, notre [guide de l'audit IA pour les PME](/blog/audit-ia-pme-guide-complet) détaille la méthode et les livrables.
+
+### Le contexte de marché que vous devez garder en tête
+
+Selon Bpifrance Le Lab (juin 2025), 58 % des dirigeants de PME-ETI françaises considèrent que l'IA est un enjeu de survie à 3-5 ans. La même étude révèle que 43 % ont déjà une stratégie IA, mais que 50 % n'utilisent que des solutions gratuites.
+
+Cette configuration (enjeu reconnu, démarche non structurée, usage non supervisé) est exactement le profil que l'Article 4 cherche à encadrer. Votre PME n'est pas une exception : elle est dans la norme française. Ce qui signifie que les autorités ne peuvent pas sanctionner tout le monde, mais aussi que se distinguer par une démarche documentée est accessible et utile.
+
+Les données de marché et les obligations réglementaires sont détaillées dans [notre guide complet AI Act pour les PME](/blog/ai-act-pme-guide-2026). Pour approfondir spécifiquement ce que l'obligation de littératie signifie pour vos équipes, l'article sur [ce que l'Article 4 impose précisément](/blog/litteratie-ia-pme-ai-act-article-4) répond aux questions opérationnelles les plus fréquentes.
+
+
+> Vous aviez 18 mois pour mettre en place des mesures de littératie IA. Dans 17 jours, les contrôles peuvent commencer. La bonne nouvelle : 5 heures de travail suffisent à vous placer en position de bonne foi. La mauvaise nouvelle : ces 5 heures, vous devez les prendre cette semaine.
+
+Prenez rendez-vous pour un [Audit IA Express](/services/audit) si vous voulez transformer cette démarche d'urgence en conformité documentée et défendable.`,
+    author: "Laurent Bouzon",
+    date: "16 juillet 2026",
+    dateISO: "2026-07-16",
+    readTime: "7 min",
+    category: "Compliance & AI Act",
+    image: "/ai-act-article-4-pme-non-conforme-que-risquez-vous-hero.png",
+    imageAlt: "Image d'illustration pour l'article \"Article 4 de l'AI Act : ce que risque votre PME si vous n'avez encore rien fait\"",
+    faq: [
+      {
+        question: "Quelles sont les sanctions réelles pour une PME non conforme à l'Article 4 ?",
+        answer: "Le non-respect de l'Article 4 relève de la catégorie 'autres violations' de l'Article 99 de l'AI Act : jusqu'à 15 M€ ou 3 % du chiffre d'affaires annuel mondial. Pour une PME, la loi prévoit explicitement que le montant retenu est le moins élevé des deux. Exemple : pour une PME à 5 M€ de CA, le plafond théorique est de 150 000 €. En pratique, une PME de bonne foi qui coopère avec les autorités et produit des preuves de diligence recevra une sanction bien inférieure à ce plafond.",
+      },
+      {
+        question: "Le Digital Omnibus a-t-il repoussé la deadline de l'Article 4 ?",
+        answer: "Non. Le Digital Omnibus (accord provisoire du Conseil de l'UE du 29 juin 2026) reporte uniquement les obligations pour les systèmes à haut risque de l'Annexe III au 2 décembre 2027. L'Article 4 sur la littératie IA n'est pas affecté par ce texte. L'obligation est en vigueur depuis le 2 février 2025 et l'enforcement commence le 2 août 2026, sans modification.",
+      },
+      {
+        question: "Que faire si on n'a encore rien mis en place ?",
+        answer: "Trois actions suffisent pour vous placer en position de bonne foi avant le 2 août : un inventaire des outils IA utilisés dans l'entreprise (2 heures), une session de sensibilisation documentée avec liste de présence (2 heures), et la désignation d'un référent IA interne par note signée (30 minutes). Ces trois livrables constituent une preuve de diligence opposable. Pour une conformité structurée, un Audit IA Express produit un rapport complet en moins de 48 heures.",
+      },
+    ],
+  },
+  {
     slug: "prioriser-projets-ia-pme",
     title: "Prioriser ses projets IA en PME : la grille en 4 critères",
     excerpt:
