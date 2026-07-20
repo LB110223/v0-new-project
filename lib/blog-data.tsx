@@ -35,6 +35,289 @@ export interface BlogArticle {
 
 export const blogArticles: BlogArticle[] = [
   {
+    slug: "audit-ia-dossier-conformite-article-4-ai-act-pme",
+    title: "Audit IA et Article 4 : constituer un dossier de conformité opposable avant le 2 août",
+    seoTitle: "Dossier conformité Article 4 AI Act PME : audit IA express",
+    excerpt:
+      "À J-13 de la deadline AI Act : une attestation de formation ne suffit pas. Les 4 livrables d'un audit IA externe pour un dossier Article 4 opposable.",
+    content: `Vous avez fait signer les attestations de formation. Peut-être avez-vous organisé une session interne, ou souscrit à un module e-learning sur l'IA. Vous n'avez pas commandé d'audit IA externe : vous avez géré ça en interne, pragmatiquement. Vos collaborateurs ont cliqué sur "J'ai lu et j'accepte la charte d'usage". Vous avez noté quelque part que c'était fait.
+
+Maintenant, imaginez qu'un inspecteur de la CNIL se présente en septembre 2026 pour vérifier votre conformité à l'Article 4 de l'AI Act. Il ne demande pas si vous avez organisé une formation. Il demande à voir votre **dossier de conformité**.
+
+Que lui montrez-vous ?
+
+Si la réponse est "les attestations signées", vous n'êtes pas en mesure de démontrer votre conformité, même si vos collaborateurs ont bien suivi la formation. Parce que la conformité Article 4 n'est pas une déclaration d'intention. C'est un dossier de preuve.
+
+C'est la distinction que cet article va poser clairement, avec les 4 livrables concrets qu'un audit IA externe produit pour constituer ce dossier avant le 2 août.
+
+## Ce que "être conforme Article 4" signifie pour une autorité de contrôle
+
+### L'obligation date du 2 février 2025, pas du 2 août 2026
+
+Premier point à comprendre, et il est contre-intuitif : **l'Article 4 est applicable depuis le 2 février 2025**. Depuis dix-huit mois, toute entreprise qui déploie ou utilise des systèmes d'IA en France est légalement tenue de s'y conformer.
+
+Ce que le 2 août 2026 active, ce ne sont pas les obligations. Ce sont les **pouvoirs de contrôle et de sanction** des autorités nationales. La CNIL, la DGCCRF et l'ARCOM peuvent, à compter de cette date, ouvrir des enquêtes formelles, mettre en demeure et infliger des amendes administratives allant jusqu'à 15 millions d'euros ou 3 % du chiffre d'affaires annuel mondial (Article 99 du Règlement UE 2024/1689).
+
+Pour les PME, ce plafond est limité à 7,5 millions d'euros ou 3 % du chiffre d'affaires annuel mondial (Article 99 §4 du Règlement UE 2024/1689). Mais le risque n'est pas uniquement financier : une mise en demeure publique dans un secteur où la confiance des clients est un actif, c'est un dommage réputationnel difficile à chiffrer.
+
+### Ce que le texte officiel exige réellement
+
+> "Les fournisseurs et les déployeurs de systèmes d'IA prennent des mesures pour assurer, dans toute la mesure du possible, un niveau suffisant de maîtrise de l'IA de la part de leur personnel et des autres personnes s'occupant du fonctionnement et de l'utilisation des systèmes d'IA pour leur compte, en tenant compte de leurs connaissances techniques, de leur expérience, de leur éducation et de leur formation, ainsi que du contexte dans lequel les systèmes d'IA sont destinés à être utilisés, et compte tenu des personnes ou des groupes de personnes à l'égard desquels les systèmes d'IA sont destinés à être utilisés."
+>
+> *Article 4, [Règlement (UE) 2024/1689 du Parlement européen et du Conseil, 13 juin 2024](https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX%3A32024R1689)*
+
+Trois éléments à retenir de ce texte.
+
+Premièrement : il s'agit d'une **obligation de moyens**, pas de résultats. L'expression "dans toute la mesure du possible" est précise juridiquement : elle exige un effort réel, proportionné et traçable, pas un niveau de certification parfait. Une PME de 12 personnes n'est pas tenue aux mêmes moyens qu'un groupe de 1 200. Elle est tenue de démontrer qu'elle a agi en conséquence de sa taille et de ses usages.
+
+Deuxièmement : le niveau requis dépend du **contexte d'utilisation** et des **groupes de personnes concernés**. Ce n'est pas un standard uniforme. Un même niveau de formation générique appliqué à tous les postes n'est pas conforme si certains postes impliquent des usages IA à risque élevé.
+
+Troisièmement : l'obligation couvre "leur personnel et des autres personnes", sans seuil d'effectif. **Une TPE de 5 personnes est soumise à l'Article 4 dès lors qu'elle utilise un système d'IA.**
+
+### Ce qu'une autorité vérifiera concrètement
+
+Lors d'un contrôle, un inspecteur ne lit pas les attestations et tourne les talons. Il cherche à vérifier si les mesures prises sont réelles, proportionnées et tracées. Concrètement, cela signifie :
+
+- Un inventaire documenté des systèmes d'IA effectivement utilisés dans l'entreprise (par service, par poste, par usage)
+- La preuve que le niveau de formation attribué à chaque poste est justifié par le contexte d'utilisation et le profil de risque
+- Une traçabilité nominative : qui a reçu quelle formation, quand, sur quel contenu, avec quel support pédagogique
+- Une politique interne d'usage de l'IA formalisée et communiquée
+- La documentation des écarts identifiés et des actions correctives planifiées
+
+C'est un dossier structuré, pas un classeur d'attestations.
+
+## Pourquoi l'attestation ne suffit pas
+
+### Ce qu'une attestation prouve et ce qu'elle ne prouve pas
+
+Une attestation de formation prouve qu'une session a eu lieu et qu'une personne y a participé. C'est utile. Mais face à une autorité de contrôle, elle ne prouve pas :
+
+- Que le niveau de formation était **adapté au contexte d'utilisation** de ce poste précis
+- Que le contenu couvrait les **risques spécifiques** liés aux systèmes IA effectivement déployés dans l'entreprise
+- Que la compétence acquise est **suffisante** au regard du profil d'utilisation (fréquence, degré d'autonomie, impact des décisions assistées)
+- Que l'entreprise a **identifié les usages IA** de ses collaborateurs avant de concevoir sa démarche de formation
+
+Une attestation sans cartographie préalable des usages, c'est une réponse sans question. Le texte de l'Article 4 exige que les mesures soient prises "en tenant compte du contexte dans lequel les systèmes d'IA sont destinés à être utilisés", ce qui suppose de l'avoir d'abord documenté.
+
+### La CNIL a déjà annoncé ce qu'elle vérifiera
+
+Le 3 avril 2026, la CNIL a publié ses contrôles prioritaires pour 2026. Parmi les trois thématiques retenues : le **recrutement et les systèmes de décision automatisée en RH**. La CNIL a explicitement indiqué que cette thématique "préfigurera l'exercice par la CNIL de ses futures attributions en tant qu'autorité de surveillance de marché dans le champ 'travail' au titre du règlement sur l'intelligence artificielle."
+
+> "Cette thématique préfigurera l'exercice par la CNIL de ses futures attributions en tant qu'autorité de surveillance de marché dans le champ 'travail' au titre du règlement sur l'intelligence artificielle."
+>
+> *[CNIL, Contrôles prioritaires 2026](https://www.cnil.fr/fr/controles-prioritaires-2026) (publié le 3 avril 2026)*
+
+Les contrôles ciblent en priorité les grandes entreprises et les cabinets de recrutement, mais ils constitueront la jurisprudence qui s'appliquera à toutes les organisations. Ce que la CNIL mettra en évidence en automne 2026 dans les grandes entreprises sera ce qu'elle vérifiera chez les PME dès 2027.
+
+Pour les dirigeants de PME qui utilisent des outils de tri de candidatures, de présélection ou d'évaluation automatisée en RH : le délai pour constituer un dossier Article 4 robuste sur ces usages est compté.
+
+### Le niveau de preuve diffère selon le poste
+
+C'est la subtilité que les approches génériques ratent systématiquement. L'Article 4 conditionne le niveau requis au "contexte dans lequel les systèmes d'IA sont destinés à être utilisés" et aux "personnes ou groupes de personnes" concernés.
+
+Deux exemples concrets pour ancrer la différence :
+
+**Un comptable qui utilise Microsoft Copilot** pour rédiger des commentaires de bilan ou reformuler des tableaux en langage naturel : l'usage est quotidien, le risque est limité (output vérifié par un humain avant tout usage externe), le contexte d'utilisation est faible à moyen. Le niveau de preuve attendu : une formation générique aux risques d'erreurs des modèles de langage, une charte d'usage signée, un enregistrement de la formation.
+
+**Un chargé de recrutement qui utilise un outil de scoring automatisé de CV** : l'usage produit des décisions qui affectent directement des candidats. Le risque est élevé (biais potentiels, discrimination algorithmique, impact sur des personnes tierces). Le contexte d'utilisation est celui que la CNIL ciblera en priorité. Le niveau de preuve attendu : cartographie documentée de l'outil, évaluation des biais potentiels, formation spécifique aux risques du scoring automatisé, politique d'usage du système, traçabilité des décisions.
+
+**Appliquer le même niveau de formation à deux postes de profil de risque différent, c'est un dossier qui ne tient pas à l'examen d'une autorité de contrôle.**
+
+Pour aller plus loin sur les obligations spécifiques aux différents profils d'usage, l'article [Checklist Article 4 AI Act pour les PME : les 5 livrables avant le 2 août 2026](/blog/checklist-article-4-ai-act-pme-aout-2026) détaille les livrables attendus par catégorie de risque.
+
+## Les 4 livrables qu'un audit IA externe produit pour votre dossier Article 4
+
+Un audit IA externe n'est pas une certification et n'est pas une formation. C'est une intervention structurée qui produit des documents que votre organisation seule ne peut pas produire avec la même valeur probante. Voici pourquoi ces quatre livrables constituent un dossier Article 4 défendable là où les attestations internes ne le sont pas.
+
+### Livrable 1 : La cartographie des usages IA par poste
+
+C'est la pièce fondatrice du dossier, et c'est celle qui manque dans presque tous les dispositifs conformité que les PME ont constitués à date.
+
+La cartographie répond à une question précise : **qui utilise quoi, comment et à quel niveau de risque** dans votre organisation ? Elle documente pour chaque poste ou groupe de postes :
+
+- Les systèmes IA effectivement utilisés (IA générative généraliste, outils métiers avec IA embarquée, automatisations, outils d'analyse)
+- La fréquence et le degré d'autonomie de l'usage (supervision humaine systématique ou décision assistée ou déléguée)
+- L'impact potentiel des décisions produites ou influencées par ces systèmes
+- La classification du niveau de risque selon l'Annexe III de l'AI Act pour les systèmes à haut risque
+
+Sans cette cartographie, aucune démarche de formation ne peut être calibrée au "contexte d'utilisation" exigé par l'Article 4. **Sans cartographie des usages IA, aucun dossier de conformité Article 4 ne peut démontrer que les mesures prises étaient adaptées.**
+
+### Livrable 2 : Le scoring de maturité par fonction
+
+Une fois les usages cartographiés, l'audit établit pour chaque fonction ou groupe de postes un **écart entre le niveau de compétence effective actuel et le niveau requis** compte tenu du profil de risque de l'usage.
+
+Ce scoring n'est pas un jugement sur les personnes. C'est une analyse structurée qui permet de démontrer que l'entreprise a pris la mesure des gaps et a agi en conséquence, ce qui est précisément ce que l'obligation de moyens documentée de l'Article 4 exige de prouver.
+
+Le scoring de maturité par fonction documente :
+
+- Le niveau actuel par dimension (compréhension des risques IA, capacité à détecter les erreurs, pratiques de vérification, connaissance des obligations légales)
+- Le niveau requis selon le profil d'usage et le niveau de risque associé
+- L'écart entre les deux, qualifié et quantifié
+- La priorité de remédiation assignée à chaque gap
+
+Ce document est central : il établit que l'entreprise a conduit une analyse rigoureuse de sa situation, ce qui est la démonstration concrète de l'effort de moyens.
+
+### Livrable 3 : Le plan de remédiation documenté
+
+L'obligation de moyens de l'Article 4 exige non seulement d'avoir agi, mais d'avoir planifié les actions correctives sur les gaps identifiés. Le plan de remédiation documente :
+
+- Les actions de formation ou de sensibilisation spécifiques pour chaque gap identifié
+- Les échéances de mise en œuvre
+- Les indicateurs de progression
+- Les ressources mobilisées
+
+> Un dossier Article 4 sans plan de remédiation est incomplet même si les formations ont eu lieu. Ce qui compte pour une autorité de contrôle, c'est la preuve d'une démarche continue, pas d'un événement ponctuel.
+
+Ce plan constitue aussi le pilier d'un suivi dans le temps. L'Article 4 n'est pas une obligation à cocher une fois : c'est une obligation de maintien d'un niveau adéquat de maîtrise, qui évolue avec les usages.
+
+### Livrable 4 : Le rapport d'audit signé par un tiers
+
+C'est la pièce maîtresse du dossier : celle qu'aucune démarche interne ne peut remplacer.
+
+Un rapport d'audit signé par un auditeur externe indépendant a une valeur probante qualitativement différente d'un auto-audit ou d'une auto-déclaration. Pour deux raisons.
+
+La première est juridique : en droit de la preuve, une attestation rédigée par la partie qui en bénéficie a une valeur probante limitée. **Un rapport signé par un tiers indépendant est une pièce opposable devant une autorité de contrôle.**
+
+La seconde est pratique : un auditeur externe applique une méthodologie structurée, documentée et reproductible. Le rapport peut être lu, compris et vérifié par une autorité de contrôle sans que l'entreprise ait à l'interpréter. Il répond aux questions qu'un inspecteur poserait, dans l'ordre où il les poserait.
+
+> Ce rapport constitue la pièce que l'auto-attestation interne ne peut pas être : un document produit par un tiers compétent, indépendant de l'organisation contrôlée, qui atteste d'une démarche structurée et proportionnée.
+
+Pour comprendre comment sélectionner un partenaire d'audit IA qui produit ces livrables avec la rigueur méthodologique requise, l'article [Comment choisir un partenaire de transformation IA](/blog/agence-ia-comment-choisir-partenaire-transformation) détaille les critères de sélection pertinents pour une PME.
+
+## À J-13 : ce qui est encore faisable
+
+### La réalité du délai
+
+Un audit IA structuré, du premier entretien au rapport final signé, prend entre **3 et 5 jours ouvrés** pour une PME de 20 à 200 personnes avec un périmètre ciblé. Ce n'est pas un projet de 3 mois. C'est une intervention courte, à condition d'être bien préparée et menée par une équipe qui connaît le sujet.
+
+À J-13 du 2 août 2026, il est donc encore temps de constituer un dossier défendable. La fenêtre est étroite, mais elle existe.
+
+Selon l'enquête INSEE TIC Entreprises 2024 (INSEE Première n°2061, octobre 2025) : "10 % des entreprises françaises de 10 salariés ou plus utilisent l'IA, dont 9 % des PME de 10 à 49 salariés." Et selon l'étude Bpifrance Le Lab "L'IA dans les PME et ETI françaises : une révolution tranquille" (juin 2025, 1 200 dirigeants) : "58 % des dirigeants de PME-ETI voient l'IA comme un enjeu de survie à 3-5 ans, mais seuls 32 % l'utilisent effectivement." Ce gap n'est pas sans conséquence pour la conformité : les entreprises qui ont commencé à déployer l'IA sans formaliser leurs usages sont précisément celles qui n'ont pas de cartographie.
+
+### Hiérarchiser par risque, pas par facilité
+
+Si vous disposez de 5 jours ouvrés, la priorité n'est pas de couvrir tous les usages IA de votre organisation. C'est de couvrir **les usages à risque élevé en premier**, particulièrement ceux que la CNIL a explicitement annoncé cibler.
+
+Ordre de priorité recommandé :
+
+1. **Recrutement et RH** : tri de CV, présélection automatisée, outils d'évaluation (cibles directes des contrôles CNIL automne 2026)
+2. **Service client** : chatbots, systèmes de routage automatisé, analyse de sentiment (décisions qui affectent des personnes tierces)
+3. **Finance et contrôle de gestion** : projections assistées, détection d'anomalies, scoring crédit interne (risques de décision automatisée)
+4. **Production et opérations** : automatisations, maintenance prédictive, contrôle qualité assisté (selon le secteur)
+
+Pour les usages d'IA générative à portée généraliste (rédaction, synthèse, reformulation) sans impact direct sur des décisions affectant des tiers, le niveau de preuve requis est plus faible. Ils peuvent être traités dans un second temps.
+
+### Le dossier minimal défendable et le dossier complet
+
+Ne laissez pas la perfection bloquer l'action. Un dossier Article 4 minimal mais structuré vaut infiniment mieux qu'un projet de dossier parfait non livré.
+
+Le dossier minimal défendable comprend :
+
+- La cartographie des usages IA à risque élevé (pas nécessairement tous les usages)
+- Le scoring de maturité sur ces usages prioritaires
+- Les actions de formation déjà conduites, tracées nominativement
+- Un plan de remédiation documenté pour les gaps identifiés
+- Le rapport d'audit externe signé
+
+Ce dossier démontre une démarche sérieuse, proportionnée et tracée. Il ne sera pas parfait. Mais il répondra à la question centrale qu'une autorité de contrôle posera : "avez-vous pris des mesures raisonnables et documentées ?" Oui, et voici le dossier.
+
+> L'Article 4 est une obligation de moyens : "dans toute la mesure du possible". Un dossier incomplet mais structuré et honnête sur ses limites est une défense plus solide qu'une absence totale de documentation.
+
+Le dossier complet (couverture de tous les usages, tous les postes, révision de la politique interne, mise à jour des chartes) peut être finalisé dans les semaines suivantes. Le 2 août marque le début des contrôles possibles, pas la fin de la démarche de conformité.
+
+## Questions fréquentes
+
+**Qu'est-ce qu'un dossier de conformité Article 4 AI Act ?**
+
+Un dossier de conformité Article 4 est un ensemble de documents structurés prouvant qu'une entreprise a pris des mesures proportionnées pour assurer la maîtrise de l'IA par ses collaborateurs. Il comprend au minimum une cartographie des usages IA par poste, un scoring de maturité par fonction, un plan de remédiation documenté et un rapport d'audit signé par un tiers indépendant. Les attestations de formation seules ne constituent pas un dossier opposable.
+
+**Quand s'applique l'Article 4 de l'AI Act ?**
+
+L'Article 4 est applicable depuis le 2 février 2025. Ce n'est pas le 2 août 2026 qui crée l'obligation : c'est cette date qui active les pouvoirs de contrôle et de sanction des autorités nationales (CNIL, DGCCRF, ARCOM). L'obligation couvre toute entreprise utilisant des systèmes d'IA, sans seuil d'effectif.
+
+**Une attestation de formation suffit-elle pour être conforme à l'Article 4 ?**
+
+Non. Une attestation prouve qu'une session a eu lieu, pas que le niveau de formation était adapté au contexte d'utilisation du poste concerné, ni que l'entreprise avait d'abord cartographié ses usages IA. L'Article 4 exige que les mesures soient prises "en tenant compte du contexte dans lequel les systèmes d'IA sont destinés à être utilisés", ce qui suppose une analyse préalable documentée.
+
+**Combien de temps prend un audit IA Article 4 pour une PME ?**
+
+Entre 3 et 5 jours ouvrés pour une PME de 20 à 200 personnes avec un périmètre ciblé sur les usages à risque prioritaire. Ce n'est pas un projet de plusieurs mois : c'est une intervention courte, à condition d'être bien préparée.
+
+**Quels sont les contrôles CNIL prévus en 2026 sur l'IA ?**
+
+La CNIL a publié ses contrôles prioritaires 2026 le 3 avril 2026. La thématique recrutement et systèmes de décision automatisée en RH est retenue en priorité. La CNIL a indiqué qu'elle "préfigurera l'exercice par la CNIL de ses futures attributions en tant qu'autorité de surveillance de marché dans le champ travail au titre du règlement sur l'intelligence artificielle." Les PME qui utilisent des outils de scoring de CV ou de présélection automatisée sont directement concernées.
+
+## Un audit IA Express pour constituer votre dossier Article 4 en 3 jours
+
+Si vous êtes dirigeant d'une PME ou ETI qui utilise des outils IA et que votre dossier Article 4 se résume aujourd'hui à des attestations de formation, vous avez besoin d'un audit structuré qui produit les 4 livrables décrits dans cet article : cartographie des usages, scoring de maturité, plan de remédiation, rapport signé.
+
+L'[Audit IA Express Smart Impulsion](/services/audit) a été conçu pour ce périmètre : 3 jours d'intervention, périmètre ciblé sur les usages à risque prioritaire, livrables directement utilisables dans un dossier Article 4 opposable. Pas un rapport générique. Un dossier calibré à votre organisation, signé par un tiers indépendant.
+
+À J-13, c'est le délai qui correspond exactement à ce qu'il reste.
+
+## Pour aller plus loin
+
+Les obligations Article 4 s'inscrivent dans un cadre réglementaire plus large. Pour une vue d'ensemble :
+
+- [Guide complet de l'audit IA pour les PME](/blog/audit-ia-pme-guide-complet) : méthodologie complète d'un audit IA PME
+- [AI Act PME : le guide 2026](/blog/ai-act-pme-guide-2026) : panorama complet des obligations, délais et catégories de risque
+- [Checklist Article 4 AI Act : les 5 livrables avant le 2 août 2026](/blog/checklist-article-4-ai-act-pme-aout-2026) : le document opérationnel complémentaire à cet article
+
+*Sources citées : Règlement (UE) 2024/1689, Article 4 (EUR-Lex) ; CNIL, Contrôles prioritaires 2026 (cnil.fr, 3 avril 2026) ; INSEE, Enquête TIC Entreprises 2024, INSEE Première n°2061 (octobre 2025) ; Bpifrance Le Lab, L'IA dans les PME et ETI françaises : une révolution tranquille (juin 2025, 1 200+ dirigeants).*`,
+    author: "Laurent Bouzon",
+    date: "20 juillet 2026",
+    dateISO: "2026-07-20",
+    readTime: "8 min",
+    category: "Audit & Methodologie",
+    image: "/audit-ia-dossier-conformite-article-4-ai-act-pme-hero.png",
+    imageAlt: "Image d'illustration pour l'article \"Audit IA et Article 4 : constituer un dossier de conformité opposable avant le 2 août\"",
+    faq: [
+      {
+        question: "Qu'est-ce qu'un dossier de conformité Article 4 AI Act ?",
+        answer: "Un dossier de conformité Article 4 AI Act est un ensemble de documents structurés prouvant qu'une entreprise a pris des mesures proportionnées pour assurer la maîtrise de l'IA par ses collaborateurs. Il comprend au minimum : une cartographie des usages IA par poste, un scoring de maturité par fonction, un plan de remédiation documenté et un rapport d'audit signé par un tiers indépendant. Les attestations de formation seules ne constituent pas un dossier opposable.",
+      },
+      {
+        question: "Quand s'applique l'Article 4 de l'AI Act ?",
+        answer: "L'Article 4 de l'AI Act (Règlement UE 2024/1689) est applicable depuis le 2 février 2025. À compter du 2 août 2026, les autorités nationales (CNIL, DGCCRF, ARCOM en France) disposent des pouvoirs de contrôle et de sanction pour vérifier sa bonne application. L'obligation couvre toute entreprise qui déploie ou utilise des systèmes d'IA, sans seuil d'effectif.",
+      },
+      {
+        question: "Une attestation de formation suffit-elle pour être conforme à l'Article 4 ?",
+        answer: "Non. Une attestation de formation prouve qu'une session a eu lieu, mais ne démontre pas que le niveau de formation était adapté au contexte d'utilisation du poste, que les risques spécifiques aux systèmes IA déployés ont été couverts, ni que l'entreprise a d'abord cartographié ses usages IA. L'Article 4 exige des mesures prises 'en tenant compte du contexte dans lequel les systèmes d'IA sont destinés à être utilisés', ce qui suppose une cartographie préalable documentée.",
+      },
+      {
+        question: "Combien de temps prend un audit IA Article 4 pour une PME ?",
+        answer: "Un audit IA structuré prend entre 3 et 5 jours ouvrés pour une PME de 20 à 200 personnes avec un périmètre ciblé sur les usages prioritaires. Ce n'est pas un projet de plusieurs mois. La condition est un périmètre bien délimité (usages à risque élevé en priorité) et une équipe d'audit qui connaît les exigences de l'AI Act.",
+      },
+      {
+        question: "Quels sont les contrôles CNIL prévus en 2026 sur l'IA ?",
+        answer: "La CNIL a publié ses contrôles prioritaires 2026 le 3 avril 2026. Parmi les trois thématiques retenues figure le recrutement et les systèmes de décision automatisée en RH. La CNIL a indiqué que cette thématique 'préfigurera l'exercice par la CNIL de ses futures attributions en tant qu'autorité de surveillance de marché dans le champ travail au titre du règlement sur l'intelligence artificielle'. Les contrôles ciblent d'abord les grandes entreprises et les cabinets de recrutement, mais établiront la jurisprudence applicable aux PME dès 2027.",
+      },
+    ],
+    howTo: {
+      name: "Comment constituer un dossier de conformité Article 4 AI Act opposable",
+      description: "Les 4 livrables qu'un audit IA externe produit pour constituer un dossier Article 4 défendable face à une autorité de contrôle (CNIL, DGCCRF, ARCOM).",
+      totalTime: "PT5D",
+      steps: [
+        {
+          name: "Cartographier les usages IA par poste",
+          text: "Documenter pour chaque poste les systèmes IA utilisés, la fréquence d'usage, le degré d'autonomie et le niveau de risque selon l'Annexe III de l'AI Act.",
+        },
+        {
+          name: "Établir le scoring de maturité par fonction",
+          text: "Mesurer l'écart entre le niveau de compétence effective actuel et le niveau requis compte tenu du profil de risque de chaque usage IA identifié.",
+        },
+        {
+          name: "Formaliser le plan de remédiation documenté",
+          text: "Planifier les actions de formation spécifiques par gap identifié, avec échéances, indicateurs de progression et ressources mobilisées.",
+        },
+        {
+          name: "Obtenir le rapport d'audit signé par un tiers indépendant",
+          text: "Faire produire et signer le rapport d'audit par un auditeur externe indépendant pour constituer une pièce opposable à valeur probante devant une autorité de contrôle.",
+        },
+      ],
+    },
+  },
+  {
     slug: "convaincre-codir-investir-ia-pme",
     title: "Convaincre son CODIR d'investir dans l'IA : 5 objections",
     excerpt:
