@@ -176,6 +176,11 @@ export function Footer() {
                   Mentions Légales
                 </Link>
               </li>
+              <li>
+                <Link href="/notice-prospection" className="text-gray-600 hover:text-black transition-colors">
+                  Notice de prospection
+                </Link>
+              </li>
               <li className="mt-4">
                 <CookieSettingsButton className="text-gray-600 hover:text-black bg-transparent hover:bg-gray-100 border-gray-300 text-sm p-2 h-auto" />
               </li>

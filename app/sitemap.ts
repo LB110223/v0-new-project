@@ -39,6 +39,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.5,
     },
     {
+      url: `${baseUrl}/notice-prospection`,
+      lastModified: new Date("2026-07-21"),
+      changeFrequency: "monthly",
+      priority: 0.5,
+    },
+    {
       url: `${baseUrl}/presence-locale`,
       lastModified: dateModified,
       changeFrequency: "weekly",

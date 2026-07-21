@@ -32,6 +32,16 @@ export default function PolitiqueDeConfidentialite() {
               La présente politique de confidentialité décrit comment Smart Impulsion collecte, utilise et protège les
               informations personnelles que vous nous fournissez lorsque vous utilisez notre site web ou nos services.
             </p>
+            <p>
+              Le responsable du traitement est <strong>ADM HOLDING</strong>, société par actions simplifiée (SAS) au
+              capital de 100,00 euros, immatriculée sous le numéro SIREN 933 805 855, dont le siège social est situé au 60
+              rue François Ier, 75008 Paris. « Smart Impulsion » est le nom commercial sous lequel ADM HOLDING exploite
+              son activité. Pour toute question relative à la protection de vos données, vous pouvez nous écrire à{" "}
+              <a href="mailto:laurent@smart-impulsion.com" className="text-orange-700 hover:underline">
+                laurent@smart-impulsion.com
+              </a>
+              .
+            </p>
           </section>
 
           <section className="mb-10">
@@ -64,8 +74,19 @@ export default function PolitiqueDeConfidentialite() {
                 Vous envoyer des emails concernant nos services, des événements ou d'autres informations qui pourraient
                 vous intéresser
               </li>
-              <li>Vous contacter à des fins de marketing, mais uniquement si vous avez donné votre consentement</li>
             </ul>
+            <p>
+              Nous pouvons vous adresser des communications marketing pour lesquelles votre consentement a été recueilli
+              (par exemple une inscription volontaire à notre newsletter). Par ailleurs, nous réalisons de la{" "}
+              <strong>prospection commerciale entre professionnels (B2B)</strong> sur le fondement de notre{" "}
+              <strong>intérêt légitime</strong> (art. 6.1.f RGPD), sur votre adresse professionnelle et pour un objet en
+              lien avec votre fonction ; vous pouvez vous y opposer à tout moment. Les modalités de ce traitement de
+              prospection sont détaillées dans notre{" "}
+              <Link href="/notice-prospection" className="text-orange-700 hover:underline">
+                Notice de prospection commerciale
+              </Link>
+              .
+            </p>
           </section>
 
           <section className="mb-10">
@@ -137,14 +158,27 @@ export default function PolitiqueDeConfidentialite() {
               <li>Droit de rectification des données inexactes</li>
               <li>Droit à l'effacement de vos données</li>
               <li>Droit à la limitation du traitement</li>
-              <li>Droit à la portabilité des données</li>
+              <li>
+                Droit à la portabilité des données, pour les seuls traitements fondés sur votre consentement ou sur
+                l'exécution d'un contrat
+              </li>
               <li>Droit d'opposition au traitement</li>
               <li>Droit de retirer votre consentement à tout moment</li>
             </ul>
             <p>
+              Le <strong>droit à la portabilité</strong> (art. 20 RGPD) s'applique uniquement aux traitements fondés sur
+              le <strong>consentement</strong> ou sur l'<strong>exécution d'un contrat</strong>. Il ne s'applique donc{" "}
+              <strong>pas</strong> aux traitements fondés sur l'intérêt légitime, en particulier à notre prospection
+              commerciale B2B (voir notre{" "}
+              <Link href="/notice-prospection" className="text-orange-700 hover:underline">
+                Notice de prospection commerciale
+              </Link>
+              ).
+            </p>
+            <p>
               Pour exercer ces droits, veuillez nous contacter à l'adresse email suivante :{" "}
-              <a href="mailto:contact@smart-impulsion.com" className="text-orange-700 hover:underline">
-                contact@smart-impulsion.com
+              <a href="mailto:laurent@smart-impulsion.com" className="text-orange-700 hover:underline">
+                laurent@smart-impulsion.com
               </a>
               .
             </p>
@@ -183,10 +217,11 @@ export default function PolitiqueDeConfidentialite() {
           <section>
             <h2 className="text-2xl font-bold text-gray-900 mb-4">10. Contact</h2>
             <p>
-              Si vous avez des questions concernant cette politique de confidentialité, vous pouvez nous contacter à
-              l'adresse email suivante :{" "}
-              <a href="mailto:contact@smart-impulsion.com" className="text-orange-700 hover:underline">
-                contact@smart-impulsion.com
+              Si vous avez des questions concernant cette politique de confidentialité, vous pouvez contacter le
+              responsable du traitement, <strong>ADM HOLDING</strong> (nom commercial : Smart Impulsion), à l'adresse
+              email suivante :{" "}
+              <a href="mailto:laurent@smart-impulsion.com" className="text-orange-700 hover:underline">
+                laurent@smart-impulsion.com
               </a>
               .
             </p>
