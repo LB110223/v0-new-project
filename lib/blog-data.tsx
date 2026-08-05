@@ -35,6 +35,258 @@ export interface BlogArticle {
 
 export const blogArticles: BlogArticle[] = [
   {
+    slug: "ai-act-2-aout-2026-ce-qui-sapplique-pme",
+    title: "AI Act au 2 août 2026 : ce qui s'applique vraiment à votre PME (et ce qui a été repoussé)",
+    excerpt:
+      "L'AI Act n'est pas repoussé. Ce qui s'applique à votre PME depuis le 2 août 2026, ce qui glisse à 2027, et ce que vous devez avoir en dossier.",
+    content: `## Le malentendu sur l'AI Act au 2 août 2026
+
+Depuis le 24 juillet 2026, les titres se multiplient : "l'AI Act repoussé", "Bruxelles recule", "les entreprises ont jusqu'en 2027". Ces formulations sont inexactes. Elles entretiennent une confusion qui peut coûter cher à ceux qui, croyant avoir gagné du temps, ne font rien.
+
+La réalité est plus nuancée. Le **règlement (UE) 2026/1744**, dit "Digital Omnibus on AI", est entré en vigueur le **27 juillet 2026**. Il n'abroge pas l'AI Act. Il le modifie sur des points précis : il reporte certaines obligations très lourdes, allège le texte pour les PME sur quelques dispositions, et clarifie d'autres obligations qui s'appliquent bien à partir du **2 août 2026**.
+
+> "On 27 July 2026, the AI Omnibus enters into force across the EU." Source : Commission européenne, [digital-strategy.ec.europa.eu](https://digital-strategy.ec.europa.eu/en/news/ai-omnibus-enters-force)
+
+Ce que vous devez retenir : au 2 août 2026, certaines obligations sont actives. D'autres ont glissé à 2027 ou 2028. Et une obligation, l'article 4 sur la littératie IA, est applicable depuis le **2 février 2025** (soit 18 mois). Une part des PME ne l'a pas encore pris en compte.
+
+Cet article vous donne la lecture calendaire précise, sans jargon juridique, avec les bons réflexes à avoir en dossier. Pour le cadre général de l'AI Act et ses implications pour les PME, consultez notre guide de référence : [AI Act 2026 : ce que les PME doivent savoir](/blog/ai-act-pme-guide-2026).
+
+
+## La frise chronologique : cinq dates, cinq réalités
+
+Voici le calendrier consolidé après adoption du règlement (UE) 2026/1744. Une ligne par obligation. Une date par obligation.
+
+| Date | Ce qui s'applique | Pour qui |
+|------|-------------------|----------|
+| **2 février 2025** | Pratiques IA interdites (manipulation psychologique, notation sociale...) + article 4 : littératie IA (obligation de moyens) | Tous les fournisseurs et déployeurs de systèmes IA |
+| **2 août 2025** | Règles sur les modèles d'IA à usage général (GPAI, chapitre V) | Fournisseurs de modèles de fondation (modèles de langage, modèles multimodaux) |
+| **2 août 2026** | Transparence (article 50) + gouvernance (AI Office + autorités nationales) + surveillance du marché (chapitre IX) | Déployeurs de systèmes IA interagissant avec des utilisateurs humains |
+| **2 décembre 2027** | Annexe III : systèmes à haut risque autonomes (emploi, crédit, biométrie, santé, éducation...) | Fournisseurs et déployeurs de systèmes haut risque classifiés article 6(2) |
+| **2 août 2028** | Annexe I : systèmes IA intégrés dans des produits physiques (ascenseurs, machines, dispositifs médicaux...) | Fabricants de produits physiques intégrant de l'IA |
+
+Source : règlement (UE) 2024/1689 modifié par le [règlement (UE) 2026/1744](https://eur-lex.europa.eu/eli/reg/2026/1744/oj/eng), article 113 et considérant 40.
+
+Ce tableau répond à 80 % des questions que posent les dirigeants de PME en ce moment. Les sections suivantes détaillent chaque ligne qui vous concerne directement.
+
+
+## Ce qui s'applique depuis le 2 août 2026
+
+### Votre chatbot est-il concerné par l'article 50 ?
+
+L'obligation de transparence est la nouveauté la plus concrète pour les PME au 2 août 2026. **L'article 50 impose d'informer les utilisateurs qu'ils interagissent avec une IA**, obligation active depuis le 2 août 2026. Elle couvre trois situations précises :
+
+- Votre **chatbot** interagit avec des clients ou des salariés : vous devez informer ces personnes qu'elles interagissent avec un système d'IA, pas avec un humain.
+- Votre **assistant vocal ou textuel** génère du contenu pour des tiers : les destinataires doivent savoir que ce contenu est généré par une IA.
+- Votre système produit des **deepfakes** (images, vidéos, sons synthétisés) : l'obligation de marquage s'applique.
+
+La question pratique est simple : avez-vous un système en production qui dialogue directement avec des utilisateurs humains ? Si oui, l'article 50 vous concerne.
+
+> Ce n'est pas une obligation de certification, ni de déclaration auprès d'une autorité. C'est une obligation d'information : vos utilisateurs doivent savoir qu'ils ont affaire à une IA. Un bandeau dans votre interface, une mention dans vos CGU, une notification explicite au démarrage de la session. Les modalités restent flexibles. L'obligation, elle, est réelle.
+
+**Le cas des systèmes déjà en production avant le 2 août 2026**
+
+Le règlement (UE) 2026/1744 a prévu une période de transition. Si vous avez mis votre système sur le marché avant le 2 août 2026, vous bénéficiez d'un délai supplémentaire de **4 mois** pour adapter vos pratiques d'information. Concrètement : échéance au 2 décembre 2026.
+
+Ce délai ne dispense pas de l'obligation. Il vous donne le temps de l'implémenter correctement.
+
+### Gouvernance : l'AI Office et les autorités nationales
+
+Depuis le 2 août 2026, l'**AI Office** de la Commission européenne et les autorités nationales des États membres sont formellement responsables de la mise en œuvre, de la surveillance et de l'application du règlement.
+
+En France, la **CNIL** est en cours de désignation officielle comme autorité de surveillance du marché pour l'AI Act. Cette désignation formelle n'était pas finalisée à la date de publication de cet article, mais les services de la CNIL sont déjà opérationnels sur ces sujets depuis plusieurs mois.
+
+Ce que cela signifie pour vous : il existe désormais un interlocuteur réglementaire identifié, avec des pouvoirs de contrôle réels.
+
+### Surveillance du marché (chapitre IX)
+
+Le chapitre IX du règlement est opérationnel. Les autorités peuvent procéder à des contrôles de conformité sur les systèmes IA en circulation. La probabilité d'un contrôle inopiné dans une PME standard reste faible à court terme : la CNIL a annoncé une posture d'accompagnement prioritaire pour 2026. Mais le cadre juridique des contrôles est actif.
+
+
+## Ce que l'article 4 dit vraiment, et pourquoi vous êtes probablement déjà concerné
+
+### Une obligation active depuis 18 mois
+
+L'article 4 sur la littératie IA s'applique depuis le **2 février 2025**. Cette date n'a pas changé avec le règlement (UE) 2026/1744. Si vous avez suivi des titres annonçant que "tout démarre en août 2026", cette obligation vous a peut-être échappé. Vous n'êtes pas seul dans ce cas.
+
+Selon [l'enquête Bpifrance Le Lab de juin 2025](https://presse.bpifrance.fr/lia-dans-les-pme-et-eti-francaises-une-revolution-tranquille), réalisée auprès de 1 209 dirigeants de PME et ETI entre octobre et décembre 2024, 58 % considèrent l'IA importante pour la pérennité de leur entreprise à 3-5 ans. Mais seulement 43 % ont défini une stratégie IA. L'écart entre perception et action reste réel. L'article 4 s'inscrit dans cet écart.
+
+### Ce que le règlement dit réellement
+
+Le règlement (UE) 2026/1744 a entièrement réécrit l'article 4. Le nouveau texte est plus précis, et plus favorable aux entreprises que l'ancienne rédaction. **L'article 4 est une obligation de moyens en vigueur depuis le 2 février 2025** : vous devez documenter les initiatives de montée en compétence, pas garantir un niveau individuel.
+
+> "This obligation does not require providers or deployers to guarantee any specific level of AI literacy of any individual." Source : Règlement (UE) 2026/1744, [EUR-Lex](https://eur-lex.europa.eu/eli/reg/2026/1744/oj/eng)
+
+Ce que vous devez mettre en place :
+
+- Des **mesures de soutien** au développement des compétences IA de vos équipes et de vos collaborateurs amenés à utiliser des systèmes IA.
+- Ces mesures doivent tenir compte du niveau technique, de l'expérience, de la formation de chacun, et du contexte d'utilisation des systèmes concernés.
+
+Ce que vous n'avez **pas** à faire :
+
+- Certifier vos collaborateurs sur un niveau de maîtrise IA précis.
+- Garantir qu'une personne donnée atteint un seuil de compétence défini.
+- Produire un "dossier de conformité opposable" au sens formel. L'article 4 n'exige pas explicitement ce format.
+
+### Ce que vous devez pouvoir montrer
+
+L'obligation de moyens se documente. Si un contrôle intervient, vous devrez être en mesure de décrire ce que vous avez mis en place : sessions de sensibilisation, formations internes, ressources partagées avec les équipes, politique d'usage des outils IA. Pas un dossier de 200 pages. Un historique des initiatives prises, daté, traçable.
+
+Pour aller plus loin sur le contenu concret de cette obligation : [Littératie IA en PME : ce que l'article 4 de l'AI Act impose](/blog/litteratie-ia-pme-ai-act-article-4). Et si vous vous interrogez sur ce que risque votre PME en l'absence de toute action depuis février 2025 : [Article 4 de l'AI Act : ce que risque votre PME si vous n'avez encore rien fait](/blog/ai-act-article-4-pme-non-conforme-que-risquez-vous).
+
+
+## Ce qui a été repoussé, et pourquoi votre service RH peut respirer jusqu'en 2027
+
+### L'annexe III : les obligations les plus lourdes glissent à décembre 2027
+
+C'est ici que se concentre l'essentiel de la confusion médiatique. **L'annexe III de l'AI Act (emploi, crédit, biométrie) a été reportée au 2 décembre 2027 par le règlement (UE) 2026/1744.** L'annexe III liste les systèmes d'IA classés à haut risque au titre de l'article 6(2). Ces systèmes couvrent :
+
+- La **biométrie** : identification à distance, reconnaissance des émotions
+- L'**éducation** : orientation, évaluation des élèves
+- **L'emploi et les ressources humaines** : tri de CV, présélection de candidats, évaluation des performances, affectation des tâches
+- Les **services essentiels** : scoring crédit, notation pour l'assurance, évaluation de l'éligibilité aux aides sociales
+- La **répression** : analyse de risque, profilage
+- La **migration** : contrôle aux frontières, examen des demandes d'asile
+- La **justice** : aide à la décision judiciaire
+
+Pour ces catégories, la nouvelle date d'applicabilité est le **2 décembre 2027**. Ce report est acté par le règlement (UE) 2026/1744, article 113 et considérant 40. Si vous utilisez un outil de tri de CV, un système de scoring crédit ou une solution d'évaluation des performances, vous n'êtes **pas** soumis aux obligations haut risque au 2 août 2026.
+
+> Source : [règlement (UE) 2026/1744](https://eur-lex.europa.eu/eli/reg/2026/1744/oj/eng), considérant 40. Motif officiel : retards dans l'élaboration des normes harmonisées et dans la désignation des autorités nationales compétentes et des organismes d'évaluation de la conformité.
+
+### L'annexe I glisse à 2028
+
+Les systèmes IA intégrés dans des **produits physiques** (ascenseurs, machines industrielles, dispositifs médicaux, jouets, véhicules) suivent le régime de l'annexe I. Leur date d'application est le **2 août 2028**. Si vous n'êtes pas fabricant de produits physiques intégrant de l'IA, cette annexe ne vous concerne pas.
+
+### Un caveat important sur les sources institutionnelles
+
+Au moment de la publication de cet article, certaines **pages de la CNIL** annoncent encore l'annexe III au 2 août 2026. Ces pages n'ont pas encore été mises à jour pour refléter le report introduit par le règlement (UE) 2026/1744. Ne les utilisez pas comme référence pour votre calendrier de conformité. La source à consulter est EUR-Lex directement : [eur-lex.europa.eu/eli/reg/2026/1744/oj/eng](https://eur-lex.europa.eu/eli/reg/2026/1744/oj/eng).
+
+### Ce qui ne bouge pas : les pratiques interdites
+
+Le report de l'annexe III ne concerne pas les pratiques interdites. Les **8 pratiques IA interdites** (manipulation psychologique subliminale, exploitation des vulnérabilités, notation sociale des individus, entre autres) sont applicables depuis le **2 février 2025**. Le report ne les efface pas.
+
+Si votre système de recommandation ou de scoring utilise des techniques de manipulation comportementale à l'insu des utilisateurs, vous êtes hors cadre légal depuis 18 mois. Ce sujet ne bénéficie d'aucun report.
+
+
+## Ce que vous devez avoir en dossier : 3 questions pratiques
+
+Le 2 août 2026 ne déclenche pas de procédure administrative automatique. Il n'y a pas de formulaire à remplir, pas de registre à soumettre. Mais si votre DPO, votre conseil juridique ou un contrôleur de la CNIL vous posait les questions suivantes, seriez-vous en mesure de répondre ?
+
+**Question 1 : Avez-vous un inventaire des systèmes IA en production qui interagissent avec des humains ?**
+
+C'est la base pour l'obligation de transparence (article 50). Un tableur suffit : nom du système, usage, population concernée (clients, salariés, fournisseurs), date de mise en production, mention d'information en place ou à déployer avant le 2 décembre 2026.
+
+**Question 2 : Avez-vous documenté vos initiatives de montée en compétence IA depuis février 2025 ?**
+
+C'est la base pour l'article 4. Un email de formation envoyé à vos équipes en mars 2025, une session de sensibilisation interne, un accès à une ressource pédagogique partagée. Si vous l'avez fait, documentez-le. Si vous n'avez rien fait depuis 18 mois, il est temps d'agir et de commencer à tracer.
+
+**Question 3 : Avez-vous un interlocuteur désigné pour les questions de conformité IA dans votre organisation ?**
+
+Ce n'est pas une obligation légale explicite au 2 août 2026. C'est du bon sens opérationnel. Cette personne n'a pas besoin d'être un juriste. Un directeur des opérations, un DPO existant, ou un référent IA suffit pour ce stade.
+
+### Ce que vous n'avez pas à produire avant 2027
+
+Pour éviter toute disproportion de l'effort :
+
+- Pas de **dossier technique complet** au format annexe III
+- Pas d'**enregistrement dans la base de données UE** des systèmes à haut risque
+- Pas d'**audit tierce partie** obligatoire au titre du haut risque
+- Pas de **désignation d'un représentant autorisé** pour des systèmes importés de pays tiers (sauf si vous êtes importateur et que les systèmes tombent dans d'autres catégories actives)
+
+Pour aller plus loin sur les livrables concrets d'un dossier de conformité : [Audit IA externe et Article 4 : les 4 livrables d'un dossier opposable](/blog/audit-ia-dossier-conformite-article-4-ai-act-pme).
+
+
+## La CNIL en 2026 : accompagnement avant contrôle
+
+La CNIL a publié son programme de travail 2026 avec un positionnement clair : **accompagner en priorité, contrôler de façon ciblée**. Selon ce programme, l'objectif est de "concilier accompagner l'innovation et la transformation des entreprises et des administrations, tout en maintenant un haut niveau de confiance dans les usages de l'IA."
+
+Pour les PME, cela se traduit par plusieurs ressources disponibles :
+
+- Des fiches pratiques IA publiées sur cnil.fr
+- Des guides sur l'articulation RGPD / AI Act
+- Des partenariats avec France Num et des organisations professionnelles
+
+Les **priorités de contrôle 2026** de la CNIL sont orientées vers les secteurs santé, RH et services essentiels. Ces contrôles ciblent principalement les fournisseurs de systèmes à haut risque, pas les PME déployeuses. Si vous utilisez un outil de recrutement assisté par IA acheté à un éditeur tiers, c'est l'éditeur qui est en première ligne pour les obligations haut risque (lesquelles, rappelons-le, ne s'appliquent qu'à partir de décembre 2027).
+
+La CNIL reste néanmoins l'interlocuteur à solliciter si vous avez des doutes sur la frontière RGPD / AI Act. Les deux textes se superposent sur de nombreux traitements de données personnelles.
+
+
+## Ce que cela signifie pour vous en pratique
+
+Le contexte de fond est connu. Selon l'[enquête INSEE TIC Entreprises 2024](https://www.insee.fr/fr/statistiques/8616837), 10 % des entreprises françaises de 10 salariés ou plus déclarent utiliser une technologie d'IA en 2024, contre 6 % en 2023. Chez les PME de 10 à 49 salariés, ce taux atteint 9 %. Côté TPE, le Baromètre France Num 2025 (Crédoc) recense 26 % des TPE-PME utilisant l'IA fin 2024, soit un doublement en un an.
+
+Ces chiffres signifient que des centaines de milliers d'entreprises françaises utilisent déjà des systèmes IA, souvent sans avoir cartographié ces usages ni engagé le moindre travail de conformité.
+
+L'AI Act ne demande pas à une PME d'embaucher un juriste dédié ni d'investir des dizaines de milliers d'euros. Il demande trois choses raisonnables :
+
+1. Savoir **quels systèmes IA** vous utilisez et avec qui ils interagissent
+2. Avoir **commencé à faire monter en compétence** vos équipes sur l'IA depuis février 2025
+3. **Informer** vos utilisateurs qu'ils interagissent avec une IA quand c'est le cas
+
+Si vous n'avez pas encore structuré cet inventaire, c'est précisément ce que couvre l'**Audit IA Express** de Smart Impulsion. En trois jours de travail conjoint, nous cartographions vos systèmes IA en production, identifions ceux qui tombent sous l'article 50, et documentons vos initiatives au titre de l'article 4 dans un format utilisable. Pas un rapport de 80 pages. Un dossier opérationnel, adapté à la taille et au contexte de votre organisation.
+
+Pour en savoir plus : [Audit IA Express](/services/audit).
+
+
+## Ce qu'il faut retenir : l'essentiel en 4 points
+
+Pour les dirigeants de PME qui ont besoin d'un résumé clair avant d'agir :
+
+1. **L'AI Act n'est pas repoussé.** Le règlement (UE) 2026/1744 modifie le calendrier sur certains points, il ne supprime pas les obligations. L'article 50 (transparence) est actif depuis le 2 août 2026.
+
+2. **L'article 4 est en vigueur depuis 18 mois.** Si vous n'avez documenté aucune initiative de montée en compétence IA depuis février 2025, vous avez du retard. Pas de sanction immédiate, mais il est temps d'agir.
+
+3. **L'annexe III (tri de CV, scoring crédit, biométrie) ne s'applique qu'au 2 décembre 2027.** Votre service RH n'est pas concerné par les obligations haut risque aujourd'hui.
+
+4. **Ce qu'il faut avoir en dossier maintenant :** un inventaire de vos systèmes IA en contact avec des utilisateurs humains, et une trace des initiatives de formation ou sensibilisation IA menées depuis début 2025.
+
+
+## Questions fréquentes sur l'AI Act au 2 août 2026
+
+### L'AI Act est-il repoussé ?
+
+Non. Une partie s'applique depuis le 2 août 2026 : l'obligation de transparence (article 50), la gouvernance (AI Office, autorités nationales) et la surveillance du marché (chapitre IX). C'est l'annexe III, qui couvre les systèmes à haut risque comme le tri de CV ou le scoring crédit, qui a été décalée au 2 décembre 2027 par le règlement (UE) 2026/1744.
+
+### Mon chatbot client est-il concerné au 2 août 2026 ?
+
+Oui, si votre chatbot interagit directement avec des utilisateurs humains. L'article 50 exige que vous les informiez qu'ils interagissent avec une IA. Les systèmes mis sur le marché avant le 2 août 2026 bénéficient d'un délai transitoire de 4 mois (échéance : 2 décembre 2026).
+
+### Dois-je garantir un niveau de littératie IA à mes équipes ?
+
+Non. L'article 4 est une obligation de moyens, pas de résultat. Le règlement (UE) 2026/1744 précise que vous n'êtes pas tenu de garantir un niveau de littératie spécifique par individu. Vous devez documenter les initiatives mises en place (formations, sensibilisations, ressources partagées), pas produire des certifications individuelles.
+
+### Mon outil de tri de CV est-il concerné au 2 août 2026 ?
+
+Non. L'annexe III de l'AI Act, qui couvre les systèmes à haut risque dans l'emploi (tri de CV, recrutement, évaluation des performances), a été reportée au 2 décembre 2027. Contrairement à ce qu'indiquent encore certaines pages institutionnelles, ces obligations ne s'appliquent pas au 2 août 2026. La source de référence est EUR-Lex, pas les pages CNIL qui n'ont pas encore été mises à jour.
+
+
+*Sources : règlement [(UE) 2026/1744](https://eur-lex.europa.eu/eli/reg/2026/1744/oj/eng) (Digital Omnibus on AI, entré en vigueur le 27 juillet 2026) ; [INSEE, Enquête TIC Entreprises 2024](https://www.insee.fr/fr/statistiques/8616837) ; [Bpifrance Le Lab, L'IA dans les PME et ETI françaises, juin 2025](https://presse.bpifrance.fr/lia-dans-les-pme-et-eti-francaises-une-revolution-tranquille) ; Baromètre France Num 2025 (Crédoc) ; Commission européenne, [AI Omnibus enters into force](https://digital-strategy.ec.europa.eu/en/news/ai-omnibus-enters-force).*`,
+    author: "Laurent Bouzon",
+    date: "5 aout 2026",
+    dateISO: "2026-08-05",
+    readTime: "9 min",
+    category: "Compliance & AI Act",
+    image: "/ai-act-2-aout-2026-ce-qui-sapplique-pme-hero.png",
+    imageAlt: "Image d'illustration pour l'article \"AI Act au 2 août 2026 : ce qui s'applique vraiment à votre PME (et ce qui a été repoussé)\"",
+    faq: [
+      {
+        question: "L'AI Act est-il repoussé ?",
+        answer: "Non. Une partie s'applique depuis le 2 août 2026 (transparence article 50, gouvernance, surveillance du marché). C'est l'annexe III (systèmes à haut risque comme le tri de CV ou le crédit) qui a été décalée au 2 décembre 2027 par le règlement (UE) 2026/1744.",
+      },
+      {
+        question: "Mon chatbot client tombe-t-il sous l'AI Act au 2 août 2026 ?",
+        answer: "Oui, si votre chatbot interagit directement avec des utilisateurs humains. L'obligation de transparence (article 50) exige que vous informiez vos utilisateurs qu'ils interagissent avec une IA. Les systèmes mis sur le marché avant le 2 août 2026 bénéficient d'un délai transitoire de 4 mois.",
+      },
+      {
+        question: "Dois-je garantir un niveau de littératie IA à mes équipes ?",
+        answer: "Non. L'article 4 (en vigueur depuis le 2 février 2025) est une obligation de moyens, pas de résultat. Le règlement (UE) 2026/1744 précise explicitement que vous n'êtes pas tenu de garantir un niveau de littératie spécifique par individu. Vous devez documenter les initiatives mises en place, pas produire des certifications.",
+      },
+      {
+        question: "Mon outil de tri de CV est-il concerné au 2 août 2026 ?",
+        answer: "Non. L'annexe III de l'AI Act, qui couvre les systèmes à haut risque dans l'emploi (tri de CV, recrutement, évaluation des performances), a été reportée au 2 décembre 2027 par le règlement (UE) 2026/1744. Contrairement à ce qu'indiquent encore certaines pages institutionnelles, ces obligations ne s'appliquent pas au 2 août 2026.",
+      },
+    ],
+  },
+  {
     slug: "audit-ia-dossier-conformite-article-4-ai-act-pme",
     title: "Audit IA externe et Article 4 : les 4 livrables d'un dossier opposable",
     seoTitle: "Article 4 AI Act : les 4 livrables d'un audit IA externe pour PME",
