@@ -35,6 +35,250 @@ export interface BlogArticle {
 
 export const blogArticles: BlogArticle[] = [
   {
+    slug: "ia-production-industrielle-pme",
+    title: "IA en production : 3 cas d'usage pour PME industrielle",
+    excerpt:
+      "Quels cas d'usage IA sont réellement accessibles à une PME industrielle : qualité, maintenance, planification, prérequis data et ordre de démarrage.",
+    content: `Seulement 7 % des entreprises de l'industrie manufacturière française utilisaient l'IA en 2024, selon l'enquête [TIC entreprises de l'INSEE](https://www.insee.fr/fr/statistiques/8616837). C'est deux fois moins que la moyenne tous secteurs confondus (10 %). Pourtant, parmi celles qui ont franchi le pas, 27 % l'appliquent directement à la production ou aux services.
+
+Cet écart entre adoption globale et usage production révèle quelque chose d'important : les PME industrielles ne manquent pas de cas d'usage potentiels. Elles manquent de méthode pour savoir lequel est activable avec leurs données actuelles.
+
+Ce guide part d'un constat de terrain : avant de choisir un cas d'usage IA en production, un dirigeant de PME industrielle doit d'abord regarder l'état de ses données. La question n'est pas "quelle IA déployer ?" mais "quelles données avez-vous, et que permettent-elles ?"
+
+Trois cas d'usage couvrent l'essentiel des projets en atelier pour une PME : la maintenance prédictive, le contrôle qualité par vision, et l'ordonnancement. Chacun a ses prérequis data. L'ordre dans lequel vous pouvez les activer dépend de votre maturité actuelle.
+
+## Avant les cas d'usage : l'auto-diagnostic data de votre atelier
+
+La plupart des discussions sur l'IA en production démarrent par la technologie. C'est à rebours. La bonne question est celle-ci : de quelles données disposez-vous, dans quel état, avec quelle profondeur historique ?
+
+> Un projet IA en production commence toujours par un audit data, pas par un choix technologique. Sans données structurées, il n'y a rien à modéliser.
+
+### Les trois familles de données qui conditionnent tout
+
+Trois familles de données déterminent quels cas d'usage sont activables dans votre atelier :
+
+- **Données capteurs** : vibrations, températures, pressions, courants électriques sur vos équipements. La question clé : sont-elles horodatées et enregistrées quelque part depuis plus d'un an ?
+- **Données qualité** : images de pièces, mesures dimensionnelles, fiches de non-conformité, historique de rebuts. La question clé : y a-t-il un volume de pièces suffisant, conformes et non conformes, pour entraîner un modèle ?
+- **Données de planification** : ordres de fabrication, gammes opératoires, capacités machines, délais. La question clé : ces données sont-elles dans un outil numérique (ERP, MES) ou sur des fichiers Excel épars ?
+
+### Ce que révèle le diagnostic
+
+Voici ce que l'on observe systématiquement lors d'un diagnostic dans une PME industrielle :
+
+- Les données capteurs existent mais ne sont pas historisées : les machines transmettent des alertes en temps réel, sans enregistrement structuré.
+- Les non-conformités sont tracées à la main sur papier, pas numérisées.
+- L'ERP est présent mais mal alimenté : les temps réels de production ne sont pas saisis, les gammes ne sont pas à jour.
+
+> Signal d'alerte : si vos données de production tiennent principalement dans des classeurs papier ou des fichiers Excel fragmentés, aucun des trois cas d'usage IA n'est activable immédiatement. La priorité est alors la structuration des données, pas l'IA.
+
+L'INSEE note que les entreprises de 250 salariés et plus utilisent l'IA à 33 %, contre seulement 9 % pour les PME de 10 à 49 salariés. Cet écart reflète en partie la maturité data : les grandes structures ont souvent des systèmes d'information plus intégrés, pas nécessairement plus de projets IA pertinents.
+
+Pour aller plus loin sur la méthode de priorisation, vous pouvez consulter [comment prioriser ses projets IA en PME](/blog/prioriser-projets-ia-pme) avant de valider votre cas d'usage.
+
+## Maintenance prédictive : le cas qui nécessite le plus de données
+
+La maintenance prédictive est souvent présentée comme le cas d'usage IA "évident" en industrie. C'est aussi celui qui exige le plus de données préalables, et celui qui est le plus souvent vendu à des PME qui ne remplissent pas encore les prérequis.
+
+### Ce que ça fait concrètement
+
+**Qu'est-ce que la maintenance prédictive par IA ?** C'est une approche qui utilise les données capteurs de vos équipements (vibrations d'un moteur, température d'un palier, courant électrique d'une presse) pour détecter les signatures annonçant une défaillance avant qu'elle survienne. Contrairement à la maintenance préventive (qui suit un calendrier fixe), la maintenance prédictive intervient uniquement quand les données signalent un risque réel. L'objectif : planifier l'intervention avant la panne, pas après.
+
+Selon McKinsey (*Unlocking the industrial potential of robotics and automation*, 2023), la maintenance prédictive peut réduire les coûts de maintenance de 10 à 40 % et les temps d'immobilisation non planifiés de 50 à 70 %. Ces ordres de grandeur s'appliquent à des contextes où les prérequis data sont remplis.
+
+### Les prérequis non négociables
+
+Pour qu'un modèle de maintenance prédictive soit fiable, il faut :
+
+- **12 à 18 mois d'historique capteurs** minimum, enregistré de façon continue et horodatée
+- **Un historique de pannes documenté** : dates d'intervention, nature de la défaillance, pièces remplacées
+- **Des capteurs IoT installés** sur les équipements critiques, avec connectivité réseau
+- **Des machines suffisamment instrumentées** : une presse sans aucun capteur ne peut pas faire l'objet d'un projet prédictif sans investissement préalable en instrumentation
+
+### Pourquoi c'est souvent prématuré pour une PME
+
+La question que pose le terrain est simple : depuis quand avez-vous des capteurs connectés et des données enregistrées sur vos équipements ?
+
+Si la réponse est "on n'a pas de capteurs" ou "les données ne sont pas archivées", alors ce cas d'usage est à reporter. Acheter un logiciel de maintenance prédictive sans historique reviendrait à essayer de prédire la météo avec les relevés d'une seule journée.
+
+> La maintenance prédictive est le cas d'usage IA le plus puissant en production... et celui qui met le plus de temps à devenir activable pour une PME sans infrastructure capteurs existante. Ne commencez pas par là si vous partez de zéro.
+
+L'investissement préliminaire en instrumentation (capteurs IoT, connectivité réseau, plateforme de collecte de données) se situe, à titre d'ordre de grandeur, entre 20 000 et 80 000 euros pour une PME industrielle selon la taille du parc machines et son niveau d'instrumentation de départ. Et cela, avant même de parler d'IA. Ce n'est pas un frein définitif, c'est un ordre de démarrage à respecter.
+
+## Contrôle qualité par vision : le plus accessible sans historique long
+
+Le contrôle qualité par vision artificielle est le cas d'usage qui présente le meilleur rapport accessibilité/impact pour une PME industrielle. Il ne requiert pas d'historique long et peut être déployé à partir d'un volume de production existant.
+
+### Ce que ça fait concrètement
+
+**Qu'est-ce que le contrôle qualité par vision artificielle ?** C'est un système composé de caméras industrielles positionnées en ligne de production, couplées à un modèle IA entraîné à reconnaître les pièces conformes et non conformes. Le modèle analyse chaque image capturée en temps réel et détecte les défauts visuels : rayures, bavures, mauvais positionnement d'un composant, manque de matière, déformation de surface. Quand un défaut est détecté, le système déclenche une alerte ou rejette automatiquement la pièce, sans intervention humaine systématique.
+
+Ce qui distingue la vision artificielle des autres cas d'usage IA en production : elle s'entraîne sur des données que vous créez au démarrage du projet (images de pièces), pas sur un historique que vous devez avoir accumulé pendant des années.
+
+### Preuve terrain : L'Atelier du Laser
+
+L'Atelier du Laser, PME spécialisée dans la découpe métal à Beaumont-lès-Valence, a déployé un système de vision artificielle et réduit ses non-conformités expédiées de 40 %. Ce résultat, documenté par le Campus Numérique Auvergne-Rhône-Alpes (programme Indus25, 2025), illustre ce qu'une PME avec un processus de production répétitif peut obtenir sans être une grande entreprise.
+
+### Les prérequis pour ce cas d'usage
+
+La liste des prérequis est nettement plus courte que pour la maintenance prédictive :
+
+- **Un processus de production répétitif** : des pièces identiques ou des familles de pièces proches
+- **Un volume suffisant** : idéalement plusieurs centaines de pièces par référence, conformes et non conformes, pour entraîner le modèle initial
+- **Un emplacement de contrôle défini** : un poste ou une étape du flux où la caméra peut capturer la pièce dans des conditions d'éclairage stables
+- **Des défauts visuels** : si le défaut n'est pas visible (défaut interne, dimensionnel sans écart visuel), la vision ne suffit pas seule
+
+### Ce que ne requiert pas ce cas d'usage
+
+- Pas d'historique capteurs de 12 mois
+- Pas d'ERP ou de MES
+- Pas d'infrastructure IoT complexe
+
+Le projet peut démarrer avec une phase de collecte d'images de 4 à 8 semaines, puis un pilote sur une ligne. C'est pour cette raison que le contrôle qualité par vision est souvent recommandé comme premier cas d'usage IA en atelier pour une PME.
+
+Pour une lecture complémentaire sur l'automatisation des processus industriels au-delà de la qualité, l'article sur [l'automatisation des processus par l'IA](/blog/automatisation-processus-ia-guide-pratique) donne un cadre utile.
+
+## Ordonnancement IA : le cas le plus sous-estimé
+
+L'ordonnancement est rarement cité en premier quand on parle d'IA en production. C'est pourtant un cas d'usage à fort impact pour une PME dont le planning est géré manuellement ou sur Excel.
+
+### Ce que ça fait concrètement
+
+**Qu'est-ce que l'ordonnancement IA ?** C'est un outil d'optimisation qui prend en entrée vos ordres de fabrication, vos gammes (séquence d'opérations, temps opératoires par poste), vos capacités machines disponibles et vos contraintes de délais clients. Son algorithme génère un planning optimisé qui minimise les temps d'attente entre opérations, réduit les en-cours et respecte les priorités de livraison. Le planning se recalcule automatiquement dès qu'un aléa survient : panne, commande urgente, absence opérateur.
+
+Pour une PME travaillant à la commande avec des délais courts et des gammes variées, l'ordonnancement manuel mobilise souvent 4 à 8 heures par semaine d'un responsable de production. Et le résultat reste sous-optimal dès que l'aléa apparaît. L'ordonnancement IA réduit ce temps de planification et améliore le taux de service client.
+
+### Les prérequis ERP/MES
+
+C'est ici que la condition sine qua non s'impose : l'ordonnancement IA nécessite un ERP ou un MES correctement alimenté.
+
+- **Gammes opératoires à jour** dans le système : si les gammes sont dans la tête des opérateurs ou sur des fiches papier, l'IA ne peut rien planifier
+- **Temps opératoires fiables** : les temps standards doivent être renseignés et régulièrement calibrés avec les temps réels
+- **Capacités machines déclarées** : nombre de postes, disponibilité, équipes
+- **Ordres de fabrication saisis** dans l'outil, pas sur un tableau blanc
+
+### Un cas d'usage souvent bloqué par la qualité des données ERP
+
+Dans la pratique, c'est le cas le plus fréquent observé en diagnostic : l'ERP existe, mais les gammes datent de trois ans et les temps opératoires ne sont jamais mis à jour. Dans ce cas, l'ordonnancement IA produit un planning aussi mauvais que les données qu'on lui fournit.
+
+> Avant d'investir dans un outil d'ordonnancement IA, vérifiez l'état de vos données ERP. Un audit data prend généralement deux à trois jours. C'est moins coûteux que de déployer un outil sur des données inexploitables.
+
+L'ordonnancement IA est donc le cas d'usage qui demande la maturité ERP la plus élevée. C'est aussi celui dont le ROI peut être le plus rapide une fois les données en ordre, car le gain opérationnel est immédiatement mesurable en réduction de délais et en taux de service. Pour comparer ces niveaux de ROI selon votre secteur, l'article [benchmark ROI IA par secteur PME](/blog/benchmark-roi-ia-secteur-pme) donne des repères chiffrés utiles.
+
+## Par quel cas commencer : la règle des trois paliers
+
+La question que pose chaque dirigeant après ce panorama est la même : par où commencer ?
+
+La réponse tient en trois paliers, définis non pas par la sophistication technologique mais par vos données actuelles.
+
+### Palier 1 : vous avez des volumes de production répétitifs mais peu de données structurées
+
+**Cas d'usage recommandé : contrôle qualité par vision.**
+
+Vous n'avez pas besoin d'historique long ni d'ERP connecté. Démarrez par une phase de collecte d'images sur 6 à 8 semaines, puis un pilote sur une référence produit à fort volume de non-conformités.
+
+Conditions à réunir :
+- Identifier le poste de contrôle visuel actuel
+- Définir les typologies de défauts à détecter
+- Prévoir un point d'éclairage stable pour la caméra
+
+### Palier 2 : vous avez des capteurs connectés et un historique de pannes
+
+**Cas d'usage recommandé : maintenance prédictive sur vos équipements critiques.**
+
+Si vos capteurs enregistrent des données depuis plus d'un an et que vos interventions de maintenance sont tracées, vous avez le socle nécessaire. La première étape est l'inventaire et la qualification de cet historique avant de choisir un fournisseur.
+
+### Palier 3 : vous avez un ERP alimenté avec des gammes fiables
+
+**Cas d'usage recommandé : ordonnancement IA.**
+
+Si vos gammes et temps opératoires sont à jour dans votre ERP, un projet d'ordonnancement peut démarrer rapidement. L'enjeu est moins la donnée que l'intégration avec votre outil de gestion existant.
+
+> Règle pratique : ne tentez pas de mener les trois projets en parallèle. Choisissez le palier où vous êtes, déployez un pilote mesurable, puis passez au suivant. Les PME qui réussissent en IA industrielle avancent par étapes séquencées, pas par transformation globale.
+
+Selon [Bpifrance Le Lab](https://lelab.bpifrance.fr/) (baromètre PME/ETI, juin 2025, 1 200 dirigeants interrogés), 58 % des dirigeants considèrent l'IA comme un enjeu de survie pour leur entreprise, mais seulement 32 % l'utilisent effectivement dans leur organisation. Cet écart entre conviction et passage à l'acte s'explique souvent par l'absence de méthode pour qualifier le premier projet.
+
+L'article sur [les cas d'usage IA en PME par métier](/blog/cas-usage-ia-pme-par-metier) donne un panorama plus large, utile pour situer les cas d'usage production dans l'ensemble de vos fonctions.
+
+## Questions fréquentes
+
+### Par où commencer l'IA en production quand on est une PME ?
+
+Commencez par un diagnostic de vos données : avez-vous un volume de pièces suffisant pour entraîner un modèle de vision, des capteurs connectés avec au moins 12 mois d'historique, un ERP alimenté ? La réponse à ces trois questions détermine lequel des trois cas d'usage est activable en premier. Si vous répondez non aux trois, la priorité est la structuration des données, pas le projet IA.
+
+### Faut-il avoir un ERP ou MES pour déployer l'IA en production ?
+
+Pas pour tous les cas d'usage. Le contrôle qualité par vision fonctionne sans ERP. La maintenance prédictive nécessite un historique capteurs, pas nécessairement un ERP. En revanche, l'ordonnancement IA est inactivable sans ERP ou MES correctement alimenté, avec des gammes et des capacités à jour.
+
+### Combien de temps d'historique faut-il pour la maintenance prédictive IA ?
+
+En règle générale, 12 à 18 mois d'historique capteurs sont nécessaires pour que le modèle apprenne les signatures de défaillance propres à vos équipements. En dessous de cette durée, le modèle ne dispose pas de suffisamment d'exemples de comportements anormaux pour être fiable.
+
+### Le contrôle qualité par vision est-il accessible aux PME ?
+
+Oui. C'est précisément le cas d'usage le plus accessible pour une PME industrielle. Un pilote peut être lancé en 8 à 12 semaines dès lors que vous avez un processus répétitif et un volume de pièces documenté. L'Atelier du Laser en est un exemple concret avec 40 % de non-conformités expédiées en moins.
+
+### Comment savoir si mes données sont suffisantes pour l'IA ?
+
+Trois questions pratiques : vos capteurs enregistrent-ils des données horodatées depuis plus d'un an ? Avez-vous un historique structuré des pannes et interventions ? Vos ordres de fabrication sont-ils saisis dans un outil numérique ? Si vous répondez non aux trois, commencez par un audit data avant d'investir dans un projet IA.
+
+### Maintenance prédictive ou maintenance préventive : quelle différence ?
+
+La maintenance préventive suit un calendrier fixe, indépendamment de l'état réel de la machine. La maintenance prédictive utilise les données capteurs pour anticiper la défaillance avant qu'elle survienne. L'IA s'applique à la maintenance prédictive : elle détecte des anomalies dans les données capteurs avant que la panne se produise, permettant d'intervenir au bon moment, ni trop tôt ni trop tard.
+
+## Passez de la théorie à l'action
+
+Le point de blocage le plus fréquent dans les PME industrielles n'est pas le budget ni la technologie. C'est l'absence de diagnostic précis sur l'état des données de production.
+
+Avant de choisir un prestataire ou un outil, trois questions méritent une réponse documentée :
+
+1. Vos données capteurs sont-elles historisées et accessibles ?
+2. Vos données qualité sont-elles numérisées et structurées ?
+3. Votre ERP est-il alimenté avec des données fiables sur vos gammes et capacités ?
+
+Si vous avez des doutes sur l'une de ces trois réponses, un audit structuré de vos données de production est la première étape. C'est ce que couvre l'Audit IA Express : en deux à trois jours, il identifie quels cas d'usage sont activables immédiatement, lesquels nécessitent un travail préalable sur les données, et dans quel ordre avancer.
+
+Pour comprendre ce que comprend concrètement un audit, l'article sur [le premier projet IA en PME](/blog/premier-projet-ia-pme) donne les repères utiles avant de franchir ce pas.
+
+[En savoir plus sur l'audit IA express](/services/audit)`,
+    author: "Laurent Bouzon",
+    date: "6 aout 2026",
+    dateISO: "2026-08-06",
+    readTime: "12 min",
+    category: "Cas d'usage",
+    image: "/ia-production-industrielle-pme-hero.png",
+    imageAlt: "Image d'illustration pour l'article \"IA en production : 3 cas d'usage pour PME industrielle\"",
+    faq: [
+      {
+        question: "Par où commencer l'IA en production quand on est une PME ?",
+        answer: "Commencez par un diagnostic de vos données : avez-vous un volume de pièces suffisant pour entraîner un modèle de vision, des capteurs connectés avec au moins 12 mois d'historique, un ERP ou MES alimenté ? La réponse à ces trois questions détermine lequel des trois cas d'usage (qualité, maintenance, ordonnancement) est activable en premier.",
+      },
+      {
+        question: "Faut-il avoir un ERP ou MES pour déployer l'IA en production ?",
+        answer: "Pas pour tous les cas d'usage. Le contrôle qualité par vision fonctionne sans ERP, à partir des seules images capturées en ligne de production. En revanche, l'ordonnancement IA nécessite des données de gamme, de capacité et de charge issues d'un ERP ou d'un MES correctement alimenté.",
+      },
+      {
+        question: "Combien de temps d'historique faut-il pour la maintenance prédictive IA ?",
+        answer: "En règle générale, 12 à 18 mois d'historique capteurs sont nécessaires pour entraîner un modèle de maintenance prédictive fiable. Sans cet historique, l'IA ne peut pas apprendre les signatures de défaillance propres à vos équipements.",
+      },
+      {
+        question: "Le contrôle qualité par vision est-il accessible aux PME ?",
+        answer: "Oui, c'est précisément le cas d'usage le plus accessible. Il ne requiert pas d'historique long : l'IA s'entraîne sur les images de pièces conformes et non conformes. Une PME avec un volume de production régulier et un poste de contrôle défini peut démarrer avec un projet pilote en 8 à 12 semaines.",
+      },
+      {
+        question: "Quel est le ROI réaliste d'un projet IA en production pour une PME ?",
+        answer: "Les résultats varient selon le cas d'usage et la maturité data. L'Atelier du Laser (PME de découpe métal) a réduit ses non-conformités expédiées de 40 % grâce à la vision artificielle. La maintenance prédictive peut réduire les coûts de maintenance de 10 à 40 % selon McKinsey. Ces chiffres restent des ordres de grandeur : le ROI réel dépend de votre situation de départ.",
+      },
+      {
+        question: "Comment savoir si mes données sont suffisantes pour l'IA ?",
+        answer: "Trois questions pratiques : vos capteurs enregistrent-ils des données horodatées depuis plus d'un an ? Avez-vous un historique des pannes et interventions de maintenance ? Vos ordres de fabrication sont-ils saisis dans un outil numérique ? Si vous répondez non aux trois, commencez par structurer vos données avant d'investir dans un projet IA.",
+      },
+      {
+        question: "Maintenance prédictive ou maintenance préventive : quelle différence ?",
+        answer: "La maintenance préventive suit un calendrier fixe (révision tous les X cycles), indépendamment de l'état réel de l'équipement. La maintenance prédictive utilise les données capteurs en temps réel pour anticiper la défaillance avant qu'elle survienne, ce qui réduit les interventions inutiles et les arrêts non planifiés. L'IA s'applique à la maintenance prédictive, pas à la maintenance préventive au sens strict.",
+      },
+    ],
+  },
+  {
     slug: "ai-act-2-aout-2026-ce-qui-sapplique-pme",
     title: "AI Act au 2 août 2026 : ce qui s'applique vraiment à votre PME (et ce qui a été repoussé)",
     excerpt:
