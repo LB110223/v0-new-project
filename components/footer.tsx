@@ -16,6 +16,43 @@ interface GeneralInfo {
   footerText: string
 }
 
+/**
+ * Piliers editoriaux mis en avant dans le pied de page.
+ *
+ * Source de verite : `config/clusters.yaml` (depot content-engine). Cette liste
+ * en est une copie — a resynchroniser si les piliers changent.
+ *
+ * POURQUOI DES PILIERS, ET POURQUOI FIXES
+ * Le pied de page est monte dans `app/layout.tsx` : chacun de ces liens est
+ * repete sur TOUTES les pages du site (~73 URL indexables). C'est, de loin, le
+ * premier emetteur de liens internes du site.
+ *
+ * Deux regles en decoulent :
+ *  1. Une cible repetee 73 fois doit etre une page que l'on veut faire ranker
+ *     durablement — donc un pilier, jamais un article d'actualite. La liste
+ *     precedente pointait vers 4 articles de janvier-fevrier 2026, figes depuis
+ *     le lancement alors que le corpus passait de ~15 a 58 articles.
+ *  2. Cette liste ne doit JAMAIS etre triee par fraicheur. Un pied de page qui
+ *     suivrait les publications rebrasserait le maillage de tout le site chaque
+ *     matin, et aucune page n'accumulerait de capital de liens. La stabilite est
+ *     precisement l'interet des piliers.
+ *
+ * Les 3 piliers P0 disposent d'une route statique dediee sous `app/blog/`, qui
+ * prime sur `[slug]` — l'URL servie est bien `/blog/<slug>` dans les deux cas
+ * (verifie en production).
+ *
+ * Les libelles servent d'ancre de lien : ils portent le sujet de la page cible,
+ * jamais une formule generique type « En savoir plus », qui ne transmettrait
+ * aucun signal sur 73 repetitions.
+ */
+const BLOG_PILLARS: ReadonlyArray<{ slug: string; label: string }> = [
+  { slug: "audit-ia-pme-guide-complet", label: "Audit IA pour PME" },
+  { slug: "roi-intelligence-artificielle-entreprise", label: "ROI de l'IA en entreprise" },
+  { slug: "ia-pour-pme-guide", label: "IA pour PME : par où commencer" },
+  { slug: "cas-usage-ia-pme-par-metier", label: "Cas d'usage IA par métier" },
+  { slug: "ai-act-pme-guide-2026", label: "AI Act : guide conformité PME" },
+]
+
 // Informations générales par défaut
 const defaultGeneralInfo: GeneralInfo = {
   siteTitle: "Smart Impulsion | IA à ROI mesurable pour entreprises françaises",
@@ -135,26 +172,16 @@ export function Footer() {
           <div>
             <h3 className="text-sm font-bold uppercase text-gray-500 mb-4">Blog</h3>
             <ul className="space-y-2">
-              <li>
-                <Link href="/blog/agents-ia-automatisation-nouveau-paradigme-entreprise" className="text-gray-600 hover:text-black transition-colors">
-                  Agents IA et automatisation
-                </Link>
-              </li>
-              <li>
-                <Link href="/blog/agence-ia-comment-choisir-partenaire-transformation" className="text-gray-600 hover:text-black transition-colors">
-                  Comment choisir une agence IA
-                </Link>
-              </li>
-              <li>
-                <Link href="/blog/open-source-llm-decision-strategique" className="text-gray-600 hover:text-black transition-colors">
-                  Open-source LLM
-                </Link>
-              </li>
-              <li>
-                <Link href="/blog/roi-intelligence-artificielle-comment-mesurer" className="text-gray-600 hover:text-black transition-colors">
-                  Mesurer le ROI de l'IA
-                </Link>
-              </li>
+              {BLOG_PILLARS.map((pillar) => (
+                <li key={pillar.slug}>
+                  <Link
+                    href={`/blog/${pillar.slug}`}
+                    className="text-gray-600 hover:text-black transition-colors"
+                  >
+                    {pillar.label}
+                  </Link>
+                </li>
+              ))}
               <li>
                 <Link href="/blog" className="text-gray-600 hover:text-black transition-colors font-medium">
                   Tous les articles
