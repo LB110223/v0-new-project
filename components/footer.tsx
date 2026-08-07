@@ -22,6 +22,15 @@ interface GeneralInfo {
  * Source de verite : `config/clusters.yaml` (depot content-engine). Cette liste
  * en est une copie — a resynchroniser si les piliers changent.
  *
+ * COMPOSITION — arbitree par le seo-geo-strategist le 2026-08-07
+ * (`knowledge/data/audits/2026-08-07-arbitrage-maillage-titres-taxonomie.md`,
+ * decisions inscrites dans clusters.yaml `d13644c`) : les 3 piliers P0, plus
+ * `ai-act-pme-guide-2026` au titre du moat editorial.
+ *
+ * `cas-usage-ia-pme-par-metier` (pilier P1) est volontairement absent de cette
+ * liste : il reste un pilier et sera desservi par le widget en hub-and-spoke,
+ * dont c'est le metier. Le pied de page, lui, concentre — il ne distribue pas.
+ *
  * POURQUOI DES PILIERS, ET POURQUOI FIXES
  * Le pied de page est monte dans `app/layout.tsx` : chacun de ces liens est
  * repete sur TOUTES les pages du site (~73 URL indexables). C'est, de loin, le
@@ -41,6 +50,10 @@ interface GeneralInfo {
  * prime sur `[slug]` — l'URL servie est bien `/blog/<slug>` dans les deux cas
  * (verifie en production).
  *
+ * Ne PAS rendre cette liste contextuelle sans arbitrage editorial : un lien
+ * repete sur toutes les pages ne peut porter aucune pertinence thematique, et
+ * doit viser une page que l'on veut faire ranker pendant des annees.
+ *
  * Les libelles servent d'ancre de lien : ils portent le sujet de la page cible,
  * jamais une formule generique type « En savoir plus », qui ne transmettrait
  * aucun signal sur 73 repetitions.
@@ -49,7 +62,6 @@ const BLOG_PILLARS: ReadonlyArray<{ slug: string; label: string }> = [
   { slug: "audit-ia-pme-guide-complet", label: "Audit IA pour PME" },
   { slug: "roi-intelligence-artificielle-entreprise", label: "ROI de l'IA en entreprise" },
   { slug: "ia-pour-pme-guide", label: "IA pour PME : par où commencer" },
-  { slug: "cas-usage-ia-pme-par-metier", label: "Cas d'usage IA par métier" },
   { slug: "ai-act-pme-guide-2026", label: "AI Act : guide conformité PME" },
 ]
 
