@@ -281,6 +281,7 @@ Pour comprendre ce que comprend concrètement un audit, l'article sur [le premie
   {
     slug: "ai-act-2-aout-2026-ce-qui-sapplique-pme",
     title: "AI Act au 2 août 2026 : ce qui s'applique vraiment à votre PME (et ce qui a été repoussé)",
+    seoTitle: "AI Act 2026 : ce qui s’applique, ce qui est repoussé",
     excerpt:
       "L'AI Act n'est pas repoussé. Ce qui s'applique à votre PME depuis le 2 août 2026, ce qui glisse à 2027, et ce que vous devez avoir en dossier.",
     content: `## Le malentendu sur l'AI Act au 2 août 2026
@@ -2323,6 +2324,7 @@ Smart Impulsion propose un Audit IA Express qui traduit votre ambition IA en gri
   {
     slug: "checklist-article-4-ai-act-pme-aout-2026",
     title: "Checklist Article 4 AI Act PME : 5 livrables à produire en interne",
+    seoTitle: "Article 4 AI Act : la checklist des 5 livrables PME",
     excerpt:
       "J-30 avant la deadline CNIL. La checklist article 4 AI Act PME : 5 livrables à produire en une journée pour prouver votre conformité.",
     content: `# Checklist Article 4 AI Act PME : les 5 livrables de conformité à produire en interne
@@ -5772,6 +5774,7 @@ Pour aller plus loin sur la méthodologie :
   {
     slug: "gouvernance-ia-entreprise-registre-politique-dpo",
     title: "Gouvernance IA en entreprise : registre, politique d'usage et DPO",
+    seoTitle: "Gouvernance IA : registre, politique d’usage et DPO",
     excerpt:
       "Gouvernance IA entreprise : registre IA PME, politique d'usage interne et rôle du DPO face à l'AI Act. Prêt avant août 2026.",
     content: `En 2025, 26% des TPE et PME françaises utilisent l'IA, soit le double de 2024, selon le Baromètre France Num 2025 du Ministère de l'Économie. Mais dans 87% des entreprises, aucune politique interne ne définit les règles d'utilisation de ces outils, selon l'étude YouGov réalisée pour Salesforce auprès de 14 000 salariés dans 14 pays.
@@ -6238,6 +6241,7 @@ Smart Impulsion propose un Audit IA Express qui évalue la maturité data de vot
   {
     slug: "financement-formation-ia-pme-opco-cpf-france-2030",
     title: "Financement formation IA PME : OPCO, CPF, France 2030, guide 2026",
+    seoTitle: "Financer sa formation IA : OPCO, CPF, France 2030",
     excerpt:
       "OPCO, CPF, FNE-Formation, France 2030 : combien coûte la formation IA en PME et comment boucler votre dossier avant la deadline AI Act août 2026 ?",
     content: `# Financement formation IA en PME : OPCO, CPF, France 2030, le guide 2026
@@ -8552,6 +8556,7 @@ Le résultat est directement exploitable pour votre demande de financement OPCO 
   {
     slug: "formation-ia-dirigeants-guide-pratique",
     title: "Formation IA pour dirigeants et équipes : le guide pratique 2026",
+    seoTitle: "Formation IA dirigeants : qui former et à quel budget",
     excerpt:
       "AI Act article 4 : la formation IA dirigeants devient obligatoire en août 2026. Qui former, sur quoi, quel budget ? Le guide pratique pour PME et ETI.",
     content: `# Formation IA pour dirigeants et équipes : le guide pratique 2026
@@ -9655,6 +9660,7 @@ Smart Impulsion propose un Audit IA Express qui identifie le bon premier cas d'u
   {
     slug: "ia-fonction-commerciale-pme-methodologie",
     title: "IA dans la fonction commerciale PME : cas d'usage et méthodologie",
+    seoTitle: "IA dans la fonction commerciale PME : par où commencer",
     excerpt:
       "Deployer l'IA dans la fonction commerciale d'une PME : cas d'usage concrets, outils, methodologie. Approche conseil, pas comparatif editeur.",
     content: `L'IA dans la fonction commerciale PME (son application à la prospection, la préparation de rendez-vous, la rédaction de propositions et le suivi du portefeuille clients) est l'un des domaines où les gains sont les plus visibles, et où les déploiements ratés sont aussi les plus fréquents. En 2024, 28 % des entreprises françaises qui utilisent l'IA la mobilisent pour le marketing ou les ventes, soit une progression de onze points en un an, la plus forte de toutes les finalités recensées par l'INSEE (étude "L'intelligence artificielle dans les entreprises", édition 2025). Ce chiffre est souvent présenté comme un signe de maturité. Il mérite une lecture plus prudente.
