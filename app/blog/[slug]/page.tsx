@@ -9,6 +9,42 @@ interface BlogPostPageProps {
   params: Promise<{ slug: string }>
 }
 
+const BRAND_SUFFIX = " | Smart Impulsion"
+
+// Google tronque la balise <title> autour de 60 caracteres. Au-dela, la fin du
+// titre disparait du resultat de recherche et Google se met frequemment a
+// reecrire le titre lui-meme.
+const TITLE_SOFT_LIMIT = 60
+
+/**
+ * Construit la balise <title> d'un article.
+ *
+ * Ordre de priorite :
+ *  1. `seoTitle` s'il existe — c'est le titre redige pour le referencement, il
+ *     fait autorite et n'est jamais modifie ici.
+ *  2. A defaut, le titre editorial, suffixe de la marque UNIQUEMENT si l'ajout
+ *     tient sous la limite de troncature.
+ *
+ * Le repli precedent (`${title} | Smart Impulsion`, inconditionnel) ajoutait 18
+ * caracteres a des titres editoriaux souvent deja longs : 39 des 41 articles
+ * sans `seoTitle` depassaient 60 caracteres, dont 24 au-dela de 70. La marque
+ * etait donc la premiere chose que Google coupait — elle coutait de la place
+ * sans jamais s'afficher.
+ *
+ * Le titre editorial est renvoye tel quel, jamais tronque : une coupure
+ * mecanique produirait une phrase amputee. Les titres encore trop longs apres
+ * ce repli relevent d'une reecriture editoriale (seo-geo-strategist), pas du
+ * template.
+ */
+function buildPageTitle(article: { title: string; seoTitle?: string }): string {
+  if (article.seoTitle) return article.seoTitle
+
+  // Quelques titres editoriaux portent deja la marque : ne pas la dupliquer.
+  const base = article.title.replace(/\s*\|\s*Smart Impulsion\s*$/i, "").trim()
+
+  return base.length + BRAND_SUFFIX.length <= TITLE_SOFT_LIMIT ? `${base}${BRAND_SUFFIX}` : base
+}
+
 export async function generateStaticParams() {
   return getAllArticleSlugs().map((slug) => ({
     slug,
@@ -27,7 +63,7 @@ export async function generateMetadata({ params }: BlogPostPageProps): Promise<M
 
   const baseUrl = "https://www.smart-impulsion.com"
 
-  const pageTitle = article.seoTitle || `${article.title} | Smart Impulsion`
+  const pageTitle = buildPageTitle(article)
 
   return {
     title: pageTitle,
@@ -55,7 +91,7 @@ export async function generateMetadata({ params }: BlogPostPageProps): Promise<M
     },
     twitter: {
       card: "summary_large_image",
-      title: article.seoTitle || `${article.title} | Smart Impulsion`,
+      title: pageTitle,
       description: article.excerpt,
       images: [article.image.startsWith("http") ? article.image : `${baseUrl}${article.image}`],
     },
