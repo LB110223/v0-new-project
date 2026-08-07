@@ -22,22 +22,43 @@ interface GeneralInfo {
  * Source de verite : `config/clusters.yaml` (depot content-engine). Cette liste
  * en est une copie — a resynchroniser si les piliers changent.
  *
- * COMPOSITION — arbitree par le seo-geo-strategist le 2026-08-07
- * (`knowledge/data/audits/2026-08-07-arbitrage-maillage-titres-taxonomie.md`,
- * decisions inscrites dans clusters.yaml `d13644c`) : les 3 piliers P0, plus
- * `ai-act-pme-guide-2026` au titre du moat editorial.
+ * ============================================================================
+ * LA REGLE DE COMPOSITION — ne pas raisonner en « combien d'entrees »
+ * ============================================================================
+ * Arbitree par le seo-geo-strategist le 2026-08-07 et inscrite dans
+ * `config/clusters.yaml` -> `footer_links` (source de verite).
  *
- * `cas-usage-ia-pme-par-metier` (pilier P1) est volontairement absent de cette
- * liste : il reste un pilier et sera desservi par le widget en hub-and-spoke,
- * dont c'est le metier. Le pied de page, lui, concentre — il ne distribue pas.
+ *   > Le pied de page porte le pilier de CHAQUE CLUSTER qui en a un,
+ *   > sauf un pilier connu comme factuellement faux.
+ *
+ * C'est une REGLE, pas une liste de N entrees, et c'est deliberé : un nombre
+ * choisi a la main est exactement ce qui a produit le defaut d'origine — 4
+ * articles selectionnes en janvier 2026, jamais revus, pendant que le corpus
+ * passait de ~15 a 58 articles. Une regle, elle, vieillit toute seule.
+ *
+ * Etat de l'application de la regle au 2026-08-07 — 7 clusters :
+ *   - 5 clusters ont un pilier exploitable        -> les 5 entrees ci-dessous
+ *   - `formation` : son pilier est EXCLU. `formation-ia-dirigeants-guide-pratique`
+ *     fait partie des articles factuellement faux sur l'article 4 de l'AI Act.
+ *     Un lien sitewide concentrerait l'autorite du site sur une affirmation
+ *     qu'il faudra desavouer. A reintegrer une fois l'article corrige.
+ *   - `tendances-agentic` : pas de pilier -> rien a porter.
+ *
+ * DONC : si un cluster gagne un pilier, si un pilier faux est corrige, ou si un
+ * pilier devient faux, cette liste change. Le nombre d'entrees est un RESULTAT
+ * de la regle, jamais une cible. Resynchroniser avec `footer_links`.
  *
  * POURQUOI DES PILIERS, ET POURQUOI FIXES
  * Le pied de page est monte dans `app/layout.tsx` : chacun de ces liens est
- * repete sur TOUTES les pages du site (~73 URL indexables). C'est, de loin, le
- * premier emetteur de liens internes du site.
+ * repete sur TOUTES les pages du site (75 URL au sitemap au 2026-08-07). C'est,
+ * de loin, le premier emetteur de liens internes du site.
+ *
+ * Chaque pilier recoit un lien par page, quel que soit le nombre d'entrees :
+ * ajouter une entree n'en retire a aucune autre (l'effet de dilution reel, par
+ * partage de l'autorite sortante de chaque page, est de l'ordre de 2-3 %).
  *
  * Deux regles en decoulent :
- *  1. Une cible repetee 73 fois doit etre une page que l'on veut faire ranker
+ *  1. Une cible repetee sur chaque page doit etre une page que l'on veut faire ranker
  *     durablement — donc un pilier, jamais un article d'actualite. La liste
  *     precedente pointait vers 4 articles de janvier-fevrier 2026, figes depuis
  *     le lancement alors que le corpus passait de ~15 a 58 articles.
@@ -56,12 +77,13 @@ interface GeneralInfo {
  *
  * Les libelles servent d'ancre de lien : ils portent le sujet de la page cible,
  * jamais une formule generique type « En savoir plus », qui ne transmettrait
- * aucun signal sur 73 repetitions.
+ * aucun signal a force de repetition.
  */
 const BLOG_PILLARS: ReadonlyArray<{ slug: string; label: string }> = [
   { slug: "audit-ia-pme-guide-complet", label: "Audit IA pour PME" },
   { slug: "roi-intelligence-artificielle-entreprise", label: "ROI de l'IA en entreprise" },
   { slug: "ia-pour-pme-guide", label: "IA pour PME : par où commencer" },
+  { slug: "cas-usage-ia-pme-par-metier", label: "Cas d'usage IA par métier" },
   { slug: "ai-act-pme-guide-2026", label: "AI Act : guide conformité PME" },
 ]
 
