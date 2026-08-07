@@ -27,6 +27,40 @@ export interface BlogArticle {
   dateISO: string
   readTime: string
   category: string
+
+  /**
+   * Cluster editorial et role dans le maillage (hub-and-spoke).
+   *
+   * `cluster`  : identifiant du cluster editorial, tel que declare dans
+   *              `config/clusters.yaml` (depot content-engine).
+   * `role`     : `pillar` pour la page pilier d'un cluster, `satellite` sinon.
+   *
+   * Emis par le Publisher depuis le frontmatter MDX. Ouverts ici en amont pour
+   * que le moteur puisse les emettre sans produire d'erreur TS2353
+   * (« Object literal may only specify known properties »).
+   *
+   * ==========================================================================
+   * CES DEUX CHAMPS DOIVENT RESTER OPTIONNELS — DEFINITIVEMENT.
+   * ==========================================================================
+   * Ne PAS retirer les `?` en croyant « durcir » le contrat. Les articles
+   * anterieurs a la migration n'ont ni cluster ni role et ne les auront jamais
+   * tous : les rendre obligatoires ferait echouer la verification de types sur
+   * chaque article depourvu du champ, et un article ancien sans cluster doit
+   * rester valide.
+   *
+   * La validation de ces valeurs se fait **cote moteur, a l'emission** (controle
+   * mecanique du frontmatter contre `pillar|satellite`), pas cote type. Le type
+   * dit ce qui est permis ; il n'a pas a exiger ce que l'historique ne peut pas
+   * fournir.
+   *
+   * Attention : `role` n'est pas deductible de l'origine de l'article. Un
+   * article produit par le moteur peut etre un pilier — `cas-usage-ia-pme-par-metier`
+   * (engine-003, 15/04/2026) en est un. Ne jamais coder « satellite » en dur
+   * pour la production automatisee.
+   */
+  cluster?: string
+  role?: "pillar" | "satellite"
+
   image: string
   imageAlt?: string
   faq?: BlogFAQ[]
