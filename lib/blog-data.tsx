@@ -471,7 +471,7 @@ Pour éviter toute disproportion de l'effort :
 - Pas d'**audit tierce partie** obligatoire au titre du haut risque
 - Pas de **désignation d'un représentant autorisé** pour des systèmes importés de pays tiers (sauf si vous êtes importateur et que les systèmes tombent dans d'autres catégories actives)
 
-Pour aller plus loin sur les livrables concrets d'un dossier de conformité : [Audit IA externe et Article 4 : les 4 livrables d'un dossier opposable](/blog/audit-ia-dossier-conformite-article-4-ai-act-pme).
+Pour aller plus loin sur les livrables concrets d'une démarche structurée : [Audit IA externe et article 4 : les 4 livrables qui structurent votre démarche](/blog/audit-ia-dossier-conformite-article-4-ai-act-pme).
 
 
 ## La CNIL en 2026 : accompagnement avant contrôle
@@ -567,98 +567,97 @@ Non. L'annexe III de l'AI Act, qui couvre les systèmes à haut risque dans l'em
   },
   {
     slug: "audit-ia-dossier-conformite-article-4-ai-act-pme",
-    title: "Audit IA externe et Article 4 : les 4 livrables d'un dossier opposable",
+    title: "Audit IA externe et article 4 : les 4 livrables qui structurent votre démarche",
     seoTitle: "Article 4 AI Act : les 4 livrables d'un audit IA externe pour PME",
     excerpt:
-      "À J-13 de la deadline AI Act : une attestation de formation ne suffit pas. Les 4 livrables d'un audit IA externe pour un dossier Article 4 opposable.",
-    content: `Vous avez fait signer les attestations de formation. Peut-être avez-vous organisé une session interne, ou souscrit à un module e-learning sur l'IA. Vous n'avez pas commandé d'audit IA externe : vous avez géré ça en interne, pragmatiquement. Vos collaborateurs ont cliqué sur "J'ai lu et j'accepte la charte d'usage". Vous avez noté quelque part que c'était fait.
+      "L'article 4 de l'AI Act a été réécrit : obligation de moyens, pas de résultat. Ce qu'un audit IA externe produit vraiment, et pourquoi ça reste utile.",
+    content: `Vous avez fait signer les attestations de formation. Peut-être avez-vous organisé une session interne, ou souscrit à un module e-learning sur l'IA. Vos collaborateurs ont cliqué sur "J'ai lu et j'accepte la charte d'usage". Vous avez noté quelque part que c'était fait.
 
-Maintenant, imaginez qu'un inspecteur de la CNIL se présente en septembre 2026 pour vérifier votre conformité à l'Article 4 de l'AI Act. Il ne demande pas si vous avez organisé une formation. Il demande à voir votre **dossier de conformité**.
+Reste la question que se pose tout dirigeant de PME : **est-ce que ça suffit ?**
 
-Que lui montrez-vous ?
+La réponse a changé cet été, et pas dans le sens que le marché commente. Tout le monde a retenu le report des obligations « haut risque » à décembre 2027. Presque personne n'a vu que **le texte de l'article 4 lui-même a été réécrit** — et que cette réécriture change la nature de ce qu'on vous demande.
 
-Si la réponse est "les attestations signées", vous n'êtes pas en mesure de démontrer votre conformité, même si vos collaborateurs ont bien suivi la formation. Parce que la conformité Article 4 n'est pas une déclaration d'intention. C'est un dossier de preuve.
+## Ce que l'article 4 demande réellement depuis sa réécriture
 
-C'est la distinction que cet article va poser clairement, avec les 4 livrables concrets qu'un audit IA externe produit pour constituer ce dossier avant le 2 août.
+### La règle a changé, pas seulement l'échéance
 
-## Ce que "être conforme Article 4" signifie pour une autorité de contrôle
+Le **règlement (UE) 2026/1744 du 8 juillet 2026** (« Digital Omnibus on AI »), publié au Journal officiel de l'Union européenne le 24 juillet 2026 et entré en vigueur le **27 juillet 2026**, remplace intégralement l'article 4 de l'AI Act.
 
-### L'obligation date du 2 février 2025, pas du 2 août 2026
-
-Premier point à comprendre, et il est contre-intuitif : **l'Article 4 est applicable depuis le 2 février 2025**. Depuis dix-huit mois, toute entreprise qui déploie ou utilise des systèmes d'IA en France est légalement tenue de s'y conformer.
-
-Ce que le 2 août 2026 active, ce ne sont pas les obligations. Ce sont les **pouvoirs de contrôle et de sanction** des autorités nationales. La CNIL, la DGCCRF et l'ARCOM peuvent, à compter de cette date, ouvrir des enquêtes formelles, mettre en demeure et infliger des amendes administratives allant jusqu'à 15 millions d'euros ou 3 % du chiffre d'affaires annuel mondial (Article 99 du Règlement UE 2024/1689).
-
-Pour les PME, ce plafond est limité à 7,5 millions d'euros ou 3 % du chiffre d'affaires annuel mondial (Article 99 §4 du Règlement UE 2024/1689). Mais le risque n'est pas uniquement financier : une mise en demeure publique dans un secteur où la confiance des clients est un actif, c'est un dommage réputationnel difficile à chiffrer.
-
-### Ce que le texte officiel exige réellement
-
-> "Les fournisseurs et les déployeurs de systèmes d'IA prennent des mesures pour assurer, dans toute la mesure du possible, un niveau suffisant de maîtrise de l'IA de la part de leur personnel et des autres personnes s'occupant du fonctionnement et de l'utilisation des systèmes d'IA pour leur compte, en tenant compte de leurs connaissances techniques, de leur expérience, de leur éducation et de leur formation, ainsi que du contexte dans lequel les systèmes d'IA sont destinés à être utilisés, et compte tenu des personnes ou des groupes de personnes à l'égard desquels les systèmes d'IA sont destinés à être utilisés."
+> Les fournisseurs et déployeurs de systèmes d'IA doivent « **prendre des mesures pour soutenir le développement de la littératie IA** » de leur personnel et des autres personnes qui utilisent ces systèmes pour leur compte, en tenant compte de leurs connaissances techniques, de leur expérience, de leur formation et du contexte d'utilisation. Et le texte ajoute explicitement : « **cette obligation n'impose pas de garantir un niveau spécifique de littératie IA pour un individu** ».
 >
-> *Article 4, [Règlement (UE) 2024/1689 du Parlement européen et du Conseil, 13 juin 2024](https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX%3A32024R1689)*
+> *Article 4 de l'AI Act tel que modifié par le [règlement (UE) 2026/1744](https://eur-lex.europa.eu/eli/reg/2026/1744/oj/eng) (EUR-Lex)*
 
-Trois éléments à retenir de ce texte.
+Trois conséquences, dans cet ordre d'importance.
 
-Premièrement : il s'agit d'une **obligation de moyens**, pas de résultats. L'expression "dans toute la mesure du possible" est précise juridiquement : elle exige un effort réel, proportionné et traçable, pas un niveau de certification parfait. Une PME de 12 personnes n'est pas tenue aux mêmes moyens qu'un groupe de 1 200. Elle est tenue de démontrer qu'elle a agi en conséquence de sa taille et de ses usages.
+**1. C'est une obligation de moyens, et le texte le dit lui-même.** L'ancienne rédaction demandait de prendre des mesures pour « assurer, dans toute la mesure du possible, un niveau suffisant de maîtrise de l'IA ». La nouvelle demande de **soutenir le développement** de cette maîtrise, et exclut expressément toute exigence de niveau garanti par individu. Personne n'a à démontrer qu'un collaborateur a « atteint le niveau ».
 
-Deuxièmement : le niveau requis dépend du **contexte d'utilisation** et des **groupes de personnes concernés**. Ce n'est pas un standard uniforme. Un même niveau de formation générique appliqué à tous les postes n'est pas conforme si certains postes impliquent des usages IA à risque élevé.
+**2. La date, elle, n'a pas bougé.** L'article 4 s'applique **depuis le 2 février 2025**. Ce n'est pas un report. C'est la substance de l'obligation qui s'allège — la distinction est essentielle, et un article qui vous dit « c'est repoussé » se trompe dans l'autre sens.
 
-Troisièmement : l'obligation couvre "leur personnel et des autres personnes", sans seuil d'effectif. **Une TPE de 5 personnes est soumise à l'Article 4 dès lors qu'elle utilise un système d'IA.**
+**3. La Commission doit vous accompagner, et les PME sont explicitement visées.** Le texte prévoit que la Commission et les États membres soutiennent et facilitent les efforts des fournisseurs et déployeurs, **en particulier les PME**, et que la Commission publiera des **exemples pratiques de conformité**. C'est un devoir d'accompagnement, pas seulement un allègement.
 
-### Ce qu'une autorité vérifiera concrètement
+### Ce que cela retire, et ce que cela ne retire pas
 
-Lors d'un contrôle, un inspecteur ne lit pas les attestations et tourne les talons. Il cherche à vérifier si les mesures prises sont réelles, proportionnées et tracées. Concrètement, cela signifie :
+**Ce qui tombe** : l'idée qu'il faudrait constituer un dossier de preuve opposable, produire des pièces à valeur probante, ou démontrer qu'un niveau de littératie a été atteint poste par poste. Rien de tout cela n'est exigé par le texte.
 
-- Un inventaire documenté des systèmes d'IA effectivement utilisés dans l'entreprise (par service, par poste, par usage)
-- La preuve que le niveau de formation attribué à chaque poste est justifié par le contexte d'utilisation et le profil de risque
-- Une traçabilité nominative : qui a reçu quelle formation, quand, sur quel contenu, avec quel support pédagogique
+**Ce qui reste entier** : l'obligation de *prendre des mesures*, et de les prendre en tenant compte des connaissances, de l'expérience et de la formation des personnes concernées ainsi que du contexte d'utilisation des systèmes. Une entreprise qui n'a rien fait du tout ne répond pas à l'article 4. Une entreprise qui a fait quelque chose de proportionné à ses usages y répond.
+
+Et surtout : **la question utile n'est plus juridique, elle est opérationnelle.** Si le droit ne vous demande plus de prouver un niveau, il reste que vos équipes utilisent des outils d'IA tous les jours et que vous ne savez probablement pas précisément lesquels, comment, ni avec quels angles morts. C'est ce problème-là que les quatre livrables décrits plus bas traitent.
+
+### À quoi ressemble une démarche proportionnée
+
+Le texte ne fournit aucune liste de pièces. Ce qui suit n'est donc pas une exigence réglementaire : c'est ce qui constitue, en pratique, une démarche cohérente pour une PME qui veut que ses mesures servent à quelque chose.
+
+- Un inventaire des systèmes d'IA effectivement utilisés dans l'entreprise (par service, par poste, par usage)
+- Un rattachement du niveau d'accompagnement au contexte réel d'utilisation et au profil de risque du poste
+- Une trace de ce qui a été fait : qui a été formé ou sensibilisé, quand, sur quel contenu
 - Une politique interne d'usage de l'IA formalisée et communiquée
-- La documentation des écarts identifiés et des actions correctives planifiées
+- Les écarts identifiés et les actions prévues pour les combler
 
-C'est un dossier structuré, pas un classeur d'attestations.
+C'est une démarche structurée, pas un classeur d'attestations. La ligne de partage n'est plus « conforme / non conforme » : elle sépare une action qui produit un effet d'une case cochée.
 
-## Pourquoi l'attestation ne suffit pas
+## Pourquoi une attestation ne vous apprend rien
 
-### Ce qu'une attestation prouve et ce qu'elle ne prouve pas
+### Ce qu'une attestation dit, et ce qu'elle ne dit pas
 
-Une attestation de formation prouve qu'une session a eu lieu et qu'une personne y a participé. C'est utile. Mais face à une autorité de contrôle, elle ne prouve pas :
+Précisons-le d'emblée, puisque c'est l'inverse de ce qu'on lit encore un peu partout : **une attestation de formation n'est pas « insuffisante » au regard du droit.** L'article 4 ne réclame aucune pièce justificative particulière. Le problème de l'attestation n'est pas juridique, il est managérial.
 
-- Que le niveau de formation était **adapté au contexte d'utilisation** de ce poste précis
-- Que le contenu couvrait les **risques spécifiques** liés aux systèmes IA effectivement déployés dans l'entreprise
-- Que la compétence acquise est **suffisante** au regard du profil d'utilisation (fréquence, degré d'autonomie, impact des décisions assistées)
-- Que l'entreprise a **identifié les usages IA** de ses collaborateurs avant de concevoir sa démarche de formation
+Une attestation prouve qu'une session a eu lieu et qu'une personne y a participé. Elle ne vous dit pas :
 
-Une attestation sans cartographie préalable des usages, c'est une réponse sans question. Le texte de l'Article 4 exige que les mesures soient prises "en tenant compte du contexte dans lequel les systèmes d'IA sont destinés à être utilisés", ce qui suppose de l'avoir d'abord documenté.
+- Si le contenu correspondait aux outils que cette personne utilise réellement
+- Si les **risques spécifiques** des systèmes déployés chez vous ont été couverts
+- Si la personne sait désormais repérer une erreur du modèle sur son propre poste
+- Si vous savez seulement **quels usages de l'IA existent** dans votre entreprise
 
-### La CNIL a déjà annoncé ce qu'elle vérifiera
+Une attestation sans cartographie préalable des usages, c'est une réponse sans question. Le texte demande de prendre des mesures en tenant compte du contexte d'utilisation : encore faut-il connaître ce contexte.
 
-Le 3 avril 2026, la CNIL a publié ses contrôles prioritaires pour 2026. Parmi les trois thématiques retenues : le **recrutement et les systèmes de décision automatisée en RH**. La CNIL a explicitement indiqué que cette thématique "préfigurera l'exercice par la CNIL de ses futures attributions en tant qu'autorité de surveillance de marché dans le champ 'travail' au titre du règlement sur l'intelligence artificielle."
+### Le calendrier des autres obligations, pour éviter la confusion
 
-> "Cette thématique préfigurera l'exercice par la CNIL de ses futures attributions en tant qu'autorité de surveillance de marché dans le champ 'travail' au titre du règlement sur l'intelligence artificielle."
->
-> *[CNIL, Contrôles prioritaires 2026](https://www.cnil.fr/fr/controles-prioritaires-2026) (publié le 3 avril 2026)*
+L'article 4 est régulièrement confondu avec les obligations « haut risque » de l'AI Act, qui sont d'une tout autre nature. Le règlement (UE) 2026/1744 en a décalé l'application :
 
-Les contrôles ciblent en priorité les grandes entreprises et les cabinets de recrutement, mais ils constitueront la jurisprudence qui s'appliquera à toutes les organisations. Ce que la CNIL mettra en évidence en automne 2026 dans les grandes entreprises sera ce qu'elle vérifiera chez les PME dès 2027.
+- **2 décembre 2027** — systèmes à haut risque de l'**annexe III** (systèmes autonomes : biométrie, infrastructures critiques, éducation, **emploi et RH**, accès aux services essentiels, répression, migration, justice). C'est de là que relèvent le tri de CV et la présélection automatisée.
+- **2 août 2028** — systèmes à haut risque intégrés à des produits (annexe I : machines, jouets, ascenseurs…).
 
-Pour les dirigeants de PME qui utilisent des outils de tri de candidatures, de présélection ou d'évaluation automatisée en RH : le délai pour constituer un dossier Article 4 robuste sur ces usages est compté.
+Ce qui s'applique bien au **2 août 2026** : la gouvernance et les pouvoirs d'exécution (le Bureau de l'IA et les autorités nationales deviennent responsables de la mise en œuvre et de la surveillance), les obligations de transparence de l'article 50 — avec une période transitoire de quatre mois pour les systèmes mis sur le marché avant cette date — et la surveillance du marché.
 
-### Le niveau de preuve diffère selon le poste
+Autrement dit : si vous utilisez un outil de scoring de CV, vous avez un sujet réel, mais son échéance est **décembre 2027** et il ne relève pas de l'article 4.
 
-C'est la subtilité que les approches génériques ratent systématiquement. L'Article 4 conditionne le niveau requis au "contexte dans lequel les systèmes d'IA sont destinés à être utilisés" et aux "personnes ou groupes de personnes" concernés.
+### Le besoin réel diffère selon le poste
+
+C'est la nuance que les approches génériques ratent systématiquement, et elle survit intacte à la réécriture : l'article 4 demande de tenir compte du contexte d'utilisation et des personnes concernées. Un dispositif uniforme sur tous les postes passe à côté.
 
 Deux exemples concrets pour ancrer la différence :
 
-**Un comptable qui utilise Microsoft Copilot** pour rédiger des commentaires de bilan ou reformuler des tableaux en langage naturel : l'usage est quotidien, le risque est limité (output vérifié par un humain avant tout usage externe), le contexte d'utilisation est faible à moyen. Le niveau de preuve attendu : une formation générique aux risques d'erreurs des modèles de langage, une charte d'usage signée, un enregistrement de la formation.
+**Un comptable qui utilise Microsoft Copilot** pour rédiger des commentaires de bilan ou reformuler des tableaux : usage quotidien, risque limité (sortie relue par un humain avant tout usage externe). Ce dont il a besoin : comprendre pourquoi un modèle de langage invente des chiffres plausibles, et savoir quoi vérifier systématiquement.
 
-**Un chargé de recrutement qui utilise un outil de scoring automatisé de CV** : l'usage produit des décisions qui affectent directement des candidats. Le risque est élevé (biais potentiels, discrimination algorithmique, impact sur des personnes tierces). Le contexte d'utilisation est celui que la CNIL ciblera en priorité. Le niveau de preuve attendu : cartographie documentée de l'outil, évaluation des biais potentiels, formation spécifique aux risques du scoring automatisé, politique d'usage du système, traçabilité des décisions.
+**Un chargé de recrutement qui utilise un outil de scoring automatisé de CV** : l'usage produit des décisions qui affectent directement des candidats. Le risque est d'une autre nature (biais, discrimination algorithmique, impact sur des tiers), et l'outil relève par ailleurs des obligations « haut risque » applicables en décembre 2027. Ce dont il a besoin : connaître les biais du système, savoir quand un score doit être écarté, et documenter les décisions.
 
-**Appliquer le même niveau de formation à deux postes de profil de risque différent, c'est un dossier qui ne tient pas à l'examen d'une autorité de contrôle.**
+**Appliquer le même module de sensibilisation à ces deux postes, c'est dépenser un budget de formation sans traiter le seul risque qui comptait.**
 
-Pour aller plus loin sur les obligations spécifiques aux différents profils d'usage, l'article [Checklist Article 4 AI Act pour les PME : les 5 livrables à produire en interne](/blog/checklist-article-4-ai-act-pme-aout-2026) détaille les livrables attendus par catégorie de risque.
+Pour aller plus loin sur les différents profils d'usage, l'article [Checklist Article 4 AI Act pour les PME : les 5 livrables à produire en interne](/blog/checklist-article-4-ai-act-pme-aout-2026) détaille la démarche par catégorie de risque.
 
 ## Les 4 livrables qu'un audit IA externe produit pour votre dossier Article 4
 
-Un audit IA externe n'est pas une certification et n'est pas une formation. C'est une intervention structurée qui produit des documents que votre organisation seule ne peut pas produire avec la même valeur probante. Voici pourquoi ces quatre livrables constituent un dossier Article 4 défendable là où les attestations internes ne le sont pas.
+Un audit IA externe n'est pas une certification et n'est pas une formation, et il n'est exigé par aucun texte. C'est une intervention structurée qui produit quatre documents qu'une organisation seule produit rarement : parce qu'ils demandent du recul sur ses propres usages, et parce que personne n'a le temps de les faire en interne. Voici ce que chacun apporte.
 
 ### Livrable 1 : La cartographie des usages IA par poste
 
@@ -671,13 +670,13 @@ La cartographie répond à une question précise : **qui utilise quoi, comment e
 - L'impact potentiel des décisions produites ou influencées par ces systèmes
 - La classification du niveau de risque selon l'Annexe III de l'AI Act pour les systèmes à haut risque
 
-Sans cette cartographie, aucune démarche de formation ne peut être calibrée au "contexte d'utilisation" exigé par l'Article 4. **Sans cartographie des usages IA, aucun dossier de conformité Article 4 ne peut démontrer que les mesures prises étaient adaptées.**
+Sans cette cartographie, aucune démarche de formation ne peut être calibrée sur le contexte d'utilisation dont l'article 4 demande de tenir compte. **C'est la seule pièce dont l'absence rend tout le reste approximatif : on forme au hasard.**
 
 ### Livrable 2 : Le scoring de maturité par fonction
 
 Une fois les usages cartographiés, l'audit établit pour chaque fonction ou groupe de postes un **écart entre le niveau de compétence effective actuel et le niveau requis** compte tenu du profil de risque de l'usage.
 
-Ce scoring n'est pas un jugement sur les personnes. C'est une analyse structurée qui permet de démontrer que l'entreprise a pris la mesure des gaps et a agi en conséquence, ce qui est précisément ce que l'obligation de moyens documentée de l'Article 4 exige de prouver.
+Ce scoring n'est pas un jugement sur les personnes. C'est ce qui permet d'arrêter d'acheter de la formation générique : vous savez quelle fonction a besoin de quoi, et vous cessez de payer pour ce dont les autres n'ont pas besoin.
 
 Le scoring de maturité par fonction documente :
 
@@ -686,164 +685,165 @@ Le scoring de maturité par fonction documente :
 - L'écart entre les deux, qualifié et quantifié
 - La priorité de remédiation assignée à chaque gap
 
-Ce document est central : il établit que l'entreprise a conduit une analyse rigoureuse de sa situation, ce qui est la démonstration concrète de l'effort de moyens.
+Ce document est central : c'est lui qui transforme une intuition (« il faudrait former les gens à l'IA ») en décision budgétaire argumentée.
 
 ### Livrable 3 : Le plan de remédiation documenté
 
-L'obligation de moyens de l'Article 4 exige non seulement d'avoir agi, mais d'avoir planifié les actions correctives sur les gaps identifiés. Le plan de remédiation documente :
+Un constat sans plan ne change rien. Le plan de remédiation documente :
 
 - Les actions de formation ou de sensibilisation spécifiques pour chaque gap identifié
 - Les échéances de mise en œuvre
 - Les indicateurs de progression
 - Les ressources mobilisées
 
-> Un dossier Article 4 sans plan de remédiation est incomplet même si les formations ont eu lieu. Ce qui compte pour une autorité de contrôle, c'est la preuve d'une démarche continue, pas d'un événement ponctuel.
+> Une session de formation isolée ne change durablement rien. Ce qui produit un effet, c'est une démarche continue — et l'article 4 parle bien de *soutenir le développement* de la littératie IA, c'est-à-dire d'un mouvement, pas d'un événement.
 
-Ce plan constitue aussi le pilier d'un suivi dans le temps. L'Article 4 n'est pas une obligation à cocher une fois : c'est une obligation de maintien d'un niveau adéquat de maîtrise, qui évolue avec les usages.
+Ce plan constitue aussi le pilier du suivi dans le temps. Vos usages de l'IA vont changer dans les douze prochains mois ; le niveau de maîtrise utile changera avec eux.
 
-### Livrable 4 : Le rapport d'audit signé par un tiers
+### Livrable 4 : Le rapport d'audit externe
 
-C'est la pièce maîtresse du dossier : celle qu'aucune démarche interne ne peut remplacer.
+Disons-le franchement, puisque c'est ce que beaucoup d'articles laissent entendre à tort : **aucun texte n'exige un rapport signé par un tiers, et un tel rapport ne vous « met pas en conformité ».** L'article 4 n'impose ni format, ni pièce justificative, ni intervenant externe.
 
-Un rapport d'audit signé par un auditeur externe indépendant a une valeur probante qualitativement différente d'un auto-audit ou d'une auto-déclaration. Pour deux raisons.
+Son intérêt est ailleurs, et il est réel pour deux raisons.
 
-La première est juridique : en droit de la preuve, une attestation rédigée par la partie qui en bénéficie a une valeur probante limitée. **Un rapport signé par un tiers indépendant est une pièce opposable devant une autorité de contrôle.**
+La première est méthodologique : un auditeur externe applique une grille structurée, documentée et reproductible, et il n'a aucun intérêt à ménager l'organisation qu'il examine. Les angles morts d'une entreprise sur ses propres usages sont, par définition, invisibles de l'intérieur.
 
-La seconde est pratique : un auditeur externe applique une méthodologie structurée, documentée et reproductible. Le rapport peut être lu, compris et vérifié par une autorité de contrôle sans que l'entreprise ait à l'interpréter. Il répond aux questions qu'un inspecteur poserait, dans l'ordre où il les poserait.
+La seconde est décisionnelle : un rapport externe se présente en comité de direction. Il transforme un sujet diffus (« l'IA, il faudrait qu'on s'en occupe ») en constat daté, chiffré et arbitrable, avec un budget en face.
 
-> Ce rapport constitue la pièce que l'auto-attestation interne ne peut pas être : un document produit par un tiers compétent, indépendant de l'organisation contrôlée, qui atteste d'une démarche structurée et proportionnée.
+> Ce rapport n'est pas une pièce de conformité. C'est un instrument de décision : il dit où vous en êtes, ce que ça coûte de ne rien faire, et par quoi commencer.
 
 Pour comprendre comment sélectionner un partenaire d'audit IA qui produit ces livrables avec la rigueur méthodologique requise, l'article [Comment choisir un partenaire de transformation IA](/blog/agence-ia-comment-choisir-partenaire-transformation) détaille les critères de sélection pertinents pour une PME.
 
-## À J-13 : ce qui est encore faisable
+## Par où commencer, maintenant que l'urgence réglementaire est retombée
 
 ### La réalité du délai
 
-Un audit IA structuré, du premier entretien au rapport final signé, prend entre **3 et 5 jours ouvrés** pour une PME de 20 à 200 personnes avec un périmètre ciblé. Ce n'est pas un projet de 3 mois. C'est une intervention courte, à condition d'être bien préparée et menée par une équipe qui connaît le sujet.
+Un audit IA structuré, du premier entretien au rapport final, prend entre **3 et 5 jours ouvrés** pour une PME de 20 à 200 personnes avec un périmètre ciblé. Ce n'est pas un projet de 3 mois. C'est une intervention courte, à condition d'être bien préparée et menée par une équipe qui connaît le sujet.
 
-À J-13 du 2 août 2026, il est donc encore temps de constituer un dossier défendable. La fenêtre est étroite, mais elle existe.
+Il n'y a plus de compte à rebours sur l'article 4 — il n'y en avait d'ailleurs jamais eu, puisque le texte s'applique depuis février 2025. C'est plutôt une bonne nouvelle : vous pouvez enfin traiter le sujet pour ce qu'il vaut opérationnellement, au lieu de le traiter dans l'urgence pour cocher une case.
 
-Selon l'enquête INSEE TIC Entreprises 2024 (INSEE Première n°2061, octobre 2025) : "10 % des entreprises françaises de 10 salariés ou plus utilisent l'IA, dont 9 % des PME de 10 à 49 salariés." Et selon l'étude Bpifrance Le Lab "L'IA dans les PME et ETI françaises : une révolution tranquille" (juin 2025, 1 200 dirigeants) : "58 % des dirigeants de PME-ETI voient l'IA comme un enjeu de survie à 3-5 ans, mais seuls 32 % l'utilisent effectivement." Ce gap n'est pas sans conséquence pour la conformité : les entreprises qui ont commencé à déployer l'IA sans formaliser leurs usages sont précisément celles qui n'ont pas de cartographie.
+Selon l'enquête INSEE TIC Entreprises 2024 (INSEE Première n°2061, octobre 2025) : "10 % des entreprises françaises de 10 salariés ou plus utilisent l'IA, dont 9 % des PME de 10 à 49 salariés." Et selon l'étude Bpifrance Le Lab "L'IA dans les PME et ETI françaises : une révolution tranquille" (juin 2025, 1 200 dirigeants) : "58 % des dirigeants de PME-ETI voient l'IA comme un enjeu de survie à 3-5 ans, mais seuls 32 % l'utilisent effectivement." Ce gap est le vrai sujet : les entreprises qui ont commencé à déployer l'IA sans formaliser leurs usages sont précisément celles qui n'ont aucune visibilité sur ce qui se passe dans leurs équipes.
 
 ### Hiérarchiser par risque, pas par facilité
 
-Si vous disposez de 5 jours ouvrés, la priorité n'est pas de couvrir tous les usages IA de votre organisation. C'est de couvrir **les usages à risque élevé en premier**, particulièrement ceux que la CNIL a explicitement annoncé cibler.
+Si vous disposez de 5 jours ouvrés, la priorité n'est pas de couvrir tous les usages IA de votre organisation. C'est de couvrir **les usages à risque élevé en premier** — ceux dont une erreur affecte quelqu'un d'autre que vous.
 
 Ordre de priorité recommandé :
 
-1. **Recrutement et RH** : tri de CV, présélection automatisée, outils d'évaluation (cibles directes des contrôles CNIL automne 2026)
-2. **Service client** : chatbots, systèmes de routage automatisé, analyse de sentiment (décisions qui affectent des personnes tierces)
-3. **Finance et contrôle de gestion** : projections assistées, détection d'anomalies, scoring crédit interne (risques de décision automatisée)
+1. **Recrutement et RH** : tri de CV, présélection automatisée, outils d'évaluation (décisions affectant des candidats ; relèvent par ailleurs de l'annexe III, applicable en décembre 2027)
+2. **Service client** : chatbots, routage automatisé, analyse de sentiment (décisions qui affectent des tiers, et obligations de transparence de l'article 50)
+3. **Finance et contrôle de gestion** : projections assistées, détection d'anomalies, scoring crédit interne
 4. **Production et opérations** : automatisations, maintenance prédictive, contrôle qualité assisté (selon le secteur)
 
-Pour les usages d'IA générative à portée généraliste (rédaction, synthèse, reformulation) sans impact direct sur des décisions affectant des tiers, le niveau de preuve requis est plus faible. Ils peuvent être traités dans un second temps.
+Pour les usages d'IA générative généraliste (rédaction, synthèse, reformulation) sans impact direct sur des tiers, une sensibilisation collective suffit généralement. Ils peuvent être traités dans un second temps.
 
-### Le dossier minimal défendable et le dossier complet
+### Le périmètre minimal utile et le périmètre complet
 
-Ne laissez pas la perfection bloquer l'action. Un dossier Article 4 minimal mais structuré vaut infiniment mieux qu'un projet de dossier parfait non livré.
+Ne laissez pas la perfection bloquer l'action. Une démarche partielle mais structurée vaut infiniment mieux qu'un chantier parfait jamais lancé.
 
-Le dossier minimal défendable comprend :
+Le périmètre minimal utile comprend :
 
 - La cartographie des usages IA à risque élevé (pas nécessairement tous les usages)
 - Le scoring de maturité sur ces usages prioritaires
-- Les actions de formation déjà conduites, tracées nominativement
-- Un plan de remédiation documenté pour les gaps identifiés
-- Le rapport d'audit externe signé
+- Les actions de sensibilisation déjà conduites, tracées
+- Un plan de remédiation pour les écarts identifiés
 
-Ce dossier démontre une démarche sérieuse, proportionnée et tracée. Il ne sera pas parfait. Mais il répondra à la question centrale qu'une autorité de contrôle posera : "avez-vous pris des mesures raisonnables et documentées ?" Oui, et voici le dossier.
+Cela répond à la seule question qui compte vraiment : **sur les usages où une erreur d'IA coûterait cher chez nous, est-ce que les gens savent ce qu'ils font ?**
 
-> L'Article 4 est une obligation de moyens : "dans toute la mesure du possible". Un dossier incomplet mais structuré et honnête sur ses limites est une défense plus solide qu'une absence totale de documentation.
+> L'article 4 n'impose pas de garantir un niveau. Il demande de prendre des mesures. Une entreprise qui a cartographié ses usages, formé en priorité les postes exposés et documenté son plan a pris des mesures — et, accessoirement, elle a réglé un problème réel.
 
-Le dossier complet (couverture de tous les usages, tous les postes, révision de la politique interne, mise à jour des chartes) peut être finalisé dans les semaines suivantes. Le 2 août marque le début des contrôles possibles, pas la fin de la démarche de conformité.
+Le périmètre complet (tous les usages, tous les postes, révision de la politique interne, mise à jour des chartes) peut être traité dans les mois suivants, au rythme de vos déploiements.
 
 ## Questions fréquentes
 
-**Qu'est-ce qu'un dossier de conformité Article 4 AI Act ?**
+**L'article 4 de l'AI Act impose-t-il de constituer un dossier de conformité ?**
 
-Un dossier de conformité Article 4 est un ensemble de documents structurés prouvant qu'une entreprise a pris des mesures proportionnées pour assurer la maîtrise de l'IA par ses collaborateurs. Il comprend au minimum une cartographie des usages IA par poste, un scoring de maturité par fonction, un plan de remédiation documenté et un rapport d'audit signé par un tiers indépendant. Les attestations de formation seules ne constituent pas un dossier opposable.
+Non. Depuis sa réécriture par le règlement (UE) 2026/1744, l'article 4 demande de « prendre des mesures pour soutenir le développement de la littératie IA » et précise que cette obligation « n'impose pas de garantir un niveau spécifique de littératie IA pour un individu ». Aucun format de dossier, aucune pièce justificative et aucun intervenant externe ne sont exigés par le texte.
 
 **Quand s'applique l'Article 4 de l'AI Act ?**
 
-L'Article 4 est applicable depuis le 2 février 2025. Ce n'est pas le 2 août 2026 qui crée l'obligation : c'est cette date qui active les pouvoirs de contrôle et de sanction des autorités nationales (CNIL, DGCCRF, ARCOM). L'obligation couvre toute entreprise utilisant des systèmes d'IA, sans seuil d'effectif.
+Depuis le **2 février 2025**, et cette date n'a pas changé. Le règlement (UE) 2026/1744 du 8 juillet 2026 a modifié le contenu de l'article 4, pas son calendrier. Ce qui a été reporté, ce sont les obligations « haut risque » : décembre 2027 pour l'annexe III, août 2028 pour l'annexe I.
 
 **Une attestation de formation suffit-elle pour être conforme à l'Article 4 ?**
 
-Non. Une attestation prouve qu'une session a eu lieu, pas que le niveau de formation était adapté au contexte d'utilisation du poste concerné, ni que l'entreprise avait d'abord cartographié ses usages IA. L'Article 4 exige que les mesures soient prises "en tenant compte du contexte dans lequel les systèmes d'IA sont destinés à être utilisés", ce qui suppose une analyse préalable documentée.
+Le texte n'exige aucune pièce en particulier, donc la question de la « suffisance » juridique ne se pose pas dans ces termes. La vraie limite d'une attestation est ailleurs : elle atteste d'une présence, pas d'un effet. Elle ne dit pas si le contenu correspondait aux outils réellement utilisés par la personne, ni si vous savez quels usages de l'IA existent dans votre entreprise.
 
-**Combien de temps prend un audit IA Article 4 pour une PME ?**
+**Combien de temps prend un audit IA pour une PME ?**
 
-Entre 3 et 5 jours ouvrés pour une PME de 20 à 200 personnes avec un périmètre ciblé sur les usages à risque prioritaire. Ce n'est pas un projet de plusieurs mois : c'est une intervention courte, à condition d'être bien préparée.
+Entre 3 et 5 jours ouvrés pour une PME de 20 à 200 personnes avec un périmètre ciblé sur les usages prioritaires. Ce n'est pas un projet de plusieurs mois : c'est une intervention courte, à condition d'être bien préparée.
 
-**Quels sont les contrôles CNIL prévus en 2026 sur l'IA ?**
+**Qu'est-ce qui change réellement avec le Digital Omnibus pour une PME ?**
 
-La CNIL a publié ses contrôles prioritaires 2026 le 3 avril 2026. La thématique recrutement et systèmes de décision automatisée en RH est retenue en priorité. La CNIL a indiqué qu'elle "préfigurera l'exercice par la CNIL de ses futures attributions en tant qu'autorité de surveillance de marché dans le champ travail au titre du règlement sur l'intelligence artificielle." Les PME qui utilisent des outils de scoring de CV ou de présélection automatisée sont directement concernées.
+Trois choses. L'article 4 devient une obligation de moyens explicite. Les obligations « haut risque » de l'annexe III — dont le recrutement et les RH — passent au 2 décembre 2027. Et la Commission doit publier des exemples pratiques de conformité, en visant explicitement les PME. En revanche, la gouvernance, la surveillance du marché et les obligations de transparence de l'article 50 s'appliquent bien depuis le 2 août 2026.
 
-## Un audit IA Express pour constituer votre dossier Article 4 en 3 jours
+## Un audit IA Express pour savoir où vous en êtes
 
-Si vous êtes dirigeant d'une PME ou ETI qui utilise des outils IA et que votre dossier Article 4 se résume aujourd'hui à des attestations de formation, vous avez besoin d'un audit structuré qui produit les 4 livrables décrits dans cet article : cartographie des usages, scoring de maturité, plan de remédiation, rapport signé.
+Si vous dirigez une PME ou une ETI qui utilise des outils IA et que votre visibilité sur ces usages se résume aujourd'hui à quelques attestations de formation, le sujet n'est plus réglementaire : il est opérationnel. Vous ne savez pas qui utilise quoi, ni où une erreur coûterait cher.
 
-L'[Audit IA Express Smart Impulsion](/services/audit) a été conçu pour ce périmètre : 3 jours d'intervention, périmètre ciblé sur les usages à risque prioritaire, livrables directement utilisables dans un dossier Article 4 opposable. Pas un rapport générique. Un dossier calibré à votre organisation, signé par un tiers indépendant.
+L'[Audit IA Express Smart Impulsion](/services/audit) a été conçu pour ce périmètre : 3 jours d'intervention, cadrage sur les usages à risque prioritaire, et les quatre livrables décrits dans cet article — cartographie des usages, scoring de maturité, plan de remédiation, rapport d'audit. Pas un rapport générique : un état des lieux calibré sur votre organisation.
 
-À J-13, c'est le délai qui correspond exactement à ce qu'il reste.
+Le compte à rebours réglementaire est retombé. Le besoin, lui, n'a pas bougé d'un pouce.
 
 ## Pour aller plus loin
 
-Les obligations Article 4 s'inscrivent dans un cadre réglementaire plus large. Pour une vue d'ensemble :
+L'article 4 s'inscrit dans un cadre réglementaire plus large. Pour une vue d'ensemble :
 
 - [Guide complet de l'audit IA pour les PME](/blog/audit-ia-pme-guide-complet) : méthodologie complète d'un audit IA PME
 - [AI Act PME : le guide 2026](/blog/ai-act-pme-guide-2026) : panorama complet des obligations, délais et catégories de risque
 - [Checklist Article 4 AI Act : les 5 livrables à produire en interne](/blog/checklist-article-4-ai-act-pme-aout-2026) : le document opérationnel complémentaire à cet article
 
-*Sources citées : Règlement (UE) 2024/1689, Article 4 (EUR-Lex) ; CNIL, Contrôles prioritaires 2026 (cnil.fr, 3 avril 2026) ; INSEE, Enquête TIC Entreprises 2024, INSEE Première n°2061 (octobre 2025) ; Bpifrance Le Lab, L'IA dans les PME et ETI françaises : une révolution tranquille (juin 2025, 1 200+ dirigeants).*`,
+*Sources citées : Règlement (UE) 2024/1689 (AI Act) ; [Règlement (UE) 2026/1744 du 8 juillet 2026, « Digital Omnibus on AI » — EUR-Lex](https://eur-lex.europa.eu/eli/reg/2026/1744/oj/eng), publié au JOUE le 24 juillet 2026, entré en vigueur le 27 juillet 2026 ; INSEE, Enquête TIC Entreprises 2024, INSEE Première n°2061 (octobre 2025) ; Bpifrance Le Lab, L'IA dans les PME et ETI françaises : une révolution tranquille (juin 2025, 1 200+ dirigeants).*
+
+*Article mis à jour le 8 août 2026 pour tenir compte de la réécriture de l'article 4 par le règlement (UE) 2026/1744.*`,
     author: "Laurent Bouzon",
     date: "20 juillet 2026",
     dateISO: "2026-07-20",
     readTime: "8 min",
     category: "Audit & Methodologie",
     image: "/audit-ia-dossier-conformite-article-4-ai-act-pme-hero.png",
-    imageAlt: "Image d'illustration pour l'article \"Audit IA externe et Article 4 : les 4 livrables d'un dossier opposable\"",
+    imageAlt: "Image d'illustration pour l'article \"Audit IA externe et article 4 : les 4 livrables qui structurent votre démarche\"",
     faq: [
       {
-        question: "Qu'est-ce qu'un dossier de conformité Article 4 AI Act ?",
-        answer: "Un dossier de conformité Article 4 AI Act est un ensemble de documents structurés prouvant qu'une entreprise a pris des mesures proportionnées pour assurer la maîtrise de l'IA par ses collaborateurs. Il comprend au minimum : une cartographie des usages IA par poste, un scoring de maturité par fonction, un plan de remédiation documenté et un rapport d'audit signé par un tiers indépendant. Les attestations de formation seules ne constituent pas un dossier opposable.",
+        question: "L'article 4 de l'AI Act impose-t-il de constituer un dossier de conformité ?",
+        answer: "Non. Depuis sa réécriture par le règlement (UE) 2026/1744 du 8 juillet 2026, l'article 4 demande de prendre des mesures pour soutenir le développement de la littératie IA, et précise que cette obligation n'impose pas de garantir un niveau spécifique de littératie IA pour un individu. Le texte n'exige aucun format de dossier, aucune pièce justificative et aucun intervenant externe.",
       },
       {
         question: "Quand s'applique l'Article 4 de l'AI Act ?",
-        answer: "L'Article 4 de l'AI Act (Règlement UE 2024/1689) est applicable depuis le 2 février 2025. À compter du 2 août 2026, les autorités nationales (CNIL, DGCCRF, ARCOM en France) disposent des pouvoirs de contrôle et de sanction pour vérifier sa bonne application. L'obligation couvre toute entreprise qui déploie ou utilise des systèmes d'IA, sans seuil d'effectif.",
+        answer: "Depuis le 2 février 2025, et cette date n'a pas changé. Le règlement (UE) 2026/1744 a modifié le contenu de l'article 4, pas son calendrier. Ce qui a été reporté, ce sont les obligations relatives aux systèmes à haut risque : 2 décembre 2027 pour l'annexe III, 2 août 2028 pour l'annexe I.",
       },
       {
         question: "Une attestation de formation suffit-elle pour être conforme à l'Article 4 ?",
-        answer: "Non. Une attestation de formation prouve qu'une session a eu lieu, mais ne démontre pas que le niveau de formation était adapté au contexte d'utilisation du poste, que les risques spécifiques aux systèmes IA déployés ont été couverts, ni que l'entreprise a d'abord cartographié ses usages IA. L'Article 4 exige des mesures prises 'en tenant compte du contexte dans lequel les systèmes d'IA sont destinés à être utilisés', ce qui suppose une cartographie préalable documentée.",
+        answer: "Le texte n'exige aucune pièce justificative en particulier : la question de la suffisance juridique ne se pose pas dans ces termes. La limite réelle d'une attestation est managériale : elle atteste d'une présence, pas d'un effet. Elle ne dit pas si le contenu correspondait aux outils réellement utilisés par la personne, ni si l'entreprise sait quels usages de l'IA existent chez elle.",
       },
       {
-        question: "Combien de temps prend un audit IA Article 4 pour une PME ?",
-        answer: "Un audit IA structuré prend entre 3 et 5 jours ouvrés pour une PME de 20 à 200 personnes avec un périmètre ciblé sur les usages prioritaires. Ce n'est pas un projet de plusieurs mois. La condition est un périmètre bien délimité (usages à risque élevé en priorité) et une équipe d'audit qui connaît les exigences de l'AI Act.",
+        question: "Combien de temps prend un audit IA pour une PME ?",
+        answer: "Un audit IA structuré prend entre 3 et 5 jours ouvrés pour une PME de 20 à 200 personnes avec un périmètre ciblé sur les usages prioritaires. Ce n'est pas un projet de plusieurs mois. La condition est un périmètre bien délimité (usages à risque élevé en priorité) et une équipe qui connaît le sujet.",
       },
       {
-        question: "Quels sont les contrôles CNIL prévus en 2026 sur l'IA ?",
-        answer: "La CNIL a publié ses contrôles prioritaires 2026 le 3 avril 2026. Parmi les trois thématiques retenues figure le recrutement et les systèmes de décision automatisée en RH. La CNIL a indiqué que cette thématique 'préfigurera l'exercice par la CNIL de ses futures attributions en tant qu'autorité de surveillance de marché dans le champ travail au titre du règlement sur l'intelligence artificielle'. Les contrôles ciblent d'abord les grandes entreprises et les cabinets de recrutement, mais établiront la jurisprudence applicable aux PME dès 2027.",
+        question: "Qu'est-ce qui change réellement avec le Digital Omnibus pour une PME ?",
+        answer: "Trois choses. L'article 4 devient une obligation de moyens explicite. Les obligations relatives aux systèmes à haut risque de l'annexe III, dont le recrutement et les RH, s'appliqueront au 2 décembre 2027. Et la Commission doit publier des exemples pratiques de conformité, en visant explicitement les PME. En revanche, la gouvernance, la surveillance du marché et les obligations de transparence de l'article 50 s'appliquent bien depuis le 2 août 2026.",
       },
     ],
     howTo: {
-      name: "Comment constituer un dossier de conformité Article 4 AI Act opposable",
-      description: "Les 4 livrables qu'un audit IA externe produit pour constituer un dossier Article 4 défendable face à une autorité de contrôle (CNIL, DGCCRF, ARCOM).",
+      name: "Comment structurer une démarche de littératie IA au titre de l'article 4",
+      description: "Les 4 livrables qu'un audit IA externe produit pour cadrer une démarche de littératie IA proportionnée aux usages réels d'une PME.",
       totalTime: "PT5D",
       steps: [
         {
           name: "Cartographier les usages IA par poste",
-          text: "Documenter pour chaque poste les systèmes IA utilisés, la fréquence d'usage, le degré d'autonomie et le niveau de risque selon l'Annexe III de l'AI Act.",
+          text: "Documenter pour chaque poste les systèmes IA utilisés, la fréquence d'usage, le degré d'autonomie et le niveau de risque associé.",
         },
         {
           name: "Établir le scoring de maturité par fonction",
-          text: "Mesurer l'écart entre le niveau de compétence effective actuel et le niveau requis compte tenu du profil de risque de chaque usage IA identifié.",
+          text: "Mesurer l'écart entre le niveau de compétence effective actuel et le niveau utile compte tenu du profil de risque de chaque usage IA identifié.",
         },
         {
-          name: "Formaliser le plan de remédiation documenté",
-          text: "Planifier les actions de formation spécifiques par gap identifié, avec échéances, indicateurs de progression et ressources mobilisées.",
+          name: "Formaliser le plan de remédiation",
+          text: "Planifier les actions de formation spécifiques par écart identifié, avec échéances, indicateurs de progression et ressources mobilisées.",
         },
         {
-          name: "Obtenir le rapport d'audit signé par un tiers indépendant",
-          text: "Faire produire et signer le rapport d'audit par un auditeur externe indépendant pour constituer une pièce opposable à valeur probante devant une autorité de contrôle.",
+          name: "Produire le rapport d'audit externe",
+          text: "Faire établir par un tiers un état des lieux daté et arbitrable : où en est l'organisation, ce que coûte l'inaction, et par quoi commencer.",
         },
       ],
     },
@@ -918,9 +918,9 @@ Le CODIR ne dit pas non. Il dit "pas maintenant". C'est une ouverture implicite 
 
 ### Le levier réglementaire : AI Act Article 4, deadline 2 août 2026
 
-L'Article 4 du Règlement UE 2024/1689 impose aux fournisseurs et déployeurs de systèmes IA de garantir un niveau suffisant de littératie IA à leur personnel. Cette obligation est active depuis février 2025.
+L'article 4 de l'AI Act, réécrit par le règlement (UE) 2026/1744 entré en vigueur le 27 juillet 2026, demande aux fournisseurs et déployeurs de systèmes IA de prendre des mesures pour soutenir le développement de la littératie IA de leur personnel — sans imposer de garantir un niveau spécifique pour un individu. L'obligation est active depuis février 2025.
 
-Ce qui change dans 16 jours (au 2 août 2026) : les autorités nationales de surveillance de marché acquièrent leurs pouvoirs de sanction. Les pénalités montent jusqu'à 15 millions d'euros ou 3 % du chiffre d'affaires mondial pour non-conformité aux obligations principales.
+Ce qui change au 2 août 2026 : le Bureau européen de l'IA et les autorités nationales deviennent responsables de la mise en œuvre, de la supervision et de la surveillance du marché. Le régime de sanctions ayant été modifié en même temps que le reste du texte par le règlement (UE) 2026/1744, nous ne citons aucun montant tant que son application article par article n'est pas établie.
 
 Quelques précisions importantes sur la portée réelle de cet article :
 
@@ -1064,58 +1064,74 @@ Vous préparez une présentation IA CODIR ? Notre Audit IA Express identifie en 
   },
   {
     slug: "ai-act-article-4-pme-non-conforme-que-risquez-vous",
-    title: "Article 4 de l'AI Act : ce que risque votre PME si vous n'avez encore rien fait",
+    title: "Article 4 de l'AI Act : ce que risque vraiment votre PME si vous n'avez rien fait",
     seoTitle: "AI Act article 4 non conforme : ce que risque votre PME",
-    h1: "AI Act article 4 non conforme : que risque votre PME si vous n'avez encore rien fait ?",
+    h1: "AI Act article 4 non conforme : que risque vraiment votre PME ?",
     excerpt:
-      "AI Act article 4 non conforme PME : contrôles CNIL dès le 2 août. Sanctions, risques réels et 3 actions en 5 heures pour se placer en bonne foi.",
-    content: `Une PME française non conforme à l'Article 4 de l'AI Act au 2 août 2026 s'expose à deux types de risques : un risque financier plafonné à 3 % du chiffre d'affaires annuel (Article 99 du Règlement UE 2024/1689), et un risque réputationnel et contractuel en cas d'incident ou de plainte salariale. Le risque de contrôle proactif dans les six premiers mois reste faible pour les PME sans systèmes à haut risque. Le risque déclenché par un incident, lui, est immédiat dès le 2 août.
+      "L'article 4 a été réécrit en obligation de moyens le 27 juillet 2026. Ce que ça change pour votre PME, et les 3 actions qui restent utiles en 5 heures.",
+    content: `Réponse courte, et elle a changé cet été : **beaucoup moins que ce qu'on vous a raconté.** Le 27 juillet 2026, le règlement (UE) 2026/1744 est entré en vigueur et a **réécrit l'article 4 de l'AI Act**. Il ne demande plus d'assurer un niveau de maîtrise de l'IA : il demande de *soutenir le développement* de cette maîtrise, et il précise noir sur blanc qu'il « n'impose pas de garantir un niveau spécifique de littératie IA pour un individu ».
 
-Voilà la réponse calibrée. Ni alarmisme, ni déni.
+Autrement dit : **il n'existe pas de niveau à atteindre, donc pas de niveau qu'on puisse vous reprocher de ne pas avoir atteint.**
 
-Le 2 août 2026 ne marque pas le début de l'obligation. L'Article 4 est en vigueur depuis le 2 février 2025, soit 18 mois déjà. Le 2 août marque le début des contrôles effectifs par les autorités nationales de surveillance du marché. C'est cette différence qui change la lecture de votre situation.
+Voilà la réponse calibrée. Ni alarmisme, ni déni. Le reste de cet article explique ce qui subsiste — parce qu'il subsiste quelque chose — et ce qu'il reste rationnel de faire.
 
-## Ce que l'Article 4 impose concrètement
+> ⚠️ **Attention au contresens inverse.** « La règle a changé » ne veut pas dire « c'est repoussé ». L'article 4 s'applique **depuis le 2 février 2025** et cette date n'a pas bougé d'un jour. Ce qui a été allégé, c'est la **substance** de l'obligation, pas son calendrier.
 
-### Qu'est-ce que l'Article 4 de l'AI Act ?
+## Ce que l'Article 4 impose concrètement, depuis sa réécriture
 
-L'Article 4 du Règlement (UE) 2024/1689, dit AI Act, impose aux fournisseurs et déployeurs de systèmes d'IA de prendre des mesures suffisantes pour assurer la **littératie IA** de leur personnel et de toute personne intervenant dans l'utilisation de ces systèmes en leur nom.
+### Le texte, dans sa version applicable
 
-La littératie IA est définie à l'Article 3, paragraphe 56 de l'AI Act comme "les compétences, connaissances et capacités de compréhension permettant une utilisation éclairée des systèmes d'IA, ainsi qu'une conscience des opportunités et des risques associés". Ce n'est pas une formation diplômante. C'est une obligation de démarche documentée, proportionnée à la taille de l'entreprise et à ses usages réels.
+Le règlement (UE) 2026/1744 du 8 juillet 2026 — le « Digital Omnibus on AI » — publié au JOUE le 24 juillet 2026, remplace intégralement l'article 4 de l'AI Act.
+
+> Les fournisseurs et déployeurs de systèmes d'IA doivent « **prendre des mesures pour soutenir le développement de la littératie IA** » de leur personnel et des autres personnes utilisant ces systèmes pour leur compte, en tenant compte de leurs connaissances techniques, de leur expérience, de leur formation et du contexte d'utilisation. Le texte ajoute : « **cette obligation n'impose pas de garantir un niveau spécifique de littératie IA pour un individu** ».
+>
+> *Article 4 de l'AI Act tel que modifié par le [règlement (UE) 2026/1744](https://eur-lex.europa.eu/eli/reg/2026/1744/oj/eng) (EUR-Lex)*
+
+La littératie IA reste définie à l'article 3, paragraphe 56 de l'AI Act comme "les compétences, connaissances et capacités de compréhension permettant une utilisation éclairée des systèmes d'IA, ainsi qu'une conscience des opportunités et des risques associés". Ce n'est pas une formation diplômante, et ce n'est plus un seuil de compétence à démontrer. C'est une **obligation de moyens**, proportionnée à la taille de l'entreprise et à ses usages réels.
 
 ### Ce que "littératie IA" veut dire en pratique pour votre PME
 
-En pratique, pour votre PME, l'Article 4 signifie trois choses vérifiables :
+En pratique, l'obligation se réduit à ceci : **avoir fait quelque chose, et que ce quelque chose ait un rapport avec vos usages réels.**
 
 - Votre personnel sait ce qu'est un système d'IA et comment l'utiliser de façon responsable
 - Vos collaborateurs connaissent les risques liés au partage de données sensibles avec des outils IA
-- Vous pouvez démontrer que des mesures ont été prises, avec des livrables datés
+- Les mesures prises tiennent compte du contexte d'utilisation — donc, en amont, vous savez quels outils sont utilisés chez vous
+
+Ce troisième point est le seul qui coince réellement dans la plupart des PME. Et il ne coince pas pour des raisons juridiques.
 
 ### Qui est concerné dans votre entreprise ?
 
 Toute personne "directement en contact avec un système d'IA" (formulation de la Commission européenne dans ses FAQ officielles). Selon une étude Microsoft France / YouGov de février 2026, 61 % des collaborateurs utilisant l'IA en entreprise le font via leurs comptes personnels au moins une fois par semaine. Dans une PME de 2026, cela couvre probablement plus de monde que vous ne le pensez.
 
-> L'usage non supervisé via comptes personnels n'est pas seulement un risque de sécurité des données : c'est la preuve que votre entreprise n'a pas mis en place les mesures de littératie IA requises par l'Article 4. Ces deux risques se renforcent mutuellement et constituent un double facteur aggravant en cas de contrôle.
+> L'usage non supervisé via comptes personnels reste un vrai problème — mais c'est d'abord un problème de sécurité des données et de qualité du travail produit, pas une infraction à l'article 4. Ne pas savoir quels outils circulent dans son entreprise est un angle mort de direction avant d'être un sujet réglementaire.
 
-## Ce qui change le 2 août 2026
-
-### Quelles autorités peuvent contrôler votre PME à partir du 2 août ?
-
-Le 2 août n'est pas une date symbolique. C'est la date à partir de laquelle les autorités nationales de surveillance du marché ont compétence légale pour contrôler et sanctionner les manquements à l'Article 4.
-
-En France, la répartition est la suivante :
-
-- **CNIL** : désignée autorité de surveillance du marché pour les usages IA touchant à la biométrie, l'emploi, l'enseignement, les processus démocratiques et la migration. Pour une PME utilisant l'IA dans ses RH, son recrutement ou sa relation client, la CNIL est l'interlocuteur de première ligne.
-- **DGCCRF** : coordination générale et point de contact unique pour la surveillance du marché AI Act.
-- **ACPR** : systèmes IA dans l'évaluation de solvabilité et la tarification d'assurance.
-
-La CNIL a inscrit dans son programme de travail 2026 une priorité explicite sur les secteurs emploi et RH, ainsi que sur la gouvernance IA des entreprises. Ce n'est pas une coïncidence avec la date du 2 août.
+## Ce qui a réellement changé cet été
 
 ### Le Digital Omnibus a-t-il repoussé la deadline de l'Article 4 ?
 
-Non. Le Digital Omnibus, dont l'accord provisoire a été adopté par le Conseil de l'UE le 29 juin 2026, reporte effectivement plusieurs obligations AI Act, mais uniquement pour les systèmes à haut risque listés en Annexe III, repoussés au 2 décembre 2027.
+**Non — il a fait autre chose, et de plus lourd de conséquences : il a réécrit l'article lui-même.**
 
-> L'Article 4 sur la littératie IA n'est pas affecté par le Digital Omnibus. L'obligation est en vigueur depuis le 2 février 2025 et l'enforcement commence le 2 août 2026, sans modification. Si vous avez entendu que "l'AI Act a été repoussé", c'est vrai pour certaines obligations spécifiques, pas pour celle-ci.
+C'est le point que presque personne n'a relevé dans le débat français, entièrement occupé par le report des obligations « haut risque ». Récapitulons ce que le règlement (UE) 2026/1744 fait, et ce qu'il ne fait pas :
+
+| Ce qui a bougé | Ce que ça donne |
+|---|---|
+| **Contenu de l'article 4** | D'une obligation orientée résultat (« assurer un niveau suffisant ») à une obligation de moyens (« soutenir le développement »), avec exclusion explicite de tout niveau garanti par individu |
+| **Date d'application de l'article 4** | **Inchangée** : 2 février 2025 |
+| **Systèmes à haut risque, annexe III** (emploi, RH, biométrie, éducation…) | Reportés au **2 décembre 2027** |
+| **Systèmes à haut risque intégrés à des produits, annexe I** | Reportés au **2 août 2028** |
+| **Accompagnement** | La Commission et les États membres doivent soutenir les efforts des déployeurs, **en particulier les PME**, et la Commission publiera des exemples pratiques de conformité |
+
+> Si vous avez entendu que « l'AI Act a été repoussé », c'est inexact pour l'article 4 : sa date n'a pas changé. C'est sa **substance** qui a été allégée. Et si vous lisez encore quelque part que l'article 4 impose de constituer un dossier de preuve opposable, c'est la rédaction antérieure du texte — celle d'avant le 27 juillet 2026.
+
+### Ce qui s'applique quand même depuis le 2 août 2026
+
+Le 2 août 2026 n'est pas une date vide. Ce qui entre en application à cette date :
+
+- **La gouvernance et les pouvoirs d'exécution** : le Bureau européen de l'IA et les autorités des États membres deviennent responsables de la mise en œuvre, de la supervision et du contrôle de l'AI Act.
+- **Les obligations de transparence de l'article 50** (signaler qu'un contenu ou une interaction est généré par une IA), avec une période transitoire de quatre mois pour les systèmes mis sur le marché avant cette date.
+- **La surveillance du marché** et la surveillance après commercialisation.
+
+En clair : le dispositif de contrôle existe désormais. Ce qu'il contrôle sur le terrain de la littératie IA, en revanche, est devenu beaucoup plus léger qu'annoncé.
 
 ## Le vrai risque pour votre PME
 
@@ -1125,37 +1141,34 @@ Les autorités nationales de surveillance du marché ne vont pas lancer des cont
 
 Pour une PME de 20 à 250 salariés n'utilisant pas de systèmes IA à haut risque, la probabilité d'un contrôle proactif dans les 6 premiers mois est faible. C'est la réalité, et il serait malhonnête de vous faire croire le contraire.
 
-### Le risque réactif est réel et non négligeable
+### Le risque déclenché par un incident, lui, n'a pas changé
 
-Le scénario de risque concret pour une PME n'est pas le contrôle proactif. C'est le contrôle déclenché par un événement.
+Le scénario concret pour une PME n'a jamais été le contrôle proactif sur la littératie IA. C'est l'événement qui vous met en défaut — et, dans ces situations, ce n'est presque jamais l'article 4 qui vous est opposé.
 
-Les facteurs qui transforment une non-conformité latente en risque immédiat :
+Les situations où l'absence de démarche devient coûteuse :
 
-- Un incident IA survient dans votre entreprise : fuite de données partagées avec un outil IA via compte personnel, décision automatisée contestée par un salarié ou un client
-- Un salarié dépose une plainte à la CNIL impliquant un usage IA dans le cadre RH (recrutement, évaluation de performance)
-- Un donneur d'ordre ou un client grand compte vous demande une attestation de conformité AI Act dans le cadre d'un appel d'offres ou d'un audit fournisseur
-- Un contentieux prud'homal fait apparaître l'utilisation d'un outil IA dans une procédure disciplinaire ou un licenciement
+- **Un incident IA survient chez vous** : données confidentielles collées dans un outil grand public via un compte personnel, décision automatisée contestée par un salarié ou un client. Le terrain juridique est alors celui du RGPD et du droit du travail, pas celui de l'article 4.
+- **Un donneur d'ordre ou un client grand compte vous interroge** sur vos usages IA dans le cadre d'un appel d'offres ou d'un audit fournisseur. Ne rien pouvoir répondre coûte un contrat, pas une amende.
+- **Un contentieux prud'homal** fait apparaître l'utilisation d'un outil IA dans une procédure disciplinaire ou un licenciement.
+- **Un outil relevant de l'annexe III** (tri de CV, évaluation automatisée) est déployé sans préparation, alors que ces obligations arrivent au 2 décembre 2027.
 
-Dans l'un de ces scénarios, votre non-conformité à l'Article 4 devient un facteur aggravant. Et le contrôle n'est plus une question de probabilité : il est certain.
+Dans chacun de ces cas, ne pas savoir quels outils sont utilisés chez vous est un handicap réel. Ce n'est simplement pas un handicap de nature réglementaire au titre de l'article 4.
 
-### Quelles sanctions financières pour une PME non conforme à l'Article 4 ?
+### Et les sanctions financières ?
 
-Le non-respect de l'Article 4 relève de la catégorie "autres violations" définie à l'Article 99, paragraphe 4 de l'AI Act : jusqu'à **15 millions d'euros ou 3 % du chiffre d'affaires annuel mondial total**, le montant le plus élevé étant retenu pour les grandes entreprises.
+C'est la question que tout le monde pose, et c'est celle sur laquelle nous choisissons de ne rien affirmer.
 
-Pour les PME, l'Article 99, paragraphe 6 prévoit une protection explicite : **le montant retenu est le moins élevé des deux**. Ce n'est pas une interprétation, c'est dans le texte.
+Le régime de sanctions de l'AI Act a été modifié par le Digital Omnibus en même temps que le reste du texte, et son application article par article au 2 août 2026 **n'est pas établie de façon fiable à ce jour**. Les montants qui circulent — y compris ceux que cet article citait dans sa version précédente — proviennent de la rédaction antérieure du règlement.
 
-Deux exemples concrets :
+> **Nous ne citerons donc aucun montant.** Sur un sujet où un chiffre faux se propage plus vite qu'une correction, mieux vaut une réponse incomplète qu'une réponse inventée. Si vous avez besoin d'une position juridique ferme sur votre exposition, elle relève d'un avocat spécialisé, pas d'un article de blog — le nôtre compris.
 
-- PME à 5 M€ de CA : 3 % = **150 000 €** de plafond théorique maximum
-- PME à 2 M€ de CA : 3 % = **60 000 €** de plafond théorique maximum
+Ce qui est en revanche certain : l'article 4 n'imposant aucun niveau garanti par individu, **il n'y a plus de « niveau insuffisant » constatable**. Le risque qui subsiste concerne l'absence totale de mesures, pas leur calibrage.
 
-Ces montants sont des plafonds, pas des montants automatiques. L'Article 99 exige que les sanctions soient proportionnées et tient compte des "mesures prises pour atténuer le préjudice" et de la coopération avec les autorités. Une PME qui produit des preuves de démarche lors d'un contrôle sera traitée très différemment d'une entreprise qui n'a rien fait et refuse de coopérer.
+## Les 3 actions qui restent utiles, en moins de 5 heures
 
-> Un dirigeant qui peut présenter trois documents datés lors d'un contrôle (inventaire des outils IA, compte-rendu de sensibilisation, note de désignation d'un référent interne) se place immédiatement en position d'entreprise de bonne foi. C'est le facteur atténuant le plus accessible et le plus décisif face à une autorité de contrôle.
+Puisque l'urgence réglementaire est retombée, la question n'est plus « comment se couvrir avant la date ». Elle est : **qu'est-ce qui vaut le coup d'être fait, indépendamment de la contrainte légale ?**
 
-## Ce que vous pouvez encore faire en 17 jours
-
-Vous n'aurez pas le temps de déployer un programme de formation complet d'ici le 2 août. Mais vous pouvez construire une preuve de diligence en moins de 5 heures, ce weekend si nécessaire.
+Ces trois actions sont exactement celles que nous recommandions avant — non parce qu'elles protègent d'une sanction, mais parce qu'elles règlent un vrai problème de pilotage. Elles tiennent en une demi-journée.
 
 ### Action 1 : Inventaire des outils IA utilisés (2 heures)
 
@@ -1202,38 +1215,36 @@ Ce référent n'a pas besoin d'être un expert. Il peut être le DRH, le DSI, le
 | Session de sensibilisation | 2 heures | Invitation + liste de présence datée |
 | Désignation référent IA | 30 minutes | Note interne datée et signée |
 
-Ces trois documents constituent votre preuve de diligence de base. Ils ne vous rendent pas entièrement conformes à l'Article 4, mais ils démontrent que votre entreprise a pris des mesures. C'est la différence entre une non-conformité de mauvaise foi et une démarche engagée.
+Ces trois documents ne sont pas une « preuve de conformité » — l'article 4 n'en réclame aucune. Ce sont trois choses beaucoup plus banales et beaucoup plus utiles : vous savez enfin ce qui est utilisé chez vous, vos équipes ont été prévenues des risques évidents, et quelqu'un est identifié pour traiter le sujet.
 
-Pour aller plus loin sur les actions concrètes avant la deadline, consultez [les 5 livrables de la checklist Article 4](/blog/checklist-article-4-ai-act-pme-aout-2026) que nous avons publiée spécifiquement pour cette période.
+Pour aller plus loin sur la démarche, consultez [les 5 livrables de la checklist Article 4](/blog/checklist-article-4-ai-act-pme-aout-2026).
 
-## La preuve de diligence comme bouclier
+## Le vrai sujet : vous ne savez pas ce que vos équipes font avec l'IA
 
-Trois documents en moins de 5 heures, c'est le minimum. Mais la preuve de diligence la plus solide est un dossier structuré qui documente votre situation réelle, vos risques identifiés, et les actions engagées.
+Trois documents en moins de 5 heures, c'est le minimum. Ce qui manque ensuite n'est pas un dossier juridique : c'est une vision claire de vos usages et de leurs risques réels.
 
-### Pourquoi la documentation compte autant que l'action
+### Pourquoi ça compte, maintenant que la contrainte est retombée
 
-L'Article 99 de l'AI Act prévoit explicitement que les sanctions doivent être "efficaces, proportionnées et dissuasives", en tenant compte notamment des "mesures prises par l'opérateur pour atténuer le préjudice" et du "degré de coopération avec les autorités".
-
-Ce n'est pas une clause de style. C'est le levier sur lequel s'appuie toute défense en cas de contrôle. Une entreprise qui arrive face à une autorité de contrôle avec un dossier documenté (inventaire, compte-rendu de sensibilisation, note de désignation, plan de mise en conformité) sera traitée fondamentalement différemment d'une entreprise qui n'a rien.
+Retirez la peur du gendarme, et il reste le problème d'origine. Vos collaborateurs collent des données dans des outils que vous n'avez pas choisis, obtiennent des réponses qu'ils ne savent pas toujours vérifier, et prennent des décisions à partir de ces réponses. Ce risque-là n'a jamais dépendu d'une date réglementaire.
 
 Selon l'INSEE (enquête TIC 2024), seules 9 % des PME françaises de moins de 50 salariés utilisent officiellement une technologie d'IA. Pourtant, 61 % des collaborateurs utilisant l'IA le font via des comptes personnels (Microsoft France / YouGov, février 2026). Votre entreprise est probablement dans ce deuxième groupe sans en avoir pleinement conscience.
 
-> La conformité documentée n'est pas un luxe réservé aux grandes entreprises. C'est le seul actif qui transforme une situation de non-conformité en position défendable lors d'un contrôle de la CNIL ou d'une autre autorité de surveillance du marché.
+> L'allègement de l'article 4 est une bonne nouvelle pour une seule raison : il vous autorise à traiter le sujet pour ce qu'il vaut opérationnellement, au lieu de le traiter dans l'urgence pour cocher une case avant une date.
 
 ### Ce que produit un Audit IA Express
 
-Les trois actions du plan J-17 sont un premier pas nécessaire. Mais elles ne produisent pas un dossier de conformité structuré.
+Les trois actions ci-dessus sont un premier pas nécessaire. Mais elles ne donnent pas une vue structurée de vos usages.
 
 Laurent Bouzon, consultant IA chez Smart Impulsion, observe que les dirigeants sous-estiment régulièrement le périmètre réel de leurs usages IA, en particulier les usages via comptes personnels non déclarés. C'est précisément ce point aveugle qu'un Audit IA Express est conçu pour documenter.
 
 Un [Audit IA Express](/services/audit) produit en moins de 48 heures un rapport complet documentant :
 
 - L'inventaire exhaustif des systèmes IA utilisés dans votre entreprise
-- L'évaluation de vos obligations au titre de l'AI Act selon vos usages réels
-- L'identification des risques prioritaires (en particulier les usages Shadow IA et les systèmes à haut risque potentiels)
-- Un plan d'actions priorisé et chiffré pour atteindre une conformité documentée
+- L'évaluation de vos obligations réelles au titre de l'AI Act selon vos usages, calendrier à jour compris
+- L'identification des risques prioritaires (en particulier les usages Shadow IA et les systèmes potentiellement concernés par l'annexe III à horizon décembre 2027)
+- Un plan d'actions priorisé et chiffré
 
-Ce rapport est le document qui transforme votre démarche J-17 en actif de conformité structuré. C'est ce que vous présentez à la CNIL, à un donneur d'ordre, ou à un conseil juridique si un incident survient après le 2 août.
+Ce rapport est ce que vous présentez à votre comité de direction, à un donneur d'ordre qui vous interroge sur vos usages IA, ou à un conseil juridique si un incident survient.
 
 Pour comprendre ce que couvre exactement ce type de démarche, notre [guide de l'audit IA pour les PME](/blog/audit-ia-pme-guide-complet) détaille la méthode et les livrables.
 
@@ -1241,33 +1252,37 @@ Pour comprendre ce que couvre exactement ce type de démarche, notre [guide de l
 
 Selon Bpifrance Le Lab (juin 2025), 58 % des dirigeants de PME-ETI françaises considèrent que l'IA est un enjeu de survie à 3-5 ans. La même étude révèle que 43 % ont déjà une stratégie IA, mais que 50 % n'utilisent que des solutions gratuites.
 
-Cette configuration (enjeu reconnu, démarche non structurée, usage non supervisé) est exactement le profil que l'Article 4 cherche à encadrer. Votre PME n'est pas une exception : elle est dans la norme française. Ce qui signifie que les autorités ne peuvent pas sanctionner tout le monde, mais aussi que se distinguer par une démarche documentée est accessible et utile.
+Cette configuration (enjeu reconnu, démarche non structurée, usage non supervisé) est exactement celle que l'article 4 cherche à faire évoluer — désormais en accompagnant plutôt qu'en contraignant. Votre PME n'est pas une exception : elle est dans la norme française. Ce qui signifie aussi que se distinguer par une démarche sérieuse reste accessible.
 
-Les données de marché et les obligations réglementaires sont détaillées dans [notre guide complet AI Act pour les PME](/blog/ai-act-pme-guide-2026). Pour approfondir spécifiquement ce que l'obligation de littératie signifie pour vos équipes, l'article sur [ce que l'Article 4 impose précisément](/blog/litteratie-ia-pme-ai-act-article-4) répond aux questions opérationnelles les plus fréquentes.
+Les données de marché et les obligations réglementaires sont détaillées dans [notre guide complet AI Act pour les PME](/blog/ai-act-pme-guide-2026). Pour approfondir ce que l'obligation de littératie signifie pour vos équipes, l'article sur [ce que l'article 4 demande précisément](/blog/litteratie-ia-pme-ai-act-article-4) répond aux questions opérationnelles les plus fréquentes.
 
 
-> Vous aviez 18 mois pour mettre en place des mesures de littératie IA. Dans 17 jours, les contrôles peuvent commencer. La bonne nouvelle : 5 heures de travail suffisent à vous placer en position de bonne foi. La mauvaise nouvelle : ces 5 heures, vous devez les prendre cette semaine.
+> **À retenir.** L'article 4 s'applique depuis février 2025, sa date n'a pas bougé, et sa substance a été allégée le 27 juillet 2026 : aucun niveau de littératie n'a à être garanti pour qui que ce soit. Ce qui reste, c'est l'obligation de prendre des mesures — et un problème de pilotage que 5 heures de travail suffisent à commencer à traiter.
 
-Prenez rendez-vous pour un [Audit IA Express](/services/audit) si vous voulez transformer cette démarche d'urgence en conformité documentée et défendable.`,
+Prenez rendez-vous pour un [Audit IA Express](/services/audit) si vous voulez savoir précisément où en est votre organisation.
+
+*Sources : [Règlement (UE) 2026/1744 du 8 juillet 2026, « Digital Omnibus on AI » — EUR-Lex](https://eur-lex.europa.eu/eli/reg/2026/1744/oj/eng), publié au JOUE le 24 juillet 2026, entré en vigueur le 27 juillet 2026 ; Règlement (UE) 2024/1689 (AI Act) ; INSEE, enquête TIC 2024 ; Bpifrance Le Lab, juin 2025 ; Microsoft France / YouGov, février 2026.*
+
+*Article mis à jour le 8 août 2026 : la version précédente présentait l'article 4 comme une obligation de résultat assortie de sanctions chiffrées. La réécriture du texte par le règlement (UE) 2026/1744 rend cette lecture caduque.*`,
     author: "Laurent Bouzon",
     date: "16 juillet 2026",
     dateISO: "2026-07-16",
     readTime: "7 min",
     category: "Compliance & AI Act",
     image: "/ai-act-article-4-pme-non-conforme-que-risquez-vous-hero.png",
-    imageAlt: "Image d'illustration pour l'article \"Article 4 de l'AI Act : ce que risque votre PME si vous n'avez encore rien fait\"",
+    imageAlt: "Image d'illustration pour l'article \"Article 4 de l'AI Act : ce que risque vraiment votre PME si vous n'avez rien fait\"",
     faq: [
       {
-        question: "Quelles sont les sanctions réelles pour une PME non conforme à l'Article 4 ?",
-        answer: "Le non-respect de l'Article 4 relève de la catégorie 'autres violations' de l'Article 99 de l'AI Act : jusqu'à 15 M€ ou 3 % du chiffre d'affaires annuel mondial. Pour une PME, la loi prévoit explicitement que le montant retenu est le moins élevé des deux. Exemple : pour une PME à 5 M€ de CA, le plafond théorique est de 150 000 €. En pratique, une PME de bonne foi qui coopère avec les autorités et produit des preuves de diligence recevra une sanction bien inférieure à ce plafond.",
+        question: "Le Digital Omnibus a-t-il repoussé la deadline de l'Article 4 ?",
+        answer: "Non, il a fait autre chose : il a réécrit l'article 4 lui-même. Le règlement (UE) 2026/1744 du 8 juillet 2026, entré en vigueur le 27 juillet 2026, remplace l'obligation d'assurer un niveau suffisant de maîtrise de l'IA par une obligation de prendre des mesures pour soutenir le développement de la littératie IA, et précise qu'elle n'impose pas de garantir un niveau spécifique pour un individu. La date d'application, elle, reste le 2 février 2025. Ce qui a été reporté, ce sont les obligations relatives aux systèmes à haut risque : décembre 2027 pour l'annexe III, août 2028 pour l'annexe I.",
       },
       {
-        question: "Le Digital Omnibus a-t-il repoussé la deadline de l'Article 4 ?",
-        answer: "Non. Le Digital Omnibus (accord provisoire du Conseil de l'UE du 29 juin 2026) reporte uniquement les obligations pour les systèmes à haut risque de l'Annexe III au 2 décembre 2027. L'Article 4 sur la littératie IA n'est pas affecté par ce texte. L'obligation est en vigueur depuis le 2 février 2025 et l'enforcement commence le 2 août 2026, sans modification.",
+        question: "Quelles sont les sanctions pour une PME non conforme à l'Article 4 ?",
+        answer: "Nous ne citons aucun montant. Le régime de sanctions de l'AI Act a été modifié en même temps que le reste du texte par le Digital Omnibus, et son application article par article au 2 août 2026 n'est pas établie de façon fiable à ce jour. Les montants qui circulent proviennent de la rédaction antérieure du règlement. Ce qui est certain, en revanche : l'article 4 n'imposant plus aucun niveau garanti par individu, il n'existe plus de niveau insuffisant constatable. Une position juridique ferme sur votre exposition relève d'un avocat spécialisé.",
       },
       {
         question: "Que faire si on n'a encore rien mis en place ?",
-        answer: "Trois actions suffisent pour vous placer en position de bonne foi avant le 2 août : un inventaire des outils IA utilisés dans l'entreprise (2 heures), une session de sensibilisation documentée avec liste de présence (2 heures), et la désignation d'un référent IA interne par note signée (30 minutes). Ces trois livrables constituent une preuve de diligence opposable. Pour une conformité structurée, un Audit IA Express produit un rapport complet en moins de 48 heures.",
+        answer: "Trois actions tiennent en moins de 5 heures et restent utiles indépendamment de la contrainte réglementaire : un inventaire des outils IA réellement utilisés dans l'entreprise (2 heures), une session de sensibilisation avec les risques concrets et une trace écrite (2 heures), et la désignation d'un référent IA interne (30 minutes). Elles ne constituent pas une preuve de conformité — l'article 4 n'en réclame aucune — mais elles règlent un angle mort de pilotage. Pour une vue structurée, un Audit IA Express produit un rapport complet en moins de 48 heures.",
       },
     ],
   },
@@ -1415,7 +1430,7 @@ Ce score de 8 ne bloque pas le projet, mais il invite à conditionner le lanceme
 
 Il existe une dimension que la grille ne capture pas directement : la valeur pédagogique du premier projet IA pour l'ensemble de votre organisation.
 
-Le **Règlement (UE) 2024/1689 (AI Act), Article 4**, impose à tout déployeur de systèmes IA de prendre les mesures nécessaires pour assurer "un niveau suffisant de maîtrise de l'IA" à son personnel concerné. Les pouvoirs de sanction s'activent le 2 août 2026. Le Règlement (UE) 2024/1689 prévoit pour les manquements à cet article des sanctions pouvant atteindre 15 millions d'euros ou 3 % du chiffre d'affaires mondial annuel (Article 99§3).
+L'**article 4 de l'AI Act**, réécrit par le règlement (UE) 2026/1744 entré en vigueur le 27 juillet 2026, demande à tout déployeur de systèmes IA de prendre des mesures pour « soutenir le développement de la littératie IA » de son personnel concerné. Le texte précise qu'il n'impose pas de garantir un niveau spécifique pour un individu : c'est une obligation de moyens, applicable depuis le 2 février 2025.
 
 > Un premier projet IA qui forme les équipes par la pratique est doublement rentable : il délivre un ROI opérationnel et contribue à l'obligation de maîtrise imposée par l'AI Act (Règlement UE 2024/1689, Article 4).
 
@@ -1449,7 +1464,7 @@ Non. La grille s'appuie sur des questions concrètes, pas sur des indicateurs te
 
 ### Qu'est-ce que l'Article 4 de l'AI Act impose aux PME ?
 
-Le Règlement (UE) 2024/1689, Article 4, oblige toute organisation qui déploie des systèmes d'IA à s'assurer que ses employés disposent d'un niveau suffisant de maîtrise de l'IA. Les pouvoirs de sanction entrent en vigueur le 2 août 2026. Un premier projet IA bien choisi, qui forme les équipes par la pratique, répond partiellement à cette obligation.
+L'article 4 de l'AI Act, réécrit par le règlement (UE) 2026/1744 (en vigueur le 27 juillet 2026), demande à toute organisation qui déploie des systèmes d'IA de prendre des mesures pour soutenir le développement de la littératie IA de ses employés, sans imposer de garantir un niveau spécifique pour un individu. L'obligation s'applique depuis le 2 février 2025. Un premier projet IA bien choisi, qui forme les équipes par la pratique, y répond très directement.
 
 ### La grille fonctionne-t-elle pour les ETI de 250 à 500 salariés ?
 
@@ -1494,7 +1509,7 @@ Pas de recommandation de produit, pas d'engagement long terme : un livrable opé
       },
       {
         question: "Qu'est-ce que l'Article 4 de l'AI Act impose aux PME ?",
-        answer: "Le Règlement (UE) 2024/1689, Article 4, oblige toute organisation qui déploie des systèmes d'IA à s'assurer que ses employés disposent d'un niveau suffisant de maîtrise de l'IA. Les pouvoirs de sanction entrent en vigueur le 2 août 2026. Un premier projet IA bien choisi, qui forme les équipes par la pratique, répond partiellement à cette obligation.",
+        answer: "L'article 4 de l'AI Act, réécrit par le règlement (UE) 2026/1744 (en vigueur le 27 juillet 2026), demande à toute organisation qui déploie des systèmes d'IA de prendre des mesures pour soutenir le développement de la littératie IA de ses employés, sans imposer de garantir un niveau spécifique pour un individu. L'obligation s'applique depuis le 2 février 2025. Un premier projet IA bien choisi, qui forme les équipes par la pratique, y répond très directement.",
       },
       {
         question: "Comment identifier les données disponibles pour évaluer la faisabilité d'un projet IA ?",
@@ -2360,31 +2375,37 @@ Smart Impulsion propose un Audit IA Express qui traduit votre ambition IA en gri
     title: "Checklist Article 4 AI Act PME : 5 livrables à produire en interne",
     seoTitle: "Article 4 AI Act : la checklist des 5 livrables PME",
     excerpt:
-      "J-30 avant la deadline CNIL. La checklist article 4 AI Act PME : 5 livrables à produire en une journée pour prouver votre conformité.",
-    content: `# Checklist Article 4 AI Act PME : les 5 livrables de conformité à produire en interne
+      "L'article 4 a été réécrit en obligation de moyens. La checklist des 5 livrables à produire en une journée — non plus pour se couvrir, mais pour piloter.",
+    content: `# Checklist Article 4 AI Act PME : les 5 livrables à produire en interne
 
-Depuis le 26 mars 2026, un message circule dans les médias spécialisés : "l'AI Act est repoussé à 2027". C'est vrai, en partie. Le Digital Omnibus, adopté à une large majorité par le Parlement européen, a bien reporté les obligations pour les systèmes IA à haut risque (Annexe III) au 2 décembre 2027. Mais l'Article 4, celui qui concerne la littératie IA de vos collaborateurs, n'a pas bougé d'un jour.
+Un message circule depuis l'été : "l'AI Act est repoussé à 2027". C'est vrai en partie — et cette formule masque l'information la plus importante pour votre PME.
 
-L'enforcement par les autorités nationales (la CNIL en France) commence le 2 août 2026. Vous avez moins de 30 jours.
+Le **règlement (UE) 2026/1744 du 8 juillet 2026** (« Digital Omnibus on AI »), publié au JOUE le 24 juillet et entré en vigueur le **27 juillet 2026**, fait bien deux choses. Il reporte les obligations relatives aux systèmes à haut risque. Et, presque inaperçue, il **réécrit l'article 4 lui-même**.
 
-Cet article n'est pas une introduction à l'Article 4. Si vous cherchez un panorama complet du règlement, consultez [notre guide AI Act PME](/blog/ai-act-pme-guide-2026). Ici, l'objectif est différent : vous donner la checklist Article 4 AI Act PME, soit les 5 livrables concrets à produire pour prouver votre conformité en cas de contrôle, réalisables en une journée, sans prestataire externe.
+Cet article n'est pas une introduction à l'AI Act — pour un panorama complet, consultez [notre guide AI Act PME](/blog/ai-act-pme-guide-2026). Ici, l'objectif est de vous donner les 5 livrables concrets qui structurent une démarche de littératie IA, réalisables en une journée, sans prestataire externe. Mais commençons par ce que la loi demande réellement, parce que ce n'est plus ce que la plupart des articles en ligne racontent.
 
-## Ce que le Digital Omnibus n'a pas reporté
+## Ce que le Digital Omnibus a changé, et ce qu'il n'a pas changé
 
-La confusion est compréhensible. Le Digital Omnibus a modifié un calendrier complexe, et les titres de presse ont souvent simplifié en annonçant un "report de l'AI Act".
+La confusion est compréhensible : le texte modifie un calendrier complexe, et les titres de presse ont simplifié en annonçant « un report de l'AI Act ».
 
 Voici la distinction qui compte pour votre PME :
 
-- **Systèmes IA à haut risque (Annexe III)** : obligations reportées au 2 décembre 2027. Cela concerne les outils IA utilisés pour des décisions d'embauche, de crédit, de scoring comportemental, ou des applications dans des secteurs critiques. Si votre PME n'utilise pas ce type de systèmes, cette échéance ne vous concerne pas encore.
-- **Article 4 (littératie IA)** : PAS reporté. En application depuis le 2 février 2025. Enforcement national au 2 août 2026.
+| | Ce qui s'applique |
+|---|---|
+| **Systèmes IA à haut risque, annexe III** (décisions d'embauche, crédit, scoring, secteurs critiques) | Reportés au **2 décembre 2027** |
+| **Systèmes IA à haut risque intégrés à des produits, annexe I** | Reportés au **2 août 2028** |
+| **Article 4, littératie IA** | **Date inchangée : applicable depuis le 2 février 2025.** Mais sa rédaction a été remplacée le 27 juillet 2026 |
+| **Gouvernance, surveillance du marché, transparence (article 50)** | Applicables depuis le **2 août 2026** |
 
-> **Définition - Article 4 AI Act (Règlement UE 2024/1689)** : L'Article 4 impose à tout déployeur de système IA de prendre des mesures pour que ses collaborateurs disposent d'un niveau suffisant de maîtrise de l'IA, proportionné à leur rôle et aux systèmes qu'ils utilisent. C'est une obligation de moyens documentés, pas une obligation de résultat chiffré.
+> **Définition — article 4 de l'AI Act, dans sa rédaction issue du [règlement (UE) 2026/1744](https://eur-lex.europa.eu/eli/reg/2026/1744/oj/eng)** : les fournisseurs et déployeurs de systèmes d'IA doivent « prendre des mesures pour soutenir le développement de la littératie IA » de leur personnel et des autres personnes utilisant ces systèmes pour leur compte, en tenant compte de leurs connaissances techniques, de leur expérience, de leur formation et du contexte d'utilisation. Le texte précise que **« cette obligation n'impose pas de garantir un niveau spécifique de littératie IA pour un individu »**.
 
-> **Définition - Déployeur (Article 3, §4 AI Act)** : Un déployeur est toute personne physique ou morale, autorité publique, agence ou autre organisme qui utilise un système IA sous sa propre responsabilité dans un contexte professionnel. Développer l'IA en interne n'est pas requis : utiliser ChatGPT, Microsoft Copilot ou tout logiciel intégrant une fonctionnalité IA suffit à qualifier une PME de déployeur au sens du règlement.
+C'est un changement de nature, pas de calendrier. **On passe d'une obligation orientée résultat à une obligation de moyens explicite.** Il n'y a plus de niveau à atteindre, donc plus de niveau qu'on puisse vous reprocher de ne pas avoir atteint. Le texte ajoute d'ailleurs que la Commission et les États membres doivent soutenir les efforts des déployeurs — **en visant explicitement les PME** — et que la Commission publiera des exemples pratiques de conformité.
 
-Les violations des obligations opérateurs (dont l'Article 4) relèvent de l'Article 99(4) du règlement : sanctions maximales à 15 M€ ou 3% du chiffre d'affaires mondial annuel. Pour les PME, la protection prévue à l'Article 99 joue en votre faveur : c'est le montant le **moins élevé** des deux qui s'applique, et non le plus élevé comme pour les grandes entreprises. Une PME à 5 M€ de CA risque jusqu'à 150 000 €. Ce n'est pas négligeable, mais ce n'est pas 15 M€.
+> **Définition — déployeur (article 3, §4 de l'AI Act)** : toute personne physique ou morale, autorité publique, agence ou autre organisme qui utilise un système IA sous sa propre responsabilité dans un contexte professionnel. Développer l'IA en interne n'est pas requis : utiliser ChatGPT, Microsoft Copilot ou tout logiciel intégrant une fonctionnalité IA suffit à qualifier une PME de déployeur au sens du règlement.
 
-À cela s'ajoute un risque de responsabilité civile, actif depuis le 2 août 2025 : si un collaborateur insuffisamment formé cause un préjudice via un outil IA, la responsabilité de l'entreprise peut être engagée.
+**Sur les sanctions, nous ne citerons aucun montant.** Le régime du chapitre XII a été modifié en même temps que le reste du texte et son application article par article n'est pas établie de façon fiable à ce jour. Les chiffres qui circulent — y compris ceux que cet article citait auparavant — proviennent de la rédaction antérieure du règlement. Une position ferme sur votre exposition relève d'un avocat spécialisé, pas d'un article de blog.
+
+Alors pourquoi produire les cinq livrables qui suivent ? Pour une raison plus solide qu'une échéance : **ils répondent à une question que vous ne pouvez pas éviter, celle de savoir ce que vos équipes font réellement avec l'IA.**
 
 ## Qui est concerné ? Presque toutes les PME françaises
 
@@ -2405,9 +2426,9 @@ Et si votre entreprise n'est pas encore dans ces statistiques mais que vos équi
 
 Si vous n'avez pas encore identifié vos cas d'usage IA prioritaires, [commencez par ce guide pratique](/blog/ia-pour-pme-guide) avant de passer à la checklist ci-dessous.
 
-## La checklist Article 4 AI Act PME : les 5 livrables de conformité
+## La checklist Article 4 AI Act PME : les 5 livrables
 
-Voici les cinq documents qui constituent le minimum opposable à un contrôle CNIL. Ils forment une séquence logique : chaque livrable prépare le suivant.
+Voici les cinq documents qui constituent une démarche de littératie IA cohérente. **Aucun n'est imposé par le texte** — l'article 4 ne prescrit ni format, ni pièce justificative. Ils forment en revanche une séquence logique : chaque livrable prépare le suivant, et l'ensemble donne à un dirigeant la visibilité qui lui manque aujourd'hui.
 
 Pour une PME qui démarre de zéro, la séquence recommandée en une journée est la suivante :
 
@@ -2443,11 +2464,11 @@ Une cartographie en deux ou trois niveaux suffit :
 - **Niveau 2 : Utilisateur régulier** : comprend les limites de l'outil utilisé, sait vérifier les outputs avant de les utiliser, connaît la charte de l'entreprise
 - **Niveau 3 : Référent IA** (optionnel pour les PME) : maîtrise la classification des risques, peut former les collègues, interlocuteur interne en cas de problème
 
-Cette cartographie prouve que vous avez réfléchi à la proportionnalité, ce qui est précisément ce que le texte réglementaire demande.
+Cette cartographie est la traduction directe de ce que le texte demande de « prendre en compte » : les connaissances, l'expérience et la formation des personnes, et le contexte d'utilisation des systèmes. Accessoirement, elle vous évite de payer une formation avancée à des gens qui n'en ont pas besoin.
 
 ### Livrable 3 : la charte d'utilisation de l'IA (2 à 3 heures)
 
-La charte d'utilisation est le document de référence de votre politique IA interne. C'est elle que vous présenterez en premier lors d'un contrôle.
+La charte d'utilisation est le document de référence de votre politique IA interne. C'est le seul des cinq livrables que vos collaborateurs liront vraiment — d'où l'importance de le garder court.
 
 Son contenu minimum :
 
@@ -2457,13 +2478,13 @@ Son contenu minimum :
 - Procédure de signalement d'un incident ou d'un doute (à qui se référer, comment)
 - Identification du référent IA interne (peut être le dirigeant, le responsable IT, ou le DPO si l'entreprise en a un)
 
-La charte peut s'intégrer à votre règlement intérieur ou à votre charte informatique existante. Elle doit être signée par la direction. Deux à trois pages suffisent : un document de 20 pages que personne ne lit n'a aucune valeur en cas de contrôle.
+La charte peut s'intégrer à votre règlement intérieur ou à votre charte informatique existante. Elle doit être signée par la direction. Deux à trois pages suffisent : un document de 20 pages que personne ne lit ne change aucun comportement.
 
-> La charte d'utilisation IA n'est pas un document RH parmi d'autres. C'est la preuve que la direction de l'entreprise a pris position sur l'usage de l'IA et en assume la responsabilité. La signature du dirigeant est indispensable.
+> La charte d'utilisation IA n'est pas un document RH parmi d'autres. C'est le moment où la direction prend position sur l'usage de l'IA et en assume la responsabilité. Sans signature du dirigeant, ce n'est qu'une note de service.
 
 ### Livrable 4 : le module de sensibilisation (2 à 3 heures de préparation, 45 minutes de session)
 
-C'est le coeur de l'obligation : démontrer qu'une démarche pédagogique a été effectivement menée auprès des collaborateurs concernés. Un email d'information ne suffit pas. Il faut une session documentée ou un module tracé.
+C'est le cœur de la démarche : c'est là que « prendre des mesures pour soutenir le développement de la littératie IA » devient concret. Un email d'information ne change rien à la pratique de personne. Une session, même courte, oui.
 
 Contenu minimum du support de sensibilisation :
 
@@ -2480,11 +2501,11 @@ L'Article 4 ne prescrit aucun format obligatoire (la Commission européenne le c
 - E-learning basique avec confirmation de lecture
 - Atelier pratique avec mise en situation
 
-Aucune certification externe n'est requise. L'Article 4 est une obligation de moyens, pas de certification. Adaptez le contenu aux niveaux définis dans le Livrable 2 : les utilisateurs occasionnels n'ont pas besoin d'une session dense sur les modèles de langage.
+Aucune certification externe n'est requise, et depuis la réécriture du texte, **aucun niveau n'a à être garanti pour quiconque**. Adaptez le contenu aux niveaux définis dans le Livrable 2 : les utilisateurs occasionnels n'ont pas besoin d'une session dense sur les modèles de langage.
 
 ### Livrable 5 : le registre de formation et les attestations (30 minutes, puis mise à jour continue)
 
-Le registre de formation est votre preuve opposable. C'est ce document qui démontre à la CNIL que vous avez effectivement mis en oeuvre l'obligation, et pas seulement rédigé des documents qui dorment dans un dossier.
+Le registre est ce qui distingue une démarche d'une intention. Il ne constitue pas une pièce exigée par le texte, mais c'est le seul moyen de savoir, dans six mois, qui a été accompagné et qui ne l'a pas été — notamment les personnes arrivées entre-temps.
 
 Pour chaque collaborateur ayant suivi la sensibilisation, consignez :
 
@@ -2504,29 +2525,30 @@ Ce registre est vivant. À chaque arrivée d'un nouveau collaborateur, il doit �
 | 4. Module de sensibilisation | 2-3h prépa + 45 min session | Support présentiel ou e-learning avec trace documentée |
 | 5. Registre de formation et attestations | 30 min + mise à jour continue | Liste nominative avec dates, signatures ou confirmations écrites |
 
-## Ce que vous ne devez pas faire
+## Ce qui ne sert à rien
 
-Plusieurs approches, intuitivement raisonnables, sont insuffisantes au regard de l'Article 4.
+Plusieurs approches, intuitivement raisonnables, ne produisent aucun effet.
 
-- **Envoyer un email "pour information"** : un email n'est pas une formation. Il n'y a ni vérification de compréhension, ni trace de prise de connaissance réelle. Ce n'est pas opposable en cas de contrôle.
-- **Copier-coller une charte trouvée en ligne sans l'adapter** : une charte générique non signée, non datée, sans référence à vos outils réels n'a aucune valeur. Le contrôleur vérifie la cohérence entre l'inventaire et la charte.
-- **Attendre d'avoir l'ISO 42001 pour agir** : la certification ISO 42001 est utile mais pas requise par l'Article 4. En l'attendre, vous prenez le risque d'être non conforme au 2 août pour quelque chose de réalisable en une journée.
+- **Envoyer un email "pour information"** : personne ne le lit, personne ne change de pratique. Ce n'est pas une question de conformité, c'est une question d'efficacité — un email n'a jamais empêché quiconque de coller un fichier client dans un chatbot.
+- **Copier-coller une charte trouvée en ligne sans l'adapter** : une charte générique qui ne mentionne aucun de vos outils réels ne guide aucune décision concrète. Vos équipes s'en aperçoivent immédiatement.
+- **Attendre d'avoir l'ISO 42001 pour agir** : la certification ISO 42001 est utile, mais elle n'est requise par aucun texte au titre de l'article 4. L'attendre, c'est repousser de plusieurs mois quelque chose de réalisable en une journée.
 - **Déléguer entièrement à un prestataire sans vous impliquer** : l'obligation incombe à l'organisation déployeuse. Un consultant peut vous aider à structurer les livrables, mais la direction doit valider, signer et s'approprier la démarche. Si vous choisissez de faire appel à un accompagnateur, lisez d'abord [notre guide pour choisir le bon partenaire IA](/blog/agence-ia-comment-choisir-partenaire-transformation).
-- **Confondre RGPD et AI Act** : vos obligations RGPD existantes ne couvrent pas l'Article 4. Les deux réglementations coexistent et s'alimentent mutuellement, mais elles demandent des livrables distincts.
+- **Confondre RGPD et AI Act** : vos obligations RGPD existantes ne couvrent pas l'article 4, et l'inverse est vrai aussi. Les deux réglementations coexistent et s'alimentent mutuellement, mais elles demandent des livrables distincts.
+- **Croire qu'il faut constituer un dossier opposable** : c'est la lecture d'avant le 27 juillet 2026. Elle circule encore largement. Elle conduit à sur-documenter au lieu d'agir.
 
-## Après le 2 août : quelle suite ?
+## Et ensuite ?
 
-Atteindre la conformité Article 4 avant le 2 août est la priorité immédiate. Mais ce n'est pas un exercice ponctuel.
+Ces cinq livrables ne sont pas un exercice ponctuel, et ils ne se périment pas avec une échéance réglementaire.
 
-Les livrables produits doivent vivre. Chaque nouveau collaborateur doit être formé avant d'utiliser des outils IA. Chaque nouvel outil adopté doit être ajouté à l'inventaire et intégré à la charte. Le registre de formation doit être tenu à jour en continu.
+Ils doivent vivre. Chaque nouveau collaborateur doit être accompagné avant d'utiliser des outils IA. Chaque nouvel outil adopté doit être ajouté à l'inventaire et intégré à la charte. Le registre doit être tenu à jour en continu. C'est exactement ce que signifie « soutenir le développement » de la littératie IA : un mouvement, pas un événement.
 
-L'horizon suivant à planifier dès maintenant : les obligations pour les systèmes IA à haut risque (Annexe III). Si votre entreprise utilise des outils IA pour des décisions d'embauche, de crédit, de scoring ou dans des secteurs sensibles, la deadline est le 2 décembre 2027. Ce n'est pas si loin, et la préparation prend du temps.
+L'horizon suivant à planifier dès maintenant : les obligations pour les systèmes IA à haut risque (annexe III). Si votre entreprise utilise des outils IA pour des décisions d'embauche, de crédit, de scoring ou dans des secteurs sensibles, l'échéance est le **2 décembre 2027** — et celles-là sont d'une tout autre lourdeur que l'article 4. Ce n'est pas si loin, et la préparation prend du temps.
 
 > Selon la FAQ AI Literacy de la Commission européenne (digital-strategy.ec.europa.eu, 2026), 80% des 251 European Digital Innovation Hubs (EDIHs) en Europe proposent déjà des services axés sur l'IA, dont l'accompagnement à la conformité AI Act Article 4. En France, le réseau France 2030 (BPI) remplit un rôle comparable.
 
-Si vous souhaitez aller au-delà du minimum réglementaire et transformer votre conformité en avantage compétitif, [un audit IA complet](/blog/audit-ia-pme-guide-complet) permet d'identifier précisément vos usages, leurs niveaux de risque et les priorités de documentation.
+Si vous souhaitez aller au-delà de cette base, [un audit IA complet](/blog/audit-ia-pme-guide-complet) permet d'identifier précisément vos usages, leurs niveaux de risque et les priorités.
 
-> 58% des dirigeants de PME-ETI françaises considèrent l'IA comme importante ou très importante pour la pérennité de leur entreprise à 3-5 ans (Bpifrance Le Lab, enquête auprès de 1 209 dirigeants, 2025). Si c'est stratégique pour vous, autant sécuriser la base réglementaire de cet usage maintenant plutôt qu'en urgence.
+> 58% des dirigeants de PME-ETI françaises considèrent l'IA comme importante ou très importante pour la pérennité de leur entreprise à 3-5 ans (Bpifrance Le Lab, enquête auprès de 1 209 dirigeants, 2025). Si c'est stratégique pour vous, la question n'est plus de savoir si la loi vous y oblige.
 
 ## Questions fréquentes sur la checklist Article 4 AI Act PME
 
@@ -2536,27 +2558,33 @@ Oui. L'Article 4 cible les "déployeurs" de systèmes IA : toute organisation qu
 
 ### Quelle différence entre l'article 4 et les obligations pour les systèmes IA à haut risque ?
 
-L'Article 4 s'applique à tous les déployeurs, sans distinction de taille ni de secteur. Les obligations pour les systèmes à haut risque (Annexe III) sont plus lourdes et ont été reportées au 2 décembre 2027 par le Digital Omnibus (vote du Parlement européen, 26 mars 2026). L'Article 4, lui, entre en enforcement le 2 août 2026 comme prévu : le report ne le concerne pas.
+L'article 4 s'applique à tous les déployeurs, sans distinction de taille ni de secteur, et c'est désormais une obligation de moyens explicite. Les obligations pour les systèmes à haut risque (annexe III) sont d'une tout autre lourdeur — évaluation de conformité, enregistrement, supervision humaine renforcée — et ont été reportées au 2 décembre 2027 par le règlement (UE) 2026/1744. Ne confondez pas les deux : le tri de CV relève de la seconde catégorie, pas de l'article 4.
 
 ### Combien de temps faut-il pour produire les 5 livrables ?
 
-Une journée de travail suffit pour les quatre livrables structurants (inventaire, cartographie, charte, registre). Le module de sensibilisation se finalise dans les deux semaines suivantes (2-3 heures de préparation, 45 minutes de session collective). L'ensemble peut être opérationnel avant le 2 août si vous démarrez maintenant.
+Une journée de travail suffit pour les quatre livrables structurants (inventaire, cartographie, charte, registre). Le module de sensibilisation se finalise dans les deux semaines suivantes (2-3 heures de préparation, 45 minutes de session collective).
 
-### Faut-il faire appel à un prestataire externe pour être conforme ?
+### Faut-il faire appel à un prestataire externe ?
 
-Non. Pour une PME avec des usages IA standards (ChatGPT, Copilot, logiciels métier), les cinq livrables se produisent en interne en une journée. Un prestataire apporte de la valeur si vous souhaitez aller au-delà du minimum réglementaire, ou si vous utilisez des outils IA pour des décisions sensibles (embauche, crédit, scoring).
+Non. Pour une PME avec des usages IA standards (ChatGPT, Copilot, logiciels métier), les cinq livrables se produisent en interne en une journée. Aucun texte n'exige d'intervenant externe. Un prestataire apporte de la valeur si vous utilisez des outils IA pour des décisions sensibles (embauche, crédit, scoring) ou si vous voulez préparer l'échéance annexe III de décembre 2027.
 
-### Que risque concrètement ma PME si je ne suis pas conforme au 2 août 2026 ?
+### Que risque concrètement ma PME au titre de l'article 4 ?
 
-Depuis le 2 août 2026, la CNIL peut contrôler et sanctionner. Les violations de l'Article 4 (obligations opérateurs) relèvent de l'Article 99(4) du règlement : sanctions maximales à 15 M€ ou 3% du chiffre d'affaires mondial annuel. Pour les PME, l'Article 99 retient le montant le moins élevé des deux : une PME à 5 M€ de CA risque jusqu'à 150 000 €. S'ajoute un risque de responsabilité civile en cas de préjudice causé par un collaborateur insuffisamment formé à l'usage des outils IA.
+Nous ne citons aucun montant de sanction. Le régime du chapitre XII de l'AI Act a été modifié par le Digital Omnibus et son application article par article n'est pas établie de façon fiable à ce jour ; les chiffres qui circulent proviennent de la rédaction antérieure. Ce qui est certain : l'article 4 n'imposant aucun niveau garanti par individu, il n'existe plus de « niveau insuffisant » constatable. Le sujet résiduel est l'absence totale de démarche, pas son calibrage.
 
-## Passez à l'action avant le 2 août
+## Passez à l'action — pour de bonnes raisons
 
-Cette checklist Article 4 AI Act PME représente le minimum documentaire pour une PME ordinaire. Les cinq livrables décrits ci-dessus sont réalisables en interne, en une journée, par un dirigeant ou un responsable IT/RH avec de la méthode.
+Cette checklist représente une base de travail pour une PME ordinaire. Les cinq livrables décrits ci-dessus sont réalisables en interne, en une journée, par un dirigeant ou un responsable IT/RH avec de la méthode.
 
-Si vous souhaitez aller plus vite, sécuriser votre interprétation ou préparer dès maintenant l'échéance Annexe III de décembre 2027, l'Audit IA Express Smart Impulsion vous accompagne : identification de vos systèmes IA, évaluation de leur niveau de risque, production de la documentation requise, en trois jours de travail collectif.
+Il n'y a plus d'échéance qui vous presse sur l'article 4 — il n'y en avait d'ailleurs jamais eu, puisque le texte s'applique depuis février 2025. Ce qui reste, c'est un besoin de visibilité : savoir quels outils circulent chez vous, qui les utilise, et où une erreur coûterait cher.
 
-[Demander un Audit IA Express](/services/audit)`,
+Si vous souhaitez aller plus vite, sécuriser votre interprétation ou préparer dès maintenant l'échéance annexe III de décembre 2027, l'Audit IA Express Smart Impulsion vous accompagne : identification de vos systèmes IA, évaluation de leur niveau de risque, plan d'actions priorisé, en trois jours de travail collectif.
+
+[Demander un Audit IA Express](/services/audit)
+
+*Sources : [Règlement (UE) 2026/1744 du 8 juillet 2026, « Digital Omnibus on AI » — EUR-Lex](https://eur-lex.europa.eu/eli/reg/2026/1744/oj/eng), publié au JOUE le 24 juillet 2026, entré en vigueur le 27 juillet 2026 ; Règlement (UE) 2024/1689 (AI Act) ; INSEE Première n°2061 ; Commission européenne, FAQ AI Literacy ; Bpifrance Le Lab, 2025.*
+
+*Article mis à jour le 8 août 2026 pour tenir compte de la réécriture de l'article 4 par le règlement (UE) 2026/1744.*`,
     author: "Laurent Bouzon",
     date: "3 juillet 2026",
     dateISO: "2026-07-03",
@@ -2571,19 +2599,19 @@ Si vous souhaitez aller plus vite, sécuriser votre interprétation ou préparer
       },
       {
         question: "Quelle différence entre l'article 4 et les obligations pour les systèmes IA à haut risque ?",
-        answer: "L'Article 4 impose une obligation de littératie IA pour tous les déployeurs et fournisseurs, quelle que soit la nature du système IA utilisé. Les obligations pour les systèmes à haut risque (Annexe III) sont distinctes et nettement plus lourdes : évaluation de conformité, registre UE, supervision humaine renforcée. Ces dernières ont été reportées au 2 décembre 2027 par le Digital Omnibus (vote du 26 mars 2026). L'Article 4, lui, n'a pas été reporté : son enforcement commence le 2 août 2026.",
+        answer: "L'article 4 impose une obligation de littératie IA à tous les déployeurs et fournisseurs, et c'est depuis le 27 juillet 2026 une obligation de moyens explicite : le texte précise qu'elle n'impose pas de garantir un niveau spécifique pour un individu. Les obligations pour les systèmes à haut risque (annexe III) sont distinctes et nettement plus lourdes : évaluation de conformité, enregistrement, supervision humaine renforcée. Elles ont été reportées au 2 décembre 2027 par le règlement (UE) 2026/1744. Le tri de CV relève de cette seconde catégorie, pas de l'article 4.",
       },
       {
         question: "Combien de temps faut-il pour produire les 5 livrables ?",
-        answer: "Une journée de travail suffit pour les quatre premiers livrables structurants (inventaire, cartographie des rôles, charte, registre). Le module de sensibilisation (Livrable 4) nécessite 2 à 3 heures de préparation supplémentaires et une session collective de 45 minutes avec vos équipes, idéalement dans les deux semaines qui suivent. L'ensemble peut donc être opérationnel avant le 2 août si vous commencez maintenant.",
+        answer: "Une journée de travail suffit pour les quatre livrables structurants (inventaire, cartographie des rôles, charte, registre). Le module de sensibilisation nécessite 2 à 3 heures de préparation supplémentaires et une session collective de 45 minutes avec vos équipes, idéalement dans les deux semaines qui suivent.",
       },
       {
-        question: "Faut-il faire appel à un prestataire externe pour être conforme ?",
-        answer: "Non, pour une PME dont les usages IA se limitent à ChatGPT, Copilot ou des outils métier standards. Les cinq livrables peuvent être produits en interne avec un dirigeant ou un responsable RH/IT mobilisé une journée. Un prestataire apporte de la valeur si vous souhaitez aller au-delà du minimum réglementaire : cartographier vos systèmes IA à haut risque (Annexe III, deadline décembre 2027), ou si vous utilisez des outils IA sur des décisions sensibles (embauche, crédit, scoring clients).",
+        question: "Faut-il faire appel à un prestataire externe ?",
+        answer: "Non, et aucun texte ne l'exige. Pour une PME dont les usages IA se limitent à ChatGPT, Copilot ou des outils métier standards, les cinq livrables peuvent être produits en interne avec un dirigeant ou un responsable RH/IT mobilisé une journée. Un prestataire apporte de la valeur si vous utilisez des outils IA sur des décisions sensibles (embauche, crédit, scoring clients) ou pour préparer l'échéance annexe III de décembre 2027.",
       },
       {
-        question: "Que risque concrètement ma PME si je ne suis pas conforme au 2 août 2026 ?",
-        answer: "Depuis le 2 août 2026, la CNIL peut contrôler et sanctionner. Pour l'Article 4, les violations des obligations opérateurs relèvent de l'Article 99(4) : sanctions maximales à 15 M€ ou 3% du chiffre d'affaires mondial annuel. Pour les PME, la protection prévue à l'Article 99 retient le montant le moins élevé des deux : une PME à 5 M€ de CA risque jusqu'à 150 000 €, pas 15 M€. S'ajoute un risque civil depuis le 2 août 2025 : si un collaborateur insuffisamment formé cause un préjudice via un outil IA, la responsabilité de l'entreprise peut être engagée.",
+        question: "Que risque concrètement ma PME au titre de l'article 4 ?",
+        answer: "Nous ne citons aucun montant de sanction. Le régime du chapitre XII de l'AI Act a été modifié par le Digital Omnibus en même temps que le reste du texte, et son application article par article n'est pas établie de façon fiable à ce jour : les chiffres qui circulent proviennent de la rédaction antérieure du règlement. Ce qui est certain, c'est que l'article 4 n'impose plus aucun niveau garanti par individu, donc qu'il n'existe plus de niveau insuffisant constatable. Une position juridique ferme sur votre exposition relève d'un avocat spécialisé.",
       },
     ],
   },
@@ -2591,44 +2619,50 @@ Si vous souhaitez aller plus vite, sécuriser votre interprétation ou préparer
     slug: "plan-de-formation-ia-entreprise",
     title: "Plan de formation IA entreprise : 4 étapes Article 4",
     excerpt:
-      "54 % des professionnels français sans formation IA. 4 étapes pour construire un plan conforme Article 4 avant les sanctions CNIL d'août 2026.",
+      "54 % des professionnels français sans formation IA. 4 étapes pour un plan de formation utile — maintenant que l'article 4 n'est plus une contrainte.",
     content: `# Plan de formation IA entreprise : le guide pratique en 4 étapes (Article 4)
 
 54 % des professionnels français n'ont reçu aucune formation à l'IA, d'après le 4e Baromètre de la formation professionnelle de Lefebvre Dalloz Compétences (édition 2026, 551 répondants). Parmi ceux qui ont été formés, seuls 10 % l'ont été sur les enjeux réglementaires et les risques associés.
 
-Or l'obligation existe depuis le 2 février 2025. Ce n'est pas une promesse pour "bientôt" : c'est déjà du droit applicable. Dans 33 jours, la CNIL (Commission Nationale de l'Informatique et des Libertés, autorité française compétente pour l'AI Act) peut sanctionner.
+**Et depuis le 27 juillet 2026, la loi ne vous forcera plus la main.** Le règlement (UE) 2026/1744 a réécrit l'article 4 de l'AI Act en obligation de moyens explicite. C'est précisément pour cela que ce guide reste utile : il ne s'agit plus de se couvrir avant une date, mais de décider ce qui vaut le coup d'être fait.
 
-**La réponse courte est : un plan de formation IA conforme Article 4 tient en quatre décisions, prend moins d'une semaine à mettre en place, et coûte souvent moins de 500 € pour une PME de 20 personnes.**
+**La réponse courte : un plan de formation IA utile tient en quatre décisions, prend moins d'une semaine à mettre en place, et coûte souvent moins de 500 € pour une PME de 20 personnes.**
 
-Pour la majorité des dirigeants de PME, le message "vous devez former vos équipes à l'IA avant août 2026" ne dit rien sur le comment. Pas de DRH dédié, pas de budget formation structuré, pas de temps pour monter un programme en douze mois. Ce guide vous explique comment construire un plan de formation IA entreprise opérationnel cette semaine, sans acheter un programme à 5 000 € par collaborateur.
+Pour la majorité des dirigeants de PME, le message « il faut former vos équipes à l'IA » ne dit rien sur le comment. Pas de DRH dédié, pas de budget formation structuré, pas de temps pour monter un programme en douze mois. Ce guide vous explique comment construire un plan de formation IA opérationnel cette semaine, sans acheter un programme à 5 000 € par collaborateur.
 
 ## Ce que l'Article 4 impose vraiment (et ce qu'il n'impose pas)
 
-Commençons par dissiper les idées reçues, parce qu'elles coûtent cher en mauvaises décisions.
+Commençons par dissiper les idées reçues, parce qu'elles coûtent cher en mauvaises décisions — et parce que la plus répandue d'entre elles est devenue fausse cet été.
 
-L'Article 4 du Règlement (UE) 2024/1689 (communément appelé AI Act) impose aux déployeurs d'IA de veiller à ce que leurs équipes disposent d'un niveau de compétence adapté à leur rôle, aux systèmes qu'elles utilisent et au risque associé. C'est le principe de proportionnalité, explicité dans le Considérant 20 du texte.
+L'article 4 de l'AI Act a été **intégralement remplacé** par le [règlement (UE) 2026/1744 du 8 juillet 2026](https://eur-lex.europa.eu/eli/reg/2026/1744/oj/eng), publié au JOUE le 24 juillet et entré en vigueur le 27 juillet 2026. Dans sa rédaction applicable :
 
-Ce que l'Article 4 n'impose pas :
+> Les fournisseurs et déployeurs de systèmes d'IA doivent « **prendre des mesures pour soutenir le développement de la littératie IA** » de leur personnel, en tenant compte de leurs connaissances techniques, de leur expérience, de leur formation et du contexte d'utilisation. Et : « **cette obligation n'impose pas de garantir un niveau spécifique de littératie IA pour un individu** ».
+
+Ce que l'article 4 n'impose pas :
 
 - Aucune certification obligatoire
 - Aucune durée minimale de formation
 - Aucun programme labellisé ou formateur accrédité
 - Aucun SIRH spécifique pour tracer les formations
+- **Aucun niveau de compétence à atteindre, ni preuve qu'il a été atteint** — c'est la nouveauté de juillet 2026
 
-Ce qui EST obligatoire, en revanche : pouvoir prouver que chaque collaborateur utilisant l'IA a reçu une information adaptée sur ce que c'est, comment ça fonctionne, et les risques liés à son usage dans son poste.
+Ce qui reste, en revanche : l'obligation de **prendre des mesures**, et de les calibrer sur les usages réels et les personnes concernées. Ne rien faire du tout ne répond pas à l'article 4.
 
-> **À retenir :** L'Article 4 de l'AI Act (Règlement UE 2024/1689) n'exige pas de certification, pas de durée minimale, pas de formateur accrédité. Il exige une formation proportionnée et traçable. Rien de plus.
+> **À retenir :** l'article 4 n'exige ni certification, ni durée minimale, ni formateur accrédité, ni niveau garanti. Il demande une démarche proportionnée. Tout ce qui va au-delà relève de votre intérêt propre, pas de la loi.
 
-### Deux dates à distinguer
+### La date n'a pas bougé — c'est la substance qui a changé
 
-Le calendrier officiel, tel que confirmé par la Commission européenne dans sa FAQ AI Literacy (mise à jour février 2025), est le suivant :
+Attention au contresens qui circule beaucoup : « l'AI Act est repoussé » est faux pour l'article 4.
 
-- **2 février 2025** : obligation Article 4 en vigueur pour tous les déployeurs d'IA, sans seuil de taille ni de chiffre d'affaires
-- **2 août 2026** : date à partir de laquelle les autorités nationales (la CNIL en France) peuvent prononcer des sanctions administratives
+- **2 février 2025** : date d'application de l'article 4, **inchangée** par le Digital Omnibus
+- **27 juillet 2026** : entrée en vigueur de la nouvelle rédaction, qui allège la substance de l'obligation
+- **2 août 2026** : entrée en application de la gouvernance, de la surveillance du marché et des obligations de transparence de l'article 50
+- **2 décembre 2027** : obligations relatives aux systèmes à haut risque de l'annexe III (emploi et RH, biométrie, éducation, crédit…)
+- **2 août 2028** : systèmes à haut risque intégrés à des produits (annexe I)
 
-Cette distinction est souvent mal comprise. L'obligation n'attend pas août 2026 : elle est déjà active depuis 18 mois. Août 2026, c'est la date à partir de laquelle la CNIL peut prononcer des sanctions administratives en cas de non-conformité (Règlement (UE) 2024/1689, Article 99). Le montant exact dépend du niveau de manquement et de la taille de l'entreprise, mais les sanctions peuvent représenter plusieurs dizaines de milliers d'euros pour une PME.
+**Sur les sanctions, nous ne citerons aucun montant.** Le régime du chapitre XII de l'AI Act a été modifié en même temps que le reste du texte, et son application article par article n'est pas établie de façon fiable à ce jour. Les chiffres qui circulent — y compris ceux que cet article citait auparavant — proviennent de la rédaction antérieure. Une position ferme sur votre exposition relève d'un avocat spécialisé.
 
-Par ailleurs, indépendamment des sanctions administratives, la responsabilité civile de l'employeur peut être engagée sur le fondement du droit commun si un collaborateur non sensibilisé aux limites d'un outil IA cause un dommage.
+Le vrai risque n'est de toute façon plus là. Il est qu'un collaborateur mal informé transmette un résultat faux à un client, ou colle un fichier confidentiel dans un outil grand public. Cela ne dépend d'aucune échéance réglementaire.
 
 > Selon le Baromètre France Num 2025 (DGE/Crédoc, 11 021 entreprises enquêtées), 26 % des TPE-PME françaises utilisent déjà des solutions IA, soit le double de l'année précédente. Un seul usage IA dans votre entreprise suffit à déclencher l'obligation Article 4 pour l'ensemble de vos collaborateurs.
 
@@ -2648,7 +2682,7 @@ Trois profils opérationnels suffisent :
 - **Profil B (utilisateur régulier métier)** : l'IA est intégrée à ses tâches quotidiennes (rédaction, analyse, support client, comptabilité). Formation pratique adaptée à l'outil, 3 à 4 heures.
 - **Profil C (décideur ou super-utilisateur)** : choisit, configure ou supervise les systèmes IA de l'entreprise. Formation aux enjeux, aux risques et aux implications légales, demi-journée.
 
-> Selon Bpifrance Le Lab (étude PME-ETI et IA, juin 2025), 73 % des projets IA dans les PME-ETI sont impulsés par le dirigeant lui-même. Conséquence directe : le dirigeant doit être le premier à se former, et au niveau C (décideur). Ce n'est pas une formalité, c'est une obligation Article 4 personnelle.
+> Selon Bpifrance Le Lab (étude PME-ETI et IA, juin 2025), 73 % des projets IA dans les PME-ETI sont impulsés par le dirigeant lui-même. Conséquence directe : le dirigeant devrait être le premier à se former, et au niveau C (décideur). Non pas parce qu'un texte le lui impose personnellement — il ne le fait pas — mais parce que c'est lui qui arbitrera les prochains déploiements.
 
 D'après l'INSEE (enquête "Intelligence artificielle dans les entreprises", octobre 2024, publiée octobre 2025), 10 % des entreprises françaises de 10 salariés ou plus déclaraient utiliser une technologie d'IA. Pour les PME de 10 à 49 salariés, ce taux est de 9 %. Même un seul usage, par un seul collaborateur, suffit à déclencher l'obligation pour l'ensemble de l'entreprise.
 
@@ -2658,7 +2692,7 @@ Si vous débutez avec l'IA, notre guide [L'IA pour les PME : par où commencer ?
 
 ### Contenu proportionné par profil
 
-L'Article 4 du Règlement (UE) 2024/1689 s'appuie sur la proportionnalité : le contenu doit être adapté au niveau de risque et au rôle de chaque collaborateur. Voici ce que cela signifie en pratique pour votre plan de formation IA.
+L'article 4 demande de tenir compte des connaissances, de l'expérience et de la formation des personnes ainsi que du contexte d'utilisation des systèmes : c'est un principe de proportionnalité. Voici ce que cela signifie en pratique pour votre plan de formation IA.
 
 **Pour le profil A (utilisateur occasionnel) :**
 
@@ -2676,27 +2710,27 @@ Une session de 45 minutes avec un support simple suffit. Inutile d'acheter un MO
 
 **Pour le profil C (décideur ou super-utilisateur) :**
 
-- Comprendre les obligations Article 4 et les responsabilités associées
-- Connaître les niveaux de risque de l'AI Act et savoir situer ses outils
+- Comprendre ce que l'article 4 demande réellement, et ce qu'il ne demande pas
+- Connaître les niveaux de risque de l'AI Act et savoir situer ses outils — notamment ceux qui relèveront de l'annexe III en décembre 2027
 - Savoir quelles responsabilités s'appliquent en cas d'incident lié à l'IA
 
-> La bonne question n'est pas "quelle formation acheter ?". Elle est "quel niveau de compréhension faut-il démontrer pour chaque profil, et comment le prouver ?" Ces deux questions ont des réponses différentes. Seule la seconde relève de l'Article 4.
+> La bonne question n'est pas "quelle formation acheter ?". Elle est : "sur quels postes une erreur d'IA nous coûterait le plus cher, et qu'est-ce que ces gens-là doivent savoir ?" Le reste est de la dépense.
 
-## Étape 3 : Constituer la preuve documentaire en moins d'une journée
+## Étape 3 : Garder une trace, en moins d'une journée
 
-Lors d'un contrôle, la CNIL cherchera à vérifier trois choses : que la formation a bien eu lieu, que son contenu était adapté au risque, et que les collaborateurs concernés ont participé.
+Aucun texte ne réclame ces documents. Ils servent à autre chose, et c'est plus utile : sans eux, dans six mois, vous ne saurez plus qui a été accompagné, sur quoi, ni qui est arrivé depuis.
 
-Trois documents suffisent lors d'un contrôle CNIL :
+Trois documents suffisent :
 
-1. **Liste d'émargement datée et signée** : noms, prénoms, fonctions, date, durée, signature de chaque participant
-2. **Support de formation** : même un diaporama de 10 slides ou un ordre du jour détaillé suffit à attester du contenu
-3. **Attestation individuelle de participation** : une ligne par collaborateur confirmant sa présence et le contenu couvert
+1. **Liste d'émargement datée** : noms, prénoms, fonctions, date, durée
+2. **Support de formation** : même un diaporama de 10 slides ou un ordre du jour détaillé
+3. **Récapitulatif individuel** : une ligne par collaborateur confirmant sa participation et le contenu couvert
 
-Pas besoin d'un logiciel RH dédié. Un dossier Google Drive ou SharePoint intitulé "Conformité AI Act" avec ces trois documents par session de formation est suffisant.
+Pas besoin d'un logiciel RH dédié. Un dossier Google Drive ou SharePoint intitulé "Littératie IA" avec ces trois documents par session suffit largement.
 
-Pour aller plus loin sur la documentation de conformité dans le cadre d'un audit plus complet de vos usages IA, consultez notre guide [Audit IA pour PME : le guide complet](/blog/audit-ia-pme-guide-complet).
+Pour aller plus loin dans le cadre d'un audit plus complet de vos usages IA, consultez notre guide [Audit IA pour PME : le guide complet](/blog/audit-ia-pme-guide-complet).
 
-## Étape 4 : Financer votre plan de formation IA via l'OPCO avant le 2 août
+## Étape 4 : Financer votre plan de formation IA via l'OPCO
 
 Les OPCO (Opérateurs de Compétences) sont les organismes paritaires qui gèrent les fonds de la formation professionnelle continue en France, définis par la loi du 5 septembre 2018 "pour la liberté de choisir son avenir professionnel". Si vous n'avez jamais eu à déposer un dossier, voici l'essentiel.
 
@@ -2721,11 +2755,11 @@ Deux règles absolues à respecter :
 
 ### Si vous optez pour une formation interne
 
-Si un salarié compétent anime la session, ou si vous construisez vous-même un support de sensibilisation, le coût est quasi nul. L'OPCO ne finance que les formations externes, mais la conformité Article 4 ne l'exige pas. La documentation reste obligatoire dans tous les cas.
+Si un salarié compétent anime la session, ou si vous construisez vous-même un support de sensibilisation, le coût est quasi nul. L'OPCO ne finance que les formations externes — et l'article 4 n'exige aucun intervenant externe.
 
-> Avec 33 jours avant le 2 août 2026 et 15 jours de délai d'instruction OPCO, la fenêtre de dépôt de dossier pour une formation externe se ferme cette semaine. Pour une formation interne, vous avez encore le temps, à condition de commencer maintenant.
+> Compter environ 15 jours d'instruction OPCO, dossier déposé **avant** le démarrage de la formation. Pour une formation interne, il n'y a aucun délai à anticiper : vous pouvez commencer la semaine prochaine.
 
-## Plan d'action : déployer votre plan de formation IA dans les 33 prochains jours
+## Plan d'action : déployer votre plan de formation IA en un mois
 
 Voici une séquence réaliste pour une PME de 10 à 50 personnes :
 
@@ -2735,11 +2769,11 @@ Listez tous les outils IA utilisés dans l'entreprise. Associez chaque collabora
 **Semaine 2 : Définir le contenu de formation par profil (J6 à J10)**
 Préparez les supports de formation par profil. Pour le profil A, un diaporama de 10 slides suffit. Pour le profil B, appuyez-vous sur la documentation de l'outil utilisé. Pour le profil C, appuyez-vous sur le guide AI Act ou faites appel à un consultant pour une demi-journée. Si formation externe prévue : déposez le dossier OPCO cette semaine.
 
-**Semaine 3 : Constituer la preuve documentaire (J11 à J20)**
+**Semaine 3 : Tenir les sessions et garder la trace (J11 à J20)**
 Organisez les sessions de formation. Selon la taille de l'entreprise, 1 à 3 sessions selon les profils. Recueillez les émargements à chaud, en fin de session.
 
-**Semaine 4 : Financer via l'OPCO / finaliser (J21 à J33)**
-Finalisez les attestations individuelles. Archivez l'ensemble des documents dans le dossier "Conformité AI Act". Vérifiez que personne n'a été oublié dans la cartographie initiale.
+**Semaine 4 : Finaliser (J21 à J30)**
+Finalisez les récapitulatifs individuels. Archivez l'ensemble dans le dossier "Littératie IA". Vérifiez que personne n'a été oublié dans la cartographie initiale.
 
 Ce calendrier tient pour une PME qui part de zéro. Si vous avez déjà commencé à formaliser des usages IA, vous pouvez compresser les semaines 1 et 2 en quelques jours.
 
@@ -2750,7 +2784,7 @@ Ce calendrier tient pour une PME qui part de zéro. Si vous avez déjà commenc�
 - Mettre en place un SIRH spécifique pour tracer les formations
 - Attendre d'avoir un DRH pour avancer
 
-L'Article 4 est l'une des obligations réglementaires les moins coûteuses à satisfaire pour une PME, à condition de ne pas la sur-compliquer. Le vrai risque n'est pas l'investissement, c'est l'inaction.
+L'article 4 est l'une des obligations réglementaires les moins coûteuses à satisfaire pour une PME, et sa réécriture de juillet 2026 l'a encore allégée. Le vrai risque n'a jamais été l'investissement : c'est l'inaction, et elle ne se paie pas en amende — elle se paie en erreurs.
 
 ## Questions fréquentes sur la formation IA et l'Article 4
 
@@ -2760,27 +2794,31 @@ Oui. L'obligation de littératie IA (Article 4 du Règlement (UE) 2024/1689) s'a
 
 ### Quelle durée minimale de formation exige l'AI Act ?
 
-Aucune. L'Article 4 n'impose ni durée minimale ni format obligatoire. Il impose une formation proportionnée au rôle, aux outils et au risque. Une session interne de 45 minutes avec un support documenté peut suffire pour un utilisateur occasionnel.
+Aucune. L'article 4 n'impose ni durée minimale, ni format obligatoire, ni — depuis sa réécriture du 27 juillet 2026 — de niveau à atteindre. Il demande une démarche proportionnée au rôle, aux outils et au contexte d'usage. Une session interne de 45 minutes avec un support documenté peut suffire pour un utilisateur occasionnel.
 
-### Que risque une PME qui n'a pas formé ses équipes avant le 2 août 2026 ?
+### Que risque une PME qui n'a pas formé ses équipes ?
 
-À partir du 2 août 2026, la CNIL (Commission Nationale de l'Informatique et des Libertés) peut prononcer des sanctions administratives pour non-respect des obligations de littératie IA (Règlement (UE) 2024/1689, Article 99). Le montant des sanctions dépend du type de manquement et de la taille de l'entreprise. Par ailleurs, la responsabilité civile de l'employeur peut être engagée sur le fondement du droit commun si un collaborateur non sensibilisé aux limites d'un outil IA cause un dommage.
+Nous ne citons aucun montant de sanction : le régime du chapitre XII de l'AI Act a été modifié par le Digital Omnibus et son application article par article n'est pas établie de façon fiable à ce jour. Sur le fond, l'article 4 n'imposant plus aucun niveau garanti par individu, il n'existe plus de niveau insuffisant constatable — le sujet résiduel est l'absence totale de démarche. Le risque réel est ailleurs : un collaborateur mal informé qui transmet un résultat faux ou expose des données confidentielles.
 
 ### Une formation interne sans formateur certifié est-elle valable ?
 
-Oui. L'AI Act (Règlement (UE) 2024/1689) n'exige pas de formateur certifié. Ce qui compte, c'est la proportionnalité du contenu et la traçabilité : liste d'émargement signée, support de formation, attestation individuelle de participation. Un salarié compétent peut animer la session.
+Oui. L'AI Act n'exige pas de formateur certifié, ni d'intervenant externe. Ce qui compte, c'est que le contenu corresponde aux outils réellement utilisés par les personnes formées. Un salarié compétent peut parfaitement animer la session.
 
 ### Comment savoir quel OPCO finance ma formation IA entreprise ?
 
 Votre OPCO de rattachement dépend de votre convention collective. Votre fédération professionnelle ou votre expert-comptable peut vous orienter rapidement. Pour les PME de moins de 50 salariés, la prise en charge peut atteindre 100 % des coûts pédagogiques selon votre OPCO et les priorités sectorielles 2026 (indicatif : contactez directement votre OPCO pour les barèmes à jour).
 
-## Passez à l'action avant le 2 août
+## Passez à l'action — sans échéance qui vous presse
 
-Il reste 33 jours. Pour une formation interne, c'est suffisant. Pour une formation externe avec financement OPCO, le dossier doit être déposé cette semaine.
+C'est là que la réécriture de l'article 4 change quelque chose d'utile : vous n'avez plus à monter un dispositif dans l'urgence pour cocher une case avant une date. Vous pouvez le faire une fois, correctement, en le calibrant sur vos usages réels.
 
-Si vous n'avez pas encore cartographié vos usages IA et que vous préférez ne pas improviser une démarche de conformité seul, l'Audit IA Express permet de faire exactement ça : identifier tous vos outils IA, établir les profils collaborateurs, préparer les supports de formation adaptés et constituer le dossier documentaire, le tout en une session de travail structurée.
+Si vous n'avez pas encore cartographié ces usages et que vous préférez ne pas improviser, l'Audit IA Express permet de faire exactement ça : identifier tous vos outils IA, établir les profils collaborateurs, préparer les supports de formation adaptés et poser le suivi, le tout en une session de travail structurée.
 
-[Découvrir l'Audit IA Express](/services/audit)`,
+[Découvrir l'Audit IA Express](/services/audit)
+
+*Sources : [Règlement (UE) 2026/1744 du 8 juillet 2026, « Digital Omnibus on AI » — EUR-Lex](https://eur-lex.europa.eu/eli/reg/2026/1744/oj/eng), publié au JOUE le 24 juillet 2026, entré en vigueur le 27 juillet 2026 ; Règlement (UE) 2024/1689 (AI Act) ; Lefebvre Dalloz Compétences, 4e Baromètre de la formation professionnelle, 2026 ; Bpifrance Le Lab, juin 2025 ; INSEE ; Baromètre France Num 2025 (DGE/Crédoc).*
+
+*Article mis à jour le 8 août 2026 pour tenir compte de la réécriture de l'article 4 par le règlement (UE) 2026/1744.*`,
     author: "Laurent Bouzon",
     date: "30 juin 2026",
     dateISO: "2026-06-30",
@@ -2795,15 +2833,15 @@ Si vous n'avez pas encore cartographié vos usages IA et que vous préférez ne 
       },
       {
         question: "Quelle durée minimale de formation exige l'AI Act ?",
-        answer: "Aucune. L'Article 4 impose une formation proportionnée au rôle, aux outils utilisés et au risque associé, mais ne fixe ni durée minimale ni format obligatoire. Une session interne de 45 minutes avec un support documenté peut suffire pour un utilisateur occasionnel.",
+        answer: "Aucune. L'article 4 ne fixe ni durée minimale, ni format obligatoire, et depuis sa réécriture par le règlement (UE) 2026/1744 il n'impose plus aucun niveau à atteindre : le texte précise que l'obligation n'impose pas de garantir un niveau spécifique de littératie IA pour un individu. Une session interne de 45 minutes avec un support documenté peut suffire pour un utilisateur occasionnel.",
       },
       {
-        question: "Que risque une PME qui n'a pas formé ses équipes avant le 2 août 2026 ?",
-        answer: "À partir du 2 août 2026, la CNIL peut prononcer des sanctions administratives pour non-respect des obligations de littératie IA (Règlement (UE) 2024/1689, Article 99). Le montant dépend du type de manquement et de la taille de l'entreprise. Par ailleurs, la responsabilité civile de l'employeur peut être engagée sur le fondement du droit commun si un collaborateur non sensibilisé cause un dommage avec un outil IA.",
+        question: "Que risque une PME qui n'a pas formé ses équipes ?",
+        answer: "Nous ne citons aucun montant de sanction : le régime du chapitre XII de l'AI Act a été modifié par le Digital Omnibus et son application article par article n'est pas établie de façon fiable à ce jour. Sur le fond, l'article 4 n'imposant plus aucun niveau garanti par individu, il n'existe plus de niveau insuffisant constatable ; le sujet résiduel est l'absence totale de démarche. Le risque concret est ailleurs : un collaborateur mal informé qui transmet un résultat faux à un client ou expose des données confidentielles dans un outil grand public.",
       },
       {
         question: "Une formation interne sans formateur certifié est-elle valable ?",
-        answer: "Oui. L'AI Act n'exige pas de formateur certifié ni de programme labellisé. Ce qui compte, c'est que la formation soit adaptée au niveau de risque et que vous puissiez le prouver : liste d'émargement signée, support de formation, attestation individuelle de participation. Un salarié compétent peut animer la session.",
+        answer: "Oui. L'AI Act n'exige ni formateur certifié, ni programme labellisé, ni intervenant externe. Ce qui compte, c'est que le contenu corresponde aux outils réellement utilisés par les personnes formées et au contexte dans lequel elles s'en servent. Un salarié compétent peut animer la session.",
       },
       {
         question: "Comment savoir quel OPCO finance ma formation IA ?",
@@ -2811,9 +2849,9 @@ Si vous n'avez pas encore cartographié vos usages IA et que vous préférez ne 
       },
     ],
     howTo: {
-      name: "Construire un plan de formation IA conforme Article 4",
-      description: "Guide en 4 étapes pour mettre en place un plan de formation IA opérationnel et conforme AI Act pour une PME",
-      totalTime: "PT33H",
+      name: "Construire un plan de formation IA au titre de l'article 4",
+      description: "Guide en 4 étapes pour mettre en place un plan de formation IA opérationnel et proportionné aux usages réels d'une PME",
+      totalTime: "PT30H",
       steps: [
         {
           name: "Cartographier les profils IA",
@@ -2821,11 +2859,11 @@ Si vous n'avez pas encore cartographié vos usages IA et que vous préférez ne 
         },
         {
           name: "Définir le contenu de formation par profil",
-          text: "Pour le profil A (occasionnel) : comprendre ce qu'est l'IA, reconnaître les erreurs possibles, savoir quand ne pas faire confiance à un résultat. Pour le profil B (régulier) : maîtriser l'outil dans son contexte métier, connaître les règles RGPD applicables. Pour le profil C (décideur) : obligations Article 4, niveaux de risque AI Act, responsabilités en cas d'incident.",
+          text: "Pour le profil A (occasionnel) : comprendre ce qu'est l'IA, reconnaître les erreurs possibles, savoir quand ne pas faire confiance à un résultat. Pour le profil B (régulier) : maîtriser l'outil dans son contexte métier, connaître les règles RGPD applicables. Pour le profil C (décideur) : ce que l'article 4 demande réellement, niveaux de risque AI Act et calendrier de l'annexe III, responsabilités en cas d'incident.",
         },
         {
-          name: "Constituer la preuve documentaire",
-          text: "Trois documents suffisent pour prouver la conformité lors d'un contrôle CNIL : une liste d'émargement datée et signée, un support de formation (même 10 slides), et une attestation individuelle de participation. À stocker dans un dossier dédié : Google Drive ou SharePoint conviennent.",
+          name: "Garder une trace de la démarche",
+          text: "Trois documents suffisent, non pas parce qu'un texte les exige — l'article 4 n'en réclame aucun — mais pour savoir dans six mois qui a été accompagné : une liste d'émargement datée, un support de formation (même 10 slides), et un récapitulatif individuel. À stocker dans un dossier dédié : Google Drive ou SharePoint conviennent.",
         },
         {
           name: "Financer via l'OPCO",
@@ -3400,7 +3438,7 @@ Les cas d'usage qui combinent effort faible, ROI élevé et risque limité const
 
 ### Le facteur AI Act article 4 dans vos arbitrages
 
-L'article 4 du Règlement UE 2024/1689, en vigueur depuis le 2 février 2025, impose à toute entreprise déployant un système IA de s'assurer que son personnel dispose d'un niveau suffisant de littératie IA. Les contrôles nationaux débutent en août 2026. La sanction maximale pour non-conformité à cet article est de 7,5 millions d'euros ou 1,5 % du chiffre d'affaires mondial annuel.
+L'article 4 de l'AI Act, en vigueur depuis le 2 février 2025 et réécrit par le règlement (UE) 2026/1744 le 27 juillet 2026, demande à toute entreprise déployant un système IA de prendre des mesures pour soutenir le développement de la littératie IA de son personnel. Le texte précise qu'il n'impose pas de garantir un niveau spécifique pour un individu : c'est une obligation de moyens.
 
 **Qu'est-ce que l'obligation de littératie IA de l'AI Act impose concrètement à une PME ?** L'article 4 du Règlement UE 2024/1689 n'exige pas de certifications formelles. Il exige que les personnes qui utilisent ou supervisent des systèmes IA dans l'entreprise comprennent les capacités et les limites de ces systèmes, les risques qu'ils peuvent générer, et les situations où une revue humaine est nécessaire. Pour une PME qui démarre, cela se traduit par une session de sensibilisation de deux heures avant le lancement du pilote, et une documentation des décisions encadrées par l'IA.
 
@@ -3500,7 +3538,7 @@ Trois critères suffisent pour arbitrer : l'effort de mise en oeuvre (délai, co
 
 ### La feuille de route IA est-elle obligatoire avec l'AI Act ?
 
-L'AI Act n'impose pas une feuille de route comme document formel. Mais l'article 4 du Règlement UE 2024/1689 impose à toute entreprise déployant un système IA de garantir un niveau suffisant de littératie IA à son personnel, avec des contrôles nationaux à partir d'août 2026. La feuille de route est le vecteur naturel pour planifier cette montée en compétences de façon documentée.
+L'AI Act n'impose pas une feuille de route comme document formel. Mais l'article 4 de l'AI Act, réécrit par le règlement (UE) 2026/1744, demande à toute entreprise déployant un système IA de prendre des mesures pour soutenir le développement de la littératie IA de son personnel — sans exiger de garantir un niveau spécifique pour un individu. La feuille de route est le vecteur naturel pour planifier cette montée en compétences de façon documentée.
 
 ### Quelle est la différence entre un audit IA et une feuille de route IA ?
 
@@ -3543,7 +3581,7 @@ Smart Impulsion propose un Audit IA Express qui permet de valider votre feuille 
       },
       {
         question: "La feuille de route IA est-elle obligatoire avec l'AI Act ?",
-        answer: "L'AI Act n'impose pas une 'feuille de route IA' comme document formel. Mais l'article 4 du Règlement UE 2024/1689 impose à toute entreprise déployant un système IA de garantir un niveau suffisant de littératie IA à son personnel, avec des contrôles nationaux à partir d'août 2026. La feuille de route est le vecteur naturel pour planifier cette montée en compétences.",
+        answer: "L'AI Act n'impose pas une 'feuille de route IA' comme document formel. Mais l'article 4 de l'AI Act, réécrit par le règlement (UE) 2026/1744, demande à toute entreprise déployant un système IA de prendre des mesures pour soutenir le développement de la littératie IA de son personnel — sans exiger de garantir un niveau spécifique pour un individu. La feuille de route est le vecteur naturel pour planifier cette montée en compétences.",
       },
       {
         question: "Quelle est la différence entre un audit IA et une feuille de route IA ?",
@@ -4889,9 +4927,9 @@ Le gap entre intention et action commence toujours par l'absence de diagnostic. 
 
 Deux régimes réglementaires s'appliquent à votre situation. Ils sont distincts et cumulables.
 
-### L'AI Act article 4 : la littératie IA devient obligatoire
+### L'AI Act article 4 : la littératie IA, obligation de moyens
 
-L'article 4 du règlement européen sur l'IA (AI Act) est entré en application le 2 février 2025. Il impose à tout fournisseur ou déployeur de systèmes IA de prendre des mesures pour assurer un niveau suffisant de littératie IA parmi son personnel.
+L'article 4 du règlement européen sur l'IA (AI Act) est entré en application le 2 février 2025, et sa rédaction a été remplacée par le règlement (UE) 2026/1744 le 27 juillet 2026. Il demande désormais à tout fournisseur ou déployeur de systèmes IA de prendre des mesures pour « soutenir le développement » de la littératie IA de son personnel, en précisant que cette obligation n'impose pas de garantir un niveau spécifique pour un individu.
 
 En d'autres termes : si votre entreprise utilise des outils IA, vous avez l'obligation de former ou de sensibiliser vos collaborateurs à ce sujet. L'enforcement par les autorités nationales de surveillance démarre en août 2026.
 
@@ -4995,7 +5033,7 @@ Le shadow IA désigne l'utilisation d'outils IA non approuvés par l'entreprise 
 
 ### Que dit l'AI Act article 4 sur la littératie IA ?
 
-L'article 4, en vigueur depuis le 2 février 2025, impose aux fournisseurs et déployeurs de systèmes IA d'assurer un niveau suffisant de littératie IA parmi leur personnel. L'enforcement par les autorités nationales démarre en août 2026. En pratique pour une PME : pas de certification obligatoire, mais la capacité à documenter une démarche de sensibilisation. Un briefing d'équipe tracé et une charte signée constituent un début de preuve acceptable pour un contrôleur.
+L'article 4, en vigueur depuis le 2 février 2025 et réécrit le 27 juillet 2026 par le règlement (UE) 2026/1744, demande aux fournisseurs et déployeurs de systèmes IA de prendre des mesures pour soutenir le développement de la littératie IA de leur personnel, sans imposer de garantir un niveau spécifique pour un individu. En pratique pour une PME : pas de certification obligatoire, pas de niveau à atteindre, mais une démarche réelle et proportionnée aux usages. Un briefing d'équipe tracé et une charte signée constituent un début de preuve acceptable pour un contrôleur.
 
 ## Passez de la théorie à l'action
 
@@ -5030,7 +5068,7 @@ Smart Impulsion est un cabinet conseil IA B2B spécialisé dans l'accompagnement
       },
       {
         question: "Que dit exactement l'AI Act article 4 sur la littératie IA ?",
-        answer: "L'article 4 de l'AI Act (en vigueur depuis le 2 février 2025) impose aux fournisseurs et déployeurs de systèmes IA de prendre des mesures pour assurer un niveau suffisant de littératie IA parmi leur personnel. L'enforcement par les autorités nationales démarre en août 2026. En pratique pour une PME : pas de certification obligatoire, mais la capacité à documenter une démarche de sensibilisation. Un briefing d'équipe tracé et une charte signée constituent un début de preuve acceptable.",
+        answer: "L'article 4 de l'AI Act (en vigueur depuis le 2 février 2025, réécrit le 27 juillet 2026 par le règlement (UE) 2026/1744) demande aux fournisseurs et déployeurs de systèmes IA de prendre des mesures pour soutenir le développement de la littératie IA de leur personnel, sans imposer de garantir un niveau spécifique pour un individu. En pratique pour une PME : pas de certification obligatoire, pas de niveau à atteindre, mais une démarche réelle et proportionnée aux usages. Un briefing d'équipe tracé et une charte signée constituent un début de preuve acceptable.",
       },
     ],
     howTo: {
@@ -5260,7 +5298,7 @@ Le guide [Audit IA pour PME : le guide complet](/blog/audit-ia-pme-guide-complet
 
 ## L'AI Act Article 4 : une raison supplémentaire d'agir maintenant
 
-L'AI Act Article 4 (Règlement UE 2024/1689, applicable depuis le 2 février 2025) impose à tout déployeur de système IA de garantir un niveau suffisant de compréhension de l'IA au sein de ses équipes. Ce n'est pas une obligation floue. Le plafond de sanction est fixé à **jusqu'à 15 millions d'euros ou 3% du chiffre d'affaires annuel mondial** (Article 99, paragraphe 4, Règlement UE 2024/1689).
+L'article 4 de l'AI Act (applicable depuis le 2 février 2025, réécrit le 27 juillet 2026 par le règlement (UE) 2026/1744) demande à tout déployeur de système IA de prendre des mesures pour soutenir le développement de la littératie IA de ses équipes. Le texte précise qu'il **n'impose pas de garantir un niveau spécifique pour un individu** : c'est une obligation de moyens, pas de résultat.
 
 En pratique, qu'est-ce que cette obligation implique pour une PME ? L'Article 4 ne fixe pas de nombre d'heures de formation minimal, mais il exige que les organisations qui déploient des systèmes IA puissent démontrer que leurs équipes comprennent les capacités et les limites des outils utilisés. La charge de la preuve repose sur le déployeur, c'est-à-dire l'entreprise, pas l'éditeur du logiciel.
 
@@ -5301,7 +5339,7 @@ L'audit amont vous donne un diagnostic objectif avant d'entendre les prestataire
 
 ### L'AI Act oblige-t-il les PME à former leurs équipes à l'IA ?
 
-Oui. L'AI Act Article 4, applicable depuis février 2025, impose la littératie IA pour tout déployeur de système IA. Le plafond de sanction atteint jusqu'à 15 millions d'euros ou 3% du chiffre d'affaires annuel mondial (Article 99(4), Règlement UE 2024/1689). Un consultant IA peut accompagner cette conformité dans sa mission.
+Oui, mais pas comme on le lit souvent. L'article 4, applicable depuis février 2025 et réécrit le 27 juillet 2026 par le règlement (UE) 2026/1744, demande à tout déployeur de prendre des mesures pour soutenir le développement de la littératie IA de ses équipes — sans imposer de garantir un niveau spécifique pour un individu. Nous ne citons aucun montant de sanction : le régime du chapitre XII a été modifié par le même règlement et son application n'est pas établie article par article à ce jour. Un consultant IA peut accompagner cette démarche.
 
 ## Passez de la théorie à l'action
 
@@ -5344,7 +5382,7 @@ L'Audit IA Express Smart Impulsion vous donne en 2 à 3 jours le diagnostic obje
       },
       {
         question: "L'AI Act oblige-t-il les PME à former leurs équipes à l'IA ?",
-        answer: "Oui. L'AI Act Article 4 (applicable depuis le 2 février 2025) impose à tout déployeur de système IA de garantir un niveau suffisant de compréhension de l'IA au sein de ses équipes. Le plafond de sanction pour non-conformité atteint jusqu'à 15 millions d'euros ou 3% du chiffre d'affaires annuel mondial (Article 99, paragraphe 4, Règlement UE 2024/1689). Un consultant IA peut accompagner cette mise en conformité.",
+        answer: "Oui. L'article 4 de l'AI Act (applicable depuis le 2 février 2025, réécrit le 27 juillet 2026 par le règlement (UE) 2026/1744) demande à tout déployeur de système IA de prendre des mesures pour soutenir le développement de la littératie IA de ses équipes. C'est une obligation de moyens : le texte précise qu'elle n'impose pas de garantir un niveau spécifique pour un individu. Un consultant IA peut accompagner cette démarche.",
       },
     ],
   },
@@ -5840,13 +5878,13 @@ Cette distinction change substantiellement vos obligations :
 
 ### Qu'impose l'article 4 de l'AI Act, déjà applicable depuis août 2025 ?
 
-*L'article 4 de l'AI Act est une obligation de littératie IA : tous les fournisseurs et déployeurs doivent s'assurer que leur personnel dispose des compétences nécessaires pour utiliser, superviser ou rejeter les sorties des systèmes IA qu'ils manipulent. Elle est en vigueur depuis le 2 août 2025.*
+*L'article 4 de l'AI Act est une obligation de littératie IA : les fournisseurs et déployeurs doivent prendre des mesures pour soutenir le développement des compétences de leur personnel à utiliser, superviser ou rejeter les sorties des systèmes IA qu'ils manipulent. Elle est en vigueur depuis le 2 février 2025, et sa rédaction a été allégée le 27 juillet 2026 par le règlement (UE) 2026/1744.*
 
-Avant de parler d'août 2026, une obligation est déjà active depuis le 2 août 2025 : l'article 4 de l'AI Act impose à tous les fournisseurs et déployeurs de s'assurer que leur personnel dispose du niveau de compétences IA nécessaire à l'exercice de leurs fonctions.
+Avant de parler d'août 2026, une obligation est déjà active depuis le 2 février 2025 : l'article 4 de l'AI Act demande à tous les fournisseurs et déployeurs de prendre des mesures pour soutenir le développement de la littératie IA de leur personnel. Depuis sa réécriture par le règlement (UE) 2026/1744, le texte précise qu'il n'impose pas de garantir un niveau spécifique pour un individu.
 
 Ce n'est pas une obligation de formation lourde. C'est une obligation de preuve : si la CNIL vous contrôle, vous devez être en mesure de démontrer que vos collaborateurs savent comment utiliser les outils IA qu'ils manipulent, quelles données ils peuvent y saisir, et quand ils doivent valider ou rejeter une sortie automatisée.
 
-> L'article 4 de l'AI Act est en vigueur depuis le 2 août 2025. Il impose à tous les fournisseurs et déployeurs de s'assurer que leur personnel dispose du niveau de compétences IA nécessaire. Source : texte consolidé AI Act, ai-act-service-desk.ec.europa.eu.
+> L'article 4 de l'AI Act est en vigueur depuis le 2 février 2025. Il demande à tous les fournisseurs et déployeurs de prendre des mesures pour soutenir le développement de la littératie IA de leur personnel, sans imposer de garantir un niveau spécifique pour un individu. Source : [règlement (UE) 2026/1744, EUR-Lex](https://eur-lex.europa.eu/eli/reg/2026/1744/oj/eng).
 
 La politique d'usage interne, abordée dans la troisième section, est précisément le document qui vous permet de remplir cette obligation sans déployer un programme de formation coûteux.
 
@@ -6294,9 +6332,9 @@ Les dispositifs existent. Ils sont cumulables. Mais les délais administratifs s
 
 ### L'AI Act article 4 en langage dirigeant
 
-Le Règlement UE 2024/1689, dit AI Act, est en vigueur depuis le 2 février 2025. Son article 4 impose à toutes les entreprises qui déploient ou utilisent des systèmes d'IA de s'assurer que leurs équipes disposent d'un niveau de "littératie IA" suffisant.
+L'article 4 de l'AI Act est applicable depuis le 2 février 2025. Réécrit le 27 juillet 2026 par le règlement (UE) 2026/1744, il demande aux entreprises qui déploient ou utilisent des systèmes d'IA de prendre des mesures pour soutenir le développement de la « littératie IA » de leurs équipes — sans imposer de garantir un niveau spécifique pour un individu.
 
-Ce n'est pas une recommandation de bonne pratique. C'est une obligation légale, applicable à toute organisation ayant des activités dans l'Union européenne, quelle que soit sa taille. Les sanctions prévues par le règlement peuvent atteindre 15 millions d'euros ou 3 % du chiffre d'affaires mondial pour les manquements les plus graves.
+Ce n'est pas une recommandation de bonne pratique. C'est une obligation légale, applicable à toute organisation ayant des activités dans l'Union européenne, quelle que soit sa taille. En revanche, c'est une obligation de **moyens** : nous ne citons aucun montant de sanction, le régime du chapitre XII de l'AI Act ayant été modifié par le règlement (UE) 2026/1744 sans que son application soit établie article par article à ce jour.
 
 Pour une PME qui utilise des outils comme ChatGPT, Copilot, ou tout logiciel intégrant des fonctions d'IA, l'obligation s'applique dès aujourd'hui. Notre article sur les [obligations AI Act article 4 pour les dirigeants](/blog/formation-ia-dirigeants-ai-act-obligations-2026) détaille précisément ce que le règlement attend des dirigeants non-tech. Pour une vue d'ensemble de la conformité AI Act applicable aux PME françaises, notre [guide AI Act PME 2026](/blog/ai-act-pme-guide-2026) recense toutes les obligations par date.
 
@@ -6740,53 +6778,61 @@ Le premier pas est le plus structurant. Construisez d'abord le périmètre. Le r
   },
   {
     slug: "litteratie-ia-pme-ai-act-article-4",
-    title: "Littératie IA en PME : ce que l'article 4 de l'AI Act impose avant août 2026",
-    seoTitle: "Littératie IA en PME : AI Act article 4 | Smart Impulsion",
+    title: "Littératie IA en PME : ce que l'article 4 de l'AI Act demande vraiment",
+    seoTitle: "Littératie IA en PME : ce que l'article 4 demande",
     excerpt:
-      "AI Act article 4 : littératie IA obligatoire pour les PME depuis février 2025. Obligations, plan d'action et financement OPCO pour les dirigeants.",
-    content: `Depuis le 2 février 2025, votre entreprise est soumise à une obligation légale que la plupart des dirigeants de PME ignorent encore. L'article 4 de l'AI Act (Règlement (UE) 2024/1689) impose à tout déployeur de systèmes d'IA de s'assurer que ses collaborateurs disposent d'un niveau suffisant de littératie en matière d'IA. La littératie IA désigne l'ensemble des compétences permettant à un collaborateur de comprendre ce qu'est un système d'IA, comment il fonctionne, et ce qu'implique son utilisation responsable. Si votre entreprise utilise Copilot, un chatbot de service client, ou un outil de recrutement assisté par algorithme, elle est un déployeur au sens du règlement.
+      "L'article 4 a été réécrit le 27 juillet 2026 : obligation de moyens, aucun niveau à garantir. Ce qui reste à faire, et comment le financer.",
+    content: `Depuis le 2 février 2025, votre entreprise est soumise à une obligation dont la plupart des dirigeants de PME n'ont pas entendu parler. Et depuis le 27 juillet 2026, cette obligation **n'a plus le contenu que tout le monde lui prête**.
 
-Pas une recommandation. Une obligation.
+L'article 4 de l'AI Act a été intégralement réécrit par le [règlement (UE) 2026/1744 du 8 juillet 2026](https://eur-lex.europa.eu/eli/reg/2026/1744/oj/eng) — le « Digital Omnibus on AI ». Il ne demande plus de s'assurer d'un niveau suffisant de littératie IA. Il demande de **soutenir le développement** de cette littératie, et précise explicitement qu'il n'impose pas de garantir un niveau donné pour un individu.
 
-Ce que cela signifie concrètement pour votre organisation, qui est concerné, et par quoi commencer : voici ce que vous devez savoir avant qu'août 2026 ne rende la pression réglementaire plus intense.
+Si votre entreprise utilise Copilot, un chatbot de service client ou un outil de recrutement assisté par algorithme, elle reste un **déployeur** au sens du règlement, et l'obligation la concerne. Mais son contenu réel est aujourd'hui beaucoup plus léger — et beaucoup moins bien compris — qu'il ne l'était il y a six mois.
+
+> ⚠️ **Ne confondez pas avec un report.** La date d'application de l'article 4 n'a pas bougé : c'est toujours le 2 février 2025. Ce qui a changé, c'est la **substance** de l'obligation.
 
 
 
-## Ce que l'article 4 de l'AI Act impose exactement
+## Ce que l'article 4 de l'AI Act demande exactement
 
-Le texte du règlement (UE) 2024/1689 est sobre. L'article 4 tient en une formulation brève mais contraignante :
+Le texte est sobre. Dans sa rédaction issue du règlement (UE) 2026/1744 :
 
-> "Les fournisseurs et les déployeurs de systèmes d'IA prennent des mesures pour s'assurer, dans toute la mesure du possible, d'un niveau suffisant de littératie en matière d'IA de leur personnel et de toute autre personne intervenant dans l'exploitation et l'utilisation de systèmes d'IA en leur nom."
+> Les fournisseurs et déployeurs de systèmes d'IA doivent « **prendre des mesures pour soutenir le développement de la littératie IA** » de leur personnel et des autres personnes intervenant dans l'exploitation et l'utilisation des systèmes d'IA pour leur compte, en tenant compte de leurs connaissances techniques, de leur expérience, de leur éducation et de leur formation, ainsi que du contexte dans lequel ces systèmes sont utilisés.
+>
+> Et : « **cette obligation n'impose pas de garantir un niveau spécifique de littératie IA pour un individu** ».
 
-Trois mots clés structurent cette obligation : **mesures**, **niveau suffisant**, **personnel**.
+Deux mots-clés structurent désormais l'obligation : **mesures** et **soutenir**. Le « niveau suffisant » de l'ancienne rédaction a disparu.
 
 ### Ce que "mesures" signifie réellement
 
-Le législateur européen n'a pas imposé de format. Ni un nombre d'heures de formation minimum, ni un programme certifiant obligatoire, ni un test à faire passer à vos salariés. L'article 4 est une obligation de moyens, non de résultat. Une session de sensibilisation collective de deux heures, documentée, avec liste de présence et support de formation, constitue déjà une "mesure" au sens du règlement.
+Le législateur européen n'a imposé aucun format : ni nombre d'heures minimum, ni programme certifiant, ni test à faire passer à vos salariés. C'est une obligation de moyens — et depuis juillet 2026, le texte le dit lui-même au lieu de le laisser déduire. Une session de sensibilisation collective de deux heures, adaptée aux outils réellement utilisés, constitue une « mesure » au sens du règlement.
 
-Ce que le règlement attend, c'est une démarche proactive et traçable. L'absence totale de trace documentée n'est pas une option défendable.
+Ce que le règlement attend, c'est une démarche réelle. Ne rien faire du tout reste hors des clous ; faire quelque chose de proportionné suffit.
 
-### Ce que "niveau suffisant" veut dire
+### Ce qui a remplacé le "niveau suffisant"
 
-Le règlement précise que ce niveau doit être évalué en tenant compte de :
+C'est le changement le plus important, et presque personne ne l'a relevé.
 
-- Les connaissances techniques et l'expérience préalable des collaborateurs concernés
-- Leur formation et leur éducation existantes
-- Le contexte dans lequel les systèmes IA sont utilisés
-- Les personnes ou groupes de personnes sur lesquels les systèmes IA produisent des effets
+| Ancienne rédaction | Rédaction applicable depuis le 27/07/2026 |
+|---|---|
+| Prendre des mesures pour **assurer**, dans toute la mesure du possible, un **niveau suffisant** de littératie IA | Prendre des mesures pour **soutenir le développement** de la littératie IA |
+| Obligation orientée résultat | Obligation de moyens, avec **exclusion explicite** de tout niveau garanti par individu |
+| Charge portée par l'entreprise seule | Devoir d'accompagnement de la Commission et des États membres, **PME explicitement visées** |
 
-> La littératie IA au sens de l'AI Act ne vise pas à former des experts en IA. Elle vise à s'assurer que chaque collaborateur qui interagit avec un système IA comprend les limites de cet outil, ses risques potentiels dans son contexte d'usage, et la responsabilité humaine qui demeure dans les décisions prises avec son aide.
+Les critères de proportionnalité, eux, demeurent : connaissances techniques et expérience des personnes concernées, formation existante, contexte d'utilisation des systèmes, et personnes sur lesquelles ces systèmes produisent des effets.
+
+> La littératie IA au sens de l'AI Act ne vise pas à former des experts. Elle vise à ce que chaque collaborateur qui interagit avec un système IA comprenne les limites de cet outil, ses risques dans son contexte d'usage, et la responsabilité humaine qui demeure dans les décisions prises avec son aide. Cet objectif n'a pas changé — c'est le niveau d'exigence juridique qui a baissé.
 
 ### Ce qui n'est PAS dans l'article 4
 
 Le texte n'impose pas :
 
 - De certification obligatoire pour les salariés
-- D'audit externe requis par le règlement
+- D'audit externe
 - De format de documentation standardisé
-- De délai de mise en conformité progressif pour les PME
+- De dossier de preuve opposable à produire
+- **De niveau de littératie garanti pour qui que ce soit**
 
-Sa mise en oeuvre est à la discrétion de l'entreprise, à condition d'être proportionnée et documentée.
+Sa mise en œuvre est à la discrétion de l'entreprise, à condition d'être proportionnée aux usages réels.
 
 
 
@@ -6852,7 +6898,7 @@ Pour les **managers et décideurs**, le niveau doit être supérieur :
 - Documenter les usages IA dans leur périmètre pour la conformité article 4
 - Comprendre les responsabilités de l'entreprise en tant que déployeur
 
-Deux erreurs fréquentes sont à éviter : surestimer l'obligation (envoyer tout le monde sur un MOOC de 40 heures est disproportionné) ou la sous-estimer (un email avec un lien Wikipédia ne constitue pas une "mesure" au sens du règlement). Pour les PME qui démarrent avec l'IA, une session de sensibilisation de 2 à 4 heures, documentée et adaptée aux outils réellement utilisés, constitue un point de départ défendable. Pour structurer l'usage de l'IA dans vos équipes, lisez notre article sur [comment démarrer avec l'IA en PME](/blog/ia-pour-pme-guide).
+Deux erreurs fréquentes sont à éviter : surestimer l'obligation (envoyer tout le monde sur un MOOC de 40 heures est disproportionné, et l'était déjà avant la réécriture du texte) ou la sous-estimer (un email avec un lien Wikipédia ne constitue pas une « mesure »). Pour les PME qui démarrent avec l'IA, une session de sensibilisation de 2 à 4 heures, adaptée aux outils réellement utilisés, constitue un point de départ solide. Pour structurer l'usage de l'IA dans vos équipes, lisez notre article sur [comment démarrer avec l'IA en PME](/blog/ia-pour-pme-guide).
 
 
 
@@ -6864,28 +6910,39 @@ C'est le point que la quasi-totalité des articles sur l'AI Act ne mentionne pas
 
 L'AI Act est entré en vigueur le 1er août 2024. Mais son calendrier d'application est progressif. Ce que beaucoup ignorent : l'article 4 fait partie du Chapitre I du règlement, qui est entré en application dès le **2 février 2025** (article 113 du règlement).
 
-> L'obligation de littératie IA n'est pas une obligation future. Elle s'applique depuis le 2 février 2025. Si votre entreprise utilise des outils IA et n'a pas pris de mesures depuis cette date, elle est techniquement en défaut depuis plus d'un an.
+> L'obligation de littératie IA n'est pas une obligation future : elle s'applique depuis le 2 février 2025. Ce qui a changé le 27 juillet 2026, c'est son contenu, pas sa date.
 
-Avec l'article 4, les pratiques d'IA interdites (article 5) sont également entrées en application à la même date. Si votre entreprise a adopté un outil IA avant février 2025 sans former ses équipes, l'obligation court depuis lors.
+Avec l'article 4, les pratiques d'IA interdites (article 5) sont également entrées en application à la même date.
 
-### Ce qu'août 2026 change réellement
+### Ce qu'août 2026 change réellement, et ce qui a été reporté
 
-La date du 2 août 2026 correspond à l'application générale du règlement. À partir de cette date :
+C'est ici que la plupart des articles publiés avant l'été se trompent — le calendrier a été modifié.
 
-- Les obligations pour les systèmes à haut risque entrent pleinement en vigueur (articles 6 à 49)
-- Les obligations de transparence pour certains systèmes IA s'activent (article 50)
-- Les autorités nationales de surveillance deviennent pleinement opérationnelles
-- La pression réglementaire et les inspections seront significativement plus intenses
+Ce qui s'applique bien au **2 août 2026** :
 
-Août 2026 ne crée pas l'obligation de littératie IA. Elle existait depuis février 2025. Mais elle rend l'environnement réglementaire global plus exigeant, et les entreprises sans documentation de conformité seront exposées à une attention accrue des autorités nationales.
+- La **gouvernance et les pouvoirs d'exécution** : le Bureau européen de l'IA et les autorités des États membres deviennent responsables de la mise en œuvre, de la supervision et du contrôle
+- Les **obligations de transparence** de l'article 50, avec une période transitoire de quatre mois pour les systèmes mis sur le marché avant cette date
+- La **surveillance du marché** et la surveillance après commercialisation
+
+Ce qui a été **reporté** par le règlement (UE) 2026/1744 :
+
+- Les obligations relatives aux **systèmes à haut risque de l'annexe III** (emploi et RH, biométrie, éducation, crédit, services essentiels…) → **2 décembre 2027**
+- Les obligations relatives aux **systèmes à haut risque intégrés à des produits** (annexe I) → **2 août 2028**
+
+Le motif officiel du report : les retards dans l'élaboration des normes harmonisées et dans la désignation des autorités nationales compétentes.
 
 ### Un calendrier simplifié pour les PME
 
 | Date | Ce qui s'applique |
 |---|---|
 | 1er août 2024 | Entrée en vigueur de l'AI Act |
-| 2 février 2025 | Application article 4 (littératie IA) et article 5 (pratiques interdites) |
-| 2 août 2026 | Application générale : systèmes à haut risque, transparence, surveillance active |
+| **2 février 2025** | Application de l'article 4 (littératie IA) et de l'article 5 (pratiques interdites) — **date inchangée** |
+| 2 août 2025 | Gouvernance et obligations relatives aux modèles d'IA à usage général (GPAI) |
+| **27 juillet 2026** | Entrée en vigueur du règlement (UE) 2026/1744 : **nouvelle rédaction de l'article 4** |
+| 2 août 2026 | Gouvernance, pouvoirs d'exécution, transparence (article 50), surveillance du marché |
+| Décembre 2026 | 9e pratique interdite (contenus intimes non consentis) |
+| **2 décembre 2027** | Systèmes à haut risque de l'annexe III |
+| **2 août 2028** | Systèmes à haut risque intégrés à des produits (annexe I) |
 
 
 
@@ -6924,35 +6981,38 @@ Dans tous les cas, contactez votre OPCO avant de sélectionner un prestataire : 
 
 
 
-## Obligation littératie IA : documenter la conformité article 4
+## Faut-il documenter, et pourquoi ?
 
-En l'absence de format imposé par le règlement, la documentation de conformité à l'article 4 est à construire selon votre propre logique. Mais elle doit exister et être accessible rapidement.
+Aucun format n'est imposé par le règlement, et depuis la réécriture de juillet 2026, **aucun dossier n'est exigé**. La question de la documentation se pose donc autrement : à quoi sert-elle, si personne ne va vous la réclamer ?
 
-### Pourquoi documenter si l'article 4 n'a pas de sanction directe
+### Le point sur les sanctions, sans chiffres
 
-C'est la nuance que tout dirigeant de PME doit comprendre. L'article 99 du règlement (celui qui fixe les amendes) liste explicitement les obligations dont la violation est sanctionnable. L'article 4 n'y figure pas. Les amendes pouvant aller jusqu'à 15 M€ ou 3 % du chiffre d'affaires mondial visent d'autres manquements : manquements aux obligations des fournisseurs et déployeurs pour les systèmes à haut risque. Les pratiques interdites (article 5) exposent quant à elles à des sanctions encore plus élevées (35 M€ ou 7 % du CA).
+Nous ne citerons aucun montant. Le régime de sanctions de l'AI Act (chapitre XII) a été modifié en même temps que le reste du texte par le Digital Omnibus, et son application article par article n'est pas établie de façon fiable à ce jour. Les chiffres qui circulent — y compris ceux que cet article citait dans sa version précédente — proviennent de la rédaction antérieure du règlement.
 
-Cela ne signifie pas que l'obligation est optionnelle. Cela signifie que le risque immédiat n'est pas une amende massive. Le risque réel est double :
+Ce qui est en revanche solide : **l'article 4 n'impose plus aucun niveau garanti par individu**. Il n'existe donc plus de « niveau insuffisant » qu'une autorité pourrait constater. Le seul sujet résiduel est l'absence totale de démarche.
 
-- **Risque de conformité globale** : en cas d'incident impliquant un système IA (décision automatisée contestée, biais dans un outil RH), l'absence de documentation sur la littératie IA aggrave la situation réglementaire de votre entreprise
-- **Risque réputationnel** : à mesure que les autorités nationales deviennent actives après août 2026, les entreprises sans documentation s'exposeront à une attention accrue des régulateurs et de leurs clients
+Cela ne rend pas l'exercice inutile. Le risque réel s'est simplement déplacé :
 
-### Ce que vous devez pouvoir produire
+- **Risque opérationnel** : un collaborateur mal informé transmet un résultat faux à un client, ou colle un fichier confidentiel dans un outil grand public. Aucun texte ne vous en protège.
+- **Risque commercial** : un donneur d'ordre vous interroge sur vos usages IA dans un audit fournisseur, et vous n'avez rien à répondre.
+- **Risque de calendrier** : si vous utilisez des outils relevant de l'annexe III (tri de CV, évaluation automatisée), les obligations réelles arrivent en décembre 2027, et elles sont d'une tout autre lourdeur.
 
-Un dossier de conformité article 4 doit pouvoir répondre à trois questions :
+### Ce qu'il est utile de pouvoir produire
+
+Une documentation utile répond à trois questions — pour vous, pas pour un inspecteur :
 
 1. Quels systèmes IA sont utilisés dans l'entreprise, par quelles équipes, dans quels contextes ?
-2. Quelles mesures ont été prises pour s'assurer du niveau de littératie IA de ces équipes ?
-3. Quand ces mesures ont-elles été mises en place, et comment sont-elles maintenues dans le temps ?
+2. Quelles mesures ont été prises, et pour quels postes ?
+3. Quand, et comment sont-elles maintenues dans le temps ?
 
-Concrètement, quatre éléments documentés suffisent :
+Concrètement, quatre éléments suffisent :
 
 - Un inventaire des outils IA utilisés (fournisseur, usage, équipes concernées)
 - Les supports de formation utilisés (ordre du jour, date, liste des participants)
 - La politique interne d'usage de l'IA, même sous forme d'une charte d'une page
 - Un mécanisme de mise à jour pour chaque nouvel outil IA déployé
 
-> La règle pratique : si un inspecteur de l'autorité nationale compétente vous demandait demain quelles mesures vous avez prises pour l'article 4, pourriez-vous produire un document en moins de dix minutes ? Si la réponse est non, c'est précisément là que se situe votre priorité.
+> La règle pratique : si votre plus gros client vous demandait demain comment vos équipes sont encadrées dans leur usage de l'IA, pourriez-vous répondre en moins de dix minutes ? C'est un meilleur test que n'importe quelle échéance réglementaire.
 
 Ce travail a une valeur opérationnelle en lui-même : il révèle souvent des usages IA non formalisés, des doublons d'outils, et des risques de sécurité des données non identifiés. Pour aller plus loin sur le diagnostic IA structuré, consultez notre article sur [l'audit IA adapté aux PME](/blog/audit-ia-pme-guide-complet).
 
@@ -6992,18 +7052,18 @@ Sur la base des résultats de l'étape 2, adaptez le programme :
 - Pour les usages à impact décisionnel (scoring RH, analyse financière assistée) : une formation d'une journée avec un prestataire externe est à privilégier
 - Pour les managers et décideurs : un atelier spécifique sur les implications réglementaires et les responsabilités du déployeur
 
-Documentez chaque session : date, participants, contenu abordé, durée. C'est la pièce centrale de votre dossier de conformité.
+Documentez chaque session : date, participants, contenu abordé, durée. Pas pour un contrôleur — pour savoir, dans six mois, qui reste à accompagner.
 
 ### Étape 4 : Formaliser la politique interne et prévoir la mise à jour (1 semaine)
 
-La conformité article 4 n'est pas un événement ponctuel. C'est une obligation continue. Formalisez :
+« Soutenir le développement » de la littératie IA décrit un mouvement, pas un événement ponctuel. Formalisez :
 
 - Une charte d'usage de l'IA interne, même courte : elle démontre l'existence d'un cadre
 - Un mécanisme de revue annuelle des usages IA et du niveau de littératie
 - Un processus d'intégration pour les nouveaux outils IA déployés dans l'entreprise
 - Un point de contact interne responsable du suivi de la conformité IA
 
-> Une PME de 50 personnes utilisant principalement Copilot et un outil de chatbot service client peut être en ordre au titre de l'article 4 en moins d'un mois, avec un budget formation de 3 000 à 5 000 euros, finançable via son OPCO.
+> Une PME de 50 personnes utilisant principalement Copilot et un chatbot de service client peut boucler l'ensemble de cette démarche en moins d'un mois, avec un budget formation de 3 000 à 5 000 euros, finançable via son OPCO.
 
 
 
@@ -7011,30 +7071,36 @@ La conformité article 4 n'est pas un événement ponctuel. C'est une obligation
 
 En 2024, seulement 10 % des entreprises françaises de 10 salariés ou plus déclaraient utiliser l'IA (INSEE Première n°2061, 2025). Chez les petites entreprises de 10 à 49 salariés, ce taux tombait à 9 %. Ces chiffres progressent vite, mais la grande majorité des PME qui ont adopté l'IA l'ont fait sans accompagnement réglementaire structuré.
 
-L'article 4 de l'AI Act change la donne. Pas parce qu'il impose des amendes immédiates. Mais parce qu'il crée une obligation documentable qui, en cas d'incident ou de contrôle, sera le premier élément que les autorités chercheront. Et parce que l'environnement réglementaire autour d'août 2026 rend cette obligation progressivement incontournable.
+La réécriture de l'article 4 en juillet 2026 a retiré à ce sujet son argument le plus commode : la peur du gendarme. Beaucoup de dirigeants vont en conclure qu'il n'y a plus rien à faire. C'est une erreur d'un autre ordre — parce que le problème d'origine, lui, n'a pas bougé d'un pouce.
 
-Pour une PME avec des usages IA standards, se conformer à l'article 4 est accessible et rapide. L'obligation pousse les PME à structurer leurs usages IA et à former leurs équipes à utiliser ces outils efficacement : une bonne pratique de gestion qui se trouve désormais être aussi une exigence réglementaire.
+Vos équipes utilisent des outils dont elles ne connaissent pas les limites, sur des données que vous n'avez pas cartographiées, pour produire des résultats que personne ne vérifie systématiquement. Aucun règlement européen ne réglera ça à votre place, et c'est précisément ce que le législateur a fini par admettre en transformant l'obligation en devoir d'accompagnement.
 
-Si vous souhaitez évaluer le niveau de préparation de votre entreprise face aux obligations de l'AI Act, identifier quels systèmes IA utilisés dans vos équipes déclenchent l'obligation de littératie, et ce que vous devez mettre en place en priorité, l'[Audit IA Express de Smart Impulsion](/services/audit) est conçu pour produire ce diagnostic en 3 jours ouvrés.`,
+Pour une PME avec des usages IA standards, la démarche décrite ici est accessible et rapide. Elle a d'ailleurs toujours été une bonne pratique de gestion avant d'être une exigence réglementaire — et elle le redevient pleinement.
+
+Si vous souhaitez évaluer le niveau de préparation de votre entreprise, identifier quels systèmes IA sont réellement utilisés dans vos équipes et ce qu'il faut mettre en place en priorité, l'[Audit IA Express de Smart Impulsion](/services/audit) est conçu pour produire ce diagnostic en 3 jours ouvrés.
+
+*Sources : [Règlement (UE) 2026/1744 du 8 juillet 2026, « Digital Omnibus on AI » — EUR-Lex](https://eur-lex.europa.eu/eli/reg/2026/1744/oj/eng), publié au JOUE le 24 juillet 2026, entré en vigueur le 27 juillet 2026 ; Règlement (UE) 2024/1689 (AI Act), articles 3, 4, 5, 50, 62 et 113 ; INSEE Première n°2061 (2025).*
+
+*Article mis à jour le 8 août 2026 pour tenir compte de la réécriture de l'article 4 par le règlement (UE) 2026/1744.*`,
     author: "Laurent Bouzon",
     date: "20 mai 2026",
     dateISO: "2026-05-20",
     readTime: "10 min",
     category: "Formation IA",
     image: "/litteratie-ia-pme-ai-act-article-4-hero.png",
-    imageAlt: "Image d'illustration pour l'article \"Littératie IA en PME : ce que l'article 4 de l'AI Act impose avant août 2026\"",
+    imageAlt: "Image d'illustration pour l'article \"Littératie IA en PME : ce que l'article 4 de l'AI Act demande vraiment\"",
     faq: [
       {
         question: "Qu'est-ce que la littératie IA selon l'AI Act ?",
-        answer: "La littératie IA désigne l'ensemble des compétences permettant à un collaborateur de comprendre ce qu'est un système d'IA, comment il fonctionne dans les grandes lignes, et ce qu'implique son utilisation responsable. L'AI Act ne fixe pas de niveau précis : il impose une obligation de moyens proportionnée au contexte et aux usages réels dans l'entreprise.",
+        answer: "La littératie IA désigne l'ensemble des compétences permettant à un collaborateur de comprendre ce qu'est un système d'IA, comment il fonctionne dans les grandes lignes, et ce qu'implique son utilisation responsable. Depuis la réécriture de l'article 4 par le règlement (UE) 2026/1744, l'AI Act demande de prendre des mesures pour soutenir le développement de cette littératie, et précise que cette obligation n'impose pas de garantir un niveau spécifique pour un individu.",
       },
       {
         question: "Mon entreprise est-elle concernée par l'article 4 de l'AI Act ?",
-        answer: "Oui, si votre entreprise utilise un outil intégrant de l'IA (Copilot, un chatbot de service client, un outil RH assisté par IA), vous êtes un déployeur au sens du règlement. L'article 4 s'applique dès le 2 février 2025 et exige que vos collaborateurs qui utilisent ces outils disposent d'un niveau suffisant de compréhension de l'IA.",
+        answer: "Oui, si votre entreprise utilise un outil intégrant de l'IA (Copilot, un chatbot de service client, un outil RH assisté par IA), vous êtes un déployeur au sens du règlement. L'article 4 s'applique depuis le 2 février 2025 et cette date n'a pas changé. Il vous demande de prendre des mesures proportionnées aux usages réels, sans exiger de niveau garanti pour vos collaborateurs.",
       },
       {
         question: "Quelles sont les sanctions pour non-respect de l'article 4 ?",
-        answer: "L'article 99 du règlement ne prévoit pas de sanction spécifique pour le seul non-respect de l'article 4. Le risque est davantage réputationnel et de conformité globale : en cas d'incident impliquant un système IA, l'absence de littératie documentée peut aggraver la situation. La prudence commande néanmoins d'agir dès maintenant.",
+        answer: "Nous ne citons aucun montant. Le régime de sanctions de l'AI Act a été modifié par le Digital Omnibus en même temps que le reste du texte, et son application article par article n'est pas établie de façon fiable à ce jour ; les chiffres qui circulent proviennent de la rédaction antérieure du règlement. Sur le fond, l'article 4 n'imposant plus aucun niveau garanti par individu, il n'existe plus de niveau insuffisant constatable. Le risque réel est opérationnel et commercial, pas administratif.",
       },
       {
         question: "Quel budget prévoir pour se conformer à l'article 4 ?",
@@ -7378,9 +7444,9 @@ Cette obligation suppose que vous sachiez, à tout moment, quelles données sont
 
 ### L'obligation de littératie IA déjà en vigueur
 
-Depuis le **2 février 2025**, l'article 4 de l'AI Act impose à toute organisation qui déploie un système IA de s'assurer que ses collaborateurs disposent d'un niveau suffisant de **littératie IA** : comprendre ce qu'est l'outil, ses limites, ses risques, et comment l'utiliser de manière responsable.
+Depuis le **2 février 2025**, l'article 4 de l'AI Act demande à toute organisation qui déploie un système IA de prendre des mesures pour soutenir le développement de la **littératie IA** de ses collaborateurs : comprendre ce qu'est l'outil, ses limites, ses risques, et comment l'utiliser de manière responsable. Depuis sa réécriture par le règlement (UE) 2026/1744, le texte précise qu'il n'impose pas de garantir un niveau spécifique pour un individu.
 
-Cette obligation s'applique à votre PME si vous utilisez ChatGPT, Copilot, ou n'importe quel autre outil IA. La sanction prévue pour manquement à l'article 4 : jusqu'à **7,5 millions d'euros ou 1,5 % du chiffre d'affaires mondial**.
+Cette obligation s'applique à votre PME si vous utilisez ChatGPT, Copilot, ou n'importe quel autre outil IA. En revanche, **nous ne citons aucun montant de sanction au titre de l'article 4** : le régime du chapitre XII de l'AI Act a été modifié par le règlement (UE) 2026/1744 et son application article par article n'est pas établie de façon fiable à ce jour.
 
 En pratique, cela signifie :
 
@@ -7416,7 +7482,7 @@ Oui. Le RGPD et l'AI Act sont deux règlements distincts, avec des régimes de s
 Les plafonds :
 
 - **RGPD** : jusqu'à 20 millions d'euros ou 4 % du chiffre d'affaires mondial annuel
-- **AI Act** : jusqu'à 35 millions d'euros ou 7 % du CA mondial pour les infractions les plus graves ; 7,5 millions ou 1,5 % pour le manquement à la littératie IA (article 4)
+- **AI Act** : régime de sanctions modifié par le règlement (UE) 2026/1744 et non établi article par article à ce jour — nous ne citons aucun montant, en particulier pas au titre de l'article 4 (littératie IA), qui est une obligation de moyens
 
 En pratique, la CNIL applique le principe de proportionnalité. Les PME ne sont pas les premières cibles des sanctions les plus lourdes. Mais l'absence totale de démarche de conformité, doublée d'une plainte d'un candidat, constitue un risque réel et documenté.
 
@@ -7574,7 +7640,7 @@ La définition officielle de la "maîtrise de l'IA" (article 3(56) du même règ
 
 Traduire cela sans jargon : si votre service RH utilise un outil d'analyse de CV assisté par IA, la personne qui prend les décisions de recrutement doit comprendre comment cet outil fonctionne, quelles sont ses limites, et dans quels cas il peut produire des résultats erronés ou biaisés. C'est ce niveau de compréhension que l'article 4 cible, adapté aux usages réels de chaque entreprise.
 
-La date d'août 2026 que vous lisez partout concerne les obligations de transparence du Titre IV, qui visent les systèmes IA à risque limité comme les chatbots. L'article 4, lui, est actif depuis février 2025. Les sanctions maximales de 35 millions d'euros ou 7% du chiffre d'affaires mondial visent les manquements graves sur les systèmes à risque inacceptable. Pour l'article 4 et les PME, le régime est plus souple, mais l'obligation de moyens existe.
+La date d'août 2026 que vous lisez partout concerne la gouvernance de l'AI Act, la surveillance du marché et les obligations de transparence de l'article 50, qui visent les systèmes IA à risque limité comme les chatbots. L'article 4, lui, est actif depuis février 2025 — sa date n'a pas changé, mais sa rédaction a été allégée le 27 juillet 2026. Nous ne citons aucun montant de sanction : le régime du chapitre XII a été modifié par le règlement (UE) 2026/1744 et son application article par article n'est pas établie à ce jour. Pour l'article 4, ce qui subsiste est une obligation de moyens.
 
 Pour tout ce qui touche au calendrier réglementaire et aux obligations concrètes par taille d'entreprise, consultez [notre guide complet sur l'AI Act et les PME](/blog/ai-act-pme-guide-2026).
 
@@ -7709,7 +7775,7 @@ Si l'inventaire de l'étape 1 révèle une liste floue ou incomplète, le bon po
 
 ### La formation IA est-elle vraiment obligatoire pour les PME ?
 
-L'article 4 du Règlement IA impose une obligation de moyens : les dirigeants doivent s'assurer que le personnel travaillant avec des systèmes IA dispose d'un niveau suffisant de maîtrise. Ce niveau n'est pas prescrit par le texte. C'est le déployeur, c'est-à-dire la PME, qui le définit. L'obligation est en vigueur depuis février 2025, mais sans sanction immédiate pour les PME sur ce point précis.
+L'article 4 du Règlement IA impose une obligation de moyens : les déployeurs doivent prendre des mesures pour soutenir le développement de la littératie IA du personnel travaillant avec des systèmes IA. Depuis la réécriture du texte par le règlement (UE) 2026/1744 le 27 juillet 2026, aucun niveau n'a à être garanti pour un individu — c'est écrit explicitement dans le règlement. L'obligation est en vigueur depuis février 2025, mais sans sanction immédiate pour les PME sur ce point précis.
 
 ### Par où commencer si aucune formation IA n'a encore été faite dans l'entreprise ?
 
@@ -7744,7 +7810,7 @@ Smart Impulsion, cabinet conseil IA pour PME et ETI, propose un Audit IA Express
     faq: [
       {
         question: "La formation IA est-elle vraiment obligatoire pour les PME ?",
-        answer: "L'article 4 du Règlement IA (AI Act) impose une obligation de moyens : les dirigeants doivent s'assurer que le personnel travaillant avec des systèmes IA dispose d'un niveau suffisant de maîtrise. Ce niveau n'est pas prescrit par le texte. C'est le déployeur, c'est-à-dire la PME, qui le définit. L'obligation est en vigueur depuis février 2025, mais sans sanction immédiate pour les PME sur ce point précis.",
+        answer: "L'article 4 du Règlement IA (AI Act) impose une obligation de moyens : les déployeurs doivent prendre des mesures pour soutenir le développement de la littératie IA du personnel travaillant avec des systèmes IA. Depuis la réécriture du texte par le règlement (UE) 2026/1744 le 27 juillet 2026, aucun niveau n'a à être garanti pour un individu — c'est écrit explicitement dans le règlement. L'obligation est en vigueur depuis février 2025, mais sans sanction immédiate pour les PME sur ce point précis.",
       },
       {
         question: "Par où commencer si aucune formation IA n'a encore été faite dans l'entreprise ?",
@@ -8197,7 +8263,7 @@ Recourir à un consultant IA n'est pas toujours la bonne étape. Voici les situa
 
 **Vous déployez des outils IA sans feuille de route ni mesure de ROI.** Vos équipes utilisent ChatGPT, Copilot ou Notion AI, mais personne ne sait exactement sur quels processus, avec quels résultats, et selon quelle priorité. C'est la situation la plus courante dans les PME en 2026. Un consultant vous aide à cartographier l'existant, identifier les 2 ou 3 cas d'usage à fort ROI, et poser les bases d'une feuille de route cohérente.
 
-**L'AI Act crée une obligation de conformité déjà en vigueur.** L'article 4 du Règlement UE 2024/1689 impose aux déployeurs et superviseurs de systèmes IA de s'assurer que leur personnel possède un niveau de compétence suffisant. Cette obligation de littératie IA est applicable depuis le 2 février 2025 (Titles I et II du Règlement entrent en application 6 mois après l'entrée en vigueur, soit le 2 février 2025). Si votre PME utilise des outils IA dans ses processus métier, elle est concernée. Pour comprendre l'ensemble du cadre réglementaire, [les obligations AI Act pour les PME en 2026](/blog/ai-act-pme-guide-2026) détaille les échéances et les actions à engager.
+**L'AI Act crée une obligation déjà en vigueur.** L'article 4 de l'AI Act, réécrit par le règlement (UE) 2026/1744, demande aux déployeurs et superviseurs de systèmes IA de prendre des mesures pour soutenir le développement de la littératie IA de leur personnel — sans imposer de garantir un niveau spécifique pour un individu. Cette obligation est applicable depuis le 2 février 2025 (Titles I et II du Règlement entrent en application 6 mois après l'entrée en vigueur, soit le 2 février 2025). Si votre PME utilise des outils IA dans ses processus métier, elle est concernée. Pour comprendre l'ensemble du cadre réglementaire, [les obligations AI Act pour les PME en 2026](/blog/ai-act-pme-guide-2026) détaille les échéances et les actions à engager.
 
 **Vous voulez identifier vos cas d'usage prioritaires avant d'investir.** Avant de mandater une agence pour développer un outil IA, ou de déployer une solution SaaS IA coûteuse, un diagnostic structuré vous permet de savoir si le cas d'usage est réellement prioritaire, si les données nécessaires sont disponibles, et si le ROI attendu est réaliste. Investir 7 500 € dans un diagnostic pour éviter d'investir 80 000 € dans le mauvais projet est une arithmétique que peu de dirigeants contestent.
 
@@ -8329,18 +8395,24 @@ Si vous avez identifié le besoin d'un diagnostic structuré mais n'avez pas enc
     slug: "formation-ia-dirigeants-ai-act-obligations-2026",
     title: "Formation IA dirigeants : obligations AI Act 2026",
     excerpt:
-      "Formation IA dirigeants PME : l'article 4 est en vigueur depuis février 2025. Qui former, quel niveau, comment financer via OPCO avant août 2026.",
-    content: `Soixante-deux pour cent des dirigeants de PME et ETI françaises n'ont suivi aucune formation IA depuis deux ans (Bpifrance/IFOP, avril 2025, enquête conduite auprès de 515 dirigeants). Dans le même temps, l'obligation de **littératie IA** (définie par l'AI Act comme la capacité pour le personnel à comprendre les systèmes d'IA qu'il utilise, leurs limites, leurs risques et leurs implications) est en vigueur depuis le 2 février 2025. Autrement dit, les deux tiers des dirigeants de PME-ETI qui utilisent l'IA sont potentiellement non-conformes depuis quinze mois.
+      "L'article 4 a été réécrit le 27 juillet 2026 en obligation de moyens. Qui former, à quel niveau, et comment financer intégralement via OPCO.",
+    content: `Soixante-deux pour cent des dirigeants de PME et ETI françaises n'ont suivi aucune formation IA depuis deux ans (Bpifrance/IFOP, avril 2025, enquête conduite auprès de 515 dirigeants). Dans le même temps, l'obligation de **littératie IA** est en vigueur depuis le 2 février 2025.
 
-Ce n'est pas un sujet académique. C'est une obligation légale en vigueur, dont le non-respect peut aggraver votre exposition réglementaire globale si la CNIL identifie d'autres manquements lors d'un contrôle. Ce guide vous explique ce que la loi exige exactement pour la formation IA de vos équipes, qui former, combien de temps, et comment financer tout cela sans débourser un euro de votre trésorerie.
+Sauf que cette obligation n'a plus le contenu qu'on lui prête. Le **règlement (UE) 2026/1744 du 8 juillet 2026** — le « Digital Omnibus on AI », entré en vigueur le 27 juillet 2026 — a **réécrit l'article 4**. Il ne s'agit plus d'assurer un niveau de connaissance, mais de *soutenir le développement* de la littératie IA. Le texte précise même qu'il « n'impose pas de garantir un niveau spécifique de littératie IA pour un individu ».
 
-## Ce que l'article 4 exige, et ce qu'il n'exige pas
+Ce guide vous explique ce que la loi demande réellement aujourd'hui, qui former, combien de temps, et comment financer tout cela sans débourser un euro de votre trésorerie. Parce que la raison de former vos équipes vient de changer — et qu'elle est devenue plus solide, pas moins.
 
-### Le texte exact du règlement
+## Ce que l'article 4 demande, et ce qu'il ne demande pas
 
-Voici le verbatim de l'article 4 du Règlement (UE) 2024/1689, dit AI Act, tel qu'applicable depuis le 2 février 2025 :
+### Le texte, dans sa version applicable
 
-> "Les fournisseurs et déployeurs de systèmes d'IA doivent prendre des mesures pour assurer, dans la mesure du possible, un niveau suffisant de connaissances en matière d'IA à leur personnel et à toute autre personne s'occupant, en leur nom, du fonctionnement et de l'utilisation de systèmes d'IA."
+L'article 4 de l'AI Act a été intégralement remplacé le 27 juillet 2026 :
+
+> Les fournisseurs et déployeurs de systèmes d'IA doivent « **prendre des mesures pour soutenir le développement de la littératie IA** » de leur personnel et de toute autre personne s'occupant, en leur nom, du fonctionnement et de l'utilisation de systèmes d'IA, en tenant compte de leurs connaissances techniques, de leur expérience, de leur formation et du contexte d'utilisation. Le texte ajoute que « **cette obligation n'impose pas de garantir un niveau spécifique de littératie IA pour un individu** ».
+>
+> *Article 4 de l'AI Act tel que modifié par le [règlement (UE) 2026/1744](https://eur-lex.europa.eu/eli/reg/2026/1744/oj/eng) (EUR-Lex)*
+
+⚠️ **Attention au contresens.** La date d'application de l'article 4 n'a pas bougé : elle reste le 2 février 2025. Ce qui a changé, c'est la substance de l'obligation. « La règle a changé » n'est pas la même chose que « c'est repoussé ».
 
 **Qu'est-ce qu'un fournisseur et qu'est-ce qu'un déployeur au sens de l'AI Act ?**
 
@@ -8348,54 +8420,63 @@ Ce texte vise deux catégories d'acteurs distinctes. Un **fournisseur** est une 
 
 ### Ce que la loi n'impose pas
 
-La formulation "dans la mesure du possible" laisse une marge d'appréciation. L'article 4 n'impose pas :
+L'article 4 n'impose pas :
 
-- Une formation formelle certifiante (d'autres initiatives de littératie sont acceptées)
+- Une formation formelle certifiante (toute action de littératie est recevable)
 - La mesure du niveau de connaissance des employés
 - Des certificats ou attestations obligatoires
 - La désignation d'un responsable IA dédié (contrairement au DPO exigé par le RGPD)
+- **Un niveau de littératie garanti pour un individu** — c'est désormais écrit noir sur blanc dans le texte
 
-L'obligation est de **résultat intermédiaire** : démontrer que vous avez pris des mesures raisonnables pour que votre personnel comprenne les systèmes qu'il utilise.
+C'est une **obligation de moyens**, et depuis juillet 2026 le règlement le dit lui-même au lieu de le laisser interpréter. Il n'y a plus de niveau à atteindre, donc plus de niveau qu'on puisse vous reprocher de ne pas avoir atteint.
 
-### Ce que la loi impose réellement
+### Ce que la loi demande réellement
 
-En pratique, pour être en mesure de justifier votre conformité auprès de la CNIL (l'autorité nationale désignée pour superviser l'application de l'AI Act en France), vous devrez produire des éléments concrets :
+L'obligation subsistante est simple : **prendre des mesures**, et les calibrer sur les usages réels. Le texte prévoit d'ailleurs, en contrepartie, que la Commission et les États membres soutiennent les efforts des déployeurs — **en visant explicitement les PME** — et que la Commission publie des exemples pratiques de conformité.
+
+En pratique, une démarche cohérente s'appuie sur quatre éléments. Aucun n'est exigé par le texte ; tous les quatre servent à ce que la formation ne soit pas dépensée au hasard :
 
 - Un inventaire des systèmes d'IA utilisés dans l'entreprise
 - Une identification des personnels concernés par ces systèmes
 - Une trace des actions de formation ou de sensibilisation menées
-- Une appréciation documentée du niveau de risque de chaque système
+- Une appréciation du niveau de risque de chaque système
 
-**Qu'est-ce qu'un système à haut risque au sens de l'AI Act ?** L'annexe III du règlement liste les domaines concernés : recrutement et gestion du personnel, crédit aux particuliers, accès à l'éducation, systèmes d'infrastructure critique, aide à la décision médicale. Un outil de scoring de CV ou un logiciel de notation de la solvabilité d'un client relève de cette catégorie.
+**Qu'est-ce qu'un système à haut risque au sens de l'AI Act ?** L'annexe III du règlement liste les domaines concernés : recrutement et gestion du personnel, crédit aux particuliers, accès à l'éducation, systèmes d'infrastructure critique, aide à la décision médicale. Un outil de scoring de CV ou un logiciel de notation de la solvabilité d'un client relève de cette catégorie — **et ces obligations-là s'appliqueront au 2 décembre 2027**, pas en août 2026. Elles sont d'une tout autre lourdeur que l'article 4, et ce sont elles qui méritent votre anticipation.
 
 Ce dernier point renvoie directement à votre [guide complet sur l'AI Act 2026 pour les PME](/blog/ai-act-pme-guide-2026), où les critères de classification des systèmes sont détaillés section par section.
 
-## Deux dates à ne pas confondre
+## Le calendrier réel, remis à jour
 
-Deux dates circulent dans les discussions sur l'AI Act. Les confondre a un coût opérationnel.
+Trois dates circulent dans les discussions sur l'AI Act, et le Digital Omnibus en a modifié deux. Les confondre a un coût opérationnel.
 
-### Février 2025 : l'obligation est en vigueur
+### Février 2025 : la date de l'article 4, inchangée
 
-L'article 4 est applicable depuis le **2 février 2025**. Ce n'est pas une date future. C'est une obligation présente, effective, opposable. Si votre entreprise utilise des outils d'IA et n'a rien mis en place, la non-conformité est déjà constituée.
+L'article 4 est applicable depuis le **2 février 2025**, et le Digital Omnibus n'y a pas touché. Ce n'est pas une échéance future ni une échéance reportée.
 
-> La question n'est pas "faut-il s'y préparer ?" mais "comment rattraper le retard accumulé depuis quinze mois ?"
+> La question n'est donc plus « faut-il s'y préparer avant la date ». Il n'y a pas de date. La question est : qu'est-ce qui mérite d'être fait, maintenant que plus rien ne vous y contraint sous peine de constat ?
 
-En pratique, les dirigeants qui ont engagé la démarche tôt consacrent leur temps à documenter ce qui est déjà fait. Ceux qui la découvrent maintenant doivent d'abord établir l'inventaire de leurs outils IA, une étape qui prend souvent deux à trois semaines dans une PME de taille intermédiaire.
+En pratique, les dirigeants qui ont engagé la démarche tôt consacrent leur temps à l'entretenir. Ceux qui la découvrent maintenant doivent d'abord établir l'inventaire de leurs outils IA, une étape qui prend souvent deux à trois semaines dans une PME de taille intermédiaire.
 
-### Août 2026 : le début de l'enforcement actif
+### Août 2026 : la gouvernance, pas la littératie
 
-Le **2 août 2026**, les autorités nationales de surveillance, dont la CNIL en France, commencent à exercer pleinement leurs pouvoirs d'enquête et de sanction sur les obligations générales du règlement. C'est la date à partir de laquelle les contrôles deviennent probables.
+Le **2 août 2026** entrent en application la gouvernance et les pouvoirs d'exécution (le Bureau européen de l'IA et les autorités des États membres deviennent responsables de la mise en œuvre et de la supervision), les obligations de transparence de l'article 50 — avec une période transitoire de quatre mois pour les systèmes mis sur le marché avant cette date — et la surveillance du marché.
 
-Cette distinction a une conséquence pratique immédiate : vous avez trois mois pour mettre en place une démarche crédible. Pas pour la terminer parfaitement. Pour être en mesure de démontrer une trajectoire de conformité documentée.
+Le dispositif de contrôle existe donc désormais. Mais ce qu'il peut constater en matière de littératie IA s'est considérablement réduit depuis le 27 juillet.
 
-### Les sanctions applicables
+### Décembre 2027 et août 2028 : les vraies échéances à anticiper
 
-Le règlement prévoit une échelle de sanctions selon la gravité des manquements (article 99) :
+C'est là que se situe désormais l'effort de préparation :
 
-- Jusqu'à **35 millions d'euros ou 7 % du CA mondial** pour les usages explicitement interdits (art. 5) : manipulation comportementale, notation sociale à grande échelle
-- Jusqu'à **15 millions d'euros ou 3 % du CA** pour les manquements aux obligations des déployeurs de systèmes à haut risque (art. 16, 26, etc.)
+- **2 décembre 2027** — systèmes à haut risque de l'**annexe III** : recrutement et gestion du personnel, crédit, éducation, infrastructures critiques, services essentiels
+- **2 août 2028** — systèmes à haut risque intégrés à des produits (**annexe I**)
 
-L'article 4 (littératie IA) n'a pas de sanction directement assignée dans l'article 99. Mais son non-respect peut aggraver l'évaluation de conformité globale lors d'un contrôle CNIL : un manquement sur la formation IA fragilise votre dossier si d'autres obligations sont aussi en défaut. C'est un facteur aggravant, pas un risque isolé.
+Si vous utilisez un outil de scoring de CV, votre sujet est celui-là — et il est autrement plus exigeant que l'article 4.
+
+### Les sanctions
+
+**Nous ne citerons aucun montant.** Le régime du chapitre XII de l'AI Act a été modifié en même temps que le reste du texte par le Digital Omnibus, et son application article par article n'est pas établie de façon fiable à ce jour. Les chiffres qui circulent — y compris ceux que cet article citait dans sa version précédente — proviennent de la rédaction antérieure du règlement.
+
+Sur le fond, une chose est solide : **l'article 4 n'impose plus aucun niveau garanti par individu**, donc il n'existe plus de « niveau insuffisant » constatable. Une position juridique ferme sur votre exposition relève d'un avocat spécialisé, pas d'un article de blog.
 
 ## Formation IA : qui former en priorité, les trois cercles
 
@@ -8408,9 +8489,9 @@ La formation IA des dirigeants est le point de départ de toute démarche de con
 Le niveau attendu pour ce cercle n'est pas technique. Il couvre :
 
 - La classification des systèmes IA (minimal, limité, haut risque, interdit)
-- Les obligations du déployeur selon le type de système
+- Les obligations du déployeur selon le type de système, et leur calendrier réel après le Digital Omnibus
 - Les droits des personnes concernées par les décisions automatisées
-- Le périmètre des sanctions applicables
+- Ce qui relève de l'annexe III et arrive en décembre 2027
 
 Une journée de formation suffit pour ce profil, à condition qu'elle soit concrète et orientée décision.
 
@@ -8418,7 +8499,7 @@ Une journée de formation suffit pour ce profil, à condition qu'elle soit concr
 
 Ce sont les véritables cibles de l'article 4, et le cœur de tout programme de formation IA en entreprise. Tout manager qui supervise l'utilisation d'un outil IA (qu'il s'agisse d'un outil de scoring RH, d'un assistant de rédaction, d'un système d'aide à la décision commerciale) est directement concerné.
 
-> L'article 4 vise "toute autre personne s'occupant, en leur nom, du fonctionnement et de l'utilisation de systèmes d'IA."
+> L'article 4 vise le personnel « et toute autre personne s'occupant, en leur nom, du fonctionnement et de l'utilisation de systèmes d'IA ». Cette portée-là n'a pas été modifiée par le Digital Omnibus.
 
 Ce cercle doit comprendre comment fonctionne le système qu'il supervise, quelles en sont les limites, et comment détecter une anomalie ou un résultat erroné.
 
@@ -8460,7 +8541,7 @@ Ce format de formation IA inclut en général une mise en situation sur les outi
 
 Le critère de sélection n'est pas le budget disponible, mais le niveau de risque du système utilisé. Un dirigeant qui utilise ChatGPT pour rédiger des emails relève du niveau 1. Un DRH qui s'appuie sur un outil de scoring de CV relève du niveau 2.
 
-La bonne démarche consiste à inventorier vos outils IA actuels avant de choisir un format de formation IA. Cette étape, souvent négligée, est pourtant celle qui détermine votre exposition réelle au risque réglementaire.
+La bonne démarche consiste à inventorier vos outils IA actuels avant de choisir un format de formation IA. Cette étape, souvent négligée, est pourtant celle qui détermine à la fois votre exposition réelle et l'endroit où le budget formation sera utile.
 
 ## Ne payez pas la formation IA de votre poche
 
@@ -8532,7 +8613,7 @@ Oui. Dès lors que votre entreprise utilise un outil d'IA dans ses activités pr
 
 **Quelle sanction risque-t-on si l'on ne forme pas ses salariés à l'IA ?**
 
-L'article 4 (littératie IA) n'a pas de sanction directement chiffrée dans le barème de l'article 99 du règlement. En revanche, son non-respect est un facteur aggravant lors d'un contrôle CNIL : si d'autres obligations sont aussi en défaut (déploiement d'un système à haut risque sans supervision, absence de documentation), la littératie insuffisante pèse dans l'évaluation globale. L'autorité compétente en France est la CNIL. Les contrôles actifs débutent en août 2026.
+Nous ne citons aucun montant : le régime de sanctions de l'AI Act (chapitre XII) a été modifié en même temps que le reste du texte par le Digital Omnibus, et son application article par article n'est pas établie de façon fiable à ce jour. Sur le fond, l'article 4 n'imposant plus aucun niveau garanti par individu, il n'existe plus de « niveau insuffisant » constatable. Le sujet résiduel est l'absence totale de démarche — et le risque concret est opérationnel plutôt qu'administratif.
 
 **Qui faut-il former en priorité dans mon entreprise ?**
 
@@ -8540,7 +8621,7 @@ Trois cercles, dans cet ordre : les dirigeants et membres du COMEX (responsabili
 
 **Combien de temps dure une formation IA conforme AI Act ?**
 
-Deux formats existent selon le niveau de risque des systèmes utilisés. Pour les systèmes à risque minimal, une sensibilisation d'une journée (7 heures) suffit. Pour les systèmes à haut risque, une formation opérationnelle de deux à trois jours est recommandée. L'AI Act ne fixe pas de durée minimale : il exige un résultat (niveau suffisant de connaissances), dont vous devez pouvoir justifier l'atteinte.
+Deux formats existent selon le niveau de risque des systèmes utilisés. Pour les systèmes à risque minimal, une sensibilisation d'une journée (7 heures) suffit. Pour les systèmes à haut risque, une formation opérationnelle de deux à trois jours est recommandée. L'AI Act ne fixe aucune durée minimale et, depuis le 27 juillet 2026, aucun niveau à atteindre : c'est une obligation de moyens, calibrée sur vos usages réels.
 
 **Les formations IA sont-elles finançables par l'OPCO ?**
 
@@ -8548,15 +8629,19 @@ Oui, sous condition Qualiopi. Pour les PME de moins de 50 salariés, la prise en
 
 ## Passez de la théorie à l'action
 
-L'obligation est en vigueur. Le financement existe. Ce qui manque le plus souvent, c'est le point de départ : savoir quels systèmes IA sont réellement déployés dans votre entreprise, qui les utilise, et quel niveau de risque ils représentent au regard du règlement.
+L'obligation existe, mais elle ne vous forcera plus la main. Le financement, lui, existe toujours. Et le retour sur investissement de la formation ne dépendait de toute façon d'aucun règlement.
 
-Sans cet inventaire, vous ne pouvez pas prioriser les formations IA. Vous ne pouvez pas non plus constituer un dossier de conformité crédible en cas de contrôle.
+Ce qui manque le plus souvent, c'est le point de départ : savoir quels systèmes IA sont réellement déployés dans votre entreprise, qui les utilise, et quel niveau de risque ils représentent. Sans cet inventaire, vous ne pouvez pas prioriser les formations — vous ne pouvez que dépenser au hasard.
 
-L'Audit IA Express Smart Impulsion répond précisément à cette étape. En trois jours, vous disposez d'un inventaire des systèmes IA utilisés, d'une cartographie des risques réglementaires, et d'une feuille de route de mise en conformité incluant les formations prioritaires par cercle.
+L'Audit IA Express Smart Impulsion répond précisément à cette étape. En trois jours, vous disposez d'un inventaire des systèmes IA utilisés, d'une cartographie des risques (article 4 et annexe III à horizon décembre 2027), et d'une feuille de route incluant les formations prioritaires par cercle.
 
-Le résultat est directement exploitable pour votre demande de financement OPCO et pour votre dossier de conformité AI Act.
+Le résultat est directement exploitable pour votre demande de financement OPCO.
 
-[Demandez votre Audit IA Express](/services/audit)`,
+[Demandez votre Audit IA Express](/services/audit)
+
+*Sources : [Règlement (UE) 2026/1744 du 8 juillet 2026, « Digital Omnibus on AI » — EUR-Lex](https://eur-lex.europa.eu/eli/reg/2026/1744/oj/eng), publié au JOUE le 24 juillet 2026, entré en vigueur le 27 juillet 2026 ; Règlement (UE) 2024/1689 (AI Act) ; Bpifrance/IFOP, avril 2025 ; Baromètre France Num 2025 ; Microsoft-IDC, 2025.*
+
+*Article mis à jour le 8 août 2026 pour tenir compte de la réécriture de l'article 4 par le règlement (UE) 2026/1744.*`,
     author: "Laurent Bouzon",
     date: "6 mai 2026",
     dateISO: "2026-05-06",
@@ -8567,11 +8652,11 @@ Le résultat est directement exploitable pour votre demande de financement OPCO 
     faq: [
       {
         question: "L'article 4 de l'AI Act s'applique-t-il à ma PME si j'utilise juste ChatGPT ?",
-        answer: "Oui. Dès lors que votre entreprise déploie un système d'IA dans ses activités, même un outil grand public comme ChatGPT, vous êtes qualifié de déployeur au sens du règlement. L'article 4 vous impose de prendre des mesures pour garantir un niveau suffisant de connaissances en matière d'IA chez votre personnel concerné. La taille de l'entreprise n'exonère pas de cette obligation.",
+        answer: "Oui. Dès lors que votre entreprise déploie un système d'IA dans ses activités, même un outil grand public comme ChatGPT, vous êtes qualifié de déployeur au sens du règlement. Depuis sa réécriture par le règlement (UE) 2026/1744, l'article 4 vous demande de prendre des mesures pour soutenir le développement de la littératie IA de votre personnel concerné, sans exiger de garantir un niveau spécifique pour un individu. La taille de l'entreprise n'exonère pas de cette obligation.",
       },
       {
         question: "Quelle sanction risque-t-on si l'on ne forme pas ses salariés à l'IA ?",
-        answer: "L'article 4 n'a pas de sanction directement assignée dans le barème de l'article 99 du règlement. Son non-respect peut en revanche aggraver votre situation lors d'un contrôle CNIL si d'autres obligations sont aussi en défaut. Les sanctions les plus lourdes (35M€ ou 7 % du CA) concernent les usages interdits. Celles applicables aux déployeurs de systèmes à haut risque peuvent atteindre 15M€ ou 3 % du CA. L'autorité nationale en France est la CNIL.",
+        answer: "Nous ne citons aucun montant. Le régime de sanctions de l'AI Act (chapitre XII) a été modifié par le Digital Omnibus en même temps que le reste du texte, et son application article par article n'est pas établie de façon fiable à ce jour ; les chiffres qui circulent proviennent de la rédaction antérieure du règlement. Sur le fond, l'article 4 n'imposant plus aucun niveau garanti par individu, il n'existe plus de niveau insuffisant constatable. Le risque concret est opérationnel : un collaborateur mal informé qui transmet un résultat faux ou expose des données confidentielles.",
       },
       {
         question: "Qui faut-il former en priorité dans mon entreprise ?",
@@ -8579,7 +8664,7 @@ Le résultat est directement exploitable pour votre demande de financement OPCO 
       },
       {
         question: "Combien de temps dure une formation IA conforme AI Act ?",
-        answer: "Deux niveaux existent. Une sensibilisation d'une journée (7 heures) couvre les bases pour les cadres et managers utilisant des systèmes à risque minimal. Une formation opérationnelle de deux à trois jours est recommandée pour les opérateurs de systèmes à haut risque. L'AI Act n'impose pas de durée minimale précise : il exige un niveau suffisant de connaissances, à apprécier au regard des systèmes utilisés.",
+        answer: "Deux niveaux existent. Une sensibilisation d'une journée (7 heures) couvre les bases pour les cadres et managers utilisant des systèmes à risque minimal. Une formation opérationnelle de deux à trois jours est recommandée pour les opérateurs de systèmes à haut risque. L'AI Act n'impose aucune durée minimale et, depuis le 27 juillet 2026, aucun niveau à atteindre : la démarche doit simplement être proportionnée aux systèmes réellement utilisés et au contexte d'usage.",
       },
       {
         question: "Les formations IA sont-elles finançables par l'OPCO ?",
@@ -8592,45 +8677,50 @@ Le résultat est directement exploitable pour votre demande de financement OPCO 
     title: "Formation IA pour dirigeants et équipes : le guide pratique 2026",
     seoTitle: "Formation IA dirigeants : qui former et à quel budget",
     excerpt:
-      "AI Act article 4 : la formation IA dirigeants devient obligatoire en août 2026. Qui former, sur quoi, quel budget ? Le guide pratique pour PME et ETI.",
+      "L'article 4 de l'AI Act a été réécrit en obligation de moyens. Qui former, sur quoi, quel budget — et pourquoi le faire quand même. Guide PME et ETI.",
     content: `# Formation IA pour dirigeants et équipes : le guide pratique 2026
 
-Le 2 août 2026, les autorités nationales de surveillance activent leurs pouvoirs d'enquête et de sanction sur l'article 4 de l'AI Act (Règlement (UE) 2024/1689, le cadre réglementaire européen sur l'intelligence artificielle entré en vigueur le 2 août 2024). Cet article impose à toute entreprise qui déploie des outils IA de s'assurer que son personnel dispose d'un niveau suffisant de **littératie IA** (c'est-à-dire la capacité à comprendre les principes fondamentaux de l'IA, ses risques et ses limites, de façon adaptée au poste occupé). Il reste moins de 13 semaines.
+**Contrairement à ce qu'on lit encore partout, la formation IA n'est pas « devenue obligatoire en août 2026 ».** Cette affirmation est fausse deux fois : l'article 4 de l'AI Act s'applique depuis le **2 février 2025**, et depuis le **27 juillet 2026** il ne s'agit plus d'une obligation de résultat.
 
-> **Définition.** La **littératie IA** désigne, au sens de l'article 4 du Règlement (UE) 2024/1689, l'ensemble des compétences permettant à un collaborateur de comprendre le fonctionnement général des systèmes IA, d'identifier leurs risques (erreurs, biais, confidentialité) et de superviser leur usage dans son contexte professionnel. Elle ne requiert aucune compétence technique de développement.
+Le **règlement (UE) 2026/1744 du 8 juillet 2026** — le « Digital Omnibus on AI » — a réécrit l'article 4. Les fournisseurs et déployeurs doivent désormais « prendre des mesures pour soutenir le développement de la littératie IA » de leur personnel, et le texte ajoute que « **cette obligation n'impose pas de garantir un niveau spécifique de littératie IA pour un individu** ».
 
-55 % des TPE-PME françaises utilisaient déjà l'IA générative fin 2025, contre 31 % un an plus tôt (Bpifrance Le Lab, janvier 2026). Ce basculement s'est produit plus vite que les budgets de formation. Résultat : des outils utilisés sans cadre, par des collaborateurs qui n'ont reçu aucune sensibilisation aux risques, dans des entreprises dont aucun responsable n'a consigné la moindre trace de formation.
+> **Définition.** La **littératie IA** désigne l'ensemble des compétences permettant à un collaborateur de comprendre le fonctionnement général des systèmes IA, d'identifier leurs risques (erreurs, biais, confidentialité) et de superviser leur usage dans son contexte professionnel. Elle ne requiert aucune compétence technique de développement.
 
-Ce guide répond aux quatre questions que tout dirigeant doit trancher avant la deadline : qui former, sur quoi, en combien de temps, et avec quel budget. Sans catalogue de modules, sans jargon technique, avec des chiffres vérifiés.
+55 % des TPE-PME françaises utilisaient déjà l'IA générative fin 2025, contre 31 % un an plus tôt (Bpifrance Le Lab, janvier 2026). Ce basculement s'est produit plus vite que les budgets de formation. Résultat : des outils utilisés sans cadre, par des collaborateurs qui n'ont reçu aucune sensibilisation aux risques.
 
-> **À retenir.** L'AI Act article 4 n'exige pas que vos équipes deviennent expertes en IA. Il exige une sensibilisation documentée, adaptée aux postes concernés, vérifiable par la CNIL à partir du 2 août 2026. C'est atteignable en 6 à 8 semaines pour la plupart des PME, à condition de commencer maintenant.
+**Ce problème-là n'a pas disparu avec l'allègement de la contrainte réglementaire.** Il est même devenu le seul qui compte. Ce guide répond aux quatre questions que tout dirigeant doit trancher : qui former, sur quoi, en combien de temps, et avec quel budget. Sans catalogue de modules, sans jargon, avec des chiffres vérifiés.
 
-## Ce que l'AI Act article 4 exige vraiment
+> **À retenir.** L'article 4 n'exige pas que vos équipes deviennent expertes en IA, et depuis juillet 2026 il n'exige plus qu'elles atteignent un niveau donné. Il demande de prendre des mesures proportionnées aux usages réels. La bonne nouvelle : vous pouvez enfin calibrer l'effort sur l'utilité plutôt que sur une échéance.
 
-Beaucoup de dirigeants découvrent l'article 4 par son angle juridique : des sanctions pouvant atteindre 15 millions d'euros ou 3 % du chiffre d'affaires mondial. C'est vrai, mais ce n'est pas le bon point de départ pour décider quoi faire concrètement.
+## Ce que l'AI Act article 4 demande vraiment
+
+Beaucoup de dirigeants ont découvert l'article 4 par son angle juridique et sa charge de menace. C'est aujourd'hui le plus mauvais point de départ possible pour décider quoi faire.
 
 ### L'obligation en langage PME
 
-Le texte officiel du Règlement (UE) 2024/1689 (consultable sur EUR-Lex, eur-lex.europa.eu) formule l'obligation ainsi : les fournisseurs et déployeurs de systèmes IA doivent prendre des mesures pour assurer, dans la mesure du possible, un niveau suffisant de littératie IA de leur personnel et des personnes opérant les systèmes IA en leur nom, en tenant compte de leur niveau de connaissance technique, d'expérience et de formation, ainsi que du contexte d'utilisation.
+Dans sa rédaction issue du [règlement (UE) 2026/1744](https://eur-lex.europa.eu/eli/reg/2026/1744/oj/eng), l'article 4 demande aux fournisseurs et déployeurs de systèmes IA de **prendre des mesures pour soutenir le développement de la littératie IA** de leur personnel et des personnes opérant ces systèmes en leur nom, en tenant compte de leur niveau de connaissance technique, de leur expérience, de leur formation et du contexte d'utilisation. Et il précise que cette obligation n'impose pas de garantir un niveau spécifique pour un individu.
 
-Trois points ressortent de cette formulation :
+Quatre points ressortent :
 
 - **Portée large :** tous les collaborateurs qui utilisent un outil IA dans leur travail, pas seulement les équipes techniques
-- **Pas de certification obligatoire :** une sensibilisation documentée et adaptée au poste suffit pour la conformité
-- **Adaptation au contexte :** un commercial qui utilise un outil d'aide à la rédaction n'a pas besoin du même niveau qu'un responsable RH qui utilise un outil de tri de candidatures
+- **Pas de certification obligatoire :** aucune pièce justificative n'est prescrite par le texte
+- **Aucun niveau à atteindre :** c'est explicitement exclu depuis le 27 juillet 2026
+- **Adaptation au contexte :** un commercial qui utilise un outil d'aide à la rédaction n'a pas besoin du même accompagnement qu'un responsable RH qui utilise un outil de tri de candidatures
 
-> **Chiffre clé.** Les sanctions prévues par le Règlement (UE) 2024/1689 pour non-conformité à l'article 4 peuvent atteindre **15 millions d'euros ou 3 % du chiffre d'affaires mondial annuel** de l'entreprise concernée, la plus élevée des deux valeurs s'appliquant (Source : EUR-Lex, Règlement (UE) 2024/1689, article 99).
+> **Sur les sanctions, nous ne citons aucun montant.** Le régime du chapitre XII de l'AI Act a été modifié par le Digital Omnibus en même temps que le reste du texte, et son application article par article n'est pas établie de façon fiable à ce jour. Les chiffres qui circulent — y compris ceux que cet article citait dans sa version précédente — proviennent de la rédaction antérieure du règlement. Une position juridique ferme relève d'un avocat spécialisé.
 
-L'obligation est applicable depuis le 2 février 2025. Ce qui change au 2 août 2026, c'est l'activation de la supervision nationale. À partir de cette date, la CNIL (pressentie comme autorité française compétente pour l'article 4) peut vérifier sur pièces que vous avez bien formé vos équipes, et sanctionner si ce n'est pas le cas.
+L'obligation est applicable depuis le 2 février 2025, et cette date n'a pas bougé. Ce qui entre en application au 2 août 2026, c'est la gouvernance de l'AI Act : le Bureau européen de l'IA et les autorités nationales deviennent responsables de la mise en œuvre, de la supervision et de la surveillance du marché, et les obligations de transparence de l'article 50 s'appliquent.
 
-### Ce que vous devez documenter
+Quant aux obligations relatives aux systèmes à **haut risque**, elles ont été reportées : **2 décembre 2027** pour l'annexe III (emploi et RH, biométrie, éducation, crédit) et **2 août 2028** pour l'annexe I. Si vous utilisez un outil de tri de CV, c'est là que se situe votre vrai chantier — pas dans l'article 4.
 
-La conformité repose sur quatre éléments vérifiables :
+### Ce qu'il est utile de documenter
+
+Aucun de ces éléments n'est exigé par le texte. Tous les quatre servent à ce que le budget formation ne parte pas au hasard :
 
 - Un **inventaire des outils IA utilisés** dans l'entreprise (outils achetés, abonnements SaaS, outils utilisés en dehors des achats officiels)
 - Une **identification des collaborateurs concernés** par chaque outil
-- Des **attestations de formation ou de sensibilisation** par poste, avec date et contenu
-- Un **registre à jour**, consultable en cas de contrôle
+- Une **trace des sensibilisations** par poste, avec date et contenu
+- Un **registre à jour**, pour savoir dans six mois qui reste à accompagner
 
 > **Red flag.** Si vous ne savez pas aujourd'hui quels outils IA vos équipes utilisent au quotidien, vous avez une priorité avant même de choisir un organisme de formation : cartographier les usages réels. La carte des cas d'usage réels de votre entreprise (idéalement établie lors d'un [audit IA complet](/blog/audit-ia-pme-guide-complet)) est le meilleur point de départ pour cibler votre programme de formation. Une formation sans inventaire préalable forme des gens sur des outils qu'ils n'utilisent pas, et rate les risques réels.
 
@@ -8644,13 +8734,13 @@ La tentation est de former tout le monde en même temps pour être "sûr". C'est
 
 Classez vos collaborateurs en trois catégories selon leur exposition réelle aux outils IA :
 
-**Priorité 1 : former avant fin juin 2026**
+**Priorité 1 : les postes où une erreur d'IA coûte le plus cher**
 
 - Dirigeant et membres du comité de direction (vision stratégique, supervision des investissements IA, arbitrages de risques)
-- DRH et responsables recrutement (si des outils IA interviennent dans le tri de candidatures, la notation de performance ou la gestion de paie)
+- DRH et responsables recrutement (si des outils IA interviennent dans le tri de candidatures, la notation de performance ou la gestion de paie — ce sont aussi les usages visés par l'annexe III en décembre 2027)
 - Responsables de fonctions où des outils IA génèrent du contenu ou des décisions (comptabilité, service client, conformité)
 
-**Priorité 2 : former avant fin juillet 2026**
+**Priorité 2 : les usages quotidiens à impact modéré**
 
 - Commerciaux et chargés de clientèle utilisant des outils d'aide à la rédaction ou de préparation de réunions
 - Responsables marketing utilisant des outils de génération de contenu
@@ -8682,19 +8772,19 @@ Pour aller plus loin sur la conduite du changement liée à ces montées en comp
 
 Les catalogues de formation IA proposent souvent un seul format "taille unique" qui ne convient ni aux dirigeants ni aux opérateurs métier. Distinguer trois niveaux simplifie le choix.
 
-### Niveau 1 : l'acculturation (conformité article 4)
+### Niveau 1 : l'acculturation (le socle)
 
-C'est le minimum requis pour être en conformité. Durée : 1 à 2 jours, ou l'équivalent en modules e-learning (minimum 7 heures pour la plupart des OPCO, soit les Opérateurs de Compétences, organismes paritaires qui financent la formation professionnelle en France).
+C'est le socle qui répond à l'article 4 pour la majorité des postes. Durée : 1 à 2 jours, ou l'équivalent en modules e-learning (minimum 7 heures pour la plupart des OPCO, soit les Opérateurs de Compétences, organismes paritaires qui financent la formation professionnelle en France).
 
 Contenu type :
 
 - Comment fonctionne l'IA générative en termes non techniques (pas de code, pas d'architecture)
 - Les cas d'usage courants dans l'entreprise : rédaction, résumé, aide à la décision
 - Les risques principaux : erreurs des modèles, biais, confidentialité des données, droits d'auteur
-- Ce que dit l'AI Act sur les obligations de l'utilisateur
+- Ce que dit l'AI Act sur les obligations de l'utilisateur, calendrier à jour compris
 - Les règles internes de l'entreprise sur l'utilisation des outils IA
 
-Ce niveau est adapté à la majorité des collaborateurs. Il ne demande aucun prérequis technique. Il doit être documenté par une attestation individuelle et consigné dans le registre de formation.
+Ce niveau est adapté à la majorité des collaborateurs. Il ne demande aucun prérequis technique. Une trace individuelle et une entrée au registre suffisent pour le suivi.
 
 ### Niveau 2 : la formation opérationnelle (performance)
 
@@ -8714,21 +8804,21 @@ Ce niveau produit du ROI mesurable. Les gains de productivité documentés varie
 
 Pour les référents IA internes, les responsables data ou les profils qui vont piloter des projets d'intégration. Durée : de 2 à 6 semaines selon la profondeur.
 
-Ce niveau concerne rarement plus de 1 à 3 personnes dans une PME de 50 salariés. Il ne fait pas partie des exigences de conformité article 4 mais conditionne la capacité de l'entreprise à piloter ses projets IA dans la durée.
+Ce niveau concerne rarement plus de 1 à 3 personnes dans une PME de 50 salariés. Il dépasse largement ce que demande l'article 4, mais conditionne la capacité de l'entreprise à piloter ses projets IA dans la durée.
 
 > **Red flag.** Vouloir former tout le monde au niveau 2 ou 3 pour "maximiser l'impact". En pratique, une formation opérationnelle sur des outils que les collaborateurs n'utilisent pas dans leur poste ne produit aucun résultat trois mois après. La formation doit suivre l'usage, pas le précéder.
 
-Les obligations spécifiques aux systèmes IA en ressources humaines (recrutement, scoring, paie) sont plus complexes. Notre article sur l'[AI Act en contexte RH](/blog/ai-act-rh-tri-cv-paie-pme) détaille les exigences renforcées applicables à ces usages.
+Les obligations spécifiques aux systèmes IA en ressources humaines (recrutement, scoring, paie) sont plus complexes, et leur échéance est le 2 décembre 2027. Notre article sur l'[AI Act en contexte RH](/blog/ai-act-rh-tri-cv-paie-pme) détaille les exigences renforcées applicables à ces usages.
 
-## Le calendrier réaliste avant le 2 août 2026
+## Un calendrier de déploiement en 11 semaines
 
-Il reste 13 semaines à la date de publication de cet article (5 mai 2026). C'est faisable pour une PME de 20 à 50 personnes, à condition de démarrer cette semaine.
+Il n'y a plus d'échéance réglementaire qui vous presse sur l'article 4. Le seul délai contraignant est désormais celui de l'instruction OPCO. Voici un rythme réaliste pour une PME de 20 à 50 personnes.
 
 ### Planning type pour une PME de 20 à 50 personnes
 
 Voici un calendrier en six étapes :
 
-1. **Semaines 1-2 (maintenant) : inventaire et cartographie.** Lister tous les outils IA utilisés dans l'entreprise, identifier qui les utilise, à quelle fréquence et dans quel contexte. Ce travail prend 2 à 4 heures pour un responsable organisé.
+1. **Semaines 1-2 : inventaire et cartographie.** Lister tous les outils IA utilisés dans l'entreprise, identifier qui les utilise, à quelle fréquence et dans quel contexte. Ce travail prend 2 à 4 heures pour un responsable organisé.
 
 2. **Semaines 3-4 : sélection du prestataire et dossier OPCO.** Demander 2 à 3 devis à des organismes certifiés Qualiopi avec ancrage dans votre secteur. Déposer le dossier OPCO immédiatement : le délai d'approbation est de 3 à 6 semaines selon votre opérateur de branche.
 
@@ -8736,11 +8826,11 @@ Voici un calendrier en six étapes :
 
 4. **Semaines 7-8 : deuxième vague.** Fonctions commerciales, marketing, support. Niveau acculturation minimum, niveau opérationnel si les outils IA sont dans leur périmètre quotidien.
 
-5. **Semaines 9-10 : documentation et registre.** Consolider les attestations, créer ou mettre à jour le registre de formation, rédiger la note interne documentant la mise en œuvre de l'article 4.
+5. **Semaines 9-10 : documentation et registre.** Consolider les traces, créer ou mettre à jour le registre de formation, rédiger la note interne décrivant la démarche.
 
-6. **Semaine 11 : vérification.** Vérifier que le registre est complet, que les pièces justificatives sont accessibles, que les usages inventoriés sont tous couverts par une formation ou une note d'exclusion justifiée.
+6. **Semaine 11 : vérification.** Vérifier que le registre est complet et que les usages inventoriés sont tous couverts par une action ou une exclusion assumée.
 
-> **À retenir.** Le délai d'approbation OPCO de 3 à 6 semaines est le facteur contraignant du planning. Si vous attendez la semaine 6 pour déposer votre dossier, vous risquez de ne pas avoir le financement avant la deadline. Déposez le dossier en semaine 3, pas après.
+> **À retenir.** Le délai d'approbation OPCO de 3 à 6 semaines est le seul facteur contraignant du planning. Déposez votre dossier avant de sélectionner définitivement les dates de session, pas après.
 
 ## Le budget formation IA en 2026 : chiffres réels
 
@@ -8756,7 +8846,7 @@ Les tarifs pratiqués par les organismes certifiés Qualiopi (label national qua
 | Intra-entreprise (6 à 12 personnes) | 2 000 à 5 000 euros par journée |
 | Formation e-learning (7 h minimum OPCO) | 200 à 600 euros par personne |
 
-> **Chiffre clé.** Pour une PME de 20 à 50 personnes, le budget global de conformité article 4 se situe entre **3 000 et 12 000 euros** selon le format choisi. La fourchette basse correspond à un format intra-entreprise bien négocié avec prise en charge OPCO maximale.
+> **Chiffre clé.** Pour une PME de 20 à 50 personnes, le budget global d'une démarche de littératie IA se situe entre **3 000 et 12 000 euros** selon le format choisi. La fourchette basse correspond à un format intra-entreprise bien négocié avec prise en charge OPCO maximale.
 
 ### Les dispositifs de financement disponibles
 
@@ -8783,7 +8873,7 @@ Le marché de la formation IA s'est densifié rapidement. Tous les organismes ne
 - **Ancrage métier :** les formateurs doivent connaître votre secteur d'activité, pas seulement les outils génériques. Une formation IA pour une ETI industrielle n'a pas le même contenu qu'une formation pour une agence de services.
 - **Part de pratique :** un programme sérieux consacre au minimum 70 à 80 % du temps à des cas concrets sur les outils réels de votre entreprise, pas à des diaporamas sur "l'histoire de l'IA".
 - **Suivi post-formation :** accès aux ressources après la formation, assistance sur les cas d'usage spécifiques apparus dans les semaines suivantes. La formation sans suivi produit des compétences qui s'évaporent en 3 mois.
-- **Livrables de conformité :** le prestataire doit fournir un registre de formation structuré, des attestations individuelles signées, et un compte-rendu documentant la mise en œuvre de l'article 4 de l'AI Act. Sans ces documents, vous avez une formation mais pas une conformité.
+- **Livrables de suivi :** le prestataire doit fournir un registre de formation structuré, des attestations individuelles et un compte-rendu de ce qui a été couvert. Aucun texte ne l'exige — mais sans ces documents, vous ne saurez pas dans six mois ce que vous avez acheté ni pour qui.
 
 ### Les pièges spécifiques aux PME
 
@@ -8809,7 +8899,7 @@ Les PME rencontrent trois pièges récurrents dans leur démarche de formation I
 
 ### Le signal d'alerte de la "case cochée"
 
-La formation "case cochée" consiste à organiser une demi-journée de sensibilisation pour avoir le registre à jour, sans aucun suivi ni ancrage dans les pratiques réelles. C'est la réponse administrative à une obligation réglementaire, sans création de valeur.
+La formation "case cochée" consiste à organiser une demi-journée de sensibilisation pour avoir le registre à jour, sans aucun suivi ni ancrage dans les pratiques réelles. C'était déjà une réponse administrative sans création de valeur ; depuis que l'article 4 ne réclame plus rien à cocher, c'est purement et simplement de l'argent perdu.
 
 On la reconnaît à ces symptômes :
 
@@ -8818,7 +8908,7 @@ On la reconnaît à ces symptômes :
 - Personne ne sait ce qui a changé dans les pratiques après la formation
 - Le registre existe mais personne ne sait où il est ni qui le maintient
 
-> **Red flag.** Une formation IA sans identification préalable des outils utilisés dans l'entreprise est une formation sur un sujet abstrait. Elle coche la case de conformité mais ne réduit aucun risque réel et ne produit aucun gain de productivité. C'est de l'argent dépensé sans résultat.
+> **Red flag.** Une formation IA sans identification préalable des outils utilisés dans l'entreprise est une formation sur un sujet abstrait. Elle ne réduit aucun risque réel et ne produit aucun gain de productivité. C'est de l'argent dépensé sans résultat.
 
 Pour une approche structurée de la conduite du changement autour des outils IA, notre article sur la façon d'[embarquer vos équipes dans un projet IA](/blog/embarquer-equipe-projet-ia) détaille les leviers concrets pour dépasser la résistance interne.
 
@@ -8826,19 +8916,19 @@ Pour une approche structurée de la conduite du changement autour des outils IA,
 
 ### Qu'est-ce que la littératie IA au sens de l'AI Act ?
 
-> **Définition.** La **littératie IA** (article 4 du Règlement UE 2024/1689) désigne la capacité à comprendre les systèmes IA, leurs limites et leurs risques, adaptée au contexte professionnel de chaque poste. Pour un dirigeant de PME : savoir identifier un outil IA, comprendre ses risques principaux et superviser son utilisation. Pas besoin de savoir coder ni de maîtriser les architectures techniques.
+> **Définition.** La **littératie IA** désigne la capacité à comprendre les systèmes IA, leurs limites et leurs risques, adaptée au contexte professionnel de chaque poste. Pour un dirigeant de PME : savoir identifier un outil IA, comprendre ses risques principaux et superviser son utilisation. Pas besoin de savoir coder ni de maîtriser les architectures techniques.
 
 ### Quand entre en vigueur l'AI Act article 4 en France ?
 
-L'article 4 est **applicable depuis le 2 février 2025**. La date du **2 août 2026** est celle où les autorités nationales (CNIL pressentie pour la France) activent leurs pouvoirs de sanction. Une entreprise sans mesure de formation documentée à cette date sera exposée dès le premier contrôle.
+L'article 4 est **applicable depuis le 2 février 2025**, et cette date n'a pas changé. Ce qui a changé, c'est son contenu : le règlement (UE) 2026/1744, entré en vigueur le 27 juillet 2026, l'a réécrit en obligation de moyens et exclut explicitement toute exigence de niveau garanti par individu. Au **2 août 2026** entrent en application la gouvernance de l'AI Act, la surveillance du marché et les obligations de transparence de l'article 50 — pas une échéance propre à l'article 4.
 
 ### L'AI Act article 4 s'applique-t-il aux PME ou seulement aux grandes entreprises ?
 
-L'article 4 s'applique à toute organisation qui déploie des systèmes IA, quelle que soit sa taille. La différence entre PME et grandes entreprises se situe dans la proportionnalité des sanctions (réduites pour les PME) et dans la définition des "mesures suffisantes" : pour une PME de 10 personnes qui utilise ChatGPT pour de la rédaction, une sensibilisation documentée de 4 heures peut suffire. Pour une ETI de 500 personnes qui déploie des systèmes IA à haut risque en RH, les exigences sont nettement plus élevées.
+L'article 4 s'applique à toute organisation qui déploie des systèmes IA, quelle que soit sa taille. Le texte prévoit d'ailleurs que la Commission et les États membres accompagnent les efforts des déployeurs **en visant explicitement les PME**, et que la Commission publie des exemples pratiques de conformité. La proportionnalité joue en votre faveur : pour une PME de 10 personnes qui utilise ChatGPT pour de la rédaction, une sensibilisation de 4 heures peut suffire. Pour une ETI de 500 personnes déployant des systèmes IA en RH, l'enjeu réel se situe surtout du côté des obligations « haut risque » de l'annexe III, applicables au 2 décembre 2027.
 
 ### Combien coûte une formation IA pour une PME ?
 
-Pour une PME de 20 à 50 personnes, le budget de conformité article 4 se situe entre **3 000 et 12 000 euros** selon le format choisi. Un atelier dirigeant d'une journée coûte entre 800 et 1 500 euros HT par personne. Une formation intra-entreprise pour un groupe de 6 à 12 collaborateurs revient à 2 000 à 5 000 euros HT par journée. La prise en charge via l'OPCO peut atteindre 100 % pour les PME de moins de 50 salariés, sous réserve de prestataire Qualiopi et de dossier déposé avant démarrage.
+Pour une PME de 20 à 50 personnes, le budget d'une démarche de littératie IA se situe entre **3 000 et 12 000 euros** selon le format choisi. Un atelier dirigeant d'une journée coûte entre 800 et 1 500 euros HT par personne. Une formation intra-entreprise pour un groupe de 6 à 12 collaborateurs revient à 2 000 à 5 000 euros HT par journée. La prise en charge via l'OPCO peut atteindre 100 % pour les PME de moins de 50 salariés, sous réserve de prestataire Qualiopi et de dossier déposé avant démarrage.
 
 ### Comment financer une formation IA en 2026 ?
 
@@ -8862,9 +8952,9 @@ Voici les sept actions à engager cette semaine :
 
 4. **Contacter votre OPCO de branche** pour connaître les enveloppes disponibles, les délais d'approbation et les prestataires référencés. Son nom figure sur vos bulletins de salaire.
 
-5. **Demander 2 à 3 devis** à des organismes certifiés Qualiopi ayant un ancrage dans votre secteur. Exigez la liste des livrables de conformité (attestations, registre, compte-rendu article 4).
+5. **Demander 2 à 3 devis** à des organismes certifiés Qualiopi ayant un ancrage dans votre secteur. Exigez la liste des livrables de suivi (attestations, registre, compte-rendu de contenu).
 
-6. **Planifier la formation avant fin juin 2026.** Avec un délai OPCO de 3 à 6 semaines, les dossiers déposés après mi-mai risquent de ne pas être approuvés à temps pour une formation en juillet.
+6. **Caler les dates avec le délai OPCO en tête.** Comptez 3 à 6 semaines d'instruction entre le dépôt du dossier et l'accord de financement : c'est le seul délai qui contraint réellement votre planning.
 
 7. **Si vos usages IA sont complexes, commencer par un diagnostic.** Un audit préalable évite de former sur les mauvaises priorités. Notre [guide complet de l'audit IA](/blog/audit-ia-pme-guide-complet) détaille la méthode et les livrables.
 
@@ -8872,11 +8962,17 @@ Pour replacer ces étapes dans votre démarche IA globale, notre guide [démarre
 
 ## Passez de la théorie à l'action
 
-Décider quoi former et qui former sans savoir précisément quels outils IA sont déjà présents dans votre organisation, ni quels risques ils représentent, c'est dépenser un budget formation sans garantir ni la conformité ni le retour sur investissement.
+Décider quoi former et qui former sans savoir précisément quels outils IA sont déjà présents dans votre organisation, ni quels risques ils représentent, c'est dépenser un budget formation sans garantir le moindre retour sur investissement.
 
-Laurent Bouzon, consultant IA senior chez Smart Impulsion, accompagne des PME et ETI françaises dans leur mise en conformité AI Act et leurs projets de transformation IA depuis 2022. Smart Impulsion propose un Audit IA Express qui identifie précisément quelles compétences former en priorité dans votre organisation, selon vos cas d'usage réels. En 2 à 3 jours, vous repartez avec une feuille de route de formation ciblée et un ROI projeté avant de démarrer.
+La réécriture de l'article 4 change utilement la conversation : puisque personne ne viendra vérifier un niveau, la seule question qui vaille est celle de l'efficacité. Est-ce que vos équipes travaillent mieux, et avec moins de risques, après ?
 
-[En savoir plus sur l'audit IA express](/services/audit)`,
+Laurent Bouzon, consultant IA senior chez Smart Impulsion, accompagne des PME et ETI françaises dans leurs projets de transformation IA depuis 2022. Smart Impulsion propose un Audit IA Express qui identifie précisément quelles compétences former en priorité dans votre organisation, selon vos cas d'usage réels. En 2 à 3 jours, vous repartez avec une feuille de route de formation ciblée et un ROI projeté avant de démarrer.
+
+[En savoir plus sur l'audit IA express](/services/audit)
+
+*Sources : [Règlement (UE) 2026/1744 du 8 juillet 2026, « Digital Omnibus on AI » — EUR-Lex](https://eur-lex.europa.eu/eli/reg/2026/1744/oj/eng), publié au JOUE le 24 juillet 2026, entré en vigueur le 27 juillet 2026 ; Règlement (UE) 2024/1689 (AI Act) ; Bpifrance Le Lab (janvier 2026, juin 2025) ; Bpifrance, rapport d'activité 2025 ; loi de finances 2025, article 24 (Legifrance).*
+
+*Article mis à jour le 8 août 2026 : la version précédente affirmait que la formation IA des dirigeants « devenait obligatoire en août 2026 ». C'était inexact sur la date comme sur la nature de l'obligation.*`,
     author: "Laurent Bouzon",
     date: "5 mai 2026",
     dateISO: "2026-05-05",
@@ -8887,7 +8983,7 @@ Laurent Bouzon, consultant IA senior chez Smart Impulsion, accompagne des PME et
     faq: [
       {
         question: "L'AI Act article 4 oblige-t-il vraiment les PME à former leurs salariés à l'IA ?",
-        answer: "Oui. L'article 4 du Règlement (UE) 2024/1689 impose à tout fournisseur ou déployeur de systèmes IA de prendre des mesures pour assurer un niveau suffisant de littératie IA de son personnel. La supervision nationale (CNIL pressentie pour la France) démarre le 2 août 2026. Aucune certification n'est exigée : une sensibilisation documentée et adaptée au poste suffit. En revanche, l'absence totale de formation documentée peut être sanctionnée jusqu'à 15 millions d'euros ou 3 % du chiffre d'affaires mondial.",
+        answer: "Pas dans les termes qu'on lit souvent. Depuis sa réécriture par le règlement (UE) 2026/1744, entré en vigueur le 27 juillet 2026, l'article 4 demande de prendre des mesures pour soutenir le développement de la littératie IA du personnel, et précise que cette obligation n'impose pas de garantir un niveau spécifique pour un individu. C'est une obligation de moyens : aucune certification, aucune pièce justificative et aucun niveau à atteindre ne sont exigés. L'article 4 s'applique depuis le 2 février 2025, date inchangée — il n'est donc ni nouveau, ni reporté.",
       },
       {
         question: "Combien coûte une formation IA pour une PME de 20 à 50 personnes ?",
@@ -8895,19 +8991,19 @@ Laurent Bouzon, consultant IA senior chez Smart Impulsion, accompagne des PME et
       },
       {
         question: "Faut-il que le dirigeant sache coder ou utiliser ChatGPT pour être conforme ?",
-        answer: "Non. L'article 4 exige un niveau suffisant de littératie IA, adapté au poste et au contexte d'utilisation. Pour un dirigeant, cela signifie comprendre les risques principaux (biais, erreurs des modèles, confidentialité des données), savoir superviser un système IA et poser les bonnes questions à un prestataire. Il n'est pas question de maîtriser le prompting avancé, de coder, ni de comprendre les architectures techniques.",
+        answer: "Non. L'article 4 demande des mesures proportionnées au poste et au contexte d'utilisation, et n'exige depuis juillet 2026 aucun niveau garanti pour un individu. Pour un dirigeant, l'utile consiste à comprendre les risques principaux (biais, erreurs des modèles, confidentialité des données), savoir superviser un système IA et poser les bonnes questions à un prestataire. Il n'est pas question de maîtriser le prompting avancé, de coder, ni de comprendre les architectures techniques.",
       },
       {
         question: "Le crédit d'impôt formation dirigeant est-il mobilisable pour une formation IA ?",
         answer: "Non. Le crédit d'impôt formation dirigeant (jusqu'à 950 euros pour les microentreprises) a été supprimé par l'article 24 de la loi de finances 2025 (Journal officiel du 30 décembre 2024, legifrance.gouv.fr). Il ne s'applique plus aux formations suivies depuis le 1er janvier 2025. Les dispositifs disponibles en 2026 sont : le plan de développement des compétences via l'OPCO, le CPF pour les salariés, et le plan Osez l'IA de Bpifrance pour les diagnostics Data-IA cofinancés (consulter bpifrance.fr pour les taux en vigueur).",
       },
       {
-        question: "Faut-il former toute l'entreprise d'un coup avant août 2026 ?",
-        answer: "Non, c'est même contre-productif. Une approche par vagues est plus efficace : commencer par les dirigeants et managers (niveau acculturation, 1-2 jours), puis les fonctions qui utilisent des outils IA au quotidien (niveau opérationnel, 3-5 jours), enfin les quelques profils qui gèrent ou supervisent les systèmes IA (niveau expert, 2-6 semaines). Identifier les usages réels avant de former évite de dépenser sur des compétences inutiles à votre contexte.",
+        question: "Faut-il former toute l'entreprise d'un coup ?",
+        answer: "Non, c'est même contre-productif — et plus rien ne vous y presse depuis la réécriture de l'article 4. Une approche par vagues est plus efficace : commencer par les dirigeants et managers (niveau acculturation, 1-2 jours), puis les fonctions qui utilisent des outils IA au quotidien (niveau opérationnel, 3-5 jours), enfin les quelques profils qui gèrent ou supervisent les systèmes IA (niveau expert, 2-6 semaines). Identifier les usages réels avant de former évite de dépenser sur des compétences inutiles à votre contexte.",
       },
       {
         question: "Comment choisir un organisme de formation IA sérieux ?",
-        answer: "Le premier critère est la certification Qualiopi, indispensable pour la prise en charge OPCO. Ensuite, vérifiez que les formateurs connaissent votre secteur et pas seulement les outils génériques. La part de pratique doit dépasser 70 % du programme. Demandez des livrables de conformité : registre de formation, attestations individuelles, compte-rendu documentant la mise en œuvre de l'article 4. Bpifrance Université propose un parcours décideur gratuit en ligne comme point de départ.",
+        answer: "Le premier critère est la certification Qualiopi, indispensable pour la prise en charge OPCO. Ensuite, vérifiez que les formateurs connaissent votre secteur et pas seulement les outils génériques. La part de pratique doit dépasser 70 % du programme. Demandez des livrables de suivi : registre de formation, attestations individuelles, compte-rendu de ce qui a été couvert — aucun texte ne les impose, mais ils vous évitent d'acheter à l'aveugle. Bpifrance Université propose un parcours décideur gratuit en ligne comme point de départ.",
       },
       {
         question: "Dois-je consulter le CSE avant de déployer un outil IA dans l'entreprise ?",
@@ -8936,9 +9032,9 @@ La question n'est pas "est-ce que l'IA est utile pour les PME". Elle est réglé
 
 ### Le déclencheur réglementaire : AI Act article 4
 
-L'obligation de littératie en IA est exécutoire depuis le 2 février 2025. L'article 4 du Règlement (UE) 2024/1689, dit AI Act, impose à toute entreprise qui déploie un système IA de garantir un niveau suffisant de compétences IA chez son personnel concerné. Une PME qui utilise ChatGPT pour rédiger des offres commerciales est qualifiée de "déployeur" au sens de l'article 3(4) du règlement. Elle est donc soumise à cette obligation.
+L'obligation de littératie IA est applicable depuis le 2 février 2025. L'article 4 de l'AI Act, réécrit le 27 juillet 2026 par le règlement (UE) 2026/1744, demande à toute entreprise qui déploie un système IA de prendre des mesures pour soutenir le développement des compétences IA de son personnel concerné — sans imposer de garantir un niveau spécifique pour un individu. Une PME qui utilise ChatGPT pour rédiger des offres commerciales est qualifiée de "déployeur" au sens de l'article 3(4) du règlement. Elle est donc soumise à cette obligation.
 
-> Selon l'article 4 du Règlement (UE) 2024/1689 (AI Act), applicable depuis le 2 février 2025, toute entreprise déployant un système IA (quelle que soit sa taille) doit garantir un niveau suffisant de compétences IA chez son personnel concerné. Ce n'est pas une recommandation : c'est une obligation légale en vigueur.
+> Selon l'article 4 de l'AI Act, applicable depuis le 2 février 2025 et réécrit par le règlement (UE) 2026/1744, toute entreprise déployant un système IA (quelle que soit sa taille) doit prendre des mesures pour soutenir le développement des compétences IA de son personnel concerné. C'est une obligation de moyens : le texte précise qu'elle n'impose pas de garantir un niveau spécifique pour un individu.
 
 Pour approfondir les implications réglementaires pour votre structure, le [guide AI Act PME 2026](/blog/ai-act-pme-guide-2026) détaille l'ensemble des obligations par catégorie d'entreprise.
 
@@ -9134,7 +9230,7 @@ Smart Impulsion propose un Audit IA Express qui vous donne, en 2 à 3 jours, une
       },
       {
         question: "L'AI Act oblige-t-il les PME à faire un audit IA ?",
-        answer: "L'AI Act n'impose pas explicitement un audit IA formel. En revanche, l'article 4 du Règlement (UE) 2024/1689, applicable depuis le 2 février 2025, oblige toute entreprise qui déploie un système IA à garantir un niveau suffisant de compétences IA chez son personnel concerné. Une PME utilisant ChatGPT ou un outil d'analyse prédictive est qualifiée de déployeur au sens de l'article 3(4) du règlement. L'audit est le moyen le plus direct de documenter et structurer cette obligation de littératie.",
+        answer: "L'AI Act n'impose pas explicitement un audit IA formel. En revanche, l'article 4, applicable depuis le 2 février 2025 et réécrit par le règlement (UE) 2026/1744, demande à toute entreprise qui déploie un système IA de prendre des mesures pour soutenir le développement des compétences IA de son personnel concerné, sans exiger de garantir un niveau spécifique pour un individu. Une PME utilisant ChatGPT ou un outil d'analyse prédictive est qualifiée de déployeur au sens de l'article 3(4) du règlement. L'audit est le moyen le plus direct de documenter et structurer cette obligation de littératie.",
       },
       {
         question: "Quelle est la différence entre un audit IA Express et le Diag Data IA Bpifrance ?",
@@ -9302,7 +9398,7 @@ Les risques à couvrir dans un projet IA PME :
 - **Risque opérationnel** : résistance interne des équipes, temps d'adoption plus long que prévu
 - **Risque de sortie** : coûts et délais si le projet est arrêté (chiffré dans le scénario d'arrêt du Bloc 2)
 
-**Un point réglementaire que la quasi-totalité des guides ignorent.** L'article 4 du Règlement UE 2024/1689 (AI Act), en vigueur depuis le 2 février 2025, impose aux entreprises déployant des systèmes d'IA de garantir un niveau suffisant de littératie IA chez leur personnel. Ce n'est pas une certification formelle. C'est une obligation documentée, avec un budget formation à provisionner. Comptez entre 0,5 et 2 jours de formation par collaborateur selon l'intensité d'usage. Ce poste doit figurer explicitement dans le Bloc 2.
+**Un point réglementaire que la quasi-totalité des guides ignorent.** L'article 4 de l'AI Act, en vigueur depuis le 2 février 2025 et réécrit le 27 juillet 2026 par le règlement (UE) 2026/1744, demande aux entreprises déployant des systèmes d'IA de prendre des mesures pour soutenir le développement de la littératie IA de leur personnel — sans imposer de garantir un niveau spécifique pour un individu. Ce n'est ni une certification, ni un dossier de preuve. C'est un budget formation à provisionner. Comptez entre 0,5 et 2 jours de formation par collaborateur selon l'intensité d'usage. Ce poste doit figurer explicitement dans le Bloc 2.
 
 Pour chaque risque identifié, précisez :
 
@@ -9484,7 +9580,7 @@ Les témoignages "notre équipe a adhéré immédiatement" parlent tous de pilot
 
 > **Définition : littératie IA.** La littératie IA désigne la capacité d'un collaborateur à comprendre ce que fait un outil IA, à identifier ses limites et à l'utiliser de façon appropriée dans ses tâches professionnelles. Ce n'est pas de la programmation ni de la data science : c'est la compétence minimale pour utiliser un assistant IA métier sans produire d'erreurs non détectées.
 
-L'article 4 de l'AI Act (Règlement UE 2024/1689) impose à tout déployeur d'IA de s'assurer que son personnel dispose des compétences suffisantes. Entrée en vigueur le 2 février 2025, la supervision s'applique à partir du **2 août 2026** (source : Commission européenne / AI Office). Ce cadrage transforme le débat interne : ce n'est plus "est-ce qu'on forme les équipes ?" mais "comment on remplit l'obligation avant août 2026 ?". Livrable : un plan de formation par poste ciblé sur les cas d'usage réels, qui constitue votre trace de conformité AI Act.
+L'article 4 de l'AI Act, réécrit le 27 juillet 2026 par le règlement (UE) 2026/1744, demande à tout déployeur d'IA de prendre des mesures pour soutenir le développement des compétences IA de son personnel, sans imposer de garantir un niveau spécifique pour un individu. Il s'applique depuis le 2 février 2025. Ce cadrage transforme le débat interne : ce n'est plus "est-ce qu'on forme les équipes ?" mais "sur quels postes une erreur d'IA nous coûterait le plus cher ?". Livrable : un plan de formation par poste ciblé sur les cas d'usage réels.
 
 > **À retenir.** Selon l'enquête Ipsos pour Jedha (juin 2025, 1 000 actifs français), 76% des actifs français n'ont reçu aucune formation à l'IA. Parmi ceux utilisant des outils IA fournis par leur entreprise, seulement 25% ont bénéficié d'un accompagnement. L'obligation AI Act article 4 transforme ce vide en risque légal.
 
@@ -9557,7 +9653,7 @@ Le manager intermédiaire n'a pas à devenir expert en IA. Il a trois rôles pr�
 
 ### Ce que dit l'obligation
 
-L'article 4 de l'AI Act (Règlement UE 2024/1689) impose à tout déployeur d'IA de s'assurer que son personnel dispose des compétences suffisantes pour utiliser les systèmes IA de manière appropriée. Entrée en application le 2 février 2025, la supervision par les autorités commence le **2 août 2026** (source : Commission européenne / AI Office, texte officiel du règlement).
+L'article 4 de l'AI Act, réécrit le 27 juillet 2026 par le règlement (UE) 2026/1744, demande à tout déployeur d'IA de prendre des mesures pour soutenir le développement des compétences de son personnel à utiliser les systèmes IA de manière appropriée. Le texte précise qu'il n'impose pas de garantir un niveau spécifique pour un individu. Applicable depuis le 2 février 2025 (source : [EUR-Lex](https://eur-lex.europa.eu/eli/reg/2026/1744/oj/eng)).
 
 Vous êtes un "déployeur" dès lors que vous utilisez un outil IA sectoriel, un module IA dans votre ERP ou un assistant IA généraliste. Les PME sont concernées. Pour une lecture complète, consultez notre article [AI Act 2026 : ce que les PME doivent savoir](/blog/ai-act-pme-guide-2026).
 
@@ -9601,7 +9697,7 @@ Trois causes par ordre de fréquence. La résistance par flou : personne n'a exp
 
 ### Qu'est-ce que l'obligation de littératie IA de l'AI Act pour les entreprises ?
 
-L'article 4 de l'AI Act (Règlement UE 2024/1689) impose à tout déployeur d'IA de s'assurer que son personnel dispose de compétences suffisantes pour utiliser les outils déployés. Entrée en vigueur le 2 février 2025, la supervision commence le 2 août 2026. Toute PME utilisant ChatGPT, un module IA ERP ou un outil sectoriel IA est concernée. Source : Commission européenne / AI Office, texte officiel du règlement.
+L'article 4 de l'AI Act, réécrit le 27 juillet 2026 par le règlement (UE) 2026/1744, demande à tout déployeur d'IA de prendre des mesures pour soutenir le développement des compétences de son personnel à utiliser les outils déployés — sans imposer de garantir un niveau spécifique pour un individu. Applicable depuis le 2 février 2025. Toute PME utilisant ChatGPT, un module IA ERP ou un outil sectoriel IA est concernée.
 
 ### Comment embarquer un manager réfractaire à un projet IA ?
 
@@ -9640,7 +9736,7 @@ Smart Impulsion propose un Audit IA Express qui identifie le bon premier cas d'u
       },
       {
         question: "Qu'est-ce que l'obligation de littératie IA de l'AI Act pour les entreprises ?",
-        answer: "L'article 4 de l'AI Act impose à tout déployeur d'IA de s'assurer que son personnel dispose d'un niveau suffisant de compétences pour utiliser les outils IA déployés. Cette obligation est entrée en vigueur le 2 février 2025. L'application des règles de supervision commence le 2 août 2026. Une PME qui déploie ChatGPT ou un outil IA sectoriel est concernée. Source : Commission européenne / AI Office.",
+        answer: "L'article 4 de l'AI Act, réécrit le 27 juillet 2026 par le règlement (UE) 2026/1744, demande à tout déployeur d'IA de prendre des mesures pour soutenir le développement des compétences de son personnel à utiliser les outils IA déployés. Le texte précise qu'il n'impose pas de garantir un niveau spécifique de littératie IA pour un individu : c'est une obligation de moyens. Elle s'applique depuis le 2 février 2025, date inchangée. Une PME qui déploie ChatGPT ou un outil IA sectoriel est concernée.",
       },
       {
         question: "Comment embarquer un manager réfractaire à un projet IA ?",
@@ -10141,7 +10237,7 @@ La procédure de supervision humaine est souvent négligée. Sans elle, votre "s
 
 ### Étape 5 : Formation des équipes RH (juillet 2026)
 
-L'Article 4 du Règlement (UE) 2024/1689 est en vigueur depuis le 2 février 2025. Vos recruteurs et gestionnaires RH qui utilisent des outils IA doivent disposer d'un niveau suffisant de littératie IA.
+L'article 4 de l'AI Act est en vigueur depuis le 2 février 2025, et sa rédaction a été allégée le 27 juillet 2026 par le règlement (UE) 2026/1744 : vous devez prendre des mesures pour soutenir le développement de la littératie IA de vos recruteurs et gestionnaires RH qui utilisent des outils IA, sans avoir à garantir un niveau spécifique pour chacun d'eux.
 
 Cette formation n'a pas besoin d'être technique. Elle doit couvrir quatre points :
 
@@ -10215,7 +10311,7 @@ En 2 à 3 jours ouvrés, vous disposez d'une base documentaire solide avant l'é
       },
       {
         question: "L'obligation de formation IA (Art. 4) s'applique-t-elle déjà ?",
-        answer: "Oui, depuis le 2 février 2025. L'Article 4 du Règlement (UE) 2024/1689 est en vigueur et oblige les organisations qui déploient des systèmes IA à s'assurer que le personnel concerné dispose d'un niveau suffisant de littératie IA. Pour la fonction RH, cela signifie que les recruteurs et les gestionnaires RH qui utilisent des outils IA de présélection ou d'évaluation doivent comprendre le fonctionnement de base de ces outils, leurs limites et leurs biais potentiels, et les conditions dans lesquelles une décision automatique doit être révisée par un humain.",
+        answer: "Oui, depuis le 2 février 2025. L'article 4 de l'AI Act, réécrit le 27 juillet 2026 par le règlement (UE) 2026/1744, demande aux organisations qui déploient des systèmes IA de prendre des mesures pour soutenir le développement de la littératie IA du personnel concerné, sans imposer de garantir un niveau spécifique pour un individu. Pour la fonction RH, cela signifie que les recruteurs et les gestionnaires RH qui utilisent des outils IA de présélection ou d'évaluation doivent comprendre le fonctionnement de base de ces outils, leurs limites et leurs biais potentiels, et les conditions dans lesquelles une décision automatique doit être révisée par un humain.",
       },
     ],
     howTo: {
@@ -11270,7 +11366,7 @@ Les obligations pour les **modèles d'IA à usage général (GPAI)** s'appliquen
 C'est l'échéance majeure. Les obligations suivantes entrent en application :
 
 - **Obligations de transparence** (article 50) : informer les utilisateurs qu'ils interagissent avec une IA, marquer le contenu généré par IA
-- **Littératie IA** (article 4) : garantir un niveau suffisant de compétences IA pour vos équipes qui utilisent ces outils
+- **Littératie IA** (article 4) : prendre des mesures pour soutenir le développement des compétences IA de vos équipes qui utilisent ces outils — sans avoir à garantir un niveau spécifique pour un individu (rédaction issue du règlement (UE) 2026/1744)
 - **Systèmes à haut risque** (Annexe III) : obligations complètes de conformité pour les systèmes d'IA dans les domaines sensibles (RH, crédit, éducation, etc.)
 
 > Mise à jour importante — Le Parlement européen a voté le 26 mars 2026 le report de certaines obligations pour les systèmes à haut risque au 2 décembre 2027 (Digital Omnibus on AI). Ce report doit encore être confirmé par le Conseil européen. Tant que cette adoption n'est pas finalisée, la date du 2 août 2026 reste la référence légale. Une PME prudente se prépare pour août 2026, pas pour décembre 2027.
