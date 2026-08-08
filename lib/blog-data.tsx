@@ -916,7 +916,7 @@ Pour une vue complète des benchmarks ROI, notre article sur le [ROI de l'IA en 
 
 Le CODIR ne dit pas non. Il dit "pas maintenant". C'est une ouverture implicite : il reconnaît la valeur, mais il gère la bande passante. Pour cette objection, la réponse ne porte pas sur la valeur interne du projet. Elle porte sur l'urgence externe.
 
-### Le levier réglementaire : AI Act Article 4, deadline 2 août 2026
+### Le levier réglementaire : AI Act article 4, applicable depuis février 2025
 
 L'article 4 de l'AI Act, réécrit par le règlement (UE) 2026/1744 entré en vigueur le 27 juillet 2026, demande aux fournisseurs et déployeurs de systèmes IA de prendre des mesures pour soutenir le développement de la littératie IA de leur personnel — sans imposer de garantir un niveau spécifique pour un individu. L'obligation est active depuis février 2025.
 
@@ -3352,7 +3352,7 @@ Si vous voulez aller au-delà du bilan de maturité et disposer d'un plan d'acti
     slug: "feuille-de-route-ia-pme",
     title: "Feuille de route IA PME : méthode en 4 étapes",
     excerpt:
-      "Une méthode en 4 étapes pour construire votre feuille de route IA PME, prioriser les bons cas d'usage et intégrer la deadline AI Act article 4.",
+      "Une méthode en 4 étapes pour construire votre feuille de route IA PME, prioriser les bons cas d'usage et intégrer le calendrier réel de l'AI Act.",
     content: `# Feuille de route IA pour PME : méthode en 4 étapes pour prioriser sans se perdre
 
 Beaucoup de dirigeants de PME ont déjà utilisé l'IA. Un abonnement ChatGPT pour les emails, un outil de synthèse de réunions, un chatbot sur le site. Et pourtant, quand on leur demande quel ROI ils en tirent, la réponse est souvent la même : "c'est utile, mais on ne sait pas vraiment."
@@ -3520,7 +3520,7 @@ L'obligation n'est pas de délivrer une certification à vos équipes. Elle est 
 
 La CNIL a publié en 2024 des recommandations sur l'utilisation des systèmes d'IA au travail, qui convergent avec l'article 4 de l'AI Act sur la nécessité d'informer et de former les salariés concernés avant tout déploiement. Intégrer ce volet dans votre feuille de route dès la semaine 4 est la manière la plus simple de vous conformer, sans sur-investir dans une démarche formelle disproportionnée pour votre taille.
 
-> **À retenir.** La deadline AI Act article 4 (août 2026) n'est pas une menace abstraite. C'est un levier concret pour inscrire la littératie IA dans le calendrier de votre feuille de route, au même titre que le budget ou le responsable pilote.
+> **À retenir.** L'article 4 n'a pas de date butoir à venir : il s'applique depuis le 2 février 2025 et c'est une obligation de moyens. Inscrivez donc la littératie IA dans votre feuille de route pour ce qu'elle vaut opérationnellement — au même titre que le budget ou le responsable pilote — et non pour tenir une échéance. Les vraies échéances à anticiper sont celles des systèmes à haut risque : **décembre 2027** (annexe III) et **août 2028** (annexe I).
 
 ## Questions fréquentes
 
@@ -5017,7 +5017,7 @@ Selon l'INSEE (enquête TIC 2024), seulement 10 % des entreprises françaises de
 
 ### La gouvernance IA est-elle obligatoire pour une PME ?
 
-Oui, partiellement : deux régimes s'appliquent simultanément à toute PME qui utilise des outils IA. L'AI Act article 4 (littératie IA, enforcement août 2026) impose une démarche de sensibilisation documentée. Le RGPD via la CNIL s'applique dès que des données personnelles circulent dans des outils IA tiers. Il n'existe pas de registre unique à déposer auprès d'une autorité, mais une PME sans cadre documenté s'expose à un double risque réglementaire. Un cadre minimal proportionné à votre taille couvre les obligations de base, sans projet de plusieurs mois.
+Oui, partiellement : deux régimes s'appliquent simultanément à toute PME qui utilise des outils IA. L'AI Act article 4 (littératie IA, applicable depuis février 2025) demande une démarche de sensibilisation proportionnée aux usages. Le RGPD via la CNIL s'applique dès que des données personnelles circulent dans des outils IA tiers. Il n'existe pas de registre unique à déposer auprès d'une autorité, mais une PME sans cadre documenté s'expose à un double risque réglementaire. Un cadre minimal proportionné à votre taille couvre les obligations de base, sans projet de plusieurs mois.
 
 ### Combien de temps faut-il pour mettre en place une gouvernance IA en PME ?
 
@@ -5052,7 +5052,7 @@ Smart Impulsion est un cabinet conseil IA B2B spécialisé dans l'accompagnement
     faq: [
       {
         question: "La gouvernance IA est-elle obligatoire pour une PME ?",
-        answer: "Pas de registre obligatoire unique, mais deux régimes s'appliquent simultanément : l'AI Act article 4 (littératie IA, enforcement août 2026) et le RGPD via la CNIL si des données personnelles circulent dans des outils IA tiers. Une PME sans cadre documenté s'expose à un double risque réglementaire. La bonne nouvelle : un cadre minimal proportionné à votre taille suffit pour couvrir les obligations de base.",
+        answer: "Pas de registre obligatoire unique, mais deux régimes s'appliquent simultanément : l'AI Act article 4 (littératie IA, applicable depuis février 2025) et le RGPD via la CNIL si des données personnelles circulent dans des outils IA tiers. Une PME sans cadre documenté s'expose à un double risque réglementaire. La bonne nouvelle : un cadre minimal proportionné à votre taille suffit pour couvrir les obligations de base.",
       },
       {
         question: "Combien de temps faut-il pour mettre en place une gouvernance IA en PME ?",
@@ -5482,7 +5482,9 @@ L'**Annexe III de l'AI Act** (règlement européen 2024/1689) liste les domaines
 - évaluent et notent des candidats
 - prennent ou influencent des décisions d'embauche sans supervision humaine suffisante
 
-À partir d'août 2026, les obligations pour les entreprises utilisatrices (pas seulement les éditeurs) incluront :
+**Attention à la date : ce n'est pas août 2026.** Le **règlement (UE) 2026/1744 du 8 juillet 2026** (« Digital Omnibus on AI »), entré en vigueur le 27 juillet 2026, a reporté l'application des obligations « haut risque » de l'annexe III au **2 décembre 2027** (et au 2 août 2028 pour l'annexe I). Le recrutement relevant de l'annexe III, **c'est décembre 2027 qui vous concerne.**
+
+À partir du **2 décembre 2027**, les obligations pour les entreprises utilisatrices (pas seulement les éditeurs) incluront :
 
 1. Informer les candidats qu'un système d'IA est utilisé dans le processus
 2. Maintenir une supervision humaine documentée des décisions automatiques
@@ -5490,10 +5492,16 @@ L'**Annexe III de l'AI Act** (règlement européen 2024/1689) liste les domaines
 4. Vérifier que l'éditeur de l'outil a fourni sa documentation technique et sa déclaration de conformité
 
 > Ces obligations s'appliquent à l'entreprise qui **utilise** l'outil, pas seulement à celle qui le développe.
+>
+> *Source : [règlement (UE) 2026/1744, EUR-Lex](https://eur-lex.europa.eu/eli/reg/2026/1744/oj/eng), publié au JOUE le 24 juillet 2026.*
 
-### Ce que la CNIL ajoute
+**Ce que le report ne change pas.** L'**article 4** (littératie IA) s'applique depuis le **2 février 2025** — date inchangée, même si sa rédaction a été allégée en obligation de moyens le 27 juillet 2026. Et depuis le 2 août 2026, la gouvernance, la surveillance du marché et les obligations de transparence de l'article 50 sont bien en application.
 
-La CNIL a inscrit dans son programme de travail 2026 la finalisation de ses travaux sur l'IA dans le secteur du travail, avec un focus particulier sur les **biais algorithmiques**. Les recommandations antérieures de la CNIL sur l'IA et les RH (2023) restent applicables : collecte minimale des données, droit à l'explication pour les candidats, interdiction des traitements biométriques non consentis.
+**Ce que ça vous donne : seize mois, pas une dispense.** La conformité « haut risque » est lourde — analyse de risques, documentation, supervision humaine, journalisation. Les organisations qui attendront fin 2027 pour s'y mettre trouveront le délai juste.
+
+### Ce que le droit du travail français ajoute
+
+Indépendamment de l'AI Act, deux obligations françaises s'appliquent dès aujourd'hui à un outil IA utilisé en recrutement : la **consultation du CSE** avant tout déploiement d'un dispositif affectant les conditions de travail ou traitant des données de salariés, et les obligations **RGPD** (minimisation des données, information des candidats, droit à l'explication sur une décision automatisée). Ce sont elles, pas l'AI Act, qui vous exposent dans l'immédiat.
 
 Pour une PME, la traduction pratique est simple :
 
@@ -5568,7 +5576,7 @@ Oui, mais le gain dépend de l'étape ciblée. La rédaction d'offres et la plan
 
 ### Mon ATS utilise l'IA pour classer les CV. Suis-je concerné par l'AI Act ?
 
-Oui. Si votre outil filtre ou classe automatiquement des candidatures sans intervention humaine systématique, il entre dans la catégorie des systèmes de recrutement classifiés haut risque à l'Annexe III du règlement européen. À partir d'août 2026, cela imposera une obligation de transparence envers les candidats et un mécanisme de supervision humaine documenté. Vérifiez avec votre éditeur s'il dispose d'une déclaration de conformité.
+Oui. Si votre outil filtre ou classe automatiquement des candidatures sans intervention humaine systématique, il entre dans la catégorie des systèmes de recrutement classifiés haut risque à l'annexe III du règlement européen. À partir du **2 décembre 2027** — échéance reportée par le règlement (UE) 2026/1744, et non août 2026 — cela imposera une obligation de transparence envers les candidats et un mécanisme de supervision humaine documenté. Vérifiez dès maintenant avec votre éditeur s'il dispose d'une déclaration de conformité, et n'oubliez pas que la consultation du CSE et les obligations RGPD, elles, s'appliquent déjà.
 
 ### Par quels indicateurs mesurer le ROI de l'IA en recrutement ?
 
@@ -5595,7 +5603,7 @@ Selon l'AI Act, un système IA est à haut risque en recrutement dès lors qu'il
       },
       {
         question: "Mon ATS utilise l'IA pour classer les CV. Suis-je concerné par l'AI Act ?",
-        answer: "Oui, si votre outil filtre ou classe automatiquement des candidatures sans intervention humaine systématique, il entre dans la catégorie 'systèmes de recrutement' classifiés haut risque à l'Annexe III du règlement européen. À partir d'août 2026, cela imposera une obligation de transparence envers les candidats et un mécanisme de supervision humaine documenté. Vérifiez avec votre éditeur s'il dispose d'une déclaration de conformité.",
+        answer: "Oui, si votre outil filtre ou classe automatiquement des candidatures sans intervention humaine systématique, il entre dans la catégorie 'systèmes de recrutement' classifiés haut risque à l'annexe III du règlement européen. À partir du 2 décembre 2027 — échéance reportée par le règlement (UE) 2026/1744 du 8 juillet 2026, et non août 2026 comme annoncé initialement — cela imposera une obligation de transparence envers les candidats et un mécanisme de supervision humaine documenté. Vérifiez dès maintenant avec votre éditeur s'il dispose d'une déclaration de conformité. La consultation du CSE et les obligations RGPD, elles, s'appliquent déjà.",
       },
       {
         question: "Par quels indicateurs mesurer le ROI de l'IA en recrutement ?",
@@ -5670,7 +5678,7 @@ Un tableau à cinq colonnes suffit pour démarrer :
 
 > Ce registre n'est pas qu'un outil de conformité. C'est le premier document de pilotage IA de votre entreprise. Il rend visibles des usages qui existent déjà mais restent invisibles pour la direction.
 
-Pour les entreprises utilisant des systèmes IA qualifiés de "haut risque" au sens de l'AI Act (recrutement, gestion RH, accès au crédit, sécurité), ce registre devient une obligation réglementaire avant août 2026. Pour les autres, c'est simplement une bonne pratique qui prend 30 minutes. Le [guide complet sur l'AI Act pour PME](/blog/ai-act-pme-guide-2026) détaille les critères de qualification haut risque si vous souhaitez vérifier votre situation.
+Pour les entreprises utilisant des systèmes IA qualifiés de "haut risque" au sens de l'AI Act (recrutement, gestion RH, accès au crédit, sécurité), ce registre s'inscrit dans des obligations dont l'échéance a été reportée au **2 décembre 2027** par le règlement (UE) 2026/1744 (annexe III ; 2 août 2028 pour l'annexe I). Pour les autres, c'est simplement une bonne pratique qui prend 30 minutes. Le [guide complet sur l'AI Act pour PME](/blog/ai-act-pme-guide-2026) détaille les critères de qualification haut risque si vous souhaitez vérifier votre situation.
 
 
 
@@ -5785,7 +5793,7 @@ Concrètement, cela signifie qu'un commercial qui utilise un outil IA de suggest
 
 ### Le registre des systèmes IA à haut risque
 
-Pour les entreprises qui utilisent des systèmes IA classés haut risque par l'AI Act, un registre formalisé sera requis avant août 2026. Le [guide AI Act pour PME](/blog/ai-act-pme-guide-2026) recense les catégories concernées. Si vous opérez dans les RH, la finance, la santé, ou la sécurité, la vérification de votre exposition est urgente.
+Pour les entreprises qui utilisent des systèmes IA classés haut risque par l'AI Act, un registre formalisé sera requis pour le **2 décembre 2027** (annexe III), échéance fixée par le règlement (UE) 2026/1744. Le [guide AI Act pour PME](/blog/ai-act-pme-guide-2026) recense les catégories concernées. Si vous opérez dans les RH, la finance, la santé, ou la sécurité, la vérification de votre exposition est urgente.
 
 ### Les recommandations CNIL
 
@@ -5835,7 +5843,7 @@ Pour aller plus loin sur la méthodologie :
       },
       {
         question: "La gouvernance IA est-elle obligatoire pour les PME ?",
-        answer: "En partie. Depuis le 2 février 2025, l'AI Act impose à toutes les entreprises qui déploient ou utilisent de l'IA une obligation de littératie IA (article 4). Les entreprises utilisant des systèmes IA dits à haut risque devront tenir un registre avant août 2026. La CNIL a publié 13 fiches pratiques IA et des recommandations en février 2025. Une gouvernance minimale est donc à la fois une obligation réglementaire partielle et un prérequis pour éviter les incidents.",
+        answer: "En partie. Depuis le 2 février 2025, l'AI Act impose à toutes les entreprises qui déploient ou utilisent de l'IA une obligation de littératie IA (article 4). Les entreprises utilisant des systèmes IA dits à haut risque devront tenir un registre pour le 2 décembre 2027 (annexe III), échéance reportée par le règlement (UE) 2026/1744. La CNIL a publié 13 fiches pratiques IA et des recommandations en février 2025. Une gouvernance minimale est donc à la fois une obligation réglementaire partielle et un prérequis pour éviter les incidents.",
       },
       {
         question: "Combien de temps faut-il pour mettre en place une gouvernance IA ?",
@@ -5848,12 +5856,12 @@ Pour aller plus loin sur la méthodologie :
     title: "Gouvernance IA en entreprise : registre, politique d'usage et DPO",
     seoTitle: "Gouvernance IA : registre, politique d’usage et DPO",
     excerpt:
-      "Gouvernance IA entreprise : registre IA PME, politique d'usage interne et rôle du DPO face à l'AI Act. Prêt avant août 2026.",
+      "Gouvernance IA entreprise : registre IA PME, politique d'usage interne et rôle du DPO face à l'AI Act, avec le calendrier réel post-Digital Omnibus.",
     content: `En 2025, 26% des TPE et PME françaises utilisent l'IA, soit le double de 2024, selon le Baromètre France Num 2025 du Ministère de l'Économie. Mais dans 87% des entreprises, aucune politique interne ne définit les règles d'utilisation de ces outils, selon l'étude YouGov réalisée pour Salesforce auprès de 14 000 salariés dans 14 pays.
 
 L'adoption accélère. La gouvernance IA, elle, n'a pas suivi.
 
-Ce décalage n'est plus seulement un risque managérial. À partir du 2 août 2026, les obligations de l'AI Act entrent pleinement en vigueur pour les systèmes IA à haut risque. Et même les PME qui utilisent de l'IA tierce, sans en être fournisseurs, ont des responsabilités précises à assumer en matière de conformité IA 2026.
+Ce décalage n'est plus seulement un risque managérial. Depuis le 2 août 2026, la gouvernance de l'AI Act, la surveillance du marché et les obligations de transparence de l'article 50 sont en application ; les obligations relatives aux systèmes à haut risque, elles, ont été reportées au **2 décembre 2027** (annexe III) et au **2 août 2028** (annexe I) par le règlement (UE) 2026/1744. Et même les PME qui utilisent de l'IA tierce, sans en être fournisseurs, ont des responsabilités précises à assumer.
 
 Cet article vous donne trois outils concrets pour combler ce vide de gouvernance IA avant l'échéance : le registre IA PME, la politique d'usage interne, et le positionnement de votre DPO comme garant de la conformité. Pour comprendre le cadre réglementaire général, l'article [AI Act 2026 : ce que les PME doivent savoir (et faire) avant août](/blog/ai-act-pme-guide-2026) pose les fondations. Ici, on descend au niveau opérationnel.
 
@@ -5876,7 +5884,7 @@ Cette distinction change substantiellement vos obligations :
 - **Déployeur d'un système IA à haut risque** : obligations allégées mais réelles, à savoir vérifier que votre fournisseur respecte ses propres obligations, documenter vos mesures de supervision humaine et former vos équipes.
 - **Utilisateur d'un système IA à risque limité ou nul** : pas d'obligation formelle au titre de l'AI Act, mais les bonnes pratiques de gouvernance IA (registre, politique d'usage) restent pertinentes pour maîtriser le Shadow AI.
 
-### Qu'impose l'article 4 de l'AI Act, déjà applicable depuis août 2025 ?
+### Que demande l'article 4 de l'AI Act, applicable depuis février 2025 ?
 
 *L'article 4 de l'AI Act est une obligation de littératie IA : les fournisseurs et déployeurs doivent prendre des mesures pour soutenir le développement des compétences de leur personnel à utiliser, superviser ou rejeter les sorties des systèmes IA qu'ils manipulent. Elle est en vigueur depuis le 2 février 2025, et sa rédaction a été allégée le 27 juillet 2026 par le règlement (UE) 2026/1744.*
 
@@ -5899,7 +5907,7 @@ L'article 17 § 2 est la disposition de proportionnalité clé pour les PME : il
 
 ## Le registre IA : votre inventaire de bonne foi
 
-Si vous deviez n'implémenter qu'un seul outil de gouvernance IA entreprise avant août 2026, ce serait le registre IA PME.
+Si vous ne deviez implémenter qu'un seul outil de gouvernance IA entreprise, ce serait le registre IA PME.
 
 ### Qu'est-ce qu'un registre IA et en quoi diffère-t-il du registre RGPD ?
 
@@ -6008,9 +6016,9 @@ Les responsabilités concrètes à inscrire dans cette lettre de mission :
 > La question n'est pas "mon DPO peut-il s'occuper de l'AI Act ?" mais "ai-je clairement défini ce que j'attends de lui sur ce sujet ?"
 
 
-## Plan d'action en 3 mois : ce que vous devez faire avant août 2026
+## Plan d'action en 3 mois pour poser votre gouvernance IA
 
-L'échéance du 2 août 2026 paraît lointaine jusqu'à ce qu'on intègre les délais réels : mobilisation interne, contractualisation fournisseurs, formation des équipes. Voici le calendrier opérationnel pour une PME de 50 à 250 salariés qui part de zéro.
+L'échéance des systèmes à haut risque — **2 décembre 2027** pour l'annexe III, 2 août 2028 pour l'annexe I — paraît lointaine jusqu'à ce qu'on intègre les délais réels : mobilisation interne, contractualisation fournisseurs, formation des équipes. Voici le calendrier opérationnel pour une PME de 50 à 250 salariés qui part de zéro.
 
 ### Mois 1 : cartographier avant de gouverner
 
@@ -6071,15 +6079,15 @@ L'AI Act impose une date limite, pas une norme d'excellence. Ce qui est attendu 
       },
       {
         question: "Une politique d'usage IA est-elle une obligation légale pour les PME ?",
-        answer: "Pas directement au titre de l'AI Act si votre PME est uniquement déployeuse d'IA tierce. En revanche, l'article 4 de l'AI Act impose depuis le 2 août 2025 que votre personnel dispose du niveau de compétences IA nécessaire (littératie IA). La politique d'usage interne est le document de preuve le plus accessible pour démontrer cette conformité lors d'un contrôle.",
+        answer: "Pas directement au titre de l'AI Act si votre PME est uniquement déployeuse d'IA tierce. En revanche, l'article 4 de l'AI Act demande depuis le 2 février 2025 de prendre des mesures pour soutenir le développement de la littératie IA de votre personnel — sans imposer de garantir un niveau spécifique pour un individu, depuis sa réécriture par le règlement (UE) 2026/1744. La politique d'usage interne est le document le plus accessiblepour démontrer cette conformité lors d'un contrôle.",
       },
       {
         question: "Le DPO est-il obligatoirement responsable de la gouvernance IA dans une PME ?",
         answer: "Non, l'AI Act ne crée pas de fonction d'AI Officer obligatoire. Mais le DPO, par sa culture du risque, sa connaissance des données et sa position transverse dans l'organisation, est le profil le plus naturel pour piloter la conformité IA en PME. Dans les PME où le DPO est externalisé ou mutualisé, il convient de clarifier son périmètre IA Act dans la lettre de mission.",
       },
       {
-        question: "Que risque une PME qui ne met pas en place de gouvernance IA avant août 2026 ?",
-        answer: "Les sanctions de l'AI Act peuvent atteindre 3% du chiffre d'affaires mondial pour les manquements aux obligations des déployeurs. Mais au-delà des sanctions, l'absence de gouvernance expose la PME à des fuites de données confidentielles via le Shadow AI, à des responsabilités contractuelles vis-à-vis des clients, et à une perte de crédibilité lors des appels d'offres qui intègrent désormais des critères de conformité IA.",
+        question: "Que risque une PME qui ne met pas en place de gouvernance IA ?",
+        answer: "Nous ne citons aucun montant de sanction : le régime du chapitre XII de l'AI Act a été modifié par le règlement (UE) 2026/1744 et son application article par article n'est pas établie de façon fiable à ce jour. Le risque concret est ailleurs, et il est immédiat : l'absence de gouvernance expose la PME à des fuites de données confidentielles via le Shadow AI, à des responsabilités contractuelles vis-à-vis des clients, et à une perte de crédibilité lors des appels d'offres qui intègrent désormais des critères de conformité IA.",
       },
     ],
   },
@@ -6315,7 +6323,7 @@ Smart Impulsion propose un Audit IA Express qui évalue la maturité data de vot
     title: "Financement formation IA PME : OPCO, CPF, France 2030, guide 2026",
     seoTitle: "Financer sa formation IA : OPCO, CPF, France 2030",
     excerpt:
-      "OPCO, CPF, FNE-Formation, France 2030 : combien coûte la formation IA en PME et comment boucler votre dossier avant la deadline AI Act août 2026 ?",
+      "OPCO, CPF, FNE-Formation, France 2030 : combien coûte réellement la formation IA en PME, et comment monter un dossier de financement qui passe.",
     content: `# Financement formation IA en PME : OPCO, CPF, France 2030, le guide 2026
 
 Il y a dix semaines, peu de dirigeants de PME avaient intégré que l'AI Act crée une obligation de formation. Dans dix semaines, le 2 août 2026, cette obligation sera pleinement applicable.
@@ -6428,17 +6436,17 @@ Voici trois profils représentatifs, basés sur les plafonds OPCO et FNE en vigu
 
 > Ces simulations supposent un organisme certifié Qualiopi et un dossier déposé dans les délais. Sans Qualiopi, aucun des montants ci-dessus n'est mobilisable.
 
-## Le calendrier à respecter pour être couvert avant août
+## Le calendrier à respecter — celui de l'OPCO, pas celui du régulateur
 
-La deadline réglementaire est le 2 août 2026. En partant de cette date et en remontant le temps :
+**Il n'y a pas de date butoir réglementaire sur la littératie IA.** L'article 4 s'applique depuis le 2 février 2025 et n'a jamais comporté d'échéance à venir ; sa réécriture par le règlement (UE) 2026/1744 en a fait une obligation de moyens explicite, sans niveau à atteindre. Le seul calendrier contraignant est administratif : celui de votre OPCO.
 
-1. **2 août 2026** : deadline AI Act article 4. Toutes les formations doivent être terminées et documentées.
-2. **15 juillet 2026** : date limite réaliste pour terminer la dernière session de formation (pour laisser une marge administrative).
-3. **15 juin 2026** : date limite pour déposer le dossier OPCO. Les délais de traitement sont de 3 à 4 semaines. Au-delà du 15 juin, le risque de ne pas recevoir l'accord de prise en charge avant la formation est élevé.
-4. **1er juin 2026** : date limite pour sélectionner votre organisme de formation, confirmer les dates, et réunir les pièces administratives.
-5. **Maintenant (22 mai 2026)** : il reste exactement 10 jours avant le 1er juin. C'est le moment de lancer la démarche.
+En partant de la date à laquelle vous voulez que vos équipes soient formées, et en remontant le temps :
 
-Ce calendrier ne laisse pas de marge pour des allers-retours. Un dossier incomplet renvoyé par l'OPCO fait perdre deux semaines. C'est la principale cause des rejets de financement OPCO, dont la fréquence reste élevée selon les retours de terrain.
+1. **J** : dernière session de formation terminée.
+2. **J − 4 semaines** : dépôt du dossier OPCO. Les délais de traitement sont de 3 à 4 semaines, et **le dossier doit être déposé avant le démarrage de la formation** — il n'y a pas de financement rétroactif.
+3. **J − 6 semaines** : sélection de l'organisme, confirmation des dates, réunion des pièces administratives.
+
+Comptez donc environ six semaines entre la décision et la première session. Un dossier incomplet renvoyé par l'OPCO fait perdre deux semaines : c'est la principale cause des rejets de financement, dont la fréquence reste élevée selon les retours de terrain.
 
 ## Les 3 erreurs qui font rejeter un dossier OPCO
 
@@ -6486,9 +6494,9 @@ Oui, à condition que la formation soit dispensée par un organisme certifié Qu
 
 Oui, le cumul est possible et recommandé. L'OPCO couvre les coûts pédagogiques jusqu'au plafond applicable. Le FNE-Formation prend en charge 70 % des coûts restants pour les PME de moins de 50 salariés, 60 % pour celles de moins de 250 salariés. Concrètement, si votre formation coûte 4 000 € et que votre OPCO en couvre 3 000 €, le FNE peut financer 700 € sur les 1 000 € restants.
 
-**Quelle est la deadline pour déposer un dossier OPCO avant le 2 août 2026 ?**
+**Quand faut-il déposer un dossier OPCO ?**
 
-Pour être couvert avant le 2 août 2026, votre formation doit être terminée à cette date. En comptant un délai de traitement OPCO de 3 à 4 semaines et une formation de 2 à 3 jours, la date limite réaliste de dépôt de dossier est le 15 juin 2026. Au-delà, le risque d'un traitement trop lent pour la deadline est réel.
+Il n'y a pas d'échéance réglementaire à respecter : l'article 4 de l'AI Act s'applique depuis le 2 février 2025 et n'impose aucune date future. Le seul délai contraignant est celui de l'OPCO : **le dossier doit être déposé avant le démarrage de la formation** (aucun financement rétroactif), avec 3 à 4 semaines de traitement. Comptez environ six semaines entre la décision et la première session.
 
 **Qu'est-ce que le programme IA Booster France 2030 et qui peut en bénéficier ?**
 
@@ -6522,8 +6530,8 @@ Smart Impulsion propose un Audit IA Express qui cartographie vos usages IA actue
         answer: "Oui, le cumul est possible et recommandé. L'OPCO couvre les coûts pédagogiques jusqu'au plafond applicable. Le FNE-Formation prend en charge 70 % des coûts restants pour les PME de moins de 50 salariés, 60 % pour celles de moins de 250 salariés. Concrètement, si votre formation coûte 4 000 € et que votre OPCO en couvre 3 000 €, le FNE peut financer 700 € sur les 1 000 € restants, soit un reste à charge de 300 €.",
       },
       {
-        question: "Quelle est la deadline pour déposer un dossier OPCO avant le 2 août 2026 ?",
-        answer: "Pour être couvert avant le 2 août 2026 (deadline AI Act article 4), votre formation doit être terminée à cette date. En comptant un délai de traitement OPCO de 3 à 4 semaines et une formation de 2 à 3 jours, la date limite réaliste de dépôt de dossier est le 15 juin 2026. Au-delà, le risque d'un rejet ou d'un délai de traitement trop long devient élevé.",
+        question: "Quand faut-il déposer un dossier OPCO pour une formation IA ?",
+        answer: "Il n'y a pas d'échéance réglementaire à respecter : l'article 4 de l'AI Act s'applique depuis le 2 février 2025 et n'impose aucune date future, sa rédaction ayant même été allégée en obligation de moyens par le règlement (UE) 2026/1744. Le seul délai contraignant est administratif : le dossier OPCO doit être déposé avant le démarrage de la formation (aucun financement rétroactif), avec 3 à 4 semaines de traitement. Comptez environ six semaines entre la décision et la première session.",
       },
       {
         question: "Qu'est-ce que le programme IA Booster France 2030 et qui peut en bénéficier ?",
@@ -6656,7 +6664,7 @@ Les risques à documenter :
 - Qualité des données en entrée (données incomplètes, non structurées, historiques insuffisants)
 - Résistance au changement des équipes utilisatrices
 - Dépendance à un prestataire unique
-- Évolution réglementaire (AI Act, article 4 sur la littératie IA en vigueur depuis août 2025)
+- Évolution réglementaire (AI Act, article 4 sur la littératie IA en vigueur depuis février 2025)
 - Dérive des coûts en cours de projet
 
 Pour chaque risque identifié, documentez une mesure de mitigation et son coût si applicable.
@@ -9666,11 +9674,13 @@ Concrètement, l'obligation AI Act article 4 impose quatre actions :
 3. **Organiser une formation ciblée** sur chaque cas d'usage réel, à raison de 3 à 4 heures par poste, en groupes de 3 à 5 personnes
 4. **Conserver une trace** des formations : date, contenu, participants, formateur
 
-> **À retenir.** L'AI Act article 4 transforme la question "est-ce qu'on forme les équipes ?" en "comment on documente notre conformité avant août 2026 ?". C'est un changement de registre utile pour les dirigeants dont les équipes résistent à la formation.
+> **À retenir.** L'article 4 ne transforme plus la question en enjeu de calendrier : il s'applique depuis février 2025 et n'impose aucun niveau à atteindre. La question utile devient donc "sur quels postes une erreur d'IA nous coûterait le plus cher ?" — un cadrage plus solide que l'argument réglementaire, parce qu'il ne dépend d'aucune échéance.
 
 ### L'argument réglementaire comme levier interne
 
-Un dirigeant qui présente la formation IA comme "une obligation légale avant août 2026" rencontre moins de résistance qu'un dirigeant qui la présente comme "une opportunité". L'argument réglementaire neutralise le débat de principe : il reste à discuter du format, pas du "si".
+Longtemps, l'argument réglementaire a servi à neutraliser le débat de principe : "c'est obligatoire" évitait d'avoir à convaincre. Cet appui s'est affaibli le 27 juillet 2026, quand l'article 4 est devenu une obligation de moyens explicite. Un dirigeant qui s'appuierait encore dessus se ferait contredire par le premier collaborateur qui lit le texte.
+
+Ce qui fonctionne à la place, et qui est plus solide : montrer un cas concret où l'outil s'est trompé sur un dossier de l'entreprise. Le débat porte alors sur le format de la formation, pas sur son principe.
 
 ## Conduite du changement IA : vous êtes le change manager par défaut
 
@@ -9728,7 +9738,7 @@ Smart Impulsion propose un Audit IA Express qui identifie le bon premier cas d'u
       },
       {
         question: "Comment former ses équipes à l'IA en PME sans budget dédié ?",
-        answer: "L'obligation de littératie IA de l'AI Act (article 4, en vigueur dès août 2026) s'impose à tous les déployeurs d'IA, y compris les PME. Des ressources gratuites existent via France Num et l'AI Office. L'essentiel n'est pas une formation générale ChatGPT, mais une formation courte et ciblée sur les cas d'usage réels de l'équipe. Comptez 3 à 4 heures par poste, pas 3 jours.",
+        answer: "L'obligation de littératie IA de l'AI Act (article 4, applicable depuis le 2 février 2025) s'impose à tous les déployeurs d'IA, y compris les PME. Depuis sa réécriture par le règlement (UE) 2026/1744, c'est une obligation de moyens : aucun niveau n'a à être garanti pour un individu. Des ressources gratuites existent via France Num et l'AI Office. L'essentiel n'est pas une formation générale ChatGPT, mais une formation courte et ciblée sur les cas d'usage réels de l'équipe. Comptez 3 à 4 heures par poste, pas 3 jours.",
       },
       {
         question: "Pourquoi les équipes résistent-elles aux projets IA ?",
@@ -9778,7 +9788,7 @@ Smart Impulsion propose un Audit IA Express qui identifie le bon premier cas d'u
         },
         {
           name: "Relier la formation à l'obligation AI Act article 4",
-          text: "Transformez la formation IA en obligation légale, pas en option. L'article 4 de l'AI Act impose la littératie IA dès août 2026. Livrable : plan de formation de 3 à 4 heures par poste sur les cas d'usage réels.",
+          text: "Ancrez la formation IA sur les postes où une erreur coûte cher, plutôt que sur l'argument réglementaire : l'article 4 s'applique depuis février 2025 et n'impose aucun niveau à atteindre. Livrable : plan de formation de 3 à 4 heures par poste sur les cas d'usage réels.",
         },
         {
           name: "Mesurer et communiquer les résultats en interne",
@@ -10151,11 +10161,17 @@ Trois questions concrètes à poser à l'éditeur de votre logiciel de paie :
 
 Conservez les réponses écrites. Si un contrôle CNIL ou une inspection du travail intervient, votre diligence dans cette démarche constitue un élément de preuve.
 
-### Digital Omnibus : ne pariez pas sur le report
+### Digital Omnibus : le report n'est plus hypothétique, il est acté
 
-La Commission européenne a proposé en novembre 2025 un report possible de certaines obligations (Digital Omnibus) vers décembre 2027. Cette proposition n'avait pas encore été adoptée au 21 avril 2026.
+Proposé par la Commission en novembre 2025, le report est **définitivement adopté**. Le **règlement (UE) 2026/1744 du 8 juillet 2026**, publié au JOUE le 24 juillet 2026 et entré en vigueur le **27 juillet 2026**, modifie l'article 113 de l'AI Act.
 
-> **Ne construisez pas votre plan d'action sur un report incertain.** La deadline légalement opposable reste le 2 août 2026 pour les systèmes haut risque de l'Annexe III. Se planifier sur la base d'un report hypothétique revient à prendre un risque juridique délibéré. Et si le report est finalement adopté, votre travail de conformité reste une bonne pratique de gouvernance.
+> **La nouvelle échéance pour les systèmes à haut risque de l'annexe III — dont le tri de CV, la présélection et l'évaluation automatisée — est le 2 décembre 2027.** Ce n'est plus une hypothèse : c'est le droit applicable. Pour les systèmes à haut risque intégrés à des produits (annexe I), l'échéance est le 2 août 2028.
+>
+> *[Règlement (UE) 2026/1744, EUR-Lex](https://eur-lex.europa.eu/eli/reg/2026/1744/oj/eng)*
+
+Ce que cela ne change pas : les obligations de **transparence (article 50)**, la **gouvernance** et la **surveillance du marché** s'appliquent bien depuis le 2 août 2026. Et l'**article 4** (littératie IA) s'applique depuis le 2 février 2025 — sa date n'a jamais bougé, même si sa rédaction a été allégée le 27 juillet 2026.
+
+**Ce que le report vous donne : du temps, pas une dispense.** Seize mois pour préparer sereinement une mise en conformité qui est lourde — analyse de risques, documentation technique, supervision humaine, enregistrement. Les organisations qui attendront décembre 2027 pour s'y mettre découvriront que le délai était juste.
 
 ## Cas 3 : Vos collaborateurs en poste
 
@@ -11641,7 +11657,7 @@ Envoyez un email à chaque fournisseur d'outil IA : "Quelle est votre stratégie
 <p class="font-semibold text-gray-900">Le vote du Parlement européen du 26 mars 2026 change-t-il les échéances ?</p>
 </div>
 <div class="px-5 py-4">
-<p class="text-gray-700">Le Parlement a voté le report de certaines obligations pour les systèmes à haut risque au 2 décembre 2027 (Digital Omnibus on AI). Mais ce texte doit encore être adopté par le Conseil européen. Les obligations de transparence (article 50) et de littératie IA (article 4) ne sont pas concernées par ce report — elles restent applicables au 2 août 2026. Notre recommandation : préparez-vous pour août 2026.</p>
+<p class="text-gray-700">Le report est acté : le règlement (UE) 2026/1744 du 8 juillet 2026 (Digital Omnibus on AI), publié au JOUE le 24 juillet et entré en vigueur le 27 juillet 2026, reporte les obligations « haut risque » de l'annexe III au 2 décembre 2027, et celles de l'annexe I au 2 août 2028. En revanche, la gouvernance, la surveillance du marché et les obligations de transparence (article 50) s'appliquent bien depuis le 2 août 2026. La littératie IA (article 4) s'applique, elle, depuis le 2 février 2025 — sa date n'a pas changé, mais sa rédaction a été allégée en obligation de moyens le 27 juillet 2026.</p>
 </div>
 </div>
 <div class="border border-gray-200 rounded-lg overflow-hidden">
@@ -11696,7 +11712,7 @@ Le premier pas, c'est de savoir où vous en êtes. Vous pouvez <a href="/contact
       },
       {
         question: "Le vote du Parlement européen du 26 mars 2026 change-t-il les échéances ?",
-        answer: "Le Parlement a voté le report de certaines obligations pour les systèmes à haut risque (Annexe III) au 2 décembre 2027, dans le cadre du Digital Omnibus on AI. Mais ce texte doit encore être adopté formellement par le Conseil européen. Les obligations de transparence (article 50) et de littératie IA (article 4) ne sont pas concernées par ce report — elles restent applicables au 2 août 2026. Notre recommandation : préparez-vous pour août 2026.",
+        answer: "Le report est acté. Le règlement (UE) 2026/1744 du 8 juillet 2026 (Digital Omnibus on AI), publié au JOUE le 24 juillet et entré en vigueur le 27 juillet 2026, reporte les obligations relatives aux systèmes à haut risque de l'annexe III au 2 décembre 2027, et celles de l'annexe I au 2 août 2028. La gouvernance, la surveillance du marché et les obligations de transparence de l'article 50 s'appliquent bien depuis le 2 août 2026. La littératie IA (article 4) s'applique depuis le 2 février 2025 : sa date n'a pas changé, mais sa rédaction a été allégée en obligation de moyens le 27 juillet 2026.",
       },
       {
         question: "Mon entreprise utilise ChatGPT ou un autre LLM via API — suis-je concerné ?",
