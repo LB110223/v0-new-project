@@ -4394,7 +4394,7 @@ Les chatbots de service client standard sont classés "risque limité" par le r�
 - Afficher une mention visible dès l'ouverture de la fenêtre de chat : "Vous dialoguez avec un assistant IA. Pour joindre un conseiller, [lien ou numéro]."
 - Permettre à l'utilisateur de basculer vers un interlocuteur humain à tout moment.
 
-La sanction pour non-conformité à l'Article 50 (obligation de transparence, systèmes à risque limité) peut atteindre 7,5 millions d'euros ou 1 % du chiffre d'affaires annuel mondial selon l'Article 101(3) du règlement IA. Pour une PME, le risque réel est davantage réputationnel que financier. La conformité reste non négociable.
+Le règlement prévoit des sanctions financières pour non-conformité à l'article 50 (obligation de transparence, systèmes à risque limité). Nous ne publions pas de montant : le régime de sanctions de l'AI Act a été modifié par le règlement (UE) 2026/1744 et son application article par article n'est pas établie de façon fiable à ce jour. Pour une PME, le risque réel est de toute façon davantage réputationnel que financier — mais la conformité reste non négociable.
 
 ## Mesurer le retour : les KPIs qui comptent vraiment
 
@@ -4732,7 +4732,7 @@ Pour une PME française en 2026, il existe une catégorie de gains réels qui ne
 
 Pour intégrer ces gains sans les inventer, une méthode simple : estimez combien vous coûterait la non-action.
 
-- **Conformité AI Act** : si votre projet IA utilise des outils de classement ou de scoring (candidats, clients, fournisseurs), l'absence de traçabilité des décisions expose votre entreprise. Le coût d'évitement, c'est le risque de sanction CNIL ou de contestation juridique. Pour une PME, ce risque vaut une estimation prudente de 5 000 à 20 000 euros selon votre secteur.
+- **Conformité AI Act** : si votre projet IA utilise des outils de classement ou de scoring (candidats, clients, fournisseurs), l'absence de traçabilité des décisions expose votre entreprise. Le coût d'évitement couvre la remise en conformité, la gestion d'une réclamation et le risque de contestation juridique. **Provision de travail suggérée pour une PME : 5 000 à 20 000 euros selon votre secteur — c'est une hypothèse de modélisation pour votre calcul de ROI, en aucun cas un barème de sanction.** Le régime de sanctions de l'AI Act a été modifié par le règlement (UE) 2026/1744 et nous n'en publions aucun montant.
 
 - **Risque opérationnel réduit** : un projet d'automatisation qui élimine une tâche manuelle répétitive réduit aussi le risque d'erreur humaine coûteuse. Si une erreur de saisie vous coûte en moyenne 1 500 euros à corriger et que votre baseline montre 4 erreurs par mois, la réduction de moitié de ce taux vaut 3 000 euros par mois de coût d'évitement.
 
@@ -7807,7 +7807,7 @@ Notre **Audit IA Express** cartographie en une journée les outils IA en usage d
       },
       {
         question: "Peut-on cumuler une amende RGPD et une amende AI Act ?",
-        answer: "Oui. Les deux règlements sont indépendants et leurs sanctions ne se substituent pas l'une à l'autre. Le RGPD prévoit jusqu'à 20 millions d'euros ou 4 % du chiffre d'affaires mondial. L'AI Act prévoit jusqu'à 35 millions d'euros ou 7 % du CA mondial pour les infractions les plus graves. Une PME utilisant un système de tri de CV automatisé non conforme pourrait théoriquement recevoir deux sanctions distinctes : une au titre du RGPD (traitement des données sans base légale, absence de DPA) et une au titre de l'AI Act (système haut risque non documenté, absence de supervision humaine).",
+        answer: "Oui. Les deux règlements sont indépendants et leurs sanctions ne se substituent pas l'une à l'autre. Le RGPD prévoit jusqu'à 20 millions d'euros ou 4 % du chiffre d'affaires mondial. L'AI Act prévoit également un régime de sanctions, gradué selon la gravité du manquement, dont nous ne publions pas les montants : il a été modifié par le règlement (UE) 2026/1744 et son application article par article n'est pas établie de façon fiable à ce jour. Une PME utilisant un système de tri de CV automatisé non conforme pourrait théoriquement recevoir deux sanctions distinctes : une au titre du RGPD (traitement des données sans base légale, absence de DPA) et une au titre de l'AI Act (système haut risque non documenté, absence de supervision humaine).",
       },
       {
         question: "Qu'est-ce qu'un DPA et faut-il vraiment en signer un avec OpenAI ou Microsoft ?",
@@ -10270,9 +10270,9 @@ Smart Impulsion propose un Audit IA Express qui identifie, en 2 à 3 jours, le c
       "AI Act appliqué aux RH : obligations sur le tri de CV, la paie automatisée, les collaborateurs en poste. Plan d'action pour les PME avant l'échéance 2026.",
     content: `# AI Act et RH : tri de CV, paie et collaborateurs en poste
 
-Quinze millions d'euros. C'est l'amende maximale prévue par l'Article 99 du Règlement (UE) 2024/1689 pour une organisation qui déploie un système IA haut risque sans respecter ses obligations. Trois pour cent du chiffre d'affaires mondial si ce seuil est plus élevé.
+Décembre 2027. C'est la date à laquelle les obligations « haut risque » de l'AI Act s'appliqueront aux outils de tri de CV et de présélection automatisée — reportée depuis août 2026 par le [règlement (UE) 2026/1744](https://eur-lex.europa.eu/eli/reg/2026/1744/oj/eng). Le règlement prévoit un régime de sanctions financières en cas de manquement ; nous n'en publions pas les montants, ce régime ayant été modifié par le même texte sans que son application soit établie article par article à ce jour.
 
-> **À retenir** — La CNIL a placé le recrutement automatisé dans ses contrôles prioritaires 2026, selon son communiqué du 3 avril 2026. Si votre PME utilise un logiciel qui trie ou classe des candidatures, vous êtes dans le viseur.
+> **À retenir** — Seize mois, ce n'est pas beaucoup pour un chantier de cette nature : analyse de risques, documentation technique, supervision humaine, journalisation des décisions. Si votre PME utilise un logiciel qui trie ou classe des candidatures, la préparation commence maintenant.
 
 Selon le Baromètre France Num 2025, 26 % des TPE/PME françaises utilisaient l'IA en 2025, contre 13 % en 2024. Et selon Bpifrance Le Lab (juin 2025, 1 209 dirigeants interrogés), 58 % des dirigeants de PME-ETI considèrent l'IA comme un enjeu de survie à moyen terme. Pourtant, la majorité d'entre eux ne savent pas encore quelles obligations leur incombent en tant que déployeurs, c'est-à-dire les organisations qui utilisent un système IA sans l'avoir fabriqué ni certifié.
 
@@ -10292,7 +10292,7 @@ L'AI Act distingue quatre niveaux de risque. Ce qui intéresse la fonction RH se
 
 La confusion fréquente porte sur le niveau au-dessus : les pratiques interdites (Article 5). L'analyse émotionnelle lors d'entretiens vidéo, par exemple, est interdite depuis le 2 février 2025 au titre de l'Article 5. Un outil qui analyse les micro-expressions d'un candidat pour en déduire sa personnalité ou sa fiabilité n'est pas simplement haut risque. Son utilisation est illégale.
 
-> **Attention au plafond de sanction** — Pour les pratiques interdites (Art. 5), la sanction maximale passe à 35 millions d'euros ou 7 % du chiffre d'affaires mondial (Art. 99 al. 3). Pour les outils haut risque non interdits, on reste sur 15 millions d'euros ou 3 % du CA mondial. La nuance mérite d'être retenue.
+> **Attention à la gradation des sanctions** — Le régime de l'AI Act distingue les pratiques interdites (article 5), sanctionnées le plus lourdement, de la non-conformité d'un système à haut risque, qui relève d'un plafond inférieur. Nous ne publions pas les montants : ce régime a été modifié par le règlement (UE) 2026/1744 et son application article par article n'est pas établie de façon fiable à ce jour. La gradation, elle, mérite d'être retenue.
 
 ### Les outils que vous avez déjà
 
@@ -11580,7 +11580,7 @@ Trois points à retenir :
 
 - **Ce n'est pas un règlement "pour les GAFAM".** Si vous utilisez un chatbot, un outil de scoring, ou un assistant IA en interne, vous êtes concerné.
 - **L'approche est fondée sur le risque.** Plus votre usage de l'IA touche à des domaines sensibles (RH, crédit, sécurité), plus les obligations sont strictes.
-- **Les sanctions sont lourdes.** Jusqu'à 35 millions d'euros ou 7 % du chiffre d'affaires mondial. Même pour les PME — avec des plafonds adaptés, certes, mais pas d'exemption.
+- **Les sanctions sont lourdes.** Le règlement prévoit un régime d'amendes gradué selon la gravité du manquement. Les PME bénéficient d'un mécanisme de proportionnalité, mais d'aucune exemption. (Nous ne publions pas de montant : le régime a été modifié par le règlement (UE) 2026/1744 et n'est pas confirmé article par article à ce jour.)
 
 ## Calendrier : les 3 dates que vous devez retenir
 
@@ -11757,11 +11757,11 @@ En tant que déployeur, vous avez une responsabilité même si vous n'avez pas d
 
 ### Les amendes
 
-L'AI Act prévoit trois niveaux de sanctions :
+L'AI Act prévoit un régime de sanctions financières, gradué selon la gravité du manquement : les pratiques interdites sont sanctionnées plus lourdement que la non-conformité d'un système à haut risque, elle-même plus lourdement qu'une information inexacte ou trompeuse fournie aux autorités.
 
-<div class="overflow-x-auto my-6"><table class="w-full text-sm border-collapse"><thead><tr class="border-b border-border"><th class="text-left py-3 px-4 font-semibold text-foreground">Infraction</th><th class="text-left py-3 px-4 font-semibold text-foreground">Amende maximale</th><th class="text-left py-3 px-4 font-semibold text-foreground">% du CA mondial</th></tr></thead><tbody><tr class="border-b border-border/50"><td class="py-3 px-4 text-muted-foreground">Utilisation d'une pratique interdite</td><td class="py-3 px-4 text-muted-foreground">35 millions d'euros</td><td class="py-3 px-4 text-muted-foreground">7 %</td></tr><tr class="border-b border-border/50"><td class="py-3 px-4 text-muted-foreground">Non-conformité d'un système à haut risque</td><td class="py-3 px-4 text-muted-foreground">15 millions d'euros</td><td class="py-3 px-4 text-muted-foreground">3 %</td></tr><tr class="border-b border-border/50"><td class="py-3 px-4 text-muted-foreground">Information inexacte ou trompeuse</td><td class="py-3 px-4 text-muted-foreground">7,5 millions d'euros</td><td class="py-3 px-4 text-muted-foreground">1,5 %</td></tr></tbody></table></div>
+> **Pourquoi nous ne publions aucun montant.** Le régime de sanctions de l'AI Act (chapitre XII) a été modifié par le [règlement (UE) 2026/1744](https://eur-lex.europa.eu/eli/reg/2026/1744/oj/eng) en même temps que le reste du texte, et son application article par article n'est pas établie de façon fiable à ce jour. Les barèmes qui circulent — y compris ceux que cet article publiait auparavant — proviennent de la rédaction antérieure du règlement. **Un chiffre absent ne coûte rien ; un chiffre faux sur le terrain juridique coûte votre crédibilité.** Si vous avez besoin d'une évaluation ferme de votre exposition, elle relève d'un avocat spécialisé.
 
-**Pour les PME** : le plafond retenu est **le montant le plus bas** entre le montant fixe et le pourcentage du CA. Une PME qui réalise 5 millions d'euros de CA s'expose à une amende maximale de 150 000 euros (3 % du CA) pour une non-conformité high-risk — pas 15 millions. C'est une mesure de proportionnalité. Mais 150 000 euros, pour une PME de 50 salariés, ce n'est pas anodin.
+**Pour les PME**, le règlement prévoit un mécanisme de proportionnalité : le plafond retenu est **le montant le plus bas** entre le montant fixe et le pourcentage du chiffre d'affaires, là où c'est le plus élevé qui s'applique aux grandes entreprises. Cela réduit l'exposition d'une petite structure sans l'annuler.
 
 ### Au-delà des amendes : les coûts cachés
 
@@ -11875,7 +11875,7 @@ Envoyez un email à chaque fournisseur d'outil IA : "Quelle est votre stratégie
 <p class="font-semibold text-gray-900">Que risque une PME non conforme à l'AI Act ?</p>
 </div>
 <div class="px-5 py-4">
-<p class="text-gray-700">Au niveau financier : des amendes jusqu'à 35 millions d'euros ou 7 % du CA pour les infractions les plus graves, adaptées à la baisse pour les PME. Au niveau commercial : l'exclusion des appels d'offres publics et privés. Au niveau réputationnel : un incident lié à une IA non conforme peut devenir un sujet médiatique et juridique majeur.</p>
+<p class="text-gray-700">Au niveau financier : le règlement prévoit un régime d'amendes gradué selon la gravité du manquement, avec un mécanisme de proportionnalité pour les PME. Nous ne publions pas de montant, le régime de sanctions ayant été modifié par le règlement (UE) 2026/1744 sans que son application soit établie article par article à ce jour. Au niveau commercial : l'exclusion des appels d'offres publics et privés. Au niveau réputationnel : un incident lié à une IA non conforme peut devenir un sujet médiatique et juridique majeur.</p>
 </div>
 </div>
 <div class="border border-gray-200 rounded-lg overflow-hidden">
@@ -11934,7 +11934,7 @@ Le premier pas, c'est de savoir où vous en êtes. Vous pouvez <a href="/contact
       },
       {
         question: "Que risque une PME non conforme à l'AI Act ?",
-        answer: "Au niveau financier : des amendes jusqu'à 35 millions d'euros ou 7 % du CA pour les infractions les plus graves (pratiques interdites), adaptées à la baisse pour les PME. Au niveau commercial : l'exclusion des appels d'offres publics et privés qui exigeront la conformité. Au niveau réputationnel : un incident lié à une IA non conforme (discrimination, manipulation) peut devenir un sujet médiatique et juridique majeur.",
+        answer: "Au niveau financier : le règlement prévoit un régime d'amendes gradué selon la gravité du manquement, les pratiques interdites étant les plus lourdement sanctionnées, avec un mécanisme de proportionnalité pour les PME. Nous ne publions aucun montant : le régime de sanctions de l'AI Act a été modifié par le règlement (UE) 2026/1744 et son application article par article n'est pas établie de façon fiable à ce jour. Au niveau commercial : l'exclusion des appels d'offres publics et privés qui exigeront la conformité. Au niveau réputationnel : un incident lié à une IA non conforme (discrimination, manipulation) peut devenir un sujet médiatique et juridique majeur.",
       },
       {
         question: "Le vote du Parlement européen du 26 mars 2026 change-t-il les échéances ?",
