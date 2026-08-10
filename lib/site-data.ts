@@ -73,7 +73,7 @@ export const services: Service[] = [
     title: "Smart Training",
     subtitle: "Formation",
     description:
-      "Programmes de formation personnalisés pour vos équipes sur les technologies d'IA, adaptés à vos besoins spécifiques et orientés vers des résultats concrets.",
+      "Vos équipes utilisent déjà l'IA, sans méthode commune ni mesure. On construit la formation sur vos propres processus et on fixe avec vous le point de mesure avant de démarrer.",
   },
   {
     id: "service-2",

@@ -173,8 +173,8 @@ export default function PresenceLocale({ params }: { params: { ville: string } }
               <div className="bg-white p-6 rounded-lg border border-gray-200 shadow-sm">
                 <h3 className="text-xl font-bold mb-2">Smart Training</h3>
                 <p>
-                  Formation personnalisée pour vos équipes à {villeInfo.nom} sur les technologies d&apos;IA, adaptée à vos
-                  besoins spécifiques.
+                  Vos équipes à {villeInfo.nom} utilisent déjà l&apos;IA. On construit la formation sur vos propres
+                  processus et on fixe le point de mesure avant de démarrer. Organisme certifié Qualiopi.
                 </p>
               </div>
 

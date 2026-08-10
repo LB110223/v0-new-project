@@ -211,7 +211,7 @@ export default function AProposPage() {
                 {[
                   {
                     name: "Smart Training",
-                    desc: "On forme vos equipes a l'IA appliquee a leur metier. Pas un cours theorique. Des ateliers pratiques avec resultats immediats.",
+                    desc: "Vos equipes utilisent deja l'IA, sans methode commune. On construit les ateliers sur vos propres processus et on fixe avec vous ce qu'on mesurera a la fin. Organisme certifie Qualiopi : le dossier est financable par votre OPCO.",
                     prix: "3 000 a 8 000 euros",
                   },
                   {

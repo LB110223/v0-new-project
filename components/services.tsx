@@ -34,10 +34,9 @@ export function Services() {
           <div className="max-w-3xl mx-auto text-center mb-16">
             <h2 className="text-3xl font-bold mb-4 text-black">Nos Services</h2>
             <p className="text-lg text-gray-600">
-              Nous accompagnons les entreprises dans leur transformation par l'intelligence artificielle avec une
-              approche orientée résultats et un retour sur investissement mesurable à chaque étape. De la formation à
-              l'audit jusqu'à la mise en œuvre opérationnelle, nos services allient expertise technologique et impact
-              business concret.
+              Trois façons d'entrer, un seul critère de sortie : ce que ça vous rapporte. On part de vos processus et
+              non d'un catalogue, et le point de mesure est choisi avec vous avant de démarrer. De la formation de vos
+              équipes à l'audit, jusqu'à la mise en œuvre opérationnelle.
             </p>
           </div>
         </AnimateOnScroll>

@@ -213,7 +213,7 @@ export function LyonEnriched() {
               {[
                 {
                   name: "Smart Training",
-                  desc: "On forme vos équipes à utiliser l'IA concrètement, sur VOTRE métier. Les sessions se font en présentiel à Lyon ou dans vos locaux.",
+                  desc: "Vos équipes utilisent déjà l'IA. On construit les ateliers sur vos propres processus, en présentiel à Lyon ou dans vos locaux. Organisme certifié Qualiopi, finançable par votre OPCO.",
                   prix: "3 000 à 8 000 euros",
                   duree: "1 à 2 semaines",
                 },

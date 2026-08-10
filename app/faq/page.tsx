@@ -5,16 +5,16 @@ import { Button } from "@/components/ui/button"
 import { FaqAccordion } from "./faq-accordion"
 
 export const metadata: Metadata = {
-  title: "FAQ IA en entreprise : 20 questions essentielles | Smart Impulsion",
+  title: "FAQ IA en entreprise : 25 questions essentielles | Smart Impulsion",
   description:
-    "Réponses aux 20 questions fréquentes sur l'IA en PME et ETI : ROI, coûts, mise en œuvre, résultats. Guide complet Smart Impulsion.",
+    "Réponses aux 25 questions fréquentes sur l'IA en PME et ETI : ROI, coûts, mise en œuvre, résultats. Guide complet Smart Impulsion.",
   alternates: {
     canonical: "https://www.smart-impulsion.com/faq",
   },
   openGraph: {
-    title: "FAQ IA en entreprise : 20 questions essentielles | Smart Impulsion",
+    title: "FAQ IA en entreprise : 25 questions essentielles | Smart Impulsion",
     description:
-      "Réponses aux 20 questions fréquentes sur l'IA en PME et ETI : ROI, coûts, mise en œuvre, résultats mesurables.",
+      "Réponses aux 25 questions fréquentes sur l'IA en PME et ETI : ROI, coûts, mise en œuvre, résultats mesurables.",
     type: "website",
     locale: "fr_FR",
     url: "https://www.smart-impulsion.com/faq",
@@ -142,6 +142,36 @@ const faqClusters = [
       },
     ],
   },
+  {
+    title: "Formation IA : les questions d'un dirigeant",
+    questions: [
+      {
+        question: "L'AI Act ne m'oblige plus a former mes equipes. Pourquoi le faire quand meme ?",
+        answer:
+          "Exact, et c'est nous qui vous le disons. Le reglement (UE) 2026/1744, en vigueur depuis le 27 juillet 2026, a reecrit l'article 4 de l'AI Act : on est passe d'une obligation de resultat a une obligation de moyens, avec une precision explicite indiquant qu'aucun niveau garanti n'est exige pour un individu. La Commission publiera par ailleurs des exemples pratiques gratuits, avec les PME nommement visees. Si un prestataire vous vend encore une formation en agitant l'article 4, il n'a pas lu le texte a jour. La vraie raison de former vos equipes n'a jamais ete la reglementation : elles utilisent deja l'IA, personne ne pilote cet usage, et personne ne sait ce que ca rapporte ou ce que ca coute. Texte officiel : https://eur-lex.europa.eu/eli/reg/2026/1744/oj/eng",
+      },
+      {
+        question: "Mes equipes se debrouillent deja avec ChatGPT. A quoi sert une formation ?",
+        answer:
+          "\"Se debrouiller\" est exactement le mot qu'on emploie pour quelque chose que personne ne pilote. Concretement, cela veut dire quatre choses. Personne ne sait quels usages font gagner du temps et lesquels en font perdre. Ce que votre meilleur utilisateur a trouve reste dans sa tete, donc l'entreprise ne capitalise rien et tout part avec lui le jour ou il part. Personne ne sait quelles informations sortent de l'entreprise ni vers ou. Et vous payez peut-etre plusieurs outils qui font la meme chose, sur des comptes personnels. Vos equipes se debrouillent : c'est justement le probleme qu'on vient resoudre, en transformant des debrouillardises individuelles en methode d'entreprise.",
+      },
+      {
+        question: "Une formation IA, ca se mesure comment ?",
+        answer:
+          "En choisissant le point de mesure avant de demarrer, pas apres. On ne vous repond pas par une promesse de pourcentage. On pose cinq questions sur un processus de votre choix : combien vous en traitez par mois, combien de temps prend une unite, a quel niveau on vise, quel est votre cout horaire charge sur ces profils. Le calcul se fait avec vos chiffres, devant vous, et il vous appartient. Ensuite on ecrit ensemble la chose observable qu'on relevera avant et apres : un delai, un volume, un taux d'erreur, un temps de production. Si elle ne bouge pas, elle ne bouge pas, et vous le verrez parce que c'est vous qui l'aurez choisie.",
+      },
+      {
+        question: "J'ai deja paye une formation IA et il ne s'est rien passe apres.",
+        answer:
+          "Probablement parce qu'elle etait construite sur les outils, pas sur votre travail. Une formation qui montre comment fonctionne un outil se perime au prochain outil, et il sort un outil par trimestre. Une formation construite sur vos processus laisse des facons de faire, sur vos propres dossiers, que les gens reutilisent le lundi suivant. La question a se poser sur la precedente : qu'est-ce qui a change concretement dans une journee de travail de vos equipes ? Si la reponse ne vient pas, vous avez achete une presence en salle, pas une pratique.",
+      },
+      {
+        question: "La formation IA peut-elle etre financee par mon OPCO ?",
+        answer:
+          "Oui. Smart Impulsion est un organisme certifie Qualiopi, et l'article L.6316-1 du code du travail reserve les financements des operateurs de competences (OPCO), de l'Etat, des regions, de la Caisse des depots, de France Travail et de l'Agefiph aux prestataires certifies. Notre facture est donc presentable a votre OPCO, ce qui n'est pas le cas de celle d'un consultant ou d'un cabinet non certifie. En revanche, nous n'annoncons aucun taux de prise en charge : ce que votre OPCO finance et a quelle hauteur depend de votre branche, de votre effectif, du dispositif mobilise et des budgets disponibles. C'est lui qui le dit. Ce que nous garantissons de notre cote, c'est que le dossier est financable. Reference : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000048600506",
+      },
+    ],
+  },
 ]
 
 // Build the full list of all questions for JSON-LD
@@ -179,7 +209,7 @@ export default function FaqPage() {
               <span className="text-orange-400">sur l&apos;IA en entreprise</span>
             </h1>
             <p className="text-xl text-gray-300 mb-8 max-w-2xl">
-              20 reponses concretes aux questions que se posent les dirigeants de PME et ETI
+              25 reponses concretes aux questions que se posent les dirigeants de PME et ETI
               sur l&apos;intelligence artificielle, le ROI, les couts et la mise en oeuvre.
             </p>
           </div>
