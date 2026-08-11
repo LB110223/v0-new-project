@@ -69,6 +69,375 @@ export interface BlogArticle {
 
 export const blogArticles: BlogArticle[] = [
   {
+    slug: "ai-act-haut-risque-annexe-iii-pme",
+    title: "Votre IA est-elle à haut risque ? La grille de lecture de l'annexe III pour une PME",
+    seoTitle: "AI Act haut risque annexe III : grille PME | Smart Impulsion",
+    excerpt:
+      "Les 8 domaines de l'annexe III expliqués pour une PME : qui est concerné, à partir de quand, et ce qu'il faut préparer dès maintenant.",
+    content: `{/* JSON-LD Schema : Article + FAQ */}
+{/*
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": "Votre IA est-elle à haut risque ? La grille de lecture de l'annexe III pour une PME",
+      "description": "Les 8 domaines de l'annexe III expliqués pour une PME : qui est concerné, à partir de quand, et ce qu'il faut préparer dès maintenant.",
+      "datePublished": "2026-08-11",
+      "dateModified": "2026-08-11",
+      "author": {
+        "@type": "Person",
+        "name": "Laurent Bouzon"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Smart Impulsion",
+        "url": "https://smart-impulsion.com"
+      },
+      "url": "https://smart-impulsion.com/blog/ai-act-haut-risque-annexe-iii-pme",
+      "mainEntityOfPage": "https://smart-impulsion.com/blog/ai-act-haut-risque-annexe-iii-pme",
+      "about": {
+        "@type": "Thing",
+        "name": "AI Act annexe III haut risque"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Quels sont les 8 domaines de l'annexe III de l'AI Act ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "L'annexe III de l'AI Act liste 8 domaines qui définissent les systèmes IA à haut risque : 1. Biométrie (identification, catégorisation, reconnaissance des émotions), 2. Infrastructures critiques (énergie, eau, transport), 3. Éducation et formation professionnelle, 4. Emploi et RH (recrutement, filtrage de candidatures, décisions professionnelles), 5. Services essentiels (crédit, assurance, secours), 6. Répression, 7. Migration et contrôles aux frontières, 8. Administration de la justice et processus démocratiques. Pour une PME française, les domaines pertinents sont principalement le 1 (biométrie) et le 4 (emploi et RH)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Qu'est-ce qu'un système IA à haut risque selon l'AI Act ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Un système IA à haut risque est un système qui intervient dans l'un des 8 domaines listés à l'annexe III du règlement : biométrie, infrastructures critiques, éducation, emploi et RH, services essentiels, répression, migration, ou justice. C'est la finalité d'usage qui détermine le statut, pas la technologie."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "À partir de quand s'appliquent les obligations haut risque de l'AI Act ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Les obligations spécifiques aux systèmes à haut risque de l'annexe III s'appliquent le 2 décembre 2027, fixé par le règlement (UE) 2026/1744. Ce n'est pas un report global de l'AI Act : l'article 4 (littératie) est en vigueur depuis février 2025, et l'article 50 (transparence) depuis août 2026."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Mon SIRH est-il concerné par l'AI Act ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Oui, si votre SIRH comporte un module de tri automatique de CV ou de scoring de candidats. L'annexe III classe explicitement dans le haut risque les systèmes destinés au recrutement, à l'analyse et au filtrage des candidatures. Si vous êtes déployeur (vous utilisez un logiciel tiers), vos obligations relèvent de l'article 26, moins lourdes que celles du fournisseur, mais réelles."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quelle différence entre fournisseur et déployeur dans l'AI Act ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Le fournisseur est l'éditeur qui met un système IA sur le marché (articles 16-25, obligations lourdes : documentation technique, tests de conformité, marquage CE, registre EU). Le déployeur est l'entreprise qui utilise ce système dans ses opérations (article 26, obligations allégées mais réelles : respect des instructions, journaux de bord, information des personnes concernées). Selon l'enquête INSEE TIC 2024, 69 % des entreprises françaises qui utilisent l'IA s'appuient sur des logiciels tiers : elles sont presque toutes déployeurs."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Que dois-je faire concrètement en 2026 pour les systèmes haut risque ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Trois actions prioritaires : cartographier vos outils IA existants et identifier ceux qui entrent dans un domaine de l'annexe III, interroger vos éditeurs logiciels sur leur statut de conformité, et commencer votre registre des systèmes IA. La date du 2 décembre 2027 donne du temps, pas un blanc-seing."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+*/}
+
+
+## AI Act haut risque annexe III PME : pourquoi cette question se pose maintenant
+
+En 2024, 10 % des entreprises françaises de 10 salariés ou plus déclaraient utiliser une technologie d'intelligence artificielle, selon l'enquête TIC de l'INSEE. Parmi les 50 à 249 salariés, ce taux monte à 15 %. Ce n'est pas anecdotique : c'est environ 80 000 PME qui ont déjà un pied dans le périmètre de l'AI Act.
+
+La question n'est pas "faut-il se conformer ?" mais "mon système IA entre-t-il dans la catégorie AI Act haut risque annexe III ?"
+
+L'AI Act distingue quatre niveaux de risque : interdit, haut risque, risque limité, risque minimal. La plupart des PME se situent dans les deux derniers niveaux. Mais certains usages courants, notamment en RH, en finance ou en sécurité physique, tombent dans la catégorie haut risque, avec des obligations nettement plus contraignantes.
+
+> Un point de calendrier immédiatement : les obligations spécifiques aux systèmes à haut risque de l'annexe III ne s'appliquent pas encore. Le règlement (UE) 2026/1744, entré en vigueur le 27 juillet 2026, a fixé leur date d'application au **2 décembre 2027**. C'est une fenêtre, pas un blanc-seing.
+
+Ce qui est d'ores et déjà en vigueur : l'article 4 sur la littératie IA (depuis février 2025) et l'article 50 sur la transparence (depuis août 2026). Pour tout le reste, vous avez du temps, mais pas pour autant que pour improviser.
+
+L'objectif de cet article : vous donner la grille de lecture complète de l'annexe III, domaine par domaine, pour que vous sachiez précisément où vous vous situez.
+
+
+
+## Ce que dit vraiment l'article 6 : la finalité d'usage détermine tout
+
+La plupart des dirigeants cherchent à savoir si leur outil est "haut risque" en regardant ce qu'il fait techniquement. C'est le mauvais angle.
+
+L'article 6 de l'AI Act pose un principe net : c'est **la finalité d'usage**, et non la technologie sous-jacente, qui détermine le statut réglementaire d'un système IA.
+
+Deux voies mènent à la classification haut risque :
+
+- **Annexe I** : le système est intégré dans un produit physique soumis à une législation européenne sectorielle (dispositif médical, machine industrielle, véhicule, ascenseur, etc.). Ce chemin concerne surtout les fabricants et les intégrateurs industriels.
+- **Annexe III** : le système IA intervient dans un domaine de finalité listé explicitement par le règlement. C'est ce chemin qui concerne le plus souvent les PME utilisatrices de logiciels.
+
+> "Les systèmes d'IA à haut risque au sens de l'article 6, paragraphe 2, sont les systèmes d'IA répertoriés dans l'un des domaines suivants." (AI Act Service Desk Commission EU, annexe III)
+
+Un chatbot de service client reste en risque limité s'il se contente de répondre à des questions. Il bascule vers le haut risque s'il conditionne l'accès à un service essentiel, comme valider ou refuser une demande d'assurance. La technologie ne change pas. La finalité, elle, change tout.
+
+Ce glissement de périmètre est le principal piège pour une PME qui déploie des outils IA achetés sur étagère sans avoir audité leur usage réel dans ses processus.
+
+
+
+## Les 8 domaines de l'annexe III : ce qui concerne une PME
+
+L'annexe III de l'AI Act liste huit domaines qui définissent les systèmes IA à haut risque. Voici ces 8 domaines dans leur ordre réglementaire, avec leur niveau de pertinence pour une PME française :
+
+| # | Domaine | Pertinence PME |
+|---|---------|---------------|
+| 1 | Biométrie | Faible à modérée |
+| 2 | Infrastructures critiques | Quasi nulle |
+| 3 | Éducation et formation | Faible |
+| 4 | Emploi et RH | Élevée |
+| 5 | Services essentiels | Faible à modérée |
+| 6 | Répression | Nulle |
+| 7 | Migration et frontières | Nulle |
+| 8 | Administration de la justice et processus démocratiques | Nulle |
+
+Voyons les domaines dans l'ordre réglementaire, en distinguant ce qui est pertinent pour une PME française type de ce qui ne l'est probablement pas.
+
+### Domaine 1. Biométrie : quand votre badgeuse devient réglementée
+
+Le premier domaine de l'annexe III couvre trois catégories :
+
+- L'identification biométrique à distance (reconnaissance faciale dans un espace public)
+- La catégorisation biométrique (classer des personnes selon des caractéristiques physiques)
+- La reconnaissance des émotions (les considérants du règlement précisent que cette technologie est particulièrement encadrée dans les contextes professionnels et éducatifs)
+
+Pour une PME, le cas le plus fréquent est le contrôle d'accès par empreinte digitale ou reconnaissance faciale. Une badgeuse biométrique classique, qui identifie un collaborateur connu dans un environnement fermé, ne relève pas de l'identification biométrique à distance telle que définie par le règlement, qui vise l'identification en temps réel dans des espaces publics.
+
+En revanche, si votre solution de contrôle d'accès analyse les émotions des employés ou catégorise des personnes selon des traits physiques pour décider de leur accès, vous êtes dans le périmètre haut risque.
+
+> La reconnaissance des émotions figure dans l'annexe III. Si votre outil RH ou de management inclut une fonctionnalité d'analyse émotionnelle, interrogez votre éditeur sur son statut au regard de ce domaine.
+
+**Votre PME est concernée par ce domaine si** elle déploie un système qui identifie des personnes en temps réel dans des espaces accessibles au public, catégorise des personnes selon des caractéristiques physiques pour prendre des décisions, ou analyse les émotions de collaborateurs ou de candidats.
+
+Probabilité pour une PME : **faible à modérée** selon le secteur et les outils déployés.
+
+### Domaine 4. Emploi et RH : le domaine le plus sensible pour les PME
+
+C'est ici que la vigilance s'impose le plus.
+
+L'annexe III classe dans le haut risque, sous le point 4 :
+
+> "Les systèmes d'IA destinés à être utilisés pour le recrutement ou la sélection de personnes physiques, en particulier pour publier des offres d'emploi ciblées, analyser et filtrer les candidatures et évaluer les candidats."
+
+Et également :
+
+> "Les systèmes d'IA destinés à être utilisés pour prendre des décisions influant sur les conditions des relations professionnelles, la promotion ou le licenciement."
+
+Traduit en pratique opérationnelle :
+
+- Un module de votre SIRH qui trie automatiquement les CV et propose un classement de candidats : **haut risque**.
+- Un outil qui génère des recommandations de promotion basées sur des données RH : **haut risque**.
+- Un système qui évalue la performance et nourrit une décision de licenciement : **haut risque**.
+
+Ce qui n'est pas haut risque : un outil de rédaction d'annonces d'emploi générique, un assistant de prise de notes en entretien, un planificateur de congés.
+
+La frontière se situe au moment où le système IA **influence directement une décision sur une personne**. **Votre PME est concernée par l'annexe III domaine 4 si** votre SIRH ou ATS comporte un module de scoring, de classement automatique de candidats ou de recommandations automatisées pour les promotions et licenciements. Si votre logiciel RH comporte une fonctionnalité de scoring ou de recommandation automatisée, considérez qu'elle est probablement dans le périmètre. Notre article sur [l'AI Act et les RH](/blog/ai-act-rh-tri-cv-paie-pme) détaille les implications pour le tri de CV et la paie.
+
+Probabilité pour une PME : **élevée dès lors qu'un SIRH ou ATS est en place avec des fonctionnalités IA**.
+
+### Domaine 5. Services essentiels : la question du DAF
+
+Le point 5 de l'annexe III porte sur les systèmes IA utilisés pour évaluer la solvabilité, octroyer un crédit, fixer une prime d'assurance-vie ou santé, ou orienter les secours d'urgence.
+
+Pour un DAF de PME, la question se pose de façon très concrète :
+
+- Votre banque utilise-t-elle un outil IA pour évaluer vos demandes de financement ? C'est la banque qui est soumise aux obligations, pas vous.
+- Utilisez-vous vous-même un outil IA pour scorer la solvabilité de vos clients ? Dans ce cas, vous êtes déployeur d'un système haut risque.
+- Votre assureur utilise-t-il un système IA pour calculer vos primes ? Idem : l'assureur est le déployeur.
+
+> La distinction est nette : c'est l'entité qui **utilise** le système IA pour prendre la décision qui est soumise aux obligations, pas la personne ou l'entreprise qui subit la décision.
+
+Pour la majorité des PME, ce domaine les concerne en tant que **bénéficiaires ou victimes potentielles** d'un système IA d'un tiers, non pas comme déployeurs. L'exception : les PME du secteur financier ou de l'assurance qui utilisent des outils IA de scoring client.
+
+Probabilité pour une PME standard : **faible**. Élevée pour les PME de services financiers.
+
+### Domaines 2, 3, 6, 7, 8 : ce qui ne concerne probablement pas votre PME
+
+Soyons directs sur les cinq autres domaines de l'annexe III :
+
+- **Domaine 2, Infrastructures critiques** : gestion d'énergie, eau, transport, infrastructure numérique critique. Sauf si vous êtes opérateur d'importance vitale désigné, vous n'êtes pas concerné.
+- **Domaine 3, Éducation et formation professionnelle** : accès aux établissements, évaluation des acquis, surveillance d'examens. Concerne les organismes de formation certifiants, pas les PME ordinaires qui forment leurs salariés avec des outils en ligne.
+- **Domaine 6, Répression** : réservé aux autorités de police et de justice. Hors périmètre.
+- **Domaine 7, Migration et contrôles aux frontières** : réservé aux autorités publiques compétentes. Hors périmètre.
+- **Domaine 8, Administration de la justice et processus démocratiques** : systèmes d'aide à la décision judiciaire et systèmes susceptibles d'influencer les résultats électoraux. Hors périmètre PME.
+
+Pour une PME française standard, les domaines à surveiller sont **1 (biométrie), 4 (emploi et RH)** et, dans certains secteurs, **5 (services essentiels)**. Les cinq autres sont quasi systématiquement hors de portée.
+
+
+
+## Fournisseur ou déployeur : une distinction qui change tout
+
+Avant de mesurer l'ampleur de vos obligations, une question s'impose : êtes-vous l'éditeur du système IA, ou l'utilisateur ?
+
+Selon l'enquête INSEE TIC 2024, **69 % des entreprises françaises qui utilisent l'IA s'appuient sur des logiciels commerciaux tiers**. La grande majorité des PME est donc "déployeur", pas "fournisseur".
+
+Ce n'est pas une distinction anodine sur le plan réglementaire. Les obligations divergent très significativement :
+
+**Obligations fournisseur (articles 16 à 25) :**
+
+- Système de gestion de la qualité et documentation technique complète
+- Tests de conformité et marquage CE
+- Inscription au registre EU des IA à haut risque
+- Suivi post-commercialisation
+- Déclaration de conformité UE
+
+**En tant que déployeur (article 26), vous devez :**
+
+- Utiliser le système conformément aux instructions du fournisseur
+- Vous assurer que les données d'entrée sont pertinentes
+- Tenir des journaux de bord générés automatiquement (si possible techniquement)
+- Informer les personnes concernées lorsque c'est requis
+- Informer les autorités en cas d'incident grave
+
+> Un exemple concret : votre SIRH intègre un module IA de tri de CV. Vous n'avez pas développé ce module : c'est l'éditeur. Vous êtes déployeur. Vous n'avez pas à produire la documentation technique du système. En revanche, vous devez vérifier que votre éditeur a rempli ses obligations de fournisseur, utiliser l'outil conformément à sa documentation, et informer vos candidats que leur dossier est traité par un système automatisé.
+
+Ce transfert de charge vers le fournisseur ne vous exonère pas d'une diligence minimale. Si votre éditeur n'est pas conforme, vous exposez votre organisation à un risque opérationnel et réputationnel.
+
+Pour approfondir la question du cadre de gouvernance qui encadre ces responsabilités, notre article sur le [cadre de gouvernance IA en PME](/blog/gouvernance-ia-pme-cadre-operationnel) détaille les quatre semaines de mise en place.
+
+
+
+## La grille de décision en 3 questions
+
+Plutôt que de parcourir les 8 domaines dans l'ordre pour chaque outil, posez-vous trois questions dans l'ordre.
+
+### Question 1 : Votre système IA intervient-il dans l'un des 8 domaines de l'annexe III ?
+
+La réponse dépend de l'usage réel, pas du marketing de l'éditeur. Un "assistant RH intelligent" est haut risque s'il filtre des candidatures. Il ne l'est pas s'il rédige des fiches de poste.
+
+Passez en revue chaque outil IA en vous demandant : est-ce qu'il produit un score, un classement ou une recommandation qui influence une décision sur une personne dans un domaine sensible ?
+
+### Question 2 : Êtes-vous fournisseur ou déployeur ?
+
+La réponse est presque toujours "déployeur" pour une PME. Mais si vous avez développé en interne un système IA à partir de composants ouverts ou si vous l'avez fait développer par un prestataire pour votre propre usage commercial, la question mérite d'être posée à votre conseil juridique.
+
+### Question 3 : Votre système a-t-il été mis sur le marché avant ou après le 27 juillet 2026 ?
+
+Les systèmes déjà sur le marché avant le 27 juillet 2026 bénéficient d'un régime transitoire. Les systèmes mis sur le marché après cette date sont soumis aux obligations complètes dès leur déploiement, même si les sanctions sur le haut risque ne s'appliquent qu'à partir de décembre 2027.
+
+**Synthèse de la grille, par ordre de sévérité croissante :**
+
+1. Domaine hors annexe III + n'importe quel rôle : risque limité ou minimal, obligations légères (articles 50, 4).
+2. Domaine annexe III + vous êtes déployeur + système mis sur le marché avant le 27 juillet 2026 : haut risque, obligations article 26, délai jusqu'à décembre 2027 pour se mettre en conformité complète.
+3. Domaine annexe III + vous êtes déployeur + système mis sur le marché après le 27 juillet 2026 : haut risque, obligations article 26, conformité à construire sans attendre.
+4. Domaine annexe III + vous êtes fournisseur : haut risque, obligations articles 16 à 25, charge documentaire lourde, accompagnement spécialisé indispensable.
+
+Notre [guide complet AI Act pour les PME](/blog/ai-act-pme-guide-2026) couvre l'ensemble du régime réglementaire si vous souhaitez replacer ce cadre dans le contexte général du règlement.
+
+
+
+## Le calendrier réel : ce qui s'applique maintenant, ce qui attend 2027
+
+Trois jalons à retenir :
+
+- **Février 2025** : article 4 en vigueur. Obligation de moyens sur la littératie IA. Tout employeur qui déploie des systèmes IA doit s'assurer que ses collaborateurs disposent d'une formation suffisante pour les utiliser de façon appropriée. C'est opposable en cas de contrôle.
+- **Août 2026** : article 50 en vigueur. Obligation de transparence. Les chatbots et assistants virtuels doivent être identifiés comme tels lorsqu'ils interagissent avec des personnes sans qu'elles le sachent.
+- **2 décembre 2027** : obligations complètes haut risque annexe III. Documentation, registres, conformité fournisseur, obligations déployeur de l'article 26.
+
+> Ne lisez pas ce report comme un signal d'attente. L'AI Act n'est pas repoussé. Une partie de ses obligations est déjà en vigueur. Le report du haut risque annexe III est une fenêtre pour se préparer correctement, pas une autorisation de ne rien faire.
+
+Pour une lecture détaillée de ce calendrier d'application, notre article [ce qui s'applique vraiment au 2 août 2026](/blog/ai-act-2-aout-2026-ce-qui-sapplique-pme) démonte les confusions les plus fréquentes.
+
+
+
+## Trois actions concrètes sans urgence législative immédiate
+
+Le délai est réel. Les actions à mener le sont aussi. Voici trois chantiers qui n'ont pas besoin d'attendre décembre 2027 pour démarrer.
+
+### Action 1 : Cartographier vos outils IA actuels
+
+Dressez la liste de tous les logiciels qui comportent une fonctionnalité IA dans votre organisation. Incluez :
+
+- Les logiciels métier avec des modules IA (SIRH, ERP, CRM, outils de comptabilité)
+- Les outils IA autonomes (assistants de rédaction, outils d'analyse de données)
+- Les accès à des plateformes IA en SaaS utilisés de façon informelle par vos équipes
+
+Pour chaque outil, notez le cas d'usage réel, pas la description marketing. Un outil de "suggestions IA" dans un logiciel de paie mérite une inspection.
+
+### Action 2 : Interroger vos éditeurs logiciels
+
+Envoyez une demande écrite à chaque éditeur dont l'outil figure dans votre cartographie et dont l'usage touche à un des domaines de l'annexe III. Demandez :
+
+- Le système est-il susceptible d'être classé à haut risque selon l'annexe III ?
+- Quelle est la feuille de route de conformité de l'éditeur pour décembre 2027 ?
+- Quelle documentation technique sera disponible pour le déployeur ?
+
+Une réponse évasive ou l'absence de réponse est elle-même une information.
+
+### Action 3 : Préparer votre registre des systèmes IA
+
+L'article 26 impose aux déployeurs de haut risque de tenir des journaux de bord. Commencer un registre maintenant, même informel, vous place dans une position bien plus confortable dans 16 mois. Ce registre liste chaque système, son usage, le rôle de votre organisation (déployeur), le fournisseur, et les données traitées.
+
+> Si ces trois actions vous semblent chronophages à mener en parallèle de l'activité, c'est précisément l'utilité d'un cadre structuré. Notre [Audit IA Express](/services/audit) permet de réaliser cette cartographie complète en 3 jours ouvrés : identification des systèmes, qualification annexe III, et premières recommandations de conformité documentées.
+
+
+
+## Ce qu'on retient
+
+L'annexe III ne concerne pas toutes les PME de la même façon. Pour la grande majorité des entreprises de 10 à 250 salariés, les domaines pertinents se réduisent à la biométrie et aux RH. Et dans ces deux domaines, le statut de déployeur allège considérablement la charge réglementaire par rapport au fournisseur.
+
+Le report au 2 décembre 2027, fixé par le règlement (UE) 2026/1744, est une réalité juridique, pas une invitation à l'inaction. Les entreprises qui cartographieront leurs outils et interrogeront leurs éditeurs dans les prochains mois seront dans une position très différente de celles qui découvriront leur exposition en 2027.
+
+La question n'est pas "suis-je concerné ?" mais "où exactement suis-je concerné, et par quoi ?"
+
+
+
+*Sources : INSEE, enquête TIC 2024 (https://www.insee.fr/fr/statistiques/8616837) ; AI Act Service Desk Commission européenne, annexe III (https://ai-act-service-desk.ec.europa.eu/fr/ai-act/annex-3) ; Règlement (UE) 2026/1744 relatif au report de l'application du chapitre III sections 1, 2 et 3 (https://eur-lex.europa.eu/eli/reg/2026/1744/oj/eng).*`,
+    author: "Laurent Bouzon",
+    date: "11 aout 2026",
+    dateISO: "2026-08-11",
+    readTime: "10 min",
+    category: "Compliance & AI Act",
+    image: "/ai-act-haut-risque-annexe-iii-pme-hero.png",
+    imageAlt: "Image d'illustration pour l'article \"Votre IA est-elle à haut risque ? La grille de lecture de l'annexe III pour une PME\"",
+    faq: [
+      {
+        question: "Quels sont les 8 domaines de l'annexe III de l'AI Act ?",
+        answer: "L'annexe III de l'AI Act liste 8 domaines : 1. Biométrie, 2. Infrastructures critiques, 3. Éducation et formation professionnelle, 4. Emploi et RH (recrutement, filtrage de candidatures, décisions professionnelles), 5. Services essentiels (crédit, assurance, secours), 6. Répression, 7. Migration et contrôles aux frontières, 8. Administration de la justice et processus démocratiques. Pour une PME française, les domaines pertinents sont principalement le 1 (biométrie) et le 4 (emploi et RH).",
+      },
+      {
+        question: "Qu'est-ce qu'un système IA à haut risque selon l'AI Act ?",
+        answer: "Un système IA à haut risque est un système qui intervient dans l'un des 8 domaines listés à l'annexe III du règlement : biométrie, infrastructures critiques, éducation, emploi et RH, services essentiels, répression, migration, ou justice. C'est la finalité d'usage qui détermine le statut, pas la technologie.",
+      },
+      {
+        question: "À partir de quand s'appliquent les obligations haut risque de l'AI Act ?",
+        answer: "Les obligations spécifiques aux systèmes à haut risque de l'annexe III s'appliquent le 2 décembre 2027, fixé par le règlement (UE) 2026/1744. Ce n'est pas un report global de l'AI Act : l'article 4 (littératie) est en vigueur depuis février 2025, et l'article 50 (transparence) depuis août 2026.",
+      },
+      {
+        question: "Mon SIRH est-il concerné par l'AI Act ?",
+        answer: "Oui, si votre SIRH comporte un module de tri automatique de CV ou de scoring de candidats. L'annexe III classe explicitement dans le haut risque les systèmes destinés au recrutement, à l'analyse et au filtrage des candidatures. Si vous êtes déployeur (vous utilisez un logiciel tiers), vos obligations relèvent de l'article 26, moins lourdes que celles du fournisseur, mais réelles.",
+      },
+      {
+        question: "Quelle différence entre fournisseur et déployeur dans l'AI Act ?",
+        answer: "Le fournisseur est l'éditeur qui met un système IA sur le marché (articles 16-25, obligations lourdes). Le déployeur est l'entreprise qui utilise ce système dans ses opérations (article 26, obligations allégées mais réelles). Selon l'enquête INSEE TIC 2024, 69 % des entreprises françaises qui utilisent l'IA s'appuient sur des logiciels tiers : elles sont presque toutes déployeurs.",
+      },
+      {
+        question: "Que dois-je faire concrètement en 2026 pour les systèmes haut risque ?",
+        answer: "Trois actions prioritaires : cartographier vos outils IA existants et identifier ceux qui entrent dans un domaine de l'annexe III, interroger vos éditeurs logiciels sur leur statut de conformité, et commencer votre registre des systèmes IA. La date du 2 décembre 2027 donne du temps, pas un blanc-seing.",
+      },
+    ],
+  },
+  {
     slug: "ia-emploi-pme-transformation-postes",
     title: "IA et emploi en PME : ce qui change vraiment pour vos postes",
     seoTitle: "IA et emploi en PME : ce qui change pour vos postes",
