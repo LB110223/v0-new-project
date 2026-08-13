@@ -69,6 +69,246 @@ export interface BlogArticle {
 
 export const blogArticles: BlogArticle[] = [
   {
+    slug: "ia-logistique-supply-chain-pme",
+    title: "IA en logistique : les cas d'usage accessibles à une PME",
+    seoTitle: "IA en logistique : cas d'usage concrets pour une PME",
+    excerpt:
+      "Prévision de demande, optimisation de tournées, gestion des stocks : les cas d'usage IA réalistes pour une PME logistique et leurs prérequis.",
+    content: `**L'IA logistique désigne l'ensemble des technologies d'intelligence artificielle appliquées à la gestion des flux de marchandises, des stocks et des livraisons en entreprise.** Pour une PME, cela recouvre concrètement trois domaines : l'optimisation de tournées, la prévision de demande pour les stocks, et le traitement automatisé de documents logistiques.
+
+La logistique est l'un des secteurs où l'IA suscite le plus d'attentes : tournées optimisées, stocks ajustés en temps réel, documents traités automatiquement. Sur le papier, le potentiel est réel. Dans les faits, le secteur transport et entreposage est l'un des moins avancés de France.
+
+Selon l'INSEE (enquête TIC 2025, n°2120, juillet 2026), seulement **9 % des entreprises de transport et d'entreposage utilisent l'IA** en France, contre 18 % en moyenne nationale toutes tailles confondues, soit deux fois plus (source : [INSEE, INSEE Première n°2120](https://www.insee.fr/fr/statistiques/9025878)). L'écart est frappant pour un secteur qui, en apparence, devrait être en première ligne.
+
+Comment l'expliquer ? Quels cas d'usage IA sont réellement accessibles à une PME logistique, sans DSI, sans ERP hors-norme, sans budget pilote de grand groupe ?
+
+C'est l'objet de cet article.
+
+
+## Ce que disent les données : pourquoi la logistique accuse un retard
+
+La logistique PME française accuse un retard structurel sur l'IA, documenté par les données publiques disponibles. Comprendre ce retard est la première étape pour identifier où agir en priorité.
+
+### Un retard documenté, pas une surprise
+
+Le chiffre INSEE mérite d'être mis en perspective. La moyenne des 18 % cache des écarts considérables selon la taille : 15 % pour les entreprises de 10 à 49 salariés, 31 % pour les 50-249 salariés, 58 % pour les 250 salariés et plus (source : [INSEE, enquête TIC 2025](https://www.insee.fr/fr/statistiques/9025878)). La logistique PME se retrouve donc doublement pénalisée : par la taille et par le secteur.
+
+Au niveau européen, 20 % des entreprises de l'UE déclaraient utiliser l'IA en 2025 selon [Eurostat](https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Use_of_artificial_intelligence_in_enterprises), contre 13,5 % en 2024. La dynamique est réelle, mais elle profite d'abord aux grandes structures.
+
+> "L'usage de l'IA est beaucoup moins répandu parmi les entreprises des transports et de l'entreposage (9 %)" (INSEE, enquête TIC 2025)
+
+### La confusion entre supply chain PME et supply chain grand compte
+
+Une partie du retard s'explique par un problème de représentation. Quand on parle d'IA logistique dans la presse spécialisée, les exemples cités sont presque toujours ceux de Geodis, de DHL ou d'Amazon. Ces cas mobilisent des infrastructures de données, des équipes data et des investissements hors de portée d'une PME avec 12 camions et un entrepôt de 4 000 m².
+
+La question pertinente n'est pas "que fait l'IA dans la logistique ?", mais "que peut faire l'IA dans *votre* logistique, avec ce que vous avez aujourd'hui ?".
+
+### Le paradoxe de l'urgence sans action
+
+L'étude [Bpifrance Le Lab](https://presse.bpifrance.fr/lia-dans-les-pme-et-eti-francaises-une-revolution-tranquille) de juin 2025, réalisée auprès de plus de 1 200 dirigeants de PME et ETI françaises, révèle que **58 % voient l'IA comme un enjeu de survie à 3-5 ans**. Pourtant, seule une minorité a lancé un projet concret. Le fossé entre la conviction et le premier chantier opérationnel reste le principal obstacle à adresser.
+
+
+## Le prérequis qu'on n'évoque jamais : la qualité de vos données
+
+Avant tout cas d'usage IA en logistique, la question décisive n'est pas "quel outil choisir ?" mais "vos données sont-elles exploitables ?". C'est ce prérequis que la plupart des éditeurs de logiciels passent sous silence.
+
+Selon [Bpifrance Le Lab (2025)](https://presse.bpifrance.fr/lia-dans-les-pme-et-eti-francaises-une-revolution-tranquille), **43 % des PME-ETI françaises n'analysent pas leurs données pour piloter leur activité**. Avoir des données et avoir des données exploitables, ce n'est pas la même chose.
+
+### Le test de maturité en 3 questions
+
+Avant tout achat ou tout projet IA en logistique, posez-vous ces trois questions :
+
+1. Vos données de livraisons, de stocks ou de commandes sont-elles stockées dans un système centralisé, ou dispersées entre tableurs, mails et logiciels non connectés ?
+2. Avez-vous un historique d'au moins 18 mois de données propres, sans ruptures de série, sans saisies en doublon, sans champs vides sur les variables clés ?
+3. Quelqu'un dans votre équipe peut-il extraire ces données en moins d'une heure et en vérifier la cohérence sans appeler l'éditeur ?
+
+Si vous répondez "non" à deux de ces trois questions, l'IA n'est pas votre priorité immédiate. La priorité est de fiabiliser vos données. Ce n'est pas un frein : c'est une étape qui prend en général 3 à 6 mois et qui conditionne la réussite de tout ce qui suit.
+
+> La maturité data n'est pas un préalable bureaucratique. C'est la condition pour que l'IA produise des résultats mesurables plutôt que des tableaux de bord trompeurs.
+
+
+## L'optimisation de tournées : le cas d'usage le plus accessible
+
+L'optimisation de tournées par IA est le cas d'usage logistique le plus accessible à une PME : prérequis légers, gains mesurables en quelques semaines, et des outils SaaS adaptés aux flottes de moins de 20 véhicules.
+
+### Ce que fait concrètement un moteur d'optimisation
+
+Un logiciel de planification de tournées basé sur l'IA fait quelque chose de très concret : il calcule, pour un ensemble de livraisons à effectuer dans une journée, quel enchaînement de stops minimise le kilométrage total tout en respectant les contraintes horaires, les capacités de véhicules et les fenêtres de livraison.
+
+La planification humaine intuitive produit des tournées souvent à 15-25 % au-dessus du kilométrage optimal. Pas parce que les chauffeurs ou les exploitants sont moins compétents, mais parce que le problème combinatoire est trop complexe pour être résolu mentalement dès qu'il dépasse une dizaine de stops.
+
+### Gains observés documentés dans le secteur
+
+Les réductions kilométriques documentées dans le secteur se situent entre **10 et 20 %** pour des flottes de livraison urbaine et péri-urbaine. Ces gains varient selon la densité des tournées, la variabilité des commandes et le point de départ, souvent un dépôt unique pour une PME.
+
+Ce qui change concrètement pour votre entreprise :
+- Réduction du carburant consommé
+- Moins d'heures supplémentaires sur les tournées longues
+- Meilleure prédictibilité des heures de livraison, donc moins de réclamations clients
+- Réduction de l'usure des véhicules sur les trajets inutiles
+
+### Prérequis légers, ROI mesurable rapidement
+
+C'est l'un des rares cas d'usage logistiques où les prérequis sont réellement accessibles à une PME :
+
+- Une flotte en propre (ou accès aux données GPS des prestataires)
+- Un historique de livraisons numérique, même basique
+- Les données d'adresses de livraison en format exploitable
+
+Les outils d'optimisation de tournées en mode SaaS (souscription cloud) se sont largement démocratisés. Certains sont accessibles à partir de quelques centaines d'euros par mois pour une PME avec moins de 20 véhicules. Le ROI peut être mesuré dès les premières semaines : kilométrage avant / après, relevé quotidien.
+
+> L'optimisation de tournées présente un avantage rare : les gains sont mesurables dès les premières semaines, sur un indicateur simple que tout exploitant connaît déjà, le kilométrage quotidien moyen par véhicule.
+
+C'est pourquoi l'optimisation de tournées est souvent recommandée comme **premier chantier IA** pour une PME logistique : le périmètre est délimitable, les données requises sont simples, et les gains apparaissent dans un délai de 3 à 6 mois.
+
+Pour une PME qui hésiterait sur comment séquencer ses priorités IA, l'article [Prioriser ses projets IA en PME : la grille en 4 critères](/blog/prioriser-projets-ia-pme) propose une méthode structurée applicable ici.
+
+
+## Gestion des stocks et prévision de demande : l'enjeu ROI pour le DAF
+
+La prévision de demande par IA est le cas d'usage logistique avec le potentiel de ROI le plus fort pour un DAF, à condition de disposer des données requises. Elle permet de réduire le capital immobilisé en stock et d'éliminer les ruptures coûteuses.
+
+### La limite de la méthode traditionnelle
+
+La gestion de stocks classique repose sur des règles fixes : seuil de réapprovisionnement, stock de sécurité calculé sur la moyenne des 3 derniers mois, commande fournisseur déclenchée manuellement. Cette approche est lisible et simple à gérer, mais elle ne tient pas compte des variations saisonnières fines, des cycles promotionnels, ni des signaux d'alerte sur les délais fournisseurs.
+
+Le résultat : des ruptures sur les références à forte rotation en période de pic, et du stock dormant sur des références surestimées le reste de l'année. Ce stock dormant représente souvent entre 20 et 35 % du stock total d'une PME industrielle ou distributrice.
+
+### Ce qu'apporte l'approche prédictive
+
+Un moteur de prévision de demande analyse les historiques de commandes, les saisonnalités, les événements calendaires et, si disponibles, des signaux externes (météo, données sectorielles) pour estimer les besoins futurs référence par référence. L'objectif n'est pas la perfection : c'est de réduire l'écart entre le stock détenu et le stock nécessaire.
+
+Les gains observés documentés dans le secteur : **10 à 25 % de réduction du surstockage** pour les déploiements sur des PME avec un catalogue de 200 références et plus (données sectorielles consolidées, coherentes avec les benchmarks publiés par France Num et Bpifrance Le Lab).
+
+Pour un DAF, la traduction est directe : moins de capital immobilisé, moins de dépréciation sur les invendus, meilleure rotation.
+
+> Un point d'attention : ces gains sont conditionnels. Ils supposent un ERP fonctionnel, un historique de données propres d'au moins 18 mois, et une discipline de saisie que bien des PME n'ont pas encore atteinte.
+
+### Prérequis et niveau de difficulté
+
+Ce cas d'usage est d'une difficulté moyenne. Il ne convient pas à une PME en phase de digitalisation de base. Les conditions requises :
+
+- Un ERP ou WMS opérationnel avec historique de commandes exploitable
+- Au moins 18 mois de données de ventes ou de sorties de stock sans ruptures de série
+- Une équipe capable d'intégrer les prévisions dans le processus d'achat (sinon, l'outil n'est pas utilisé)
+
+Si votre ERP est récent ou si vos données ont été migrées récemment avec des pertes de qualité, commencez par nettoyer les données avant d'envisager ce chantier.
+
+L'article [Cas d'usage IA en PME : panorama par métier 2026](/blog/cas-usage-ia-pme-par-metier) couvre d'autres fonctions où ce type de prévision prédictive s'applique, notamment les achats et la finance.
+
+
+## Traçabilité et traitement de documents : des gains rapides sous-estimés
+
+Le traitement automatisé de documents logistiques est souvent le premier chantier IA recommandé pour une PME : il ne nécessite pas d'ERP complet, les gains sont visibles à la semaine, et les prérequis sont parmi les plus bas de tous les cas d'usage logistiques.
+
+### Deux sous-cas distincts
+
+Le terme "traçabilité" recouvre deux réalités très différentes en logistique PME :
+
+**Premier sous-cas : la détection d'anomalies dans les flux.** Un moteur IA surveille les données de mouvement des marchandises (entrées/sorties entrepôt, délais de transit, écarts entre prévu et réalisé) et signale les anomalies avant qu'elles deviennent des litiges. Ce cas d'usage nécessite un WMS opérationnel et une donnée de flux numérisée en temps réel.
+
+**Second sous-cas : le traitement automatisé de documents logistiques.** Lettres de voiture (CMR), bons de livraison (BL), factures transporteurs, fiches de réception : une PME logistique peut traiter plusieurs centaines, voire milliers de documents par mois. L'IA de traitement documentaire (OCR intelligent + extraction de données) automatise la saisie, le contrôle et l'archivage.
+
+### Les gains documentés sur le traitement documentaire
+
+C'est sur ce second sous-cas que les gains sont les mieux documentés pour les PME. Les réductions de coûts administratifs liés au traitement documentaire observées dans le secteur se situent entre **40 et 60 %** pour les organisations traitant plus de 500 documents par mois.
+
+Ces gains proviennent de trois sources :
+- Réduction du temps de saisie manuelle
+- Élimination des erreurs de retranscription et des litiges associés
+- Accélération du cycle de facturation (le document est traité le jour même, pas deux jours après)
+
+### Pourquoi c'est souvent le premier chantier recommandé
+
+Les prérequis sont particulièrement bas pour ce cas d'usage :
+
+- Documents en format numérique (PDF, photo de qualité suffisante) : pas besoin d'un WMS complet
+- Volume minimal : au-delà de 500 documents par mois, le ROI justifie généralement le déploiement
+- Pas d'historique long requis : le système apprend sur les flux courants
+
+Pour une PME qui n'a pas encore de WMS, ou dont le WMS est incomplet, c'est souvent le point d'entrée le plus raisonnable. Le périmètre est contenu, les gains sont mesurables à la semaine, et l'impact sur les équipes administratives est immédiat.
+
+L'[automatisation des processus par l'IA](/blog/automatisation-processus-ia-guide-pratique) couvre en détail la méthodologie applicable à ce type de chantier documentaire, applicable au-delà de la seule logistique.
+
+
+## IA en production et logistique : une frontière perméable
+
+Pour une PME industrielle, la frontière entre logistique interne et production est souvent mince. Les flux de composants, le suivi des sorties de ligne, la gestion des rebuts font partie d'une chaîne continue. Les cas d'usage couverts dans l'article [IA en production : 3 cas d'usage pour PME industrielle](/blog/ia-production-industrielle-pme) complètent utilement ce panorama, notamment sur la détection d'anomalies en flux continu et la maintenance préventive.
+
+
+## Comment séquencer : la logique du premier chantier
+
+Pour une PME logistique qui démarre avec l'IA, la question centrale n'est pas "quel outil choisir ?" mais "dans quel ordre agir ?" La réponse dépend de votre maturité data actuelle, pas de l'attrait théorique des cas d'usage.
+
+### Commencer par évaluer votre maturité data
+
+La séquence recommandée n'est pas de choisir d'abord le cas d'usage, puis de vérifier si les données suivent. C'est l'inverse.
+
+Avant tout projet IA logistique, une évaluation de votre maturité data est indispensable. Bpifrance propose le dispositif **Diag Data IA**, qui permet d'obtenir un diagnostic structuré de votre maturité data avec un reste à charge de 7 500 euros pour les PME éligibles. Ce type de diagnostic évite de lancer un projet IA sur des données insuffisantes et de découvrir le problème six mois plus tard.
+
+### Sélectionner un cas d'usage avec un ROI mesurable rapidement
+
+La règle de bon sens pour une PME : votre premier chantier IA doit avoir un ROI mesurable en moins de 12 mois. Ce critère élimine d'emblée les projets trop complexes ou trop dépendants de données que vous n'avez pas encore.
+
+La grille de sélection recommandée :
+
+1. Le périmètre est-il délimitable (une famille de produits, une zone de livraison, un type de document) ?
+2. Avez-vous les données requises aujourd'hui, sans travail préalable de 6 mois ?
+3. Pouvez-vous mesurer l'indicateur de performance avant le déploiement pour établir une baseline ?
+4. L'équipe opérationnelle concernée est-elle partante, ou faut-il d'abord un travail de conduite du changement ?
+
+Si vous répondez "oui" aux quatre questions, le chantier est mûr. Si vous répondez "non" à l'une d'elles, identifiez d'abord ce qui bloque.
+
+### Un accompagnement structuré pour ne pas tâtonner
+
+Nombre de PME logistiques perdent du temps et de l'argent à explorer des outils sans avoir d'abord clarifié leur situation de départ. Un audit structuré de 3 jours permet de cartographier vos données disponibles, d'identifier les deux ou trois cas d'usage réalistes dans votre contexte, et de définir un séquençage avec des jalons de ROI précis.
+
+Si vous souhaitez poser un diagnostic avant de vous engager, l'[Audit IA Express](/services/audit) de Smart Impulsion est conçu pour ce type de situation : entreprises logistiques ou industrielles avec une ambition claire mais sans feuille de route définie.
+
+
+## Ce qu'il faut retenir
+
+**L'IA logistique pour une PME** se résume à trois cas d'usage concrets, accessibles sans infrastructure de grand groupe.
+
+**Chiffres clés à retenir :**
+- **9 %** des entreprises de transport et d'entreposage utilisent l'IA en France (INSEE, enquête TIC 2025), contre 18 % en moyenne nationale
+- **43 %** des PME-ETI françaises n'analysent pas leurs données pour piloter leur activité (Bpifrance Le Lab, 2025)
+- **10 à 20 %** de réduction kilométrique documentée avec un outil d'optimisation de tournées
+- **40 à 60 %** de réduction des coûts administratifs documentée sur le traitement automatisé de documents (pour plus de 500 documents/mois)
+
+**Les trois cas d'usage accessibles à une PME logistique**, par ordre croissant de complexité :
+
+- **Traitement automatisé de documents** (BL, CMR, factures transporteurs) : prérequis bas (documents numérisés, volume 500+/mois), gains mesurables à la semaine sur les coûts administratifs
+- **Optimisation de tournées** : prérequis légers (adresses de livraison, accès données GPS), ROI mesurable en 3 à 6 mois
+- **Prévision de demande et gestion des stocks** : prérequis plus exigeants (ERP opérationnel + 18 mois d'historique propre), gains ROI mesurables pour le DAF
+
+Dans les trois cas, la qualité de vos données conditionne le résultat. C'est par là qu'il faut commencer.
+
+
+*Sources : INSEE, enquête TIC 2025, INSEE Première n°2120, juillet 2026 ([lien](https://www.insee.fr/fr/statistiques/9025878)) ; Bpifrance Le Lab, "L'IA dans les PME et ETI françaises", juin 2025 ([lien](https://presse.bpifrance.fr/lia-dans-les-pme-et-eti-francaises-une-revolution-tranquille)) ; France Num, Baromètre France Num 2025 ([lien](https://www.francenum.gouv.fr/guides-et-conseils/strategie-numerique/comprendre-le-numerique/barometre-france-num-2025-le)) ; Eurostat, "Use of artificial intelligence in enterprises", 2025 ([lien](https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Use_of_artificial_intelligence_in_enterprises))*`,
+    author: "Laurent Bouzon",
+    date: "13 aout 2026",
+    dateISO: "2026-08-13",
+    readTime: "10 min",
+    category: "Cas d'usage",
+    image: "/ia-logistique-supply-chain-pme-hero.png",
+    imageAlt: "Image d'illustration pour l'article \"IA en logistique : les cas d'usage accessibles à une PME\"",
+    faq: [
+      {
+        question: "Quels cas d'usage IA sont accessibles à une PME logistique ?",
+        answer: "Trois cas d'usage sont réellement accessibles à une PME logistique sans infrastructure data complexe : le traitement automatisé de documents logistiques (BL, CMR, factures transporteurs), l'optimisation de tournées de livraison, et la prévision de demande pour la gestion des stocks. Chacun a des prérequis différents, le traitement documentaire étant le plus accessible et la prévision de demande le plus exigeant.",
+      },
+      {
+        question: "Quels sont les prérequis pour déployer l'IA dans ma logistique ?",
+        answer: "Le prérequis fondamental est la qualité de vos données : un historique d'au moins 18 mois de données propres (commandes, livraisons, stocks), centralisées dans un système unique, sans ruptures de série ni doublons. Pour l'optimisation de tournées, les prérequis sont plus légers (données d'adresses et historique GPS suffisent). Pour la prévision de demande, un ERP opérationnel est nécessaire. Le traitement documentaire ne nécessite que des documents numérisés en volume suffisant (500+ par mois).",
+      },
+      {
+        question: "L'optimisation de tournées par IA est-elle rentable pour une PME ?",
+        answer: "Oui, l'optimisation de tournées est l'un des cas d'usage IA les plus rentables pour une PME logistique. Les réductions kilométriques documentées dans le secteur se situent entre 10 et 20 % pour des flottes de livraison urbaine et péri-urbaine. Le ROI est mesurable dès les premières semaines sur un indicateur simple (kilométrage quotidien par véhicule), et les outils SaaS sont accessibles à partir de quelques centaines d'euros par mois pour une flotte de moins de 20 véhicules.",
+      },
+    ],
+  },
+  {
     slug: "delai-rentabilite-projet-ia-pme",
     title: "Au bout de combien de temps un projet IA devient-il rentable ?",
     seoTitle: "Projet IA : au bout de combien de temps est-ce rentable ?",
