@@ -69,6 +69,267 @@ export interface BlogArticle {
 
 export const blogArticles: BlogArticle[] = [
   {
+    slug: "roi-ia-projet-non-atteint-plan-remediation-pme",
+    title: "Votre projet IA ne rapporte pas ce qu'il devait : diagnostic et plan d'action",
+    seoTitle: "ROI IA décevant : le plan de remédiation en 4 étapes",
+    excerpt:
+      "Votre projet IA tourne depuis 90 jours et le ROI n'est pas là ? Diagnostic en 4 questions et plan d'action concret pour les dirigeants de PME.",
+    content: `# Votre projet IA ne rapporte pas ce qu'il devait : diagnostic et plan d'action
+
+J+90. Le tableau de bord n'a pas bougé. La responsable des opérations a posé la question en CODIR la semaine dernière : "On en est où avec notre projet IA ?" Vous n'aviez pas de réponse claire. Pas parce que le projet est mal géré, mais parce que personne n'a défini ce que "ça marche" voulait dire.
+
+Que faire quand le ROI IA n'est pas au rendez-vous ? La question n'est pas rare. Selon Gartner (juillet 2024), au moins 30 % des projets d'IA générative seraient abandonnés après la phase POC d'ici fin 2025, principalement pour quatre raisons : mauvaise qualité des données, contrôles de risques inadéquats, coûts croissants et valeur métier non prouvée.
+
+La bonne nouvelle : un ROI décevant n'est presque jamais un échec définitif. C'est un signal de méthode. Et un signal de méthode, ça se traite.
+
+> **En bref.** Un ROI IA décevant à J+90 n'est pas un échec définitif : c'est un signal de méthode. Les quatre causes sont presque toujours méthodologiques (périmètre flou, mesure absente, adoption insuffisante, business case irréaliste) et non technologiques. Chacune est corrigeable si le diagnostic est posé dans les 30 jours suivant le constat. L'abandon sans diagnostic préalable est la mauvaise décision dans la majorité des cas.
+
+Cet article vous donne un diagnostic en quatre questions et un plan de remédiation adapté à chaque cas, avec un horizon d'action de 30 jours.
+
+## Pourquoi votre projet IA ne rapporte pas encore
+
+### Les 4 causes structurelles d'un ROI qui tarde
+
+Les diagnostics de projets IA en difficulté montrent les mêmes causes récurrentes. Elles ne sont pas technologiques.
+
+- **Périmètre flou.** Le cas d'usage n'a jamais été formulé en termes de problème métier précis. On a déployé un outil, pas résolu un problème.
+- **Mesure absente ou déplacée.** On suit le nombre de connexions à l'outil, pas l'impact sur le temps de traitement ou le taux d'erreur. Les indicateurs mesurent l'usage, pas le résultat.
+- **Adoption insuffisante.** L'outil tourne, mais les équipes ont gardé leurs anciens processus en parallèle. Le changement de workflow n'a pas eu lieu.
+- **Business case irréaliste.** Le ROI attendu reposait sur des hypothèses génériques ou des benchmarks sectoriels qui ne tenaient pas compte du contexte réel de l'entreprise.
+
+Les quatre causes d'un ROI IA manqué sont presque toujours méthodologiques, pas technologiques. Changer d'outil sans traiter ces causes ne résout rien.
+
+McKinsey le confirme dans son rapport de mars 2025 : moins d'une organisation sur cinq suit des KPI pour ses solutions IA. Et la pratique la plus corrélée à une amélioration de l'EBIT n'est pas le choix du modèle, c'est la refonte des workflows.
+
+> "Moins d'1 organisation sur 5 suit des KPI pour ses solutions IA. La refonte des workflows est la pratique la plus corrélée à l'amélioration de l'EBIT."
+> Source : McKinsey, The State of AI, mars 2025
+
+### Le signal d'alerte à ne pas confondre avec un échec définitif
+
+Un ROI décevant à J+90 n'est pas un échec définitif. C'est le moment de déclencher un diagnostic structuré, pas de prendre une décision d'arrêt.
+
+Un projet sans ROI à J+90 n'est pas la même chose qu'un projet à arrêter. La distinction tient à une question simple : avez-vous les éléments pour comprendre pourquoi le ROI n'est pas là ?
+
+Si la réponse est non, vous n'avez pas un problème de projet IA. Vous avez un problème de diagnostic. Et il se résout en deux à trois semaines.
+
+Ce que vous traitez dans cet article, c'est exactement ce cas : le projet tourne, les résultats ne sont pas au rendez-vous, et vous avez besoin d'un cadre pour comprendre pourquoi avant de décider quoi faire.
+
+## Le diagnostic en 4 questions
+
+Pour récupérer un projet IA qui ne délivre pas, posez d'abord ces quatre questions dans l'ordre : périmètre, mesure, adoption, business case. La cause principale est presque toujours dans l'une d'elles.
+
+Avant tout plan d'action, posez ces quatre questions dans l'ordre. Chacune peut suffire à identifier la cause principale.
+
+### Q1 : Le périmètre était-il vraiment défini ?
+
+Demandez à trois personnes impliquées dans le projet de formuler en une phrase le problème que l'IA devait résoudre. Si les réponses divergent, vous avez votre première réponse.
+
+Un périmètre flou ne se voit pas au moment du lancement. Il se révèle à J+90, quand on constate que chacun a mesuré une chose différente. Bpifrance Le Lab relevait en juin 2025 que 23 % des PME et ETI françaises citent la difficulté à identifier les cas d'usage comme frein à l'IA, et que 43 % n'analysent pas leurs données pour piloter leur activité.
+
+> "23 % des PME et ETI françaises citent la difficulté à identifier les cas d'usage comme frein. 43 % n'analysent pas leurs données pour piloter leur activité."
+> Source : Bpifrance Le Lab, juin 2025
+
+Ce chiffre signifie que la majorité des projets qui déçoivent ont été lancés sans que le problème métier ait été véritablement stabilisé. L'outil est choisi avant que la question soit posée.
+
+Pour [prioriser vos projets IA selon des critères métier concrets](/blog/prioriser-projets-ia-pme), la grille en 4 critères publiée sur ce blog vous donne un cadre utilisable immédiatement.
+
+### Q2 : Mesurez-vous le bon indicateur ?
+
+Listez les indicateurs que vous suivez depuis le lancement. Ensuite, demandez-vous : est-ce que ces chiffres mesurent un résultat pour l'entreprise, ou l'utilisation de l'outil ?
+
+"Nombre de requêtes par jour" n'est pas un indicateur de ROI. "Temps moyen de traitement d'une demande client réduit de X minutes" en est un. La différence semble évidente, mais dans la grande majorité des projets bloqués, ce sont des indicateurs d'usage qui ont été mis en place, pas des indicateurs de résultat.
+
+La méthode pour [mesurer le ROI de vos projets IA](/blog/roi-intelligence-artificielle-comment-mesurer) détaille comment construire un tableau de bord orienté résultat en partant de la chaîne de valeur métier.
+
+Si vous ne savez pas quoi mesurer, le périmètre n'est pas encore stabilisé. Revenez à Q1.
+
+### Q3 : L'équipe utilise-t-elle l'outil quotidiennement ?
+
+Un taux d'adoption en dessous de 60 % au bout de 90 jours est un signal fort. Mesurez-le, ou estimez-le par des entretiens courts avec deux ou trois utilisateurs représentatifs.
+
+Les causes d'une adoption insuffisante sont généralement l'une de ces trois :
+
+- L'outil n'a pas été intégré dans le flux de travail existant. Les équipes utilisent encore l'ancienne méthode "en parallèle".
+- La formation initiale a couvert le fonctionnement de l'outil, pas la façon dont il change le processus métier.
+- Les managers de proximité n'ont pas adopté l'outil eux-mêmes, ce qui prive les équipes d'un signal clair sur l'importance du changement.
+
+L'adoption ne se gère pas avec une campagne de communication. Elle se gère en remontant dans le processus et en identifiant le moment précis où l'ancien réflexe reprend la main.
+
+### Q4 : Le business case initial était-il réaliste ?
+
+Retrouvez le document de cadrage initial, ou la présentation faite au CODIR. Quelles étaient les hypothèses de gain ? D'où venaient les chiffres ?
+
+Si le ROI attendu reposait sur :
+
+- Un benchmark sectoriel sans ajustement au contexte de votre PME
+- Un gain de temps théorique non validé avec les équipes terrain
+- Un volume de traitement surestimé par rapport à la réalité opérationnelle
+
+Alors le business case était irréaliste dès le départ. Ce n'est pas une erreur grave, c'est une erreur fréquente. Mais elle implique un recalibrage, pas une correction d'exécution.
+
+> "Un ROI manqué est presque toujours un signal de méthode, pas d'outil. La cause se trouve dans le cadrage initial, pas dans le déploiement technique."
+
+## Le plan de remédiation par cas
+
+Pour récupérer un projet IA qui ne délivre pas, identifiez d'abord la cause parmi les quatre (périmètre, mesure, adoption, business case), puis appliquez le plan adapté à cette cause en 30 jours maximum.
+
+Une fois la cause principale identifiée, voici la marche à suivre. Les délais sont indicatifs mais réalistes pour une PME avec une équipe projet de deux à quatre personnes.
+
+### Cas A : Périmètre flou, recentrer en 30 jours
+
+Si Q1 a révélé des divergences dans la formulation du problème, voici la séquence à appliquer.
+
+1. Organiser un atelier de 2 heures avec les porteurs métier et technique du projet.
+2. Reformuler le problème en une phrase : "L'outil doit permettre à [qui] de [faire quoi] en [combien de temps] avec [quel résultat mesurable]."
+3. Valider cette formulation avec les utilisateurs finaux, pas seulement avec le management.
+4. Réduire le périmètre si nécessaire : un cas d'usage précis vaut mieux qu'un périmètre large non maîtrisé.
+5. Redéfinir les indicateurs de suivi à partir de cette formulation.
+
+La démarche de [priorisation des projets IA](/blog/prioriser-projets-ia-pme) vous aidera à arbitrer si plusieurs cas d'usage sont en compétition.
+
+### Cas B : Mesure absente, installer les bons indicateurs en 2 semaines
+
+Si Q2 a révélé l'absence d'indicateurs de résultat, agissez en deux temps.
+
+**Semaine 1 :**
+- Identifier deux ou trois indicateurs de résultat directement liés au problème métier visé.
+- Les relier à des données déjà collectées dans vos systèmes (ERP, CRM, tableur partagé).
+- Définir la valeur de référence ("baseline") avant projet, même approximative.
+
+**Semaine 2 :**
+- Mettre en place un suivi hebdomadaire simple : un tableau, pas un dashboard complexe.
+- Partager les chiffres avec l'équipe projet et les porteurs métier.
+- Fixer un seuil de revue à J+30 : si l'indicateur ne bouge pas, déclencher la révision du cas d'usage.
+
+La méthode de [mesure du ROI IA](/blog/roi-intelligence-artificielle-comment-mesurer) vous donnera les définitions précises des indicateurs selon votre cas d'usage.
+
+### Cas C : Adoption insuffisante, plan terrain en 3 semaines
+
+Si Q3 a révélé un taux d'utilisation faible, ne lancez pas une campagne de communication. Identifiez d'abord le frein précis.
+
+**Semaine 1 :**
+- Mener cinq entretiens courts (20 minutes) avec des utilisateurs non-adoptants.
+- Identifier le moment précis dans le processus où l'ancienne méthode reprend.
+- Ne pas présupposer la cause : écouter.
+
+**Semaine 2 :**
+- Modifier le processus, pas l'outil. Si l'outil n'est pas dans le flux naturel de travail, il ne sera pas utilisé.
+- Désigner un référent opérationnel (pas un référent technique) par équipe.
+- S'assurer que le manager de proximité utilise l'outil lui-même.
+
+**Semaine 3 :**
+- Mesurer le taux d'adoption à nouveau.
+- Si le taux n'a pas progressé malgré les ajustements process, revenir à Q1 : le périmètre est peut-être le vrai problème.
+
+### Cas D : Business case irréaliste, arbitrer entre pivot et arrêt
+
+C'est le cas le plus difficile à traiter, car il implique de revoir une décision qui a été présentée et validée au CODIR.
+
+Deux options sont envisageables.
+
+**Option 1 : le pivot.** Reformuler le business case avec des hypothèses réalistes, issues des 90 jours de données réelles. Le ROI sera plus modeste que prévu, mais défendable. Cette option est pertinente si la technologie fonctionne et si un cas d'usage ajusté reste utile.
+
+**Option 2 : l'arrêt structuré.** Si les 90 jours de données montrent que le problème métier n'était pas le bon, que l'outil n'apporte pas de valeur dans ce contexte ou que le coût total dépasse tout scénario de gain, l'arrêt est la décision la plus saine. Un arrêt structuré avec un retour d'expérience documenté vaut mieux qu'un projet zombie qui consomme des ressources sans livrer.
+
+> "L'arrêt n'est pas un échec si la décision s'appuie sur des données réelles plutôt que sur l'espoir que ça finisse par marcher."
+
+Dans tous les cas, la décision doit être présentée au CODIR avec les données issues du diagnostic, pas avec une justification défensive. Vous trouverez dans notre article sur le [ROI de l'IA en entreprise](/blog/roi-intelligence-artificielle-entreprise) les éléments pour construire cette présentation.
+
+## Quand faire appel à un regard extérieur
+
+Un diagnostic interne peut suffire si une seule des quatre causes est active. La situation se complique quand plusieurs causes sont simultanément présentes.
+
+Périmètre flou et adoption insuffisante, c'est gérable en interne. Mais si Q1, Q2 et Q3 révèlent chacun un problème, et que Q4 soulève également des doutes sur le business case, le recadrage dépasse ce qu'une équipe projet peut conduire seule. Non pas parce qu'elle manque de compétences, mais parce qu'elle est trop proche du sujet pour poser les bonnes questions sans filtre.
+
+C'est précisément ce à quoi sert un [audit IA](/blog/audit-ia-pme-guide-complet) : poser un regard externe sur le projet en cours, identifier les causes réelles et produire un plan d'action priorisé. Pas un audit de conformité, pas une revue technologique : un diagnostic métier sur un projet en difficulté.
+
+Si vous vous interrogez sur le [délai de rentabilité réaliste d'un projet IA en PME](/blog/delai-rentabilite-projet-ia-pme), cet article du même cluster vous donnera les repères chiffrés pour calibrer vos attentes.
+
+Si votre projet a plus de 90 jours de retard sur ses objectifs, l'[Audit IA Express](/services/audit) est conçu pour ce cas précis. Trois jours de travail, un diagnostic structuré, un plan d'action sur 30 jours.
+
+## Questions fréquentes
+
+### À partir de quel délai peut-on parler d'un projet IA en échec ?
+
+Il n'y a pas de seuil universel, mais 90 jours après le démarrage opérationnel est un horizon raisonnable pour un premier bilan. Si aucun indicateur ne bouge à J+90, ce n'est pas encore un échec définitif, mais c'est le signal pour déclencher un diagnostic structuré. Attendre 6 mois sans agir augmente le risque d'abandon.
+
+### Un ROI IA peut-il être récupéré après un démarrage décevant ?
+
+Dans la majorité des cas, oui. Les causes d'un ROI qui tarde sont presque toujours méthodologiques : périmètre flou, mauvais indicateur, adoption insuffisante ou business case surestimé. Chacune est corrigeable si l'on agit dans les 30 jours suivant le constat. L'abandon sans diagnostic préalable est rarement la bonne décision.
+
+### Quelle est la cause la plus fréquente d'un ROI IA manqué en PME ?
+
+D'après Bpifrance Le Lab (2025), 23 % des PME et ETI françaises peinent à identifier leurs cas d'usage. Le périmètre mal défini est le point de départ le plus courant d'un projet qui déçoit. On déploie un outil avant d'avoir stabilisé le problème qu'il doit résoudre.
+
+### Faut-il changer d'outil si le ROI n'est pas au rendez-vous ?
+
+Rarement. L'outil est rarement la cause première. Avant toute décision technologique, posez les quatre questions de diagnostic. Si trois causes sur quatre pointent vers l'outil lui-même, une évolution technologique se justifie. Dans les autres cas, changer d'outil revient à déplacer le problème sans le résoudre.
+
+### Comment expliquer la situation à la direction générale sans perdre la confiance ?
+
+Présentez le diagnostic avant les conclusions. Un tableau de bord qui ne bouge pas à J+90 n'est pas une preuve d'échec : c'est un signal d'alerte qui appelle un recadrage. Venez avec les quatre questions répondues, la cause probable identifiée et un plan d'action sur 30 jours. La direction générale attend de la lucidité, pas de l'optimisme de façade.
+
+## Passez de la théorie à l'action
+
+Votre projet IA ne rapporte pas encore ce qu'il devait. Vous avez maintenant un cadre pour comprendre pourquoi et un plan d'action par cas.
+
+Ce qui détermine si la situation est récupérable, c'est la rapidité du diagnostic. À J+90, presque tous les cas sont récupérables. À J+180, le projet risque d'entrer dans une zone de fatigue organisationnelle d'où il est difficile de sortir sans un coup de barre décisif.
+
+Si vous avez besoin d'un regard extérieur pour poser ce diagnostic, l'[Audit IA Express de Smart Impulsion](/services/audit) est conçu pour répondre en 3 jours à la question : "Pourquoi ce projet ne rapporte pas, et que faire dans les 30 prochains jours ?"`,
+    author: "Laurent Bouzon",
+    date: "17 aout 2026",
+    dateISO: "2026-08-17",
+    readTime: "13 min",
+    category: "Strategie & ROI",
+    image: "/roi-ia-projet-non-atteint-plan-remediation-pme-hero.png",
+    imageAlt: "Image d'illustration pour l'article \"Votre projet IA ne rapporte pas ce qu'il devait : diagnostic et plan d'action\"",
+    faq: [
+      {
+        question: "À partir de quel délai peut-on parler d'un projet IA en échec ?",
+        answer: "Il n'y a pas de seuil universel, mais 90 jours après le démarrage opérationnel est un horizon raisonnable pour un premier bilan. Si aucun indicateur ne bouge à J+90, ce n'est pas encore un échec définitif, mais c'est le signal pour déclencher un diagnostic structuré. Attendre 6 mois sans agir, en revanche, accroît nettement le risque d'abandon.",
+      },
+      {
+        question: "Un ROI IA peut-il être récupéré après un démarrage décevant ?",
+        answer: "Dans la majorité des cas, oui. Les causes d'un ROI qui tarde sont presque toujours méthodologiques : périmètre flou, mauvais indicateur, adoption insuffisante ou business case surestimé. Chacune de ces causes est corrigeable si l'on agit dans les 30 jours suivant le constat. L'abandon sans diagnostic préalable est rarement la bonne décision.",
+      },
+      {
+        question: "Quelle est la cause la plus fréquente d'un ROI IA manqué en PME ?",
+        answer: "D'après Bpifrance (2025), 23 % des PME et ETI françaises ont du mal à identifier leurs cas d'usage. Le périmètre mal défini est donc le point de départ le plus courant d'un projet qui déçoit. On déploie un outil avant d'avoir stabilisé le problème qu'il doit résoudre, et les équipes ne savent pas quoi optimiser.",
+      },
+      {
+        question: "Faut-il changer d'outil si le ROI n'est pas au rendez-vous ?",
+        answer: "Rarement. L'outil est rarement la cause première. Avant toute décision technologique, posez les quatre questions de diagnostic : périmètre, indicateurs, adoption, business case. Si trois causes sur quatre pointent vers l'outil lui-même, alors une évolution technologique se justifie. Dans les autres cas, changer d'outil revient à déplacer le problème sans le résoudre.",
+      },
+      {
+        question: "Comment expliquer la situation à la direction générale sans perdre la confiance ?",
+        answer: "Présentez le diagnostic avant les conclusions. Un tableau de bord qui ne bouge pas après 90 jours n'est pas une preuve d'échec : c'est un signal d'alerte qui appelle un recadrage. Venez avec les quatre questions répondues, la cause probable identifiée et un plan d'action sur 30 jours. La direction générale attend de la lucidité, pas de l'optimisme de façade.",
+      },
+    ],
+    howTo: {
+      name: "Diagnostic ROI IA en 4 questions",
+      description: "Méthode pour identifier la cause d'un ROI décevant après 90 jours de projet IA et définir le plan de remédiation adapté.",
+      totalTime: "PT720H",
+      steps: [
+        {
+          name: "Q1 — Vérifier la définition du périmètre",
+          text: "Reformuler le problème métier visé en une phrase. Si cette phrase est floue ou si plusieurs membres de l'équipe la formulent différemment, le périmètre est la cause première. Recentrer sur un sous-problème précis avant toute autre action.",
+        },
+        {
+          name: "Q2 — Vérifier les indicateurs de mesure",
+          text: "Lister les KPI suivis depuis le démarrage. S'il n'en existe pas, ou si les indicateurs mesurent l'usage de l'outil plutôt que l'impact métier, la mesure est défaillante. Installer deux ou trois indicateurs de résultat dans les deux semaines suivantes.",
+        },
+        {
+          name: "Q3 — Évaluer l'adoption réelle",
+          text: "Mesurer le taux d'utilisation quotidienne de l'outil par les personnes censées l'utiliser. En dessous de 60 %, l'adoption est insuffisante. Identifier les freins par des entretiens courts avec deux ou trois utilisateurs représentatifs.",
+        },
+        {
+          name: "Q4 — Revisiter le business case initial",
+          text: "Comparer le ROI attendu au moment du lancement avec les hypothèses qui le sous-tendaient. Si le gain prévu reposait sur des hypothèses non validées ou sur des benchmarks génériques, le business case était irréaliste dès le départ.",
+        },
+      ],
+    },
+  },
+  {
     slug: "ia-logistique-supply-chain-pme",
     title: "IA en logistique : les cas d'usage accessibles à une PME",
     seoTitle: "IA en logistique : cas d'usage concrets pour une PME",
