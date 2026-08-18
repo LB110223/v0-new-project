@@ -69,6 +69,258 @@ export interface BlogArticle {
 
 export const blogArticles: BlogArticle[] = [
   {
+    slug: "piloter-prestataire-ia-apres-audit",
+    title: "Piloter votre prestataire IA après audit : 4 jalons",
+    seoTitle: "Piloter son prestataire IA après l'audit : guide PME",
+    excerpt:
+      "Piloter votre prestataire IA après l'audit : jalons de contrôle, signaux d'alerte et gouvernance documentaire. Méthode opérationnelle pour PME.",
+    content: `> **En bref** : Entre la remise d'un rapport d'audit IA et la première livraison opérationnelle, c'est là que la majorité des projets IA échouent, non par incompétence technique, mais par défaut de pilotage. Cet article décrit quatre jalons de contrôle, cinq signaux d'alerte détectables sans expertise technique, et les trois documents minimaux pour maintenir votre position de maîtrise d'ouvrage face à n'importe quel type de prestataire.
+
+Vous avez en main un rapport d'audit IA. Les recommandations sont là, le cas d'usage pilote est identifié, le prestataire est retenu. Tout semble en ordre. Et pourtant, selon une étude Gartner publiée en juin 2025, plus de 40 % des projets d'IA agentique seront abandonnés d'ici fin 2027, non par faute de bons modèles, mais à cause de coûts qui dérapent, d'une valeur business floue et de contrôles inadéquats (source : JDN, 13 août 2026).
+
+Ce chiffre n'est pas anodin. Il pointe précisément la zone la plus risquée et la moins documentée d'un projet IA : l'intervalle entre la remise du rapport et la première livraison opérationnelle. C'est là que les projets meurent, non par incompétence technique, mais par défaut de pilotage.
+
+Un prestataire, même compétent, travaille dans son propre référentiel. Sans jalons de contrôle clairement posés par le client, il avancera selon ses propres critères de succès, pas les vôtres. La question que cet article vous aide à répondre n'est pas "comment fonctionne l'IA que vous allez déployer" : c'est "comment vous, dirigeant non-technique, gardez le contrôle de ce que vous avez commandé et payé".
+
+Ce que vous trouverez ici est distinct de la [feuille de route IA](/blog/feuille-de-route-ia-pme) (qui couvre la construction du plan de déploiement) et du [plan de remédiation](/blog/roi-ia-projet-non-atteint-plan-remediation-pme) (qui intervient quand le pilotage a déjà dérivé). L'article traite uniquement du pilotage actif, entre kick-off et go-live.
+
+## 1. Comprendre ce que vous venez de signer
+
+**Ce que vous devez faire avant tout démarrage opérationnel** : décoder le rapport pour séparer les recommandations prioritaires des options secondaires, identifier le cas d'usage pilote, et obtenir par écrit la définition du succès.
+
+### Décoder le rapport : recommandations prioritaires vs options secondaires
+
+Un bon rapport d'audit IA, tel que décrit dans [ce que contient un rapport sérieux](/blog/livrable-audit-ia-pme-exemple), ne liste pas dix chantiers à lancer en parallèle. Il hiérarchise. La première lecture que vous devez faire avant tout démarrage opérationnel est simple : repérez ce qui est prioritaire (un ou deux cas d'usage à fort ROI, faisables avec les ressources disponibles) et ce qui n'est qu'une option à considérer plus tard.
+
+Ce distinguo a une conséquence directe sur le contrat que vous signez avec votre prestataire. Si votre audit recommande quatre pistes et que vous signez un premier périmètre sur la piste A, veillez à ce que le contrat ne mentionne que la piste A. Un prestataire qui inclut les quatre dans son offre commerciale initiale vous vend de la complexité avant de vous avoir prouvé quoi que ce soit.
+
+### Identifier le cas d'usage pilote
+
+Le cas d'usage pilote n'est pas le plus ambitieux. C'est le plus démontrable : délimité, mesurable, suffisamment représentatif pour valider la méthode de travail avec ce prestataire. Votre rapport d'audit vous a normalement fourni cette priorisation. Si ce n'est pas le cas, retournez vers votre auditeur avant de signer quoi que ce soit avec un prestataire exécutant : c'est [exactement le rôle d'un audit IA sérieux](/blog/audit-ia-pme-guide-complet).
+
+Un pilote mal choisi est un pilote qui finit en proof of concept éternel, consommant du budget sans jamais atteindre la production.
+
+### Exiger la "spécification du succès" avant de démarrer
+
+Avant que la première facture soit émise, vous devez disposer d'un document d'une à deux pages répondant à trois questions précises :
+
+1. **Quelle est la situation de départ mesurée ?** Pas une estimation, pas un ordre de grandeur : un chiffre. Si le projet IA vise à réduire le temps de traitement d'une tâche administrative, ce temps doit être mesuré aujourd'hui, sur un volume représentatif, avant tout démarrage. C'est la baseline.
+2. **Quel est le résultat attendu à la recette ?** Un KPI quantifié et une date. Pas "améliorer significativement", mais "réduire de 30 % le temps de traitement sur le périmètre X à la date Y".
+3. **Qu'est-ce qui constitue une recette réussie ?** Le critère de recette est la condition que le livrable doit remplir pour que vous validiez le paiement de l'étape suivante. Ce critère doit être défini avant le démarrage, pas négocié en fin de phase alors que tout le monde est épuisé.
+
+### Exiger un RACI explicite
+
+**Qu'est-ce qu'un RACI dans un projet IA ?** Le RACI (Responsible, Accountable, Consulted, Informed) est le document qui définit, pour chaque décision du projet, qui exécute, qui est responsable du résultat, qui est consulté et qui est simplement informé. Dans un projet IA en PME, les zones floues les plus fréquentes concernent :
+
+- la propriété des données d'entraînement
+- la validation fonctionnelle des sorties IA
+- la montée en charge des utilisateurs finaux
+
+Un RACI qui ne répond pas à ces trois questions n'est pas exploitable.
+
+> **Règle à appliquer** : ce document doit être signé avant le kick-off. S'il n'est pas prêt à ce stade, reportez le kick-off. La disponibilité d'une équipe prestataire n'est pas une raison valable de démarrer sans cadrage signé.
+
+## 2. Les 4 jalons projet IA entre kick-off et go-live
+
+**Comment piloter un prestataire IA de bout en bout ?** Entre le démarrage d'un projet IA et sa première mise en production, quatre moments de contrôle structurent votre pilotage. Chacun a un livrable attendu. Aucun paiement de l'étape suivante ne se fait sans validation du livrable de l'étape en cours.
+
+Les quatre jalons à retenir :
+
+- **Jalon 1** : Kick-off contractuel (RACI signé, planning validé, spécification du succès actée)
+- **Jalon 2** : Validation du prototype fonctionnel sur données réelles (à J+30 maximum)
+- **Jalon 3** : Recette métier conduite par les utilisateurs finaux (pas par le prestataire)
+- **Jalon 4** : Go-live conditionnel sur sous-périmètre, avec mesure des KPI à J+7 et J+30
+
+### Jalon 1 : Kick-off contractuel
+
+Le kick-off n'est pas une réunion de présentation. C'est le moment où vous vérifiez que toutes les conditions de départ sont réunies.
+
+**Ce qui doit être signé à ce stade :** le RACI, le planning détaillé (avec jalons intermédiaires et dates de revue), le nom de l'interlocuteur unique côté prestataire (celui qui répond de l'avancement, pas le commercial qui a signé le contrat), et la spécification du succès telle que définie dans la section précédente.
+
+**Livrable à valider avant de libérer la première tranche :** un document de cadrage signé par les deux parties, comprenant les quatre éléments ci-dessus.
+
+Si le prestataire souhaite démarrer "en attendant les signatures" parce que "l'équipe est disponible maintenant", c'est un signal d'alerte, pas une marque de réactivité.
+
+### Jalon 2 : Validation du prototype fonctionnel
+
+À J+30 maximum pour un projet pilote standard (délai à adapter selon le périmètre contractuel), le prestataire doit être en mesure de présenter un prototype fonctionnel sur vos données réelles, pas sur des données fictives ou une démo de sa propre bibliothèque.
+
+La distinction est importante. Un prototype sur données sandbox démontre que la technologie fonctionne en général. Un prototype sur vos données démontre qu'elle fonctionne dans votre contexte, avec votre qualité de données, vos formats, vos exceptions métier.
+
+**Ce que vous validez à ce jalon :** le prototype traite un sous-ensemble de vos données réelles et produit des résultats que vos équipes métier peuvent évaluer. Vous ne validez pas la qualité finale : vous validez que l'approche est viable et que les données sont exploitables.
+
+**Livrable attendu :** démo sur données réelles, compte rendu des écarts constatés par rapport aux hypothèses initiales, et planning révisé si nécessaire.
+
+### Jalon 3 : Recette métier
+
+**Qu'est-ce qu'un jalon de recette dans un projet IA ?** La recette est le test de conformité du livrable au regard de la spécification du succès, conduit par les utilisateurs finaux sur un périmètre représentatif, pas par le prestataire sur ses propres livrables.
+
+> **Point contractuel à ne pas omettre** : le prestataire ne peut pas valider sa propre recette. C'est la règle la plus fréquemment absente des contrats de prestation IA pour PME. Elle doit être inscrite noir sur blanc, avant signature.
+
+La recette se déroule sur un périmètre représentatif, pas sur les cas les plus favorables, pas sur les cas les plus extrêmes. Elle produit un cahier de recette documentant les cas testés, les résultats obtenus et les éventuels points de blocage.
+
+**Livrable attendu :** cahier de recette renseigné par les utilisateurs finaux, liste des anomalies bloquantes et non-bloquantes, date de correction pour les bloquants.
+
+Aucun paiement de la tranche finale ne se fait avant la clôture des anomalies bloquantes.
+
+### Jalon 4 : Go-live conditionnel
+
+**Qu'est-ce qu'un go-live conditionnel ?** C'est le basculement en production sur un sous-périmètre limité (un service, un flux, une famille de données), sur la base de critères mesurables définis à l'avance, avant toute généralisation à l'ensemble de l'organisation.
+
+Ces critères doivent avoir été listés dans la spécification du succès : taux d'anomalies bloquantes à zéro, délai de traitement dans la fourchette attendue, utilisateurs formés et en mesure de se passer d'assistance prestataire pour les opérations courantes.
+
+Ce n'est pas de la timidité. C'est la pratique standard pour tout déploiement sur des systèmes d'information en production.
+
+**Livrable attendu :** rapport de go-live consignant les KPI mesurés à J+7 et J+30 après basculement, par rapport à la baseline définie au démarrage.
+
+## 3. Les 5 signaux d'alerte à ne pas ignorer
+
+**Comment détecter qu'un projet IA dérape, sans expertise technique ?** Les trois causes d'échec identifiées par Gartner (source : Gartner, 2025), coûts qui dérapent, valeur business floue, contrôles inadéquats, se manifestent toujours par des signaux précoces. Voici cinq signaux que vous pouvez détecter sans expertise technique :
+
+- **Signal 1** : Absence de baseline mesurée avant démarrage
+- **Signal 2** : Livrables toujours "presque prêts" sans prototype tangible à J+30
+- **Signal 3** : Refus d'un RACI précis sur la propriété des données
+- **Signal 4** : Discours techno qui remplace les discussions métier en réunion d'avancement
+- **Signal 5** : Dérapage budgétaire annoncé en fin de phase, sans alerte proactive
+
+### Signal 1 : Absence de baseline mesurée avant démarrage
+
+Si votre prestataire démarre les travaux sans avoir mesuré la situation de départ, il ne pourra jamais vous démontrer que son livrable a amélioré quoi que ce soit. Vous serez dépendant de sa parole. Ce n'est pas acceptable.
+
+La baseline est non-négociable. Elle prend généralement une demi-journée de travail côté métier. Si le prestataire n'en fait pas la demande, faites-en l'exigence.
+
+### Signal 2 : Livrables toujours "presque prêts" sans prototype tangible à J+30
+
+"On avance bien, on vous montre ça la semaine prochaine" répété trois semaines de suite est un signal fort. À J+30 d'un projet pilote, vous devez pouvoir voir quelque chose fonctionner sur vos données. Pas une présentation PowerPoint de l'architecture, pas une démonstration d'un outil concurrent : votre cas d'usage, sur vos données.
+
+Un prestataire qui ne peut pas montrer un prototype fonctionnel à J+30 est soit en retard, soit en train de découvrir un problème qu'il n'ose pas nommer. Dans les deux cas, la discussion doit avoir lieu immédiatement.
+
+### Signal 3 : Refus d'un RACI précis sur la propriété des données
+
+La question de la propriété des données produites ou traitées par le système IA doit être tranchée contractuellement avant tout démarrage. Si votre prestataire temporise sur ce point, posez la question directement : "Qui détient les données d'entraînement à la fin du projet ? Qui peut les utiliser à d'autres fins ?"
+
+Un refus de répondre clairement sur ce sujet est rédhibitoire, indépendamment de la qualité technique de la prestation.
+
+### Signal 4 : Discours techno qui remplace les discussions métier
+
+Les réunions d'avancement où votre interlocuteur prestataire parle majoritairement d'architecture, de modèles ou d'infrastructure, sans aborder les questions métier (est-ce que les cas testés correspondent à ce que vos équipes font au quotidien ? quels sont les cas d'exception non prévus ?), sont une anomalie.
+
+Votre pilotage est métier, pas technique. Si votre prestataire ne vous donne pas les éléments qui vous permettent de prendre des décisions métier à chaque réunion, demandez-les explicitement.
+
+### Signal 5 : Dérapage budgétaire sans alerte proactive
+
+Un projet IA bien piloté côté prestataire génère des alertes anticipées dès que le budget prévisionnel risque d'être dépassé. Un prestataire qui vous annonce un dépassement en fin de phase, une fois les travaux réalisés, place la pression du côté client.
+
+> **Clause à inscrire dans le contrat** : toute dérive prévisionnelle supérieure à 10 % du budget de la phase en cours fait l'objet d'une alerte écrite dans les 48 heures suivant sa détection, avec proposition de plan d'arbitrage. Ce n'est pas une clause anodine : c'est la traduction contractuelle du troisième facteur d'échec identifié par Gartner (source : Gartner, 2025).
+
+## 4. Contrôle prestataire IA : adapter la vigilance selon le type d'acteur
+
+**Faut-il piloter différemment un cabinet conseil, une ESN et un éditeur SaaS IA ?** Le même cadre de jalons s'applique quel que soit le prestataire, mais les risques dominants diffèrent. Voici comment ajuster votre vigilance selon la nature de votre interlocuteur.
+
+### Cabinet conseil
+
+Le cabinet livre des recommandations, des méthodes, des formations, rarement du code. Son risque principal : la livraison d'une pensée sans livrable tangible. Un rapport de 80 pages qui "pose les bases" mais ne constitue pas un livrable recettable n'est pas un livrable au sens du pilotage décrit ici.
+
+**Points de contrôle spécifiques :**
+
+- Demandez au cabinet de définir, dès la signature, ce que vous pourrez mesurer à l'issue de chaque phase. Si la réponse est "un rapport et des recommandations", demandez ce que ce rapport vous permettra de faire concrètement et comment vous saurez qu'il est de qualité suffisante.
+- Exigez un atelier de restitution avec les équipes métier concernées, pas seulement avec la direction. Les recommandations validées uniquement en CODIR mais jamais testées avec les opérationnels ne passent pas la recette terrain.
+- Utilisez le jalon de validation du prototype fonctionnel (Jalon 2) pour demander une démonstration sur un cas réel, pas une simulation en salle.
+
+### ESN et équipe projet
+
+L'ESN livre du code, de l'intégration, parfois de la donnée transformée. Son risque principal : une dérive technique silencieuse où les développements s'accumulent dans un sens qui s'éloigne du besoin métier initial, sans que personne ne le dise clairement.
+
+**Points de contrôle spécifiques :**
+
+- Imposez des revues de sprint courtes (deux semaines maximum). À chaque fin de sprint, un livrable partiel doit être présentable à un utilisateur métier, pas seulement à un chef de projet.
+- Demandez à recevoir les comptes rendus de rétrospective. Une équipe projet qui ne fait pas de rétrospective, ou qui les garde en interne, n'a pas le niveau de maturité requis pour un projet IA en PME.
+- Vérifiez que le contrat inclut une clause de réversibilité : si vous décidez d'arrêter ou de changer de prestataire, dans quelles conditions récupérez-vous le code produit, dans quel format, avec quelle documentation ?
+
+### Éditeur SaaS IA
+
+L'éditeur livre un abonnement à un service. Son risque principal : vous dépendez entièrement de sa roadmap, de sa politique tarifaire et de sa pérennité, sans avoir aucune prise sur l'évolution du produit.
+
+**Points de contrôle spécifiques :**
+
+- Négociez une clause de portabilité des données avant signature. Vous devez pouvoir exporter l'intégralité de vos données dans un format standard à tout moment, sans frais.
+- Demandez des références clients dans votre secteur et votre taille d'entreprise, pas des logos de grands comptes sur la page d'accueil. Un SaaS IA conçu pour des entreprises de 5 000 personnes aura un rapport coût/valeur très différent pour une PME de 80 personnes.
+- Planifiez une revue contractuelle à 6 mois. Les conditions tarifaires des éditeurs SaaS IA évoluent rapidement. Une clause de revue annuelle avec option de renégociation vous protège contre une montée des prix post-déploiement, quand votre dépendance est maximale.
+
+## 5. Gouvernance prestataire IA : les trois documents indispensables en PME
+
+**Quels documents faut-il absolument maintenir pour piloter un projet IA en PME ?** Trois documents suffisent, à condition qu'ils existent et soient maintenus à jour. Vous n'avez pas besoin d'une PMO et de 40 templates.
+
+### Document 1 : La spécification fonctionnelle signée
+
+Ce document décrit ce que le système IA doit faire (pas comment il le fait), dans quelles conditions, pour quels utilisateurs et avec quelles données. Il est rédigé par le prestataire, validé et signé par votre équipe métier.
+
+> **Sa fonction essentielle** : rendre la recette possible. Si la spécification dit que le système traite les demandes entrantes en moins de 3 secondes dans 95 % des cas, la recette peut le vérifier. Si elle dit que le système "répond rapidement aux demandes", la recette ne peut rien vérifier.
+
+### Document 2 : Le registre des décisions
+
+Au cours d'un projet IA, des dizaines de décisions sont prises qui impactent le périmètre, la qualité ou le budget. Certaines sont prises en réunion, certaines par échange de mail, certaines implicitement. Un registre des décisions liste, chronologiquement, chaque décision significative, qui l'a prise, sur quelle base, et quelles en sont les conséquences contractuelles.
+
+Ce document n'a pas à être exhaustif. Il doit couvrir les décisions qui modifient le périmètre initial, qui engagent un budget supplémentaire ou qui reportent un jalon.
+
+### Document 3 : Le cahier de recette
+
+Décrit dans la section sur le Jalon 3, le cahier de recette liste les cas de test, les résultats attendus, les résultats obtenus et le statut de chaque anomalie détectée. Il est renseigné par les utilisateurs finaux, pas par le prestataire.
+
+Ce document constitue votre pièce maîtresse en cas de litige sur la conformité du livrable. Sans lui, vous n'avez pas de base pour refuser un paiement ou exiger une correction.
+
+### Le lien avec les financements publics
+
+Si votre projet bénéficie d'un financement dans le cadre du programme IA Booster France 2030, qui prend en charge jusqu'à 80 % du montant de la prestation pour les entreprises éligibles, selon la DGE (source : entreprises.gouv.fr, 2026), ces trois documents ne sont pas optionnels. Ils conditionnent votre capacité à justifier l'utilisation des fonds devant les organismes instructeurs.
+
+La gouvernance documentaire minimale décrite ici est également le socle que Smart Impulsion établit lors de ses missions d'accompagnement à la mise en oeuvre. Elle ne nécessite pas d'outil dédié : un répertoire partagé avec les trois fichiers bien nommés suffit pour un pilote de 3 à 6 mois.
+
+Le catalogue officiel IA PME/ETI de juillet 2026, publié par la DGE, référence 88 entreprises proposant des solutions d'intelligence artificielle adaptées aux PME et ETI (source : DGE, juillet 2026). Ce catalogue constitue une base de référence utile pour vérifier la légitimité d'un prestataire SaaS avant de signer, même si la présence dans ce catalogue ne remplace pas les contrôles décrits ici.
+
+## Ce que vous devez retenir avant de lancer votre premier jalon
+
+Piloter un prestataire IA après un audit n'est pas une compétence technique. C'est une compétence de maîtrise d'ouvrage, que tout dirigeant ayant déjà conduit un projet de transformation a déjà exercée.
+
+Trois réflexes opérationnels à ancrer avant de démarrer :
+
+1. **Pas de kick-off sans RACI et spécification du succès signés.** Ces deux documents prennent moins de deux jours à produire. Leur absence au démarrage est un indicateur de maturité projet, pas un détail.
+2. **Pas de paiement de phase sans validation du livrable de l'étape précédente.** Cette règle simple vous évite de vous retrouver en position de force diminuée lors des négociations de fin de projet.
+3. **Un signal d'alerte nommé est un signal traité.** La liste des cinq signaux décrits dans cet article n'est pas une liste de certitudes d'échec : c'est une liste de sujets à mettre sur la table dès qu'ils apparaissent. Un prestataire sérieux ne sera pas déstabilisé par ces questions. Il les anticipera.
+
+Si vous n'avez pas encore réalisé votre audit IA ou si votre rapport d'audit ne contient pas les éléments de cadrage décrits dans cet article (baseline, cas d'usage pilote, spécification du succès), l'[Audit IA Express](/services/audit) de Smart Impulsion produit ces livrables en trois jours ouvrés. Vous en repartez avec un document de cadrage directement exploitable pour piloter votre prestataire, quelle que soit sa nature.
+
+Pour comprendre la méthode complète qui sous-tend cet audit, consultez [la méthodologie Audit IA Express](/blog/audit-ia-express-methodologie).`,
+    author: "Laurent Bouzon",
+    date: "18 aout 2026",
+    dateISO: "2026-08-18",
+    readTime: "11 min",
+    category: "Audit & Methodologie",
+    image: "/piloter-prestataire-ia-apres-audit-hero.png",
+    imageAlt: "Image d'illustration pour l'article \"Piloter votre prestataire IA après audit : 4 jalons\"",
+    faq: [
+      {
+        question: "Comment piloter un prestataire IA quand on n'est pas technique ?",
+        answer: "Le pilotage d'un prestataire IA après l'audit ne requiert pas de compétences techniques. Il repose sur trois réflexes de maîtrise d'ouvrage : exiger une spécification du succès mesurée avant démarrage (baseline chiffrée, KPI attendu, critère de recette), conditionner chaque paiement de phase à la validation du livrable précédent, et nommer un interlocuteur unique côté prestataire qui répond de l'avancement. Ces exigences sont formulables par tout dirigeant ayant déjà conduit un projet de transformation.",
+      },
+      {
+        question: "Quels jalons de contrôle prévoir entre kick-off et go-live d'un projet IA PME ?",
+        answer: "Quatre jalons structurent le pilotage d'un prestataire IA entre le démarrage et la première mise en production : (1) le kick-off contractuel, où RACI et spécification du succès sont signés avant toute dépense ; (2) la validation du prototype fonctionnel sur données réelles à J+30 maximum ; (3) la recette métier conduite par les utilisateurs finaux, jamais par le prestataire lui-même ; (4) le go-live conditionnel sur sous-périmètre, avec mesure des KPI à J+7 et J+30 par rapport à la baseline initiale.",
+      },
+      {
+        question: "Quels signaux d'alerte indiquent qu'un projet IA dérape ?",
+        answer: "Cinq signaux permettent de détecter un dérapage sans expertise technique : absence de baseline mesurée avant démarrage, prototype non visible à J+30, refus de clarifier la propriété des données dans le RACI, réunions d'avancement dominées par le discours technique sans aborder les questions métier, et dérapage budgétaire annoncé en fin de phase sans alerte proactive. Chacun de ces signaux doit être mis sur la table immédiatement : un prestataire sérieux les anticipera.",
+      },
+      {
+        question: "Quelle gouvernance prestataire IA minimale pour une PME ?",
+        answer: "Trois documents suffisent pour assurer la gouvernance d'un projet IA en PME : la spécification fonctionnelle signée (décrivant ce que le système doit faire, pour qui, dans quelles conditions), le registre des décisions (listant chaque décision qui modifie périmètre, budget ou jalons), et le cahier de recette renseigné par les utilisateurs finaux. Ces documents conditionnent également la justification des fonds si le projet bénéficie d'un financement type IA Booster France 2030.",
+      },
+      {
+        question: "Comment adapter le contrôle prestataire IA selon le type d'acteur (cabinet, ESN, SaaS) ?",
+        answer: "Les risques dominants diffèrent selon le type de prestataire IA. Pour un cabinet conseil, le risque est la livraison d'un rapport sans livrable recettable : exigez une démonstration sur cas réel. Pour une ESN, le risque est la dérive technique silencieuse : imposez des sprints de deux semaines maximum et des comptes rendus de rétrospective. Pour un éditeur SaaS IA, le risque est la dépendance tarifaire : négociez une clause de portabilité des données et une revue contractuelle à 6 mois.",
+      },
+    ],
+  },
+  {
     slug: "roi-ia-projet-non-atteint-plan-remediation-pme",
     title: "Votre projet IA ne rapporte pas ce qu'il devait : diagnostic et plan d'action",
     seoTitle: "ROI IA décevant : le plan de remédiation en 4 étapes",
