@@ -69,6 +69,313 @@ export interface BlogArticle {
 
 export const blogArticles: BlogArticle[] = [
   {
+    slug: "transparence-ia-article-50-pme-chatbot",
+    title: "Article 50 de l'AI Act : ce qu'une PME doit afficher quand elle déploie un chatbot",
+    seoTitle: "Article 50 AI Act chatbot PME : obligations de transparence",
+    excerpt:
+      "L'article 50 de l'AI Act s'applique depuis le 2 août 2026. Votre PME déploie un chatbot ? Obligations précises, sanctions PME et checklist 30 jours.",
+    content: `**En résumé** : si votre PME déploie un chatbot (que vous soyez déployeur d'une solution tierce comme Intercom ou Zendesk, ou développeur d'un assistant sur API), l'article 50 paragraphe 1 du règlement (UE) 2024/1689 vous impose d'informer chaque utilisateur, de façon claire et visible, qu'il interagit avec une IA, au plus tard lors de la première interaction. Cette obligation est applicable depuis le 2 août 2026, sans période de transition pour les déployeurs. Le non-respect expose votre PME à une sanction pouvant atteindre 3 % de votre chiffre d'affaires mondial annuel, contrôlée en France par la DGCCRF et l'ARCOM.
+
+Depuis le 2 août 2026, l'article 50 de l'AI Act s'applique. Pas partiellement, pas en phase de rodage : pleinement. Si votre PME déploie un chatbot (sur votre site, dans votre espace client, ou intégré à un outil de service après-vente), vous avez des obligations légales précises à respecter dès aujourd'hui.
+
+Ce n'est pas la partie la plus complexe du règlement. Mais c'est l'une des plus facilement contrôlables, et des premières que la DGCCRF et l'ARCOM ont mandat pour vérifier.
+
+Voici ce que vous devez savoir pour être en ordre.
+
+
+
+## Pourquoi votre chatbot est concerné par l'AI Act depuis le 2 août 2026
+
+L'AI Act n'est pas entré en vigueur d'un bloc. Le règlement prévoit un calendrier échelonné : certaines obligations sont reportées à 2027, d'autres n'existaient pas encore. Mais l'article 50 fait partie du groupe qui s'est activé le 2 août 2026, sans période de grâce supplémentaire pour les déployeurs.
+
+### Le périmètre exact de l'article 50
+
+L'article 50 couvre deux types d'obligations distinctes :
+
+- **Paragraphe 1** : informer l'utilisateur qu'il interagit avec une IA quand il s'agit d'un système conversationnel (chatbot, agent vocal, assistant). Applicable depuis le 2 août 2026, sans transition.
+- **Paragraphe 2** : apposer un marquage machine sur les contenus générés par IA (images, audio, vidéo synthétisée). Ce volet bénéficie d'une grace period jusqu'au 2 décembre 2026 uniquement pour les fournisseurs qui doivent intégrer la technique de watermarking dans leurs systèmes.
+
+> **Point de vigilance** : la confusion entre les deux paragraphes est fréquente. Certains prestataires évoquent la grace period de décembre 2026 pour justifier un retard. Cette grace period ne concerne PAS l'obligation de signalement chatbot (art. 50 par. 1). Si votre chatbot n'affiche pas de mention IA visible, vous n'êtes pas en conformité depuis le 2 août 2026.
+
+### Qui est concerné en pratique
+
+Selon l'INSEE (Première n°2120, 2025), 18 % des entreprises françaises de 10 salariés et plus utilisaient l'IA en 2025, contre 10 % en 2024. Pour les PME de 10 à 49 salariés, ce taux atteint 15 %. Le chatbot est l'un des cas d'usage les plus répandus dans ce segment, notamment pour le service client, la FAQ automatisée, et la prise de rendez-vous.
+
+L'article 50 touche tous les déployeurs de systèmes conversationnels à interface naturelle. Que vous ayez 12 ou 500 salariés, que votre chatbot traite 10 requêtes par jour ou 10 000 : le règlement ne prévoit pas d'exemption par taille d'entreprise pour cet article.
+
+Pour comprendre l'ensemble des obligations entrées en vigueur le 2 août 2026, vous pouvez consulter notre article de synthèse sur [l'AI Act au 2 août 2026 et ce qui s'applique vraiment à votre PME](/blog/ai-act-2-aout-2026-ce-qui-sapplique-pme).
+
+
+
+## Fournisseur ou déployeur : de quel côté êtes-vous ?
+
+Avant d'analyser ce que vous devez faire, il faut clarifier votre position dans la chaîne de responsabilité de l'AI Act. Le règlement distingue deux rôles distincts, avec des obligations différentes.
+
+### La distinction fournisseur / déployeur
+
+**Le fournisseur** (ou provider) est l'entité qui a développé et mis sur le marché le système d'IA. Pour un chatbot, c'est l'éditeur du logiciel, le créateur du modèle sous-jacent, ou l'entreprise qui a entraîné et packagé la solution.
+
+**Le déployeur** (ou deployer) est l'entité qui utilise ce système dans un contexte professionnel, sous sa propre responsabilité. Pour une PME qui a souscrit un abonnement Intercom, intégré un widget Zendesk, ou branché l'API d'un modèle de langage (type ChatGPT ou Claude) pour alimenter un assistant client : vous êtes le déployeur.
+
+> La quasi-totalité des PME françaises déployant un chatbot sont des déployeurs, pas des fournisseurs. Vous n'avez pas développé GPT-4, Claude, ni les modèles qui tournent derrière Intercom. Vous avez choisi et intégré une solution tierce.
+
+### Ce que cela change pour vos obligations
+
+Cette distinction est importante parce que les articles 50 et suivants répartissent les obligations différemment :
+
+- Le fournisseur doit s'assurer que son système est techniquement capable de divulguer son caractère IA, et doit fournir une documentation permettant au déployeur de respecter ses propres obligations.
+- Le déployeur, votre PME, doit s'assurer que l'utilisateur final est effectivement informé qu'il parle à une IA, au plus tard au moment de la première interaction.
+
+La responsabilité de la mention visible à l'utilisateur repose sur vous en tant que déployeur, même si le fournisseur vous a fourni les outils pour le faire. Ne pas avoir reçu de documentation de votre fournisseur ne vous exonère pas.
+
+### Le cas des développements internes
+
+Si votre PME a développé un chatbot en interne, même en utilisant une API d'un modèle tiers, et que vous le mettez à disposition d'utilisateurs extérieurs (clients, fournisseurs, partenaires), vous portez également une responsabilité de fournisseur sur certains aspects. Cette situation, moins fréquente en PME, mérite un accompagnement juridique spécifique qui dépasse le périmètre de cet article.
+
+
+
+## Obligations article 50 AI Act : ce que la loi impose concrètement à votre PME
+
+Le texte de l'article 50, disponible sur le [portail officiel de l'AI Act](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-50), est relativement court. Les guidelines de la Commission publiées le 20 juillet 2026 (C(2026) 5054 final) en précisent l'interprétation attendue.
+
+### L'obligation principale : informer dès la première interaction
+
+L'article 50 paragraphe 1 du règlement (UE) 2024/1689 impose au déployeur quatre exigences cumulatives :
+
+1. **Informer l'utilisateur** qu'il interagit avec un système d'IA (et non un humain).
+2. **De façon claire et distinguée** : la mention doit être explicite, lisible, et non enfouie dans des conditions générales.
+3. **Au plus tard lors de la première interaction** : avant que l'utilisateur n'ait soumis sa première saisie, pas après.
+4. **Sans exception automatique par taille** : la PME n'est pas dispensée au motif de sa taille ou du volume de ses interactions.
+
+Le déployeur doit s'assurer que ces quatre conditions sont remplies pour chaque point de contact conversationnel sous sa responsabilité. Cette information doit intervenir **au plus tard au moment de la première interaction** : pas après deux échanges, pas dans les conditions générales que personne ne lit, pas dans le pied de page.
+
+En pratique, cela peut prendre plusieurs formes :
+
+- Une phrase d'introduction du type "Bonjour, je suis votre assistant IA. Comment puis-je vous aider ?"
+- Un bandeau ou une icône distincte affichée en permanence pendant la conversation
+- Une mention dans le premier message visible, avant que l'utilisateur ne saisisse quoi que ce soit
+
+Ce qui ne suffit pas, selon les guidelines Commission :
+
+- Un nom de bot fantaisiste qui "suggère" l'IA sans le dire explicitement (ex : "Bonjour, je suis Léa")
+- Une mention en gris clair sur fond gris foncé, illisible en pratique
+- Une information enfouie dans les FAQ ou les CGU
+
+### L'exception "manifeste" : plus étroite que vous ne le croyez
+
+L'article 50 prévoit une exception : l'obligation ne s'applique pas lorsque l'interaction avec l'IA est "manifeste du point de vue d'une personne raisonnablement bien informée". Cette formulation pourrait laisser croire qu'un chatbot labellisé "Assistant IA" en page titre dispense de toute mention supplémentaire.
+
+> Les guidelines Commission du 20 juillet 2026 clarifient cette exception de façon restrictive. Le caractère "manifeste" doit ressortir du contexte immédiat de l'interaction, pas d'une connaissance préalable du produit par l'utilisateur. Si un client arrive sur votre chatbot via un lien partagé, un QR code ou une publicité, et qu'il n'a jamais utilisé votre outil auparavant, l'exception ne joue pas.
+
+Cette exception vise essentiellement les outils internes, dont les utilisateurs sont formés et informés dans le cadre de leur onboarding professionnel, pas les interfaces ouvertes au grand public.
+
+### Le croisement avec le RGPD
+
+Si votre chatbot collecte des données à caractère personnel, ce qui est presque inévitable dès lors qu'un utilisateur s'identifie, saisit un numéro de commande ou décrit un problème, vous avez une obligation supplémentaire au titre du RGPD.
+
+La CNIL a rappelé dans ses lignes directrices 2026 que la notice d'information RGPD doit mentionner explicitement l'existence d'un traitement automatisé, sa finalité, et la nature du système. L'article 50 de l'AI Act et l'article 13 du RGPD se superposent sans se remplacer. Deux points à vérifier en priorité :
+
+- La notice d'information RGPD remise à l'utilisateur mentionne-t-elle le recours à un système IA conversationnel ?
+- La base légale de traitement est-elle compatible avec les interactions gérées par l'IA ?
+
+Pour approfondir ce croisement, notre article [RGPD IA PME : obligations CNIL 2026 et plan d'action](/blog/rgpd-ia-pme-obligations-cnil-2026) détaille les exigences combinées et les points de friction les plus courants.
+
+Les obligations RGPD ne sont pas de la compétence de la DGCCRF ou de l'ARCOM : elles relèvent de la CNIL. Deux régulateurs différents, deux dossiers à tenir en parallèle. Si vous souhaitez structurer un registre IA et une politique d'usage pour couvrir l'ensemble des obligations, notre article sur la [gouvernance IA : registre, politique et rôle du DPO](/blog/gouvernance-ia-entreprise-registre-politique-dpo) pose le cadre.
+
+
+
+## Qui contrôle et quelles sanctions réelles pour une PME ?
+
+### Les autorités de contrôle françaises pour l'article 50
+
+Une idée reçue circule dans les PME : "l'AI Act, c'est Bruxelles qui contrôle". C'est inexact pour l'article 50 paragraphe 1.
+
+La France a désigné la **DGCCRF** (Direction générale de la concurrence, de la consommation et de la répression des fraudes) et l'**ARCOM** (Autorité de régulation de la communication audiovisuelle et numérique) comme autorités compétentes pour les obligations de transparence des systèmes d'IA conversationnels vis-à-vis des consommateurs.
+
+Ces deux entités ont des pouvoirs d'enquête domestiques. La DGCCRF dispose en particulier d'une culture de contrôle des pratiques commerciales trompeuses. Un chatbot qui se fait passer pour un humain entre clairement dans ce périmètre.
+
+### Le plafond PME : un avantage réel du Digital Omnibus
+
+Le règlement (UE) 2026/1744, connu comme le "Digital Omnibus", a modifié le régime de sanction de l'AI Act pour les entreprises de taille modeste. L'article 99 paragraphe 6 bis introduit un mécanisme favorable : pour les manquements à l'article 50, la sanction applicable est **le plus bas des deux montants** suivants :
+
+- 15 millions d'euros (plafond absolu)
+- 3 % du chiffre d'affaires mondial annuel
+
+> **Exemple concret** : une PME réalisant 5 millions d'euros de chiffre d'affaires annuel voit son exposition maximale plafonnée à 150 000 euros (3 % × 5 M€), et non à 15 millions d'euros. Pour une PME à 20 millions d'euros de CA, le plafond serait de 600 000 euros.
+
+Ce plafond ne signifie pas que les sanctions seront automatiquement à ce niveau. Les autorités disposent d'un pouvoir d'appréciation, et les premiers contrôles portent généralement sur des manquements manifestes et répétés. Mais l'exposition n'est pas anodine, surtout pour une PME dont la réputation est l'un des actifs principaux.
+
+### Le risque réputationnel, souvent sous-estimé
+
+Au-delà de la sanction administrative, le risque est aussi commercial. Un client qui découvre qu'il pensait parler à un humain alors qu'il s'agissait d'un chatbot non identifié perd confiance. Cette perte de confiance peut alimenter des avis négatifs, des plaintes sur les réseaux, voire des recours collectifs si le volume d'interactions est élevé.
+
+La transparence sur le caractère IA d'un agent n'est pas seulement une contrainte réglementaire : c'est aussi une posture de confiance qui, bien gérée, renforce la relation client plutôt qu'elle ne la dégrade.
+
+Pour les PME qui souhaitent comprendre comment l'ensemble des obligations de l'AI Act s'inscrit dans une gouvernance d'ensemble, notre [guide complet AI Act PME 2026](/blog/ai-act-pme-guide-2026) reste la référence la plus complète du cluster.
+
+
+
+## Chatbot PME et article 50 AI Act : checklist des actions dans les 30 jours
+
+Vous avez identifié un ou plusieurs chatbots actifs dans votre périmètre. Voici les cinq actions concrètes à mener pour être en ordre, sans que cela nécessite une mobilisation disproportionnée de ressources.
+
+### Action 1 : recenser tous vos points de contact conversationnels
+
+Avant d'agir, il faut savoir ce que vous avez. Cette étape est souvent plus complexe qu'elle ne paraît dans les PME multi-outils.
+
+La liste doit inclure :
+
+- Le chatbot de votre site web (widget de support, FAQ interactive, prise de rendez-vous)
+- Les assistants dans vos outils de ticketing ou helpdesk (Zendesk, Freshdesk, Intercom, Hubspot Support, etc.)
+- Les agents IA dans vos outils internes (Teams avec Copilot, Slack avec des bots connectés à des modèles d'IA générative, etc.)
+- Les formulaires conversationnels ou interfaces de devis guidées par IA
+
+Pour chaque point de contact, notez : le fournisseur, la version du contrat, et si une mention IA est déjà affichée.
+
+### Action 2 : auditer les mentions visibles
+
+Pour chaque chatbot recensé, testez concrètement l'expérience d'un utilisateur qui arrive pour la première fois.
+
+Vérifiez :
+
+- Y a-t-il une mention explicite "IA" ou "assistant automatique" dans le premier message affiché ?
+- Cette mention est-elle lisible (contraste, taille de police) ?
+- Est-elle présente même si l'utilisateur arrive via un lien direct, sans contexte préalable ?
+
+Si la mention est absente ou ambiguë, c'est l'action la plus urgente. Elle est généralement simple à corriger : modifier le message d'accueil du chatbot prend moins d'une heure dans la plupart des outils du marché.
+
+### Action 3 : obtenir la documentation de votre fournisseur
+
+L'article 50 paragraphe 2 (le marquage machine des contenus générés) incombe techniquement au fournisseur, mais vous devez pouvoir documenter que votre fournisseur s'engage à le déployer avant le 2 décembre 2026.
+
+Envoyez une demande écrite à votre fournisseur avec les questions suivantes :
+
+1. Confirmez-vous que votre solution sera conforme à l'article 50 paragraphe 2 de l'AI Act avant le 2 décembre 2026 ?
+2. Pouvez-vous fournir la documentation technique ou contractuelle attestant de cette conformité ?
+3. Votre solution intègre-t-elle une fonctionnalité native de mention IA visible à l'utilisateur final, et sous quelle forme ?
+
+Conservez les réponses. Elles constituent une pièce du dossier de conformité.
+
+### Action 4 : aligner avec votre notice RGPD
+
+Si votre chatbot traite des données personnelles, votre délégué à la protection des données (DPO) ou votre responsable RGPD doit vérifier deux points :
+
+- La notice d'information remise à l'utilisateur mentionne-t-elle explicitement le recours à un système d'IA conversationnel ?
+- La base légale de traitement est-elle compatible avec les interactions gérées par l'IA (consentement, intérêt légitime, exécution d'un contrat) ?
+
+Cette vérification peut se faire en parallèle des autres actions et ne nécessite pas un audit complet. C'est un point de contrôle ciblé.
+
+### Action 5 : documenter et dater chaque action
+
+> Un principe simple : si vous ne pouvez pas prouver que vous l'avez fait, c'est comme si vous ne l'aviez pas fait.
+
+Conservez pour chaque chatbot :
+
+- Un screenshot horodaté de la mention IA affichée à l'utilisateur
+- La confirmation écrite de votre fournisseur sur la conformité
+- Le nom de la personne interne responsable du suivi
+- La date de mise à jour de la notice RGPD le cas échéant
+
+Ce dossier n'a pas besoin d'être volumineux. Il doit être constitué, daté, et consultable rapidement en cas de demande de la DGCCRF ou de l'ARCOM.
+
+
+
+### Un accompagnement structuré peut accélérer cette mise en ordre
+
+Si votre périmètre est limité à un ou deux chatbots avec des fournisseurs standards, vous pouvez gérer ces cinq actions en interne en quelques jours. Si votre écosystème d'outils est plus étendu (plusieurs solutions, intégrations sur-mesure, agents IA internes), la cartographie et la qualification des obligations peuvent rapidement dépasser la capacité d'une équipe sans expertise spécifique.
+
+L'[Audit IA Express](/services/audit) de Smart Impulsion inclut un volet de conformité AI Act qui couvre précisément ce type de recensement et de qualification. En trois jours de travail structuré, vous disposez d'un état des lieux documenté et d'un plan de mise en conformité priorisé, applicable et concret.
+
+
+
+## Ce qu'il faut retenir
+
+L'article 50 de l'AI Act n'est pas le chapitre le plus redoutable du règlement pour une PME. Mais c'est l'un des plus immédiatement vérifiables, par des autorités françaises disposant de moyens d'enquête concrets.
+
+Quatre points à garder en tête :
+
+- L'article 50 paragraphe 1 s'applique depuis le 2 août 2026, sans période de grâce pour l'obligation de signalement chatbot.
+- Votre PME est presque certainement un déployeur, pas un fournisseur. Vos obligations sont ciblées mais réelles.
+- Les autorités de contrôle en France sont la DGCCRF et l'ARCOM, pas uniquement l'AI Office européen.
+- Le plafond de sanction s'applique au montant le plus bas (3 % du CA ou 15 M EUR) pour les PME.
+
+La prochaine étape concrète : ouvrez votre chatbot principal comme si vous étiez un client. Lisez le premier message. Est-il clair que vous parlez à une IA ? Si la réponse est "pas vraiment", vous avez votre point de départ. Si vous n'êtes pas en conformité et que vous vous interrogez sur vos risques, notre article [AI Act Article 4 : que risquez-vous si votre PME n'est pas conforme](/blog/ai-act-article-4-pme-non-conforme-que-risquez-vous) décrit le plan de remédiation.
+
+Pour aller plus loin sur la conformité AI Act dans son ensemble, consultez notre [guide complet AI Act PME 2026](/blog/ai-act-pme-guide-2026) et notre article sur les [obligations RGPD IA CNIL 2026](/blog/rgpd-ia-pme-obligations-cnil-2026).
+
+
+
+**Sources** :
+- Texte officiel article 50 AI Act : [ai-act-service-desk.ec.europa.eu/en/ai-act/article-50](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-50)
+- Guidelines Commission européenne sur l'art. 50 (C(2026) 5054 final, 20 juillet 2026) : [digital-strategy.ec.europa.eu/en/faqs/transparency-obligations-under-article-50-ai-act](https://digital-strategy.ec.europa.eu/en/faqs/transparency-obligations-under-article-50-ai-act)
+- Règlement (UE) 2026/1744 (Digital Omnibus), article 99 par. 6 bis (même source : FAQ Commission)
+- INSEE Première n°2120, "Technologies de l'information et de la communication dans les entreprises en 2025" : [insee.fr/fr/statistiques/9025878](https://www.insee.fr/fr/statistiques/9025878)`,
+    author: "Laurent Bouzon",
+    date: "2 septembre 2026",
+    dateISO: "2026-09-02",
+    readTime: "14 min",
+    category: "Compliance & AI Act",
+    image: "/transparence-ia-article-50-pme-chatbot-hero.png",
+    imageAlt: "Image d'illustration pour l'article \"Article 50 de l'AI Act : ce qu'une PME doit afficher quand elle déploie un chatbot\"",
+    faq: [
+      {
+        question: "L'article 50 de l'AI Act s'applique-t-il déjà à ma PME ?",
+        answer: "Oui, depuis le 2 août 2026. L'obligation d'informer l'utilisateur qu'il interagit avec une IA (art. 50 par. 1) est applicable sans période de transition. Seul le marquage machine des contenus générés (art. 50 par. 2) bénéficie d'une grace period jusqu'au 2 décembre 2026.",
+      },
+      {
+        question: "Ma PME est-elle fournisseur ou déployeur au sens de l'AI Act ?",
+        answer: "Si vous avez configuré et intégré un chatbot tiers (Intercom, Zendesk, solution sur API OpenAI ou Anthropic), vous êtes déployeur. Si vous avez développé vous-même le modèle, vous êtes fournisseur. La grande majorité des PME sont déployeurs.",
+      },
+      {
+        question: "Que doit-on afficher concrètement au moment du chatbot ?",
+        answer: "L'utilisateur doit être informé, de façon claire et distinguée, qu'il parle à une IA, au plus tard lors de la première interaction. Un simple bandeau ou une phrase d'ouverture explicite suffit. L'exception pour les cas 'manifestement évidents' est interprétée strictement par les guidelines Commission du 20 juillet 2026.",
+      },
+      {
+        question: "Qui contrôle l'article 50 en France ?",
+        answer: "La DGCCRF et l'ARCOM sont désignées comme autorités de contrôle pour l'article 50 paragraphe 1. Ce n'est pas uniquement l'AI Office européen qui surveille, mais bien des autorités françaises avec des pouvoirs d'enquête domestiques.",
+      },
+      {
+        question: "Quelles sont les sanctions pour une PME non conforme sur l'article 50 ?",
+        answer: "Le règlement (UE) 2026/1744 (Digital Omnibus) a introduit un plafond favorable aux PME : le montant de la sanction est le plus bas entre 15 millions d'euros et 3 % du chiffre d'affaires mondial annuel (art. 99 par. 6 bis). Pour une PME de 5 M€ de CA, cela plafonne à 150 000 €.",
+      },
+      {
+        question: "La grace period concerne-t-elle l'obligation de signalement chatbot ?",
+        answer: "Non. La grace period jusqu'au 2 décembre 2026 s'applique uniquement au marquage machine (watermarking) des contenus générés par IA (art. 50 par. 2). L'obligation d'information de l'utilisateur sur le caractère IA d'un agent (art. 50 par. 1) est applicable depuis le 2 août 2026 sans délai.",
+      },
+      {
+        question: "Mon chatbot est-il concerné si les utilisateurs savent déjà que c'est une IA ?",
+        answer: "Peut-être pas, mais l'exception est plus étroite que vous ne le pensez. Elle s'applique uniquement lorsque l'interaction avec l'IA est 'manifeste du point de vue d'une personne raisonnablement bien informée'. Les guidelines Commission précisent qu'un simple nom de bot ne suffit pas : il faut que le contexte rende l'IA indubitable.",
+      },
+    ],
+    howTo: {
+      name: "Mise en conformité article 50 AI Act chatbot PME",
+      description: "Checklist des actions pour rendre un chatbot PME conforme à l'article 50 de l'AI Act dans les 30 jours",
+      totalTime: "PT720H",
+      steps: [
+        {
+          name: "Recenser tous les points de contact chatbot",
+          text: "Lister chaque chatbot actif sur vos interfaces : site web, espace client, messagerie interne, outils métiers. Identifier pour chacun le fournisseur et la version du contrat.",
+        },
+        {
+          name: "Auditer la mention IA visible",
+          text: "Vérifier que chaque chatbot affiche une mention explicite dès la première interaction. Si la mention est absente ou ambiguë, la corriger en priorité. C'est l'action la plus urgente.",
+        },
+        {
+          name: "Obtenir la documentation fournisseur",
+          text: "Demander au fournisseur la confirmation écrite que le marquage machine (art. 50 par. 2) sera opérationnel avant le 2 décembre 2026, et qu'il dispose d'une notice d'information conforme art. 50.",
+        },
+        {
+          name: "Croiser avec le RGPD",
+          text: "Si le chatbot collecte des données personnelles, vérifier que la mention IA est intégrée dans la notice d'information RGPD et que la base légale de traitement est à jour.",
+        },
+        {
+          name: "Documenter et dater",
+          text: "Conserver une trace écrite de chaque action : screenshot des mentions affichées, emails fournisseur, date de mise en place. Ce dossier servira de preuve en cas de contrôle DGCCRF ou ARCOM.",
+        },
+      ],
+    },
+  },
+  {
     slug: "ia-juridique-contrats-pme-cas-usage",
     title: "IA juridique en PME : ce que vous pouvez déléguer et ce qui reste risqué",
     seoTitle: "IA juridique PME : ce que vous pouvez déléguer",
