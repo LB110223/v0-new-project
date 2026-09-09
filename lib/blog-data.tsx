@@ -69,6 +69,279 @@ export interface BlogArticle {
 
 export const blogArticles: BlogArticle[] = [
   {
+    slug: "ia-drh-pme-gestion-administrative-cas-usage",
+    title: "IA et gestion administrative RH en PME : les cas d'usage concrets",
+    seoTitle: "IA RH PME : gestion admin sans SIRH",
+    excerpt:
+      "Congés, paie, onboarding, entretiens : les tâches RH qu'un dirigeant PME peut déléguer à l'IA sans SIRH lourd ni DSI. Guide pragmatique.",
+    content: `Vous gérez une PME de 40, 80, ou 120 salariés. Vous n'avez pas de DRH à plein temps. La gestion administrative RH (congés, onboarding, documents courants) repose sur vous ou sur une assistante déjà surchargée. Les questions RH remontent entre deux réunions clients : un solde de congés à vérifier, un avenant à rédiger, un entretien professionnel à préparer. La charge est réelle, dispersée, chronophage. Pas stratégique. Pas valorisante.
+
+L'IA ne va pas faire la paie à votre place. Elle ne remplace pas un cabinet social. Mais sur la partie administrative, la plus consommatrice de temps, elle peut absorber une fraction significative du volume, sans refonte de votre organisation.
+
+**Ce que l'IA peut faire concrètement pour la gestion administrative RH d'une PME :** automatiser les réponses aux demandes de congés, fiabiliser la préparation des éléments variables de paie avant transmission au cabinet, orchestrer le suivi de l'onboarding administratif étape par étape, générer les trames d'entretiens professionnels obligatoires (Code du travail, article L6315-1), et rédiger les documents RH courants (avenants, attestations, courriers). Ces cinq cas d'usage sont accessibles sans SIRH, sans DSI, et sans budget de transformation.
+
+- Gestion des absences et congés
+- Préparation des éléments variables de paie
+- Onboarding administratif
+- Entretiens professionnels obligatoires
+- Rédaction des documents RH courants
+
+> Selon l'INSEE (Enquête TIC 2024), 10 % des entreprises françaises de 10 salariés et plus utilisaient l'IA en 2024, un taux qui monte à 15 % pour les 50-249 salariés et à 33 % pour les 250 et plus. Chez les 10-49 salariés (la cible de cet article), seulement 9 %.
+
+Cet article couvre cinq cas d'usage RH administratifs accessibles sans SIRH lourd, sans DSI, et sans projet de transformation. Il ne traite pas du recrutement (sujet couvert dans [notre guide dédié à l'IA en recrutement PME](/blog/ia-recrutement-pme-guide-decision)), ni des obligations AI Act sur la gestion RH, traitées dans [l'article AI Act RH](/blog/ai-act-rh-tri-cv-paie-pme).
+
+
+
+## 1. Gestion des absences et des congés
+
+### Le problème concret
+
+Dans une PME sans SIRH, la gestion des congés repose souvent sur un tableur, des emails, et la mémoire de l'assistante de direction. Résultat : des demandes qui se perdent, des soldes mal tenus, des conflits de planning réglés au dernier moment.
+
+### Ce que l'IA change pour la gestion des absences
+
+L'IA ne remplace pas votre outil de planification. Elle réduit le flux de sollicitations informelles et fiabilise les traitements.
+
+- Réponse automatique aux demandes courantes (solde disponible, politique de pose des congés, délai de réponse)
+- Vérification de la cohérence entre dates demandées et planning d'équipe (si le planning est numérisé)
+- Génération des confirmations écrites ou des refus motivés, à relire avant envoi
+- Consolidation mensuelle des absences pour transmission au cabinet de paie
+
+### Prérequis minimum
+
+- Un outil numérique de saisie des demandes (même un Google Form suffit)
+- Un tableur ou agenda partagé pour la visibilité des plannings
+
+### Point RGPD à ne pas négliger
+
+Les arrêts maladie sont des données de santé au sens du RGPD (article 9), soit des données sensibles. Elles ne doivent pas transiter par un outil IA grand public non configuré pour ce type de traitement. Pour le suivi des congés ordinaires, le risque est moindre, mais la prudence s'impose : ne transmettez pas de données nominatives personnelles à un modèle de langage (LLM) sans vérifier les conditions d'hébergement et de traitement.
+
+
+
+## 2. Préparation des éléments variables de paie
+
+### Le problème concret
+
+Chaque mois, vous ou votre assistante compilez les heures supplémentaires, les primes, les absences, les notes de frais. Ces éléments partent chez le cabinet de paie. Parfois avec des erreurs. L'aller-retour pour corrections coûte du temps des deux côtés.
+
+### Ce que l'IA change, et ce qu'elle ne fait pas
+
+L'IA ne fait pas la paie. C'est capital à comprendre. Le calcul des bulletins reste l'affaire d'un logiciel certifié ou d'un expert-comptable social. Ce que l'IA peut faire :
+
+- Vérifier la cohérence des données avant transmission : heures déclarées vs pointage, primes vs règles convenues, absences vs compteurs de soldes
+- Détecter les anomalies flagrantes (un salarié à 0 heure sur un mois plein, une prime doublée par erreur)
+- Mettre en forme le fichier d'éléments variables selon le format attendu par votre cabinet
+- Générer un récapitulatif synthétique à valider avant envoi
+
+> Selon l'INSEE (Enquête TIC 2024, publiée en 2025), 10 % des entreprises françaises de 10 salariés et plus déclaraient utiliser l'IA en 2024. La gestion et l'organisation des processus administratifs figure parmi les usages déclarés en forte progression. Chez les 10-49 salariés, le taux d'adoption n'atteint que 9 %.
+
+### Prérequis minimum
+
+- Un système de pointage ou de déclaration d'heures numérique (même basique)
+- Un fichier de référence des règles de rémunération (primes, conventions collectives applicables)
+
+
+
+## 3. Onboarding administratif
+
+### Le problème concret
+
+Un nouveau salarié arrive. Vous devez envoyer la DPAE à l'Urssaf au plus tôt 8 jours avant la prise de poste et avant le début du travail effectif, faire signer le contrat, inscrire le salarié à la mutuelle, planifier la visite médicale, créer les accès IT, transmettre le livret d'accueil. Chacune de ces actions est simple prise isolément. Ensemble, elles forment un flux à 10 étapes qui se répartit entre vous, l'assistante, et parfois le responsable IT. Et qui rate régulièrement une étape.
+
+### Ce que l'IA change pour l'onboarding sans SIRH
+
+L'IA n'a pas besoin d'un SIRH pour gérer un onboarding. Un simple Notion ou Google Workspace suffit.
+
+- Génération automatique d'une checklist d'onboarding personnalisée selon le profil (CDI, CDD, temps partiel, statut cadre ou non)
+- Suivi des étapes complétées et relances automatiques pour les étapes manquantes
+- Pré-remplissage des formulaires types à partir des données du contrat
+- Rédaction du livret d'accueil ou des messages de bienvenue internes
+
+### Checklist DPAE et conformité : les 5 étapes non négociables
+
+1. DPAE (Déclaration Préalable à l'Embauche) transmise à l'Urssaf avant la prise de poste
+2. Contrat de travail signé avant ou au plus tard le premier jour
+3. Inscription à la mutuelle obligatoire (délai selon accord collectif)
+4. Déclaration auprès de la médecine du travail pour visite d'embauche
+5. Remise du règlement intérieur et des documents obligatoires (convention collective, DUERP)
+
+> 94 % des dirigeants de PME-ETI interrogés par Bpifrance Le Lab (juin 2025, n=1 209) citent au moins une modalité d'optimisation de l'existant via l'IA. L'onboarding administratif est précisément le type de process répétitif et structuré qui se prête le mieux à cette optimisation, sans investissement lourd.
+
+
+
+## 4. Entretiens professionnels obligatoires
+
+### Le contexte légal
+
+L'article L6315-1 du Code du travail impose un entretien professionnel tous les deux ans pour chaque salarié. Pour une PME de 50 personnes, cela représente environ 25 entretiens à planifier, préparer et formaliser chaque année, avec obligation de tracer le compte-rendu.
+
+Ce n'est pas une charge anecdotique. Et c'est souvent la première obligation RH que les dirigeants de PME oublient ou gèrent dans l'urgence.
+
+### Ce que l'IA peut faire pour les entretiens professionnels
+
+- Générer un guide de questions personnalisé selon le poste, l'ancienneté et les objectifs de l'entreprise
+- Préparer la trame de compte-rendu à compléter pendant ou après l'entretien
+- Transcrire l'entretien si vous utilisez un outil de visioconférence, sous réserve du consentement explicite du salarié (obligatoire)
+- Rédiger la synthèse du compte-rendu à partir de vos notes, à valider et signer
+
+### Ce que l'IA ne peut pas faire
+
+- Conduire l'entretien à votre place
+- Prendre ou influencer des décisions d'évolution, de promotion ou de rupture
+- Traiter des données personnelles sans base légale ni information préalable du salarié
+
+> Attention : le RGPD (article 22) interdit les décisions automatisées produisant des effets juridiques ou affectant significativement une personne sans intervention humaine. En contexte d'entretien professionnel, toute synthèse IA doit rester un support de décision, jamais un substitut à la décision du manager.
+
+### Outil recommandé
+
+Un outil de transcription à hébergement européen (Whisper local, ou solutions certifiées RGPD) si vous souhaitez transcrire. Pour la génération des trames et synthèses, un outil d'IA générative accessible via interface web suffit. Sans données personnelles dans le prompt.
+
+
+
+## 5. Rédaction des documents RH courants
+
+### Le volume sous-estimé
+
+Un dirigeant PME qui gère lui-même ses RH rédige en moyenne plusieurs dizaines de documents par an : avenants au contrat, attestations d'emploi, lettres de refus de congé, réponses aux demandes de télétravail, courriers de mise en garde, modèles de lettres de mission. Chaque document prend 15 à 30 minutes s'il est rédigé de zéro. Moins s'il existe un modèle. Beaucoup moins avec l'IA.
+
+### Ce que l'IA change pour la rédaction des documents RH
+
+- Génération d'un avenant en 3 minutes à partir des informations clés (nouveau poste, nouveau salaire, date d'effet)
+- Rédaction d'attestations d'emploi conformes au format attendu par les organismes (Pôle emploi, banques, mairie)
+- Adaptation de modèles de lettres au cas particulier sans partir d'une feuille blanche
+- Relecture et détection des incohérences (une date d'effet antérieure à la signature, un montant en contradiction avec la grille)
+
+### Règle absolue : la validation humaine n'est pas optionnelle
+
+Tout document RH généré par l'IA doit être relu, validé, et signé par un humain habilité avant tout envoi. L'IA peut se tromper sur une formulation légale, une référence à un article de convention collective, ou une obligation propre à votre secteur.
+
+- Ne jamais envoyer un document IA sans lecture complète
+- Vérifier toute référence légale citée par l'IA avec votre avocat ou votre expert-comptable social
+- Conserver une version signée de chaque document dans votre dossier salarié
+
+
+
+## Prérequis et séquence recommandée
+
+### Ce qu'il faut avoir en place avant de commencer
+
+Avant de déployer l'IA sur vos processus RH administratifs, vérifiez ces quatre points :
+
+- **Numérique de base** : vos données RH doivent exister quelque part en format numérique. Un tableur à jour suffit. Des post-its et un classeur papier, non.
+- **Politique d'usage IA** : si vous avez des salariés qui vont utiliser ces outils, une politique interne s'impose, même d'une page. Voir notre article sur la [qualité des données IA en PME](/blog/qualite-donnees-ia-pme) pour comprendre pourquoi la donnée d'entrée conditionne la qualité de la sortie.
+- **Connaissance du RGPD de base** : savoir distinguer données personnelles, données sensibles, et données anonymisées. Pas besoin d'être juriste. Besoin de ne pas envoyer les arrêts maladie de vos salariés à ChatGPT sans réfléchir.
+- **Engagement de relecture** : l'IA produit des premiers jets. Vous validez. Ce n'est pas une contrainte supplémentaire. C'est la condition pour que l'outil soit utile sans devenir un risque.
+
+### Par où commencer : la séquence gain/risque optimale
+
+La séquence qui a le meilleur rapport gain/risque pour une PME sans SIRH, et que les accompagnements Smart Impulsion valident systématiquement sur le terrain :
+
+1. **Rédaction de documents courants** : impact immédiat, données non sensibles, zéro intégration requise
+2. **Onboarding administratif** : checklist et suivi, Notion ou Google Workspace suffisent
+3. **Préparation des entretiens professionnels** : trames et synthèses, sans données personnelles dans les prompts
+4. **Préparation des éléments variables de paie** : nécessite un pointage numérique fiable en amont
+5. **Gestion des absences** : uniquement si vous avez un outil de saisie numérique des demandes
+
+Ne cherchez pas à tout déployer en même temps. Un cas d'usage bien installé vaut mieux que cinq chantiers en parallèle qui ne dépassent pas le stade pilote.
+
+> Bpifrance Le Lab (2025) relève que 43 % des PME-ETI n'analysent pas encore leurs données. Avant d'automatiser, il faut que la donnée existe et soit fiable. C'est le prérequis que les dirigeants sous-estiment le plus systématiquement, et que tout accompagnement terrain confirme.
+
+Si vous hésitez sur votre point de départ, ou si vous voulez évaluer lesquels de ces cas d'usage correspondent réellement à vos irritants du quotidien, c'est exactement l'objet d'un [Audit IA Express](/services/audit) : identifier, en deux à trois jours, les processus où l'IA apportera un gain mesurable, sans vous vendre une refonte que vous n'avez pas les moyens d'absorber.
+
+
+
+## Ce que ce guide ne couvre pas
+
+Cet article se concentre sur la gestion administrative courante. Deux sujets connexes sont traités séparément sur ce blog :
+
+- Le recrutement assisté par IA (tri de candidatures, entretiens vidéo, scoring) : voir [IA recrutement PME : par quelle étape commencer ?](/blog/ia-recrutement-pme-guide-decision)
+- Les obligations AI Act sur les systèmes IA utilisés en RH (classification haut risque, obligations de transparence) : voir [AI Act RH : tri de CV, paie et conformité PME 2026](/blog/ai-act-rh-tri-cv-paie-pme)
+
+Pour comprendre comment ces cas d'usage s'inscrivent dans une cartographie métier plus large, le [panorama des cas d'usage IA en PME par métier](/blog/cas-usage-ia-pme-par-metier) offre le cadre d'ensemble (finance, achats, production, RH, commercial) avec les critères pour prioriser selon votre secteur.
+
+
+
+L'IA en RH pour une PME, ce n'est pas un projet de transformation. C'est une série de gains discrets sur des tâches que vous faites déjà, mais que vous faites trop lentement, trop manuellement, et avec trop d'interruptions dans votre agenda de dirigeant.
+
+<script type="application/ld+json">
+{JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "L'IA peut-elle remplacer un logiciel de paie ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Non. L'IA prépare et vérifie les éléments variables en entrée. La paie proprement dite reste l'affaire d'un outil certifié ou d'un cabinet. Ce que l'IA change : moins d'allers-retours pour corriger des erreurs en entrée, et une détection des incohérences avant transmission."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Faut-il un SIRH pour utiliser l'IA en RH ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Non. C'est précisément l'intérêt pour une PME de 30 à 150 salariés. Un tableur bien tenu, Google Workspace ou Notion suffisent comme base. L'IA s'insère dans l'existant sans refonte. Le prérequis est la numérique, pas un SIRH coûteux."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "L'IA peut-elle prendre des décisions RH automatiquement ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Non, et ce serait illégal. Le RGPD (article 22) interdit les décisions automatisées à effet significatif sur une personne sans intervention humaine. En RH (entretiens, évaluation, gestion de carrière), la décision finale appartient toujours au manager ou au dirigeant."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Par où commencer si l'on n'a jamais utilisé l'IA en RH ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Commencez par la rédaction des documents courants : avenants, attestations, courriers de réponse. C'est le cas d'usage le plus rapide à déployer, sans données sensibles à exposer, et avec un gain de temps immédiatement visible. Testez sur un mois, mesurez le temps gagné, puis passez à l'onboarding administratif."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quelles données RH peut-on confier à un outil IA ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Les données non sensibles peuvent transiter par des outils IA généraux : contenu de contrats type, textes d'attestations, guides de questions pour entretiens. Les données sensibles (arrêts maladie, salaires, données personnelles des salariés) exigent des outils à hébergement européen certifié ou un usage strictement local, conforme au RGPD."
+      }
+    }
+  ]
+})}
+</script>`,
+    author: "Laurent Bouzon",
+    date: "9 septembre 2026",
+    dateISO: "2026-09-09",
+    readTime: "8 min",
+    category: "Cas d'usage",
+    image: "/ia-drh-pme-gestion-administrative-cas-usage-hero.png",
+    imageAlt: "Image d'illustration pour l'article \"IA et gestion administrative RH en PME : les cas d'usage concrets\"",
+    faq: [
+      {
+        question: "L'IA peut-elle remplacer un logiciel de paie ?",
+        answer: "Non. L'IA prépare et vérifie les éléments variables en entrée. La paie proprement dite reste l'affaire d'un outil certifié ou d'un cabinet. Ce que l'IA change : moins d'allers-retours pour corriger des erreurs en entrée, et une détection des incohérences avant transmission.",
+      },
+      {
+        question: "Faut-il un SIRH pour utiliser l'IA en RH ?",
+        answer: "Non. C'est précisément l'intérêt pour une PME de 30 à 150 salariés. Un tableur bien tenu, Google Workspace ou Notion suffisent comme base. L'IA s'insère dans l'existant sans refonte. Le prérequis est la numérique, pas un SIRH coûteux.",
+      },
+      {
+        question: "L'IA peut-elle prendre des décisions RH automatiquement ?",
+        answer: "Non, et ce serait illégal. Le RGPD (article 22) interdit les décisions automatisées à effet significatif sur une personne sans intervention humaine. En RH (entretiens, évaluation, gestion de carrière), la décision finale appartient toujours au manager ou au dirigeant.",
+      },
+      {
+        question: "Par où commencer si l'on n'a jamais utilisé l'IA en RH ?",
+        answer: "Commencez par la rédaction des documents courants : avenants, attestations, courriers de réponse. C'est le cas d'usage le plus rapide à déployer, sans données sensibles à exposer, et avec un gain de temps immédiatement visible. Testez sur un mois, mesurez le temps gagné, puis passez à l'onboarding administratif.",
+      },
+      {
+        question: "Quelles données RH peut-on confier à un outil IA ?",
+        answer: "Les données non sensibles peuvent transiter par des outils IA généraux : contenu de contrats type, textes d'attestations, guides de questions pour entretiens. Les données sensibles (arrêts maladie, salaires, données personnelles des salariés) exigent des outils à hébergement européen certifié ou un usage strictement local, conforme au RGPD.",
+      },
+    ],
+  },
+  {
     slug: "qualite-donnees-ia-pme",
     title: "Qualité des données IA PME : l'autodiagnostic avant tout projet",
     seoTitle: "Qualité données IA PME : autodiagnostic en 4 critères",
