@@ -69,6 +69,216 @@ export interface BlogArticle {
 
 export const blogArticles: BlogArticle[] = [
   {
+    slug: "audit-ia-gratuit-pme-ce-qui-existe-ce-que-ca-vaut",
+    title: "Audit IA gratuit PME : ce qui existe, ce que ça produit et quand ça ne suffit pas",
+    seoTitle: "Audit IA gratuit PME : ce qui existe vraiment",
+    excerpt:
+      "Autodiag, Diag Data IA Bpifrance ou session cabinet : ce que chaque option 'gratuite' produit concrètement et quand passer à un audit payant.",
+    content: `Un dirigeant sur quatre utilise déjà l'IA dans son entreprise. Le chiffre est tiré du Baromètre France Num 2025 (CREDOC/DGE, 11 021 entreprises) : 26 % des TPE-PME françaises recourent à l'IA en 2025, contre 13 % un an plus tôt. Doublement en douze mois.
+
+Les trois quarts restants cherchent un point d'entrée. Et la première chose qu'ils tapent dans un moteur de recherche, c'est souvent "audit IA gratuit PME".
+
+Le problème : ce mot "gratuit" recouvre trois réalités très différentes, que la plupart des dirigeants confondent. Cette confusion crée des attentes mal calibrées, des démarches avortées, et parfois un sentiment d'avoir perdu du temps sur une fausse piste.
+
+> Ce guide démêle les trois options disponibles, leurs livrables réels, leurs contraintes concrètes, et les situations où elles suffisent ou non.
+
+## Option 1 : l'autodiagnostic en ligne
+
+L'autodiagnostic en ligne est un questionnaire gratuit, accessible sans inscription, qui produit un score de maturité IA par domaine. Il ne génère aucun livrable actionnable et ne remplace pas une analyse externe.
+
+### Ce que c'est
+
+L'Autodiag IA Bpifrance/France Num est l'outil de référence en France. Trente-deux questions, environ 15 minutes, accessible sans inscription. Il s'inscrit dans le programme "Osez l'IA" de France 2030, qui structure l'accompagnement des PME en quatre niveaux progressifs.
+
+À l'issue, vous obtenez un score radar par domaine : stratégie, données, compétences, usages, organisation. C'est visuel, immédiat, et totalement gratuit.
+
+D'autres initiatives locales existent. La CCI Lyon Métropole a lancé en septembre 2026 l'IAg Flash, un diagnostic express de 10 questions sur la maturité IA locale (source : CCI Lyon Métropole Saint-Étienne Roanne, 15/09/2026). Format similaire, périmètre plus ciblé.
+
+### Ce que ça produit
+
+Un score. Pas une feuille de route.
+
+L'autodiagnostic reflète votre perception de votre propre maturité. Il ne connaît pas vos processus réels, ne voit pas vos données, n'évalue pas vos systèmes d'information. Deux entreprises avec le même score peuvent avoir des réalités opérationnelles très différentes.
+
+> **À retenir :** l'autodiagnostic est un outil d'orientation, pas un outil de décision. Il vous dit "vous êtes plutôt en phase de démarrage", pas "voici par quoi commencer ni quel budget prévoir".
+
+### Pour qui ça suffit
+
+- Vous n'avez aucune visibilité sur votre maturité IA et voulez vous positionner rapidement.
+- Vous préparez une discussion interne (CODIR, RH, DSI) et cherchez un langage commun.
+- Vous souhaitez savoir si vous êtes éligible à des dispositifs cofinancés avant d'aller plus loin.
+
+Si votre objectif est de construire un plan d'action ou de lancer un premier projet IA, l'autodiagnostic ne produira pas ce dont vous avez besoin. Vous aurez besoin d'aller à l'étape suivante.
+
+## Option 2 : les dispositifs cofinancés publics
+
+Les dispositifs cofinancés publics (principalement le Diag Data IA Bpifrance) permettent à des PME éligibles de financer une partie d'un audit externalisé. Le Diag Data IA coûte 10 000 euros HT, avec un reste à charge de 6 000 à 7 500 euros HT après cofinancement, et prend 3 à 5 mois.
+
+### Le Diag Data IA Bpifrance
+
+C'est le dispositif structurant. Il fait partie du même programme "Osez l'IA" France 2030, mais à un niveau d'intensité très supérieur. Un cabinet spécialisé mandaté vient chez vous, analyse vos flux de données, vos processus, vos usages existants. La restitution comprend un diagnostic structuré et des préconisations.
+
+Le coût affiché est de 10 000 euros HT. Bpifrance cofinance une partie. Selon iapro.fr (2026), le reste à charge pour la PME oscille entre **6 000 et 7 500 euros HT** selon le taux de prise en charge appliqué (les sources divergent entre 40 % et 25 %).
+
+> **Chiffre à retenir :** 3 à 5 mois entre le dépôt du dossier et la restitution finale (source : iapro.fr, procédure Diag Data IA, 2026). Ce n'est pas un outil pour répondre à une urgence.
+
+### Les conditions d'éligibilité
+
+Le Diag Data IA n'est pas accessible à toutes les entreprises. Les critères sont stricts :
+
+- Entre 10 et 2 000 salariés
+- Chiffre d'affaires supérieur à 1 million d'euros
+- Plus d'un an d'existence
+
+Les TPE de moins de 10 salariés sont exclues du dispositif. Si vous êtes en dessous de ces seuils, l'autodiagnostic en ligne reste votre seule option publique.
+
+### Ce que ça produit réellement
+
+Le Diag Data IA produit davantage qu'un score : un rapport d'analyse, une cartographie des données disponibles, des pistes de cas d'usage par métier. C'est structuré et externe, donc plus crédible pour un CODIR ou un conseil d'administration.
+
+Mais deux points méritent d'être anticipés :
+
+- Le cabinet mandaté est choisi par Bpifrance sur une liste d'opérateurs agréés, pas par vous. Vous n'êtes pas toujours en position de choisir l'interlocuteur.
+- Le livrable est un diagnostic : il vous dit où vous en êtes et ce qui est possible, pas nécessairement comment implémenter. La feuille de route détaillée et le pilotage d'un premier projet restent à construire après.
+
+Pour comprendre ce qu'un diagnostic sérieux doit contenir, consultez notre article sur [les livrables à exiger d'un diagnostic IA](/blog/diagnostic-ia-pme).
+
+## Option 3 : la session de découverte cabinet
+
+La session de découverte cabinet est un premier rendez-vous gratuit de 45 à 90 minutes, proposé par presque tous les cabinets conseil IA. Elle ne produit aucun livrable formel et constitue avant tout un entretien de qualification commerciale.
+
+### Ce que les cabinets proposent
+
+Presque tous les cabinets conseil IA proposent une première session gratuite. Elle dure généralement 45 à 90 minutes. Certains l'appellent "audit flash", d'autres "diagnostic offert", d'autres encore "session stratégique initiale".
+
+Soyons précis sur ce que c'est : un rendez-vous de qualification commerciale.
+
+Le consultant pose des questions sur votre secteur, vos enjeux, vos projets en cours. Il comprend votre situation. Et il évalue si votre dossier est compatible avec son offre.
+
+> **Red flag :** si une session gratuite de 45 minutes se conclut par un "livrable audit complet", méfiez-vous. Un audit sérieux prend plusieurs jours de travail. Ce qu'on vous présente est un document commercial, pas un diagnostic.
+
+### Ce que ça peut apporter malgré tout
+
+Une session de découverte bien conduite a une vraie valeur, à condition d'en avoir des attentes réalistes :
+
+- Vous identifiez si le cabinet comprend votre secteur et vos enjeux métiers.
+- Vous obtenez un premier cadrage qualitatif de votre situation.
+- Vous repartez avec 2 ou 3 questions de fond à poser à votre équipe.
+
+Ce n'est pas un audit. Mais c'est un filtre utile pour évaluer un prestataire avant de vous engager. La [méthodologie de l'Audit IA Express Smart Impulsion](/blog/audit-ia-express-methodologie) détaille par exemple ce qui distingue une session commerciale d'un vrai travail d'audit en 3 jours.
+
+## Comment choisir selon votre situation
+
+Le choix entre les trois options dépend de votre échéance, de votre taille et du livrable dont vous avez besoin. Résumé : l'autodiagnostic convient à une PME sans visibilité initiale ; le Diag Data IA convient à une entreprise éligible avec 3 à 5 mois devant elle ; un audit payant s'impose dès que vous avez une échéance courte ou un enjeu de décision structuré.
+
+Le tableau ci-dessous résume les trois options selon quatre dimensions opérationnelles.
+
+| Critère | Autodiagnostic en ligne | Diag Data IA Bpifrance | Session découverte cabinet |
+|---|---|---|---|
+| Coût réel | Gratuit | 6 000-7 500 € HT (reste à charge) | Gratuit |
+| Durée | 15 minutes | 3 à 5 mois | 45 à 90 minutes |
+| Livrable | Score radar | Rapport + préconisations | Aucun livrable formel |
+| Actionnable | Non | Partiellement | Non |
+| Éligibilité | Tous | 10 à 2 000 salariés, CA > 1 M€ | Tous |
+
+### Trois profils types
+
+Voici comment orienter votre choix selon votre situation de départ :
+
+1. **PME de moins de 20 personnes, sans DSI, sans visibilité sur votre maturité IA.** Commencez par l'autodiagnostic Bpifrance (15 min, gratuit). Si votre CA dépasse 1 million d'euros, renseignez-vous sur le Diag Data IA pour la suite. Inutile de payer un cabinet avant d'avoir fait ce travail préliminaire.
+
+2. **ETI de 150 à 300 personnes, avec 2 ou 3 cas d'usage identifiés mais aucune priorisation.** Le Diag Data IA peut vous structurer, mais vous attendrez 3 à 5 mois. Un audit payant ciblé sur vos processus prioritaires sera souvent plus rapide et plus pertinent.
+
+3. **Dirigeant devant présenter un plan IA à son actionnaire ou conseil d'administration dans deux mois.** Ni l'autodiagnostic ni le Diag Data IA ne répondent à cette échéance. Une session découverte cabinet peut donner une orientation, mais vous aurez besoin d'un engagement formel avec livrable pour convaincre. Ce cas est directement couvert par [notre guide complet sur l'audit IA en PME](/blog/audit-ia-pme-guide-complet).
+
+## Quand les options gratuites ne suffisent plus
+
+Les options gratuites atteignent leurs limites dès que vous avez besoin d'un livrable actionnable dans un délai court, d'un argumentaire chiffré pour un CODIR ou d'un cadrage sur des cas d'usage déjà identifiés. Dans ces situations, un audit payant est la réponse adaptée.
+
+### Les trois signaux qui indiquent qu'il faut passer à l'étape supérieure
+
+Plusieurs situations rendent les options gratuites insuffisantes :
+
+- Vous avez un projet IA en cours ou imminent et vous avez besoin d'un cadrage rapide, pas d'un score de maturité.
+- Vous devez présenter un argumentaire chiffré à un CODIR, un conseil d'administration ou un investisseur.
+- Vous avez déjà réalisé un autodiagnostic et identifié des axes, mais personne en interne ne sait par quoi commencer concrètement.
+
+Dans ces cas, un audit payant n'est pas un luxe. C'est le moyen d'éviter de lancer un projet sur de mauvaises bases, avec les coûts que ça implique. Pour comprendre les fourchettes de prix, l'article sur [le coût d'un audit IA pour une PME en 2026](/blog/cout-audit-ia-pme-fourchettes-2026) donne des repères concrets.
+
+### Ce qu'un audit payant apporte de différent
+
+Un audit payant conduit par un cabinet compétent produit des livrables que les options gratuites ne peuvent pas fournir :
+
+- Cartographie de vos processus et identification des cas d'usage réalistes dans votre contexte
+- Évaluation de la qualité et de la disponibilité de vos données
+- Priorisation avec critères ROI et effort d'implémentation
+- Feuille de route sur 6 à 18 mois avec jalons et budget estimé
+
+C'est ce niveau de précision qui permet de prendre une décision d'investissement. Et c'est ce que les options "gratuites" ne peuvent structurellement pas produire en quelques minutes ou sans accès réel à vos données.
+
+À l'inverse, un audit payant sérieux doit aussi comporter des garanties claires. Vérifiez systématiquement :
+
+- Que le périmètre et les livrables sont définis par écrit avant le démarrage
+- Que le consultant accède directement à vos processus, pas seulement à vos réponses à un questionnaire
+- Que la restitution inclut une priorisation chiffrée, pas uniquement une liste de recommandations génériques
+- Que le cabinet peut montrer des livrables anonymisés d'interventions similaires dans votre secteur
+
+> **Pour un dirigeant pressé :** si vous avez besoin d'une réponse dans les 2 à 4 semaines plutôt que dans les 3 à 5 mois du Diag Data IA, un audit ciblé est souvent la bonne option. L'Audit IA Express Smart Impulsion est conçu pour cette situation : 3 jours de travail, livrable actionnable, prix fixe. [Demandez un premier échange](/services/audit).
+
+Une fois l'audit réalisé, la question qui se pose est celle du suivi. Notre article sur [comment piloter votre prestataire IA après un audit](/blog/piloter-prestataire-ia-apres-audit) détaille les 4 jalons à mettre en place pour ne pas perdre le bénéfice du diagnostic.
+
+## Questions fréquentes
+
+### L'Autodiag IA de Bpifrance est-il vraiment gratuit ?
+
+Oui, totalement. L'Autodiag IA Bpifrance/France Num est accessible en ligne sans inscription préalable et sans frais. Trente-deux questions, 15 minutes, un score radar à la clé. La limite n'est pas le coût mais le livrable : vous obtenez un positionnement de maturité, pas une feuille de route. L'outil vous dit où vous en êtes, pas ce que vous devez faire ni dans quel ordre.
+
+### Ma PME est-elle éligible au Diag Data IA Bpifrance ?
+
+Les critères sont cumulatifs : entre 10 et 2 000 salariés, chiffre d'affaires supérieur à 1 million d'euros, et plus d'un an d'existence. Si vous répondez à ces trois conditions, vous pouvez déposer un dossier. Les TPE de moins de 10 salariés sont exclues. Si vous êtes éligible, renseignez-vous auprès de votre conseiller Bpifrance régional pour connaître les délais actuels et les opérateurs agréés disponibles dans votre zone.
+
+### Combien coûte le Diag Data IA et combien de temps faut-il ?
+
+Le coût total du Diag Data IA est de 10 000 euros HT. Après cofinancement Bpifrance, le reste à charge pour la PME se situe entre 6 000 et 7 500 euros HT selon le taux appliqué (les sources divergent : iapro.fr cite 40 % de prise en charge, soit 6 000 euros de reste ; d'autres sources mentionnent 25 %, soit 7 500 euros). Le délai entre le dépôt du dossier et la restitution finale est de 3 à 5 mois (source : iapro.fr, 2026). Anticipez ce calendrier si vous avez une échéance interne.
+
+### Quelle différence entre un autodiagnostic et un vrai audit IA ?
+
+L'autodiagnostic repose sur vos propres réponses à un questionnaire. Il reflète votre perception de votre maturité, pas une analyse externe de vos processus. Un audit IA implique un tiers qualifié qui accède à vos données réelles, vos systèmes, vos processus métiers. Il produit des livrables actionnables : cartographie, priorisation, feuille de route chiffrée. C'est une différence de nature, pas de degré.
+
+### Un audit IA gratuit peut-il suffire pour construire une feuille de route ?
+
+Dans la grande majorité des cas, non. L'autodiagnostic donne un positionnement mais ne connaît pas votre contexte réel. La session découverte cabinet est une qualification commerciale. Seul le Diag Data IA peut produire quelque chose de structuré, mais il prend 3 à 5 mois. Si vous avez besoin d'une feuille de route opérationnelle dans un délai court, un audit payant ciblé sera plus efficace, même en tenant compte de son coût.`,
+    author: "Laurent Bouzon",
+    date: "10 septembre 2026",
+    dateISO: "2026-09-10",
+    readTime: "11 min",
+    category: "Audit & Methodologie",
+    image: "/audit-ia-gratuit-pme-ce-qui-existe-ce-que-ca-vaut-hero.png",
+    imageAlt: "Image d'illustration pour l'article \"Audit IA gratuit PME : ce qui existe, ce que ça produit et quand ça ne suffit pas\"",
+    faq: [
+      {
+        question: "L'Autodiag IA de Bpifrance est-il vraiment gratuit ?",
+        answer: "Oui, l'Autodiag IA Bpifrance/France Num est entièrement gratuit et accessible en ligne sans inscription préalable. Il comprend 32 questions et prend environ 15 minutes. En revanche, il ne produit qu'un score radar par domaine, sans feuille de route ni recommandations personnalisées. C'est un outil d'orientation, pas un audit. Il vous dit où vous en êtes, pas ce que vous devez faire.",
+      },
+      {
+        question: "Ma PME est-elle éligible au Diag Data IA Bpifrance ?",
+        answer: "Les critères d'éligibilité au Diag Data IA sont : entre 10 et 2 000 salariés, chiffre d'affaires supérieur à 1 million d'euros, et plus d'un an d'existence. Les TPE de moins de 10 salariés sont donc exclues. Si vous êtes éligible, vous entrez dans le programme 'Osez l'IA' de France 2030, qui comporte quatre niveaux d'accompagnement progressifs, du gratuit au cofinancé.",
+      },
+      {
+        question: "Combien coûte le Diag Data IA et combien de temps faut-il ?",
+        answer: "Le Diag Data IA est facturé 10 000 euros HT. Bpifrance prend en charge entre 40 % et 75 % selon les sources et l'année de référence. En pratique, attendez un reste à charge compris entre 6 000 et 7 500 euros HT pour votre PME. Le délai entre le dépôt du dossier et la restitution finale est de 3 à 5 mois selon iapro.fr (2026). Ce n'est pas un dispositif rapide.",
+      },
+      {
+        question: "Quelle différence entre un autodiagnostic et un vrai audit IA ?",
+        answer: "Un autodiagnostic vous donne un score de maturité basé sur vos propres réponses à un questionnaire. Un audit IA implique une analyse externe de vos processus, de vos données et de vos outils, conduite par un tiers qualifié. L'audit produit des livrables actionnables : cartographie des cas d'usage, priorisation chiffrée, feuille de route. L'autodiagnostic produit un score. Ce sont deux niveaux de lecture radicalement différents.",
+      },
+      {
+        question: "Un audit IA gratuit peut-il suffire pour construire une feuille de route ?",
+        answer: "Non, dans la grande majorité des cas. L'autodiagnostic en ligne vous positionne sur une échelle de maturité, mais ne connaît pas votre secteur, vos processus, vos données ni vos contraintes métiers. La session découverte cabinet dure 45 à 90 minutes et sert à qualifier votre dossier. Seul le Diag Data IA (cofinancé, pas gratuit) peut produire quelque chose d'actionnable, mais il prend 3 à 5 mois. Si votre échéance est courte, un audit payant ciblé est souvent plus efficace.",
+      },
+    ],
+  },
+  {
     slug: "ia-drh-pme-gestion-administrative-cas-usage",
     title: "IA et gestion administrative RH en PME : les cas d'usage concrets",
     seoTitle: "IA RH PME : gestion admin sans SIRH",
