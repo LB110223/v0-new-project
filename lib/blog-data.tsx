@@ -69,6 +69,302 @@ export interface BlogArticle {
 
 export const blogArticles: BlogArticle[] = [
   {
+    slug: "financement-projet-ia-pme-bpifrance-business-case",
+    title: "Financer projet IA PME : aides Bpifrance et reste à charge",
+    seoTitle: "Financer projet IA PME : aides Bpifrance et reste à charge",
+    excerpt:
+      "Comment financer un projet IA PME avec Bpifrance (Diag Data IA, PTN) et Crédit d'Impôt Innovation pour réduire votre reste à charge à 40 %.",
+    content: `# Financement projet IA PME : combiner les aides Bpifrance pour réduire votre reste à charge
+
+En France, seules 10 % des entreprises de 10 salariés ou plus déclaraient utiliser une technologie d'intelligence artificielle en 2024, selon l'INSEE (enquête TIC Entreprises 2024). Pourtant, ces mêmes entreprises concentrent, selon les données INSEE, la moitié du chiffre d'affaires total du tissu entrepreneurial français, et deux cinquièmes de l'emploi. L'écart entre adopteurs et non-adopteurs se creuse. La question n'est plus de savoir si votre PME doit s'y mettre, mais comment financer la transition sans mettre en péril la trésorerie.
+
+Smart Impulsion est un cabinet conseil IA B2B qui accompagne des PME et ETI françaises dans la structuration et le financement de leurs projets IA. Ce guide est produit à partir de l'analyse des dispositifs publics disponibles en 2026, dans le cadre de notre pratique de conseil auprès de dirigeants de PME.
+
+Le frein le plus souvent invoqué en CODIR ? Le coût. Un projet IA structuré pour une PME de 50 à 200 salariés représente facilement 80 000 à 150 000 euros. Ce chiffre brut provoque des sueurs froides. Jusqu'à ce qu'on l'examine avec les bons outils.
+
+Ce guide explique comment articuler les dispositifs publics disponibles en 2026 pour réduire concrètement votre reste à charge, et comment présenter ce montage en langage financier à votre DAF et à vos associés.
+
+> Avant de lire : les montants des dispositifs Bpifrance (Diag Data IA, PTN, IA Booster) présentés dans cet article sont indicatifs et correspondent aux conditions publiquement connues. Ils n'ont pas pu être vérifiés par accès direct aux pages bpifrance.fr lors de la rédaction. Vérifiez toujours les conditions en vigueur directement sur bpifrance.fr ou auprès d'un conseiller Bpifrance avant de déposer un dossier.
+
+## Pourquoi financer un projet IA en PME est moins compliqué qu'on ne le pense
+
+### Le problème du chiffre brut
+
+Quand le directeur général présente un projet IA à 120 000 euros en CODIR, la réaction naturelle du DAF est de sortir la calculette et de diviser par le résultat net de l'année. L'exercice est brutal. Il oublie l'essentiel : ce montant brut n'est pas ce que vous allez réellement décaisser.
+
+Les aides publiques françaises pour la transformation numérique des PME sont fragmentées, denses, et peu pédagogiques sur la logique de cumul. Bpifrance publie des fiches produit. Les régions publient leurs propres dispositifs. Le Trésor public documente le Crédit d'Impôt Innovation en format réglementaire. Aucun acteur public ne vous explique comment empiler ces dispositifs de façon cohérente sur un projet concret.
+
+C'est précisément ce vide que cet article comble.
+
+### Ce que l'écart EU révèle sur l'enjeu
+
+En Europe, 17 % des petites entreprises utilisent l'IA contre 55 % des grandes entreprises, selon Eurostat (données 2025). Cet écart de 38 points n'est pas un écart de volonté : c'est un écart de ressources, de capacité d'investissement et d'accès à l'ingénierie financière. Les grandes entreprises ont des équipes dédiées pour monter les dossiers de financement. Les PME, non.
+
+Les dispositifs publics ont précisément pour vocation de combler une partie de cet écart structurel. Encore faut-il savoir les combiner.
+
+### La logique de cumul en une phrase
+
+La réponse courte : vous pouvez cumuler plusieurs dispositifs parce qu'ils ne financent pas les mêmes postes de dépense.
+
+Les aides disponibles ne financent pas les mêmes postes de dépense. Le Diag Data IA prend en charge le diagnostic. Le IA Booster accompagne la montée en compétences. Le Prêt Transformation Numérique finance l'investissement. Le Crédit d'Impôt Innovation réduit la charge fiscale sur la conception. Les aides régionales complètent l'ensemble. Parce qu'ils portent sur des objets distincts, ces dispositifs sont généralement cumulables, sous réserve de respecter les règles de non-cumul propres à chacun.
+
+Résultat sur un projet type : un reste à charge réel d'environ 40 % au lieu de 100 %. C'est la différence entre un projet bloqué en CODIR et un projet approuvé.
+
+## Le Diag Data IA Bpifrance : le point de départ obligé
+
+### Ce que c'est concrètement
+
+**Le Diag Data IA en bref** : c'est un diagnostic-conseil subventionné par Bpifrance, réalisé en 8 jours par un prestataire agréé, qui cartographie vos données, identifie vos cas d'usage IA prioritaires, et produit une feuille de route chiffrée. Coût indicatif : environ 13 000 euros HT, dont environ 5 500 euros pris en charge par Bpifrance.
+
+Le Diag Data IA est un diagnostic-conseil de 8 jours réalisé par un prestataire agréé par Bpifrance. L'objectif : cartographier vos données existantes, identifier les cas d'usage IA prioritaires pour votre activité, et produire une feuille de route priorisée avec des estimations de coût et de retour sur investissement.
+
+Ce n'est pas un audit purement technique. C'est un livrable orienté décision, destiné à valider ou invalider la pertinence d'un investissement IA avant de l'engager. Pour votre CODIR, c'est une validation externe indépendante, ce qui n'est pas anodin quand vous demandez un budget de six chiffres.
+
+À titre indicatif, et sous réserve de vérification sur bpifrance.fr, les conditions connues pour 2026 sont les suivantes :
+
+- Coût total du diagnostic : environ 13 000 euros HT
+- Prise en charge Bpifrance : environ 5 500 euros HT (soit 42 % du coût)
+- Reste à charge PME : environ 7 500 euros HT
+- Durée : 8 jours sur 3 mois
+- Conditions d'accès : PME ou ETI de 10 à 2 000 ETP, chiffre d'affaires supérieur à 1 million d'euros
+
+Ces montants ont pu évoluer. Consultez bpifrance.fr ou un conseiller Bpifrance pour les conditions exactes en vigueur au moment de votre dossier.
+
+### Pourquoi c'est le premier chapitre, pas une option
+
+Le Diag Data IA remplit trois fonctions que les dirigeants sous-estiment.
+
+Premièrement, il structure votre brief technique. Sans ce diagnostic, vous ne savez pas précisément quoi acheter ni à qui. Le risque de choisir le mauvais prestataire ou la mauvaise technologie est élevé, et coûteux.
+
+Deuxièmement, il ouvre la porte aux autres dispositifs. Un Prêt Transformation Numérique se dépose beaucoup plus facilement quand vous présentez un diagnostic formalisé en annexe. Bpifrance apprécie les projets qui ont fait l'objet d'une analyse préalable rigoureuse.
+
+Troisièmement, il légitime le projet en interne. Un rapport de 8 jours produit par un consultant agréé Bpifrance a un poids différent d'une présentation PowerPoint interne. Votre DAF, vos associés ou votre conseil d'administration y trouveront les arguments dont ils ont besoin pour approuver l'investissement.
+
+### Le lien avec votre préparation en amont
+
+Le Diag Data IA Bpifrance suppose que votre projet est déjà assez structuré pour qu'un prestataire externe puisse travailler efficacement en 8 jours. Si votre SI est opaque, vos données non cartographiées, et vos cas d'usage non priorisés, le diagnostic sera partiel.
+
+C'est là qu'un [audit IA pour PME](/blog/audit-ia-pme-guide-complet) en amont prend tout son sens. En structurant votre maturité data et IA avant le Diag Bpifrance, vous maximisez la valeur des 8 jours de diagnostic et la qualité de la feuille de route qui en sort.
+
+> Notre Audit IA Express prépare votre dossier Diag Data IA Bpifrance : cartographie des données, identification des cas d'usage prioritaires, évaluation de la maturité IT. Vous arrivez au diagnostic Bpifrance avec un brief structuré. [Découvrir l'Audit IA Express](/services/audit)
+
+## IA Booster et Prêt Transformation Numérique : financer la phase d'investissement
+
+### Le IA Booster : l'accompagnement, pas l'investissement
+
+Le programme IA Booster est un dispositif d'accompagnement collectif et individuel lancé dans le cadre de France 2030. Il s'adresse aux PME et ETI qui veulent accélérer leur adoption de l'IA mais manquent de repères internes.
+
+Ce que le IA Booster propose concrètement :
+
+- Des ateliers collectifs avec d'autres dirigeants de PME (partage d'expériences, cas d'usage sectoriels)
+- Un accompagnement individuel par des experts IA référencés
+- Une mise en relation avec l'écosystème de prestataires IA qualifiés
+
+Les ateliers collectifs sont proposés à coût réduit ou sans frais selon les sessions (modalités à confirmer sur bpifrance.fr). Les modalités du volet individuel sont à vérifier directement sur bpifrance.fr, car elles ont pu évoluer depuis le lancement du programme. Le IA Booster ne finance pas votre projet IA : il vous aide à le définir et à éviter les erreurs de parcours.
+
+> Le IA Booster est à l'accompagnement ce que le Diag Data IA est au diagnostic : c'est un dispositif de réduction du risque, pas une source de financement au sens propre.
+
+### Le Prêt Transformation Numérique : un prêt, pas une subvention
+
+**Le PTN en bref** : le Prêt Transformation Numérique (PTN) est un prêt Bpifrance sans garantie sur les actifs, d'une durée de 5 ans avec 2 ans de différé d'amortissement, pour des montants de 10 000 à 300 000 euros selon les conditions en vigueur. Ce n'est pas une subvention : il est remboursable intégralement.
+
+C'est l'erreur la plus fréquente dans les présentations CODIR sur le financement IA : confondre le Prêt Transformation Numérique (PTN) avec une subvention.
+
+Le PTN est un prêt. Il est remboursable. Il ne réduit pas le coût total de votre projet : il l'étale dans le temps.
+
+Ses avantages sont réels néanmoins :
+
+- Pas de garantie sur les actifs de l'entreprise (différent d'un prêt bancaire classique)
+- Durée de 5 ans avec différé d'amortissement de 2 ans (vous ne remboursez pas le capital pendant 2 ans)
+- Montant de 10 000 à 300 000 euros selon les sources publiques disponibles
+- Taux fixe, souvent compétitif par rapport aux conditions du marché
+
+Dans votre business case, le PTN doit figurer en sources de financement (il améliore votre trésorerie de projet), pas en déduction du coût. La nuance est essentielle pour votre DAF.
+
+Conditions générales connues : PME de 3 ans minimum d'existence, viabilité financière, projet numérique clairement identifié. Un cofinancement par votre banque commerciale est souvent requis. Vérifiez les conditions exactes 2026 sur bpifrance.fr.
+
+### Comment les articuler dans le temps
+
+La séquence naturelle est la suivante :
+
+1. Diag Data IA (mois 1 à 5, selon délais d'instruction et durée du diagnostic)
+2. IA Booster en parallèle ou en aval (accompagnement collectif)
+3. Dépôt PTN une fois le Diag finalisé (le rapport Bpifrance renforce le dossier de prêt)
+4. Démarrage du projet d'investissement avec trésorerie PTN sécurisée
+5. Dépense de formation, partiellement prise en charge par l'OPCO en complément
+
+Cette séquence n'est pas arbitraire. Elle répond à une logique de constitution de dossier : chaque étape renforce la crédibilité de la suivante. Avant même d'engager les dispositifs de financement, [prioriser vos projets IA](/blog/prioriser-projets-ia-pme) en amont vous permet de ne déposer un Diag Data IA que sur le cas d'usage le plus solide. Sur [le budget IA d'une PME](/blog/budget-ia-pme), la question n'est pas seulement combien on dépense, mais dans quel ordre on engage les postes.
+
+## Le Crédit d'Impôt Innovation : l'arme fiscale méconnue des PME
+
+### Ce qu'il couvre réellement
+
+**Le CII en bref** : le Crédit d'Impôt Innovation (CII) est un mécanisme fiscal (et non un dispositif Bpifrance) qui permet aux PME (moins de 250 salariés, CA inférieur à 50 millions d'euros ou bilan inférieur à 43 millions) de récupérer jusqu'à 30 % des dépenses de conception de nouveaux produits (taux à vérifier avec votre expert-comptable, modifié par les lois de finances successives depuis 2023), dans la limite de 400 000 euros de dépenses éligibles par an. Pour un projet IA, il peut représenter jusqu'à 120 000 euros de crédit d'impôt annuel.
+
+Le Crédit d'Impôt Innovation (CII) n'est pas un dispositif Bpifrance. C'est un mécanisme fiscal. Il s'applique aux dépenses de conception de nouveaux produits réalisées par des PME au sens communautaire (moins de 250 salariés, chiffre d'affaires inférieur à 50 millions d'euros ou bilan inférieur à 43 millions).
+
+Pour votre projet IA, le CII peut s'appliquer sur les dépenses de conception de nouveaux outils ou prototypes : un nouveau moteur de scoring interne, un prototype d'automatisation d'analyse documentaire, une nouvelle interface de pilotage IA. La condition : ces dépenses doivent correspondre à la conception d'un produit nouveau (pas à l'intégration d'un logiciel existant).
+
+À titre indicatif, les conditions publiques connues :
+
+- Taux du crédit d'impôt : jusqu'à 30 % des dépenses éligibles (vérifiez le taux applicable en 2026 avec votre expert-comptable)
+- Plafond de dépenses éligibles : 400 000 euros par an (soit un CII maximum de 120 000 euros par an)
+- Bénéficiaires : PME au sens communautaire uniquement
+
+Le taux et les plafonds ont pu évoluer avec les lois de finances successives. Vérifiez les conditions exactes auprès de votre expert-comptable ou sur impots.gouv.fr avant de l'intégrer dans votre business case.
+
+### La règle de cumul à ne pas oublier
+
+C'est le point technique que même des comptables expérimentés oublient parfois.
+
+> Les subventions publiques reçues doivent être déduites de la base de calcul du CII. Si vous recevez 5 500 euros de subvention Bpifrance sur votre Diag, ces 5 500 euros ne font pas partie de la base éligible au CII.
+
+Concrètement : sur 70 000 euros de dépenses de conception IA éligibles, si vous avez reçu 5 500 euros de subvention sur des dépenses entrant dans cette base, votre CII s'applique sur 64 500 euros, pas sur 70 000. Un oubli sur ce point peut conduire à un redressement fiscal. Votre expert-comptable doit valider le calcul.
+
+### Ce que ça change en trésorerie
+
+Le CII est une restitution d'impôt, pas un virement immédiat. Il réduit votre impôt sur les sociétés de l'exercice correspondant aux dépenses. Si votre IS est inférieur au montant du CII, l'excédent vous est restitué. Pour les PME en phase d'investissement, souvent avec un IS modéré, c'est un levier réel, même si son effet se matérialise avec un décalage d'un exercice fiscal.
+
+Dans le business case CODIR, présentez le CII dans le tableau des flux avec une colonne "impact fiscal an N+1" distincte de l'impact trésorerie immédiat. Cela évite les malentendus sur la date de récupération effective.
+
+Pour aller plus loin sur le cadrage financier du projet, l'article sur [la construction d'un business case IA pour PME](/blog/business-case-ia-pme-construire-justifier) détaille comment structurer les flux de façon convaincante.
+
+## Comment monter la simulation de reste à charge pour votre CODIR
+
+La réponse courte : sur un projet de 120 000 euros HT, un montage bien construit (Diag Data IA + PTN + CII + aides régionales) peut ramener votre reste à charge réel à environ 40 % du coût total. Le détail du calcul est présenté ci-dessous.
+
+### La simulation type : une PME de 80 salariés, projet à 120 000 euros HT
+
+Cette simulation est entièrement indicative. Elle repose sur des hypothèses explicites et des montants non confirmés par accès direct aux sources officielles. Elle illustre une logique de montage, pas un engagement de résultat.
+
+**Hypothèses du cas type :**
+- PME de 80 salariés, secteur services B2B, siège en Ile-de-France
+- Projet IA structuré : diagnostic + prototypage + déploiement + formation
+- Coût total estimé : 120 000 euros HT
+- Éligibilité CII : oui (PME au sens communautaire, dépenses de conception IA nouvelles)
+
+**Décomposition du reste à charge :**
+
+| Poste | Coût HT | Subvention / Crédit | PTN (prêt) | Reste à charge net |
+|---|---|---|---|---|
+| Diagnostic Diag Data IA | 13 000 € | 5 500 € (Bpifrance) | - | 7 500 € |
+| Développement IA + intégration SI | 90 000 € | 36 000 € (régionale 15 000 € + CII 21 000 €) | 30 000 € | 24 000 €* |
+| Formation équipes | 17 000 € | - (voir note OPCO) | - | 17 000 € |
+| **Total projet** | **120 000 € HT** | **41 500 €** | **30 000 €** | **48 500 € HT (40 %)** |
+
+*Le PTN de 30 000 € améliore la trésorerie de projet mais sera remboursé sur 5 ans. Sans le PTN, le besoin de financement immédiat sur ce poste serait de 54 000 €.
+
+**Lecture du tableau :**
+- Le CII de 21 000 euros est calculé sur 70 000 euros de dépenses de conception éligibles, après déduction des 5 500 euros de subvention Bpifrance de la base. Vérifiez le taux applicable en 2026 avec votre expert-comptable : le CII a fait l'objet de modifications législatives récentes.
+- L'aide régionale de 15 000 euros est une estimation pour l'IDF. Elle peut être nulle ou supérieure selon votre région et le dispositif applicable.
+- La formation peut bénéficier d'une prise en charge OPCO partielle (estimation 5 000 à 9 000 euros selon votre OPCO), ce qui ramènerait le reste à charge formation à 8 000-12 000 euros et le total à environ 40 000-43 000 euros HT.
+- Le reste à charge de 48 500 euros représente 40 % du projet hors remboursement futur du PTN, et avant toute prise en charge OPCO sur la formation.
+
+> Ce tableau ne constitue pas un engagement de financement. Chaque dispositif est soumis à des conditions d'éligibilité et des plafonds propres. Faites valider ce montage par un conseiller Bpifrance et votre expert-comptable avant de le présenter en CODIR.
+
+### Les questions à poser à votre conseiller Bpifrance
+
+Avant de figer les chiffres dans votre business case, obtenez des réponses précises sur quatre points :
+
+- Votre entreprise est-elle éligible au Diag Data IA (taille, CA, secteur) ?
+- Quels sont les délais actuels de traitement des dossiers Diag Data IA ?
+- Le PTN est-il accessible à votre profil financier (ancienneté, ratios) ?
+- Existe-t-il des dispositifs régionaux cumulables avec votre dossier ?
+
+Ces questions ont des réponses différentes selon votre région, votre secteur et votre profil financier. Aucun article, aussi détaillé soit-il, ne peut se substituer à une conversation avec un conseiller Bpifrance qui connaît les conditions en vigueur.
+
+### Le tableau de bord pour votre DAF
+
+Votre DAF ou votre directeur financier attend une présentation en trois blocs :
+
+1. **Flux d'investissement** : le calendrier de décaissement poste par poste
+2. **Flux de financement** : les subventions (entrées), le PTN (entrée puis remboursements), le CII (entrée différée an N+1)
+3. **Reste à charge net par exercice** : ce qui sort réellement de la trésorerie chaque année
+
+Pour [évaluer le ROI de l'IA en entreprise](/blog/roi-intelligence-artificielle-entreprise) et construire une présentation convaincante, la lisibilité de ces trois flux est aussi importante que les chiffres eux-mêmes. Un CODIR qui ne comprend pas la structure de financement vote non par défaut.
+
+La [grille de coût IA pour PME](/blog/cout-ia-entreprise-tco-grille-pme) est un outil complémentaire utile pour estimer le coût total du projet avant de calculer les aides : les aides s'appliquent sur des montants réels, pas sur des estimations optimistes.
+
+### Les aides régionales : un levier variable à ne pas négliger
+
+Les aides régionales numériques sont parmi les moins connues et les plus variables de l'ensemble des dispositifs disponibles. Certaines régions proposent des chèques numériques, d'autres des co-financements directs sur les investissements IA, d'autres des accompagnements spécifiques via leurs structures de développement économique.
+
+- En Île-de-France, des dispositifs de cofinancement PME sont accessibles via Bpifrance en partenariat avec la Région.
+- En Occitanie, Bretagne ou Auvergne-Rhône-Alpes, des dispositifs spécifiques numériques/IA existent.
+- Dans toutes les régions, les fonds FEDER (Fonds Européen de Développement Régional, anciennement dénommé ERDF dans les textes européens) cofinancent souvent des projets de transformation numérique PME.
+
+La règle générale : les aides régionales sont cumulables avec les aides nationales Bpifrance, dans la limite du taux d'aide publique total autorisé par la réglementation des aides d'État (typiquement 50 à 70 % selon la taille de l'entreprise et le type d'aide). Consultez aides-entreprises.fr ou votre Conseil régional pour identifier les dispositifs applicables à votre situation.
+
+## Les 3 erreurs qui font échouer un dossier de financement IA
+
+### Erreur 1 : commencer par le PTN sans avoir fait le Diag
+
+La tentation est réelle : le PTN apporte de la trésorerie rapidement, le Diag prend du temps. Alors certains dirigeants déposent d'abord un dossier PTN en espérant gagner du temps.
+
+Le résultat est souvent l'inverse de l'effet attendu. Un dossier PTN sans diagnostic formalisé est un dossier faible. Le projet n'est pas suffisamment documenté, les cas d'usage ne sont pas qualifiés, les estimations de coût sont fragiles. Le conseiller Bpifrance le perçoit immédiatement.
+
+Le Diag Data IA n'est pas qu'un diagnostic : c'est aussi une pré-instruction de votre dossier financier. Il produit les éléments techniques qui crédibilisent votre demande de prêt.
+
+### Erreur 2 : oublier de déduire les subventions de la base CII
+
+Cette erreur est fiscale, pas administrative. Elle ne bloque pas le dossier Bpifrance, mais elle peut déclencher un redressement fiscal 2 à 3 ans plus tard.
+
+La règle est claire : toute subvention publique perçue sur des dépenses entrant dans la base du CII doit être déduite de cette base avant le calcul du crédit d'impôt. Que la subvention vienne de Bpifrance, d'une aide régionale ou d'un autre fonds public, la règle s'applique.
+
+Vérifiez ce point avec votre expert-comptable avant de valider le montage financier. C'est quelques heures de conseil qui peuvent éviter des années de contentieux fiscal.
+
+### Erreur 3 : confondre délai d'instruction et délai de démarrage
+
+Le délai entre le dépôt d'un dossier Diag Data IA et le démarrage effectif du diagnostic est souvent sous-estimé. Instruction du dossier, validation Bpifrance, sélection du prestataire agréé : comptez 2 à 4 mois avant le début des 8 jours de diagnostic. Ajoutez les 3 mois de diagnostic lui-même. Avant d'avoir la feuille de route entre les mains, 5 à 7 mois peuvent s'être écoulés.
+
+Si vous planifiez un démarrage de projet IA en janvier, il faut déposer votre dossier Diag en juillet de l'année précédente, au plus tard.
+
+Cette même logique s'applique au PTN (instruction 2 à 3 mois), aux aides régionales (délais variables selon les régions et les périodes), et au CII (il suit votre exercice fiscal, pas votre calendrier projet).
+
+> La règle pratique : anticipez 6 mois de délais administratifs cumulés entre la décision de lancer le projet et le premier versement d'aide réel. Construisez votre plan de trésorerie en conséquence.
+
+Avant de finaliser votre présentation en CODIR, l'article sur la [trame business case pour votre CODIR](/blog/business-case-ia-pme-trame-codir) propose une structure en 5 blocs qui intègre naturellement le montage de financement dans l'argumentation financière globale du projet.
+
+Le financement d'un projet IA en PME n'est pas une complexité insurmontable. C'est un dossier à construire dans le bon ordre, avec les bons interlocuteurs, et avec une compréhension claire de ce que chaque dispositif finance réellement.
+
+L'expérience terrain montre que la plupart des PME qui renoncent à monter un dossier Bpifrance le font faute d'ingénierie de cumul, pas faute d'éligibilité. Les dispositifs existent. La logique de montage s'apprend. La difficulté n'est pas dans les outils eux-mêmes (Bpifrance les a conçus pour être accessibles), mais dans la traduction de tout cela en langage financier convaincant pour votre CODIR.
+
+Si vous souhaitez structurer votre projet avant d'engager un dossier Bpifrance, notre [Audit IA Express](/services/audit) est le point de départ : il cartographie votre maturité data et IA, identifie les cas d'usage prioritaires, et prépare le brief technique dont le Diag Data IA Bpifrance a besoin pour être pleinement efficace.`,
+    author: "Laurent Bouzon",
+    date: "11 septembre 2026",
+    dateISO: "2026-09-11",
+    readTime: "9 min",
+    category: "Strategie & ROI",
+    image: "/financement-projet-ia-pme-bpifrance-business-case-hero.png",
+    imageAlt: "Image d'illustration pour l'article \"Financer projet IA PME : aides Bpifrance et reste à charge\"",
+    faq: [
+      {
+        question: "Peut-on cumuler le Diag Data IA Bpifrance et le Crédit d'Impôt Innovation sur le même projet ?",
+        answer: "Oui, dans la plupart des cas, mais avec une règle importante : les subventions reçues (dont la part prise en charge par Bpifrance dans le Diag) doivent être déduites de la base de calcul du CII. Un projet IA de 120 000 EUR ne génère donc pas le même CII selon que vous avez ou non touché une subvention régionale. Vérifiez le calcul avec votre expert-comptable avant de déposer votre déclaration.",
+      },
+      {
+        question: "Le Prêt Transformation Numérique est-il une subvention ?",
+        answer: "Non. Le PTN est un prêt à rembourser. Sans garantie sur les actifs de l'entreprise, certes, mais à rembourser. Il améliore votre trésorerie de projet en étalant le décaissement, il ne réduit pas le coût total. Dans un business case CODIR, il doit apparaître dans les flux de financement, pas en déduction du coût du projet.",
+      },
+      {
+        question: "Quel est le délai pour obtenir un Diag Data IA Bpifrance ?",
+        answer: "Le délai entre la prise de contact et le démarrage effectif du diagnostic est généralement de 2 à 4 mois (validation dossier, sélection du prestataire agréé). Le diagnostic lui-même dure 8 jours sur 3 mois. Anticipez donc 4 à 5 mois avant d'avoir les conclusions. Vérifiez les délais actuels directement sur bpifrance.fr, car ils varient selon les périodes et les volumes de demandes.",
+      },
+      {
+        question: "Qui peut bénéficier du Crédit d'Impôt Innovation ?",
+        answer: "Le CII est réservé aux PME au sens communautaire : moins de 250 salariés, chiffre d'affaires inférieur à 50 millions d'euros ou total de bilan inférieur à 43 millions. Une ETI de 400 salariés n'y est pas éligible, même si elle réalise un prototype IA. Confirmez votre éligibilité avec votre expert-comptable ou un conseiller fiscal.",
+      },
+      {
+        question: "À quoi sert l'Audit IA Express de Smart Impulsion avant un Diag Data IA Bpifrance ?",
+        answer: "Le Diag Data IA Bpifrance nécessite un cahier des charges technique précis pour sélectionner le bon prestataire agréé et maximiser la valeur des 8 jours de diagnostic. L'Audit IA Express permet de structurer ce cahier des charges : cartographie des données existantes, identification des cas d'usage prioritaires, évaluation de la maturité IT. Il positionne le projet sur des bases solides avant que Bpifrance valide le dossier.",
+      },
+      {
+        question: "Les aides régionales sont-elles cumulables avec les aides Bpifrance ?",
+        answer: "En général oui, dans la limite du taux d'aide publique autorisé par la réglementation sur les aides d'État (typiquement 50 à 70 % du coût total selon la taille de l'entreprise et le type d'aide). La règle exacte dépend de votre région et du dispositif régional concerné. Vérifiez sur aides-entreprises.fr ou auprès de votre Conseil régional.",
+      },
+    ],
+  },
+  {
     slug: "audit-ia-gratuit-pme-ce-qui-existe-ce-que-ca-vaut",
     title: "Audit IA gratuit PME : ce qui existe, ce que ça produit et quand ça ne suffit pas",
     seoTitle: "Audit IA gratuit PME : ce qui existe vraiment",
