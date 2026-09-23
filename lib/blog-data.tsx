@@ -69,6 +69,248 @@ export interface BlogArticle {
 
 export const blogArticles: BlogArticle[] = [
   {
+    slug: "cahier-des-charges-ia-pme",
+    title: "Cahier des charges IA : ce que doit contenir votre appel d'offres prestataire",
+    seoTitle: "Cahier des charges IA PME : les 7 rubriques indispensables",
+    excerpt:
+      "Cahier des charges IA PME : gouvernance des données, propriété du modèle, clauses de réversibilité. Ce que votre CDC doit contenir avant de signer.",
+    content: `Chaque semaine, des PME signent des contrats de prestation IA sans avoir posé les conditions d'un résultat mesurable. Le problème ne vient pas du prestataire seul. Il vient du cahier des charges IA.
+
+Un cahier des charges IA est un document contractuel qui définit, avant toute signature, les exigences d'un projet d'intelligence artificielle : gouvernance des données d'entraînement, propriété du modèle produit, indicateurs de succès métier, clauses de réversibilité et mécanismes de maintenance évolutive. Il diffère d'un CDC logiciel classique par sa dimension de co-responsabilité entre l'acheteur et le prestataire.
+
+La plupart des CDC transmis aux prestataires IA sont des adaptations de modèles ERP ou logiciels. Ils décrivent des fonctionnalités, des délais, des livrables techniques. Ce qu'ils n'abordent pas : la gouvernance des données d'entraînement, la propriété du modèle produit, les mécanismes de dérive, la réversibilité. Des omissions qui créent des litiges silencieux dès la phase pilote.
+
+Selon Eurostat (2026), **52,52 % des entreprises européennes ayant envisagé l'IA citent l'incertitude juridique comme frein à son adoption**. Rédiger un CDC rigoureux est le moyen le plus direct de lever ce frein côté acheteur.
+
+## CDC IA vs CDC logiciel : pourquoi vous ne pouvez pas réutiliser votre modèle habituel
+
+Un CDC IA ne peut pas être calqué sur un CDC logiciel classique parce qu'il porte sur un objet fondamentalement différent : non pas un logiciel dont les fonctionnalités sont figées à la livraison, mais un modèle dont les performances dépendent de la qualité des données fournies et évoluent dans le temps. Cette différence implique trois spécificités contractuelles absentes des modèles génériques.
+
+Une PME industrielle de la région lyonnaise avait un modèle de CDC bien rodé. Elle l'utilisait depuis dix ans pour ses appels d'offres ERP, CMS, outils métiers. Quand elle a lancé son premier projet IA d'aide à la maintenance prédictive, elle a sorti le même document, modifié les intitulés, ajusté les délais.
+
+Deux mois après la livraison, le modèle produisait des alertes inexactes sur 30 % des équipements. Le prestataire n'avait aucune obligation contractuelle de corriger la dérive. Le CDC ne l'avait pas prévu.
+
+Ce cas n'est pas isolé. Il illustre trois différences structurelles que tout acheteur IA doit intégrer.
+
+### Première différence : les données ne sont pas des spécifications fonctionnelles
+
+Dans un CDC logiciel, vous décrivez ce que l'outil doit faire. Dans un CDC IA, vous devez aussi décrire avec quoi il sera construit. Les données d'entraînement sont la matière première du modèle. Leur qualité, leur exhaustivité, leur fraîcheur déterminent directement les performances.
+
+Un CDC IA doit donc contenir une rubrique dédiée aux données : format, volumétrie, fréquence de mise à jour, responsable de la maintenance. Ce n'est pas une annexe technique. C'est le coeur du dispositif.
+
+### Deuxième différence : le modèle IA évolue après livraison
+
+Un logiciel livré reste identique à lui-même sauf mise à jour explicite. Un modèle IA se dégrade si les données réelles dérivent par rapport aux données d'entraînement. Ce phénomène, appelé dérive du modèle (ou concept drift), désigne la perte progressive de précision d'un modèle IA lorsque les situations réelles qu'il rencontre s'éloignent de celles sur lesquelles il a été entraîné. Aucune modification du code ou du système ne devient visible de l'extérieur.
+
+Votre CDC doit prévoir qui surveille cette dérive, selon quel indicateur, et qui en supporte le coût de correction.
+
+### Troisième différence : la PME est co-responsable du résultat
+
+Dans un projet IA, la qualité des données que vous fournissez conditionne la qualité du modèle produit. Vous n'êtes pas un simple acheteur passif. Vous êtes co-contributeur au résultat. Le CDC doit formaliser cette responsabilité partagée.
+
+> "The most common reason for not using AI technologies was the lack of relevant expertise (70.89%), followed by lack of clarity about the legal consequences (52.52%)."
+>
+> Eurostat, *Enterprises using artificial intelligence technologies*, 2026
+
+## Les sept rubriques que votre cahier des charges IA PME doit contenir
+
+Un CDC IA structuré en sept rubriques couvre les dimensions absentes des modèles génériques. Chaque rubrique a une spécificité IA que vous trouverez rarement dans un appel d'offres logiciel standard.
+
+1. **Contexte et enjeux métier.** Description du processus cible, volume traité, fréquence, acteurs impliqués. Pas une présentation de l'entreprise : un cadrage fonctionnel précis du périmètre.
+
+2. **Données disponibles et gouvernance.** Inventaire des sources (bases, fichiers, flux), qualité estimée, responsable de la mise à disposition, règles d'accès. Cette rubrique doit mentionner explicitement l'article 28 RGPD si des données personnelles sont impliquées.
+
+3. **Indicateurs de succès métier.** Baseline mesurée avant démarrage, cible chiffrée, méthode de mesure partagée, date d'évaluation. Aucun KPI ne doit être défini après signature.
+
+4. **Contraintes techniques et architecture.** Environnement existant, contraintes d'hébergement, intégrations requises, exigences de souveraineté des données. Voir notre article sur la [souveraineté des données IA en PME](/blog/souverainete-donnees-ia-pme-hebergement) pour cadrer cette rubrique.
+
+5. **Propriété intellectuelle et réversibilité.** Qui possède le modèle entraîné, dans quel format les données sont restituables, conditions de portabilité en fin de contrat.
+
+6. **Maintenance évolutive et gestion de la dérive.** Fréquence de réentraînement prévue, seuil de dégradation déclencheur, responsabilité et coût de maintenance.
+
+7. **Gouvernance du projet et jalons.** Comité de pilotage, fréquence de reporting, jalons de validation avec critères de go/no-go documentés.
+
+### Sur la rubrique données : ce que la CNIL exige
+
+Dès que votre prestataire traite des données personnelles pour votre compte (données clients, salariés, prospects), il devient sous-traitant au sens du RGPD. L'article 28 impose un contrat écrit précisant :
+
+- la nature et la finalité des traitements
+- la durée du traitement
+- les mesures de sécurité mises en place
+- les obligations de suppression ou restitution des données en fin de contrat
+
+> La CNIL rappelle que l'absence de contrat de sous-traitance conforme expose le responsable de traitement (votre PME) à des sanctions, indépendamment du comportement du prestataire.
+>
+> CNIL, *sous-traitant RGPD*, [cnil.fr/fr/sous-traitant](https://www.cnil.fr/fr/sous-traitant)
+
+Cette exigence s'applique à la majorité des projets IA en PME, qui traitent quasi systématiquement des données personnelles. Elle ne doit pas figurer dans une annexe optionnelle : elle appartient au corps du CDC.
+
+## Les trois clauses contractuelles spécifiques à l'IA que les prestataires n'écrivent pas spontanément
+
+Trois clauses sont systématiquement absentes des propositions IA reçues par les PME : la clause de propriété intellectuelle du modèle, la clause de réversibilité technique et la clause de maintenance évolutive. Ces clauses existent dans les contrats des grandes entreprises bien conseillées. Elles sont rarissimes dans les propositions reçues par les PME, non par mauvaise foi, mais parce que personne ne les a demandées.
+
+### Clause 1 : propriété intellectuelle du modèle entraîné sur vos données
+
+Un prestataire IA développe un modèle en s'appuyant sur vos données propriétaires. Ce modèle est-il la propriété de votre PME, du prestataire, ou des deux ? La réponse dépend entièrement de ce que dit le contrat.
+
+Sans clause explicite, la propriété revient souvent au prestataire, qui peut théoriquement réutiliser les architectures, les paramètres, voire certains patterns appris sur vos données dans d'autres projets.
+
+La clause doit stipuler : qui est propriétaire du modèle entraîné, dans quel format il est livré, et si le prestataire conserve des droits d'utilisation internes.
+
+### Clause 2 : réversibilité technique et portabilité
+
+La clause de réversibilité technique garantit que, en fin de contrat ou en cas de changement de prestataire, vous pouvez récupérer l'intégralité de ce qui a été produit sur vos données dans un format exploitable sans dépendance à l'infrastructure du prestataire. Elle couvre trois éléments distincts :
+
+- **Vos données sources** : récupérables dans leur format d'origine ou dans un format ouvert interopérable
+- **Le modèle entraîné** : exportable dans un format standard (ONNX, PMML ou équivalent), pas uniquement accessible via l'interface du prestataire
+- **Les pipelines de traitement** : la logique de préparation et de transformation des données, documentée et transférable
+
+Sans cette clause, un changement de prestataire signifie repartir de zéro. Ce n'est pas une question de méfiance : c'est une gestion de risque standard, au même titre qu'une clause de sortie dans un contrat de bail.
+
+### Clause 3 : dérive du modèle et maintenance évolutive
+
+Les modèles IA se dégradent quand les données réelles s'éloignent des données d'entraînement. Cette dérive peut être progressive et difficile à détecter sans tableau de bord dédié.
+
+La clause doit préciser :
+
+- le seuil de performance en dessous duquel une intervention est déclenchée (exprimé en KPI métier, pas en métrique technique)
+- qui surveille ce seuil et selon quelle fréquence
+- quel est le coût et la responsabilité du réentraînement
+- les conditions dans lesquelles le prestataire peut décliner une obligation de résultat si les données fournies ont significativement évolué
+
+> Cette clause protège les deux parties. Le prestataire n'est pas responsable d'une dérive causée par un changement de vos données. Vous n'êtes pas responsable d'une dégradation due à une architecture fragile.
+
+## Comment ne pas se faire vendre du sable : cinq signaux d'alerte dans les réponses prestataires
+
+La qualité d'une réponse à appel d'offres IA se lit autant dans ce qu'elle ne dit pas que dans ce qu'elle promet.
+
+- **Absence de baseline métier dans la proposition.** Un prestataire sérieux demande systématiquement vos données actuelles de performance avant de chiffrer. S'il propose des gains sans connaître votre point de départ, il vend une promesse sans fondement.
+
+- **KPI définis après signature.** La formule "nous co-définirons les indicateurs lors du démarrage" est un signal d'alerte. Les indicateurs de succès doivent être convenus avant la signature, avec une baseline mesurée et une cible datée. Tout le reste est une obligation de moyens sans jalons.
+
+- **Usage de vos données non contractualisé.** Si la proposition ne mentionne pas comment vos données seront utilisées, stockées, hébergées et supprimées en fin de contrat, demandez une clause explicite. Un prestataire qui refuse de formaliser cela pose un problème de gouvernance, pas seulement un problème contractuel.
+
+- **Absence de clause de réversibilité.** Un prestataire qui ne propose pas de mécanisme de sortie structuré crée une dépendance structurelle. Ce n'est pas une raison automatique de refuser, mais c'est un point de négociation non optionnel.
+
+- **Garantie de résultat remplacée par obligation de moyens sans jalons.** "Nous ferons notre maximum" n'est pas un engagement mesurable. Si la proposition ne contient pas de jalons de validation avec critères de go/no-go, le contrat ne vous protège pas.
+
+Le [guide sur le choix d'un consultant IA](/blog/consultant-ia-pme-comment-choisir) détaille comment évaluer la maturité méthodologique d'un prestataire avant même de recevoir sa proposition.
+
+## Pourquoi un audit IA préalable conditionne la qualité de votre CDC
+
+Un CDC IA de qualité repose sur quatre données que vous n'avez généralement pas sans diagnostic préalable :
+
+- l'inventaire qualifié de vos données disponibles
+- la baseline de performance de vos processus cibles
+- la cartographie des contraintes d'intégration et d'hébergement
+- l'identification des risques de dépendance et de souveraineté
+
+Sans ces éléments, vous rédigez un CDC déclaratif. Il décrit ce que vous souhaitez, pas ce que vous pouvez contractualiser. Le prestataire peut y répondre avec des généralités, car votre document n'est pas assez précis pour l'obliger à s'engager sur des métriques réelles.
+
+### Le chemin logique : audit, puis CDC, puis sélection
+
+L'enchaînement qui fonctionne en PME suit une logique simple.
+
+D'abord, l'audit qualifie vos données et vos processus. Il produit la baseline mesurée, l'inventaire des contraintes et une première hiérarchie des cas d'usage. Ces livrables alimentent directement les rubriques 1, 2 et 3 de votre CDC.
+
+Ensuite, le CDC traduit ces éléments en exigences contractuelles. Il est assez précis pour que les réponses prestataires soient comparables sur des indicateurs métier, pas sur des promesses génériques.
+
+Enfin, la sélection se fait sur des bases factuelles. Vous pouvez évaluer les propositions en fonction des KPI convenus, des clauses de réversibilité et des mécanismes de maintenance. L'article sur [comment piloter votre prestataire IA après audit](/blog/piloter-prestataire-ia-apres-audit) décrit la suite de cette séquence.
+
+### Ce que l'audit IA permet que le CDC seul ne peut pas produire
+
+> Un CDC rédigé sans audit préalable ressemble à un plan de construction établi sans visite du terrain. Les dimensions sont cohérentes sur le papier. Elles ne correspondent pas à la réalité du sol.
+
+Concrètement, l'audit produit :
+
+- une qualification des données existantes (exhaustivité, fraîcheur, format, accessibilité)
+- une mesure des performances actuelles des processus ciblés, utilisable comme baseline contractuelle
+- une cartographie des dépendances techniques qui conditionne les clauses de réversibilité
+- une évaluation du niveau de maturité nécessaire côté prestataire pour votre contexte spécifique
+
+Ces quatre éléments rendent le CDC opposable. Sans eux, il reste un document d'intentions.
+
+Le [guide complet de l'audit IA pour PME](/blog/audit-ia-pme-guide-complet) détaille ce que cet audit doit produire et comment en évaluer les livrables. Et si vous souhaitez formaliser le diagnostic de vos processus et données avant de rédiger votre premier appel d'offres IA, l'[Audit IA Express](/services/audit) est l'étape de départ structurée pour y parvenir en trois jours ouvrés.
+
+*Cette grille de lecture est issue de la pratique de terrain de Laurent Bouzon, fondateur de Smart Impulsion, dans l'accompagnement de PME et ETI françaises sur leurs premiers projets IA.*
+
+## FAQ
+
+**Un CDC IA standard peut-il se baser sur notre modèle de CDC ERP ?**
+
+Non. Un CDC ERP décrit des fonctionnalités figées livrées à date. Un CDC IA doit cadrer la gouvernance des données d'entraînement, prévoir l'évolution du modèle après livraison et contractualiser la co-responsabilité de la PME sur la qualité de ses données. Ce sont trois dimensions absentes d'un CDC logiciel classique.
+
+**Quelle est la clause contractuelle IA la plus souvent absente ?**
+
+La clause de réversibilité technique. Elle devrait garantir que vous pouvez récupérer vos données sources, le modèle entraîné et les pipelines de traitement dans un format exploitable, quel que soit le prestataire. La plupart des propositions n'en font aucune mention spontanément.
+
+**Doit-on mentionner l'article 28 RGPD dans le CDC IA ?**
+
+Oui. Dès que le prestataire IA traite des données personnelles pour votre compte, il devient sous-traitant au sens du RGPD. L'article 28 impose un contrat écrit précisant la nature des traitements, les mesures de sécurité et les obligations de suppression ou restitution des données. La CNIL peut contrôler ce contrat.
+
+**Comment formuler les indicateurs de succès dans un CDC IA ?**
+
+Partez de la baseline métier mesurée avant démarrage : temps de traitement actuel, taux d'erreur, volume traité. Fixez un seuil cible daté et une méthode de mesure partagée. Un KPI vague comme "améliorer la productivité" ne constitue pas un engagement contractuel opposable.
+
+**Sans audit préalable, peut-on rédiger un CDC IA solide ?**
+
+Difficilement. Sans cartographie de vos données et processus existants, vous ne pouvez pas qualifier la rubrique données, fixer une baseline réaliste ni identifier les risques de dépendance. L'audit préalable n'est pas une formalité : c'est ce qui rend le CDC opposable plutôt que décoratif.
+
+*Pour aller plus loin : [Diagnostic IA PME : livrables à exiger avant de signer](/blog/diagnostic-ia-pme). Les documents que tout audit sérieux doit produire avant que vous rédigiez votre appel d'offres.*`,
+    author: "Laurent Bouzon",
+    date: "23 septembre 2026",
+    dateISO: "2026-09-23",
+    readTime: "9 min",
+    category: "Audit & Methodologie",
+    image: "/cahier-des-charges-ia-pme-hero.png",
+    imageAlt: "Image d'illustration pour l'article \"Cahier des charges IA : ce que doit contenir votre appel d'offres prestataire\"",
+    faq: [
+      {
+        question: "Un CDC IA standard peut-il se baser sur notre modèle de CDC ERP ?",
+        answer: "Non. Un CDC ERP décrit des fonctionnalités figées livrées à date. Un CDC IA doit cadrer la gouvernance des données d'entraînement, prévoir l'évolution du modèle après livraison et contractualiser la co-responsabilité de la PME sur la qualité de ses données. Ce sont trois dimensions absentes d'un CDC logiciel classique.",
+      },
+      {
+        question: "Quelle est la clause contractuelle IA la plus souvent absente ?",
+        answer: "La clause de réversibilité technique. Elle devrait garantir que vous pouvez récupérer vos données sources, le modèle entraîné et les pipelines de traitement dans un format exploitable, quel que soit le prestataire. La plupart des propositions n'en font aucune mention spontanément.",
+      },
+      {
+        question: "Doit-on mentionner l'article 28 RGPD dans le CDC IA ?",
+        answer: "Oui. Dès que le prestataire IA traite des données personnelles pour votre compte, il devient sous-traitant au sens du RGPD. L'article 28 impose un contrat écrit précisant la nature des traitements, les mesures de sécurité et les obligations de suppression ou restitution des données. La CNIL peut contrôler ce contrat.",
+      },
+      {
+        question: "Comment formuler les indicateurs de succès dans un CDC IA ?",
+        answer: "Partez de la baseline métier mesurée avant démarrage : temps de traitement actuel, taux d'erreur, volume traité. Fixez un seuil cible daté et une méthode de mesure partagée. Un KPI vague comme 'améliorer la productivité' ne constitue pas un engagement contractuel opposable.",
+      },
+      {
+        question: "Sans audit préalable, peut-on rédiger un CDC IA solide ?",
+        answer: "Difficilement. Sans cartographie de vos données et processus existants, vous ne pouvez pas qualifier la rubrique données, fixer une baseline réaliste ni identifier les risques de dépendance. L'audit préalable n'est pas une formalité : c'est ce qui rend le CDC opposable plutôt que décoratif.",
+      },
+    ],
+    howTo: {
+      name: "Rédiger un cahier des charges IA pour PME",
+      description: "Comment structurer un appel d'offres IA rigoureux pour ne pas signer à l'aveugle avec un prestataire.",
+      totalTime: "PT2H",
+      steps: [
+        {
+          name: "Réaliser un audit IA préalable",
+          text: "Qualifier les données disponibles, mesurer la baseline de performance des processus cibles et cartographier les contraintes d'intégration avant de rédiger le moindre appel d'offres.",
+        },
+        {
+          name: "Structurer le CDC en 7 rubriques",
+          text: "Contexte métier, gouvernance des données (RGPD art. 28), indicateurs de succès avec baseline, contraintes techniques, propriété intellectuelle, maintenance évolutive, gouvernance projet.",
+        },
+        {
+          name: "Intégrer les trois clauses contractuelles spécifiques à l'IA",
+          text: "Clause de propriété du modèle entraîné, clause de réversibilité technique (formats ONNX/PMML), clause de gestion de la dérive du modèle avec seuils et responsabilités.",
+        },
+        {
+          name: "Évaluer les réponses prestataires sur 5 signaux d'alerte",
+          text: "Absence de baseline, KPI définis après signature, données non contractualisées, pas de clause de réversibilité, obligation de moyens sans jalons de validation.",
+        },
+      ],
+    },
+  },
+  {
     slug: "former-managers-intermediaires-ia-pme",
     title: "Former ses managers intermédiaires à l'IA en PME : le maillon manquant",
     seoTitle: "Former ses managers intermédiaires à l'IA en PME",
