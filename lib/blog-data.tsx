@@ -69,6 +69,245 @@ export interface BlogArticle {
 
 export const blogArticles: BlogArticle[] = [
   {
+    slug: "digital-omnibus-ia-pme-ce-qui-change",
+    title: "Digital Omnibus et AI Act : ce que ça change vraiment pour votre PME en septembre 2026",
+    seoTitle: "AI Act Digital Omnibus PME : ce qui change en 2026",
+    excerpt:
+      "Le Digital Omnibus (UE 2026/1744) modifie l'AI Act pour les PME depuis juillet 2026. Ce qui change concrètement et ce que vous pouvez encore reporter.",
+    content: `# Digital Omnibus et AI Act : ce que ça change vraiment pour votre PME en septembre 2026
+
+**Le règlement (UE) 2026/1744, dit "Digital Omnibus", est entré en vigueur le 27 juillet 2026. Il modifie l'AI Act sur trois points : extension du régime simplifié aux entreprises de moins de 750 salariés, report des obligations haut risque (Annexe III) au 2 décembre 2027, et suppression de deux formalités documentaires.**
+
+Deux mois après l'entrée en vigueur de ce règlement, on constate que la plupart des dirigeants de PME se posent encore la même question : est-ce que ça me concerne davantage ou moins qu'avant ? La réponse courte : principalement moins, pour la majorité des PME de 50 à 500 salariés. Mais pas de façon uniforme. Quelques obligations s'appliquent depuis le 2 août 2026, que vous l'ayez remarqué ou non.
+
+Cet article n'est pas un résumé juridique du Digital Omnibus. C'est un verdict opérationnel : ce que vous devez avoir fait, ce que vous pouvez encore reporter, et ce que vous pouvez oublier jusqu'en 2027. Pour aller plus loin sur le cadre général, l'article [AI Act 2026 : ce que les PME doivent savoir](/blog/ai-act-pme-guide-2026) reste la référence du cluster.
+
+## Le Digital Omnibus en 3 lignes
+
+Le Digital Omnibus est un règlement européen de simplification réglementaire adopté en 2026 qui modifie plusieurs législations numériques, dont l'AI Act, pour réduire les charges administratives pesant sur les petites entreprises.
+
+Concrètement, le règlement (UE) 2026/1744, publié au Journal officiel de l'UE le 24 juillet 2026 et entré en vigueur le 27 juillet 2026, modifie l'AI Act sur trois points :
+
+- **Extension du régime simplifié** : les allègements jusqu'alors réservés aux PME au sens strict s'appliquent maintenant aux entreprises de moins de 750 salariés avec un chiffre d'affaires inférieur ou égal à 150 millions d'euros (les "small mid-cap companies" selon la recommandation UE 2025/1099).
+- **Report du calendrier haut risque** : les obligations pour les systèmes d'IA à haut risque autonomes (Annexe III) glissent du 2 août 2026 au 2 décembre 2027. Les systèmes intégrés dans des produits réglementés (Annexe I) glissent du 2 août 2027 au 2 août 2028.
+- **Simplification des formalités** : l'enregistrement obligatoire dans la base de données UE pour certains systèmes est supprimé. Le modèle harmonisé de plan de surveillance post-commercialisation disparaît.
+
+> **A retenir.** Le Digital Omnibus n'a pas "repoussé l'AI Act". Il a décalé une partie du calendrier et élargi le périmètre des bénéficiaires des allègements. Ce n'est pas la même chose. Confondre les deux expose à des erreurs de priorisation.
+
+## Ce qui s'applique depuis le 2 août 2026
+
+Voici le tableau synthétique que les dirigeants PME attendent. Trois colonnes, pas de jargon juridique.
+
+| Obligation | Statut depuis le 2 août 2026 | Qui est concerné |
+|---|---|---|
+| **Article 4 : Littératie IA** | Applicable depuis le 2 février 2025 (inchangé) | Tout employeur utilisant de l'IA |
+| **Article 50 : Transparence** | Applicable depuis le 2 août 2026 | Tout déployeur d'IA vers des tiers |
+| **Article 5 : Pratiques interdites** | Applicable depuis le 2 février 2025 (inchangé) | Toute organisation |
+| **Annexe III : Haut risque autonome** | Reporté au 2 décembre 2027 | Fournisseurs de systèmes haut risque |
+| **Annexe I : IA dans produits réglementés** | Reporté au 2 août 2028 | Fabricants de produits réglementés |
+
+### Ce que l'article 50 impose concrètement
+
+L'article 50 de l'AI Act est l'obligation de transparence qui touche le plus grand nombre de PME dès maintenant. Elle vise les déployeurs : les entreprises qui mettent en place un système d'IA en contact avec des utilisateurs extérieurs.
+
+Trois cas pratiques :
+
+- **Vous avez un chatbot de support client** : vous devez informer vos utilisateurs qu'ils interagissent avec un système automatisé, pas avec un humain. Une mention claire en début de conversation suffit.
+- **Vous publiez des contenus générés par IA** (images, vidéos, textes à caractère informatif) : vous devez les marquer comme tels, avec un marquage lisible par machine (standard C2PA pour les images et vidéos).
+- **Vous utilisez une voix synthétique** dans vos communications téléphoniques automatisées : l'information doit être donnée à l'interlocuteur.
+
+> **Point clé.** L'article 50 ne s'applique pas si vous utilisez de l'IA en interne, sans interface vers des tiers. Un outil d'IA générative utilisé par vos équipes pour rédiger des emails ou analyser des contrats n'entre pas dans ce périmètre.
+
+### Ce que l'article 4 impose (depuis février 2025, pas août 2026)
+
+L'article 4 de l'AI Act sur la littératie IA est actif depuis le 2 février 2025, soit avant le Digital Omnibus. Ce règlement l'a assoupli : l'obligation est désormais de **moyens** (soutenir le développement des compétences IA de vos équipes) et non de **résultat** (garantir un niveau défini). Ce n'est pas une obligation de formation certifiante. C'est une obligation de faire quelque chose, documenté, pour que vos collaborateurs qui utilisent de l'IA comprennent ce qu'ils font.
+
+Pour une PME, cela signifie en pratique :
+
+- Avoir une politique d'usage de l'IA, même courte
+- Former les équipes qui utilisent des outils IA dans leur travail quotidien
+- Conserver une trace de ces actions
+
+Pas de niveau minimal prescrit, pas de durée imposée. L'obligation de moyens est une protection pour les entreprises qui agissent de bonne foi.
+
+## La nouveauté clé : le seuil 750 salariés
+
+C'est le changement le plus concret du Digital Omnibus pour les ETI françaises, et le moins couvert dans les analyses disponibles.
+
+### Avant le 27 juillet 2026
+
+Les allègements réglementaires (documentation simplifiée, accès prioritaire aux bacs à sable, modalités de sanctions adaptées) étaient réservés aux PME au sens strict : moins de 250 salariés, chiffre d'affaires inférieur à 50 millions d'euros ou bilan inférieur à 43 millions d'euros.
+
+Une ETI de 350 salariés avec 80 millions d'euros de chiffre d'affaires ne bénéficiait d'aucun de ces allègements.
+
+### Après le 27 juillet 2026
+
+La recommandation (UE) 2025/1099 définit les "small mid-cap companies" : des entreprises de moins de 750 salariés avec un chiffre d'affaires inférieur ou égal à 150 millions d'euros. Ces entreprises bénéficient maintenant du même régime simplifié que les PME (source : EUR-Lex, règlement (UE) 2026/1744).
+
+> **Ce que ça change concrètement pour une ETI de 300-700 salariés.** Documentation technique allégée, accès prioritaire aux bacs à sable réglementaires nationaux (opérationnels au 2 août 2027), et un traitement adapté en cas de contrôle. Ce n'est pas une exemption, c'est une proportionnalité. L'AI Act s'applique, mais avec des exigences calibrées à la taille.
+
+### Vérifiez votre seuil
+
+Trois critères à vérifier :
+
+- Nombre de salariés (en équivalent temps plein) : inférieur à 750 ?
+- Chiffre d'affaires annuel : inférieur ou égal à 150 millions d'euros ?
+- Bilan total annuel : aucun critère de bilan retenu pour les small mid-caps (différence avec la définition PME stricte de la Commission).
+
+Si ces deux conditions sont remplies, votre entreprise entre dans le périmètre "small mid-cap" et bénéficie du régime simplifié prévu par le règlement (UE) 2026/1744. Source : [EUR-Lex, règlement (UE) 2026/1744](https://eur-lex.europa.eu/eli/reg/2026/1744/oj/eng).
+
+## Ce que vous pouvez reporter (et jusqu'à quand)
+
+### Annexe III : jusqu'au 2 décembre 2027
+
+L'Annexe III de l'AI Act liste les systèmes d'IA à haut risque autonomes, c'est-à-dire les systèmes dont les décisions ou recommandations affectent directement des personnes dans des domaines sensibles. Les voici :
+
+- Systèmes de biométrie (identification à distance, catégorisation biométrique)
+- Systèmes dans les infrastructures critiques
+- Systèmes d'éducation et de formation professionnelle
+- Systèmes d'accès à l'emploi et de gestion des travailleurs (recrutement automatisé, évaluation des performances, allocation des tâches)
+- Accès aux services essentiels (scoring de crédit, assurance, services publics)
+- Systèmes dans les domaines de la sécurité et de la justice
+
+Si votre PME n'utilise aucun de ces types de systèmes, les obligations liées aux systèmes haut risque autonomes ne vous concernent pas : ni maintenant, ni en 2027.
+
+Pour en savoir plus sur la qualification de vos systèmes selon l'Annexe III, l'article [Votre IA est-elle à haut risque ? La grille de lecture de l'annexe III pour une PME](/blog/ai-act-haut-risque-annexe-iii-pme) détaille la méthode de qualification.
+
+> **Red flag.** Si votre PME utilise un outil de tri de CV automatisé ou un système de scoring qui conditionne des décisions d'accès à l'emploi, vous êtes potentiellement dans le périmètre de l'Annexe III. Le délai est repoussé à décembre 2027, pas supprimé. Ne laissez pas ce point sans réponse.
+
+### Annexe I : jusqu'au 2 août 2028
+
+L'Annexe I concerne les systèmes d'IA intégrés dans des produits réglementés existants : dispositifs médicaux, machines industrielles, équipements sous pression, jouets, ascenseurs, équipements radio. Si votre PME fabrique ou distribue ce type de produits avec une composante IA, les obligations sont repoussées au 2 août 2028.
+
+### Ce que les reports ne signifient pas
+
+1. **Un report n'est pas une exemption** : les obligations haut risque arriveront, avec ou sans Omnibus suivant.
+2. **Cartographier maintenant est plus utile que de reporter** : identifier si vos systèmes tombent sous l'Annexe III en 2027 prend du temps. Le faire en 2026 évite la précipitation en 2027.
+3. **La documentation se construit progressivement** : attendre décembre 2027 pour commencer revient à traiter un projet de 6 mois en 3 semaines.
+
+## Les 3 points de vigilance qui restent
+
+### 1. L'article 50 est immédiat et vérifiable
+
+Les obligations de transparence sont en vigueur depuis le 2 août 2026. La DGCCRF et l'Arcom sont les autorités de contrôle en France pour ce périmètre. Un contrôle sur un chatbot non déclaré ou sur des contenus générés par IA non marqués est techniquement possible dès aujourd'hui.
+
+Pour une PME déployant un chatbot de support client, la mise en conformité article 50 est rapide :
+
+- Mention explicite en début de conversation ("Vous êtes en contact avec un assistant automatisé")
+- Marquage lisible par machine des contenus IA publiés (métadonnées, balises techniques selon le standard C2PA pour les images et vidéos)
+- Mention pour les deepfakes (cas rare pour les PME, mais à prévoir si vous utilisez des vidéos synthétiques dans vos communications)
+
+L'article [Article 50 de l'AI Act : ce qu'une PME doit afficher quand elle déploie un chatbot](/blog/transparence-ia-article-50-pme-chatbot) donne le détail opérationnel de cette mise en conformité.
+
+### 2. La gouvernance IA reste un chantier incontournable
+
+Le Digital Omnibus simplifie les formalités documentaires, mais ne supprime pas l'exigence de gouvernance. Pour les PME qui déploient de l'IA dans des processus internes, avoir un cadre clair (qui décide des usages, qui contrôle les sorties, comment on gère les erreurs) reste une obligation de bon sens, et une protection en cas de litige.
+
+Sur ce sujet, l'article [Gouvernance IA en entreprise : cadre concret PME-ETI](/blog/gouvernance-ia-entreprise-cadre-pme-eti) propose une méthode structurée.
+
+> **Point clé.** Le règlement simplifie les obligations formelles pour les PME et small mid-caps. Il ne réduit pas la responsabilité des déployeurs sur les sorties de leurs systèmes d'IA. Si un chatbot donne une information fausse à un client, la responsabilité de l'entreprise déployeuse reste engagée.
+
+### 3. Les bacs à sable réglementaires : une opportunité à anticiper
+
+Le Digital Omnibus élargit l'accès aux bacs à sable réglementaires aux PME et small mid-caps. Ces environnements supervisés permettent de tester des systèmes d'IA innovants avec des exigences de conformité allégées pendant la phase de test.
+
+Les bacs à sable nationaux doivent être opérationnels au 2 août 2027. Un bac à sable UE peut être créé par le Bureau de l'IA (source : Schmitt Avocats, juillet 2026).
+
+Pour une PME innovante qui développe un outil d'IA potentiellement à haut risque, c'est une voie à explorer : tester en 2027 dans un cadre supervisé, déployer avec documentation complète en 2028.
+
+## Adoption IA en France : le contexte qui rend tout cela concret
+
+Selon l'INSEE (Première n°2061, juillet 2025), 10 % des entreprises françaises de 10 salariés ou plus utilisaient l'IA en 2024, contre 6 % en 2023 (soit une progression de 67 % en un an). La moyenne européenne est de 13,5 % selon Eurostat (janvier 2025). La France reste en retard de 3,5 points sur ses voisins.
+
+Côté PME et ETI spécifiquement, Bpifrance Le Lab (étude sur 1 200 dirigeants, juin 2025) indique que 26 % des PME et ETI françaises utilisaient l'IA générative en 2025. Autrement dit, plus d'une PME sur quatre entre dès maintenant dans le périmètre réglementaire de l'AI Act (depuis le 2 août 2026).
+
+> **Ce que ces chiffres signifient pour la conformité.** Toute PME qui utilise de l'IA générative dans ses opérations (automatisation de tâches, rédaction assistée, analyse de données) entre dans le périmètre réglementaire dès lors qu'elle déploie vers des tiers. Ce n'est pas une menace abstraite : c'est la situation de plus d'une PME sur quatre. Pour celles qui hébergent leurs données IA, des enjeux complémentaires sont traités dans l'article [Souveraineté des données IA en PME : comment choisir où héberger](/blog/souverainete-donnees-ia-pme-hebergement).
+
+## Ce qui a changé depuis le 4 septembre 2026
+
+Pour les lecteurs qui avaient lu l'article [AI Act au 2 août 2026 : ce qui s'appliquait vraiment à votre PME](/blog/ai-act-2-aout-2026-ce-qui-sapplique-pme), voici les mises à jour depuis la publication de cet article :
+
+1. **Le règlement (UE) 2026/1744 est entré en vigueur le 27 juillet 2026**, trois jours après sa publication au JO (source : Commission européenne, Digital Strategy).
+2. **L'extension aux small mid-caps est confirmée et opérationnelle** : les entreprises de moins de 750 salariés avec CA <= 150 M€ bénéficient du régime simplifié.
+3. **Les deux suppressions de formalités sont actives** : enregistrement dans la base de données UE supprimé pour les systèmes Annexe III "non haut risque" ; modèle harmonisé de plan de surveillance post-commercialisation supprimé.
+4. **L'article 4 reste assoupli** : obligation de moyens confirmée, pas de niveau prescrit.
+
+## Questions fréquentes
+
+### Qu'est-ce que le règlement Digital Omnibus sur l'IA ?
+
+Le règlement (UE) 2026/1744, publié au Journal officiel le 24 juillet 2026 et entré en vigueur le 27 juillet, modifie le calendrier d'application de l'AI Act et étend les allègements réglementaires aux entreprises de moins de 750 salariés avec un chiffre d'affaires inférieur ou égal à 150 millions d'euros. Il ne reporte pas l'ensemble de l'AI Act, mais décale les obligations haut risque autonomes (Annexe III) du 2 août 2026 au 2 décembre 2027.
+
+### Le Digital Omnibus repousse-t-il vraiment l'AI Act ?
+
+Non, pas dans son ensemble. Les obligations de transparence de l'article 50 s'appliquent depuis le 2 août 2026, sans modification. Ce qui a été repoussé : les obligations liées aux systèmes d'IA à haut risque autonomes (Annexe III), au 2 décembre 2027, et les systèmes intégrés dans des produits réglementés (Annexe I), au 2 août 2028.
+
+### Qu'est-ce qui s'applique depuis le 2 août 2026 pour mon entreprise ?
+
+Pour une PME déployant de l'IA, l'obligation principale depuis le 2 août 2026 est l'article 50 : transparence envers les utilisateurs. Concrètement, si vous déployez un chatbot de support client, vous devez indiquer explicitement à vos utilisateurs qu'ils interagissent avec une IA. Les systèmes déjà en production avant le 2 août disposaient d'une période transitoire de 4 mois.
+
+### Mon entreprise est-elle concernée si elle utilise ChatGPT ou un outil équivalent ?
+
+Si vous utilisez des outils d'IA générative en interne (rédaction, analyse, résumés), sans les déployer vers des tiers, les obligations article 50 ne s'appliquent pas directement. En revanche, si vous intégrez ces outils dans un service client, un portail partenaires ou tout service orienté vers des tiers, l'obligation de transparence s'applique depuis le 2 août 2026.
+
+### Qu'est-ce qu'une small mid-cap company dans le cadre de l'AI Act ?
+
+C'est la nouveauté du Digital Omnibus. La recommandation (UE) 2025/1099 définit les "small mid-cap companies" comme des entreprises de moins de 750 salariés avec un chiffre d'affaires inférieur ou égal à 150 millions d'euros. Ces entreprises bénéficient maintenant des mêmes allègements que les PME classiques.
+
+### Quelles sont les obligations de transparence IA pour une PME en 2026 ?
+
+L'article 50 de l'AI Act impose trois types d'obligations depuis le 2 août 2026 : (1) informer les utilisateurs qu'ils interagissent avec un système d'IA automatisé, (2) marquer les contenus synthétiques générés par IA comme tels, de façon lisible par machine, (3) pour les deepfakes, mentionner explicitement qu'il s'agit d'une manipulation.
+
+### Quelle est la différence entre Annexe I et Annexe III de l'AI Act ?
+
+L'Annexe III liste les systèmes d'IA à haut risque autonomes (recrutement, biométrie, scoring de crédit, éducation) dont les obligations sont repoussées au 2 décembre 2027. L'Annexe I concerne les systèmes d'IA intégrés dans des produits réglementés existants (dispositifs médicaux, machines) dont les obligations sont repoussées au 2 août 2028.
+
+## Passez de la théorie à l'action
+
+Le Digital Omnibus a simplifié la conformité pour les PME et small mid-caps. Ce n'est pas une raison de tout reporter. Les obligations de l'article 50 sont actives depuis le 2 août 2026. L'Annexe III arrive en décembre 2027 : la cartographier maintenant prend quelques jours, l'ignorer jusqu'en novembre 2027 crée une urgence qui ne sera pas dans votre budget.
+
+Smart Impulsion, cabinet de conseil en IA pour PME et ETI françaises, propose un Audit IA Express qui cartographie vos usages IA actuels, qualifie vos obligations immédiates (article 50) et identifie les systèmes potentiellement à haut risque à documenter avant 2027. En 2 à 3 jours, vous repartez avec une liste d'actions priorisées et une estimation d'effort de mise en conformité adaptée à votre taille.
+
+[En savoir plus sur l'audit IA express](/services/audit)`,
+    author: "Laurent Bouzon",
+    date: "29 septembre 2026",
+    dateISO: "2026-09-29",
+    readTime: "10 min",
+    category: "Compliance & AI Act",
+    image: "/digital-omnibus-ia-pme-ce-qui-change-hero.png",
+    imageAlt: "Image d'illustration pour l'article \"Digital Omnibus et AI Act : ce que ça change vraiment pour votre PME en septembre 2026\"",
+    faq: [
+      {
+        question: "Qu'est-ce que le règlement Digital Omnibus sur l'IA ?",
+        answer: "Le règlement (UE) 2026/1744, publié au Journal officiel le 24 juillet 2026 et entré en vigueur le 27 juillet, modifie le calendrier d'application de l'AI Act et étend les allègements réglementaires aux entreprises de moins de 750 salariés avec un chiffre d'affaires inférieur ou égal à 150 millions d'euros. Il ne reporte pas l'ensemble de l'AI Act, mais décale les obligations haut risque autonomes (Annexe III) du 2 août 2026 au 2 décembre 2027.",
+      },
+      {
+        question: "Le Digital Omnibus repousse-t-il vraiment l'AI Act ?",
+        answer: "Non, pas dans son ensemble. Les obligations de transparence de l'article 50 (informer vos utilisateurs qu'ils interagissent avec une IA, marquer les contenus générés par IA) s'appliquent depuis le 2 août 2026, sans modification. Ce qui a été repoussé : les obligations liées aux systèmes d'IA à haut risque autonomes (Annexe III, comme le recrutement automatisé ou la biométrie), reportées au 2 décembre 2027.",
+      },
+      {
+        question: "Qu'est-ce qui s'applique depuis le 2 août 2026 pour mon entreprise ?",
+        answer: "Pour une PME déployant de l'IA (chatbot, génération de contenus, assistant interne), l'obligation principale depuis le 2 août 2026 est l'article 50 : transparence envers les utilisateurs. Concrètement, si vous déployez un chatbot de support client, vous devez indiquer explicitement à vos utilisateurs qu'ils interagissent avec une IA. Si vous publiez des contenus générés par IA (textes, images, vidéos), vous devez les marquer comme tels. Les systèmes déjà en production avant le 2 août disposaient d'une période transitoire de 4 mois.",
+      },
+      {
+        question: "Mon entreprise est-elle concernée si elle utilise ChatGPT ou un outil équivalent ?",
+        answer: "Si vous utilisez des outils d'IA générative en interne (rédaction, analyse, résumés), sans les déployer vers des tiers, les obligations article 50 ne s'appliquent pas directement. Vous êtes un utilisateur, pas un déployeur. En revanche, si vous intégrez ces outils dans un service client, un portail partenaires ou tout service orienté vers des tiers, l'obligation de transparence s'applique depuis le 2 août 2026.",
+      },
+      {
+        question: "Qu'est-ce qu'une small mid-cap company dans le cadre de l'AI Act ?",
+        answer: "C'est la nouveauté du Digital Omnibus. La recommandation (UE) 2025/1099 définit les 'small mid-cap companies' comme des entreprises de moins de 750 salariés avec un chiffre d'affaires inférieur ou égal à 150 millions d'euros. Ces entreprises bénéficient maintenant des mêmes allègements que les PME classiques : documentation simplifiée, accès prioritaire aux bacs à sable réglementaires. Pour une ETI française de 300 à 700 salariés, c'est un allègement réel et nouveau.",
+      },
+      {
+        question: "Quelles sont les obligations de transparence IA pour une PME en 2026 ?",
+        answer: "L'article 50 de l'AI Act impose trois types d'obligations depuis le 2 août 2026 : (1) informer les utilisateurs qu'ils interagissent avec un système d'IA automatisé (chatbots, voix synthétiques), (2) marquer les contenus synthétiques générés par IA (images, sons, vidéos, textes) comme tels, de façon lisible par machine, (3) pour les deepfakes spécifiquement, mentionner explicitement qu'il s'agit d'une manipulation. Ces obligations s'appliquent indépendamment de la taille de l'entreprise.",
+      },
+      {
+        question: "Quelle est la différence entre Annexe I et Annexe III de l'AI Act ?",
+        answer: "L'Annexe III liste les systèmes d'IA à haut risque autonomes : recrutement automatisé, scoring de crédit, biométrie, éducation, contrôle des travailleurs, accès aux services essentiels, infrastructures critiques. Les obligations pour ces systèmes sont repoussées au 2 décembre 2027. L'Annexe I concerne les systèmes d'IA intégrés dans des produits réglementés existants : dispositifs médicaux, machines, équipements sous pression. Les obligations pour ces systèmes sont repoussées au 2 août 2028.",
+      },
+    ],
+  },
+  {
     slug: "ia-relation-client-pme",
     title: "IA et relation client en PME : les 6 briques qui produisent un ROI, et celles qui attendent",
     seoTitle: "IA relation client PME : les 6 briques ROI en 2026",
