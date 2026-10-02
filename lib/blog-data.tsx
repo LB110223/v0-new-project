@@ -69,6 +69,235 @@ export interface BlogArticle {
 
 export const blogArticles: BlogArticle[] = [
   {
+    slug: "piloter-projet-ia-pme",
+    title: "Piloter un projet IA en cours : les jalons à poser et les signaux qui doivent vous alerter",
+    seoTitle: "Piloter un projet IA PME : jalons et signaux d'alerte",
+    excerpt:
+      "Quels jalons poser pour piloter un projet IA en PME ? Quels signaux doivent vous alerter avant que ça déraille ? Guide pratique pour dirigeants.",
+    content: `Vous avez lancé votre projet IA en début d'année. Les premières semaines se sont bien passées. Puis les réunions de suivi sont devenues moins régulières, les livrables ont glissé de quelques semaines, et vous ne savez plus très bien si votre projet avance ou s'enlise.
+
+C'est le moment où se joue réellement le sort de votre investissement.
+
+Selon l'IBM Institute for Business Value (2025), seuls 16 % des initiatives IA atteignent le déploiement à l'échelle de l'entreprise. Les 84 % restants s'arrêtent au stade pilote ou expérimental, non pas parce que la technologie ne fonctionne pas, mais parce que le pilotage en cours d'exécution fait défaut. Et selon la même étude IBM (2025), seulement 25 % des initiatives IA ont délivré le ROI attendu sur les dernières années.
+
+La question n'est pas de savoir si vous avez bien choisi votre projet IA (si vous êtes à ce stade de réflexion, l'article [comment prioriser vos projets IA](/blog/prioriser-projets-ia-pme) vous sera utile). La question, ici, est celle du dirigeant qui est déjà dans l'exécution : comment savoir si mon projet tient le cap, et à quel moment un signal doit déclencher une intervention corrective avant que ça déraille complètement ?
+
+## Un projet IA ne se pilote pas comme un projet IT classique
+
+Un projet IT classique a des jalons binaires. La migration du serveur est faite ou elle ne l'est pas. Le logiciel ERP est déployé ou il ne l'est pas. Les critères de succès sont définis contractuellement, et la vérification est relativement objective.
+
+Un projet IA fonctionne différemment. Les résultats sont probabilistes et s'améliorent par itérations. Un modèle peut être techniquement fonctionnel et rester inexploité parce que les équipes ne l'ont pas adopté. Les données disponibles au lancement peuvent se révéler insuffisantes ou non représentatives une fois le prototype construit. Le périmètre peut dériver imperceptiblement vers des cas d'usage plus complexes que prévu.
+
+> Selon Bpifrance Le Lab (2025), 43 % des PME et ETI françaises ne font pas d'analyse de données pour piloter leur activité. Ce déficit de culture analytique est une cause directe de dérive des projets IA en PME : sans tableau de bord, le pilotage repose sur des impressions, pas sur des faits.
+
+Les causes de dérive spécifiques au projet IA méritent d'être nommées :
+
+- **Dérive des données** : les données disponibles au lancement ne correspondent pas aux hypothèses initiales (volume insuffisant, qualité dégradée, données non représentatives du cas d'usage réel).
+- **Écart d'adoption** : le prototype fonctionne, mais les utilisateurs ne l'utilisent pas ou contournent l'outil. Le projet livre techniquement mais ne génère pas de valeur.
+- **Dérive du périmètre** : sous la pression des équipes ou du prestataire, le périmètre initial s'élargit ou se réoriente, diluant les ressources et repoussant les jalons.
+
+Ces trois types de dérive sont distincts des problèmes d'un projet IT classique. Ils nécessitent des indicateurs spécifiques et des jalons adaptés.
+
+### Ce que votre référentiel de pilotage doit couvrir
+
+Un cadre de pilotage efficace pour un projet IA en PME comprend trois niveaux : les jalons temporels (quand vérifier), les indicateurs opérationnels (quoi mesurer), et les signaux d'alerte (quand intervenir). Les sections suivantes détaillent chacun de ces niveaux avec un vocabulaire accessible au dirigeant, pas au spécialiste en données.
+
+Un projet IA non piloté ne plante pas du jour au lendemain : il dérive lentement, jusqu'au moment où le coût de correction dépasse le coût de démarrage.
+
+## Les jalons naturels d'un projet IA : J+30, J+60, J+90
+
+Un **jalon** désigne ici un point de contrôle formel à date fixe, avec des critères de passage explicites (vert/orange/rouge), permettant de décider si le projet continue, se recadre, ou s'arrête. Ces jalons ne sont pas des dates arbitraires. Ils correspondent aux phases naturelles d'un projet IA : cadrage des données, validation du prototype, et évaluation de l'adoption réelle.
+
+### J+30 : Le jalon données et cadrage
+
+**J+30** désigne le trentième jour calendaire après le lancement effectif du projet. La question centrale à J+30 n'est pas "est-ce que ça marche ?" mais "est-ce que nous avons les bonnes données pour que ça fonctionne ?"
+
+À ce stade, votre équipe projet (ou votre prestataire) doit avoir répondu à trois questions :
+
+1. Les données nécessaires au projet sont-elles disponibles en volume suffisant ?
+2. Ces données sont-elles propres, cohérentes et représentatives du cas d'usage réel ?
+3. Les droits d'accès et les contraintes réglementaires ont-ils été cartographiés ?
+
+> Selon une analyse Gartner de 2025, 60 % des projets IA non adossés à des données "AI-ready" seront abandonnés d'ici fin 2026. La qualité des données à J+30 est le premier facteur prédictif du succès ou de l'échec d'un projet IA en PME.
+
+Si à J+30 les données ne sont pas disponibles dans un format utilisable, ce n'est pas nécessairement un signal d'abandon, mais c'est un signal de réévaluation des délais et du périmètre. Mieux vaut l'identifier à J+30 qu'à J+90 quand les coûts sont engagés.
+
+**Critères de passage à J+30 :**
+- Vert : données disponibles, cartographiées, et conformes aux hypothèses initiales.
+- Orange : données partiellement disponibles, un plan d'amélioration est défini avec des délais précis.
+- Rouge : données non disponibles ou non conformes, sans plan de résolution. Intervention requise.
+
+### J+60 : Le jalon prototype et validation métier
+
+**J+60** désigne le soixantième jour : un premier prototype doit exister et avoir été testé sur des données réelles. Ce n'est pas le produit final : c'est une version suffisamment aboutie pour que les utilisateurs métier puissent évaluer si elle répond à leur besoin réel.
+
+La question centrale à J+60 est : les utilisateurs qui ont testé le prototype en pensent-ils du bien ?
+
+- Les résultats du prototype correspondent-ils aux attentes fonctionnelles initiales ?
+- Les utilisateurs métier cibles ont-ils participé aux tests (et pas seulement l'équipe IT) ?
+- Les écarts identifiés sont-ils corrigeables dans le périmètre et le budget initiaux ?
+
+> Un prototype validé techniquement mais non testé par les utilisateurs réels est l'un des schémas d'échec les plus fréquents dans les projets IA en PME et ETI. La validation technique et la validation métier sont deux choses différentes. Seule la seconde prédit l'adoption réelle.
+
+**Critères de passage à J+60 :**
+- Vert : prototype testé par des utilisateurs métier, retours documentés, corrections intégrées dans le plan.
+- Orange : prototype fonctionnel mais tests métier non réalisés. À planifier impérativement avant J+90.
+- Rouge : prototype non livré ou performances décevantes sur données réelles sans explication technique claire.
+
+### J+90 : Le jalon adoption et ROI intermédiaire
+
+**J+90** désigne le quatre-vingt-dixième jour : la question n'est plus technique. Elle est : est-ce que le projet génère de la valeur mesurable pour l'organisation ?
+
+Ce jalon est le plus difficile à évaluer pour un dirigeant de PME, parce que la tentation est de se satisfaire d'un prototype qui "tourne" sans vérifier si quelqu'un l'utilise réellement. L'article sur [la mesure du ROI de l'IA en entreprise](/blog/roi-intelligence-artificielle-entreprise) détaille les méthodes de calcul adaptées aux PME.
+
+**Ce que vous devez exiger à J+90 :**
+- Un taux d'utilisation mesurable par les équipes cibles (fréquence, volume de cas traités).
+- Au moins un indicateur de valeur qui a bougé : temps de traitement réduit, erreurs diminuées, coût évité.
+- Un avis documenté des utilisateurs terrain sur les points d'amélioration prioritaires.
+
+Si aucun indicateur ne bouge à J+90, vous êtes face à un choix : recadrer le projet (périmètre, ressources, accompagnement au changement) ou l'arrêter. Continuer sans décision est la pire option : c'est ce qui consomme du budget et démotive les équipes sans générer de valeur.
+
+Un jalon J+90 sans indicateur de valeur positif n'est pas un échec technique ; c'est un signal de gouvernance.
+
+## Les indicateurs à suivre semaine par semaine
+
+Un tableau de bord de pilotage de projet IA pour dirigeant de PME doit tenir en 5 à 6 indicateurs. Pas 20. Pas un rapport de 40 pages. L'objectif est de détecter une dérive rapidement, pas de piloter le projet à la place du chef de projet.
+
+Ces indicateurs se répartissent en trois familles :
+
+**Indicateurs techniques** (la fondation) :
+- Disponibilité des données : le flux de données alimentant le modèle est-il stable et complet ?
+- Performance sur données réelles : les résultats produits sont-ils conformes aux critères de précision définis au lancement ?
+
+**Indicateurs d'adoption** (le vrai test) :
+- Taux d'utilisation : quel pourcentage des utilisateurs cibles utilise l'outil, et à quelle fréquence ?
+- Fréquence des retours terrain : les équipes remontent-elles des cas d'usage, des erreurs, des suggestions d'amélioration ?
+
+**Indicateurs de valeur** (ce qui compte pour vous) :
+- Impact mesurable sur le processus cible : temps de traitement avant/après, volume d'erreurs réduit, coût évité par unité traitée.
+
+> Le format importe peu : Excel, Notion, ou un outil projet. Ce qui compte, c'est que ces 5 indicateurs soient mis à jour avant chaque point de suivi et que les écarts par rapport aux cibles soient commentés, pas seulement constatés.
+
+La fréquence minimale : un point hebdomadaire avec l'équipe projet sur les indicateurs techniques et d'adoption, un point mensuel avec le sponsor exécutif sur les indicateurs de valeur et les jalons.
+
+Un tableau de bord à 5 indicateurs mis à jour chaque semaine vaut mieux qu'un rapport mensuel de 40 pages que personne ne lit.
+
+## Les signaux qui doivent vous alerter immédiatement
+
+Un **signal d'alerte** désigne un écart structurel (non ponctuel) entre le plan du projet et la réalité, qui ne se résout pas de lui-même et qui nécessite une décision formelle du dirigeant ou du sponsor.
+
+Il y a une différence entre une friction normale (délai de quelques jours, bug mineur, résistance initiale d'un utilisateur) et un signal structurel qui préfigure un échec. Voici les cinq signaux qui doivent vous amener à prendre une décision, pas à attendre.
+
+**Signal #1 : Les données ne correspondent pas aux hypothèses initiales**
+
+Le volume de données disponibles est inférieur à ce qui était prévu, ou la qualité est dégradée (données incomplètes, incohérentes, ou trop anciennes pour le cas d'usage). Ce signal est souvent détecté tardivement parce que les équipes techniques espèrent trouver une solution avant d'en parler au dirigeant.
+
+**Signal #2 : Le périmètre est en train de changer**
+
+Le prestataire ou l'équipe interne propose de "simplifier le cas d'usage" ou au contraire d'"élargir le périmètre pour couvrir un besoin supplémentaire". Ces deux formulations masquent le même problème : le projet initial n'est pas faisable tel que défini, ou sa faisabilité n'a pas été correctement évaluée au départ.
+
+**Signal #3 : Les utilisateurs contournent l'outil**
+
+Les équipes continuent d'utiliser leurs anciennes méthodes manuelles à côté de l'outil IA, ou l'utilisent pour des cas marginaux seulement. Ce signal d'adoption faible est souvent rationalisé comme "une période de transition normale". Il peut l'être. Mais il peut aussi signifier que l'outil ne correspond pas au besoin réel des utilisateurs terrain.
+
+**Signal #4 : Le sponsor exécutif se désengage**
+
+Le **sponsor exécutif** est la personne (dirigeant, DG ou directeur métier) qui porte le projet au niveau stratégique, débloque les ressources, et maintient sa visibilité en comité de direction. Le dirigeant ou le directeur métier qui portait le projet n'assiste plus aux points de suivi, délègue les arbitrages à un niveau trop opérationnel, ou n'évoque plus le projet dans les réunions de direction. Sans sponsor actif, le projet IA est le premier budget sacrifié quand la charge opérationnelle augmente.
+
+> Bpifrance Le Lab (2025) relève que 73 % des projets IA en PME sont impulsés directement par le dirigeant. Impulser n'est pas piloter : un projet IA a besoin du dirigeant dans la durée, pas seulement au lancement.
+
+**Signal #5 : Les jalons glissent sans cause technique identifiable**
+
+Des retards ponctuels sont normaux. Mais quand les délais glissent semaine après semaine sans explication technique claire, il s'agit presque toujours d'un problème de priorité interne : les ressources allouées au projet IA sont mobilisées sur d'autres urgences, et personne ne le dit explicitement.
+
+Ces cinq signaux, pris isolément, peuvent être gérés. Deux signaux actifs simultanément, c'est une situation qui appelle une décision formelle, pas un suivi en mode attente.
+
+## Le rôle du comité de pilotage et du sponsor exécutif
+
+En PME, le comité de pilotage n'a pas besoin d'être une instance formelle avec un secrétariat et un compte rendu de 10 pages. Il a besoin d'être réel.
+
+### Composition minimale d'un comité de pilotage IA PME
+
+Trois rôles suffisent :
+
+- **Le sponsor exécutif** : dirigeant, DG ou directeur métier concerné. Son rôle est de débloquer les ressources data, d'arbitrer les priorités quand le projet entre en compétition avec d'autres chantiers, et de maintenir la visibilité stratégique du projet.
+- **Le référent métier** : la personne qui connaît le processus cible de l'intérieur et qui fait le lien avec les utilisateurs terrain. Sans lui, les décisions techniques sont prises dans le vide.
+- **Le coordinateur projet** : interne ou prestataire, il compile les indicateurs, prépare les points de suivi, et remonte les alertes au sponsor.
+
+La fréquence est mensuelle en rythme normal, exceptionnelle dès qu'un signal d'alerte est actif.
+
+### Les trois questions à ne jamais manquer en comité de pilotage
+
+1. Les indicateurs de valeur ont-ils bougé depuis le dernier point ? Dans quel sens ?
+2. Y a-t-il un écart entre le plan initial et la situation réelle sur les données ou le périmètre ?
+3. Les utilisateurs cibles utilisent-ils l'outil, et si non, pourquoi ?
+
+Ces trois questions couvrent les trois causes de dérive les plus fréquentes. Si les réponses sont satisfaisantes, le projet est en bonne santé. Si l'une d'elles appelle une réponse vague ou évasive, c'est un signal.
+
+Un comité de pilotage qui n'a pas de réponse claire à ces trois questions n'est pas un comité de pilotage : c'est une réunion d'information.
+
+## Quand déclencher un recadrage externe ?
+
+Il existe une situation où le regard extérieur apporte ce que l'équipe interne ne peut pas apporter : quand la proximité avec le projet crée un angle mort.
+
+L'équipe qui a conçu le projet a investi du temps, de l'énergie et parfois de l'ego dans les choix initiaux. Elle aura du mal à remettre en cause un périmètre, une hypothèse de données, ou une approche technique qu'elle a défendue. C'est humain, pas une faiblesse.
+
+Un consultant externe n'a pas ce biais. Il peut lire les indicateurs avec une distance que l'équipe interne n'a plus.
+
+**Trois critères objectifs pour déclencher un recadrage :**
+
+- Deux signaux d'alerte ou plus sont actifs simultanément depuis au moins deux semaines.
+- Le jalon J+90 est raté sans qu'un plan de correction documenté existe.
+- Les indicateurs de valeur ne montrent aucune évolution mesurable après 3 mois d'utilisation réelle.
+
+Ce type d'intervention n'est pas un premier diagnostic (pour cela, d'autres articles couvrent l'évaluation initiale). C'est une intervention de recadrage de trajectoire pour un projet déjà en cours qui a dévié de son objectif initial. Elle se distingue également du pilotage du prestataire : si vous cherchez à structurer votre relation avec votre fournisseur IA, l'article [piloter son prestataire IA après l'audit](/blog/piloter-prestataire-ia-apres-audit) est plus adapté.
+
+> Si votre projet a déjà franchi le seuil d'alerte et que vous êtes dans une situation de ROI non atteint, l'article [plan de remédiation IA PME](/blog/roi-ia-projet-non-atteint-plan-remediation-pme) détaille les étapes d'un plan de correction structuré.
+
+**Smart Impulsion** est un cabinet conseil IA spécialisé dans l'accompagnement des PME et ETI françaises. L'[Audit IA Express de Smart Impulsion](/services/audit) est calibré précisément pour ce type de situation : un projet en cours qui présente des signaux d'alerte, un dirigeant qui veut une lecture objective de la situation avant de décider si on recadre ou si on arrête. L'objectif n'est pas de produire un rapport supplémentaire : c'est de donner au dirigeant les éléments pour prendre une décision éclairée sous 2 à 3 semaines.
+
+## Ce qu'il faut retenir
+
+Les projets IA qui dérivent ne le font pas brutalement. Ils dérivent progressivement, et la dérive devient visible quand elle est déjà coûteuse à corriger.
+
+Trois actions concrètes à mettre en place dès maintenant si ce n'est pas fait :
+
+1. **Poser les jalons J+30, J+60, J+90** avec les critères de passage vert/orange/rouge pour chacun. Si vous êtes déjà au-delà de J+90, posez un jalon J+180 et évaluez la situation avec les indicateurs décrits dans cet article.
+2. **Créer un tableau de bord à 5 indicateurs** (deux techniques, deux adoption, un valeur) mis à jour avant chaque point de suivi. Exigez des commentaires sur les écarts, pas seulement des chiffres.
+3. **Définir votre seuil de déclenchement** : quel est le signal qui vous amènera à décider formellement de recadrer ou d'arrêter ? Le définir à l'avance supprime l'hésitation au moment où il se déclenche.
+
+La dérive d'un projet IA est récupérable. À condition de la détecter tôt.`,
+    author: "Laurent Bouzon",
+    date: "2 octobre 2026",
+    dateISO: "2026-10-02",
+    readTime: "11 min",
+    category: "Strategie & ROI",
+    image: "/piloter-projet-ia-pme-hero.png",
+    imageAlt: "Image d'illustration pour l'article \"Piloter un projet IA en cours : les jalons à poser et les signaux qui doivent vous alerter\"",
+    faq: [
+      {
+        question: "À quelle fréquence faut-il tenir un point de suivi sur un projet IA en PME ?",
+        answer: "Un point opérationnel hebdomadaire avec l'équipe projet suffit en rythme de croisière. Le comité de pilotage avec le sponsor exécutif se réunit mensuellement, et de façon exceptionnelle dès qu'un signal d'alerte est détecté. La fréquence n'est pas un gage de qualité : ce qui compte, c'est la qualité des indicateurs examinés à chaque point.",
+      },
+      {
+        question: "Quelle est la différence entre piloter un projet IA et piloter un prestataire IA ?",
+        answer: "Le pilotage du projet concerne la gouvernance interne : jalons, indicateurs de valeur, adoption par les équipes, rôle du sponsor. Le pilotage du prestataire concerne la relation client-fournisseur : livrables contractuels, respect des délais, qualité des livrables techniques. Les deux sont nécessaires, mais ils répondent à des questions différentes.",
+      },
+      {
+        question: "Quand faut-il déclencher un audit de recadrage sur un projet IA ?",
+        answer: "Dès que deux signaux d'alerte ou plus sont actifs simultanément, ou que le jalon J+90 est raté sans cause technique identifiable. Un regard extérieur apporte ce que l'équipe interne ne peut pas voir : la proximité et le biais de confirmation empêchent souvent de voir une dérive structurelle. L'Audit IA Express de Smart Impulsion est calibré pour ce type d'intervention de recadrage de trajectoire.",
+      },
+      {
+        question: "Quels sont les 5 indicateurs clés à suivre sur un projet IA PME ?",
+        answer: "Disponibilité et qualité des données (mesurée à J+30), performance du modèle sur données réelles (mesurée à J+60), taux d'utilisation par les équipes cibles, fréquence des retours terrain, et impact mesurable sur le processus cible (temps traité, erreurs réduites, coût évité). Ces cinq indicateurs couvrent les trois dimensions : technique, adoption et valeur.",
+      },
+      {
+        question: "Pourquoi 84 % des projets IA n'atteignent pas le déploiement à l'échelle ?",
+        answer: "Selon l'IBM Institute for Business Value (2025), la cause principale est le 'science experiment trap' : des projets pilotés hors des processus normaux d'approbation, sans gouvernance formalisée et sans implication réelle des équipes métier. Le manque de jalons structurés et l'absence d'un sponsor exécutif actif sont les deux facteurs les plus souvent cités.",
+      },
+    ],
+  },
+  {
     slug: "reduction-couts-ia-pme",
     title: "Réduction des coûts IA en PME : par où attaquer, combien espérer",
     seoTitle: "Réduction coûts IA PME : méthode et ordres de grandeur",
