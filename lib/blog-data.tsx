@@ -69,6 +69,234 @@ export interface BlogArticle {
 
 export const blogArticles: BlogArticle[] = [
   {
+    slug: "cybersecurite-ia-pme-regles-pratiques",
+    title: "Cybersécurité IA en PME : règles pratiques pour protéger vos données",
+    seoTitle: "Cybersécurité IA PME : règles pratiques pour vos équipes",
+    excerpt:
+      "Cybersécurité IA en PME : 5 règles pratiques pour éviter les fuites de données sensibles via ChatGPT ou Copilot, sans DSI ni budget cyber dédié.",
+    content: `Un de vos collaborateurs rédige une proposition commerciale. Pour aller plus vite, il colle le fichier client dans ChatGPT et lui demande de reformuler. Résultat attendu : un gain de 20 minutes. Risque réel : les données de votre client (nom, chiffre d'affaires, contenu de la relation commerciale) viennent de quitter votre entreprise vers les serveurs d'OpenAI, sans consentement du client, sans traçabilité, sans retour possible.
+
+Ce n'est pas un scénario hypothétique. C'est ce que font vos équipes en 2026, en bonne foi, pour être efficaces. Selon Cyberhaven (février 2026), **39,7 % de toutes les interactions avec des outils IA en entreprise impliquent des données sensibles** : textes copiés dans des prompts, documents uploadés, informations clients saisies à la volée.
+
+L'enjeu n'est pas d'interdire l'IA. La cybersécurité IA en PME commence par cinq règles claires posées avant que la prochaine fuite vous coûte un client, un contrat ou une mise en demeure CNIL.
+
+Pour les dirigeants qui démarrent leur réflexion sur l'IA, [notre guide pratique pour PME](/blog/ia-pour-pme-guide) pose les bases, y compris comment choisir ses premiers outils. Cet article traite spécifiquement du volet sécurité des données.
+
+## Ce qui sort vraiment de votre PME quand vos équipes utilisent l'IA
+
+**La question que posent les dirigeants : quelles données quittent concrètement mon entreprise via l'IA ? Voici la réponse en trois points.**
+
+### Quels scénarios de fuite observe-t-on dans les PME ?
+
+Voici trois situations ordinaires, vécues dans des PME de 30 à 150 personnes :
+
+- Un responsable commercial uploade un contrat dans un outil de traduction IA pour préparer une réunion avec un client étranger. Le document contient des clauses tarifaires confidentielles.
+- Une assistante RH colle dans ChatGPT la description de poste d'un candidat pour "améliorer le style", avec le nom, le parcours et le salaire actuel mentionnés en contexte.
+- Un développeur envoie un bloc de code source dans un outil IA pour déboguer une fonction. Ce code contient la logique métier propriétaire de l'entreprise.
+
+Dans les trois cas, l'intention est bonne. Dans les trois cas, des données sensibles viennent de partir vers un serveur tiers, hors de tout contrôle.
+
+### Quels sont les trois niveaux de risque à distinguer ?
+
+Tous les usages IA ne présentent pas le même niveau de risque. **Les données sensibles sont ici définies comme toute information que l'entreprise ne souhaite pas rendre publique** : données clients, contrats, données RH, données financières, code source propriétaire. Il est utile de distinguer trois niveaux d'exposition :
+
+1. **Données collées dans un prompt grand public** (ChatGPT, Gemini, Copilot via compte personnel) : risque immédiat, le plus fréquent en PME. C'est là que se concentrent la majorité des fuites involontaires.
+2. **Documents uploadés dans un outil IA tiers** (analyse de PDF, traduction, résumé automatique) : risque fréquent, très sous-estimé. L'upload est perçu comme plus "rapide" que la copie manuelle, donc utilisé sans réflexion.
+3. **Données intégrées dans un pipeline IA connecté au SI** (automatisations, agents IA accédant à des bases de données internes) : risque avancé, qui suppose un déploiement délibéré. Ce niveau dépasse le scope de cet article.
+
+> **Chiffre à retenir** : selon Cyberhaven (février 2026), 39,7 % de toutes les interactions avec des outils IA en entreprise impliquent des données sensibles. Les employés saisissent des données confidentielles en moyenne une fois tous les trois jours.
+
+Le risque le plus courant en PME se concentre sur les niveaux 1 et 2 : des gestes quotidiens, répétés, sans conscience du risque. C'est précisément là que cinq règles simples peuvent faire la différence.
+
+### Que se passe-t-il quand vos équipes utilisent leur compte personnel ChatGPT ?
+
+Un chiffre que la plupart des dirigeants ignorent : **selon Cyberhaven (2026), 32,3 % des usages de ChatGPT en entreprise se font via des comptes personnels**, pas via un compte professionnel ou un accord entreprise. Pour Claude, ce chiffre monte à 58,2 %.
+
+> **Ce que cela signifie concrètement** : même si vous avez souscrit un abonnement ChatGPT Entreprise avec des garanties de confidentialité, vos collaborateurs utilisent en parallèle leur propre compte. Les données qu'ils y envoient ne sont couvertes par aucune de vos protections contractuelles.
+
+Selon Cybermalveillance.gouv.fr (2026), les demandes d'assistance pour violations de données ont augmenté de **107 % entre 2024 et 2025**. Cette hausse reflète en partie la généralisation des outils IA dans les pratiques professionnelles quotidiennes, sans cadre associé.
+
+## Cybersécurité IA : ce que dit l'ANSSI et ce que ça signifie pour vous
+
+**La question que posent les dirigeants : l'ANSSI a-t-elle publié des règles claires sur l'IA en entreprise ? Voici les trois points essentiels à retenir.**
+
+### Que dit exactement la recommandation R34 de l'ANSSI ?
+
+L'ANSSI a publié en avril 2024 un guide de 35 recommandations pour sécuriser l'usage de l'IA générative. La recommandation R34 est sans ambiguïté :
+
+> *« Proscrire l'utilisation d'outils d'IA générative sur Internet pour un usage professionnel impliquant des données sensibles. »*
+> *(ANSSI, Recommandations de sécurité pour un système d'IA générative, avril 2024)*
+
+Pour un dirigeant de PME, cette recommandation se traduit simplement : si la donnée que vous vous apprêtez à coller dans un outil IA en ligne ne peut pas être publiée sur votre site web, elle ne doit pas y aller.
+
+### Pourquoi est-ce difficile à appliquer sans cadre dans une PME ?
+
+La plupart des PME n'ont pas de DSI, pas de RSSI, et des équipes habituées à choisir leurs outils en autonomie. L'ANSSI le reconnaît dans son guide dédié aux TPE/PME (décembre 2024) : les petites structures sont particulièrement exposées, précisément parce que les protections sont insuffisantes. Non par négligence, mais par manque de cadre et de ressources.
+
+Un guide co-signé ANSSI, CNIL, INRIA et d'autres institutions (février 2025) souligne un autre facteur : **les utilisateurs sous-estiment systématiquement les risques cybersécurité liés à l'IA**. Ce n'est pas une question de mauvaise volonté, c'est une question de perception. Un collaborateur qui colle un texte dans ChatGPT ne "voit" pas les données partir. Il voit juste un gain de temps.
+
+Pour les obligations légales qui encadrent ces usages (RGPD, AI Act), [notre article sur les obligations CNIL 2026](/blog/rgpd-ia-pme-obligations-cnil-2026) couvre ce volet réglementaire en détail. Ce que nous traitons ici, c'est le volet opérationnel : les règles concrètes que vous pouvez afficher et faire respecter dès cette semaine.
+
+### Pourquoi les guides ANSSI ne suffisent-ils pas pour une PME ?
+
+Les recommandations ANSSI sont rédigées pour des RSSI et des architectes sécurité. Elles sont exactes, sourcées, et inutilisables telles quelles par un dirigeant de PME sans culture cyber.
+
+La traduction en règles opérationnelles : c'est précisément ce que cet article propose.
+
+## Les 5 règles concrètes à poser maintenant
+
+**La question que posent les dirigeants : quelles règles simples puis-je mettre en place immédiatement, sans DSI ? Voici les cinq règles, classées par ordre de priorité.**
+
+Ces cinq règles s'appuient directement sur les recommandations ANSSI (avril 2024), traduites en langage opérationnel pour des équipes non techniques.
+
+### Règle 1 : catégoriser les données avant de les coller
+
+Vos équipes ne savent pas ce qu'est une "donnée sensible au sens RGPD". Elles savent en revanche ce qui est confidentiel dans leur travail quotidien. Aidez-les à faire la distinction avec quatre catégories simples :
+
+- **Données publiques** : informations déjà disponibles sur votre site, vos plaquettes, vos communiqués. Aucune restriction pour l'IA.
+- **Données internes** : process internes, notes de réunion sans données clients, brouillons génériques. Utilisables dans des outils IA avec précautions.
+- **Données confidentielles** : contrats, propositions commerciales, données financières, code source. À ne jamais coller dans un outil IA grand public.
+- **Données sensibles RGPD** : données personnelles (clients, salariés, candidats), données de santé, données judiciaires. Interdites dans tout outil IA non audité.
+
+> **Règle d'or** : si la donnée ne peut pas être publiée sur votre site internet, elle ne va pas dans ChatGPT.
+
+### Règle 2 : interdire l'upload de documents sans validation
+
+La copie de texte dans un prompt est visible : le collaborateur sait qu'il "envoie quelque chose". L'upload d'un document est perçu comme un acte technique neutre. C'est là que les fuites les plus graves se produisent.
+
+La règle pratique : tout upload de document dans un outil IA tiers doit faire l'objet d'une validation préalable du responsable direct. La question "est-ce que ce PDF peut aller dans cet outil ?" suffit à créer le bon réflexe dans un premier temps.
+
+Cette règle a l'avantage d'être vérifiable et de créer une habitude de questionnement, plus efficace que toute politique théorique.
+
+### Règle 3 : interdire les comptes personnels pour les usages professionnels
+
+C'est l'angle mort le plus fréquent. Rappel : selon Cyberhaven (2026), 32,3 % des usages de ChatGPT en entreprise passent par des comptes personnels. Vos collaborateurs ont ouvert un compte ChatGPT ou Claude avec leur adresse Gmail personnelle bien avant que votre entreprise ne structure quoi que ce soit. Ils l'utilisent par habitude.
+
+La règle à poser explicitement :
+
+- Aucun outil IA ne doit être utilisé avec un compte personnel pour un usage professionnel.
+- Tout outil IA utilisé professionnellement doit être ouvert avec l'adresse email professionnelle de l'entreprise.
+- Les comptes personnels ne sont pas couverts par les conditions d'utilisation de l'entreprise ni par vos assurances.
+
+Cette règle seule, appliquée, réduit significativement la surface d'exposition.
+
+### Règle 4 : tenir une liste blanche des outils IA autorisés
+
+L'approche "tout est interdit sauf ce qui est autorisé" est la seule qui tienne dans la durée. Construire une liste courte (3 à 5 outils) avec pour chacun le niveau de données acceptable :
+
+- **Outil X** (ex. outil IA grand public) : autorisé uniquement pour les données publiques
+- **Outil Y** (ex. outil IA avec accord entreprise et hébergement EU) : autorisé pour les données internes
+- **Aucun outil non listé** : non autorisé sans validation préalable
+
+Pour les données vraiment sensibles, la question de l'hébergement souverain devient centrale. [Notre article sur la souveraineté des données IA](/blog/souverainete-donnees-ia-pme-hebergement) détaille comment choisir un hébergement adapté lorsque vous déployez de l'IA sur des données critiques.
+
+### Règle 5 : exiger la déclaration des outils IA utilisés
+
+Vous ne pouvez pas protéger ce que vous ne connaissez pas. La plupart des dirigeants de PME ignorent combien d'outils IA sont utilisés dans leur entreprise, et sur quelles données.
+
+La règle : chaque responsable de service liste trimestriellement les outils IA utilisés par son équipe. Format simple : nom de l'outil, usage principal, type de données traitées, compte utilisé (pro ou perso).
+
+- Cet inventaire prend 30 minutes par service.
+- Il révèle systématiquement des usages non déclarés.
+- Il constitue la base de votre registre de gouvernance IA.
+
+> **Ce que cet inventaire révèle en pratique** : les entreprises qui réalisent cet inventaire découvrent systématiquement des outils IA utilisés sans que la direction en ait eu connaissance, dont plusieurs sur des données confidentielles. Le Shadow IT IA est une réalité dans toute structure qui n'a pas posé de cadre explicite.
+
+## La mise en pratique : 3 étapes pour cette semaine
+
+**La question que posent les dirigeants : par où commencer concrètement, dès cette semaine ? Voici trois étapes sans projet IT.**
+
+Vous n'avez pas besoin d'un projet IT pour mettre en place ces règles. Trois étapes suffisent pour couvrir l'essentiel en une semaine.
+
+### Étape 1, Jour 1 : quel message envoyer à vos équipes ?
+
+Envoyez un message simple à toutes vos équipes. Pas un document de politique interne de 10 pages : un message de direction, court, qui dit :
+
+- Voici les 3 catégories de données qui ne doivent jamais aller dans un outil IA public (données clients, données contractuelles et financières, données RH).
+- Les comptes personnels ne doivent pas être utilisés pour des usages professionnels IA.
+- Vous reviendrez dans la semaine avec une charte à signer.
+
+Ce message a deux effets immédiats : il signale que le sujet est pris au sérieux, et il crée une fenêtre de questionnement chez les collaborateurs qui utilisaient des outils IA sans y penser.
+
+### Étape 2, Semaine 1 : comment rédiger une charte d'usage IA efficace ?
+
+Une page, pas davantage. Elle reprend les 5 règles, la liste des outils autorisés avec leur niveau de données acceptable, et la procédure pour déclarer un nouvel outil. Elle est signée par chaque collaborateur.
+
+La valeur de ce document n'est pas juridique : c'est pédagogique. Signer une charte oblige à la lire. La lire crée une prise de conscience que l'usage non cadré ne crée pas.
+
+Pour construire une politique IA plus complète (registre des traitements, rôle du DPO, documentation formelle), [notre article sur la gouvernance IA en entreprise](/blog/gouvernance-ia-entreprise-registre-politique-dpo) détaille la démarche documentaire complète.
+
+### Étape 3, Mois 1 : comment réaliser le premier inventaire des outils IA ?
+
+Demandez à chaque responsable de service de lister les outils IA utilisés par son équipe. Tableau simple : outil, usage, données traitées, compte utilisé.
+
+1. Consolidez les réponses en une liste unique.
+2. Identifiez les outils qui traitent des données sensibles sans cadre.
+3. Décidez pour chacun : autoriser avec restrictions, remplacer par un outil mieux contrôlé, ou interdire.
+
+Cet inventaire est votre point de départ pour une politique IA structurée. Il ne remplace pas un audit complet, mais il vous donne une vision réaliste de votre exposition actuelle.
+
+> **Rappel de contexte** : selon Cybermalveillance.gouv.fr (2026), la hausse de 107 % des violations de données entre 2024 et 2025 n'est pas une projection. C'est un constat sur des incidents déjà survenus. La question n'est pas de savoir si un incident peut arriver dans votre entreprise, mais quand, et quel cadre vous aurez posé entre-temps.
+
+Ces trois étapes ne remplacent pas une politique IA complète ni un audit de maturité. Elles permettent de limiter l'exposition immédiate pendant que vous construisez un cadre mieux structuré. La fuite de données n'est jamais intentionnelle en PME. Elle vient d'une habitude prise par un collaborateur bien intentionné qui cherche à gagner du temps. Votre rôle de dirigeant est de lui donner un cadre simple avant qu'il en prenne un mauvais.
+
+## Passez de la théorie à l'action
+
+Sécuriser l'usage IA de vos équipes commence par un état des lieux : quels outils utilisent-ils vraiment, sur quelles données, avec quel niveau de risque ?
+
+Smart Impulsion propose un Audit IA Express qui identifie les pratiques à risque et pose le cadre d'usage adapté à votre structure. En 2 à 3 jours, vous repartez avec une politique d'usage validée et les règles prêtes à déployer.
+
+[En savoir plus sur l'Audit IA Express](/services/audit)`,
+    author: "Laurent Bouzon",
+    date: "5 octobre 2026",
+    dateISO: "2026-10-05",
+    readTime: "11 min",
+    category: "IA & PME",
+    image: "/cybersecurite-ia-pme-regles-pratiques-hero.png",
+    imageAlt: "Image d'illustration pour l'article \"Cybersécurité IA en PME : règles pratiques pour protéger vos données\"",
+    faq: [
+      {
+        question: "Quelles données ne faut-il jamais envoyer dans ChatGPT ?",
+        answer: "Toute donnée que vous ne publieriez pas publiquement : coordonnées clients, contrats, données RH, données financières, code source propriétaire, informations stratégiques. L'ANSSI recommande explicitement, dans sa recommandation R34 (guide avril 2024), de proscrire l'utilisation d'outils IA en ligne pour tout usage professionnel impliquant des données sensibles.",
+      },
+      {
+        question: "Est-ce un problème si mes collaborateurs utilisent leur compte personnel ChatGPT au bureau ?",
+        answer: "Oui, c'est un risque réel. Selon Cyberhaven (2026), 32,3 % des usages de ChatGPT en entreprise passent par des comptes personnels. Cela signifie que les données saisies échappent à tout contrôle de l'employeur, ne sont pas couvertes par les conditions d'un éventuel accord entreprise, et peuvent alimenter les modèles d'OpenAI si les paramètres de confidentialité ne sont pas configurés.",
+      },
+      {
+        question: "Faut-il interdire complètement l'IA à mes équipes pour être en sécurité ?",
+        answer: "Non. L'objectif n'est pas d'interdire mais de cadrer. La distinction clé est celle du type de données : l'IA peut être utilisée librement sur des données publiques ou génériques, mais doit être proscrite pour les données sensibles sur des outils grand public. Poser une liste blanche d'outils autorisés avec le niveau de données acceptable est plus efficace qu'une interdiction totale qui serait contournée.",
+      },
+      {
+        question: "Combien de temps faut-il pour mettre en place les règles décrites dans cet article ?",
+        answer: "Un premier niveau de protection peut être mis en place en une semaine : un message aux équipes le jour 1, une charte d'usage d'une page signée en semaine 1, un premier inventaire des outils IA utilisés en fin de mois. Ce n'est pas un projet IT : c'est une décision de direction.",
+      },
+      {
+        question: "Ces règles suffisent-elles pour être conforme au RGPD ?",
+        answer: "Ces règles limitent l'exposition immédiate mais ne couvrent pas l'ensemble des obligations RGPD liées à l'IA. Pour la conformité réglementaire complète, il faut un registre des traitements, une analyse d'impact (AIPD) si nécessaire, et une politique documentée. Notre article sur les obligations CNIL 2026 couvre ce volet en détail.",
+      },
+    ],
+    howTo: {
+      name: "Mettre en place des règles d'usage IA sécurisées en PME",
+      description: "3 étapes pour poser un cadre de sécurité IA dans votre entreprise sans DSI ni RSSI, en une semaine.",
+      totalTime: "PT168H",
+      steps: [
+        {
+          name: "Jour 1 : alerter les équipes sur les 3 catégories de données à ne jamais envoyer dans un outil IA public",
+          text: "Envoyer un message simple à toutes les équipes listant les données interdites dans les outils IA grand public : données clients, contrats et informations financières, données RH, code source propriétaire.",
+        },
+        {
+          name: "Semaine 1 : faire signer une charte d'usage IA d'une page",
+          text: "Rédiger et faire signer une charte d'usage IA reprenant les 5 règles pratiques et la liste des outils autorisés avec leur niveau de données acceptable. Un document d'une page, sans jargon technique.",
+        },
+        {
+          name: "Mois 1 : réaliser le premier inventaire des outils IA utilisés dans l'entreprise",
+          text: "Demander à chaque responsable de service de lister les outils IA utilisés par son équipe. Cet inventaire de 30 minutes révèle systématiquement des usages non déclarés et des risques non identifiés.",
+        },
+      ],
+    },
+  },
+  {
     slug: "piloter-projet-ia-pme",
     title: "Piloter un projet IA en cours : les jalons à poser et les signaux qui doivent vous alerter",
     seoTitle: "Piloter un projet IA PME : jalons et signaux d'alerte",
