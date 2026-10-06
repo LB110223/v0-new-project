@@ -69,6 +69,248 @@ export interface BlogArticle {
 
 export const blogArticles: BlogArticle[] = [
   {
+    slug: "esn-ou-agence-ia-pme",
+    title: "ESN ou agence IA : lequel choisir pour votre projet IA ?",
+    seoTitle: "ESN ou agence IA : lequel choisir pour son projet IA PME ?",
+    excerpt:
+      "81 % des ESN disent faire de l'IA, 9,8 % seulement de leur CA y est lié. Grille de décision en 3 critères : ESN, agence IA ou cabinet conseil.",
+    content: `Quand un dirigeant de PME hésite entre une ESN et une agence IA pour son projet IA, le premier réflexe est souvent l'ESN. Une Entreprise de Services du Numérique, ça fait tout, non ?
+
+Voici ce que les données disent : 81 % des ESN françaises ont identifié l'IA générative comme leur première opportunité de marché en 2025 (KPMG & Numeum, Grand Angle ESN & ICT 2025). Et pourtant, l'IA ne représente que 9,8 % de leur chiffre d'affaires effectif en 2026 (Numeum-Xerfi, Observatoire semestriel S1 2026). Ce décalage entre le discours commercial et la réalité opérationnelle est le premier fait à avoir en tête avant de signer quoi que ce soit.
+
+Ce n'est pas un jugement sur les ESN. C'est un fait structurel qui a des conséquences directes sur votre projet.
+
+## Trois types de prestataires IA, trois logiques très différentes
+
+ESN, agence IA spécialisée et cabinet conseil IA sont trois structures avec des modèles économiques distincts. Les confondre est la principale source d'erreur de choix de prestataire pour une PME.
+
+### L'ESN généraliste
+
+**Une Entreprise de Services du Numérique (ESN) est une structure IT pluridisciplinaire dont l'IA ne représente qu'une fraction minoritaire de l'activité réelle.** Elle est souvent composée de plusieurs centaines ou milliers de collaborateurs, et son modèle économique repose sur la régie : des profils facturés à la journée (TJM) sur des missions parfois longues. Sa clientèle naturelle est le grand compte. Le marché ESN français représente 34,6 milliards d'euros de CA en 2026, en croissance de +1 % seulement (Numeum-Xerfi, 2026).
+
+> L'ESN sait faire de l'IA. Mais l'IA ne représente que 9,8 % de son activité réelle (Numeum-Xerfi, 2026). Les neuf autres dixièmes, ce sont des projets IT classiques : infogérance, intégration, développement standard, maintenance applicative.
+
+### L'agence IA spécialisée
+
+**Une agence IA spécialisée est une structure qui consacre 100 % de son activité à l'intelligence artificielle.** Ses caractéristiques principales :
+
+- Activité : data science, modèles de langage (LLM), automatisation intelligente, intégration d'outils IA dans les processus métier
+- Taille : 10 à 80 personnes en général
+- Modèle contractuel : forfait avec livrables définis ou régie encadrée avec jalons précis
+- Limite : capacité réduite sur les projets à forte composante IT legacy
+
+### Le cabinet conseil IA
+
+**Un cabinet conseil IA est une structure à positionnement stratégique et méthodologique qui aide le dirigeant à qualifier son projet, définir son cahier des charges, choisir le bon type de prestataire et poser les conditions contractuelles non-négociables.** Il n'a pas d'équipe de développement propre. Il intervient en amont, en maîtrise d'ouvrage. C'est le positionnement de Smart Impulsion, cabinet conseil IA fondé par Laurent Bouzon.
+
+> Ces trois types de structures ne sont pas interchangeables. Confondre les rôles est la première source d'échec d'un projet IA en PME.
+
+## Avez-vous vraiment besoin d'un prestataire de services ?
+
+La majorité des entreprises françaises qui utilisent l'IA n'ont pas recours à un prestataire de services : elles achètent un outil SaaS et l'utilisent.
+
+Les données INSEE le confirment : 69 % des entreprises françaises qui utilisent l'IA acquièrent leur solution via des logiciels commerciaux prêts à l'emploi (SaaS, solutions packagées). Seulement 29 % passent par des contrats de service avec un prestataire (INSEE, enquête TIC, données 2024, publiées 2025).
+
+Autrement dit, la majorité des entreprises qui "font de l'IA" n'ont pas besoin d'une ESN ni d'une agence IA. Elles achètent un outil, le paramètrent, et l'utilisent.
+
+La question ESN vs agence IA ne se pose que pour les projets qui dépassent ce périmètre :
+
+- intégration d'un outil IA dans un SI existant avec des flux de données complexes
+- développement d'une solution IA sur mesure sur des données propriétaires
+- automatisation de processus métier avec connexion à l'ERP ou au CRM
+
+Si votre projet entre dans l'une de ces catégories, alors la grille de décision qui suit est pour vous. Sinon, la priorité est d'abord de [cadrer précisément le périmètre de votre projet](/blog/audit-ia-pme-guide-complet) avant de consulter qui que ce soit.
+
+## La grille de décision en 3 critères pour choisir son prestataire IA
+
+### Tableau comparatif ESN, agence IA, cabinet conseil IA
+
+| Critère | ESN généraliste | Agence IA spécialisée | Cabinet conseil IA |
+|---|---|---|---|
+| Focus activité | IT généraliste (IA = 9,8 % du CA) | IA à 100 % | Stratégie et méthode |
+| Modèle contractuel | Régie (TJM) dominant | Forfait ou régie encadrée | Mission délimitée |
+| Taille type | 100 à 50 000 personnes | 10 à 80 personnes | 1 à 20 personnes |
+| Cas d'usage idéal | Projet IA intégré à un chantier IT plus large | Projet IA centré sur la donnée métier | Cadrage et choix de prestataire |
+| Risque principal PME | Profils généralistes, dérive de régie | Capacité limitée sur legacy IT | Pas de livraison technique en propre |
+
+### Critère 1 : la nature du projet
+
+Le type de projet détermine le type de prestataire adapté avant toute autre considération.
+
+Distinguez deux types de projets.
+
+**Productivité ponctuelle** : outillage IA sur des processus isolés, sans modification du SI existant. Ce type de projet ne nécessite pas une ESN. Exemples typiques :
+
+- génération de contenu marketing ou commercial
+- assistant documentaire interne (recherche, synthèse)
+- analyse de données sur exports fichiers (CSV, Excel)
+
+Une agence IA spécialisée ou un cabinet conseil IA suffisent, et coûtent moins cher pour plus d'expertise réelle.
+
+**Transformation SI intégrée** : connexion aux données métier en temps réel, modification des flux existants, interaction avec l'ERP ou le système de production. Ce type de projet peut justifier une ESN si le legacy IT est lourd et si l'ESN a déjà une connaissance de votre infrastructure. Sinon, une agence IA spécialisée avec une expérience d'intégration est souvent plus adaptée.
+
+> Avant de consulter un prestataire, définissez par écrit à quelle catégorie appartient votre projet. Ce travail de [rédaction du cahier des charges](/blog/cahier-des-charges-ia-pme) est la condition minimale pour que les devis reçus soient comparables.
+
+### Critère 2 : la maturité de votre SI
+
+Sans données structurées et un SI documenté, aucun prestataire ne peut démarrer un projet IA sans facturer d'abord la remise à niveau.
+
+Posez-vous ces questions avant de consulter :
+
+- Vos données métier clés sont-elles structurées et accessibles ?
+- Avez-vous une documentation de vos flux de données existants ?
+- Avez-vous une personne en interne capable de piloter techniquement une mission avec un prestataire externe ?
+- Vos systèmes existants (ERP, CRM, outils métier) ont-ils des API documentées ?
+
+Si la réponse à au moins deux de ces questions est non, tout prestataire commencera par facturer la remise à niveau avant d'attaquer le projet IA. Ce coût caché est rarement mentionné dans les devis initiaux.
+
+> Le coût de la remise à niveau du SI précède souvent le coût du projet IA lui-même. C'est la principale cause de dépassement budgétaire sur les projets PME.
+
+### Critère 3 : budget et modèle contractuel
+
+Le modèle contractuel est souvent plus déterminant que le prix affiché.
+
+Les ESN fonctionnent majoritairement en **régie** : vous achetez des jours-homme à un TJM, sans plafond de durée garanti. Si le projet dure plus longtemps que prévu (et les projets IA dérapent souvent), la facture suit. Ce modèle convient aux projets longs avec périmètre évolutif, mais expose la PME à une élasticité des coûts difficile à maîtriser.
+
+Les agences IA spécialisées proposent plus souvent des **forfaits** avec livrables définis : un prix fixe pour un résultat précis. Ce modèle transfère le risque de dépassement vers le prestataire, ce qui est plus protecteur pour une PME avec un budget défini.
+
+Pour avoir une idée des fourchettes de coût réelles selon le type de prestataire et le type de projet, consultez notre analyse [du coût d'un audit IA pour une PME en 2026](/blog/cout-audit-ia-pme-fourchettes-2026).
+
+## Quand l'ESN est vraiment le bon choix
+
+L'ESN est le bon choix dans trois situations précises, et seulement dans ces trois situations.
+
+1. **Projet IA indissociable d'un chantier IT plus large.** Si vous êtes en cours de migration cloud, de refonte ERP ou d'intégration de systèmes legacy et que vous souhaitez embarquer un cas d'usage IA, l'ESN qui pilote ce chantier est souvent le bon interlocuteur. Changer de prestataire uniquement pour le volet IA crée une complexité de coordination qui coûte plus cher qu'elle ne rapporte.
+
+2. **Contrat de TMA ou d'infogérance actif.** Si l'ESN maintient déjà votre SI, elle a une connaissance de votre architecture que personne d'autre n'a. Introduire un nouveau prestataire IA sans la faire intervenir génère des frictions inutiles sur la responsabilité des incidents.
+
+3. **Projet avec forte composante cybersécurité et conformité.** Les grandes ESN ont des certifications (ISO 27001, SecNumCloud, etc.) et des équipes dédiées à la sécurité que la plupart des agences IA spécialisées n'ont pas. Si votre projet IA traite des données sensibles avec des exigences réglementaires fortes, ce critère peut primer sur l'expertise IA pure.
+
+> La question n'est pas "ESN ou agence IA ?" de manière abstraite. La question est : quel type de risque mon projet IA fait-il peser, et quel type de structure est le mieux armé pour le gérer ?
+
+## Les signaux d'alerte contractuels pour un projet IA PME
+
+Un devis ESN pour un projet IA PME contient souvent des clauses qui exposent le client à des risques de dérive de coût ou de livraison.
+
+En 2026, le secteur ESN est sous pression : 57 % des DSI français rapportent des reports de projets, et 35 % des ESN anticipent une baisse de marge opérationnelle (Numeum-Xerfi, 2026). Dans ce contexte, les projets PME (faibles marges, profils moins disponibles) sont les premiers à souffrir des arbitrages de staffing.
+
+Voici les signaux d'alerte dans un devis ESN pour un projet IA PME :
+
+- **Régie ouverte sans jalon de livrable défini** : vous payez des jours sans savoir ce que vous recevez à quelle date.
+- **Aucun profil nommé dans l'offre** : l'ESN vous vend une capacité abstraite, pas une équipe. Le profil senior présenté en avant-vente n'est pas forcément celui qui travaillera sur le projet.
+- **TJM sans plafond de durée** : le risque de dépassement repose entièrement sur vous.
+- **Absence de clause de propriété intellectuelle sur les modèles développés** : si l'ESN adapte un modèle à vos données, qui en est propriétaire à la fin du contrat ?
+- **Taux d'encadrement supérieur à 30 %** : quand le management représente plus d'un tiers des jours facturés, vous payez de l'organisation plus que de l'exécution.
+
+Ces signaux ne sont pas propres aux ESN. Ils valent aussi pour les agences IA. Mais le modèle en régie des ESN les rend structurellement plus fréquents.
+
+La différence entre [un audit IA et une mission de consulting classique](/blog/audit-ia-vs-consulting-classique) tient en grande partie à cette clarté contractuelle : l'audit produit des livrables définis dans un délai défini, à prix fixe. C'est le standard à exiger de tout prestataire, quel que soit son type.
+
+Pour aller plus loin sur la manière de piloter un prestataire une fois qu'il est sélectionné, l'article sur [le choix d'un consultant IA](/blog/consultant-ia-pme-comment-choisir) détaille les critères d'évaluation individuelle à appliquer aux profils nommés dans le devis.
+
+## Questions fréquentes
+
+### Quelle différence entre une ESN et une agence IA ?
+
+Une Entreprise de Services du Numérique (ESN) est une structure IT pluridisciplinaire dont l'IA ne représente qu'une fraction de l'activité réelle : 9,8 % du CA en 2026 selon Numeum-Xerfi. Une agence IA spécialisée consacre 100 % de son activité à l'IA : data science, LLM, automatisation intelligente. Ce n'est pas une différence de taille, c'est une différence de modèle économique et de profondeur d'expertise disponible sur votre projet.
+
+### Vaut-il mieux passer par une ESN ou une agence IA pour mon projet IA ?
+
+Cela dépend de la nature du projet. Si votre projet IA est indissociable d'une refonte IT ou d'une migration cloud en cours, l'ESN peut être le bon interlocuteur. Si votre projet est centré sur l'IA elle-même (traitement de données métier, modèles de langage, automatisation), une agence IA spécialisée offre généralement une expertise plus concentrée. Un audit préalable permet de trancher avant de consulter.
+
+### Une ESN peut-elle réaliser un projet IA pour une PME ?
+
+Oui, dans des cas précis : projets IA intégrés à un chantier IT plus large, présence d'un contrat de TMA ou d'infogérance actif, ou projets avec forte composante cybersécurité et conformité. En dehors de ces cas, l'ESN risque de mettre des profils généralistes sur un projet qui nécessite une expertise IA concentrée, et de facturer la mise à niveau avant de commencer.
+
+### Quels critères pour choisir entre ESN, agence IA et cabinet conseil IA ?
+
+Trois critères structurants : la nature du projet (productivité ponctuelle ou transformation SI intégrée), la maturité de votre SI (données structurées, documentation, équipe IT interne), et le modèle contractuel (régie ouverte ESN ou forfait agence IA). Le cabinet conseil IA intervient en amont pour qualifier le projet avant que vous ne choisissiez.
+
+### Quels sont les risques contractuels d'un projet IA en régie avec une ESN ?
+
+Les principaux risques : régie ouverte sans jalons de livrable définis, absence de profil nommé dans l'offre, TJM sans plafond de durée, absence de clause de propriété intellectuelle sur les modèles développés, taux d'encadrement élevé. Dans un contexte où 57 % des DSI rapportent des reports de projets en 2026 (Numeum-Xerfi), le risque de déprioritisation des projets PME au profit des grands comptes est réel.
+
+### Comment vérifier que l'ESN a vraiment des compétences IA ?
+
+Demandez le ratio de profils IA certifiés (data scientists, ingénieurs spécialisés IA, LLM specialists) dans l'équipe proposée, pas dans l'ensemble de l'ESN. Exigez des références de projets IA livrés en forfait, pas en régie ouverte. Un commercial qui parle d'IA sans pouvoir nommer les profils dédiés au projet est un signal d'alerte.
+
+### Quand l'ESN est-elle le bon choix pour un projet IA ?
+
+L'ESN est pertinente quand le projet IA est indissociable d'un chantier IT plus large (migration cloud, refonte ERP, intégration de systèmes legacy). Elle est aussi le bon choix quand vous avez déjà un contrat de TMA ou d'infogérance avec elle, ou quand la composante cybersécurité et conformité est centrale et exige des certifications spécifiques que l'ESN détient.
+
+## Cadrer votre projet IA avant de choisir un prestataire
+
+Le choix entre ESN et agence IA ne peut pas se faire sérieusement sans avoir d'abord qualifié le projet. Pas de périmètre défini, pas de comparaison possible.
+
+Le problème : c'est difficile de demander à un prestataire de vous aider à définir le périmètre d'un projet sur lequel il veut ensuite être retenu. Le conflit d'intérêt est structurel. L'ESN qui fait votre diagnostic a intérêt à vous vendre un projet large. L'agence IA qui cadre votre besoin a intérêt à en faire un projet IA pur.
+
+C'est précisément l'utilité d'un audit préalable réalisé par une structure indépendante : qualifier le projet, identifier le type de prestataire adapté, et poser les conditions contractuelles non-négociables avant de consulter.
+
+L'[Audit IA Express](/services/audit) de Smart Impulsion remplit ce rôle. En trois jours, il produit :
+
+- le diagnostic de maturité IA de votre entreprise
+- la liste priorisée des cas d'usage applicables
+- un cahier des charges fonctionnel soumettable à tout prestataire, ESN ou agence IA
+
+Vous arrivez avec un document. Le prestataire répond à votre document. Pas l'inverse.`,
+    author: "Laurent Bouzon",
+    date: "6 octobre 2026",
+    dateISO: "2026-10-06",
+    readTime: "11 min",
+    category: "Audit & Methodologie",
+    image: "/esn-ou-agence-ia-pme-hero.png",
+    imageAlt: "Image d'illustration pour l'article \"ESN ou agence IA : lequel choisir pour votre projet IA ?\"",
+    faq: [
+      {
+        question: "Quelle différence entre une ESN et une agence IA ?",
+        answer: "Une Entreprise de Services du Numérique (ESN) est une structure généraliste IT dont l'IA représente une fraction minoritaire de l'activité (9,8 % du CA en 2026 selon Numeum-Xerfi). Une agence IA spécialisée consacre 100 % de son activité à l'IA : data science, LLM, automatisation. Ce n'est pas une différence de taille mais de modèle économique et de profondeur d'expertise IA disponible.",
+      },
+      {
+        question: "Vaut-il mieux passer par une ESN ou une agence IA pour mon projet IA ?",
+        answer: "Cela dépend de la nature du projet. Si votre projet IA est indissociable d'une refonte IT ou d'une migration cloud déjà en cours, l'ESN peut être le bon interlocuteur. Si votre projet est centré sur l'IA elle-même (traitement de données métier, LLM, automatisation intelligente), une agence IA spécialisée offre généralement une expertise plus concentrée. Un audit préalable permet de trancher avant de consulter.",
+      },
+      {
+        question: "Une ESN peut-elle réaliser un projet IA pour une PME ?",
+        answer: "Oui, dans des cas précis : projets IA intégrés à un chantier IT plus large, présence d'un contrat de TMA ou d'infogérance actif, ou projets avec forte composante cybersécurité et conformité. En dehors de ces cas, l'ESN risque de mettre des profils généralistes sur un projet qui nécessite une expertise IA concentrée, et de facturer la mise à niveau avant de commencer.",
+      },
+      {
+        question: "Quels critères pour choisir entre ESN, agence IA et cabinet conseil IA ?",
+        answer: "Trois critères structurants : (1) la nature du projet, productivité ponctuelle ou transformation SI intégrée ; (2) la maturité de votre SI, données structurées, documentation, équipe IT interne ; (3) le budget et le délai, avec la question du modèle contractuel, régie ouverte (ESN) ou forfait avec livrables définis (agence IA). Le cabinet conseil IA intervient en amont pour qualifier le projet avant de choisir.",
+      },
+      {
+        question: "Quels sont les risques contractuels d'un projet IA en régie avec une ESN ?",
+        answer: "Les principaux risques : régie ouverte sans jalons de livrable définis, absence de profil nommé dans l'offre, TJM sans plafond de durée, absence de clause de propriété intellectuelle sur les modèles développés, taux d'encadrement élevé. Dans un contexte où 57 % des DSI rapportent des reports de projets en 2026 (Numeum-Xerfi), le risque de déprioritisation des projets PME au profit des grands comptes est réel.",
+      },
+      {
+        question: "Comment vérifier que l'ESN a vraiment des compétences IA ?",
+        answer: "Demandez le ratio de profils IA certifiés (data scientists, ingénieurs spécialisés IA, LLM specialists) dans l'équipe proposée, pas dans l'ensemble de l'ESN. Exigez des références de projets IA livrés en forfait, pas en régie ouverte. Un commercial qui parle d'IA sans pouvoir nommer les profils dédiés au projet est un signal d'alerte.",
+      },
+      {
+        question: "Quand l'ESN est-elle le bon choix pour un projet IA ?",
+        answer: "L'ESN est pertinente quand le projet IA est indissociable d'un chantier IT plus large (migration cloud, refonte ERP, intégration de systèmes legacy), quand vous avez déjà un contrat de TMA ou d'infogérance avec elle (cohérence de responsabilité), ou quand la composante cybersécurité et conformité est centrale et exige des certifications spécifiques que l'ESN détient.",
+      },
+    ],
+    howTo: {
+      name: "Grille de décision : ESN, agence IA ou cabinet conseil IA pour votre projet ?",
+      description: "Trois critères pour choisir le bon type de prestataire IA avant de lancer un appel d'offres.",
+      totalTime: "PT2H",
+      steps: [
+        {
+          name: "Qualifier la nature du projet",
+          text: "Distinguez productivité ponctuelle (outillage IA sur des processus isolés, sans intégration SI) et transformation SI intégrée (connexion aux données métier, modification des flux existants). Le premier appelle une agence IA ou un cabinet conseil. Le second peut justifier une ESN si le legacy IT est lourd.",
+        },
+        {
+          name: "Évaluer la maturité de votre SI",
+          text: "Vérifiez si vos données sont structurées et documentées, si vous avez une équipe IT interne capable de piloter, et si vos systèmes existants sont suffisamment documentés pour qu'un prestataire externe puisse travailler dessus sans audit préalable long. Sans cette maturité, tout prestataire facturera la remise à niveau avant de commencer le projet IA.",
+        },
+        {
+          name: "Comparer les modèles contractuels selon le budget et le délai",
+          text: "Les ESN fonctionnent majoritairement en régie (TJM), ce qui génère un risque d'élasticité des coûts. Les agences IA spécialisées proposent plus souvent des forfaits avec livrables définis. Avant de comparer les devis, définissez votre plafond budgétaire et vos jalons de livrable non-négociables.",
+        },
+      ],
+    },
+  },
+  {
     slug: "cybersecurite-ia-pme-regles-pratiques",
     title: "Cybersécurité IA en PME : règles pratiques pour protéger vos données",
     seoTitle: "Cybersécurité IA PME : règles pratiques pour vos équipes",
