@@ -69,6 +69,254 @@ export interface BlogArticle {
 
 export const blogArticles: BlogArticle[] = [
   {
+    slug: "formation-ia-intra-inter-entreprise-pme",
+    title: "Formation IA intra ou inter-entreprise : comment choisir en PME",
+    seoTitle: "Formation IA intra ou inter-entreprise : choisir en PME",
+    excerpt:
+      "Intra ou inter-entreprise pour former vos équipes à l'IA ? La grille de décision en 4 critères pour PME, avec les seuils chiffrés et les pièges à éviter.",
+    content: `# Formation IA intra ou inter-entreprise : comment choisir en PME
+
+Selon la page "Use of artificial intelligence in enterprises" d'Eurostat (données 2025, dernière mise à jour juin 2026, ec.europa.eu/eurostat/statistics-explained), 70,89 % des entreprises qui n'utilisent pas l'IA citent le manque d'expertise comme premier frein. Ce n'est pas la technologie qui bloque. C'est la compétence.
+
+**En résumé : choisissez l'inter-entreprise si vous formez moins de 3 collaborateurs, si vos équipes n'ont jamais utilisé l'IA, ou si votre délai est inférieur à quatre semaines. Choisissez l'intra-entreprise si vous formez 6 personnes ou plus, si la maturité IA existe déjà, et si vous avez documenté au moins trois cas d'usage métier sur lesquels ancrer la formation. Entre les deux, les quatre variables détaillées ci-dessous tranchent.**
+
+L'INSEE confirme que 69 % des entreprises françaises utilisant l'IA ont simplement acheté un logiciel commercial (INSEE Première n°2061, 2025). La vraie question n'est donc pas "faut-il former ?" mais "quel format de formation choisir pour que ça change quelque chose ?"
+
+L'arbitrage entre intra-entreprise et inter-entreprise est là où beaucoup de dirigeants perdent du temps et de l'argent. Trop souvent, la décision se prend par réflexe ou par simplification budgétaire, pas par raisonnement.
+
+## La formation IA, un frein technique ou humain ?
+
+### Ce que les chiffres disent vraiment
+
+En 2024, seulement 9 % des entreprises françaises de 10 à 49 salariés utilisaient l'IA, et 15 % pour les 50 à 249 salariés (INSEE Première n°2061, juillet 2025). Ce fossé entre petites et moyennes PME n'est pas un hasard.
+
+Selon le Baromètre France Num 2025, 26 % des TPE-PME utilisaient l'IA fin 2024, contre 13 % un an plus tôt. Un doublement en douze mois. Pour les entreprises qui ne se forment pas en 2026, l'écart avec leurs concurrentes se creuse à vitesse accélérée.
+
+> **À retenir.** 70,89 % des entreprises non-utilisatrices citent le manque d'expertise comme premier frein à l'adoption IA (Eurostat "Use of AI in enterprises", données 2025, publiées juin 2026). Avant le budget. Avant la réglementation.
+
+### Le vrai sujet : l'adoption, pas l'accès
+
+69 % des entreprises françaises utilisant l'IA ont acquis leurs solutions via des logiciels commerciaux prêts à l'emploi (INSEE n°2061). La technologie est disponible, souvent déjà payée.
+
+Ce qui bloque l'adoption, c'est que les équipes ne savent pas utiliser ces outils dans leur contexte métier. Former sans ancrer sur des cas d'usage réels, c'est acheter une formation pour rien.
+
+L'arbitrage intra/inter n'est donc pas une question de format pédagogique. C'est une question de ROI et d'adoption réelle à six mois.
+
+## Trois formats, deux confusions à éviter
+
+Avant tout arbitrage, il faut distinguer trois réalités que l'on mélange trop souvent.
+
+### Définition : formation inter-entreprise
+
+**La formation inter-entreprise est un programme standard proposé par un organisme de formation, ouvert à des participants issus de différentes structures, sur des dates fixées par l'organisme.** Vous inscrivez un ou plusieurs collaborateurs dans un catalogue. Le contenu est générique, le contexte n'est pas le vôtre.
+
+Avantages :
+
+- Délai court : inscription possible en 2 à 4 semaines
+- Coût par tête plus bas pour 1 à 3 participants
+- Idéal pour poser des bases IA quand la maturité de l'équipe est faible
+- Finançable via le PDC de votre OPCO (organisme certifié Qualiopi)
+
+### Définition : formation intra-entreprise
+
+**La formation intra-entreprise est délivrée par un organisme externe certifié Qualiopi, avec un programme adapté à votre métier et vos processus, pour un groupe homogène de collaborateurs de la même entreprise, dans vos locaux ou en distanciel privatif.** Le formateur travaille votre contexte avant d'intervenir.
+
+Avantages :
+
+- Contenu ancré sur vos cas d'usage réels
+- Cohérence du groupe (même niveau, même vocabulaire métier)
+- Documentée naturellement (programme, liste des participants, objectifs, compte-rendu)
+- Finançable via le PDC de votre OPCO (organisme certifié Qualiopi)
+
+> **Point de vigilance.** La formation intra-entreprise nécessite 4 à 8 semaines de cadrage préalable si elle est faite sérieusement. Vouloir une intra en trois semaines produit une inter mal déguisée.
+
+### Définition : formation interne
+
+**La formation interne est assurée par un salarié de l'entreprise qui forme ses collègues, sans faire appel à un organisme externe.** Ce n'est pas la même chose que l'intra-entreprise. Les implications en termes de financement OPCO sont différentes : seule la formation délivrée par un organisme certifié Qualiopi est éligible au PDC. Ne confondez pas les deux, votre service RH ou votre OPCO vous remerciera.
+
+## La grille en 4 variables
+
+L'arbitrage intra/inter ne se résume pas à compter les participants. Il repose sur quatre variables qui doivent être évaluées dans l'ordre.
+
+> **Méthode.** Répondez aux quatre questions suivantes dans l'ordre. Si une réponse vous oriente clairement, inutile de continuer. Chaque variable peut à elle seule trancher la décision.
+
+### Variable 1 : la taille du groupe
+
+C'est le point de départ, pas la conclusion.
+
+- **Moins de 3 participants** : l'inter-entreprise est presque toujours plus économique. Le coût de cadrage et d'adaptation d'une intra n'est pas amorti sur un groupe aussi réduit.
+- **Entre 3 et 6 participants** : l'arbitrage dépend des trois autres variables. Ne décidez pas sur ce seul critère.
+- **Plus de 6 participants** : l'intra sur mesure devient le format à privilégier. Le coût de cadrage est amorti, et l'homogénéité du groupe amplifie l'adoption.
+
+### Variable 2 : la maturité IA des équipes
+
+Si vos collaborateurs n'ont jamais ouvert un outil IA, une session inter-entreprise catalogue suffit pour poser les bases. L'intra sur mesure est un investissement qui suppose une maturité minimum pour être absorbé.
+
+Si la maturité existe mais que les usages métier ne sont pas encore formalisés dans l'entreprise, l'intra reste prématurée. Former sur "l'IA en général" quand vos équipes sont déjà familières avec les outils ne produit pas d'adoption : cela produit de la frustration.
+
+Pour évaluer la maturité de vos équipes avant de choisir un format, l'article [Formation IA en PME : comment prioriser avant d'acheter](/blog/formation-ia-pme-comment-prioriser) donne une grille de diagnostic en quatre étapes.
+
+### Variable 3 : les cas d'usage documentés
+
+C'est la variable la plus sous-estimée. Une intra de qualité s'ancre sur vos processus réels : l'organisme de formation adapte le programme à vos flux de travail, vos outils, votre vocabulaire métier.
+
+Pour que cet ancrage soit possible, vous devez avoir préalablement identifié au moins trois cas d'usage concrets. Si ce travail n'est pas fait, l'organisme de formation ne peut pas personnaliser réellement. Vous paierez le prix d'une intra et obtiendrez la généricité d'une inter.
+
+> **Red flag.** Vous avez signé une intra mais vous n'avez pas encore identifié sur quels processus la formation sera ancrée. C'est le signe que vous risquez de payer pour une inter déguisée. Annulez ou repoussez le temps de faire ce travail préalable.
+
+### Variable 4 : le budget OPCO et le délai
+
+Votre OPCO peut prendre en charge tout ou partie du coût via le Plan de Développement des Compétences, que vous optiez pour l'intra ou l'inter (organisme certifié Qualiopi dans les deux cas). Les plafonds varient par branche professionnelle : vérifiez votre solde disponible directement auprès de votre OPCO avant de décider du format.
+
+Le délai est aussi une contrainte réelle. Une session inter se programme en 2 à 4 semaines. Une intra sérieuse nécessite 4 à 8 semaines de cadrage. Si votre délai est court, l'inter s'impose, quels que soient les autres critères.
+
+Sur le lien entre article 4 de l'AI Act et financement OPCO, l'article [Littératie IA en PME : ce que l'article 4 de l'AI Act impose](/blog/litteratie-ia-pme-ai-act-article-4) détaille les leviers à activer.
+
+## Les deux erreurs classiques en PME
+
+On observe deux patterns qui reviennent régulièrement, et qui coûtent cher.
+
+### L'inter par réflexe
+
+Un dirigeant doit former 8 à 12 collaborateurs. Il inscrit tout le monde dans des sessions inter-entreprise parce que c'est plus simple à acheter, plus facile à justifier en COMEX, et que les catalogues sont accessibles en 48 heures.
+
+Résultat : programme générique, aucun ancrage sur les processus réels de l'entreprise, adoption à six mois proche de zéro. Le coût apparent par tête est plus bas. Le ROI réel est pire qu'une intra bien construite.
+
+Les symptômes de cette erreur :
+
+- Les collaborateurs terminent la formation en se demandant comment appliquer ça concrètement
+- Aucun cas d'usage n'émerge dans les semaines suivantes
+- Le dirigeant conclut que "la formation IA ne sert à rien"
+
+### L'intra hors-sol
+
+Une PME commande une belle intra sur mesure. L'organisme de formation produit un programme de qualité. Mais personne n'a identifié les cas d'usage en amont, le sponsor interne n'a pas été nommé, les agendas n'ont pas été bloqués.
+
+L'intra se déroule correctement. Et puis rien ne change. L'adoption reste nulle, pas parce que la formation était mauvaise, mais parce que le terrain n'était pas préparé pour la recevoir.
+
+Les symptômes de cette erreur :
+
+- Les participants trouvent la formation "intéressante" mais ne savent pas par où commencer
+- Aucun processus n'a été identifié avant la formation pour mettre en pratique
+- Le sponsor interne change entre la signature et la formation
+
+> **Question préalable à toute décision.** Avez-vous identifié trois cas d'usage concrets sur lesquels ancrer la formation ? Si la réponse est non, l'intra est prématurée, quelle que soit la qualité de l'organisme.
+
+## L'article 4 de l'AI Act : ce que ça change pour votre arbitrage
+
+L'article 4 du règlement (UE) 2024/1689 a été intégralement réécrit par le règlement (UE) 2026/1744 (Digital Omnibus, en vigueur depuis le 27 juillet 2026). Il impose aux déployeurs d'IA une obligation de **moyens** : documenter les actions déployées pour soutenir la littératie IA de vos équipes. Pas de niveau garanti par individu, pas de certification obligatoire. La date d'application est inchangée : 2 février 2025.
+
+> **Ce que ça change concrètement.** Une formation intra avec programme documenté, liste des participants, objectifs pédagogiques et compte-rendu produit naturellement les preuves de moyens attendues. Une série de sessions inter sans documentation consolidée est plus difficile à valoriser dans un dossier de conformité.
+
+Ce point est souvent présenté comme une contrainte. C'est aussi un levier : la documentation d'une intra bien construite sert à la fois la conformité et le financement OPCO. Ces deux objectifs se rejoignent.
+
+Pour comprendre les implications précises du Digital Omnibus sur votre PME, l'article [Digital Omnibus et AI Act : ce que ça change vraiment pour votre PME](/blog/digital-omnibus-ia-pme-ce-qui-change) détaille les modifications introduites par le règlement 2026/1744.
+
+## Décider en moins de 30 minutes
+
+Voici la séquence de quatre questions à poser dans l'ordre. Si une réponse est tranchée, elle suffit.
+
+1. **Combien de collaborateurs à former sur le même sujet ?** Moins de 3 : optez pour l'inter. Plus de 6 : optez pour l'intra. Entre 3 et 6 : continuez.
+2. **Ont-ils tous la maturité suffisante pour absorber une intra ?** Si l'équipe n'a jamais utilisé d'outil IA : commencez par une inter pour poser les bases. Si oui : continuez.
+3. **Avez-vous documenté trois cas d'usage métier sur lesquels ancrer la formation ?** Si non : l'intra est prématurée. Identifiez d'abord les cas d'usage, puis revenez à cette question.
+4. **Quel est votre solde PDC OPCO disponible et quel est votre délai ?** Moins de quatre semaines avant la date souhaitée : optez pour l'inter. Solde suffisant et délai disponible : l'intra peut être envisagée.
+
+> **En résumé.** Choisissez l'inter-entreprise si : groupe inférieur à 3 personnes, maturité IA faible, ou délai inférieur à 4 semaines. Choisissez l'intra-entreprise si : groupe de 6 personnes ou plus, maturité IA existante, au moins 3 cas d'usage documentés, et délai de 4 à 8 semaines disponible pour le cadrage. La grille ne remplace pas le bon sens : une PME de 5 personnes avec un seul collaborateur à former n'a pas besoin de passer par les quatre questions.
+
+### Les ressources pour aller plus loin
+
+Quatre articles du blog SI pour approfondir chaque dimension de la décision :
+
+- [Formation IA en PME : comment prioriser avant d'acheter](/blog/formation-ia-pme-comment-prioriser) : identifier les cas d'usage prioritaires avant de commander quoi que ce soit
+- [Formation IA en entreprise : comment prouver qu'elle a vraiment changé quelque chose](/blog/mesurer-efficacite-formation-ia-entreprise) : les indicateurs à suivre à J+30 et J+90 pour mesurer l'adoption réelle
+- [Choisir un prestataire de formation IA : la grille de sélection avant de signer](/blog/choisir-prestataire-formation-ia) : les critères à vérifier quel que soit le format retenu
+- [Former votre COMEX à l'IA : ce que vos membres doivent savoir](/blog/former-comex-ia-pme-ce-qui-compte) : ce que les formations du marché ne couvrent pas pour les instances dirigeantes
+
+Le guide complet du cluster formation est disponible ici : [Formation IA pour dirigeants et équipes : le guide pratique 2026](/blog/formation-ia-dirigeants-guide-pratique).
+
+## Questions fréquentes
+
+### À partir de combien de participants une formation intra est-elle rentable ?
+
+Le seuil économique est de 3 à 4 participants. En dessous de ce seuil, le coût par tête d'une intra dépasse presque toujours celui d'une session inter-entreprise. Mais ce seuil n'est qu'une première variable. La maturité IA des équipes, l'existence de cas d'usage documentés et le délai disponible comptent autant dans l'arbitrage.
+
+### Quelle est la différence entre formation intra et formation interne ?
+
+La formation intra-entreprise est délivrée par un organisme externe certifié Qualiopi, sur mesure, pour vos équipes. La formation interne est assurée par un salarié de l'entreprise qui forme ses collègues. Ces deux dispositifs n'ont pas les mêmes règles de financement OPCO : seule la formation intra-entreprise via un organisme certifié est éligible au PDC.
+
+### Les OPCO financent-ils les formations IA intra et inter-entreprise ?
+
+Oui, les deux formats sont éligibles au Plan de Développement des Compétences (PDC), à condition que l'organisme soit certifié Qualiopi. Les plafonds varient par branche et par OPCO. Vérifiez votre solde disponible directement auprès de votre OPCO avant de signer.
+
+### L'AI Act impose-t-il une formation IA à mes équipes ?
+
+Non, l'AI Act impose une obligation de moyens, pas de résultat. Depuis le 2 février 2025, l'article 4 du règlement (UE) 2024/1689 (réécrit par le règlement 2026/1744) impose de documenter les actions déployées pour soutenir la littératie IA. Pas de niveau garanti, pas de certification obligatoire.
+
+### Comment éviter une formation sans impact ?
+
+La cause principale d'une formation sans effet est l'absence de cas d'usage métier documentés en amont. Former des équipes sur "l'IA en général" sans ancrage sur des processus concrets produit un taux d'adoption à six mois très faible. La question à poser avant toute décision : "Sur quels processus précis ces compétences seront-elles appliquées dès la semaine suivante ?"
+
+## Passez à l'action sur des bases solides
+
+Choisir entre intra et inter, c'est la bonne question. Mais la question d'avant est : vos équipes sont-elles prêtes à absorber une formation IA, et sur quels cas d'usage l'ancrer ?
+
+Smart Impulsion propose un Audit IA Express qui identifie les cas d'usage prioritaires de votre PME et évalue la maturité de vos équipes à les absorber. En 2 à 3 jours, vous repartez avec une cartographie des trois cas d'usage les plus rentables, un profil de maturité par équipe et les pré-requis organisationnels à mettre en place avant de commander une formation.
+
+[En savoir plus sur l'Audit IA Express](/services/audit)`,
+    author: "Laurent Bouzon",
+    date: "7 octobre 2026",
+    dateISO: "2026-10-07",
+    readTime: "11 min",
+    category: "Formation IA",
+    image: "/formation-ia-intra-inter-entreprise-pme-hero.png",
+    imageAlt: "Image d'illustration pour l'article \"Formation IA intra ou inter-entreprise : comment choisir en PME\"",
+    faq: [
+      {
+        question: "À partir de combien de participants une formation intra-entreprise IA devient-elle rentable ?",
+        answer: "Le seuil économique est de 3 à 4 participants : en dessous, le coût par tête d'une intra dépasse presque toujours celui d'une session inter-entreprise (source : pratique courante des organismes de formation certifiés Qualiopi). Mais ce seuil n'est qu'une variable parmi quatre : la maturité IA des équipes, l'existence de cas d'usage métier documentés et le délai disponible conditionnent autant l'arbitrage que la taille du groupe.",
+      },
+      {
+        question: "Quelle est la différence entre formation intra-entreprise et formation interne ?",
+        answer: "La formation intra-entreprise est délivrée par un organisme externe certifié Qualiopi, sur mesure, pour un groupe homogène de collaborateurs de la même entreprise. La formation interne est assurée par un salarié de l'entreprise qui forme ses collègues. Ce sont deux dispositifs distincts : seule la formation intra-entreprise via un organisme certifié Qualiopi est finançable via le Plan de Développement des Compétences (PDC) de votre OPCO.",
+      },
+      {
+        question: "Peut-on utiliser le financement OPCO pour une formation IA intra ou inter-entreprise ?",
+        answer: "Oui, les deux formats sont éligibles au Plan de Développement des Compétences (PDC) via votre OPCO, à condition que l'organisme de formation soit certifié Qualiopi. Les plafonds de prise en charge varient par branche professionnelle et par OPCO. Vérifiez votre solde PDC disponible sur le site de votre OPCO avant de choisir le format.",
+      },
+      {
+        question: "Est-ce que l'AI Act oblige les PME à former leurs équipes à l'IA ?",
+        answer: "Non, l'AI Act n'impose pas une obligation de résultat. L'article 4 du règlement (UE) 2024/1689, réécrit par le Digital Omnibus (règlement UE 2026/1744 en vigueur depuis le 27 juillet 2026), impose une obligation de MOYENS : documenter les actions déployées pour soutenir la littératie IA de vos équipes. Il n'existe pas de niveau garanti par individu ni de certification obligatoire.",
+      },
+      {
+        question: "Comment éviter qu'une formation IA ne produise aucun changement dans mon entreprise ?",
+        answer: "La cause principale d'une formation sans effet est l'absence de cas d'usage métier documentés avant la formation. Former des équipes à l'IA sans avoir préalablement identifié sur quels processus concrets elles vont appliquer ces compétences produit un taux d'adoption à six mois quasi-nul. Avant de signer quoi que ce soit, posez cette question : avons-nous déjà identifié trois cas d'usage concrets sur lesquels ancrer la formation ?",
+      },
+    ],
+    howTo: {
+      name: "Arbitrage formation IA intra ou inter-entreprise en PME",
+      description: "Méthode en 4 questions pour décider du format de formation IA adapté à votre PME en moins de 30 minutes",
+      totalTime: "PT30M",
+      steps: [
+        {
+          name: "Vérifier la taille du groupe",
+          text: "Comptez le nombre de collaborateurs à former sur le même sujet. Sous 3 participants, l'inter-entreprise est presque toujours plus économique. Entre 3 et 6, passez aux questions suivantes. Au-delà de 6, l'intra sur mesure devient le format à privilégier.",
+        },
+        {
+          name: "Évaluer la maturité IA des équipes",
+          text: "Si vos collaborateurs n'ont jamais utilisé un outil IA, une session inter-entreprise catalogue permet de poser les bases sans sur-investir. Si la maturité existe mais que les usages métier ne sont pas encore formalisés, l'intra reste prématurée.",
+        },
+        {
+          name: "Vérifier l'existence de cas d'usage documentés",
+          text: "Avez-vous identifié au moins trois cas d'usage concrets sur lesquels ancrer la formation ? Si la réponse est non, l'intra est prématurée quel que soit le format. Commencez par identifier ces cas d'usage.",
+        },
+        {
+          name: "Contrôler le budget OPCO et le délai",
+          text: "Vérifiez votre solde Plan de Développement des Compétences auprès de votre OPCO. Si votre délai est inférieur à quatre semaines, optez pour l'inter-entreprise : une intra de qualité nécessite 4 à 8 semaines de cadrage préalable.",
+        },
+      ],
+    },
+  },
+  {
     slug: "esn-ou-agence-ia-pme",
     title: "ESN ou agence IA : lequel choisir pour votre projet IA ?",
     seoTitle: "ESN ou agence IA : lequel choisir pour son projet IA PME ?",
