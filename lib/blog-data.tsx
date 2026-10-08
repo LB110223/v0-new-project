@@ -21524,7 +21524,7 @@ La réponse dépendra du contexte de chaque organisation — taille, maturité d
     readTime: "14 min",
     category: "Analyse marché",
     image: "/crm-ia-decision-hero.png",
-    imageAlt: "Interface CRM IA avec scores de leads et actions de décision autonome",
+    imageAlt: "Interface de gestion des leads avec scores et actions de décision autonome",
   },
   {
     slug: "agence-ia-comment-choisir-partenaire-transformation",

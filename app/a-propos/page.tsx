@@ -216,8 +216,8 @@ export default function AProposPage() {
                   },
                   {
                     name: "Smart Analyse",
-                    desc: "On audite vos processus, on identifie vos 3 quick wins IA, on chiffre le ROI. Le plan d'action, pas le rapport de 200 pages.",
-                    prix: "5 000 a 15 000 euros",
+                    desc: "Un seul processus, une hypothese de gain verifiee sur le terrain, une reponse chiffree. Pas le rapport de 200 pages.",
+                    prix: "1 000 a 2 000 euros HT",
                   },
                   {
                     name: "Smart Action",
@@ -242,8 +242,8 @@ export default function AProposPage() {
               <div className="flex items-start gap-3 bg-orange-50 rounded-xl p-6 border border-orange-100">
                 <Zap className="h-6 w-6 text-orange-700 flex-shrink-0 mt-0.5" />
                 <p className="text-gray-700">
-                  <strong>Une reponse en jours, pas en mois.</strong> L&apos;Audit IA
-                  Express prend 0,5 a 1 jour. Si la cible tient, le premier quick win est en production en 4
+                  <strong>Une reponse en jours, pas en mois.</strong> La Smart
+                  Analyse prend 0,5 a 1 jour. Si la cible tient, le premier quick win est en production en 4
                   semaines. Parce qu&apos;une PME ne peut pas attendre.
                 </p>
               </div>
@@ -408,7 +408,7 @@ export default function AProposPage() {
                   <Zap className="h-5 w-5 text-orange-700" />
                   <span className="text-2xl font-bold text-gray-900">0,5-1 jour</span>
                 </div>
-                <p className="text-sm text-gray-600">Audit IA Express complet</p>
+                <p className="text-sm text-gray-600">Smart Analyse complete</p>
               </div>
             </div>
           </AnimateOnScroll>

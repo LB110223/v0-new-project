@@ -242,7 +242,7 @@ export default function RootLayout({
                 "https://www.linkedin.com/company/107340725",
                 "https://g.page/smart-impulsion"
               ],
-              "priceRange": "2000-30000 EUR",
+              "priceRange": "1000-30000 EUR",
               "currenciesAccepted": "EUR",
               "openingHoursSpecification": {
                 "@type": "OpeningHoursSpecification",

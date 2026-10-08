@@ -16,7 +16,7 @@ const lyonFaqs = [
   {
     question: "Existe-t-il des aides pour financer un projet IA à Lyon ?",
     answer:
-      "Oui. Le programme Diag Data IA de BPI France permet de cofinancer un diagnostic IA (conditions d'éligibilité à vérifier — le programme a évolué en 2026). La Région Auvergne-Rhône-Alpes propose également des dispositifs d'aide à l'innovation pour les PME. On vous aide à identifier les financements disponibles dès l'audit — c'est inclus dans notre accompagnement. Aucun frais supplémentaire.",
+      "Le Diag Data IA de Bpifrance subventionne 40 % d'un diagnostic IA réalisé par un expert agréé Bpifrance (devis plafonné à 10 000 € HT, 8 jours, entreprises d'au moins 1 M€ de chiffre d'affaires) — un dispositif distinct de notre Smart Analyse, que nous ne réalisons pas nous-mêmes. La Région Auvergne-Rhône-Alpes propose par ailleurs des dispositifs d'aide à l'innovation pour les PME.",
   },
   {
     question: "Quels types d'entreprises lyonnaises accompagnez-vous ?",
@@ -26,7 +26,7 @@ const lyonFaqs = [
   {
     question: "Comment prendre rendez-vous pour un audit IA à Lyon ?",
     answer:
-      "Un call découverte de 20 minutes suffit pour qualifier le potentiel. Contactez-nous directement via le site (smart-impulsion.com/contact) ou sur LinkedIn. Si le potentiel est là, l'Audit IA Express peut démarrer sous une semaine. On se déplace dans vos locaux à Lyon et dans toute la région Auvergne-Rhône-Alpes.",
+      "Un call découverte de 20 minutes suffit pour qualifier le potentiel. Contactez-nous directement via le site (smart-impulsion.com/contact) ou sur LinkedIn. Si le potentiel est là, la Smart Analyse peut démarrer sous une semaine. On se déplace dans vos locaux à Lyon et dans toute la région Auvergne-Rhône-Alpes.",
   },
 ]
 

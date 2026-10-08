@@ -107,7 +107,7 @@ export default function IAParPMEGuidePage() {
         name: "Par où commencer avec l'IA quand on est une PME ?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Par le processus qui coûte le plus cher en temps humain. Pas par la technologie. Identifiez la tâche répétitive que vos équipes font à la main chaque jour (saisie, prospection, reporting). Faites un audit IA rapide de 2-3 jours pour chiffrer le ROI des meilleurs leviers. Déployez le premier quick win en 4 semaines. Budget : 5 000 à 15 000 euros pour un premier projet IA en PME.",
+          text: "Par le processus qui coûte le plus cher en temps humain. Pas par la technologie. Identifiez la tâche répétitive que vos équipes font à la main chaque jour (saisie, prospection, reporting). Faites une Smart Analyse (0,5 à 1 jour) pour chiffrer le ROI de ce processus. Déployez le premier quick win en 4 semaines. Budget : 5 000 à 15 000 euros pour un premier projet IA en PME.",
         },
       },
       {
@@ -131,7 +131,7 @@ export default function IAParPMEGuidePage() {
         name: "Quel est le budget minimum pour un premier projet IA en PME ?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Un premier projet IA en PME démarre entre 5 000 et 15 000 euros en forfait, incluant l'audit, le déploiement d'un premier cas d'usage et la formation de l'équipe. À cela s'ajoutent les outils IA à 20-200 euros par mois par utilisateur. Le programme Diag Data IA de BPI France peut cofinancer 25% du diagnostic.",
+          text: "Un premier projet IA en PME démarre entre 5 000 et 15 000 euros en forfait, incluant l'audit, le déploiement d'un premier cas d'usage et la formation de l'équipe. À cela s'ajoutent les outils IA à 20-200 euros par mois par utilisateur. Le Diag Data IA de Bpifrance (dispositif distinct, non éligible à notre Smart Analyse) subventionne 40% d'un diagnostic plafonné à 10 000 € HT, réalisé par un expert agréé Bpifrance.",
         },
       },
       {
@@ -554,11 +554,10 @@ export default function IAParPMEGuidePage() {
                       Pour une équipe de 5 personnes, comptez 150 à 500 euros par mois en licences. C&apos;est le coût d&apos;un logiciel classique.
                     </p>
 
-                    <h3 className="text-xl font-semibold text-foreground mt-10 mb-4">L&apos;accompagnement : 5 000 à 30 000 euros en forfait</h3>
+                    <h3 className="text-xl font-semibold text-foreground mt-10 mb-4">L&apos;accompagnement : 1 000 à 30 000 euros en forfait</h3>
                     <ul className="space-y-2 my-4">
-                      <li className="flex items-start gap-3"><span className="w-1.5 h-1.5 rounded-full bg-orange-500 mt-2.5 flex-shrink-0" /><p className="text-muted-foreground"><Link href="/services/audit" className="text-orange-700 hover:text-orange-700 underline underline-offset-4 decoration-orange-500/30 font-semibold">Audit IA Express</Link> : 1 000 à 2 000 euros HT, payant (0,5 à 1 jour). Le point de départ.</p></li>
+                      <li className="flex items-start gap-3"><span className="w-1.5 h-1.5 rounded-full bg-orange-500 mt-2.5 flex-shrink-0" /><p className="text-muted-foreground"><Link href="/services/audit" className="text-orange-700 hover:text-orange-700 underline underline-offset-4 decoration-orange-500/30 font-semibold">Smart Analyse</Link> : 1 000 à 2 000 euros HT, payante (0,5 à 1 jour). Le point de départ.</p></li>
                       <li className="flex items-start gap-3"><span className="w-1.5 h-1.5 rounded-full bg-orange-500 mt-2.5 flex-shrink-0" /><p className="text-muted-foreground"><Link href="/services/formation" className="text-orange-700 hover:text-orange-700 underline underline-offset-4 decoration-orange-500/30 font-semibold">Smart Training</Link> (formation équipe) : 3 000 à 8 000 euros.</p></li>
-                      <li className="flex items-start gap-3"><span className="w-1.5 h-1.5 rounded-full bg-orange-500 mt-2.5 flex-shrink-0" /><p className="text-muted-foreground"><strong className="text-foreground">Smart Analyse</strong> (audit complet + roadmap IA) : 5 000 à 15 000 euros.</p></li>
                       <li className="flex items-start gap-3"><span className="w-1.5 h-1.5 rounded-full bg-orange-500 mt-2.5 flex-shrink-0" /><p className="text-muted-foreground"><Link href="/services/accompagnement" className="text-orange-700 hover:text-orange-700 underline underline-offset-4 decoration-orange-500/30 font-semibold">Smart Action</Link> (déploiement) : 10 000 à 30 000 euros.</p></li>
                     </ul>
                     <p className="text-base leading-[1.7] text-muted-foreground mb-6">
@@ -568,7 +567,7 @@ export default function IAParPMEGuidePage() {
                     <h3 className="text-xl font-semibold text-foreground mt-10 mb-4">Les aides et subventions</h3>
                     <div className="bg-muted/50 border border-border rounded-xl p-6 my-6">
                       <ul className="space-y-3">
-                        <li className="flex items-start gap-3"><span className="w-1.5 h-1.5 rounded-full bg-orange-500 mt-2.5 flex-shrink-0" /><p className="text-muted-foreground text-sm"><strong className="text-foreground">Diag Data IA de BPI France</strong> : prise en charge de 25% du diagnostic IA.</p></li>
+                        <li className="flex items-start gap-3"><span className="w-1.5 h-1.5 rounded-full bg-orange-500 mt-2.5 flex-shrink-0" /><p className="text-muted-foreground text-sm"><strong className="text-foreground">Diag Data IA de Bpifrance</strong> : 40% d&apos;un devis jusqu&apos;à 10 000 € HT, via un expert agréé Bpifrance — dispositif distinct de notre Smart Analyse.</p></li>
                         <li className="flex items-start gap-3"><span className="w-1.5 h-1.5 rounded-full bg-orange-500 mt-2.5 flex-shrink-0" /><p className="text-muted-foreground text-sm"><strong className="text-foreground">OPCO</strong> : votre organisme de formation peut financer les formations IA.</p></li>
                         <li className="flex items-start gap-3"><span className="w-1.5 h-1.5 rounded-full bg-orange-500 mt-2.5 flex-shrink-0" /><p className="text-muted-foreground text-sm"><strong className="text-foreground">Crédit d&apos;impôt recherche</strong> : si votre projet comporte une composante R&D.</p></li>
                       </ul>
@@ -748,7 +747,7 @@ export default function IAParPMEGuidePage() {
                     </p>
                     <ul className="space-y-3 my-6">
                       <li className="flex items-start gap-3"><CheckCircle2 className="w-5 h-5 text-orange-700 mt-0.5 flex-shrink-0" /><p className="text-muted-foreground"><Link href="/services/formation" className="text-orange-700 hover:text-orange-700 underline underline-offset-4 decoration-orange-500/30 font-semibold">Smart Training</Link> : formation de vos équipes à l&apos;IA appliquée à leur métier. 3 000 à 8 000 euros.</p></li>
-                      <li className="flex items-start gap-3"><CheckCircle2 className="w-5 h-5 text-orange-700 mt-0.5 flex-shrink-0" /><p className="text-muted-foreground"><Link href="/services/audit" className="text-orange-700 hover:text-orange-700 underline underline-offset-4 decoration-orange-500/30 font-semibold">Smart Analyse</Link> : audit complet de vos processus + roadmap IA avec ROI projeté. 5 000 à 15 000 euros.</p></li>
+                      <li className="flex items-start gap-3"><CheckCircle2 className="w-5 h-5 text-orange-700 mt-0.5 flex-shrink-0" /><p className="text-muted-foreground"><Link href="/services/audit" className="text-orange-700 hover:text-orange-700 underline underline-offset-4 decoration-orange-500/30 font-semibold">Smart Analyse</Link> : un seul processus, une réponse chiffrée sur votre hypothèse de gain. 1 000 à 2 000 euros HT, 0,5 à 1 jour.</p></li>
                       <li className="flex items-start gap-3"><CheckCircle2 className="w-5 h-5 text-orange-700 mt-0.5 flex-shrink-0" /><p className="text-muted-foreground"><Link href="/services/accompagnement" className="text-orange-700 hover:text-orange-700 underline underline-offset-4 decoration-orange-500/30 font-semibold">Smart Action</Link> : déploiement concret du cas d&apos;usage, de A à Z. 10 000 à 30 000 euros.</p></li>
                     </ul>
                     <p className="text-base leading-[1.7] text-muted-foreground mb-4">
@@ -770,7 +769,7 @@ export default function IAParPMEGuidePage() {
                           Par où commencer avec l&apos;IA quand on est une PME ?
                         </AccordionTrigger>
                         <AccordionContent className="text-muted-foreground leading-relaxed pb-5">
-                          Par le processus qui coûte le plus cher en temps humain. Pas par la technologie. Identifiez la tâche répétitive que vos équipes font à la main chaque jour (saisie, prospection, reporting). Faites un audit IA rapide de 2-3 jours pour chiffrer le ROI des meilleurs leviers. Déployez le premier quick win en 4 semaines. Budget : 5 000 à 15 000 euros pour un premier projet IA en PME.
+                          Par le processus qui coûte le plus cher en temps humain. Pas par la technologie. Identifiez la tâche répétitive que vos équipes font à la main chaque jour (saisie, prospection, reporting). Faites une Smart Analyse (0,5 à 1 jour) pour chiffrer le ROI de ce processus. Déployez le premier quick win en 4 semaines. Budget : 5 000 à 15 000 euros pour un premier projet IA en PME.
                         </AccordionContent>
                       </AccordionItem>
                       <AccordionItem value="faq-2" className="border-border">
@@ -794,7 +793,7 @@ export default function IAParPMEGuidePage() {
                           Quel est le budget minimum pour un premier projet IA en PME ?
                         </AccordionTrigger>
                         <AccordionContent className="text-muted-foreground leading-relaxed pb-5">
-                          Un premier projet IA en PME démarre entre 5 000 et 15 000 euros en forfait, incluant l&apos;audit, le déploiement d&apos;un premier cas d&apos;usage et la formation de l&apos;équipe. À cela s&apos;ajoutent les outils IA à 20-200 euros par mois par utilisateur. Le programme Diag Data IA de BPI France peut cofinancer 25% du diagnostic. À titre de comparaison, les grands cabinets facturent 200 000 euros et plus pour des projets équivalents.
+                          Un premier projet IA en PME démarre entre 5 000 et 15 000 euros en forfait, incluant l&apos;audit, le déploiement d&apos;un premier cas d&apos;usage et la formation de l&apos;équipe. À cela s&apos;ajoutent les outils IA à 20-200 euros par mois par utilisateur. Le Diag Data IA de Bpifrance (dispositif distinct, non éligible à notre Smart Analyse) subventionne 40% d&apos;un diagnostic plafonné à 10 000 € HT, réalisé par un expert agréé Bpifrance. À titre de comparaison, les grands cabinets facturent 200 000 euros et plus pour des projets équivalents.
                         </AccordionContent>
                       </AccordionItem>
                       <AccordionItem value="faq-5" className="border-border">

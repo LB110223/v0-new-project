@@ -33,7 +33,7 @@ const faqClusters = [
       {
         question: "Par ou commencer avec l'IA dans mon entreprise ?",
         answer:
-          "Par le processus qui vous fait perdre le plus de temps et d'argent. Pas par la technologie. La premiere etape, c'est un diagnostic de vos operations : ou sont les taches repetitives ? Ou les erreurs humaines coutent-elles cher ? Un audit IA de 2-3 jours suffit pour identifier vos 3 meilleurs leviers et chiffrer le ROI de chacun. On recommande de commencer par un quick win — un projet a faible investissement et resultat rapide (4 semaines max). C'est comme ca qu'on cree la preuve en interne et qu'on embarque les equipes. Surtout : ne commencez pas par acheter un outil. Commencez par comprendre le probleme.",
+          "Par le processus qui vous fait perdre le plus de temps et d'argent. Pas par la technologie. La premiere etape, c'est un diagnostic de vos operations : ou sont les taches repetitives ? Ou les erreurs humaines coutent-elles cher ? Une Smart Analyse de 0,5 a 1 jour suffit pour verifier si le gain estime sur ce processus tient et le chiffrer. On recommande de commencer par un quick win — un projet a faible investissement et resultat rapide (4 semaines max). C'est comme ca qu'on cree la preuve en interne et qu'on embarque les equipes. Surtout : ne commencez pas par acheter un outil. Commencez par comprendre le probleme.",
       },
       {
         question: "Faut-il des donnees pour utiliser l'IA ?",
@@ -43,7 +43,7 @@ const faqClusters = [
       {
         question: "L'IA est-elle accessible financierement pour une PME ?",
         answer:
-          "Oui, et c'est un changement majeur par rapport a il y a 3 ans. Les outils d'IA generative (ChatGPT, Claude, Mistral) coutent entre 20 et 200 euros par mois par utilisateur. Un projet d'automatisation IA en PME demarre entre 5 000 et 15 000 euros en forfait — pas 200 000 euros comme les grands cabinets le proposent. En face, les gains typiques qu'on mesure : -32% de temps operationnel, soit des dizaines de milliers d'euros par an de capacite recuperee. Le vrai cout pour une PME, c'est pas l'IA. C'est de ne rien faire pendant que vos concurrents automatisent. Et le programme Diag Data IA de BPI France peut cofinancer votre diagnostic.",
+          "Oui, et c'est un changement majeur par rapport a il y a 3 ans. Les outils d'IA generative (ChatGPT, Claude, Mistral) coutent entre 20 et 200 euros par mois par utilisateur. Un projet d'automatisation IA en PME demarre entre 5 000 et 15 000 euros en forfait — pas 200 000 euros comme les grands cabinets le proposent. En face, les gains typiques qu'on mesure : -32% de temps operationnel, soit des dizaines de milliers d'euros par an de capacite recuperee. Le vrai cout pour une PME, c'est pas l'IA. C'est de ne rien faire pendant que vos concurrents automatisent. Le programme Diag Data IA de Bpifrance (40% d'un devis jusqu'a 10 000 euros HT, realise par un expert agree Bpifrance) est un dispositif distinct, pour un diagnostic plus large que notre Smart Analyse.",
       },
       {
         question: "Quelle difference entre l'IA generative et l'IA \"classique\" ?",
@@ -58,12 +58,12 @@ const faqClusters = [
       {
         question: "Qu'est-ce qu'un audit IA ?",
         answer:
-          "Un audit IA, c'est un diagnostic de 2-3 jours qui repond a une seule question : ou l'IA peut-elle vous faire gagner du temps et de l'argent ? Concretement, on analyse vos processus operationnels, on identifie les 3 quick wins les plus rentables, et on chiffre le ROI projete de chacun. Le livrable, c'est un plan d'action, pas un rapport de 200 pages. On vous dit : \"Automatisez ce processus, ca vous coutera X, ca vous rapportera Y en Z semaines.\" C'est notre offre Smart Analyse. L'Audit IA Express est gratuit ou a 2 000 euros maximum — parce qu'on pense que si les chiffres sont la, la mission suivante se vend toute seule.",
+          "Un audit IA, c'est notre Smart Analyse : un diagnostic de 0,5 a 1 jour qui repond a une seule question, sur UN processus de votre entreprise : est-ce que le gain estime tient ? On verifie l'hypothese sur le terrain et on chiffre la reponse. Le livrable, c'est un plan d'action, pas un rapport de 200 pages. On vous dit : \"Ce processus vous coute X, l'automatiser vous rapporterait Y en Z semaines — et voici si c'est confirme ou pas.\" Smart Analyse est payante, entre 1 000 et 2 000 euros HT — parce qu'un diagnostic gratuit est un argument de vente, pas un diagnostic.",
       },
       {
         question: "Combien coute une mission de conseil IA chez Smart Impulsion ?",
         answer:
-          "On travaille au forfait, pas en TJM. Trois niveaux d'engagement : Smart Training (formation de vos equipes) entre 3 000 et 8 000 euros, Smart Analyse (audit complet et roadmap IA) entre 5 000 et 15 000 euros, Smart Action (implementation et deploiement) entre 10 000 et 30 000 euros. Chaque mission commence par un ROI projete. Si les chiffres ne tiennent pas, on vous le dit — et on ne demarre pas. C'est ca la difference avec un prestataire au temps passe : on s'engage sur un resultat, pas sur des jours factures. Le ticket moyen de nos missions est autour de 10 000 euros, avec un ROI moyen mesure de 24%.",
+          "On travaille au forfait, pas en TJM. Trois niveaux d'engagement : Smart Analyse (diagnostic chiffre sur un processus) entre 1 000 et 2 000 euros HT, Smart Training (formation de vos equipes) entre 3 000 et 8 000 euros, Smart Action (implementation et deploiement) entre 10 000 et 30 000 euros. Chaque mission commence par un ROI projete. Si les chiffres ne tiennent pas, on vous le dit — et on ne demarre pas. C'est ca la difference avec un prestataire au temps passe : on s'engage sur un resultat, pas sur des jours factures. Le ticket moyen de nos missions est autour de 10 000 euros, avec un ROI moyen mesure de 24%.",
       },
       {
         question: "Quelle difference entre Smart Impulsion et un grand cabinet de conseil ?",
@@ -78,7 +78,7 @@ const faqClusters = [
       {
         question: "Comment se passe une mission type avec Smart Impulsion ?",
         answer:
-          "En 4 etapes. Etape 1 : un call decouverte de 20 minutes pour comprendre vos enjeux et qualifier le potentiel. Etape 2 : un Audit IA Express (2-3 jours) qui identifie vos 3 quick wins et chiffre le ROI. Etape 3 : une proposition forfaitaire avec planning, livrables et ROI projete. Etape 4 : execution — formation, deploiement ou les deux, selon le besoin. Les premiers resultats sont mesurables en 4 semaines. On forme vos equipes pour qu'elles soient autonomes — pas de dependance a un prestataire. Un mois apres la fin de la mission, on mesure les resultats reels et on les compare au ROI projete.",
+          "En 4 etapes. Etape 1 : un call decouverte de 20 minutes pour comprendre vos enjeux et qualifier le potentiel. Etape 2 : une Smart Analyse (0,5 a 1 jour) qui verifie si la cible chiffree tient sur le processus identifie. Etape 3 : une proposition forfaitaire avec planning, livrables et ROI projete. Etape 4 : execution — formation, deploiement ou les deux, selon le besoin. Les premiers resultats sont mesurables en 4 semaines. On forme vos equipes pour qu'elles soient autonomes — pas de dependance a un prestataire. Un mois apres la fin de la mission, on mesure les resultats reels et on les compare au ROI projete.",
       },
     ],
   },
@@ -93,7 +93,7 @@ const faqClusters = [
       {
         question: "En combien de temps voit-on des resultats concrets ?",
         answer:
-          "4 semaines pour les premiers gains mesurables. C'est notre engagement. L'audit IA se fait en 2-3 jours. La mise en place d'un premier quick win prend 2-3 semaines supplementaires. Pas 6 mois de cadrage, pas 3 mois d'etude prealable. Une PME ne peut pas attendre — on le sait, on a passe 9 ans a construire des produits tech chez Lyko. Si un projet IA met plus de 2 mois a montrer un premier resultat, il y a un probleme de cadrage, pas de technologie. On privilegie les gains rapides et incrementaux : un premier processus automatise qui prouve la valeur, puis on elargit.",
+          "4 semaines pour les premiers gains mesurables. C'est notre engagement. La Smart Analyse se fait en 0,5 a 1 jour. La mise en place d'un premier quick win prend 2-3 semaines supplementaires. Pas 6 mois de cadrage, pas 3 mois d'etude prealable. Une PME ne peut pas attendre — on le sait, on a passe 9 ans a construire des produits tech chez Lyko. Si un projet IA met plus de 2 mois a montrer un premier resultat, il y a un probleme de cadrage, pas de technologie. On privilegie les gains rapides et incrementaux : un premier processus automatise qui prouve la valeur, puis on elargit.",
       },
       {
         question: "Comment mesurer le ROI de l'IA dans mon entreprise ?",
@@ -128,7 +128,7 @@ const faqClusters = [
       {
         question: "Combien de temps dure un projet IA en PME ?",
         answer:
-          "De 1 a 8 semaines selon le perimetre. Un Audit IA Express : 2-3 jours. Une formation d'equipe (Smart Training) : 1 a 2 semaines. Un deploiement complet (Smart Action) : 4 a 8 semaines. On ne fait pas de projets a 6 mois. Si un projet IA met plus de 2 mois a livrer un premier resultat, c'est qu'il est mal cadre. Notre approche : un quick win rapide (4 semaines), on mesure, et on decide ensemble s'il faut elargir. Les PME n'ont pas le luxe d'attendre. On le sait parce qu'on a passe 9 ans dans une PME tech (Lyko) — le temps c'est de l'argent, et chaque mois sans action c'est de la marge perdue.",
+          "De 1 a 8 semaines selon le perimetre. Une Smart Analyse : 0,5 a 1 jour. Une formation d'equipe (Smart Training) : 1 a 2 semaines. Un deploiement complet (Smart Action) : 4 a 8 semaines. On ne fait pas de projets a 6 mois. Si un projet IA met plus de 2 mois a livrer un premier resultat, c'est qu'il est mal cadre. Notre approche : un quick win rapide (4 semaines), on mesure, et on decide ensemble s'il faut elargir. Les PME n'ont pas le luxe d'attendre. On le sait parce qu'on a passe 9 ans dans une PME tech (Lyko) — le temps c'est de l'argent, et chaque mois sans action c'est de la marge perdue.",
       },
       {
         question: "Faut-il des competences techniques en interne pour deployer l'IA ?",
@@ -138,7 +138,7 @@ const faqClusters = [
       {
         question: "Et si le projet IA ne fonctionne pas ?",
         answer:
-          "C'est pour ca que chaque mission commence par un audit avec ROI projete. Si les chiffres ne tiennent pas au stade du diagnostic, on ne lance pas le projet — et vous n'avez rien depense au-dela de l'audit (2 000 euros maximum). Le risque est maitrise par design. Par ailleurs, 90% des echecs de projets IA en entreprise viennent d'un mauvais cadrage, pas d'un probleme technique. C'est exactement ce que l'audit previent : on identifie les bons cas d'usage, on chiffre le potentiel reel, et on ne demarre que si le ROI est solide. Si l'IA n'est pas la bonne reponse a votre probleme, on vous le dit. On ne vend pas un projet pour vendre un projet.",
+          "C'est pour ca que chaque mission commence par un audit avec ROI projete. Si les chiffres ne tiennent pas au stade du diagnostic, on ne lance pas le projet — et vous n'avez rien depense au-dela de la Smart Analyse (entre 1 000 et 2 000 euros HT). Le risque est maitrise par design. Par ailleurs, 90% des echecs de projets IA en entreprise viennent d'un mauvais cadrage, pas d'un probleme technique. C'est exactement ce que l'audit previent : on identifie les bons cas d'usage, on chiffre le potentiel reel, et on ne demarre que si le ROI est solide. Si l'IA n'est pas la bonne reponse a votre probleme, on vous le dit. On ne vend pas un projet pour vendre un projet.",
       },
     ],
   },

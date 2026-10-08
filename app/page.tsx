@@ -23,7 +23,7 @@ const faqJsonLd = {
       "name": "Combien coûte une mission de conseil IA ?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Nos missions varient de 3 000\u20ac pour une formation à 30 000\u20ac+ pour un accompagnement complet. L'Audit IA Express, lui, coûte entre 1 000\u20ac et 2 000\u20ac HT pour une réponse chiffrée sur un seul processus, en 0,5 à 1 jour."
+        "text": "Nos missions varient de 3 000\u20ac pour une formation à 30 000\u20ac+ pour un accompagnement complet. La Smart Analyse, elle, coûte entre 1 000\u20ac et 2 000\u20ac HT pour une réponse chiffrée sur un seul processus, en 0,5 à 1 jour."
       }
     },
     {

@@ -15,14 +15,14 @@ import { Button } from "@/components/ui/button"
 import { AnimateOnScroll } from "@/components/animate-on-scroll"
 
 export const metadata: Metadata = {
-  title: "Audit IA Express — diagnostic chiffré en 0,5 à 1 jour | Smart Impulsion",
+  title: "Smart Analyse — diagnostic chiffré en 0,5 à 1 jour | Smart Impulsion",
   description:
-    "Audit IA Express : 0,5 à 1 jour, 1 000 à 2 000 € HT, un seul processus, une réponse chiffrée. Le diagnostic qui vérifie si votre hypothèse de gain IA tient.",
+    "Smart Analyse : 0,5 à 1 jour, 1 000 à 2 000 € HT, un seul processus, une réponse chiffrée. Le diagnostic qui vérifie si votre hypothèse de gain IA tient.",
   alternates: {
     canonical: "https://www.smart-impulsion.com/services/audit",
   },
   openGraph: {
-    title: "Audit IA Express — diagnostic chiffré en 0,5 à 1 jour | Smart Impulsion",
+    title: "Smart Analyse — diagnostic chiffré en 0,5 à 1 jour | Smart Impulsion",
     description:
       "Un seul processus, une seule question : est-ce que la cible chiffrée tient ? Réponse en 0,5 à 1 jour, pour 1 000 à 2 000 € HT.",
     type: "website",
@@ -40,7 +40,7 @@ const parcours = [
   },
   {
     icon: Euro,
-    etape: "Audit IA Express",
+    etape: "Smart Analyse",
     statut: "Payant, 1 000 à 2 000 € HT",
     description:
       "L'hypothèse posée au rendez-vous est vérifiée sur le terrain, sur un seul processus, en 0,5 à 1 jour.",
@@ -99,13 +99,12 @@ const pourquoi = [
 const benefices = [
   { chiffre: "0,5-1", description: "jour de diagnostic, sur un seul processus" },
   { chiffre: "1 000-2 000 €", description: "HT, tarif fixe — un audit payant" },
-  { chiffre: "50%", description: "éligible au financement BPI (sous conditions)" },
 ]
 
 const serviceJsonLd = {
   "@context": "https://schema.org",
   "@type": "Service",
-  "name": "Audit IA Express",
+  "name": "Smart Analyse",
   "description":
     "Diagnostic payant d'un seul processus métier : vérification chiffrée d'une hypothèse de gain, en 0,5 à 1 jour.",
   "provider": { "@type": "Organization", "name": "Smart Impulsion" },
@@ -127,7 +126,7 @@ const serviceJsonLd = {
 const howToJsonLd = {
   "@context": "https://schema.org",
   "@type": "HowTo",
-  "name": "Comment se déroule un Audit IA Express",
+  "name": "Comment se déroule une Smart Analyse",
   "description": "0,5 à 1 jour pour vérifier si l'hypothèse de gain posée sur un processus tient, avec un calcul chiffré.",
   "totalTime": "P1D",
   "estimatedCost": {
@@ -180,7 +179,7 @@ export default function AuditPage() {
             <div className="max-w-4xl">
               <div className="flex items-center gap-2 text-orange-400 mb-4">
                 <LineChart className="h-5 w-5" />
-                <span className="text-sm font-medium uppercase tracking-wider">Audit IA Express</span>
+                <span className="text-sm font-medium uppercase tracking-wider">Smart Analyse</span>
               </div>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
                 Une hypothèse de gain.
@@ -188,7 +187,7 @@ export default function AuditPage() {
                 <span className="text-orange-400">Une réponse chiffrée.</span>
               </h1>
               <p className="text-xl text-gray-300 mb-8 max-w-2xl">
-                L'Audit IA Express vérifie, sur un seul processus de votre entreprise, si le gain estimé au
+                La Smart Analyse vérifie, sur un seul processus de votre entreprise, si le gain estimé au
                 rendez-vous découverte se confirme — calcul refait sur vos données réelles, en 0,5 à 1 jour.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
@@ -215,7 +214,7 @@ export default function AuditPage() {
       {/* Chiffres clés */}
       <section className="py-12 bg-gray-50 border-b border-gray-200">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-2xl mx-auto">
             {benefices.map((item, index) => (
               <AnimateOnScroll key={index} animation="fade-up" delay={index * 100}>
                 <div className="text-center">
@@ -228,7 +227,7 @@ export default function AuditPage() {
         </div>
       </section>
 
-      {/* Pourquoi un Audit IA Express */}
+      {/* Pourquoi une Smart Analyse */}
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <AnimateOnScroll animation="fade-up">
@@ -237,7 +236,7 @@ export default function AuditPage() {
                 Pourquoi un audit sur un seul processus ?
               </h2>
               <p className="text-lg text-gray-600">
-                L'Audit IA Express n'a pas vocation à cartographier toute votre entreprise. Il répond à une seule
+                La Smart Analyse n'a pas vocation à cartographier toute votre entreprise. Elle répond à une seule
                 question, sur le processus que vous aurez choisi.
               </p>
             </div>
@@ -266,7 +265,7 @@ export default function AuditPage() {
             <div className="max-w-3xl mx-auto text-center mb-16">
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Le parcours en 3 temps</h2>
               <p className="text-lg text-gray-600">
-                L'Audit IA Express n'est ni le premier contact, ni la fin du chemin : c'est l'étape qui vérifie.
+                La Smart Analyse n'est ni le premier contact, ni la fin du chemin : c'est l'étape qui vérifie.
               </p>
             </div>
           </AnimateOnScroll>
@@ -351,32 +350,8 @@ export default function AuditPage() {
                 aucune raison de vous dire oui si la réponse est non. »
               </p>
               <p className="text-gray-400">
-                C'est pour cela que l'Audit IA Express n'est jamais offert. Le prix fait partie de la réponse.
+                C'est pour cela que la Smart Analyse n'est jamais offerte. Le prix fait partie de la réponse.
               </p>
-            </div>
-          </AnimateOnScroll>
-        </div>
-      </section>
-
-      {/* Financement BPI */}
-      <section className="py-16 bg-orange-50">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <AnimateOnScroll animation="fade-up">
-            <div className="max-w-3xl mx-auto text-center">
-              <div className="inline-flex items-center justify-center w-16 h-16 bg-orange-100 rounded-full mb-6">
-                <Shield className="h-8 w-8 text-orange-700" />
-              </div>
-              <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">Financement possible jusqu'à 50%</h2>
-              <p className="text-lg text-gray-600 mb-6">
-                Dans le cadre du programme "IA Booster France 2030", la BPI peut prendre en charge jusqu'à 50% du
-                coût de l'Audit IA Express. Nous vous accompagnons dans les démarches d'éligibilité.
-              </p>
-              <Button asChild className="bg-orange-500 hover:bg-orange-600 text-white">
-                <Link href="/contact">
-                  Vérifier mon éligibilité
-                  <ArrowRight className="ml-2 h-5 w-5" />
-                </Link>
-              </Button>
             </div>
           </AnimateOnScroll>
         </div>

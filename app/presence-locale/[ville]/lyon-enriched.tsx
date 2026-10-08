@@ -56,7 +56,7 @@ const lyonFaqJsonLd = {
       name: "Existe-t-il des aides pour financer un projet IA à Lyon ?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Oui. Le programme Diag Data IA de BPI France permet de cofinancer un diagnostic IA. La Région Auvergne-Rhône-Alpes propose également des dispositifs d'aide à l'innovation pour les PME. On vous aide à identifier les financements disponibles dès l'audit — c'est inclus dans notre accompagnement.",
+        text: "Le Diag Data IA de Bpifrance subventionne 40 % d'un diagnostic IA réalisé par un expert agréé Bpifrance (devis plafonné à 10 000 € HT, 8 jours, entreprises d'au moins 1 M€ de chiffre d'affaires) — un dispositif distinct de notre Smart Analyse, que nous ne réalisons pas nous-mêmes. La Région Auvergne-Rhône-Alpes propose par ailleurs des dispositifs d'aide à l'innovation pour les PME.",
       },
     },
     {
@@ -72,7 +72,7 @@ const lyonFaqJsonLd = {
       name: "Comment prendre rendez-vous pour un audit IA à Lyon ?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Un call découverte de 20 minutes suffit pour qualifier le potentiel. Contactez-nous directement via le site (smart-impulsion.com/contact) ou sur LinkedIn. Si le potentiel est là, l'Audit IA Express peut démarrer sous une semaine.",
+        text: "Un call découverte de 20 minutes suffit pour qualifier le potentiel. Contactez-nous directement via le site (smart-impulsion.com/contact) ou sur LinkedIn. Si le potentiel est là, la Smart Analyse peut démarrer sous une semaine.",
       },
     },
   ],
@@ -219,9 +219,9 @@ export function LyonEnriched() {
                 },
                 {
                   name: "Smart Analyse",
-                  desc: "L'Audit IA Express, c'est 2-3 jours pour identifier vos 3 meilleurs leviers IA et chiffrer le ROI de chacun. On vient dans vos locaux.",
-                  prix: "Gratuit à 15 000 euros",
-                  duree: "2-3 jours à 2 semaines",
+                  desc: "Un seul processus, une réponse chiffrée : la Smart Analyse vérifie si votre hypothèse de gain tient. On vient dans vos locaux.",
+                  prix: "1 000 à 2 000 euros HT",
+                  duree: "0,5 à 1 jour",
                 },
                 {
                   name: "Smart Action",
