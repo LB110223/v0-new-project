@@ -286,7 +286,7 @@ Avant d'investir dans un outil ou un accompagnement, trois questions structurent
 - **Quelle est la qualité de vos données historiques ?** Si vous ne pouvez pas exporter 12 mois de données de livraison fiables depuis votre ERP, c'est le premier chantier.
 - **Quel cas d'usage règle votre problème le plus urgent ?** Détection des risques, scorecard de performance, préparation des négociations : les trois sont utiles, mais ils ne s'adressent pas au même problème opérationnel.
 
-Ces questions sont exactement celles qu'un Audit IA Express permet de trancher en trois jours, sans que vous ayez à mobiliser une équipe interne pendant des semaines.
+Ces questions sont exactement celles qu'une Smart Analyse permet de trancher en 0,5 à 1 jour, sans que vous ayez à mobiliser une équipe interne pendant des semaines.
 
 ### Ce que vous pouvez faire dans les deux prochaines semaines
 
@@ -310,7 +310,7 @@ Si l'IA gestion fournisseurs PME est une priorité opérationnelle pour les proc
     faq: [
       {
         question: "L'IA peut-elle vraiment aider une PME à gérer ses fournisseurs sans équipe IT ?",
-        answer: "Oui, à condition de commencer par un périmètre limité : un seul flux de données (commandes, délais, factures), un outil no-code ou semi-assisté, et un pilote de 8 semaines. Les PME qui ont démarré ainsi obtiennent un premier ROI mesurable avant de passer à l'échelle. Un audit de vos cas prioritaires permet de cadrer ce démarrage en 3 jours.",
+        answer: "Oui, à condition de commencer par un périmètre limité : un seul flux de données (commandes, délais, factures), un outil no-code ou semi-assisté, et un pilote de 8 semaines. Les PME qui ont démarré ainsi obtiennent un premier ROI mesurable avant de passer à l'échelle. Un audit de vos cas prioritaires permet de cadrer ce démarrage en 0,5 à 1 jour.",
       },
       {
         question: "Quel est le gain d'efficacité achats réaliste avec l'IA ?",
@@ -541,9 +541,9 @@ La cause principale d'une formation sans effet est l'absence de cas d'usage mét
 
 Choisir entre intra et inter, c'est la bonne question. Mais la question d'avant est : vos équipes sont-elles prêtes à absorber une formation IA, et sur quels cas d'usage l'ancrer ?
 
-Smart Impulsion propose un Audit IA Express qui identifie les cas d'usage prioritaires de votre PME et évalue la maturité de vos équipes à les absorber. En 2 à 3 jours, vous repartez avec une cartographie des trois cas d'usage les plus rentables, un profil de maturité par équipe et les pré-requis organisationnels à mettre en place avant de commander une formation.
+Smart Impulsion propose une Smart Analyse qui identifie les cas d'usage prioritaires de votre PME et évalue la maturité de vos équipes à les absorber. En 0,5 à 1 jour, vous repartez avec une cartographie des trois cas d'usage les plus rentables, un profil de maturité par équipe et les pré-requis organisationnels à mettre en place avant de commander une formation.
 
-[En savoir plus sur l'Audit IA Express](/services/audit)`,
+[En savoir plus sur la Smart Analyse](/services/audit)`,
     author: "Laurent Bouzon",
     date: "7 octobre 2026",
     dateISO: "2026-10-07",
@@ -775,7 +775,7 @@ Le problème : c'est difficile de demander à un prestataire de vous aider à d�
 
 C'est précisément l'utilité d'un audit préalable réalisé par une structure indépendante : qualifier le projet, identifier le type de prestataire adapté, et poser les conditions contractuelles non-négociables avant de consulter.
 
-L'[Audit IA Express](/services/audit) de Smart Impulsion remplit ce rôle. En trois jours, il produit :
+La [Smart Analyse](/services/audit) de Smart Impulsion remplit ce rôle. En 0,5 à 1 jour, elle produit :
 
 - le diagnostic de maturité IA de votre entreprise
 - la liste priorisée des cas d'usage applicables
@@ -1015,9 +1015,9 @@ Ces trois étapes ne remplacent pas une politique IA complète ni un audit de ma
 
 Sécuriser l'usage IA de vos équipes commence par un état des lieux : quels outils utilisent-ils vraiment, sur quelles données, avec quel niveau de risque ?
 
-Smart Impulsion propose un Audit IA Express qui identifie les pratiques à risque et pose le cadre d'usage adapté à votre structure. En 2 à 3 jours, vous repartez avec une politique d'usage validée et les règles prêtes à déployer.
+Smart Impulsion propose une Smart Analyse qui identifie les pratiques à risque et pose le cadre d'usage adapté à votre structure. En 0,5 à 1 jour, vous repartez avec une politique d'usage validée et les règles prêtes à déployer.
 
-[En savoir plus sur l'Audit IA Express](/services/audit)`,
+[En savoir plus sur la Smart Analyse](/services/audit)`,
     author: "Laurent Bouzon",
     date: "5 octobre 2026",
     dateISO: "2026-10-05",
@@ -1253,7 +1253,7 @@ Ce type d'intervention n'est pas un premier diagnostic (pour cela, d'autres arti
 
 > Si votre projet a déjà franchi le seuil d'alerte et que vous êtes dans une situation de ROI non atteint, l'article [plan de remédiation IA PME](/blog/roi-ia-projet-non-atteint-plan-remediation-pme) détaille les étapes d'un plan de correction structuré.
 
-**Smart Impulsion** est un cabinet conseil IA spécialisé dans l'accompagnement des PME et ETI françaises. L'[Audit IA Express de Smart Impulsion](/services/audit) est calibré précisément pour ce type de situation : un projet en cours qui présente des signaux d'alerte, un dirigeant qui veut une lecture objective de la situation avant de décider si on recadre ou si on arrête. L'objectif n'est pas de produire un rapport supplémentaire : c'est de donner au dirigeant les éléments pour prendre une décision éclairée sous 2 à 3 semaines.
+**Smart Impulsion** est un cabinet conseil IA spécialisé dans l'accompagnement des PME et ETI françaises. La [Smart Analyse de Smart Impulsion](/services/audit) est calibré précisément pour ce type de situation : un projet en cours qui présente des signaux d'alerte, un dirigeant qui veut une lecture objective de la situation avant de décider si on recadre ou si on arrête. L'objectif n'est pas de produire un rapport supplémentaire : c'est de donner au dirigeant les éléments pour prendre une décision éclairée sous 2 à 3 semaines.
 
 ## Ce qu'il faut retenir
 
@@ -1284,7 +1284,7 @@ La dérive d'un projet IA est récupérable. À condition de la détecter tôt.`
       },
       {
         question: "Quand faut-il déclencher un audit de recadrage sur un projet IA ?",
-        answer: "Dès que deux signaux d'alerte ou plus sont actifs simultanément, ou que le jalon J+90 est raté sans cause technique identifiable. Un regard extérieur apporte ce que l'équipe interne ne peut pas voir : la proximité et le biais de confirmation empêchent souvent de voir une dérive structurelle. L'Audit IA Express de Smart Impulsion est calibré pour ce type d'intervention de recadrage de trajectoire.",
+        answer: "Dès que deux signaux d'alerte ou plus sont actifs simultanément, ou que le jalon J+90 est raté sans cause technique identifiable. Un regard extérieur apporte ce que l'équipe interne ne peut pas voir : la proximité et le biais de confirmation empêchent souvent de voir une dérive structurelle. La Smart Analyse de Smart Impulsion est calibré pour ce type d'intervention de recadrage de trajectoire.",
       },
       {
         question: "Quels sont les 5 indicateurs clés à suivre sur un projet IA PME ?",
@@ -1500,9 +1500,9 @@ La réduction de coûts par l'IA est réelle, bornée et mesurable. À condition
 
 Votre structure de charges est propre à votre secteur et à votre modèle opérationnel. Ce qui fonctionne pour une PME de services de 25 personnes ne se transpose pas directement à une PME industrielle de 80 personnes.
 
-Smart Impulsion propose un Audit IA Express qui cartographie vos 5 postes de charges les plus exposés aux leviers IA, identifie les gains nets réalistes par type de gain, et vous remet une grille de priorisation avec des ordres de grandeur sourcés pour votre secteur. En 8 jours ouvrés, vous disposez d'un point de départ défendable devant votre CODIR ou votre banquier.
+Smart Impulsion propose une Smart Analyse qui cartographie vos 5 postes de charges les plus exposés aux leviers IA, identifie les gains nets réalistes par type de gain, et vous remet une grille de priorisation avec des ordres de grandeur sourcés pour votre secteur. En 8 jours ouvrés, vous disposez d'un point de départ défendable devant votre CODIR ou votre banquier.
 
-[En savoir plus sur l'Audit IA Express](/services/audit)`,
+[En savoir plus sur la Smart Analyse](/services/audit)`,
     author: "Laurent Bouzon",
     date: "1 octobre 2026",
     dateISO: "2026-10-01",
@@ -1778,7 +1778,7 @@ Les projets de reporting IA accessibles aux PME françaises sans DSI s'appuient 
 
 
 
-Si vous n'êtes pas certain de la qualité de vos données financières actuelles, ni du cas d'usage par lequel commencer, un [Audit IA Express](/services/audit) permet de faire ce diagnostic en 3 jours. Smart Impulsion, cabinet de conseil IA pour PME et ETI françaises, propose cet audit structuré pour identifier concrètement ce qui est prêt à être connecté, ce qui nécessite un travail préalable, et par quel cas d'usage votre retour sur investissement sera le plus rapide.`,
+Si vous n'êtes pas certain de la qualité de vos données financières actuelles, ni du cas d'usage par lequel commencer, une [Smart Analyse](/services/audit) permet de faire ce diagnostic en 0,5 à 1 jour. Smart Impulsion, cabinet de conseil IA pour PME et ETI françaises, propose cet audit structuré pour identifier concrètement ce qui est prêt à être connecté, ce qui nécessite un travail préalable, et par quel cas d'usage votre retour sur investissement sera le plus rapide.`,
     author: "Laurent Bouzon",
     date: "30 septembre 2026",
     dateISO: "2026-09-30",
@@ -1999,9 +1999,9 @@ L'Annexe III liste les systèmes d'IA à haut risque autonomes (recrutement, bio
 
 Le Digital Omnibus a simplifié la conformité pour les PME et small mid-caps. Ce n'est pas une raison de tout reporter. Les obligations de l'article 50 sont actives depuis le 2 août 2026. L'Annexe III arrive en décembre 2027 : la cartographier maintenant prend quelques jours, l'ignorer jusqu'en novembre 2027 crée une urgence qui ne sera pas dans votre budget.
 
-Smart Impulsion, cabinet de conseil en IA pour PME et ETI françaises, propose un Audit IA Express qui cartographie vos usages IA actuels, qualifie vos obligations immédiates (article 50) et identifie les systèmes potentiellement à haut risque à documenter avant 2027. En 2 à 3 jours, vous repartez avec une liste d'actions priorisées et une estimation d'effort de mise en conformité adaptée à votre taille.
+Smart Impulsion, cabinet de conseil en IA pour PME et ETI françaises, propose une Smart Analyse qui cartographie vos usages IA actuels, qualifie vos obligations immédiates (article 50) et identifie les systèmes potentiellement à haut risque à documenter avant 2027. En 0,5 à 1 jour, vous repartez avec une liste d'actions priorisées et une estimation d'effort de mise en conformité adaptée à votre taille.
 
-[En savoir plus sur l'audit IA express](/services/audit)`,
+[En savoir plus sur la Smart Analyse](/services/audit)`,
     author: "Laurent Bouzon",
     date: "29 septembre 2026",
     dateISO: "2026-09-29",
@@ -2268,7 +2268,7 @@ La question pour votre PME n'est pas "faut-il déployer de l'IA en service clien
 
 ## Prochaine étape
 
-Si vous avez un projet de relation client IA en cours ou à cadrer, l'[Audit IA Express](/services/audit) permet d'identifier en trois jours les briques pertinentes pour votre contexte, les données disponibles et les risques réglementaires à sécuriser avant tout déploiement.
+Si vous avez un projet de relation client IA en cours ou à cadrer, la [Smart Analyse](/services/audit) permet d'identifier en 0,5 à 1 jour les briques pertinentes pour votre contexte, les données disponibles et les risques réglementaires à sécuriser avant tout déploiement.
 
 ## Questions fréquentes
 
@@ -2529,9 +2529,9 @@ Enfin, si vous n'êtes pas encore certain des priorités IA de votre PME, la sé
 
 La formation IA n'est efficace que si elle s'appuie sur une compréhension claire de vos usages actuels, de vos outils déployés et des priorités par profil. Sans ce cadrage, même le meilleur prestataire forme vos équipes à des outils qu'elles n'utilisent pas ou à des cas d'usage qui ne correspondent pas à vos chantiers réels.
 
-> Un Audit IA Express permet d'identifier en trois jours les usages IA prioritaires, les profils à former en premier et les outils à retenir. Ce diagnostic devient ensuite le cahier des charges naturel pour votre appel d'offres formation.
+> Une Smart Analyse permet d'identifier en 0,5 à 1 jour les usages IA prioritaires, les profils à former en premier et les outils à retenir. Ce diagnostic devient ensuite le cahier des charges naturel pour votre appel d'offres formation.
 
-Si vous souhaitez structurer ce cadrage avant de contacter des prestataires, [l'Audit IA Express Smart Impulsion](/services/audit) est conçu pour ce type de situation.
+Si vous souhaitez structurer ce cadrage avant de contacter des prestataires, [la Smart Analyse de Smart Impulsion](/services/audit) est conçu pour ce type de situation.
 
 Pour creuser la méthodologie d'audit, l'article [Audit IA pour PME : le guide complet](/blog/audit-ia-pme-guide-complet) détaille les étapes et les livrables attendus.`,
     author: "Laurent Bouzon",
@@ -2757,7 +2757,7 @@ Concrètement, l'audit produit :
 
 Ces quatre éléments rendent le CDC opposable. Sans eux, il reste un document d'intentions.
 
-Le [guide complet de l'audit IA pour PME](/blog/audit-ia-pme-guide-complet) détaille ce que cet audit doit produire et comment en évaluer les livrables. Et si vous souhaitez formaliser le diagnostic de vos processus et données avant de rédiger votre premier appel d'offres IA, l'[Audit IA Express](/services/audit) est l'étape de départ structurée pour y parvenir en trois jours ouvrés.
+Le [guide complet de l'audit IA pour PME](/blog/audit-ia-pme-guide-complet) détaille ce que cet audit doit produire et comment en évaluer les livrables. Et si vous souhaitez formaliser le diagnostic de vos processus et données avant de rédiger votre premier appel d'offres IA, la [Smart Analyse](/services/audit) est l'étape de départ structurée pour y parvenir en 0,5 à 1 jour.
 
 *Cette grille de lecture est issue de la pratique de terrain de Laurent Bouzon, fondateur de Smart Impulsion, dans l'accompagnement de PME et ETI françaises sur leurs premiers projets IA.*
 
@@ -2983,7 +2983,7 @@ Selon l'APEC (juin 2025), 72 % des cadres français souhaitaient une formation �
 
 Quatre questions permettent d'identifier rapidement le blocage dans votre organisation : vos managers comprennent-ils les décisions IA de votre COMEX ? Savent-ils quoi en faire avec leurs équipes ? Ont-ils les outils pour gérer la résistance ? Ont-ils un mandat clair ? Les réponses indiquent précisément le travail de formation à mener.
 
-L'[Audit IA Express](/services/audit) inclut un diagnostic des maillons de formation manquants dans votre organisation : qui a été formé, à quoi, avec quel mandat. Ce diagnostic identifie précisément si le blocage vient du terrain, du COMEX ou de la strate intermédiaire, et permet de cibler les quelques heures de formation qui produisent l'effet le plus rapide.
+La [Smart Analyse](/services/audit) inclut un diagnostic des maillons de formation manquants dans votre organisation : qui a été formé, à quoi, avec quel mandat. Ce diagnostic identifie précisément si le blocage vient du terrain, du COMEX ou de la strate intermédiaire, et permet de cibler les quelques heures de formation qui produisent l'effet le plus rapide.
 
 ## Questions fréquentes
 
@@ -3216,9 +3216,9 @@ Pour les trois premiers usages validés (comptes rendus, briefs, rapports), le b
 
 ## Passez de la théorie à l'action
 
-Vous souhaitez identifier les cas d'usage IA les plus accessibles dans votre organisation, gestion de projet incluse ? L'Audit IA Express Smart Impulsion établit une carte des gains en 3 jours ouvrables, avec une priorisation selon votre niveau de maturité données et la taille de votre équipe.
+Vous souhaitez identifier les cas d'usage IA les plus accessibles dans votre organisation, gestion de projet incluse ? La Smart Analyse de Smart Impulsion établit une carte des gains en 0,5 à 1 jour, avec une priorisation selon votre niveau de maturité données et la taille de votre équipe.
 
-[En savoir plus sur l'audit IA express](/services/audit)`,
+[En savoir plus sur la Smart Analyse](/services/audit)`,
     author: "Laurent Bouzon",
     date: "21 septembre 2026",
     dateISO: "2026-09-21",
@@ -3463,9 +3463,9 @@ Trois conditions : des données centralisées ou accessibles via API, des défin
 
 Vos données sont peut-être là, dans vos outils, prêtes à être exploitées. Ou peut-être pas, et c'est précisément ce qu'il faut établir avant d'investir dans un projet de pilotage IA.
 
-Smart Impulsion propose un Audit IA Express qui évalue en 2 à 3 jours si vos données sont exploitables pour le pilotage automatisé et quels cas d'usage sont accessibles sans infrastructure lourde. Vous repartez avec un plan d'action priorisé et un ROI projeté.
+Smart Impulsion propose une Smart Analyse qui évalue en 0,5 à 1 jour si vos données sont exploitables pour le pilotage automatisé et quels cas d'usage sont accessibles sans infrastructure lourde. Vous repartez avec un plan d'action priorisé et un ROI projeté.
 
-[En savoir plus sur l'audit IA express](/services/audit)`,
+[En savoir plus sur la Smart Analyse](/services/audit)`,
     author: "Laurent Bouzon",
     date: "18 septembre 2026",
     dateISO: "2026-09-18",
@@ -3640,9 +3640,9 @@ Pour un cadre complet de mesure des effets d'une formation IA en entreprise, not
 
 Former votre COMEX à l'IA est une décision utile. Mais elle n'est utile que si elle est précédée d'une autre question : sur quoi votre COMEX devra-t-il réellement décider dans les 12 prochains mois ? Quels sont les projets IA en évaluation, les outils déjà déployés sans cadre, les risques que personne n'a encore nommés ?
 
-C'est précisément ce que produit un [audit IA pour diagnostiquer les risques à arbitrer](/blog/audit-ia-pme-guide-complet) avant de choisir une formation. Et c'est l'objet de l'Audit IA Express de Smart Impulsion : un état des lieux de vos usages IA actuels, des décisions en attente et des risques à adresser, en trois jours.
+C'est précisément ce que produit un [audit IA pour diagnostiquer les risques à arbitrer](/blog/audit-ia-pme-guide-complet) avant de choisir une formation. Et c'est l'objet de la Smart Analyse de Smart Impulsion : un état des lieux de vos usages IA actuels, des décisions en attente et des risques à adresser, en 0,5 à 1 jour.
 
-[Demander un Audit IA Express](/services/audit)`,
+[Demander une Smart Analyse](/services/audit)`,
     author: "Laurent Bouzon",
     date: "17 septembre 2026",
     dateISO: "2026-09-17",
@@ -3794,7 +3794,7 @@ Un scénario qui implique la comptabilité, le commercial et les opérations n'e
 - Besoin d'adapter le modèle à des données métier spécifiques à votre secteur
 - Volume supérieur à 500 opérations par mois ou processus critique (facturation, paie, conformité)
 
-Si votre situation cumule plusieurs de ces signaux, un audit de cadrage de trois jours permet de répondre précisément à la question avant d'engager un budget ou du temps interne. C'est l'objet de l'[Audit IA Express en 3 jours](/blog/audit-ia-express-methodologie) : identifier en amont ce que vous pouvez déployer en autonomie sans développeur, et ce qui justifie un accompagnement. Sans vous engager dans un projet que vous n'avez pas encore décidé de lancer. Retrouvez le détail de la démarche sur [/services/audit](/services/audit).
+Si votre situation cumule plusieurs de ces signaux, un audit de cadrage de 0,5 à 1 jour permet de répondre précisément à la question avant d'engager un budget ou du temps interne. C'est l'objet de la [Smart Analyse](/blog/audit-ia-express-methodologie) : identifier en amont ce que vous pouvez déployer en autonomie sans développeur, et ce qui justifie un accompagnement. Sans vous engager dans un projet que vous n'avez pas encore décidé de lancer. Retrouvez le détail de la démarche sur [/services/audit](/services/audit).
 
 
 
@@ -4094,7 +4094,7 @@ L'effet de rebond désigne le phénomène par lequel le temps libéré par un ou
 
 La formule décrite dans cet article vous donne une estimation défendable en CODIR. Elle ne remplace pas une évaluation sur vos processus réels, vos données réelles, et votre organisation réelle.
 
-L'[Audit IA Express](/services/audit) de Smart Impulsion est conçu pour combler cet écart. En deux à trois jours, sur vos données et chez vous, il permet de documenter les baselines sur les tâches prioritaires, d'évaluer la qualité des données disponibles, et de produire un calcul de gain argumenté par fonction. Pas un benchmark sectoriel générique : un chiffre qui correspond à votre PME.
+La [Smart Analyse](/services/audit) de Smart Impulsion est conçue pour combler cet écart. En 0,5 à 1 jour, sur vos données et chez vous, il permet de documenter les baselines sur les tâches prioritaires, d'évaluer la qualité des données disponibles, et de produire un calcul de gain argumenté par fonction. Pas un benchmark sectoriel générique : un chiffre qui correspond à votre PME.
 
 C'est ce calcul, documenté, daté et défendable, que vous pourrez présenter à votre CODIR, à votre banquier ou à votre prestataire IA comme base de négociation.
 
@@ -4213,13 +4213,11 @@ Deuxièmement, il ouvre la porte aux autres dispositifs. Un Prêt Transformation
 
 Troisièmement, il légitime le projet en interne. Un rapport de 8 jours produit par un consultant agréé Bpifrance a un poids différent d'une présentation PowerPoint interne. Votre DAF, vos associés ou votre conseil d'administration y trouveront les arguments dont ils ont besoin pour approuver l'investissement.
 
-### Le lien avec votre préparation en amont
+### Les prérequis avant de déposer un dossier
 
 Le Diag Data IA Bpifrance suppose que votre projet est déjà assez structuré pour qu'un prestataire externe puisse travailler efficacement en 8 jours. Si votre SI est opaque, vos données non cartographiées, et vos cas d'usage non priorisés, le diagnostic sera partiel.
 
-C'est là qu'un [audit IA pour PME](/blog/audit-ia-pme-guide-complet) en amont prend tout son sens. En structurant votre maturité data et IA avant le Diag Bpifrance, vous maximisez la valeur des 8 jours de diagnostic et la qualité de la feuille de route qui en sort.
-
-> Notre Audit IA Express prépare votre dossier Diag Data IA Bpifrance : cartographie des données, identification des cas d'usage prioritaires, évaluation de la maturité IT. Vous arrivez au diagnostic Bpifrance avec un brief structuré. [Découvrir l'Audit IA Express](/services/audit)
+Cette cartographie préalable (données, cas d'usage, maturité IT) est une démarche interne à mener avant de déposer un dossier. Elle ne fait pas partie d'une prestation Smart Impulsion liée au dispositif Bpifrance — le Diag Data IA reste un dispositif public, réalisé exclusivement par un prestataire agréé Bpifrance.
 
 ## IA Booster et Prêt Transformation Numérique : financer la phase d'investissement
 
@@ -4402,7 +4400,7 @@ Le financement d'un projet IA en PME n'est pas une complexité insurmontable. C'
 
 L'expérience terrain montre que la plupart des PME qui renoncent à monter un dossier Bpifrance le font faute d'ingénierie de cumul, pas faute d'éligibilité. Les dispositifs existent. La logique de montage s'apprend. La difficulté n'est pas dans les outils eux-mêmes (Bpifrance les a conçus pour être accessibles), mais dans la traduction de tout cela en langage financier convaincant pour votre CODIR.
 
-Si vous souhaitez structurer votre projet avant d'engager un dossier Bpifrance, notre [Audit IA Express](/services/audit) est le point de départ : il cartographie votre maturité data et IA, identifie les cas d'usage prioritaires, et prépare le brief technique dont le Diag Data IA Bpifrance a besoin pour être pleinement efficace.`,
+Si vous voulez vérifier rapidement, et indépendamment de toute démarche Bpifrance, si un gain estimé sur un processus tient, notre [Smart Analyse](/services/audit) est un diagnostic distinct : payant, 0,5 à 1 jour, 1 000 à 2 000 euros HT, sans lien avec le dispositif Bpifrance ni avec son financement.`,
     author: "Laurent Bouzon",
     date: "11 septembre 2026",
     dateISO: "2026-09-11",
@@ -4428,8 +4426,8 @@ Si vous souhaitez structurer votre projet avant d'engager un dossier Bpifrance, 
         answer: "Le CII est réservé aux PME au sens communautaire : moins de 250 salariés, chiffre d'affaires inférieur à 50 millions d'euros ou total de bilan inférieur à 43 millions. Une ETI de 400 salariés n'y est pas éligible, même si elle réalise un prototype IA. Confirmez votre éligibilité avec votre expert-comptable ou un conseiller fiscal.",
       },
       {
-        question: "À quoi sert l'Audit IA Express de Smart Impulsion avant un Diag Data IA Bpifrance ?",
-        answer: "Le Diag Data IA Bpifrance nécessite un cahier des charges technique précis pour sélectionner le bon prestataire agréé et maximiser la valeur des 8 jours de diagnostic. L'Audit IA Express permet de structurer ce cahier des charges : cartographie des données existantes, identification des cas d'usage prioritaires, évaluation de la maturité IT. Il positionne le projet sur des bases solides avant que Bpifrance valide le dossier.",
+        question: "La Smart Analyse de Smart Impulsion est-elle liée au Diag Data IA Bpifrance ?",
+        answer: "Non. Ce sont deux offres distinctes et sans lien de causalité. Le Diag Data IA Bpifrance est un dispositif public, réalisé exclusivement par un prestataire agréé Bpifrance. La Smart Analyse est un diagnostic payant de Smart Impulsion (0,5 à 1 jour, 1 000 à 2 000 euros HT) sur un seul processus de votre entreprise, sans rapport avec le dispositif Bpifrance ni avec son financement.",
       },
       {
         question: "Les aides régionales sont-elles cumulables avec les aides Bpifrance ?",
@@ -4534,7 +4532,7 @@ Une session de découverte bien conduite a une vraie valeur, à condition d'en a
 - Vous obtenez un premier cadrage qualitatif de votre situation.
 - Vous repartez avec 2 ou 3 questions de fond à poser à votre équipe.
 
-Ce n'est pas un audit. Mais c'est un filtre utile pour évaluer un prestataire avant de vous engager. La [méthodologie de l'Audit IA Express Smart Impulsion](/blog/audit-ia-express-methodologie) détaille par exemple ce qui distingue une session commerciale d'un vrai travail d'audit en 3 jours.
+Ce n'est pas un audit. Mais c'est un filtre utile pour évaluer un prestataire avant de vous engager. La [méthodologie de la Smart Analyse de Smart Impulsion](/blog/audit-ia-express-methodologie) détaille par exemple ce qui distingue une session commerciale d'un vrai travail d'audit en 0,5 à 1 jour.
 
 ## Comment choisir selon votre situation
 
@@ -4592,7 +4590,7 @@ C'est ce niveau de précision qui permet de prendre une décision d'investisseme
 - Que la restitution inclut une priorisation chiffrée, pas uniquement une liste de recommandations génériques
 - Que le cabinet peut montrer des livrables anonymisés d'interventions similaires dans votre secteur
 
-> **Pour un dirigeant pressé :** si vous avez besoin d'une réponse dans les 2 à 4 semaines plutôt que dans les 3 à 5 mois du Diag Data IA, un audit ciblé est souvent la bonne option. L'Audit IA Express Smart Impulsion est conçu pour cette situation : 3 jours de travail, livrable actionnable, prix fixe. [Demandez un premier échange](/services/audit).
+> **Pour un dirigeant pressé :** si vous avez besoin d'une réponse dans les 2 à 4 semaines plutôt que dans les 3 à 5 mois du Diag Data IA, un audit ciblé est souvent la bonne option. La Smart Analyse de Smart Impulsion est conçue pour cette situation : 0,5 à 1 jour de travail, livrable actionnable, prix fixe. [Demandez un premier échange](/services/audit).
 
 Une fois l'audit réalisé, la question qui se pose est celle du suivi. Notre article sur [comment piloter votre prestataire IA après un audit](/blog/piloter-prestataire-ia-apres-audit) détaille les 4 jalons à mettre en place pour ne pas perdre le bénéfice du diagnostic.
 
@@ -4825,7 +4823,7 @@ Ne cherchez pas à tout déployer en même temps. Un cas d'usage bien installé 
 
 > Bpifrance Le Lab (2025) relève que 43 % des PME-ETI n'analysent pas encore leurs données. Avant d'automatiser, il faut que la donnée existe et soit fiable. C'est le prérequis que les dirigeants sous-estiment le plus systématiquement, et que tout accompagnement terrain confirme.
 
-Si vous hésitez sur votre point de départ, ou si vous voulez évaluer lesquels de ces cas d'usage correspondent réellement à vos irritants du quotidien, c'est exactement l'objet d'un [Audit IA Express](/services/audit) : identifier, en deux à trois jours, les processus où l'IA apportera un gain mesurable, sans vous vendre une refonte que vous n'avez pas les moyens d'absorber.
+Si vous hésitez sur votre point de départ, ou si vous voulez évaluer lesquels de ces cas d'usage correspondent réellement à vos irritants du quotidien, c'est exactement l'objet d'une [Smart Analyse](/services/audit) : identifier, en 0,5 à 1 jour, les processus où l'IA apportera un gain mesurable, sans vous vendre une refonte que vous n'avez pas les moyens d'absorber.
 
 
 
@@ -5070,13 +5068,13 @@ Concrètement, voici ce que vous gagnez avec des données propres dès le dépar
 
 Pour aller plus loin sur la méthode globale, le guide [L'IA pour les PME : par où commencer ?](/blog/ia-pour-pme-guide) pose les bases stratégiques que ce plan d'action vient compléter.
 
-## Ce que l'Audit IA Express révèle sur vos données
+## Ce que la Smart Analyse révèle sur vos données
 
 Avant de lancer un projet, savoir précisément où vous en êtes sur la qualité de vos données accélère tout ce qui suit. Mais ce diagnostic nécessite une lecture à la fois technique et métier : il faut comprendre vos données et comprendre votre activité.
 
-Smart Impulsion, cabinet conseil IA B2B spécialisé dans l'accompagnement des PME et ETI françaises, propose un Audit IA Express qui identifie précisément quelles données vous avez, lesquelles manquent, et ce qui bloque votre premier cas d'usage IA. En 2 à 3 jours, vous repartez avec un diagnostic data complet et une feuille de route priorisée.
+Smart Impulsion, cabinet conseil IA B2B spécialisé dans l'accompagnement des PME et ETI françaises, propose une Smart Analyse qui identifie précisément quelles données vous avez, lesquelles manquent, et ce qui bloque votre premier cas d'usage IA. En 0,5 à 1 jour, vous repartez avec un diagnostic data complet et une feuille de route priorisée.
 
-[En savoir plus sur l'Audit IA Express](/services/audit)
+[En savoir plus sur la Smart Analyse](/services/audit)
 
 ## Questions fréquentes
 
@@ -5335,9 +5333,9 @@ Posez deux questions contractuelles avant de signer : disposez-vous d'un droit �
 
 Avant de choisir un outil ou demander une démonstration, la première question est : vos processus comptables sont-ils prêts pour l'automatisation, et quels cas d'usage justifient réellement l'investissement dans votre contexte ?
 
-L'Audit IA Express de Smart Impulsion identifie les tâches de votre fonction comptable qui se prêtent à l'automatisation, évalue le ROI attendu sur votre volume réel, et cartographie les risques spécifiques à votre contexte : volume de documents, nature des données, outils existants, contraintes RGPD.
+La Smart Analyse de Smart Impulsion identifie les tâches de votre fonction comptable qui se prêtent à l'automatisation, évalue le ROI attendu sur votre volume réel, et cartographie les risques spécifiques à votre contexte : volume de documents, nature des données, outils existants, contraintes RGPD.
 
-[Demandez votre Audit IA Express](/services/audit)`,
+[Demandez votre Smart Analyse](/services/audit)`,
     author: "Laurent Bouzon",
     date: "7 septembre 2026",
     dateISO: "2026-09-07",
@@ -5563,7 +5561,7 @@ Pour une PME qui utilise un outil SaaS américain : vérifiez que votre contrat 
 
 Pour approfondir les [obligations RGPD sur vos traitements IA](/blog/rgpd-ia-pme-obligations-cnil-2026), notre article dédié détaille le plan d'action par type de traitement.
 
-### Le lien avec l'Audit IA Express
+### Le lien avec la Smart Analyse
 
 Cartographier vos flux de données (savoir quelles données alimentent quel outil IA, stockées où, accessibles par qui) est la première étape d'un déploiement IA maîtrisé. C'est aussi ce que permet [un audit IA qui cartographie vos flux de données](/blog/audit-ia-pme-guide-complet) : identifier les risques d'hébergement et vous proposer une grille de décision adaptée à votre profil, sans jargon IT.
 
@@ -5597,7 +5595,7 @@ La grille en 4 niveaux présentée ici vous permet de segmenter votre décision.
 
 Ce qui est certain : ne pas poser la question est la moins bonne option. Elle vous expose à des risques réglementaires, concurrentiels et réputationnels évitables.
 
-Un Audit IA Express Smart Impulsion cartographie vos flux de données, identifie les risques d'hébergement et vous propose une grille de décision adaptée à votre profil , sans jargon IT. [Demandez votre audit](/services/audit).`,
+Une Smart Analyse de Smart Impulsion cartographie vos flux de données, identifie les risques d'hébergement et vous propose une grille de décision adaptée à votre profil , sans jargon IT. [Demandez votre audit](/services/audit).`,
     author: "Laurent Bouzon",
     date: "4 septembre 2026",
     dateISO: "2026-09-04",
@@ -5796,7 +5794,7 @@ Ce qui reste à faire avant de lancer :
 - Choisir un format compatible avec les contraintes de production (pas un bloc 2 jours)
 - Documenter la démarche pour la traçabilité réglementaire
 
-Si vous n'avez pas encore cartographié les cas d'usage IA réalistes pour vos équipes opérationnelles, c'est le point de départ. Un Audit IA Express permet de faire ce diagnostic en 3 jours et d'identifier, poste par poste, où la formation créera de la valeur mesurable, et où elle serait prématurée. [Voir la méthodologie de l'Audit IA Express](/services/audit).
+Si vous n'avez pas encore cartographié les cas d'usage IA réalistes pour vos équipes opérationnelles, c'est le point de départ. Une Smart Analyse permet de faire ce diagnostic en 0,5 à 1 jour et d'identifier, poste par poste, où la formation créera de la valeur mesurable, et où elle serait prématurée. [Voir la méthodologie de la Smart Analyse](/services/audit).
 
 **Sources citées dans cet article**
 
@@ -6044,7 +6042,7 @@ Ce dossier n'a pas besoin d'être volumineux. Il doit être constitué, daté, e
 
 Si votre périmètre est limité à un ou deux chatbots avec des fournisseurs standards, vous pouvez gérer ces cinq actions en interne en quelques jours. Si votre écosystème d'outils est plus étendu (plusieurs solutions, intégrations sur-mesure, agents IA internes), la cartographie et la qualification des obligations peuvent rapidement dépasser la capacité d'une équipe sans expertise spécifique.
 
-L'[Audit IA Express](/services/audit) de Smart Impulsion inclut un volet de conformité AI Act qui couvre précisément ce type de recensement et de qualification. En trois jours de travail structuré, vous disposez d'un état des lieux documenté et d'un plan de mise en conformité priorisé, applicable et concret.
+La [Smart Analyse](/services/audit) de Smart Impulsion inclut un volet de conformité AI Act qui couvre précisément ce type de recensement et de qualification. En 0,5 à 1 jour de travail structuré, vous disposez d'un état des lieux documenté et d'un plan de mise en conformité priorisé, applicable et concret.
 
 
 
@@ -6331,9 +6329,9 @@ Non. Le Conseil National des Barreaux a publié en mars 2026 un guide déontolog
 
 L'IA juridique n'est pas un sujet isolé. Elle s'inscrit dans la maturité globale de votre organisation face à l'IA : quels processus automatiser, avec quels garde-fous, et comment mesurer le gain réel.
 
-Selon Bpifrance Le Lab ("L'IA dans les PME et ETI françaises", juin 2025), 58 % des dirigeants de PME et ETI françaises considèrent l'IA comme importante voire très importante pour la pérennité de leur entreprise à 3-5 ans. Mais l'intention ne suffit pas. La frontière entre usage IA-safe et risque sous-estimé est précisément ce que nous cartographions dans un [Audit IA Express](/services/audit).
+Selon Bpifrance Le Lab ("L'IA dans les PME et ETI françaises", juin 2025), 58 % des dirigeants de PME et ETI françaises considèrent l'IA comme importante voire très importante pour la pérennité de leur entreprise à 3-5 ans. Mais l'intention ne suffit pas. La frontière entre usage IA-safe et risque sous-estimé est précisément ce que nous cartographions dans une [Smart Analyse](/services/audit).
 
-En trois jours, le diagnostic couvre vos processus métier prioritaires (dont la gestion contractuelle) et produit une feuille de route avec périmètre, outils et garde-fous adaptés à votre taille et à votre secteur. Sans engagement de déploiement, sans présupposé technologique.
+En 0,5 à 1 jour, le diagnostic couvre vos processus métier prioritaires (dont la gestion contractuelle) et produit une feuille de route avec périmètre, outils et garde-fous adaptés à votre taille et à votre secteur. Sans engagement de déploiement, sans présupposé technologique.
 
 Pour structurer votre démarche avant même cet audit, l'article [Audit IA pour PME : le guide complet](/blog/audit-ia-pme-guide-complet) détaille les étapes et les livrables à exiger d'un diagnostic sérieux.
 
@@ -6528,11 +6526,11 @@ La règle est simple : tout chiffre ou affirmation factuelle issue d'un contenu 
 
 Ces quatre cas d'usage ont des niveaux d'accessibilité différents. Leur pertinence dépend de votre secteur, de votre volume de contenu actuel et des ressources que vous pouvez réallouer. Ce qui fonctionne pour un distributeur industriel de 80 salariés n'est pas forcément le bon point de départ pour un cabinet de services de 15 personnes.
 
-Smart Impulsion propose un [Audit IA Express](/services/audit) qui identifie les cas d'usage marketing réellement rentables pour votre activité. En 2 à 3 jours, vous repartez avec une liste priorisée et un ROI projeté.
+Smart Impulsion propose une [Smart Analyse](/services/audit) qui identifie les cas d'usage marketing réellement rentables pour votre activité. En 0,5 à 1 jour, vous repartez avec une liste priorisée et un ROI projeté.
 
 Pour aller plus loin avant de déclencher un audit, le [guide complet sur l'audit IA pour PME](/blog/audit-ia-pme-guide-complet) détaille ce que vous devriez exiger d'un diagnostic sérieux.
 
-[En savoir plus sur l'audit IA express](/services/audit)`,
+[En savoir plus sur la Smart Analyse](/services/audit)`,
     author: "Laurent Bouzon",
     date: "28 aout 2026",
     dateISO: "2026-08-28",
@@ -6725,11 +6723,11 @@ Un dernier point souvent négligé : si plusieurs collaborateurs expriment des r
 
 Gérer un refus après déploiement, c'est toujours plus coûteux que l'avoir anticipé. La question du "qui sera à l'aise avec cet outil, et qui aura besoin d'un accompagnement spécifique ?" doit se poser avant l'introduction de l'outil, pas après.
 
-C'est précisément ce que permet l'Audit IA Express de Smart Impulsion. En trois jours, il cartographie vos processus, identifie les fonctions prioritaires à équiper, et anticipe les profils pour lesquels l'accompagnement devra être renforcé. Il produit un séquençage de déploiement qui réduit les frictions, pas un plan générique de formation.
+C'est précisément ce que permet la Smart Analyse de Smart Impulsion. En 0,5 à 1 jour, elle cartographie vos processus, identifie les fonctions prioritaires à équiper, et anticipe les profils pour lesquels l'accompagnement devra être renforcé. Elle produit un séquençage de déploiement qui réduit les frictions, pas un plan générique de formation.
 
 Si vous êtes dans la situation décrite en introduction, c'est-à-dire un outil déployé et un refus à gérer, l'audit peut également vous aider à comprendre si le refus isolé est un signal précurseur d'une friction plus large. C'est souvent le cas.
 
-**[Demandez votre Audit IA Express](/services/audit)** pour cartographier vos risques de résistance avant le prochain déploiement.`,
+**[Demandez votre Smart Analyse](/services/audit)** pour cartographier vos risques de résistance avant le prochain déploiement.`,
     author: "Laurent Bouzon",
     date: "27 aout 2026",
     dateISO: "2026-08-27",
@@ -6756,7 +6754,7 @@ Si vous êtes dans la situation décrite en introduction, c'est-à-dire un outil
       },
       {
         question: "Quand faut-il anticiper les résistances plutôt que les gérer après coup ?",
-        answer: "Avant le déploiement, pas pendant. Un Audit IA Express permet de cartographier les fonctions et les personnes à embarquer en priorité, d'identifier les profils à risque de refus, et de séquencer l'introduction des outils pour éviter les frictions. Gérer un refus après déploiement coûte toujours plus cher que l'avoir anticipé.",
+        answer: "Avant le déploiement, pas pendant. Une Smart Analyse permet de cartographier les fonctions et les personnes à embarquer en priorité, d'identifier les profils à risque de refus, et de séquencer l'introduction des outils pour éviter les frictions. Gérer un refus après déploiement coûte toujours plus cher que l'avoir anticipé.",
       },
     ],
   },
@@ -6967,7 +6965,7 @@ La dérive des KPIs au-delà d'un seuil critique, un changement de périmètre m
 
 Si vous identifiez l'un de ces signaux dans votre situation actuelle, le premier pas n'est pas de relancer une consultation longue. C'est de rassembler les données disponibles et de les confronter à une lecture extérieure structurée.
 
-**L'Audit IA Express de Smart Impulsion** est conçu pour cette situation : un format court, centré sur les écarts entre l'état prévu et l'état réel, avec des recommandations actionnables en sortie. [Découvrez comment il fonctionne et prenez rendez-vous pour un premier échange](/services/audit).
+**La Smart Analyse de Smart Impulsion** est conçu pour cette situation : un format court, centré sur les écarts entre l'état prévu et l'état réel, avec des recommandations actionnables en sortie. [Découvrez comment il fonctionne et prenez rendez-vous pour un premier échange](/services/audit).
 
 
 
@@ -7201,9 +7199,9 @@ Quand le refus persiste après formation et plusieurs conversations documentées
 
 Si la résistance de vos équipes bloque votre déploiement IA, c'est souvent le signe que le projet manque de cadrage en amont : cas d'usage mal définis, formation absente, consultation CSE oubliée, communication insuffisante sur les intentions de direction.
 
-Smart Impulsion propose un [Audit IA Express](/services/audit) qui identifie les zones de friction avant qu'elles deviennent des conflits RH. En 2 à 3 jours, vous repartez avec une cartographie des cas d'usage prioritaires, une évaluation de la maturité de vos équipes, et un plan d'action concret pour un déploiement qui tient.
+Smart Impulsion propose une [Smart Analyse](/services/audit) qui identifie les zones de friction avant qu'elles deviennent des conflits RH. En 0,5 à 1 jour, vous repartez avec une cartographie des cas d'usage prioritaires, une évaluation de la maturité de vos équipes, et un plan d'action concret pour un déploiement qui tient.
 
-[En savoir plus sur l'Audit IA Express](/services/audit)`,
+[En savoir plus sur la Smart Analyse](/services/audit)`,
     author: "Laurent Bouzon",
     date: "24 aout 2026",
     dateISO: "2026-08-24",
@@ -7351,7 +7349,7 @@ Quand un diagnostic à J+60 révèle que les comportements n'ont pas évolué, l
 
 Ces trois freins ont un point commun : ils se traitent avant la formation, pas pendant. C'est pourquoi une cartographie des cas d'usage et une préparation du contexte managérial conditionnent directement l'efficacité de ce que vous allez financer.
 
-Le travail préalable à toute formation IA, c'est précisément de cartographier les cas d'usage réels de vos équipes avant d'investir. C'est ce que produit l'[Audit IA Express](/services/audit) de Smart Impulsion : deux jours pour identifier les usages prioritaires dans votre structure, poste par poste, et définir ce que "ça marche" veut dire pour chaque profil. Sans ce travail en amont, même la meilleure formation restera dans l'abstraction.
+Le travail préalable à toute formation IA, c'est précisément de cartographier les cas d'usage réels de vos équipes avant d'investir. C'est ce que produit la [Smart Analyse](/services/audit) de Smart Impulsion : deux jours pour identifier les usages prioritaires dans votre structure, poste par poste, et définir ce que "ça marche" veut dire pour chaque profil. Sans ce travail en amont, même la meilleure formation restera dans l'abstraction.
 
 > Avant de former vos équipes à l'IA, posez-vous cette question : sur quelles tâches concrètes voulez-vous les voir changer de pratiques ? Si vous n'avez pas de réponse précise par profil, la formation sera générique et les résultats le seront aussi.
 
@@ -7597,9 +7595,9 @@ Trois réflexes opérationnels à ancrer avant de démarrer :
 2. **Pas de paiement de phase sans validation du livrable de l'étape précédente.** Cette règle simple vous évite de vous retrouver en position de force diminuée lors des négociations de fin de projet.
 3. **Un signal d'alerte nommé est un signal traité.** La liste des cinq signaux décrits dans cet article n'est pas une liste de certitudes d'échec : c'est une liste de sujets à mettre sur la table dès qu'ils apparaissent. Un prestataire sérieux ne sera pas déstabilisé par ces questions. Il les anticipera.
 
-Si vous n'avez pas encore réalisé votre audit IA ou si votre rapport d'audit ne contient pas les éléments de cadrage décrits dans cet article (baseline, cas d'usage pilote, spécification du succès), l'[Audit IA Express](/services/audit) de Smart Impulsion produit ces livrables en trois jours ouvrés. Vous en repartez avec un document de cadrage directement exploitable pour piloter votre prestataire, quelle que soit sa nature.
+Si vous n'avez pas encore réalisé votre audit IA ou si votre rapport d'audit ne contient pas les éléments de cadrage décrits dans cet article (baseline, cas d'usage pilote, spécification du succès), la [Smart Analyse](/services/audit) de Smart Impulsion produit ces livrables en 0,5 à 1 jour. Vous en repartez avec un document de cadrage directement exploitable pour piloter votre prestataire, quelle que soit sa nature.
 
-Pour comprendre la méthode complète qui sous-tend cet audit, consultez [la méthodologie Audit IA Express](/blog/audit-ia-express-methodologie).`,
+Pour comprendre la méthode complète qui sous-tend cet audit, consultez [la méthodologie Smart Analyse](/blog/audit-ia-express-methodologie).`,
     author: "Laurent Bouzon",
     date: "18 aout 2026",
     dateISO: "2026-08-18",
@@ -7807,7 +7805,7 @@ C'est précisément ce à quoi sert un [audit IA](/blog/audit-ia-pme-guide-compl
 
 Si vous vous interrogez sur le [délai de rentabilité réaliste d'un projet IA en PME](/blog/delai-rentabilite-projet-ia-pme), cet article du même cluster vous donnera les repères chiffrés pour calibrer vos attentes.
 
-Si votre projet a plus de 90 jours de retard sur ses objectifs, l'[Audit IA Express](/services/audit) est conçu pour ce cas précis. Trois jours de travail, un diagnostic structuré, un plan d'action sur 30 jours.
+Si votre projet a plus de 90 jours de retard sur ses objectifs, la [Smart Analyse](/services/audit) est conçu pour ce cas précis. Trois jours de travail, un diagnostic structuré, un plan d'action sur 30 jours.
 
 ## Questions fréquentes
 
@@ -7837,7 +7835,7 @@ Votre projet IA ne rapporte pas encore ce qu'il devait. Vous avez maintenant un 
 
 Ce qui détermine si la situation est récupérable, c'est la rapidité du diagnostic. À J+90, presque tous les cas sont récupérables. À J+180, le projet risque d'entrer dans une zone de fatigue organisationnelle d'où il est difficile de sortir sans un coup de barre décisif.
 
-Si vous avez besoin d'un regard extérieur pour poser ce diagnostic, l'[Audit IA Express de Smart Impulsion](/services/audit) est conçu pour répondre en 3 jours à la question : "Pourquoi ce projet ne rapporte pas, et que faire dans les 30 prochains jours ?"`,
+Si vous avez besoin d'un regard extérieur pour poser ce diagnostic, la [Smart Analyse de Smart Impulsion](/services/audit) est conçue pour répondre en 0,5 à 1 jour à la question : "Pourquoi ce projet ne rapporte pas, et que faire dans les 30 prochains jours ?"`,
     author: "Laurent Bouzon",
     date: "17 aout 2026",
     dateISO: "2026-08-17",
@@ -8084,9 +8082,9 @@ Si vous répondez "oui" aux quatre questions, le chantier est mûr. Si vous rép
 
 ### Un accompagnement structuré pour ne pas tâtonner
 
-Nombre de PME logistiques perdent du temps et de l'argent à explorer des outils sans avoir d'abord clarifié leur situation de départ. Un audit structuré de 3 jours permet de cartographier vos données disponibles, d'identifier les deux ou trois cas d'usage réalistes dans votre contexte, et de définir un séquençage avec des jalons de ROI précis.
+Nombre de PME logistiques perdent du temps et de l'argent à explorer des outils sans avoir d'abord clarifié leur situation de départ. Un audit structuré de 0,5 à 1 jour permet de cartographier vos données disponibles, d'identifier les deux ou trois cas d'usage réalistes dans votre contexte, et de définir un séquençage avec des jalons de ROI précis.
 
-Si vous souhaitez poser un diagnostic avant de vous engager, l'[Audit IA Express](/services/audit) de Smart Impulsion est conçu pour ce type de situation : entreprises logistiques ou industrielles avec une ambition claire mais sans feuille de route définie.
+Si vous souhaitez poser un diagnostic avant de vous engager, la [Smart Analyse](/services/audit) de Smart Impulsion est conçue pour ce type de situation : entreprises logistiques ou industrielles avec une ambition claire mais sans feuille de route définie.
 
 
 ## Ce qu'il faut retenir
@@ -8333,7 +8331,7 @@ Oui, à condition d'adapter la démarche. Sans DSI interne, l'impulsion vient du
 
 Ce n'est pas une obligation absolue, mais c'est un avantage décisif. Bpifrance Le Lab (juin 2025) mesure qu'une entreprise déjà engagée dans sa digitalisation est cinq fois plus susceptible d'utiliser une IA. Le niveau de digitalisation conditionne directement la disponibilité et la qualité des données, qui sont le carburant de tout projet IA. Une PME peu digitalisée peut quand même démarrer, mais sur un périmètre très étroit et avec des attentes de délai ajustées en conséquence.
 
-Vous voulez évaluer où en est votre entreprise sur ces cinq facteurs avant de vous engager dans un projet ? L'[Audit IA Express](/services/audit) est conçu pour ça : un diagnostic en trois jours qui identifie vos leviers prioritaires, les blocages à traiter et les chantiers où votre ratio charge-bénéfice sera le plus favorable.`,
+Vous voulez évaluer où en est votre entreprise sur ces cinq facteurs avant de vous engager dans un projet ? La [Smart Analyse](/services/audit) est conçue pour ça : un diagnostic en 0,5 à 1 jour qui identifie vos leviers prioritaires, les blocages à traiter et les chantiers où votre ratio charge-bénéfice sera le plus favorable.`,
     author: "Laurent Bouzon",
     date: "12 aout 2026",
     dateISO: "2026-08-12",
@@ -8684,7 +8682,7 @@ Une réponse évasive ou l'absence de réponse est elle-même une information.
 
 L'article 26 impose aux déployeurs de haut risque de tenir des journaux de bord. Commencer un registre maintenant, même informel, vous place dans une position bien plus confortable dans 16 mois. Ce registre liste chaque système, son usage, le rôle de votre organisation (déployeur), le fournisseur, et les données traitées.
 
-> Si ces trois actions vous semblent chronophages à mener en parallèle de l'activité, c'est précisément l'utilité d'un cadre structuré. Notre [Audit IA Express](/services/audit) permet de réaliser cette cartographie complète en 3 jours ouvrés : identification des systèmes, qualification annexe III, et premières recommandations de conformité documentées.
+> Si ces trois actions vous semblent chronophages à mener en parallèle de l'activité, c'est précisément l'utilité d'un cadre structuré. Notre [Smart Analyse](/services/audit) permet de réaliser cette cartographie complète en 0,5 à 1 jour : identification des systèmes, qualification annexe III, et premières recommandations de conformité documentées.
 
 
 
@@ -8928,7 +8926,7 @@ Les fonctions les plus touchées à court terme sont la saisie administrative, l
 
 Attendre n'est pas neutre. Bpifrance Le Lab (juin 2025) montre que 58 % des dirigeants de PME-ETI voient l'IA comme un enjeu de survie, mais seuls 32 % l'ont adoptée. Vos concurrents qui déploient l'IA gagnent en capacité de traitement et en réactivité. La vraie question n'est pas "IA ou pas IA", c'est "comment déployer l'IA en intégrant dès le départ l'évolution des compétences de vos équipes".
 
-Si vous voulez savoir précisément quels postes et quelles tâches dans votre PME sont concernés à court terme, c'est exactement ce qu'un [Audit IA Express](/services/audit) permet de cartographier en trois jours, avant de prendre des décisions qui engagent vos équipes.`,
+Si vous voulez savoir précisément quels postes et quelles tâches dans votre PME sont concernés à court terme, c'est exactement ce qu'une [Smart Analyse](/services/audit) permet de cartographier en 0,5 à 1 jour, avant de prendre des décisions qui engagent vos équipes.`,
     author: "Laurent Bouzon",
     date: "10 aout 2026",
     dateISO: "2026-08-10",
@@ -9160,11 +9158,11 @@ Avant de choisir un prestataire ou un outil, trois questions méritent une répo
 2. Vos données qualité sont-elles numérisées et structurées ?
 3. Votre ERP est-il alimenté avec des données fiables sur vos gammes et capacités ?
 
-Si vous avez des doutes sur l'une de ces trois réponses, un audit structuré de vos données de production est la première étape. C'est ce que couvre l'Audit IA Express : en deux à trois jours, il identifie quels cas d'usage sont activables immédiatement, lesquels nécessitent un travail préalable sur les données, et dans quel ordre avancer.
+Si vous avez des doutes sur l'une de ces trois réponses, un audit structuré de vos données de production est la première étape. C'est ce que couvre la Smart Analyse : en 0,5 à 1 jour, elle identifie quels cas d'usage sont activables immédiatement, lesquels nécessitent un travail préalable sur les données, et dans quel ordre avancer.
 
 Pour comprendre ce que comprend concrètement un audit, l'article sur [le premier projet IA en PME](/blog/premier-projet-ia-pme) donne les repères utiles avant de franchir ce pas.
 
-[En savoir plus sur l'audit IA express](/services/audit)`,
+[En savoir plus sur la Smart Analyse](/services/audit)`,
     author: "Laurent Bouzon",
     date: "6 aout 2026",
     dateISO: "2026-08-06",
@@ -9392,9 +9390,9 @@ L'AI Act ne demande pas à une PME d'embaucher un juriste dédié ni d'investir 
 2. Avoir **commencé à faire monter en compétence** vos équipes sur l'IA depuis février 2025
 3. **Informer** vos utilisateurs qu'ils interagissent avec une IA quand c'est le cas
 
-Si vous n'avez pas encore structuré cet inventaire, c'est précisément ce que couvre l'**Audit IA Express** de Smart Impulsion. En trois jours de travail conjoint, nous cartographions vos systèmes IA en production, identifions ceux qui tombent sous l'article 50, et documentons vos initiatives au titre de l'article 4 dans un format utilisable. Pas un rapport de 80 pages. Un dossier opérationnel, adapté à la taille et au contexte de votre organisation.
+Si vous n'avez pas encore structuré cet inventaire, c'est précisément ce que couvre la **Smart Analyse** de Smart Impulsion. En 0,5 à 1 jour de travail conjoint, nous cartographions vos systèmes IA en production, identifions ceux qui tombent sous l'article 50, et documentons vos initiatives au titre de l'article 4 dans un format utilisable. Pas un rapport de 80 pages. Un dossier opérationnel, adapté à la taille et au contexte de votre organisation.
 
-Pour en savoir plus : [Audit IA Express](/services/audit).
+Pour en savoir plus : [Smart Analyse](/services/audit).
 
 
 ## Ce qu'il faut retenir : l'essentiel en 4 points
@@ -9667,11 +9665,11 @@ Entre 3 et 5 jours ouvrés pour une PME de 20 à 200 personnes avec un périmèt
 
 Trois choses. L'article 4 devient une obligation de moyens explicite. Les obligations « haut risque » de l'annexe III — dont le recrutement et les RH — passent au 2 décembre 2027. Et la Commission doit publier des exemples pratiques de conformité, en visant explicitement les PME. En revanche, la gouvernance, la surveillance du marché et les obligations de transparence de l'article 50 s'appliquent bien depuis le 2 août 2026.
 
-## Un audit IA Express pour savoir où vous en êtes
+## Une Smart Analyse pour savoir où vous en êtes
 
 Si vous dirigez une PME ou une ETI qui utilise des outils IA et que votre visibilité sur ces usages se résume aujourd'hui à quelques attestations de formation, le sujet n'est plus réglementaire : il est opérationnel. Vous ne savez pas qui utilise quoi, ni où une erreur coûterait cher.
 
-L'[Audit IA Express Smart Impulsion](/services/audit) a été conçu pour ce périmètre : 3 jours d'intervention, cadrage sur les usages à risque prioritaire, et les quatre livrables décrits dans cet article — cartographie des usages, scoring de maturité, plan de remédiation, rapport d'audit. Pas un rapport générique : un état des lieux calibré sur votre organisation.
+La [Smart Analyse de Smart Impulsion](/services/audit) a été conçue pour ce périmètre : 0,5 à 1 jour d'intervention, cadrage sur les usages à risque prioritaire, et les quatre livrables décrits dans cet article — cartographie des usages, scoring de maturité, plan de remédiation, rapport d'audit. Pas un rapport générique : un état des lieux calibré sur votre organisation.
 
 Le compte à rebours réglementaire est retombé. Le besoin, lui, n'a pas bougé d'un pouce.
 
@@ -9768,9 +9766,9 @@ Quand le comité de direction oppose le budget figé, c'est rarement un veto fin
 
 ### La formulation de désamorçage
 
-> "Entendu : je ne vous propose pas de revoir le budget 2026. Je vous propose trois jours d'audit pour identifier les deux cas d'usage qui s'autofinancent dans les 6 mois. On parle du budget formation, pas d'un projet de transformation."
+> "Entendu : je ne vous propose pas de revoir le budget 2026. Je vous propose une Smart Analyse d'une demi-journée à une journée pour identifier le cas d'usage qui s'autofinance dans les 6 mois. On parle du budget formation, pas d'un projet de transformation."
 
-L'audit diagnostic IA est la porte d'entrée : une analyse de 2 à 3 jours qui identifie les processus où l'IA génère un retour mesurable à court terme, sans engagement sur la transformation globale. L'objectif n'est pas d'obtenir un budget IA en CODIR, c'est d'obtenir un accord de principe pour trois jours de travail. Pour commencer, voyez notre [guide pratique pour commencer avec l'IA en PME](/blog/ia-pour-pme-guide).
+L'audit diagnostic IA est la porte d'entrée : un diagnostic de 0,5 à 1 jour qui identifie les processus où l'IA génère un retour mesurable à court terme, sans engagement sur la transformation globale. L'objectif n'est pas d'obtenir un budget IA en CODIR, c'est d'obtenir un accord de principe pour une Smart Analyse d'une demi-journée à une journée. Pour commencer, voyez notre [guide pratique pour commencer avec l'IA en PME](/blog/ia-pour-pme-guide).
 
 
 
@@ -9896,9 +9894,9 @@ Cette préparation bilatérale transforme la réunion en séance de confirmation
 
 ### L'objectif du CODIR : pas "oui à l'IA", mais "oui à l'audit"
 
-C'est le point que la plupart des sponsors internes ratent : ils demandent un budget de transformation alors qu'ils devraient demander trois jours de diagnostic.
+C'est le point que la plupart des sponsors internes ratent : ils demandent un budget de transformation alors qu'ils devraient demander une Smart Analyse.
 
-L'audit IA Express produit trois livrables en 3 jours :
+La Smart Analyse produit trois livrables en 0,5 à 1 jour :
 
 - Une cartographie des processus prioritaires (classés par gain potentiel et faisabilité).
 - Un chiffrage des économies réalisables sur les 6 à 12 premiers mois.
@@ -9918,11 +9916,11 @@ Aucune des cinq objections décrites ici n'est un vrai veto. Chacune est le sign
 - "Pas les compétences" signifie "dites-moi qui fait quoi concrètement."
 - "C'est risqué" signifie "structurez la gouvernance pour moi."
 
-Traitez chaque objection pour ce qu'elle est : une demande d'information, pas un rejet. Et visez le bon objectif : un accord sur un audit diagnostic de 3 jours, pas un budget de transformation.
+Traitez chaque objection pour ce qu'elle est : une demande d'information, pas un rejet. Et visez le bon objectif : un accord sur une Smart Analyse de 0,5 à 1 jour, pas un budget de transformation.
 
 
 
-Vous préparez une présentation IA CODIR ? Notre Audit IA Express identifie en 3 jours les cas d'usage prioritaires et produit les éléments de chiffrage pour votre business case. [Découvrir l'audit](/services/audit)`,
+Vous préparez une présentation IA CODIR ? Notre Smart Analyse identifie en 0,5 à 1 jour les cas d'usage prioritaires et produit les éléments de chiffrage pour votre business case. [Découvrir l'audit](/services/audit)`,
     author: "Laurent Bouzon",
     date: "17 juillet 2026",
     dateISO: "2026-07-17",
@@ -9933,7 +9931,7 @@ Vous préparez une présentation IA CODIR ? Notre Audit IA Express identifie en 
     faq: [
       {
         question: "Quel argument convaincre un DAF sceptique face à un projet IA ?",
-        answer: "Le DAF répond rarement à une vision. Il répond à un chiffre et à un périmètre limité. L'approche la plus efficace : proposer un audit diagnostic financé sur le budget formation ou conseil existant, sans engagement sur l'industrialisation. L'objectif n'est pas un 'oui à l'IA' mais un 'oui à 3 jours d'audit'.",
+        answer: "Le DAF répond rarement à une vision. Il répond à un chiffre et à un périmètre limité. L'approche la plus efficace : proposer un audit diagnostic financé sur le budget formation ou conseil existant, sans engagement sur l'industrialisation. L'objectif n'est pas un 'oui à l'IA' mais un 'oui à une Smart Analyse'.",
       },
       {
         question: "Comment répondre à l'objection 'le ROI de l'IA n'est pas prouvé' ?",
@@ -10122,13 +10120,13 @@ Selon l'INSEE (enquête TIC 2024), seules 9 % des PME françaises de moins de 50
 
 > L'allègement de l'article 4 est une bonne nouvelle pour une seule raison : il vous autorise à traiter le sujet pour ce qu'il vaut opérationnellement, au lieu de le traiter dans l'urgence pour cocher une case avant une date.
 
-### Ce que produit un Audit IA Express
+### Ce que produit une Smart Analyse
 
 Les trois actions ci-dessus sont un premier pas nécessaire. Mais elles ne donnent pas une vue structurée de vos usages.
 
-Laurent Bouzon, consultant IA chez Smart Impulsion, observe que les dirigeants sous-estiment régulièrement le périmètre réel de leurs usages IA, en particulier les usages via comptes personnels non déclarés. C'est précisément ce point aveugle qu'un Audit IA Express est conçu pour documenter.
+Laurent Bouzon, consultant IA chez Smart Impulsion, observe que les dirigeants sous-estiment régulièrement le périmètre réel de leurs usages IA, en particulier les usages via comptes personnels non déclarés. C'est précisément ce point aveugle qu'une Smart Analyse est conçu pour documenter.
 
-Un [Audit IA Express](/services/audit) produit en moins de 48 heures un rapport complet documentant :
+Une [Smart Analyse](/services/audit) produit en moins de 48 heures un rapport complet documentant :
 
 - L'inventaire exhaustif des systèmes IA utilisés dans votre entreprise
 - L'évaluation de vos obligations réelles au titre de l'AI Act selon vos usages, calendrier à jour compris
@@ -10150,7 +10148,7 @@ Les données de marché et les obligations réglementaires sont détaillées dan
 
 > **À retenir.** L'article 4 s'applique depuis février 2025, sa date n'a pas bougé, et sa substance a été allégée le 27 juillet 2026 : aucun niveau de littératie n'a à être garanti pour qui que ce soit. Ce qui reste, c'est l'obligation de prendre des mesures — et un problème de pilotage que 5 heures de travail suffisent à commencer à traiter.
 
-Prenez rendez-vous pour un [Audit IA Express](/services/audit) si vous voulez savoir précisément où en est votre organisation.
+Prenez rendez-vous pour une [Smart Analyse](/services/audit) si vous voulez savoir précisément où en est votre organisation.
 
 *Sources : [Règlement (UE) 2026/1744 du 8 juillet 2026, « Digital Omnibus on AI » — EUR-Lex](https://eur-lex.europa.eu/eli/reg/2026/1744/oj/eng), publié au JOUE le 24 juillet 2026, entré en vigueur le 27 juillet 2026 ; Règlement (UE) 2024/1689 (AI Act) ; INSEE, enquête TIC 2024 ; Bpifrance Le Lab, juin 2025 ; Microsoft France / YouGov, février 2026.*
 
@@ -10173,7 +10171,7 @@ Prenez rendez-vous pour un [Audit IA Express](/services/audit) si vous voulez sa
       },
       {
         question: "Que faire si on n'a encore rien mis en place ?",
-        answer: "Trois actions tiennent en moins de 5 heures et restent utiles indépendamment de la contrainte réglementaire : un inventaire des outils IA réellement utilisés dans l'entreprise (2 heures), une session de sensibilisation avec les risques concrets et une trace écrite (2 heures), et la désignation d'un référent IA interne (30 minutes). Elles ne constituent pas une preuve de conformité — l'article 4 n'en réclame aucune — mais elles règlent un angle mort de pilotage. Pour une vue structurée, un Audit IA Express produit un rapport complet en moins de 48 heures.",
+        answer: "Trois actions tiennent en moins de 5 heures et restent utiles indépendamment de la contrainte réglementaire : un inventaire des outils IA réellement utilisés dans l'entreprise (2 heures), une session de sensibilisation avec les risques concrets et une trace écrite (2 heures), et la désignation d'un référent IA interne (30 minutes). Elles ne constituent pas une preuve de conformité — l'article 4 n'en réclame aucune — mais elles règlent un angle mort de pilotage. Pour une vue structurée, une Smart Analyse produit un rapport complet en moins de 48 heures.",
       },
     ],
   },
@@ -10347,7 +10345,7 @@ Oui. La grille est conçue pour être utilisable par un dirigeant de PME sans fo
 
 ### Et si tous mes projets obtiennent un score inférieur à 6 ?
 
-C'est un signal utile. Soit les projets identifiés ne sont pas mûrs (données insuffisantes, équipes non préparées), soit la définition des projets est trop vague pour être évaluée. Dans ce cas, commencez par un [audit IA Express](/services/audit) pour cadrer des cas d'usage plus précis avant de revenir à la grille.
+C'est un signal utile. Soit les projets identifiés ne sont pas mûrs (données insuffisantes, équipes non préparées), soit la définition des projets est trop vague pour être évaluée. Dans ce cas, commencez par une [Smart Analyse](/services/audit) pour cadrer des cas d'usage plus précis avant de revenir à la grille.
 
 ### Faut-il avoir un DSI ou une équipe technique pour appliquer cette grille ?
 
@@ -10373,11 +10371,11 @@ Un seul, au démarrage. La principale cause d'échec des premiers projets IA en 
 
 La grille de priorisation en 4 critères vous donne le cadre. Mais l'application concrète soulève souvent des questions que le seul scoring ne résout pas : comment formuler précisément le périmètre de chaque projet candidat ? Quelles données regarder en priorité dans votre ERP ? Quel profil de prestataire choisir selon le secteur ?
 
-C'est exactement ce que couvre l'**Audit IA Express de Smart Impulsion** : en trois jours de travail conjoint, nous identifions avec vous les 3 à 5 projets IA les plus pertinents pour votre contexte, nous les évaluons sur la grille avec vos données réelles, et nous vous remettons un plan d'action priorisé avec les critères de sélection du bon prestataire.
+C'est exactement ce que couvre la **Smart Analyse de Smart Impulsion** : en 0,5 à 1 jour de travail conjoint, nous identifions avec vous les projets IA les plus pertinents pour votre contexte, nous les évaluons sur la grille avec vos données réelles, et nous vous remettons un plan d'action priorisé avec les critères de sélection du bon prestataire.
 
 Pas de recommandation de produit, pas d'engagement long terme : un livrable opérationnel que vous pouvez mettre en oeuvre avec l'équipe que vous choisissez.
 
-[Demandez un devis pour l'Audit IA Express](/services/audit) et repartez avec une feuille de route prête à exécuter.`,
+[Demandez un devis pour la Smart Analyse](/services/audit) et repartez avec une feuille de route prête à exécuter.`,
     author: "Laurent Bouzon",
     date: "15 juillet 2026",
     dateISO: "2026-07-15",
@@ -10693,9 +10691,9 @@ Les benchmarks sectoriels sont des repères, pas des garanties. Un ROI de 171% e
 
 Avant de vous fixer un objectif ROI, la question utile est : "dans quelles conditions se trouve actuellement mon entreprise ?"
 
-Smart Impulsion propose un Audit IA Express qui identifie précisément votre positionnement par rapport au benchmark de votre secteur. En 2 à 3 jours, vous repartez avec les 3 à 5 cas d'usage prioritaires pour votre secteur et votre situation, une évaluation de votre maturité data, et un ROI projeté par cas d'usage avec les hypothèses explicites.
+Smart Impulsion propose une Smart Analyse qui identifie précisément votre positionnement par rapport au benchmark de votre secteur. En 0,5 à 1 jour, vous repartez avec les 3 à 5 cas d'usage prioritaires pour votre secteur et votre situation, une évaluation de votre maturité data, et un ROI projeté par cas d'usage avec les hypothèses explicites.
 
-[En savoir plus sur l'audit IA express](/services/audit)`,
+[En savoir plus sur la Smart Analyse](/services/audit)`,
     author: "Laurent Bouzon",
     date: "13 juillet 2026",
     dateISO: "2026-07-13",
@@ -10971,9 +10969,9 @@ Oui, si le système prend des décisions d'engagement ou de rupture fournisseur 
 
 Identifier le bon cas d'usage IA pour les achats est une chose. Savoir si vos données actuelles le rendent faisable en est une autre. C'est là que la plupart des projets s'arrêtent : on choisit un outil avant d'avoir évalué la matière première.
 
-Smart Impulsion propose un Audit IA Express qui évalue la maturité data de votre fonction achats, identifie les cas d'usage accessibles compte tenu de votre existant (ERP, factures PDF, contrats numérisés ou non), et séquence un premier projet avec un ROI projeté. En 2 à 3 jours, vous repartez avec une feuille de route priorisée et des hypothèses chiffrées.
+Smart Impulsion propose une Smart Analyse qui évalue la maturité data de votre fonction achats, identifie les cas d'usage accessibles compte tenu de votre existant (ERP, factures PDF, contrats numérisés ou non), et séquence un premier projet avec un ROI projeté. En 0,5 à 1 jour, vous repartez avec une feuille de route priorisée et des hypothèses chiffrées.
 
-[En savoir plus sur l'audit IA express](/services/audit)`,
+[En savoir plus sur la Smart Analyse](/services/audit)`,
     author: "Laurent Bouzon",
     date: "10 juillet 2026",
     dateISO: "2026-07-10",
@@ -11220,9 +11218,9 @@ Selon Gartner (2026), au moins 50 % des projets GenAI dépasseront leur budget d
 
 Ces quatre questions méritent des réponses précises, chiffrées, indépendantes du prestataire que vous avez en face. C'est exactement ce que produit un audit de cadrage sérieux : une vision complète du TCO avant engagement, pas après.
 
-Smart Impulsion propose un Audit IA Express qui traduit votre ambition IA en grille de coûts réelle, cas d'usage par cas d'usage, avec les hypothèses explicitées. En 2 à 3 jours, vous repartez avec un TCO structuré sur 36 mois, une priorisation des projets par rapport coût-valeur et une feuille de route budgétable devant votre CODIR.
+Smart Impulsion propose une Smart Analyse qui traduit votre ambition IA en grille de coûts réelle, cas d'usage par cas d'usage, avec les hypothèses explicitées. En 0,5 à 1 jour, vous repartez avec un TCO structuré sur 36 mois, une priorisation des projets par rapport coût-valeur et une feuille de route budgétable devant votre CODIR.
 
-[En savoir plus sur l'audit IA express](/services/audit)`,
+[En savoir plus sur la Smart Analyse](/services/audit)`,
     author: "Laurent Bouzon",
     date: "9 juillet 2026",
     dateISO: "2026-07-09",
@@ -11469,9 +11467,9 @@ Cette checklist représente une base de travail pour une PME ordinaire. Les cinq
 
 Il n'y a plus d'échéance qui vous presse sur l'article 4 — il n'y en avait d'ailleurs jamais eu, puisque le texte s'applique depuis février 2025. Ce qui reste, c'est un besoin de visibilité : savoir quels outils circulent chez vous, qui les utilise, et où une erreur coûterait cher.
 
-Si vous souhaitez aller plus vite, sécuriser votre interprétation ou préparer dès maintenant l'échéance annexe III de décembre 2027, l'Audit IA Express Smart Impulsion vous accompagne : identification de vos systèmes IA, évaluation de leur niveau de risque, plan d'actions priorisé, en trois jours de travail collectif.
+Si vous souhaitez aller plus vite, sécuriser votre interprétation ou préparer dès maintenant l'échéance annexe III de décembre 2027, la Smart Analyse de Smart Impulsion vous accompagne : identification de vos systèmes IA, évaluation de leur niveau de risque, plan d'actions priorisé, en 0,5 à 1 jour de travail collectif.
 
-[Demander un Audit IA Express](/services/audit)
+[Demander une Smart Analyse](/services/audit)
 
 *Sources : [Règlement (UE) 2026/1744 du 8 juillet 2026, « Digital Omnibus on AI » — EUR-Lex](https://eur-lex.europa.eu/eli/reg/2026/1744/oj/eng), publié au JOUE le 24 juillet 2026, entré en vigueur le 27 juillet 2026 ; Règlement (UE) 2024/1689 (AI Act) ; INSEE Première n°2061 ; Commission européenne, FAQ AI Literacy ; Bpifrance Le Lab, 2025.*
 
@@ -11703,9 +11701,9 @@ Votre OPCO de rattachement dépend de votre convention collective. Votre fédér
 
 C'est là que la réécriture de l'article 4 change quelque chose d'utile : vous n'avez plus à monter un dispositif dans l'urgence pour cocher une case avant une date. Vous pouvez le faire une fois, correctement, en le calibrant sur vos usages réels.
 
-Si vous n'avez pas encore cartographié ces usages et que vous préférez ne pas improviser, l'Audit IA Express permet de faire exactement ça : identifier tous vos outils IA, établir les profils collaborateurs, préparer les supports de formation adaptés et poser le suivi, le tout en une session de travail structurée.
+Si vous n'avez pas encore cartographié ces usages et que vous préférez ne pas improviser, la Smart Analyse permet de faire exactement ça : identifier tous vos outils IA, établir les profils collaborateurs, préparer les supports de formation adaptés et poser le suivi, le tout en une session de travail structurée.
 
-[Découvrir l'Audit IA Express](/services/audit)
+[Découvrir la Smart Analyse](/services/audit)
 
 *Sources : [Règlement (UE) 2026/1744 du 8 juillet 2026, « Digital Omnibus on AI » — EUR-Lex](https://eur-lex.europa.eu/eli/reg/2026/1744/oj/eng), publié au JOUE le 24 juillet 2026, entré en vigueur le 27 juillet 2026 ; Règlement (UE) 2024/1689 (AI Act) ; Lefebvre Dalloz Compétences, 4e Baromètre de la formation professionnelle, 2026 ; Bpifrance Le Lab, juin 2025 ; INSEE ; Baromètre France Num 2025 (DGE/Crédoc).*
 
@@ -11938,11 +11936,11 @@ Un regard extérieur structuré permet de poser les quatre questions de façon n
 
 > Un diagnostic externe ne remplace pas votre connaissance du terrain. Il la complète avec un recul que vous ne pouvez pas avoir quand vous êtes au centre de la décision.
 
-C'est exactement ce que couvre l'**Audit IA Express** de Smart Impulsion : deux jours de travail avec vos équipes pour répondre à ces quatre questions sur vos processus réels, identifier les deux ou trois chantiers les plus pertinents pour votre entreprise, et bâtir un plan d'action priorisé. Pas une étude générique. Un diagnostic sur votre situation.
+C'est exactement ce que couvre la **Smart Analyse** de Smart Impulsion : deux jours de travail avec vos équipes pour répondre à ces quatre questions sur vos processus réels, identifier les deux ou trois chantiers les plus pertinents pour votre entreprise, et bâtir un plan d'action priorisé. Pas une étude générique. Un diagnostic sur votre situation.
 
 Pour comprendre ce que comprend un audit IA structuré, notre [guide complet de l'audit IA en PME](/blog/audit-ia-pme-guide-complet) détaille la méthode, les livrables et les critères qui font la différence entre un diagnostic utile et un rapport qui reste dans un tiroir.
 
-[Demandez votre Audit IA Express](/services/audit)
+[Demandez votre Smart Analyse](/services/audit)
 
 ## Ce que le bon premier projet IA change vraiment
 
@@ -12198,9 +12196,9 @@ La valeur d'un diagnostic IA PME ne vient pas du rapport. Elle vient de l'implé
 
 La question n'est pas "faut-il faire un diagnostic ?" mais "quel diagnostic, avec qui, et qu'en ferez-vous une fois les résultats en main ?"
 
-Si vous voulez aller au-delà du bilan de maturité et disposer d'un plan d'action directement opérationnel, l'Audit IA Express Smart Impulsion intègre la priorisation ROI et le plan de déploiement dans une mission de 3 jours, sans engagement prestataire long terme. Conçu pour les dirigeants de PME et ETI qui veulent des recommandations actionnables, pas un rapport supplémentaire.
+Si vous voulez aller au-delà du bilan de maturité et disposer d'un plan d'action directement opérationnel, la Smart Analyse de Smart Impulsion intègre la priorisation ROI et le plan de déploiement dans une mission de 0,5 à 1 jour, sans engagement prestataire long terme. Conçu pour les dirigeants de PME et ETI qui veulent des recommandations actionnables, pas un rapport supplémentaire.
 
-[Découvrez l'Audit IA Express Smart Impulsion](/services/audit)`,
+[Découvrez la Smart Analyse de Smart Impulsion](/services/audit)`,
     author: "Laurent Bouzon",
     date: "25 juin 2026",
     dateISO: "2026-06-25",
@@ -12447,9 +12445,9 @@ En estimant trois éléments : le coût de mise en oeuvre (conseil ou intégrati
 
 Vous avez maintenant la méthode pour construire votre première feuille de route IA en quatre semaines. La question qui se pose ensuite est souvent : "ai-je vu juste sur les cas d'usage prioritaires, et mes hypothèses de ROI tiennent-elles face à ce qu'on observe sur le terrain ?"
 
-Smart Impulsion propose un Audit IA Express qui permet de valider votre feuille de route interne, d'identifier les angles morts que le regard interne ne voit pas, et de chiffrer le ROI projeté sur vos cas d'usage prioritaires avant de lancer le pilote. En deux à trois jours, vous repartez avec un diagnostic de maturité, une shortlist affinée de cas d'usage et des fourchettes de ROI argumentées.
+Smart Impulsion propose une Smart Analyse qui permet de valider votre feuille de route interne, d'identifier les angles morts que le regard interne ne voit pas, et de chiffrer le ROI projeté sur vos cas d'usage prioritaires avant de lancer le pilote. En 0,5 à 1 jour, vous repartez avec un diagnostic de maturité, une shortlist affinée de cas d'usage et des fourchettes de ROI argumentées.
 
-[En savoir plus sur l'audit IA express](/services/audit)`,
+[En savoir plus sur la Smart Analyse](/services/audit)`,
     author: "Laurent Bouzon",
     date: "22 juin 2026",
     dateISO: "2026-06-22",
@@ -12713,7 +12711,7 @@ Trois décisions à prendre avant la fin 2026 :
 2. Évaluer votre maturité de gouvernance actuelle
 3. Choisir entre les options A, B ou C en connaissance des critères, pas par défaut
 
-**Si vous n'avez pas encore arbitré entre ces trois options, l'[Audit IA Express Smart Impulsion](/services/audit) est conçu pour vous aider à poser ce diagnostic en trois jours, avec un livrable décisionnel, pas une présentation générique sur l'IA.** C'est précisément le moment où cet investissement de diagnostic est le plus rentable : avant d'avoir contracté une dépendance à une plateforme ou alloué un budget à un projet mal cadré.`,
+**Si vous n'avez pas encore arbitré entre ces trois options, la [Smart Analyse de Smart Impulsion](/services/audit) est conçue pour vous aider à poser ce diagnostic en 0,5 à 1 jour, avec un livrable décisionnel, pas une présentation générique sur l'IA.** C'est précisément le moment où cet investissement de diagnostic est le plus rentable : avant d'avoir contracté une dépendance à une plateforme ou alloué un budget à un projet mal cadré.`,
     author: "Laurent Bouzon",
     date: "19 juin 2026",
     dateISO: "2026-06-19",
@@ -12910,9 +12908,9 @@ MCP est une infrastructure prometteuse, mais elle ne crée pas de valeur sans le
 
 La séquence correcte n'est pas "déployons MCP, puis nous trouverons quoi en faire". C'est l'inverse : identifiez d'abord le cas d'usage qui justifie un agent IA, validez-le en production, puis évaluez si MCP est la bonne infrastructure pour passer à l'échelle. Sauter des étapes dans cette séquence est la principale cause d'échec des projets IA en PME.
 
-Smart Impulsion propose un Audit IA Express qui vous aide à identifier les deux ou trois cas d'usage IA prioritaires pour votre PME, à évaluer vos prérequis techniques, et à déterminer si des solutions comme MCP sont justifiées dans votre contexte. En 2 à 3 jours, vous repartez avec une feuille de route priorisée et un ROI projeté avant de dépenser un euro en développement.
+Smart Impulsion propose une Smart Analyse qui vous aide à identifier les deux ou trois cas d'usage IA prioritaires pour votre PME, à évaluer vos prérequis techniques, et à déterminer si des solutions comme MCP sont justifiées dans votre contexte. En 0,5 à 1 jour, vous repartez avec une feuille de route priorisée et un ROI projeté avant de dépenser un euro en développement.
 
-[En savoir plus sur l'audit IA express](/services/audit)`,
+[En savoir plus sur la Smart Analyse](/services/audit)`,
     author: "Laurent Bouzon",
     date: "18 juin 2026",
     dateISO: "2026-06-18",
@@ -13025,7 +13023,7 @@ Sur les diagnostics IA que nous accompagnons, la question du volume de demandes 
 
 Si vous ne pouvez pas répondre à ces questions avec des données, le projet n'est pas encore prêt. C'est là qu'un diagnostic structuré fait gagner du temps et évite les investissements à perte.
 
-**Avant de choisir un outil, cadrez d'abord vos cas d'usage prioritaires.** Notre [Audit IA Express](/services/audit) identifie en 3 jours les scénarios à fort ROI pour votre activité, sans vous engager sur un éditeur.
+**Avant de choisir un outil, cadrez d'abord vos cas d'usage prioritaires.** Notre [Smart Analyse](/services/audit) identifie en 0,5 à 1 jour les scénarios à fort ROI pour votre activité, sans vous engager sur un éditeur.
 
 ## RGPD et AI Act : ce que votre chatbot implique juridiquement
 
@@ -13113,9 +13111,9 @@ Un chatbot qui ne performe pas à J90 peut être corrigé ou arrêté. Les signa
 - Volume de demandes escaladées vers les agents supérieur au volume avant déploiement
 - Coût par contact chatbot supérieur au coût par contact humain (cela arrive quand le volume de demandes est insuffisant pour rentabiliser la solution)
 
-La décision d'arrêter n'est pas un échec. C'est le résultat d'une démarche mesurée. Un diagnostic structuré en amont, comme notre [Audit IA Express](/services/audit), permet d'identifier en amont les cas où un chatbot ne sera pas rentable, avant d'avoir engagé du temps et un budget.
+La décision d'arrêter n'est pas un échec. C'est le résultat d'une démarche mesurée. Un diagnostic structuré en amont, comme notre [Smart Analyse](/services/audit), permet d'identifier en amont les cas où un chatbot ne sera pas rentable, avant d'avoir engagé du temps et un budget.
 
-Pour structurer votre approche globale, notre guide sur l'[audit IA pour PME](/blog/audit-ia-pme-guide-complet) détaille la méthodologie complète d'un diagnostic en 3 jours, des cas d'usage jusqu'aux critères de priorisation.
+Pour structurer votre approche globale, notre guide sur l'[audit IA pour PME](/blog/audit-ia-pme-guide-complet) détaille la méthodologie complète d'un diagnostic en 0,5 à 1 jour, des cas d'usage jusqu'aux critères de priorisation.
 
 ## Questions fréquentes
 
@@ -13151,9 +13149,9 @@ Les solutions SaaS du marché proposent des interfaces de configuration sans cod
 
 Un chatbot IA bien cadré peut décharger votre équipe des volumes répétitifs et améliorer la réactivité client. Mal cadré, il génère de la frustration et des coûts cachés. La différence se joue avant le choix de l'outil : dans l'identification des bons cas d'usage, la mesure de la baseline, et la vérification de la conformité RGPD.
 
-Smart Impulsion propose un Audit IA Express qui identifie en 3 jours les scénarios à fort ROI pour votre activité, dont les cas d'usage chatbot les plus pertinents selon votre secteur et votre organisation. Vous repartez avec une feuille de route priorisée et un ROI projeté par cas d'usage, avant d'engager un budget.
+Smart Impulsion propose une Smart Analyse qui identifie en 0,5 à 1 jour les scénarios à fort ROI pour votre activité, dont les cas d'usage chatbot les plus pertinents selon votre secteur et votre organisation. Vous repartez avec une feuille de route priorisée et un ROI projeté par cas d'usage, avant d'engager un budget.
 
-[En savoir plus sur l'audit IA express](/services/audit)`,
+[En savoir plus sur la Smart Analyse](/services/audit)`,
     author: "Laurent Bouzon",
     date: "15 juin 2026",
     dateISO: "2026-06-15",
@@ -13456,9 +13454,9 @@ Pour aller plus loin sur la façon de choisir et de cadrer votre premier projet 
 
 La méthode décrite ici n'est pas théorique. Pour mesurer le ROI d'un projet IA en PME de façon rigoureuse, elle s'applique dès la phase de cadrage, avant tout engagement prestataire, et elle transforme la question "est-ce que ça a marché ?" en une réponse chiffrée, défendable en CODIR, construite dès le départ.
 
-Smart Impulsion propose un [Audit IA Express](/services/audit) qui intègre dès le cadrage la définition de votre baseline et de vos KPIs de mesure. En 2 à 3 jours, vous repartez avec un plan de mesure ROI opérationnel et un ROI projeté avant de démarrer. Pour en savoir plus sur la démarche d'audit, consultez notre [guide complet de l'audit IA pour PME](/blog/audit-ia-pme-guide-complet).
+Smart Impulsion propose une [Smart Analyse](/services/audit) qui intègre dès le cadrage la définition de votre baseline et de vos KPIs de mesure. En 0,5 à 1 jour, vous repartez avec un plan de mesure ROI opérationnel et un ROI projeté avant de démarrer. Pour en savoir plus sur la démarche d'audit, consultez notre [guide complet de l'audit IA pour PME](/blog/audit-ia-pme-guide-complet).
 
-[En savoir plus sur l'audit IA express](/services/audit)`,
+[En savoir plus sur la Smart Analyse](/services/audit)`,
     author: "Laurent Bouzon",
     date: "11 juin 2026",
     dateISO: "2026-06-11",
@@ -13726,9 +13724,9 @@ C'est le cas le plus courant. Ces trois erreurs s'alimentent mutuellement : le d
 
 ## Passez de la posture à l'action
 
-Le diagnostic de maturité IA commence par le dirigeant, pas par les outils. Si vous vous reconnaissez dans une de ces trois postures, l'Audit IA Express est le point de départ : un regard extérieur sur ce qui freine la transformation, avant de recommander quoi que ce soit sur les technologies.
+Le diagnostic de maturité IA commence par le dirigeant, pas par les outils. Si vous vous reconnaissez dans une de ces trois postures, la Smart Analyse est le point de départ : un regard extérieur sur ce qui freine la transformation, avant de recommander quoi que ce soit sur les technologies.
 
-[En savoir plus sur l'Audit IA Express](/services/audit)`,
+[En savoir plus sur la Smart Analyse](/services/audit)`,
     author: "Laurent Bouzon",
     date: "5 juin 2026",
     dateISO: "2026-06-05",
@@ -13930,9 +13928,9 @@ L'article 4, en vigueur depuis le 2 février 2025 et réécrit le 27 juillet 202
 
 Mettre en place un cadre de gouvernance IA entreprise sans accompagnement prend généralement 2 à 3 mois. Avec les bons outils, cela prend 4 semaines. La différence, c'est souvent de savoir par où commencer.
 
-Smart Impulsion est un cabinet conseil IA B2B spécialisé dans l'accompagnement des PME et ETI françaises. Son Audit IA Express cartographie vos usages IA existants, identifie vos risques réglementaires concrets (AI Act, CNIL) et pose les bases d'une gouvernance proportionnée à votre taille. En 2 à 3 jours, vous repartez avec un plan d'action et un ROI projeté.
+Smart Impulsion est un cabinet conseil IA B2B spécialisé dans l'accompagnement des PME et ETI françaises. Sa Smart Analyse cartographie vos usages IA existants, identifie vos risques réglementaires concrets (AI Act, CNIL) et pose les bases d'une gouvernance proportionnée à votre taille. En 0,5 à 1 jour, vous repartez avec un plan d'action et un ROI projeté.
 
-[En savoir plus sur l'audit IA express](/services/audit)`,
+[En savoir plus sur la Smart Analyse](/services/audit)`,
     author: "Laurent Bouzon",
     date: "2 juin 2026",
     dateISO: "2026-06-02",
@@ -14236,9 +14234,9 @@ Oui, mais pas comme on le lit souvent. L'article 4, applicable depuis février 2
 
 Choisir un consultant IA sans connaître votre propre situation, c'est négocier sans carte. Vous évaluez des discours, pas des propositions.
 
-L'Audit IA Express Smart Impulsion vous donne en 2 à 3 jours le diagnostic objectif qui protège votre décision : maturité data réelle, cas d'usage priorisés sur votre périmètre, et cahier des charges pour sélectionner le bon prestataire. Vous repartez avec un document de travail, pas un rapport.
+La Smart Analyse de Smart Impulsion vous donne en 0,5 à 1 jour le diagnostic objectif qui protège votre décision : maturité data réelle, cas d'usage priorisés sur votre périmètre, et cahier des charges pour sélectionner le bon prestataire. Vous repartez avec un document de travail, pas un rapport.
 
-[En savoir plus sur l'Audit IA Express](/services/audit)`,
+[En savoir plus sur la Smart Analyse](/services/audit)`,
     author: "Laurent Bouzon",
     date: "1 juin 2026",
     dateISO: "2026-06-01",
@@ -14455,7 +14453,7 @@ Ce travail de diagnostic couvre typiquement :
 - la définition d'une baseline de mesure sur les trois indicateurs ROI clés
 - l'identification des cas d'usage prioritaires selon votre volume et votre profil de recrutement
 
-C'est précisément ce que propose l'[Audit IA Express](/services/audit) de Smart Impulsion : un diagnostic structuré en 2 à 3 jours pour identifier les cas d'usage IA prioritaires dans votre contexte (recrutement, mais aussi finance, opérations ou relation client). Avec un livrable actionnable, pas une présentation de 80 slides.
+C'est précisément ce que propose la [Smart Analyse](/services/audit) de Smart Impulsion : un diagnostic structuré en 0,5 à 1 jour pour identifier les cas d'usage IA prioritaires dans votre contexte (recrutement, mais aussi finance, opérations ou relation client). Avec un livrable actionnable, pas une présentation de 80 slides.
 
 Pour comprendre comment le recrutement s'inscrit dans une cartographie plus large des cas d'usage IA en PME, consultez notre article [IA et cas d'usage en PME par métier](/blog/cas-usage-ia-pme-par-metier). Et si vous souhaitez cadrer la démarche d'audit avant toute décision d'outil, le guide [Audit IA pour PME](/blog/audit-ia-pme-guide-complet) détaille la méthodologie complète.
 
@@ -14475,7 +14473,7 @@ Trois indicateurs suffisent pour un premier bilan : le temps-par-embauche (déla
 
 ### Faut-il un grand projet IA pour améliorer son recrutement ?
 
-Non. Les PME qui obtiennent des résultats commencent par un seul cas d'usage (souvent la rédaction d'offres) pendant 6 à 8 semaines, mesurent l'effet, puis élargissent. Un audit préalable de 2 à 3 jours permet de prioriser les étapes selon votre contexte : volume de recrutements, profils ciblés, outillage existant.
+Non. Les PME qui obtiennent des résultats commencent par un seul cas d'usage (souvent la rédaction d'offres) pendant 6 à 8 semaines, mesurent l'effet, puis élargissent. Un audit préalable de 0,5 à 1 jour permet de prioriser les étapes selon votre contexte : volume de recrutements, profils ciblés, outillage existant.
 
 ### Quelle est la différence entre IA à haut risque et IA à faible risque en recrutement ?
 
@@ -14502,7 +14500,7 @@ Selon l'AI Act, un système IA est à haut risque en recrutement dès lors qu'il
       },
       {
         question: "Faut-il un grand projet IA pour améliorer son recrutement ?",
-        answer: "Non. Les PME qui obtiennent des résultats commencent par un seul cas d'usage (souvent la rédaction d'offres) pendant 6 à 8 semaines, mesurent l'effet, puis élargissent. Un audit préalable de 2 à 3 jours permet de prioriser les étapes selon votre contexte : volume de recrutements, profils ciblés, outillage existant.",
+        answer: "Non. Les PME qui obtiennent des résultats commencent par un seul cas d'usage (souvent la rédaction d'offres) pendant 6 à 8 semaines, mesurent l'effet, puis élargissent. Un audit préalable de 0,5 à 1 jour permet de prioriser les étapes selon votre contexte : volume de recrutements, profils ciblés, outillage existant.",
       },
       {
         question: "Quelle est la différence entre IA à haut risque et IA à faible risque en recrutement ?",
@@ -14713,7 +14711,7 @@ Rien de plus. Rien qui nécessite un juriste ou un DSI à temps plein.
 
 Pour aller plus loin sur le volet conformité, notre [guide sur le registre IA et la politique d'usage](/blog/gouvernance-ia-entreprise-registre-politique-dpo) détaille comment formaliser ces documents en cohérence avec les attentes du DPO et de l'AI Act.
 
-Si vous souhaitez accélérer cette mise en place avec un regard externe, notre [Audit IA Express](/services/audit) produit en trois jours un diagnostic complet de votre maturité IA : registre des systèmes, cartographie des risques, et feuille de route priorisée. C'est le point de départ que Laurent Bouzon et l'équipe Smart Impulsion recommandent aux dirigeants qui veulent structurer leur démarche sans partir d'une page blanche.
+Si vous souhaitez accélérer cette mise en place avec un regard externe, notre [Smart Analyse](/services/audit) produit en 0,5 à 1 jour un diagnostic complet de votre maturité IA : registre des systèmes, cartographie des risques, et feuille de route priorisée. C'est le point de départ que Laurent Bouzon et l'équipe Smart Impulsion recommandent aux dirigeants qui veulent structurer leur démarche sans partir d'une page blanche.
 
 Pour aller plus loin sur la méthodologie :
 - L'[audit IA pour PME](/blog/audit-ia-pme-guide-complet) détaille chaque étape du diagnostic, des livrables et du plan d'action
@@ -14942,7 +14940,7 @@ Le troisième mois active la dimension humaine de la gouvernance IA :
 
 > Ce plan d'action de gouvernance IA mobilise principalement du temps interne : entre 5 et 15 jours selon la taille de votre structure et le nombre de systèmes IA recensés. C'est l'investissement minimum pour sécuriser l'ensemble de vos usages IA avant août 2026.
 
-Vous souhaitez établir votre registre IA et votre politique d'usage avant l'échéance, sans mobiliser vos équipes sur plusieurs semaines ? L'Audit IA Express de Smart Impulsion accompagne les PME et ETI en 3 jours pour cartographier leurs systèmes IA, qualifier leurs niveaux de risque et produire les documents de gouvernance adaptés à leur structure. [Découvrir l'Audit IA Express](/services/audit)
+Vous souhaitez établir votre registre IA et votre politique d'usage avant l'échéance, sans mobiliser vos équipes sur plusieurs semaines ? La Smart Analyse de Smart Impulsion accompagne les PME et ETI en 0,5 à 1 jour pour cartographier leurs systèmes IA, qualifier leurs niveaux de risque et produire les documents de gouvernance adaptés à leur structure. [Découvrir la Smart Analyse](/services/audit)
 
 
 ## Ce que vous devez retenir sur la gouvernance IA en entreprise
@@ -15176,9 +15174,9 @@ Trois critères : cohérence du plan de comptes sur 3 ans, taux de documents num
 
 Votre système de gestion financière est-il réellement prêt pour l'IA ? Avant d'investir dans un module IA proposé par votre éditeur comptable, la question de la maturité de vos données et de vos processus finance mérite une réponse objective, par quelqu'un qui n'a pas de logiciel à vous vendre.
 
-Smart Impulsion propose un Audit IA Express qui évalue la maturité data de votre fonction finance, identifie les 2 ou 3 cas d'usage prioritaires selon votre volumétrie et votre SI existant, et chiffre le ROI réaliste à 12 mois pour chacun. En 2 à 3 jours, vous repartez avec une feuille de route actionnelle et un ordre de priorité clair, avant de signer quoi que ce soit avec un éditeur.
+Smart Impulsion propose une Smart Analyse qui évalue la maturité data de votre fonction finance, identifie les 2 ou 3 cas d'usage prioritaires selon votre volumétrie et votre SI existant, et chiffre le ROI réaliste à 12 mois pour chacun. En 0,5 à 1 jour, vous repartez avec une feuille de route actionnelle et un ordre de priorité clair, avant de signer quoi que ce soit avec un éditeur.
 
-[En savoir plus sur l'audit IA express](/services/audit)`,
+[En savoir plus sur la Smart Analyse](/services/audit)`,
     author: "Laurent Bouzon",
     date: "26 mai 2026",
     dateISO: "2026-05-26",
@@ -15401,9 +15399,9 @@ Oui, si la formation est inscrite au RNCP ou au Répertoire Spécifique. Pour un
 
 Identifier les formations à financer est une chose. Savoir lesquelles prioriser pour votre structure, c'en est une autre.
 
-Smart Impulsion propose un Audit IA Express qui cartographie vos usages IA actuels, identifie les compétences critiques à développer en priorité, et dimensionne un plan de formation finançable via OPCO ou FNE-Formation. En 2 à 3 jours, vous repartez avec un diagnostic documenté et un ROI projeté avant de démarrer.
+Smart Impulsion propose une Smart Analyse qui cartographie vos usages IA actuels, identifie les compétences critiques à développer en priorité, et dimensionne un plan de formation finançable via OPCO ou FNE-Formation. En 0,5 à 1 jour, vous repartez avec un diagnostic documenté et un ROI projeté avant de démarrer.
 
-[En savoir plus sur l'audit IA express](/services/audit)`,
+[En savoir plus sur la Smart Analyse](/services/audit)`,
     author: "Laurent Bouzon",
     date: "22 mai 2026",
     dateISO: "2026-05-22",
@@ -15619,11 +15617,11 @@ Pour un aperçu complet de ce que couvre un audit IA en PME, notre [guide comple
 
 ## L'audit comme socle du business case : construire sur du factuel
 
-Un business case IA s'appuie sur des hypothèses. Un diagnostic préalable, comme l'Audit IA Express proposé par Smart Impulsion, fournit les données factuelles qui rendent ces hypothèses défendables en CODIR.
+Un business case IA s'appuie sur des hypothèses. Un diagnostic préalable, comme la Smart Analyse proposée par Smart Impulsion, fournit les données factuelles qui rendent ces hypothèses défendables en CODIR.
 
-### Ce que l'Audit IA Express apporte à votre dossier
+### Ce que la Smart Analyse apporte à votre dossier
 
-L'Audit IA Express Smart Impulsion produit trois livrables qui alimentent directement votre trame en 5 blocs :
+La Smart Analyse de Smart Impulsion produit trois livrables qui alimentent directement votre trame en 5 blocs :
 
 - Cartographie des processus à fort potentiel IA (alimente le Bloc 1, périmètre)
 - Évaluation de la maturité de vos données et identification des manques (alimente le Bloc 4, risques)
@@ -15631,7 +15629,7 @@ L'Audit IA Express Smart Impulsion produit trois livrables qui alimentent direct
 
 L'audit n'est pas un achat séparé. Il est le premier jalon du business case. Son coût s'intègre dans le TCO du Bloc 2. Et il réduit l'incertitude sur les gains attendus, ce qui rend votre scénario prudent beaucoup plus crédible face à votre DAF.
 
-[Démarrez par un Audit IA Express](/services/audit) pour disposer d'une base factuelle avant de construire votre dossier CODIR.
+[Démarrez par une Smart Analyse](/services/audit) pour disposer d'une base factuelle avant de construire votre dossier CODIR.
 
 Pour comprendre comment structurer la mesure du ROI IA dans la durée, notre article pilier sur le [ROI de l'IA en entreprise](/blog/roi-intelligence-artificielle-entreprise) donne les grandes lignes de la méthode.
 
@@ -15659,7 +15657,7 @@ Le premier pas est le plus structurant. Construisez d'abord le périmètre. Le r
     faq: [
       {
         question: "Combien de temps faut-il pour construire un business case IA en PME ?",
-        answer: "Entre 3 et 6 semaines, selon la disponibilité des données internes. La phase de diagnostic (identifier le processus cible et établir un baseline mesurable) prend généralement 1 à 2 semaines. La structuration financière en 5 blocs et la préparation de la présentation CODIR occupent les semaines suivantes. Un Audit IA Express préalable réduit cette durée en fournissant directement les données nécessaires au bloc 'Périmètre' et au bloc 'Gains attendus'.",
+        answer: "Entre 3 et 6 semaines, selon la disponibilité des données internes. La phase de diagnostic (identifier le processus cible et établir un baseline mesurable) prend généralement 1 à 2 semaines. La structuration financière en 5 blocs et la préparation de la présentation CODIR occupent les semaines suivantes. Une Smart Analyse préalable réduit cette durée en fournissant directement les données nécessaires au bloc 'Périmètre' et au bloc 'Gains attendus'.",
       },
       {
         question: "Quel budget prévoir pour un premier projet IA en PME ?",
@@ -15976,7 +15974,7 @@ Vos équipes utilisent des outils dont elles ne connaissent pas les limites, sur
 
 Pour une PME avec des usages IA standards, la démarche décrite ici est accessible et rapide. Elle a d'ailleurs toujours été une bonne pratique de gestion avant d'être une exigence réglementaire — et elle le redevient pleinement.
 
-Si vous souhaitez évaluer le niveau de préparation de votre entreprise, identifier quels systèmes IA sont réellement utilisés dans vos équipes et ce qu'il faut mettre en place en priorité, l'[Audit IA Express de Smart Impulsion](/services/audit) est conçu pour produire ce diagnostic en 3 jours ouvrés.
+Si vous souhaitez évaluer le niveau de préparation de votre entreprise, identifier quels systèmes IA sont réellement utilisés dans vos équipes et ce qu'il faut mettre en place en priorité, la [Smart Analyse de Smart Impulsion](/services/audit) est conçue pour produire ce diagnostic en 0,5 à 1 jour.
 
 *Sources : [Règlement (UE) 2026/1744 du 8 juillet 2026, « Digital Omnibus on AI » — EUR-Lex](https://eur-lex.europa.eu/eli/reg/2026/1744/oj/eng), publié au JOUE le 24 juillet 2026, entré en vigueur le 27 juillet 2026 ; Règlement (UE) 2024/1689 (AI Act), articles 3, 4, 5, 50, 62 et 113 ; INSEE Première n°2061 (2025).*
 
@@ -16171,7 +16169,7 @@ Concrètement, un audit de maturité IA répond à trois questions avant toute d
 - **Quels KPI sont déjà mesurés ?** Sans mesure de départ, évaluer un retour sur investissement est impossible.
 - **Quels projets ont le rapport impact/complexité le plus favorable dans votre contexte ?** La réponse dépend de vos données, de vos flux opérationnels, de vos ressources internes.
 
-L'[Audit IA Express Smart Impulsion](/services/audit) est conçu pour répondre à cette question en amont : quels sont les 2 ou 3 cas d'usage où un investissement IA dans votre entreprise produit un retour mesurable dans les 6 à 12 mois ? Avec cette priorisation, la décision budgétaire devient beaucoup plus simple à construire et à défendre en interne.
+La [Smart Analyse de Smart Impulsion](/services/audit) est conçu pour répondre à cette question en amont : quels sont les 2 ou 3 cas d'usage où un investissement IA dans votre entreprise produit un retour mesurable dans les 6 à 12 mois ? Avec cette priorisation, la décision budgétaire devient beaucoup plus simple à construire et à défendre en interne.
 
 ## Questions fréquentes
 
@@ -16211,9 +16209,9 @@ Pour les PME dont les processus entrent dans le périmètre des systèmes à hau
 
 Construire un budget IA PME solide commence par savoir où concentrer les ressources disponibles. Sans priorisation des cas d'usage, même un budget bien dimensionné peut se disperser sur des projets sans retour mesurable.
 
-Smart Impulsion propose un Audit IA Express qui identifie les 2 à 3 leviers à ROI avéré dans votre entreprise. En 2 à 3 jours, vous repartez avec une cartographie des cas d'usage prioritaires, des fourchettes de ROI par projet, et un premier cadrage budgétaire réaliste.
+Smart Impulsion propose une Smart Analyse qui identifie les 2 à 3 leviers à ROI avéré dans votre entreprise. En 0,5 à 1 jour, vous repartez avec une cartographie des cas d'usage prioritaires, des fourchettes de ROI par projet, et un premier cadrage budgétaire réaliste.
 
-[En savoir plus sur l'Audit IA Express](/services/audit)`,
+[En savoir plus sur la Smart Analyse](/services/audit)`,
     author: "Laurent Bouzon",
     date: "18 mai 2026",
     dateISO: "2026-05-18",
@@ -16439,9 +16437,9 @@ Les obligations RGPD et AI Act applicables aux PME utilisant des outils IA ne so
 
 Ce qui distingue les entreprises sanctionnées n'est pas la taille ou la sophistication de leurs outils. C'est l'absence de démarche. Pas de registre mis à jour. Pas de DPA signé. Pas de charte interne. Pas de MFA activé. Des manquements basiques, identifiables en une demi-journée d'audit.
 
-Notre **Audit IA Express** cartographie en une journée les outils IA en usage dans votre PME, identifie les manquements RGPD et AI Act, et produit un plan d'action priorisé avec les actions à fort impact. Le rapport de France Travail tient en trois lignes : MFA, journalisation, habilitations. Le vôtre ne devrait pas ressembler à ça.
+Notre **Smart Analyse** cartographie en une journée les outils IA en usage dans votre PME, identifie les manquements RGPD et AI Act, et produit un plan d'action priorisé avec les actions à fort impact. Le rapport de France Travail tient en trois lignes : MFA, journalisation, habilitations. Le vôtre ne devrait pas ressembler à ça.
 
-[Demander un Audit IA Express](/services/audit)`,
+[Demander une Smart Analyse](/services/audit)`,
     author: "Laurent Bouzon",
     date: "15 mai 2026",
     dateISO: "2026-05-15",
@@ -16696,9 +16694,9 @@ Si vous ne pouvez pas répondre précisément à ces trois questions, un audit p
 
 La formation IA est une obligation et une opportunité. Mais seulement si elle est calibrée sur les usages réels de votre entreprise. Former sans diagnostiquer, c'est un coût sans ROI mesurable.
 
-Smart Impulsion, cabinet conseil IA pour PME et ETI, propose un Audit IA Express conçu par Laurent Bouzon. Il inclut la cartographie complète de vos systèmes IA en place, l'identification des personnels exposés, et l'évaluation des gaps de compétence par profil. En 2 à 3 jours, vous disposez d'une base précise pour briefer un organisme de formation et pouvoir démontrer votre conformité à l'article 4 du Règlement IA.
+Smart Impulsion, cabinet conseil IA pour PME et ETI, propose une Smart Analyse conçue par Laurent Bouzon. Elle inclut la cartographie complète de vos systèmes IA en place, l'identification des personnels exposés, et l'évaluation des gaps de compétence par profil. En 0,5 à 1 jour, vous disposez d'une base précise pour briefer un organisme de formation et pouvoir démontrer votre conformité à l'article 4 du Règlement IA.
 
-[En savoir plus sur l'Audit IA Express](/services/audit)`,
+[En savoir plus sur la Smart Analyse](/services/audit)`,
     author: "Laurent Bouzon",
     date: "12 mai 2026",
     dateISO: "2026-05-12",
@@ -16942,9 +16940,9 @@ Si après cet auto-diagnostic vous constatez que plusieurs réponses restent flo
 
 La conduite du changement IA ne s'improvise pas, mais elle ne nécessite pas non plus des mois de préparation. En PME, deux à trois semaines de travail structuré suffisent à poser les bases : diagnostic humain, identification du cas pilote, désignation du champion interne, politique minimale d'utilisation.
 
-Smart Impulsion propose un Audit IA Express qui inclut systématiquement un volet équipe : cartographie des profils, identification des freins réels, sélection du bon cas pilote. En 2 à 3 jours, vous repartez avec un plan d'adoption opérationnel et un ROI projeté avant de dépenser le moindre euro en déploiement.
+Smart Impulsion propose une Smart Analyse qui inclut systématiquement un volet équipe : cartographie des profils, identification des freins réels, sélection du bon cas pilote. En 0,5 à 1 jour, vous repartez avec un plan d'adoption opérationnel et un ROI projeté avant de dépenser le moindre euro en déploiement.
 
-[En savoir plus sur l'audit IA express](/services/audit)
+[En savoir plus sur la Smart Analyse](/services/audit)
 
 ## Questions fréquentes
 
@@ -17211,7 +17209,7 @@ Le premier engagement ne couvre pas la mise en oeuvre. Il couvre le diagnostic, 
 
 Confondre les deux phases dans un seul contrat est un red flag. Cela signifie soit que le consultant veut sécuriser le maximum de revenu avant que vous ayez validé la qualité de son diagnostic, soit qu'il n'a pas la clarté méthodologique pour distinguer les deux étapes.
 
-> Si vous cherchez exactement ce type de premier engagement : un diagnostic structuré qui se termine par un plan d'action chiffré, pas des slides, c'est ce que produit l'[Audit IA Express Smart Impulsion](/services/audit). Un périmètre défini, un livrable contractualisé, un délai engageant. Sans régie ouverte, sans jargon inutile.
+> Si vous cherchez exactement ce type de premier engagement : un diagnostic structuré qui se termine par un plan d'action chiffré, pas des slides, c'est ce que produit la [Smart Analyse de Smart Impulsion](/services/audit). Un périmètre défini, un livrable contractualisé, un délai engageant. Sans régie ouverte, sans jargon inutile.
 
 Pour comprendre comment évaluer le retour sur investissement de ce premier engagement, [mesurer le ROI de votre projet IA](/blog/roi-intelligence-artificielle-entreprise) détaille les indicateurs et méthodes adaptés à une PME.
 
@@ -17225,7 +17223,7 @@ Trois critères résument ce qu'il faut vérifier avant de mandater un interlocu
 2. Il cite des références sectorielles vérifiables, pas des « secteurs similaires »
 3. Il propose une mission forfaitaire bornée pour votre premier engagement, pas une régie ouverte
 
-Si vous avez identifié le besoin d'un diagnostic structuré mais n'avez pas encore trouvé le bon interlocuteur, l'[Audit IA Express Smart Impulsion](/services/audit) produit exactement ce type de livrable : un plan d'action chiffré, priorisé, sur votre secteur et vos données, avec un délai et un budget engageants.
+Si vous avez identifié le besoin d'un diagnostic structuré mais n'avez pas encore trouvé le bon interlocuteur, la [Smart Analyse de Smart Impulsion](/services/audit) produit exactement ce type de livrable : un plan d'action chiffré, priorisé, sur votre secteur et vos données, avec un délai et un budget engageants.
 
 **Sources**
 
@@ -17532,11 +17530,11 @@ L'obligation existe, mais elle ne vous forcera plus la main. Le financement, lui
 
 Ce qui manque le plus souvent, c'est le point de départ : savoir quels systèmes IA sont réellement déployés dans votre entreprise, qui les utilise, et quel niveau de risque ils représentent. Sans cet inventaire, vous ne pouvez pas prioriser les formations — vous ne pouvez que dépenser au hasard.
 
-L'Audit IA Express Smart Impulsion répond précisément à cette étape. En trois jours, vous disposez d'un inventaire des systèmes IA utilisés, d'une cartographie des risques (article 4 et annexe III à horizon décembre 2027), et d'une feuille de route incluant les formations prioritaires par cercle.
+La Smart Analyse de Smart Impulsion répond précisément à cette étape. En 0,5 à 1 jour, vous disposez d'un inventaire des systèmes IA utilisés, d'une cartographie des risques (article 4 et annexe III à horizon décembre 2027), et d'une feuille de route incluant les formations prioritaires par cercle.
 
 Le résultat est directement exploitable pour votre demande de financement OPCO.
 
-[Demandez votre Audit IA Express](/services/audit)
+[Demandez votre Smart Analyse](/services/audit)
 
 *Sources : [Règlement (UE) 2026/1744 du 8 juillet 2026, « Digital Omnibus on AI » — EUR-Lex](https://eur-lex.europa.eu/eli/reg/2026/1744/oj/eng), publié au JOUE le 24 juillet 2026, entré en vigueur le 27 juillet 2026 ; Règlement (UE) 2024/1689 (AI Act) ; Bpifrance/IFOP, avril 2025 ; Baromètre France Num 2025 ; Microsoft-IDC, 2025.*
 
@@ -17865,9 +17863,9 @@ Décider quoi former et qui former sans savoir précisément quels outils IA son
 
 La réécriture de l'article 4 change utilement la conversation : puisque personne ne viendra vérifier un niveau, la seule question qui vaille est celle de l'efficacité. Est-ce que vos équipes travaillent mieux, et avec moins de risques, après ?
 
-Laurent Bouzon, consultant IA senior chez Smart Impulsion, accompagne des PME et ETI françaises dans leurs projets de transformation IA depuis 2022. Smart Impulsion propose un Audit IA Express qui identifie précisément quelles compétences former en priorité dans votre organisation, selon vos cas d'usage réels. En 2 à 3 jours, vous repartez avec une feuille de route de formation ciblée et un ROI projeté avant de démarrer.
+Laurent Bouzon, consultant IA senior chez Smart Impulsion, accompagne des PME et ETI françaises dans leurs projets de transformation IA depuis 2022. Smart Impulsion propose une Smart Analyse qui identifie précisément quelles compétences former en priorité dans votre organisation, selon vos cas d'usage réels. En 0,5 à 1 jour, vous repartez avec une feuille de route de formation ciblée et un ROI projeté avant de démarrer.
 
-[En savoir plus sur l'audit IA express](/services/audit)
+[En savoir plus sur la Smart Analyse](/services/audit)
 
 *Sources : [Règlement (UE) 2026/1744 du 8 juillet 2026, « Digital Omnibus on AI » — EUR-Lex](https://eur-lex.europa.eu/eli/reg/2026/1744/oj/eng), publié au JOUE le 24 juillet 2026, entré en vigueur le 27 juillet 2026 ; Règlement (UE) 2024/1689 (AI Act) ; Bpifrance Le Lab (janvier 2026, juin 2025) ; Bpifrance, rapport d'activité 2025 ; loi de finances 2025, article 24 (Legifrance).*
 
@@ -17912,16 +17910,16 @@ Laurent Bouzon, consultant IA senior chez Smart Impulsion, accompagne des PME et
   },
   {
     slug: "audit-ia-express-methodologie",
-    title: "Audit IA Express : méthodologie en 3 jours",
+    title: "Smart Analyse : méthodologie en 3 jours",
     excerpt:
-      "Déroulé concret d'un audit IA Express pour PME : préparation, diagnostic terrain, livrables et critères de décision post-audit. Ancré AI Act art.4.",
-    content: `# Audit IA Express : la méthodologie en 3 jours pour diagnostiquer votre maturité IA
+      "Déroulé concret d'une Smart Analyse pour PME : préparation, diagnostic terrain, livrables et critères de décision post-audit. Ancré AI Act art.4.",
+    content: `# Smart Analyse : la méthodologie en 3 jours pour diagnostiquer votre maturité IA
 
-Un audit IA Express est une intervention structurée de 2 à 3 jours qui permet à une PME ou ETI de mesurer sa maturité IA réelle, d'identifier ses cas d'usage prioritaires et de disposer d'une roadmap avec ROI projeté, avant de s'engager dans le moindre chantier de transformation.
+Une Smart Analyse est une intervention structurée de 2 à 3 jours qui permet à une PME ou ETI de mesurer sa maturité IA réelle, d'identifier ses cas d'usage prioritaires et de disposer d'une roadmap avec ROI projeté, avant de s'engager dans le moindre chantier de transformation.
 
 Neuf pour cent. C'est la part des PME françaises de moins de 50 salariés qui utilisent au moins une technologie d'intelligence artificielle en 2024, selon l'INSEE Première n°2061. Pourtant, dans le même temps, 26 % des TPE-PME déclarent utiliser l'IA en 2025 selon le Baromètre France Num 2025. L'écart entre ces deux chiffres n'est pas une anomalie statistique : il révèle une confusion profonde sur ce qu'est réellement l'usage de l'IA dans une PME. Et c'est précisément pour sortir de cette confusion qu'un audit IA a de la valeur.
 
-L'audit IA Express Smart Impulsion ne dure pas 3 semaines. Ce n'est pas un chantier avec 10 consultants, pas un rapport de 200 pages que vous lirez en diagonale avant de le classer. En 2 à 3 jours d'intervention structurée, vous savez où vous en êtes, ce qui est actionnable à 30 jours, et ce que vous pouvez attendre comme retour sur investissement avant de vous engager dans quoi que ce soit.
+La Smart Analyse de Smart Impulsion ne dure pas 3 semaines. Ce n'est pas un chantier avec 10 consultants, pas un rapport de 200 pages que vous lirez en diagonale avant de le classer. En 2 à 3 jours d'intervention structurée, vous savez où vous en êtes, ce qui est actionnable à 30 jours, et ce que vous pouvez attendre comme retour sur investissement avant de vous engager dans quoi que ce soit.
 
 Voici comment cela se passe concrètement.
 
@@ -17947,13 +17945,13 @@ L'audit IA est le seul moyen de transformer un usage dispersé en investissement
 
 L'un des freins les plus fréquents chez les dirigeants : la peur de ne pas être "prêts" pour un audit. Cette peur est infondée. Vous n'avez pas besoin d'une cartographie des processus ni d'un bilan de maturité numérique pour démarrer.
 
-Trois éléments suffisent pour préparer un audit IA Express :
+Trois éléments suffisent pour préparer une Smart Analyse :
 
 - L'organigramme fonctionnel de votre entreprise (les grandes fonctions, pas l'annuaire complet)
 - La liste des outils numériques utilisés par département : ERP, CRM, outils métier, abonnements SaaS
 - Un premier inventaire des processus qui vous "coûtent" le plus : tâches répétitives, variations de qualité, délais récurrents
 
-> L'audit IA Express démarre précisément pour vous aider à formuler ce que vous ne savez pas encore articuler. Venir sans réponse, c'est normal. Venir sans questions, c'est le seul risque.
+> La Smart Analyse démarre précisément pour vous aider à formuler ce que vous ne savez pas encore articuler. Venir sans réponse, c'est normal. Venir sans questions, c'est le seul risque.
 
 Ce cadrage préliminaire peut se faire à distance, en 30 à 45 minutes, avant la première journée d'intervention.
 
@@ -17965,7 +17963,7 @@ Ce cadrage préliminaire peut se faire à distance, en 30 à 45 minutes, avant l
 
 L'auditeur reconstruit le contexte à partir de l'entretien de cadrage. Votre temps de préparation se mesure en minutes, pas en jours.
 
-## Comment se déroule un audit IA Express : le déroulé jour par jour
+## Comment se déroule une Smart Analyse : le déroulé jour par jour
 
 ### Jour 1 : cadrage et entretiens direction
 
@@ -18001,7 +17999,7 @@ C'est lors de cette restitution que vous recevez le rapport complet, la roadmap 
 
 ## Le livrable : contenu d'un bon rapport d'audit IA
 
-La qualité d'un audit se juge à son livrable. Pas à la durée de l'intervention, pas au nombre de slides. Voici les quatre composantes d'un rapport d'audit IA Express sérieux.
+La qualité d'un audit se juge à son livrable. Pas à la durée de l'intervention, pas au nombre de slides. Voici les quatre composantes d'un rapport de Smart Analyse sérieux.
 
 ### Le scoring de maturité IA
 
@@ -18062,7 +18060,7 @@ Pour comprendre l'ensemble des options de diagnostic IA disponibles pour une PME
 
 ## 3 questions pour savoir si vous êtes prêt maintenant
 
-Ce n'est pas un questionnaire de maturité. Ce sont trois questions binaires. Si vous répondez oui aux trois, un audit IA Express a du sens pour vous dans les 30 prochains jours.
+Ce n'est pas un questionnaire de maturité. Ce sont trois questions binaires. Si vous répondez oui aux trois, une Smart Analyse a du sens pour vous dans les 30 prochains jours.
 
 **Question 1 : avez-vous au moins un processus qui vous "coûte" visiblement trop cher en temps ou en erreurs ?**
 
@@ -18080,64 +18078,64 @@ Un audit sans capacité de décision est un exercice académique. L'audit expres
 
 ## Questions fréquentes
 
-### L'audit IA Express s'adresse-t-il uniquement aux PME qui n'ont pas encore démarré ?
+### La Smart Analyse s'adresse-t-il uniquement aux PME qui n'ont pas encore démarré ?
 
-Non. L'audit IA Express Smart Impulsion s'adresse aussi aux PME qui ont déjà des usages IA en place mais sans cadre structuré. Dans ce cas, l'audit sert à cartographier ce qui existe, évaluer les risques de conformité au regard de l'article 4 du Règlement (UE) 2024/1689 (AI Act), et identifier les opportunités d'extension. Un usage spontané non documenté est souvent le point de départ le plus productif pour un audit.
+Non. La Smart Analyse de Smart Impulsion s'adresse aussi aux PME qui ont déjà des usages IA en place mais sans cadre structuré. Dans ce cas, l'audit sert à cartographier ce qui existe, évaluer les risques de conformité au regard de l'article 4 du Règlement (UE) 2024/1689 (AI Act), et identifier les opportunités d'extension. Un usage spontané non documenté est souvent le point de départ le plus productif pour un audit.
 
-### Combien de temps dure un audit IA Express pour une PME ?
+### Combien de temps dure une Smart Analyse pour une PME ?
 
-Un audit IA Express structuré se déroule sur 2 à 3 jours d'intervention effective. Cette durée couvre le cadrage initial avec la direction, les entretiens terrain avec les responsables de processus clés, et la restitution formelle avec la roadmap et le ROI projeté. C'est distinct du Diag Data IA Bpifrance, qui prévoit 8 jours répartis sur 3 mois maximum.
+Une Smart Analyse structurée se déroule sur 2 à 3 jours d'intervention effective. Cette durée couvre le cadrage initial avec la direction, les entretiens terrain avec les responsables de processus clés, et la restitution formelle avec la roadmap et le ROI projeté. C'est distinct du Diag Data IA Bpifrance, qui prévoit 8 jours répartis sur 3 mois maximum.
 
 ### Quels documents préparer avant un audit IA ?
 
 La préparation se limite à l'essentiel : un organigramme des fonctions principales, la liste des outils numériques utilisés par département, et un premier inventaire des processus chronophages ou à forte variation de qualité. Vous n'avez pas besoin de cartographie exhaustive ni de rapport de maturité numérique préexistant.
 
-### Que contient le livrable d'un audit IA Express ?
+### Que contient le livrable d'une Smart Analyse ?
 
-Un bon rapport d'audit IA Express Smart Impulsion comprend quatre éléments : un scoring de maturité IA sur les axes données, processus, compétences et gouvernance ; une cartographie des 3 à 5 cas d'usage prioritaires avec niveau de faisabilité ; une roadmap à deux horizons (30 jours et 90 jours) ; et une estimation du ROI projeté par cas d'usage. Il inclut aussi une synthèse des écarts de conformité au regard de l'AI Act article 4.
+Un bon rapport de Smart Analyse comprend quatre éléments : un scoring de maturité IA sur les axes données, processus, compétences et gouvernance ; une cartographie des 3 à 5 cas d'usage prioritaires avec niveau de faisabilité ; une roadmap à deux horizons (30 jours et 90 jours) ; et une estimation du ROI projeté par cas d'usage. Il inclut aussi une synthèse des écarts de conformité au regard de l'AI Act article 4.
 
-### Quelle est la différence entre un audit IA Express et le Diag Data IA Bpifrance ?
+### Quelle est la différence entre une Smart Analyse et le Diag Data IA Bpifrance ?
 
-Le Diag Data IA Bpifrance est un dispositif subventionné (10 000 euros HT, reste à charge PME de 7 500 euros HT) qui couvre 8 jours d'intervention sur 3 mois. Il est adapté aux PME souhaitant une démarche approfondie avec financement public. Un audit IA Express de 3 jours répond à un besoin de cadrage rapide avant de s'engager dans un programme plus long. Les deux sont complémentaires.
+Le Diag Data IA Bpifrance est un dispositif subventionné (10 000 euros HT, reste à charge PME de 7 500 euros HT) qui couvre 8 jours d'intervention sur 3 mois. Il est adapté aux PME souhaitant une démarche approfondie avec financement public. Une Smart Analyse de 3 jours répond à un besoin de cadrage rapide avant de s'engager dans un programme plus long. Les deux sont complémentaires.
 
 ## Passez de la théorie à l'action
 
-Vous avez maintenant une vision claire de ce que contient un audit IA Express : le déroulé, les livrables, et les critères pour décider ensuite.
+Vous avez maintenant une vision claire de ce que contient une Smart Analyse : le déroulé, les livrables, et les critères pour décider ensuite.
 
-Smart Impulsion propose un Audit IA Express qui vous donne, en 2 à 3 jours, une lecture factuelle de votre maturité IA, une roadmap priorisée par niveau de faisabilité, et un ROI projeté par cas d'usage avant de démarrer le moindre chantier. Vous repartez avec un rapport structuré sur lequel vous pouvez arbitrer, pas une présentation générique.
+Smart Impulsion propose une Smart Analyse qui vous donne, en 2 à 3 jours, une lecture factuelle de votre maturité IA, une roadmap priorisée par niveau de faisabilité, et un ROI projeté par cas d'usage avant de démarrer le moindre chantier. Vous repartez avec un rapport structuré sur lequel vous pouvez arbitrer, pas une présentation générique.
 
-[En savoir plus sur l'audit IA express](/services/audit)`,
+[En savoir plus sur la Smart Analyse](/services/audit)`,
     author: "Laurent Bouzon",
     date: "30 avril 2026",
     dateISO: "2026-04-30",
     readTime: "11 min",
     category: "Audit & Methodologie",
     image: "/audit-ia-express-methodologie-hero.png",
-    imageAlt: "Image d'illustration pour l'article \"Audit IA Express : méthodologie en 3 jours\"",
+    imageAlt: "Image d'illustration pour l'article \"Smart Analyse : méthodologie en 3 jours\"",
     faq: [
       {
-        question: "Combien de temps dure un audit IA Express pour une PME ?",
-        answer: "Un audit IA Express structuré se déroule sur 2 à 3 jours d'intervention effective. Cette durée couvre le cadrage initial avec la direction, les entretiens terrain avec les responsables de processus clés, et la restitution formelle avec la roadmap et le ROI projeté. C'est distinct du Diag Data IA Bpifrance, qui prévoit 8 jours répartis sur 3 mois maximum. L'audit express vise un diagnostic de cadrage rapide, pas un chantier de transformation.",
+        question: "Combien de temps dure une Smart Analyse pour une PME ?",
+        answer: "Une Smart Analyse structurée se déroule sur 2 à 3 jours d'intervention effective. Cette durée couvre le cadrage initial avec la direction, les entretiens terrain avec les responsables de processus clés, et la restitution formelle avec la roadmap et le ROI projeté. C'est distinct du Diag Data IA Bpifrance, qui prévoit 8 jours répartis sur 3 mois maximum. L'audit express vise un diagnostic de cadrage rapide, pas un chantier de transformation.",
       },
       {
         question: "Quels documents préparer avant un audit IA ?",
         answer: "La préparation se limite à l'essentiel : un organigramme des fonctions principales, la liste des outils numériques utilisés par département (ERP, CRM, outils métier), et un premier inventaire non exhaustif des processus chronophages ou à forte variation de qualité. Vous n'avez pas besoin de cartographie exhaustive ni de rapport de maturité numérique. L'audit démarre précisément pour vous aider à structurer ce que vous ne savez pas encore formuler.",
       },
       {
-        question: "Que contient le livrable d'un audit IA Express ?",
-        answer: "Un bon rapport d'audit IA Express comprend quatre éléments : un scoring de maturité IA sur les axes données, processus, compétences et gouvernance ; une cartographie des 3 à 5 cas d'usage prioritaires avec niveau de faisabilité ; une roadmap à deux horizons (30 jours pour les quick wins, 90 jours pour les chantiers structurants) ; et une estimation du ROI projeté par cas d'usage. Il inclut aussi une synthèse des écarts de conformité au regard de l'AI Act article 4.",
+        question: "Que contient le livrable d'une Smart Analyse ?",
+        answer: "Un bon rapport de Smart Analyse comprend quatre éléments : un scoring de maturité IA sur les axes données, processus, compétences et gouvernance ; une cartographie des 3 à 5 cas d'usage prioritaires avec niveau de faisabilité ; une roadmap à deux horizons (30 jours pour les quick wins, 90 jours pour les chantiers structurants) ; et une estimation du ROI projeté par cas d'usage. Il inclut aussi une synthèse des écarts de conformité au regard de l'AI Act article 4.",
       },
       {
         question: "L'AI Act oblige-t-il les PME à faire un audit IA ?",
         answer: "L'AI Act n'impose pas explicitement un audit IA formel. En revanche, l'article 4, applicable depuis le 2 février 2025 et réécrit par le règlement (UE) 2026/1744, demande à toute entreprise qui déploie un système IA de prendre des mesures pour soutenir le développement des compétences IA de son personnel concerné, sans exiger de garantir un niveau spécifique pour un individu. Une PME utilisant ChatGPT ou un outil d'analyse prédictive est qualifiée de déployeur au sens de l'article 3(4) du règlement. L'audit est le moyen le plus direct de documenter et structurer cette obligation de littératie.",
       },
       {
-        question: "Quelle est la différence entre un audit IA Express et le Diag Data IA Bpifrance ?",
-        answer: "Le Diag Data IA Bpifrance est un dispositif subventionné (10 000 euros HT, reste à charge PME de 7 500 euros HT depuis janvier 2026) qui couvre 8 jours d'intervention sur 3 mois. Il est adapté aux PME souhaitant une démarche approfondie avec financement public. Un audit IA Express de 3 jours répond à un besoin de cadrage rapide : comprendre sa situation actuelle, prioriser les chantiers et disposer d'un ROI projeté avant de s'engager dans un programme plus long. Les deux dispositifs sont complémentaires, pas concurrents.",
+        question: "Quelle est la différence entre une Smart Analyse et le Diag Data IA Bpifrance ?",
+        answer: "Le Diag Data IA Bpifrance est un dispositif subventionné (10 000 euros HT, reste à charge PME de 7 500 euros HT depuis janvier 2026) qui couvre 8 jours d'intervention sur 3 mois. Il est adapté aux PME souhaitant une démarche approfondie avec financement public. Une Smart Analyse de 3 jours répond à un besoin de cadrage rapide : comprendre sa situation actuelle, prioriser les chantiers et disposer d'un ROI projeté avant de s'engager dans un programme plus long. Les deux dispositifs sont complémentaires, pas concurrents.",
       },
     ],
     howTo: {
-      name: "Audit IA Express en 3 jours",
+      name: "Smart Analyse en 3 jours",
       description: "Méthodologie Smart Impulsion pour diagnostiquer la maturité IA d'une PME en 3 jours",
       totalTime: "PT72H",
       steps: [
@@ -18360,9 +18358,9 @@ Selon Gartner (2025), 60% des projets IA sont abandonnés lorsque les données n
 
 Construire ce document seul prend en général 3 à 6 semaines, entre l'identification des cas d'usage pertinents pour votre activité, le chiffrage réaliste avec vos prestataires actuels, et la qualification des risques data et réglementaires.
 
-L'Audit IA Express Smart Impulsion est conçu pour accélérer cette démarche. En 2 à 3 jours, vous repartez avec une cartographie des cas d'usage candidats dans votre contexte métier réel, une première fourchette de chiffrage, et les éléments de risque à intégrer dans votre business case avant de le présenter en COMEX.
+La Smart Analyse de Smart Impulsion est conçu pour accélérer cette démarche. En 0,5 à 1 jour, vous repartez avec une cartographie des cas d'usage candidats dans votre contexte métier réel, une première fourchette de chiffrage, et les éléments de risque à intégrer dans votre business case avant de le présenter en COMEX.
 
-[En savoir plus sur l'Audit IA Express](/services/audit)`,
+[En savoir plus sur la Smart Analyse](/services/audit)`,
     author: "Laurent Bouzon",
     date: "28 avril 2026",
     dateISO: "2026-04-28",
@@ -18612,9 +18610,9 @@ Le dirigeant est le change manager par défaut. Quatre actions suffisent : chois
 
 L'embarquement commence par un choix : sur quel cas d'usage lancer le premier pilote. Un pilote mal choisi est la première cause d'échec d'adoption : l'équipe est surchargée, les résultats ne sont pas visibles, et la conclusion tirée est que "l'IA ne marche pas chez nous".
 
-Smart Impulsion propose un Audit IA Express qui identifie le bon premier cas d'usage pour votre PME. En 2 à 3 jours, vous repartez avec une feuille de route priorisée et un ROI projeté.
+Smart Impulsion propose une Smart Analyse qui identifie le bon premier cas d'usage pour votre PME. En 0,5 à 1 jour, vous repartez avec une feuille de route priorisée et un ROI projeté.
 
-[En savoir plus sur l'Audit IA Express](/services/audit)`,
+[En savoir plus sur la Smart Analyse](/services/audit)`,
     author: "Laurent Bouzon",
     date: "23 avril 2026",
     dateISO: "2026-04-23",
@@ -18872,9 +18870,9 @@ Pour les dirigeants qui veulent aller plus loin sur la priorisation et la mesure
 
 Un déploiement IA dans la fonction commerciale commence par un diagnostic métier, pas par le choix d'un outil.
 
-Smart Impulsion propose un Audit IA Express qui identifie, en 2 à 3 jours, le cas d'usage le plus rentable pour votre contexte. Vous repartez avec un périmètre validé, une estimation de ROI, et un plan de démarrage que votre équipe peut piloter dès la semaine suivante.
+Smart Impulsion propose une Smart Analyse qui identifie, en 0,5 à 1 jour, le cas d'usage le plus rentable pour votre contexte. Vous repartez avec un périmètre validé, une estimation de ROI, et un plan de démarrage que votre équipe peut piloter dès la semaine suivante.
 
-[En savoir plus sur l'audit IA express](/services/audit)`,
+[En savoir plus sur la Smart Analyse](/services/audit)`,
     author: "Laurent Bouzon",
     date: "22 avril 2026",
     dateISO: "2026-04-22",
@@ -19167,7 +19165,7 @@ Cela dépend du périmètre fonctionnel réel de votre outil. Un calcul de paie 
 
 **Que dois-je faire avant l'échéance comme DRH ?**
 
-Cinq étapes par ordre chronologique : inventaire en mai 2026, classification et contractualisation éditeurs en juin 2026, documentation interne (registre des systèmes IA, notice d'information candidat, procédure de supervision humaine) et formation des équipes RH en juillet 2026. Ces cinq étapes couvrent l'essentiel de vos obligations de déployeur au sens de l'Article 26 du Règlement (UE) 2024/1689. Pour les PME sans ressources juridiques internes, un audit externalisé peut couvrir les étapes 1 à 4 en deux à trois jours ouvrés.
+Cinq étapes par ordre chronologique : inventaire en mai 2026, classification et contractualisation éditeurs en juin 2026, documentation interne (registre des systèmes IA, notice d'information candidat, procédure de supervision humaine) et formation des équipes RH en juillet 2026. Ces cinq étapes couvrent l'essentiel de vos obligations de déployeur au sens de l'Article 26 du Règlement (UE) 2024/1689. Pour les PME sans ressources juridiques internes, une Smart Analyse peut couvrir les étapes 1 à 4 en 0,5 à 1 jour.
 
 **Dois-je informer mes candidats que j'utilise une IA ?**
 
@@ -19181,7 +19179,7 @@ Oui, depuis le 2 février 2025. L'Article 4 du Règlement (UE) 2024/1689 est en 
 
 Vos outils RH sont déjà en place. La question n'est plus de savoir si vous êtes concerné. Elle est de savoir si vous êtes en ordre.
 
-Smart Impulsion propose un Audit IA Express qui couvre l'essentiel du travail de conformité :
+Smart Impulsion propose une Smart Analyse qui couvre l'essentiel du travail de conformité :
 
 - Inventaire de vos outils IA RH
 - Classification selon l'AI Act (Annexe III point 4)
@@ -19189,9 +19187,9 @@ Smart Impulsion propose un Audit IA Express qui couvre l'essentiel du travail de
 - Notice d'information candidat
 - Procédure de supervision humaine
 
-En 2 à 3 jours ouvrés, vous disposez d'une base documentaire solide avant l'échéance réglementaire.
+En 0,5 à 1 jour ouvré, vous disposez d'une base documentaire solide avant l'échéance réglementaire.
 
-[En savoir plus sur l'Audit IA Express](/services/audit)`,
+[En savoir plus sur la Smart Analyse](/services/audit)`,
     author: "Laurent Bouzon",
     date: "21 avril 2026",
     dateISO: "2026-04-21",
@@ -19210,7 +19208,7 @@ En 2 à 3 jours ouvrés, vous disposez d'une base documentaire solide avant l'é
       },
       {
         question: "Que dois-je faire avant l'échéance comme DRH ?",
-        answer: "Cinq étapes par ordre de priorité : inventoriez vos outils IA RH (mai 2026), classez-les selon l'AI Act avec un juriste ou un consultant (juin 2026), mettez à jour vos contrats éditeurs pour obtenir la documentation technique (juin 2026), rédigez votre registre des systèmes IA et la notice d'information candidat (juillet 2026), formez les RH qui utilisent ces outils à leurs obligations de supervision (juillet 2026). Pour les PME sans ressources juridiques internes, un audit IA express peut couvrir les quatre premières étapes en deux à trois jours ouvrés.",
+        answer: "Cinq étapes par ordre de priorité : inventoriez vos outils IA RH (mai 2026), classez-les selon l'AI Act avec un juriste ou un consultant (juin 2026), mettez à jour vos contrats éditeurs pour obtenir la documentation technique (juin 2026), rédigez votre registre des systèmes IA et la notice d'information candidat (juillet 2026), formez les RH qui utilisent ces outils à leurs obligations de supervision (juillet 2026). Pour les PME sans ressources juridiques internes, une Smart Analyse peut couvrir les quatre premières étapes en 0,5 à 1 jour.",
       },
       {
         question: "Dois-je informer mes candidats que j'utilise une IA ?",
@@ -19350,7 +19348,7 @@ C'est l'option la plus adaptée si vous avez un enjeu métier précis à analyse
 
 Pour bien [choisir le bon prestataire IA](/blog/agence-ia-comment-choisir-partenaire-transformation), l'indépendance entre l'audit et la mise en oeuvre est un critère structurant : un cabinet qui audite et déploie ensuite a un intérêt commercial à élargir le périmètre. Ce n'est pas une règle absolue, mais c'est un point à éclaircir en amont.
 
-L'Audit IA Express de Smart Impulsion s'inscrit dans cette catégorie : délai court, périmètre défini avec vous, rapport opérationnel remis en fin de mission. Il est conçu pour les PME qui veulent une réponse rapide et un livrable directement actionnables, sans les contraintes administratives d'un dispositif public. [Découvrez l'Audit IA Express](/services/audit).
+La Smart Analyse de Smart Impulsion s'inscrit dans cette catégorie : délai court, périmètre défini avec vous, rapport opérationnel remis en fin de mission. Elle est conçue pour les PME qui veulent une réponse rapide et un livrable directement actionnables, sans les contraintes administratives d'un dispositif public. [Découvrez la Smart Analyse](/services/audit).
 
 ## Comment financer un audit IA en 2026
 
@@ -19432,9 +19430,9 @@ Un audit sérieux pour une PME représente entre 8 et 15 jours de travail effect
 
 Vous avez maintenant les fourchettes de marché, la logique de construction des prix et les critères pour évaluer un devis. La prochaine étape est de déterminer quel périmètre d'audit correspond réellement à vos enjeux, avant de solliciter des prestataires.
 
-L'Audit IA Express de Smart Impulsion est conçu pour les PME qui veulent cette réponse rapidement, sans délai administratif, avec un livrable directement utilisable pour décider. Délai de démarrage sous deux semaines. Rapport remis en fin de mission, sans obligation de suite.
+La Smart Analyse de Smart Impulsion est conçue pour les PME qui veulent cette réponse rapidement, sans délai administratif, avec un livrable directement utilisable pour décider. Délai de démarrage sous deux semaines. Rapport remis en fin de mission, sans obligation de suite.
 
-[Demander un Audit IA Express](/services/audit) et obtenir une estimation de périmètre adaptée à votre situation.`,
+[Demander une Smart Analyse](/services/audit) et obtenir une estimation de périmètre adaptée à votre situation.`,
     author: "Laurent Bouzon",
     date: "17 avril 2026",
     dateISO: "2026-04-17",
@@ -19736,9 +19734,9 @@ Les secteurs avec une forte intensité documentaire et des processus répétitif
 
 Les six fonctions couvertes dans cet article offrent des dizaines de points d'entrée potentiels pour votre première démarche IA. La question n'est pas de tout adresser d'un coup. C'est d'identifier les deux ou trois cas d'usage où le rapport effort / bénéfice / risque est le plus favorable pour votre situation spécifique.
 
-Cette identification prend du temps si vous la faites seul, parce qu'elle suppose de croiser une lecture objective de vos processus avec une connaissance des outils disponibles et des pièges à éviter. C'est exactement ce que couvre l'Audit IA Express de Smart Impulsion : en deux jours de travail structuré, vous repartez avec une cartographie de vos cas d'usage prioritaires, une évaluation de la maturité de vos données, et une feuille de route opérationnelle sur 90 jours.
+Cette identification prend du temps si vous la faites seul, parce qu'elle suppose de croiser une lecture objective de vos processus avec une connaissance des outils disponibles et des pièges à éviter. C'est exactement ce que couvre la Smart Analyse de Smart Impulsion : en deux jours de travail structuré, vous repartez avec une cartographie de vos cas d'usage prioritaires, une évaluation de la maturité de vos données, et une feuille de route opérationnelle sur 90 jours.
 
-Si vous souhaitez faire ce travail de fond avec un regard externe, [découvrez l'Audit IA Express](/services/audit).`,
+Si vous souhaitez faire ce travail de fond avec un regard externe, [découvrez la Smart Analyse](/services/audit).`,
     author: "Laurent Bouzon",
     date: "15 avril 2026",
     dateISO: "2026-04-15",
@@ -19997,9 +19995,9 @@ Un consultant indépendant senior peut tout à fait conduire un audit IA de qual
 
 Si votre situation correspond à l'un des cinq critères listés plus haut (budget inférieur à 20 000 euros HT, besoin de résultats en moins de 4 semaines, absence d'équipe data interne, moins de 2 projets IA en production), la prochaine étape est concrète.
 
-Smart Impulsion propose un Audit IA Express qui couvre vos fonctions prioritaires, identifie vos cas d'usage à fort potentiel et vous remet un plan d'action avec ROI projeté. En 2 à 3 jours, vous repartez avec une feuille de route opérationnelle et une estimation de retour sur investissement avant de démarrer quoi que ce soit.
+Smart Impulsion propose une Smart Analyse qui couvre vos fonctions prioritaires, identifie vos cas d'usage à fort potentiel et vous remet un plan d'action avec ROI projeté. En 0,5 à 1 jour, vous repartez avec une feuille de route opérationnelle et une estimation de retour sur investissement avant de démarrer quoi que ce soit.
 
-[En savoir plus sur l'audit IA express](/services/audit)`,
+[En savoir plus sur la Smart Analyse](/services/audit)`,
     author: "Laurent Bouzon",
     date: "13 avril 2026",
     dateISO: "2026-04-13",
@@ -20182,7 +20180,7 @@ Trois actions concrètes à engager dans les deux semaines suivant la réception
 
 Pour cadrer cette démarche dès le départ, l'article [L'IA pour les PME : guide pratique pour dirigeants](/blog/ia-pour-pme-guide) offre un point d'entrée structuré pour les entreprises qui démarrent leur transformation.
 
-Si votre livrable actuel ne répond pas aux standards décrits ici, ou si vous n'avez pas encore réalisé d'audit, l'[Audit IA Express Smart Impulsion](/services/audit) est conçu pour produire un diagnostic opérationnel en quelques jours, adapté aux PME qui veulent avancer sans s'engager dans un projet de plusieurs mois.
+Si votre livrable actuel ne répond pas aux standards décrits ici, ou si vous n'avez pas encore réalisé d'audit, la [Smart Analyse de Smart Impulsion](/services/audit) est conçu pour produire un diagnostic opérationnel en quelques jours, adapté aux PME qui veulent avancer sans s'engager dans un projet de plusieurs mois.
 
 
 
@@ -20217,7 +20215,7 @@ Si votre livrable actuel ne répond pas aux standards décrits ici, ou si vous n
       },
       {
         question: "Combien coûte un audit IA sérieux pour une PME ?",
-        answer: "Le Diag Data IA Bpifrance représente le cadre public de référence : 10 000 € HT, 8 jours, avec prise en charge de 25 % pour les PME de 10 à 2 000 ETP réalisant plus de 1 M€ de CA. Des offres privées existent à des tarifs variables selon la profondeur et le périmètre. L'Audit IA Express de Smart Impulsion est conçu pour les PME qui veulent démarrer rapidement avec un diagnostic ciblé.",
+        answer: "Le Diag Data IA Bpifrance représente le cadre public de référence : 10 000 € HT, 8 jours, avec prise en charge de 25 % pour les PME de 10 à 2 000 ETP réalisant plus de 1 M€ de CA. Des offres privées existent à des tarifs variables selon la profondeur et le périmètre. La Smart Analyse de Smart Impulsion est conçu pour les PME qui veulent démarrer rapidement avec un diagnostic ciblé.",
       },
       {
         question: "Que faire après avoir reçu un livrable d'audit IA ?",
@@ -20568,7 +20566,7 @@ L'AI Act n'est pas une menace — c'est un cadre. Les PME qui s'y conforment tô
 Le premier pas, c'est de savoir où vous en êtes. Vous pouvez <a href="/contact" class="text-orange-700 underline hover:text-orange-800">demander un diagnostic gratuit</a> pour évaluer votre situation.
 
 <div class="mt-8 p-8 bg-orange-50 rounded-2xl border border-orange-200">
-<h3 class="text-xl font-bold text-foreground mb-3">Smart Impulsion propose un Audit IA Express qui inclut un diagnostic de conformité AI Act.</h3>
+<h3 class="text-xl font-bold text-foreground mb-3">Smart Impulsion propose une Smart Analyse qui inclut un diagnostic de conformité AI Act.</h3>
 <p class="text-base text-muted-foreground mb-6">En 3 à 6 semaines, identifiez vos risques, classifiez vos usages IA, formez vos équipes et construisez votre plan d'action — avec un ROI projeté avant de démarrer.</p>
 <a href="/contact" class="inline-flex items-center gap-2 bg-orange-500 text-white px-6 py-3 rounded-lg font-semibold hover:bg-orange-600 transition-colors">Demander un audit</a>
 </div>
@@ -20670,7 +20668,7 @@ Le premier pas, c'est de savoir où vous en êtes. Vous pouvez <a href="/contact
     slug: "audit-ia-pme-guide-complet",
     title: "Audit IA pour PME : le guide complet pour diagnostiquer et accélérer votre transformation",
     excerpt:
-      "Comment réaliser un audit IA en PME ? Étapes, coûts, résultats attendus et erreurs à éviter. Diagnostic en 3 jours, premiers gains en 4 semaines.",
+      "Comment réaliser un audit IA en PME ? Étapes, coûts, résultats attendus et erreurs à éviter. Diagnostic en 0,5 à 1 jour, premiers gains en 4 semaines.",
     content: `Page pilier — contenu intégré directement dans app/blog/audit-ia-pme-guide-complet/page.tsx`,
     author: "Laurent Bouzon",
     date: "23 mars 2026",
@@ -22372,7 +22370,7 @@ Cartographier les processus candidats, évaluer la maturité des données dispon
 
 Pour aller plus loin sur la méthode d'audit préalable, consultez aussi [notre guide complet sur l'audit IA pour PME](/blog/audit-ia-pme-guide-complet), qui détaille les étapes d'un diagnostic de maturité IA.
 
-> Avant de lancer un projet d'automatisation, il vaut mieux cartographier vos processus et évaluer la maturité de vos données. C'est exactement ce que couvre l'Audit IA Express Smart Impulsion : [en savoir plus sur l'Audit IA Express](/services/audit).`,
+> Avant de lancer un projet d'automatisation, il vaut mieux cartographier vos processus et évaluer la maturité de vos données. C'est exactement ce que couvre la Smart Analyse de Smart Impulsion : [en savoir plus sur la Smart Analyse](/services/audit).`,
     author: "Laurent Bouzon",
     date: "23 juin 2026",
     dateISO: "2026-06-23",
@@ -22469,7 +22467,7 @@ Attendre que l'IA soit "plus mature" ou "moins chère" est une erreur stratégiq
 
 Chez Smart Impulsion, nous accompagnons les PME françaises dans cette transformation avec une promesse simple : un ROI mesurable, des solutions adaptées à votre réalité, et un accompagnement humain à chaque étape.
 
-Prenez rendez-vous pour un audit gratuit de vos opportunités IA. En une heure, nous identifierons ensemble les quick wins qui peuvent transformer votre quotidien.
+Réservez un rendez-vous découverte, gratuit et sans engagement, pour poser un premier chiffre sur vos opportunités IA. Si le potentiel se confirme, notre Smart Analyse (0,5 à 1 jour, 1 000 à 2 000 euros HT) vous donne la réponse chiffrée sur le processus le plus prometteur.
     `,
     author: "Laurent Bouzon",
     date: "8 décembre 2025",
