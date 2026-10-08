@@ -242,9 +242,9 @@ export default function AProposPage() {
               <div className="flex items-start gap-3 bg-orange-50 rounded-xl p-6 border border-orange-100">
                 <Zap className="h-6 w-6 text-orange-700 flex-shrink-0 mt-0.5" />
                 <p className="text-gray-700">
-                  <strong>Des resultats en semaines, pas en mois.</strong> L&apos;Audit IA
-                  Express prend 2-3 jours. Le premier quick win est en production en 4 semaines.
-                  Parce qu&apos;une PME ne peut pas attendre.
+                  <strong>Une reponse en jours, pas en mois.</strong> L&apos;Audit IA
+                  Express prend 0,5 a 1 jour. Si la cible tient, le premier quick win est en production en 4
+                  semaines. Parce qu&apos;une PME ne peut pas attendre.
                 </p>
               </div>
             </div>
@@ -406,7 +406,7 @@ export default function AProposPage() {
               <div className="text-center">
                 <div className="flex items-center justify-center gap-2 mb-1">
                   <Zap className="h-5 w-5 text-orange-700" />
-                  <span className="text-2xl font-bold text-gray-900">2-3 jours</span>
+                  <span className="text-2xl font-bold text-gray-900">0,5-1 jour</span>
                 </div>
                 <p className="text-sm text-gray-600">Audit IA Express complet</p>
               </div>
@@ -458,7 +458,7 @@ export default function AProposPage() {
                   className="bg-orange-500 hover:bg-orange-600 text-white"
                 >
                   <Link href="/contact">
-                    Demander un audit gratuit
+                    Reserver un rendez-vous decouverte
                     <ArrowRight className="ml-2 h-5 w-5" />
                   </Link>
                 </Button>

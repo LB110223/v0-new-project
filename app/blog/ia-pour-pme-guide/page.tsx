@@ -556,7 +556,7 @@ export default function IAParPMEGuidePage() {
 
                     <h3 className="text-xl font-semibold text-foreground mt-10 mb-4">L&apos;accompagnement : 5 000 à 30 000 euros en forfait</h3>
                     <ul className="space-y-2 my-4">
-                      <li className="flex items-start gap-3"><span className="w-1.5 h-1.5 rounded-full bg-orange-500 mt-2.5 flex-shrink-0" /><p className="text-muted-foreground"><Link href="/services/audit" className="text-orange-700 hover:text-orange-700 underline underline-offset-4 decoration-orange-500/30 font-semibold">Audit IA Express</Link> : gratuit à 2 000 euros (2-3 jours). Le point de départ.</p></li>
+                      <li className="flex items-start gap-3"><span className="w-1.5 h-1.5 rounded-full bg-orange-500 mt-2.5 flex-shrink-0" /><p className="text-muted-foreground"><Link href="/services/audit" className="text-orange-700 hover:text-orange-700 underline underline-offset-4 decoration-orange-500/30 font-semibold">Audit IA Express</Link> : 1 000 à 2 000 euros HT, payant (0,5 à 1 jour). Le point de départ.</p></li>
                       <li className="flex items-start gap-3"><span className="w-1.5 h-1.5 rounded-full bg-orange-500 mt-2.5 flex-shrink-0" /><p className="text-muted-foreground"><Link href="/services/formation" className="text-orange-700 hover:text-orange-700 underline underline-offset-4 decoration-orange-500/30 font-semibold">Smart Training</Link> (formation équipe) : 3 000 à 8 000 euros.</p></li>
                       <li className="flex items-start gap-3"><span className="w-1.5 h-1.5 rounded-full bg-orange-500 mt-2.5 flex-shrink-0" /><p className="text-muted-foreground"><strong className="text-foreground">Smart Analyse</strong> (audit complet + roadmap IA) : 5 000 à 15 000 euros.</p></li>
                       <li className="flex items-start gap-3"><span className="w-1.5 h-1.5 rounded-full bg-orange-500 mt-2.5 flex-shrink-0" /><p className="text-muted-foreground"><Link href="/services/accompagnement" className="text-orange-700 hover:text-orange-700 underline underline-offset-4 decoration-orange-500/30 font-semibold">Smart Action</Link> (déploiement) : 10 000 à 30 000 euros.</p></li>
@@ -671,7 +671,7 @@ export default function IAParPMEGuidePage() {
                         <div className="absolute -left-3 top-0 w-6 h-6 rounded-full bg-orange-500 text-white flex items-center justify-center text-xs font-bold">1</div>
                         <h3 className="text-lg font-semibold text-foreground mb-2">Semaine 1-2 : l&apos;audit</h3>
                         <p className="text-base leading-[1.7] text-muted-foreground">
-                          Un <Link href="/blog/audit-ia-pme-guide-complet" className="text-orange-700 hover:text-orange-700 underline underline-offset-4 decoration-orange-500/30">audit IA pour PME</Link> de 2-3 jours suffit. Le livrable : vos 3 quick wins identifiés avec ROI projeté pour chacun. Pas un rapport de 200 pages. Un plan d&apos;action chiffré.
+                          Un <Link href="/blog/audit-ia-pme-guide-complet" className="text-orange-700 hover:text-orange-700 underline underline-offset-4 decoration-orange-500/30">audit IA pour PME</Link> de 0,5 à 1 jour suffit. Le livrable : la réponse chiffrée sur le processus analysé. Pas un rapport de 200 pages. Un plan d&apos;action chiffré.
                         </p>
                       </div>
                       <div className="relative pl-8 border-l-2 border-orange-500/30">

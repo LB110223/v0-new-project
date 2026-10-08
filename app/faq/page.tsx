@@ -232,7 +232,7 @@ export default function FaqPage() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button asChild size="lg" className="bg-orange-500 hover:bg-orange-600 text-white">
                 <Link href="/contact">
-                  Demander un audit gratuit
+                  Réserver un rendez-vous découverte
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </Link>
               </Button>

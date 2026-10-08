@@ -2,155 +2,160 @@ import type { Metadata } from "next"
 import Link from "next/link"
 import {
   LineChart,
-  Users,
   Clock,
-  Target,
   ArrowRight,
   Search,
-  FileText,
-  Lightbulb,
-  TrendingUp,
-  Settings,
   Shield,
-  BarChart3,
   Zap,
+  Calendar,
+  Euro,
+  TrendingUp,
 } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { AnimateOnScroll } from "@/components/animate-on-scroll"
 
 export const metadata: Metadata = {
-  title: "Audit IA & Diagnostic | Smart Analyse | Smart Impulsion",
+  title: "Audit IA Express — diagnostic chiffré en 0,5 à 1 jour | Smart Impulsion",
   description:
-    "Audit IA pour PME et ETI : identifiez vos opportunités d'optimisation en 3 à 6 semaines. Cas d'usage, estimation du ROI et roadmap actionnable.",
+    "Audit IA Express : 0,5 à 1 jour, 1 000 à 2 000 € HT, un seul processus, une réponse chiffrée. Le diagnostic qui vérifie si votre hypothèse de gain IA tient.",
   alternates: {
     canonical: "https://www.smart-impulsion.com/services/audit",
   },
   openGraph: {
-    title: "Audit IA & Diagnostic | Smart Analyse | Smart Impulsion",
+    title: "Audit IA Express — diagnostic chiffré en 0,5 à 1 jour | Smart Impulsion",
     description:
-      "Audit et diagnostic IA pour identifier vos opportunités d'optimisation. Analyse de maturité, cartographie des cas d'usage et roadmap stratégique.",
+      "Un seul processus, une seule question : est-ce que la cible chiffrée tient ? Réponse en 0,5 à 1 jour, pour 1 000 à 2 000 € HT.",
     type: "website",
     locale: "fr_FR",
   },
 }
 
-const etapes = [
+const parcours = [
   {
-    numero: "01",
-    titre: "Acculturation & cadrage",
-    duree: "1/2 journée",
+    icon: Calendar,
+    etape: "Rendez-vous découverte",
+    statut: "Gratuit, sans engagement",
     description:
-      "Session de sensibilisation pour aligner tous les acteurs clés sur les fondamentaux de l'IA, ses opportunités et ses limites dans votre contexte.",
-    livrables: [
-      "Compréhension partagée de l'IA",
-      "Identification des parties prenantes",
-      "Définition du périmètre d'audit",
-    ],
+      "Vous posez un enjeu chiffré avec le simulateur de ROI : par exemple, combien représenterait le passage d'un processus de 45 à 30 minutes.",
   },
   {
-    numero: "02",
-    titre: "Diagnostic & interviews",
-    duree: "2-3 jours",
+    icon: Euro,
+    etape: "Audit IA Express",
+    statut: "Payant, 1 000 à 2 000 € HT",
     description:
-      "Analyse approfondie de vos processus métier via des ateliers et interviews avec chaque département pour identifier les irritants et opportunités.",
-    livrables: ["Cartographie des processus", "Identification des pain points", "Liste des cas d'usage potentiels"],
+      "L'hypothèse posée au rendez-vous est vérifiée sur le terrain, sur un seul processus, en 0,5 à 1 jour.",
   },
   {
-    numero: "03",
-    titre: "Analyse & priorisation",
-    duree: "2-3 jours",
+    icon: TrendingUp,
+    etape: "Accompagnement",
+    statut: "Chiffré sur une cible vérifiée",
     description:
-      "Évaluation de chaque cas d'usage selon son impact business, sa faisabilité technique et son alignement stratégique pour construire votre roadmap.",
-    livrables: ["Scoring des use cases", "Estimation du ROI par projet", "Matrice impact/effort"],
-  },
-  {
-    numero: "04",
-    titre: "Roadmap & restitution",
-    duree: "1/2 journée",
-    description:
-      "Présentation de la feuille de route IA avec les projets prioritaires, le planning de mise en œuvre et les ressources nécessaires.",
-    livrables: ["Roadmap IA détaillée", "Business cases chiffrés", "Plan d'action opérationnel"],
+      "Si la cible tient, la suite (Smart Training notamment) se chiffre sur un résultat vérifié — pas sur une estimation.",
   },
 ]
 
-const dimensions = [
+const etapesAudit = [
   {
-    icon: Target,
-    titre: "Stratégie",
-    desc: "Alignement de l'IA avec vos objectifs business et votre vision d'entreprise.",
+    numero: "01",
+    titre: "Vérification terrain",
+    duree: "0,5 jour",
+    description:
+      "Mesure des temps, volumes et coûts réels sur le processus ciblé — pas une estimation théorique.",
   },
   {
-    icon: FileText,
-    titre: "Données",
-    desc: "Qualité, disponibilité et gouvernance des données nécessaires aux projets IA.",
+    numero: "02",
+    titre: "Calcul chiffré",
+    duree: "0,5 jour",
+    description:
+      "Le calcul de l'hypothèse est refait sur vos données réelles : la cible tient, ou elle ne tient pas — et voici pourquoi.",
   },
   {
-    icon: Settings,
-    titre: "Technologie",
-    desc: "Maturité de votre infrastructure et capacité à supporter des solutions IA.",
+    numero: "03",
+    titre: "Réponse et décision",
+    duree: "Immédiat",
+    description:
+      "Un livrable unique : la réponse chiffrée sur votre processus, de quoi décider la suite en connaissance de cause.",
+  },
+]
+
+const pourquoi = [
+  {
+    icon: Search,
+    titre: "Une hypothèse, pas une liste",
+    desc: "Vous arrivez avec un chiffre posé au rendez-vous découverte. L'audit le vérifie sur le terrain — pas sur une liste de cas d'usage à défricher.",
   },
   {
-    icon: Users,
-    titre: "Organisation",
-    desc: "Compétences internes, culture de l'innovation et ouverture au changement.",
+    icon: Shield,
+    titre: "Une réponse franche",
+    desc: "Si la cible ne tient pas, vous le saurez, avec le calcul refait. L'audit n'a aucune raison de vous dire oui par principe.",
+  },
+  {
+    icon: Zap,
+    titre: "Une journée, pas un trimestre",
+    desc: "0,5 à 1 jour pour trancher. De quoi décider la suite sur du vérifié, pas sur une intuition.",
   },
 ]
 
 const benefices = [
-  { chiffre: "5-10", description: "cas d'usage identifiés en moyenne" },
-  { chiffre: "3-6", description: "semaines de diagnostic complet" },
+  { chiffre: "0,5-1", description: "jour de diagnostic, sur un seul processus" },
+  { chiffre: "1 000-2 000 €", description: "HT, tarif fixe — un audit payant" },
   { chiffre: "50%", description: "éligible au financement BPI (sous conditions)" },
 ]
 
 const serviceJsonLd = {
   "@context": "https://schema.org",
   "@type": "Service",
-  "name": "Smart Analyse - Audit IA avec projection ROI",
-  "description": "Audit complet de vos processus et données. Identification des opportunités IA avec ROI projeté en 3 à 6 semaines.",
+  "name": "Audit IA Express",
+  "description":
+    "Diagnostic payant d'un seul processus métier : vérification chiffrée d'une hypothèse de gain, en 0,5 à 1 jour.",
   "provider": { "@type": "Organization", "name": "Smart Impulsion" },
   "serviceType": "Audit en intelligence artificielle",
   "areaServed": { "@type": "Country", "name": "France" },
-  "url": "https://www.smart-impulsion.com/services/audit"
+  "url": "https://www.smart-impulsion.com/services/audit",
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "EUR",
+    "priceSpecification": {
+      "@type": "PriceSpecification",
+      "minPrice": 1000,
+      "maxPrice": 2000,
+      "priceCurrency": "EUR"
+    }
+  }
 }
 
 const howToJsonLd = {
   "@context": "https://schema.org",
   "@type": "HowTo",
-  "name": "Comment réaliser un audit IA pour votre PME/ETI",
-  "description": "Notre méthodologie en 4 étapes pour identifier vos opportunités IA avec un ROI estimé, en 3 à 6 semaines.",
-  "totalTime": "P6W",
+  "name": "Comment se déroule un Audit IA Express",
+  "description": "0,5 à 1 jour pour vérifier si l'hypothèse de gain posée sur un processus tient, avec un calcul chiffré.",
+  "totalTime": "P1D",
   "estimatedCost": {
     "@type": "MonetaryAmount",
     "currency": "EUR",
-    "value": "2000"
+    "minValue": "1000",
+    "maxValue": "2000"
   },
   "step": [
     {
       "@type": "HowToStep",
       "position": 1,
-      "name": "Acculturation & cadrage",
-      "text": "Session de sensibilisation pour aligner tous les acteurs clés sur les fondamentaux de l'IA, ses opportunités et ses limites dans votre contexte. Livrables : compréhension partagée de l'IA, identification des parties prenantes, définition du périmètre d'audit.",
+      "name": "Vérification terrain",
+      "text": "Mesure des temps, volumes et coûts réels sur le processus ciblé — pas une estimation théorique.",
       "url": "https://www.smart-impulsion.com/services/audit#methodologie"
     },
     {
       "@type": "HowToStep",
       "position": 2,
-      "name": "Diagnostic & interviews",
-      "text": "Analyse approfondie de vos processus métier via des ateliers et interviews avec chaque département pour identifier les irritants et opportunités. Livrables : cartographie des processus, identification des pain points, liste des cas d'usage potentiels.",
+      "name": "Calcul chiffré",
+      "text": "Le calcul de l'hypothèse posée au rendez-vous découverte est refait sur les données réelles du processus.",
       "url": "https://www.smart-impulsion.com/services/audit#methodologie"
     },
     {
       "@type": "HowToStep",
       "position": 3,
-      "name": "Analyse & priorisation",
-      "text": "Évaluation de chaque cas d'usage selon son impact business, sa faisabilité technique et son alignement stratégique pour construire votre roadmap. Livrables : scoring des use cases, estimation du ROI par projet, matrice impact/effort.",
-      "url": "https://www.smart-impulsion.com/services/audit#methodologie"
-    },
-    {
-      "@type": "HowToStep",
-      "position": 4,
-      "name": "Roadmap & restitution",
-      "text": "Présentation de la feuille de route IA avec les projets prioritaires, le planning de mise en œuvre et les ressources nécessaires. Livrables : roadmap IA détaillée, business cases chiffrés, plan d'action opérationnel.",
+      "name": "Réponse et décision",
+      "text": "Livrable unique : la réponse chiffrée sur le processus analysé, pour décider la suite en connaissance de cause.",
       "url": "https://www.smart-impulsion.com/services/audit#methodologie"
     }
   ]
@@ -175,21 +180,21 @@ export default function AuditPage() {
             <div className="max-w-4xl">
               <div className="flex items-center gap-2 text-orange-400 mb-4">
                 <LineChart className="h-5 w-5" />
-                <span className="text-sm font-medium uppercase tracking-wider">Smart Analyse</span>
+                <span className="text-sm font-medium uppercase tracking-wider">Audit IA Express</span>
               </div>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-                Identifiez vos opportunités IA
+                Une hypothèse de gain.
                 <br />
-                <span className="text-orange-400">avec un ROI estimé</span>
+                <span className="text-orange-400">Une réponse chiffrée.</span>
               </h1>
               <p className="text-xl text-gray-300 mb-8 max-w-2xl">
-                Notre audit IA analyse vos processus, vos données et votre organisation pour identifier les projets à
-                fort impact et construire une roadmap pragmatique alignée sur vos objectifs.
+                L'Audit IA Express vérifie, sur un seul processus de votre entreprise, si le gain estimé au
+                rendez-vous découverte se confirme — calcul refait sur vos données réelles, en 0,5 à 1 jour.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button asChild size="lg" className="bg-orange-500 hover:bg-orange-600 text-white">
                   <Link href="/contact">
-                    Demander un audit
+                    Réserver un rendez-vous découverte
                     <ArrowRight className="ml-2 h-5 w-5" />
                   </Link>
                 </Button>
@@ -199,7 +204,7 @@ export default function AuditPage() {
                   variant="outline"
                   className="border-white text-white hover:bg-white hover:text-gray-900 bg-transparent"
                 >
-                  <Link href="#methodologie">Découvrir notre méthodologie</Link>
+                  <Link href="#methodologie">Voir le déroulé</Link>
                 </Button>
               </div>
             </div>
@@ -223,54 +228,25 @@ export default function AuditPage() {
         </div>
       </section>
 
-      {/* Pourquoi un audit IA */}
+      {/* Pourquoi un Audit IA Express */}
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <AnimateOnScroll animation="fade-up">
             <div className="max-w-3xl mx-auto text-center mb-12">
-              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Pourquoi réaliser un audit IA ?</h2>
+              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                Pourquoi un audit sur un seul processus ?
+              </h2>
               <p className="text-lg text-gray-600">
-                L'IA offre d'immenses opportunités, mais aussi des risques si elle est mal déployée. Un audit vous
-                permet d'investir au bon endroit, au bon moment.
+                L'Audit IA Express n'a pas vocation à cartographier toute votre entreprise. Il répond à une seule
+                question, sur le processus que vous aurez choisi.
               </p>
             </div>
           </AnimateOnScroll>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {[
-              {
-                icon: Search,
-                titre: "Identifier les opportunités",
-                desc: "Cartographiez tous les cas d'usage IA pertinents pour votre activité et votre secteur.",
-              },
-              {
-                icon: TrendingUp,
-                titre: "Estimer le ROI",
-                desc: "Chiffrez les gains potentiels de chaque projet pour prioriser vos investissements.",
-              },
-              {
-                icon: Shield,
-                titre: "Réduire les risques",
-                desc: "Anticipez les défis techniques, organisationnels et éthiques avant de vous lancer.",
-              },
-              {
-                icon: Zap,
-                titre: "Accélérer la mise en œuvre",
-                desc: "Gagnez du temps avec une feuille de route claire et des quick wins identifiés.",
-              },
-              {
-                icon: BarChart3,
-                titre: "Aligner la stratégie",
-                desc: "Assurez-vous que vos projets IA servent vos objectifs business à court et long terme.",
-              },
-              {
-                icon: Lightbulb,
-                titre: "Embarquer les équipes",
-                desc: "Créez une vision partagée de l'IA et mobilisez vos collaborateurs autour des projets.",
-              },
-            ].map((item, index) => (
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {pourquoi.map((item, index) => (
               <AnimateOnScroll key={index} animation="fade-up" delay={index * 100}>
-                <div className="bg-gray-50 rounded-xl p-6 hover-lift border border-gray-200">
+                <div className="bg-gray-50 rounded-xl p-6 hover-lift border border-gray-200 h-full">
                   <div className="w-12 h-12 bg-orange-100 rounded-lg flex items-center justify-center mb-4">
                     <item.icon className="h-6 w-6 text-orange-700" />
                   </div>
@@ -283,30 +259,36 @@ export default function AuditPage() {
         </div>
       </section>
 
-      {/* Dimensions analysées */}
+      {/* Parcours en 3 temps */}
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <AnimateOnScroll animation="fade-up">
-            <div className="max-w-3xl mx-auto text-center mb-12">
-              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Les 4 dimensions de notre analyse</h2>
+            <div className="max-w-3xl mx-auto text-center mb-16">
+              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Le parcours en 3 temps</h2>
               <p className="text-lg text-gray-600">
-                Une évaluation à 360° de votre maturité IA pour des recommandations pertinentes.
+                L'Audit IA Express n'est ni le premier contact, ni la fin du chemin : c'est l'étape qui vérifie.
               </p>
             </div>
           </AnimateOnScroll>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {dimensions.map((dim, index) => (
-              <AnimateOnScroll key={index} animation="fade-up" delay={index * 100}>
-                <div className="bg-white rounded-xl p-6 border border-gray-200 text-center hover-lift">
-                  <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <dim.icon className="h-8 w-8 text-orange-700" />
+          <div className="relative max-w-5xl mx-auto">
+            <div className="hidden md:block absolute top-7 left-[8%] right-[8%] h-px bg-orange-200" />
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
+              {parcours.map((étape, index) => (
+                <AnimateOnScroll key={index} animation="fade-up" delay={index * 100}>
+                  <div className="relative flex md:flex-col md:items-center md:text-center gap-4">
+                    <div className="flex-shrink-0 w-14 h-14 rounded-full bg-white border-2 border-orange-500 text-orange-700 flex items-center justify-center relative z-10">
+                      <étape.icon className="h-6 w-6" />
+                    </div>
+                    <div>
+                      <h3 className="text-lg font-bold text-gray-900 mb-1">{étape.etape}</h3>
+                      <p className="text-sm font-medium text-orange-700 mb-2">{étape.statut}</p>
+                      <p className="text-gray-600 text-sm">{étape.description}</p>
+                    </div>
                   </div>
-                  <h3 className="text-lg font-semibold text-gray-900 mb-2">{dim.titre}</h3>
-                  <p className="text-gray-600 text-sm">{dim.desc}</p>
-                </div>
-              </AnimateOnScroll>
-            ))}
+                </AnimateOnScroll>
+              ))}
+            </div>
           </div>
         </div>
       </section>
@@ -316,15 +298,17 @@ export default function AuditPage() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <AnimateOnScroll animation="fade-up">
             <div className="max-w-3xl mx-auto text-center mb-12">
-              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Notre méthodologie en 4 étapes</h2>
+              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                Le déroulé de l'audit, en 0,5 à 1 jour
+              </h2>
               <p className="text-lg text-gray-600">
-                Un processus structuré et éprouvé pour des résultats concrets en 3 à 6 semaines.
+                Un seul processus analysé. Un seul livrable produit : la réponse chiffrée sur votre hypothèse.
               </p>
             </div>
           </AnimateOnScroll>
 
           <div className="space-y-8 max-w-4xl mx-auto">
-            {etapes.map((etape, index) => (
+            {etapesAudit.map((etape, index) => (
               <AnimateOnScroll key={index} animation="fade-up" delay={index * 100}>
                 <div className="bg-gray-50 rounded-xl p-6 md:p-8 border border-gray-200 hover-lift">
                   <div className="flex flex-col md:flex-row gap-6">
@@ -341,26 +325,36 @@ export default function AuditPage() {
                           {etape.duree}
                         </span>
                       </div>
-                      <p className="text-gray-600 mb-4">{etape.description}</p>
-                      <div>
-                        <h4 className="text-sm font-semibold text-gray-900 mb-2">Livrables :</h4>
-                        <div className="flex flex-wrap gap-2">
-                          {etape.livrables.map((livrable, i) => (
-                            <span
-                              key={i}
-                              className="text-xs bg-white border border-gray-200 text-gray-600 px-3 py-1 rounded-full"
-                            >
-                              {livrable}
-                            </span>
-                          ))}
-                        </div>
-                      </div>
+                      <p className="text-gray-600">{etape.description}</p>
                     </div>
                   </div>
                 </div>
               </AnimateOnScroll>
             ))}
           </div>
+
+          <AnimateOnScroll animation="fade-up">
+            <p className="text-center text-gray-500 text-sm mt-8 max-w-2xl mx-auto">
+              Le livrable est un document court avec la réponse chiffrée — pas un rapport de 200 pages.
+            </p>
+          </AnimateOnScroll>
+        </div>
+      </section>
+
+      {/* Pourquoi c'est payant */}
+      <section className="py-20 bg-black text-white">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+          <AnimateOnScroll animation="fade-up">
+            <div className="max-w-3xl mx-auto text-center">
+              <p className="text-2xl md:text-3xl font-semibold leading-snug mb-6">
+                « Un audit gratuit est un argumentaire de vente. Un audit payé est un diagnostic : nous n'avons
+                aucune raison de vous dire oui si la réponse est non. »
+              </p>
+              <p className="text-gray-400">
+                C'est pour cela que l'Audit IA Express n'est jamais offert. Le prix fait partie de la réponse.
+              </p>
+            </div>
+          </AnimateOnScroll>
         </div>
       </section>
 
@@ -374,8 +368,8 @@ export default function AuditPage() {
               </div>
               <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">Financement possible jusqu'à 50%</h2>
               <p className="text-lg text-gray-600 mb-6">
-                Dans le cadre du programme "IA Booster France 2030", la BPI peut prendre en charge jusqu'à 50% du coût
-                de votre diagnostic IA. Nous vous accompagnons dans les démarches d'éligibilité.
+                Dans le cadre du programme "IA Booster France 2030", la BPI peut prendre en charge jusqu'à 50% du
+                coût de l'Audit IA Express. Nous vous accompagnons dans les démarches d'éligibilité.
               </p>
               <Button asChild className="bg-orange-500 hover:bg-orange-600 text-white">
                 <Link href="/contact">
@@ -393,14 +387,15 @@ export default function AuditPage() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <AnimateOnScroll animation="fade-up">
             <div className="max-w-3xl mx-auto text-center">
-              <h2 className="text-3xl md:text-4xl font-bold mb-4">Prêt à identifier vos opportunités IA ?</h2>
+              <h2 className="text-3xl md:text-4xl font-bold mb-4">Prêt à vérifier votre hypothèse ?</h2>
               <p className="text-xl text-gray-300 mb-8">
-                Échangeons sur vos enjeux pour vous proposer un diagnostic adapté à votre contexte.
+                Commencez par le rendez-vous découverte, gratuit et sans engagement, pour poser votre premier
+                chiffre.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button asChild size="lg" className="bg-orange-500 hover:bg-orange-600 text-white">
                   <Link href="/contact">
-                    Demander un audit gratuit
+                    Réserver un rendez-vous découverte
                     <ArrowRight className="ml-2 h-5 w-5" />
                   </Link>
                 </Button>
