@@ -347,7 +347,7 @@ export default function AuditPage() {
           <AnimateOnScroll animation="fade-up">
             <div className="max-w-3xl mx-auto text-center">
               <p className="text-2xl md:text-3xl font-semibold leading-snug mb-6">
-                « Un audit gratuit est un argumentaire de vente. Un audit payé est un diagnostic : nous n'avons
+                « Un audit offert est un argumentaire de vente. Un audit payé est un diagnostic : nous n'avons
                 aucune raison de vous dire oui si la réponse est non. »
               </p>
               <p className="text-gray-400">
