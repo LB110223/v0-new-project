@@ -352,8 +352,8 @@ export function LyonEnriched() {
               Rencontrons-nous à Lyon
             </h2>
             <p className="text-xl text-gray-300 mb-8">
-              Un call découverte de 20 minutes suffit pour qualifier le potentiel. L&apos;Audit
-              IA Express peut démarrer sous une semaine.
+              Un call découverte de 20 minutes suffit pour qualifier le potentiel. La Smart
+              Analyse peut démarrer sous une semaine.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
