@@ -69,6 +69,237 @@ export interface BlogArticle {
 
 export const blogArticles: BlogArticle[] = [
   {
+    slug: "contrat-prestataire-ia-pme",
+    title: "Contrat prestataire IA PME : clauses a negocier",
+    seoTitle: "Contrat prestataire IA PME : clauses a negocier",
+    excerpt:
+      "Propriete des donnees, SLA, reversibilite, penalites KPI : les clauses contractuelles a exiger avant de signer avec un prestataire IA en PME.",
+    content: `En 2024, 26 % des TPE et PME francaises utilisaient l'IA, contre 13 % en 2023, soit un doublement en un an (Barometre France Num 2025, Credoc). Pour beaucoup, ce passage a l'IA implique de signer un contrat avec un prestataire externe. Et c'est precisement la que les erreurs se paient cher.
+
+Un contrat de prestation IA n'est pas un contrat de maintenance informatique classique. Les dependances qu'il cree sont inedites : le prestataire entraine un modele sur vos donnees proprietaires, devient de fait depositaire de votre savoir-faire metier, et pilote un systeme dont vous n'avez pas toujours la maitrise technique pour evaluer les derives. Selon l'etude Bpifrance Le Lab "L'IA dans les PME et ETI francaises" (juin 2025, 1 200 dirigeants interroges), 43 % ont declare une strategie IA mais seulement 32 % utilisent l'IA en operations. L'ecart entre intention et mise en oeuvre tient pour une large part aux conditions de la relation prestataire. Cette confiance se construit, ou se perd, avant la signature.
+
+Cet article detaille les clauses a exiger dans votre contrat prestataire IA, les seuils minimaux acceptables, et les mecanismes qui rendent ces protections executoires.
+
+
+
+## L'essentiel : ce que votre contrat prestataire IA doit contenir
+
+Un contrat prestataire IA comporte six protections non-negociables : (1) une clause de propriete intellectuelle interdisant la reutilisation de vos donnees d'entrainement, (2) un accord de sous-traitance RGPD conforme a l'article 28, (3) une clause de reversibilite avec format de livraison chiffre et delai de 60 jours maximum, (4) des SLA avec disponibilite minimale de 99,5 % et penalites automatiques, (5) un mecanisme de penalite sur KPIs avec plafond de 15 a 20 % de la tranche de facturation, (6) une clause de conformite AI Act et de cooperation en cas de controle reglementaire.
+
+
+
+## Le contrat IA n'est pas un contrat de prestation ordinaire
+
+Un contrat de developpement logiciel classe transfere de la competence contre de l'argent. Un contrat prestataire IA transfere quelque chose de bien plus sensible : vos donnees, vos processus documentes, parfois vos avantages concurrentiels, pour produire un systeme dont vous dependrez operationnellement.
+
+Quatre categories de risque contractuel meritent une attention systematique.
+
+**Propriete intellectuelle.** Qui possede le modele entraine sur vos donnees ? Les sorties qu'il produit ? Le prestataire peut-il reutiliser vos donnees pour former ses produits ou servir d'autres clients, y compris vos concurrents ?
+
+**Donnees et conformite RGPD.** L'article 28 du RGPD impose un contrat de sous-traitance formel des lors que le prestataire traite des donnees personnelles pour votre compte. Sans cette clause, vous etes en infraction, indifferemment du niveau de risque du systeme.
+
+**Performance et niveaux de service.** Un prestataire qui livre "au mieux" n'offre aucune protection. Les SLA vagues sont des clauses d'exemption deguisees.
+
+**Reversibilite et sortie.** Que se passe-t-il en cas de rupture ? Pouvez-vous recuperer vos donnees dans un format exploitable ? Le modele vous appartient-il suffisamment pour continuer a fonctionner sans le prestataire ?
+
+> Un contrat IA sans clause de reversibilite detaillee, c'est un bail dont vous ne pouvez pas partir. Le prestataire le sait. Vous devez le savoir aussi avant de signer.
+
+Avant d'entrer dans la negociation contractuelle, l'etape prealable est l'[audit IA PME](/blog/audit-ia-pme-guide-complet) : c'est lui qui identifie precisement quels processus et quelles donnees seront impliques, et donc quelles clauses ont du poids dans votre situation specifique.
+
+
+
+## La propriete intellectuelle sur les donnees et les sorties du modele
+
+### Ce que le contrat doit proteger
+
+Quand votre prestataire adapte un modele d'IA a votre metier (en l'alimentant de vos historiques de commandes, de vos processus de production, de vos tickets SAV, de vos contrats clients), il travaille avec votre matiere premiere. Sans clause explicite, rien ne l'empeche de reutiliser ce materiel.
+
+**Les donnees d'entrainement** sont les donnees que vous fournissez au prestataire pour construire ou affiner le modele IA : historiques, documents internes, bases de donnees metier. Ces donnees restent votre propriete, mais sans clause explicite, le prestataire peut les utiliser pour ameliorer ses propres produits.
+
+Trois protections sont non-negociables.
+
+1. **Interdiction de reutilisation des donnees d'entrainement.** Le prestataire ne peut pas utiliser vos donnees proprietaires pour entrainer, affiner ou ameliorer ses propres modeles, ses produits commerciaux, ou les systemes qu'il livre a d'autres clients. Cette interdiction doit etre permanente, pas seulement valable pendant la duree du contrat.
+
+2. **Propriete des sorties.** Toutes les productions du systeme IA a partir de vos donnees vous appartiennent. Cette clause semble evidente. Elle est pourtant absente de la majorite des contrats prestataire IA que les PME signent sans relecture juridique.
+
+3. **Suppression certifiee a la fin du contrat.** Selon les recommandations de la CNIL sur les traitements impliquant l'IA, le prestataire doit garantir la destruction ou la restitution de l'ensemble des donnees dans un delai fixe (30 jours est la norme RGPD), avec preuve ecrite.
+
+### L'article 28 RGPD : une clause obligatoire, pas optionnelle
+
+**L'article 28 du RGPD** est la disposition qui impose un contrat de sous-traitance formel entre un responsable de traitement et un sous-traitant traitant des donnees personnelles en son nom. En matiere de contrat prestataire IA, cette clause est obligatoire des lors que le projet implique des donnees a caractere personnel.
+
+Si votre projet IA implique des donnees a caractere personnel (fichiers clients, donnees RH, identifiants de contact), l'article 28 du RGPD exige un accord de sous-traitance dans le contrat. La CNIL precise que cet accord doit couvrir : l'objet et la duree du traitement, les finalites strictement definies, les obligations de securite du sous-traitant, les conditions d'acces aux sous-sous-traitants, et la cooperation en cas de controle.
+
+> L'absence de clause article 28 dans votre contrat prestataire vous expose a une non-conformite RGPD directe, sans meme que le prestataire ait commis de faute. La responsabilite du responsable de traitement, c'est vous.
+
+Verifiez que le prestataire liste explicitement tous les sous-traitants auxquels il peut faire appel (hebergeurs cloud, fournisseurs d'API d'IA generative). Votre accord vaut pour eux aussi.
+
+
+
+## La clause de reversibilite : sortir sans tout perdre
+
+**Une clause de reversibilite IA** est la disposition contractuelle qui garantit que vous pouvez recuperer vos donnees et votre modele dans un format exploitable si vous mettez fin au contrat, et que vous pouvez confier la reprise du systeme a un tiers. Sans cette clause, vous etes techniquement captif du prestataire.
+
+### Pourquoi cette clause est systematiquement omise
+
+La reversibilite est la clause que le prestataire a le moins interet a bien rediger. Un systeme IA dont vous ne pouvez pas vous extraire techniquement est un systeme qui vous rend captif, et donc fidele. C'est un modele commercial parfaitement rationnel du cote du fournisseur. C'est un risque operationnel majeur du votre.
+
+Avant de signer, posez cette question simple a votre prestataire : "Si nous mettons fin au contrat dans 18 mois, sous quelle forme recuperons-nous le modele et les donnees ?" Si la reponse est vague, la clause l'est aussi.
+
+### Ce que la clause de reversibilite doit contenir
+
+- **Format de livraison du modele.** Le modele doit etre exportable dans un format standard et ouvert (ONNX, PMML ou equivalent selon le type de systeme). Un modele livrable uniquement dans l'environnement proprietaire du prestataire n'est pas un modele que vous possedez.
+- **Documentation du code et des pipelines de donnees.** Le prestataire doit livrer la documentation des flux de donnees entrants, des regles de transformation, et des parametres du modele. Sans cela, un tiers ne peut pas reprendre le systeme.
+- **Delai de transfert.** 30 jours pour les donnees, 60 jours pour le transfert complet du modele et de sa documentation sont des standards acceptables. Au-dela, negociez une penalite par jour de retard.
+- **Repartition des couts de migration.** En cas de resiliation sans faute, qui paie quoi ? Cette question doit etre tranchee dans le contrat, pas en periode de conflit.
+
+> Une PME qui n'a pas negocie sa clause de reversibilite avant de signer la negociera en position de faiblesse au moment de partir. Les deux situations ne sont pas equivalentes.
+
+Le [cahier des charges IA](/blog/cahier-des-charges-ia-pme) que vous avez redige avant l'appel d'offres doit inclure les livrables de fin de contrat comme une exigence technique de depart, et non comme une clause juridique ajoutee en fin de negociation.
+
+
+
+## Les SLA minimaux pour un projet IA en PME
+
+**Un SLA (Service Level Agreement)** est la clause contractuelle qui definit les niveaux de service garantis : taux de disponibilite du systeme, delais de prise en charge et de resolution des incidents, conditions de maintenance planifiee, et penalites automatiques en cas de non-respect. Un SLA sans penalite chiffree est une intention, pas une obligation executoire.
+
+### Pourquoi les SLA "best effort" sont inacceptables
+
+Un niveau de service "au mieux" ne definit aucune obligation. Le prestataire peut repondre a un incident critique en trois jours, invoquer une charge de travail elevee, et etre parfaitement dans ses droits contractuels. Pour un systeme IA integre dans un processus operationnel (traitement de commandes, qualification de documents, generation de rapports), une panne de trois jours a un cout reel.
+
+Les SLA doivent etre chiffres, dates, et assortis de penalites automatiques.
+
+### Niveaux minimaux a exiger
+
+**Disponibilite :**
+- Systeme critique (integre a un processus metier en production) : 99,5 % de disponibilite mensuelle, hors fenetres de maintenance planifiees
+- Systeme secondaire (aide a la decision, reporting) : 99 % de disponibilite mensuelle
+
+**Temps de resolution des incidents :**
+
+| Priorite | Definition | Delai de prise en charge | Delai de resolution |
+|---|---|---|---|
+| P1 (Critique) | Systeme inaccessible ou donnees corrompues | 2 heures | 8 heures |
+| P2 (Majeur) | Degradation materielle des performances | 4 heures | 24 heures |
+| P3 (Standard) | Anomalie sans impact operationnel direct | 8 heures | 5 jours ouvrables |
+
+**Maintenance planifiee :** toute intervention avec interruption de service doit etre notifiee au minimum 5 jours ouvrables a l'avance, sauf urgence de securite. Les fenetres de maintenance doivent etre hors heures critiques pour votre activite (a definir en annexe).
+
+> Des SLA sans penalite automatique ne sont pas des SLA. Ce sont des intentions. La difference n'est pas semantique : elle est operationnelle et juridique.
+
+Avant de valider ces niveaux, assurez-vous que votre propre organisation peut les mesurer. Si vous ne savez pas tracer un incident P1 chez votre prestataire, vous ne pourrez pas faire jouer les penalites. C'est un des points couverts dans le travail de [pilotage post-signature](/blog/piloter-prestataire-ia-apres-audit).
+
+
+
+## Les penalites sur KPIs : de la mesure a l'execution
+
+### Le probleme du KPI non execute
+
+Votre contrat liste des KPIs : taux de precision du modele, taux de traitement automatise, reduction des temps de traitement. Si ces KPIs ne sont pas accompagnes d'un mecanisme de penalite executoire, ils n'engagent personne. Les cadres de gouvernance formels pour l'IA restent l'exception dans les organisations de taille intermediaire. Le retard de cadrage contractuel en est une cause directe.
+
+La definition des KPIs est l'objet de l'article [KPIs projet IA](/blog/kpis-projet-ia-pme). La question ici est differente : comment rendre ces KPIs executoires ?
+
+### Mecanisme de penalite en quatre temps
+
+1. **Periode de grace.** Les 30 premiers jours apres mise en production ne comptent pas dans le calcul des penalites. Les systemes IA ont besoin d'un temps de calage sur les donnees reelles.
+
+2. **Credit de service vs remboursement.** Privilegiez le credit de service (deduction sur la prochaine facture) au remboursement direct, plus difficile a obtenir operationnellement. Le credit s'applique automatiquement si le KPI n'est pas atteint au-dela d'un seuil defini, par exemple une precision inferieure de plus de 5 points au niveau contractualise.
+
+3. **Plafond de penalite par tranche.** Le plafond habituel est de 15 a 20 % de la valeur de la tranche de facturation concernee. Au-dela, les prestataires refusent de signer. En dessous de 10 %, la penalite ne couvre pas le cout du dysfonctionnement.
+
+4. **Seuil de resiliation pour cause de performance.** Si les KPIs contractualises ne sont pas atteints pendant trois mois consecutifs malgre les actions correctrices documentees, vous devez avoir le droit de resilier sans penalite de sortie anticipee. Cette clause doit etre explicite.
+
+
+
+## Les obligations AI Act du prestataire en tant que fournisseur
+
+### Ce qui s'applique en octobre 2026
+
+Le reglement (UE) 2026/1744 (Journal officiel de l'UE, 24 juillet 2026) a modifie le calendrier d'application de l'AI Act initial. Les obligations pour les systemes IA a haut risque de l'annexe III sont reportees au 2 decembre 2027. En tant que PME utilisatrice (deployer au sens reglementaire), vous n'avez pas d'obligation directe sur ces systemes avant cette date.
+
+En revanche, les obligations de transparence de l'article 50 s'appliquent depuis le 2 aout 2026. Elles concernent notamment les systemes d'interaction avec des personnes (chatbots, assistants). Et depuis cette meme date, les autorites nationales sont en charge de la surveillance du marche.
+
+### Ce que cela genere contractuellement
+
+Quand votre prestataire est qualifie de "fournisseur" d'un systeme IA au sens du reglement (UE) 2026/1744 (c'est-a-dire qu'il developpe ou met sur le marche un systeme IA sous son nom), il a des obligations propres : documentation technique, marquage CE pour les systemes a haut risque, enregistrement dans la base de donnees EU.
+
+Ces obligations du fournisseur se traduisent directement en clauses de due diligence a inscrire dans votre contrat :
+
+- **Attestation de conformite.** Le prestataire doit attester par ecrit que le systeme qu'il vous livre respecte les obligations reglementaires qui lui incombent en tant que fournisseur a la date de livraison.
+- **Documentation technique accessible.** Vous devez avoir acces a la documentation technique du systeme (architecture, donnees d'entrainement utilisees, tests de performance, limites connues) dans un delai raisonnable apres demande. Cette documentation vous protege en cas de controle par la CNIL ou par l'autorite nationale de surveillance de l'AI Act.
+- **Obligation de notification des incidents.** Si le prestataire detecte un incident de performance ou de biais dans le systeme qu'il vous a livre, il doit vous en informer dans un delai defini (48 heures pour les incidents critiques est une norme raisonnable). Vous ne pouvez pas gerer ce que vous ne savez pas.
+- **Cooperation en cas de controle.** Si la CNIL ou l'autorite nationale de surveillance lance un controle sur votre usage de l'IA, le prestataire s'engage a cooperer et a fournir les informations techniques necessaires.
+
+> Un prestataire qui refuse d'inscrire une clause de cooperation en cas de controle reglementaire vous dit quelque chose sur sa propre conformite. Tirez-en les conclusions avant de signer.
+
+L'[article ESN ou agence IA](/blog/esn-ou-agence-ia-pme) identifie six signaux d'alerte contractuels a verifier lors du choix du prestataire. La posture face aux obligations reglementaires en est un.
+
+
+
+## Cadrer ses exigences avant de negocier
+
+Negocier des clauses contractuelles sans avoir d'abord cartographie precisement quels processus et quelles donnees sont impliques dans le projet IA, c'est negocier a l'aveugle. Vous ne savez pas quelles donnees proteger, ni quels KPIs sont mesurables dans votre organisation, ni quels niveaux de service sont reellement critiques pour votre activite.
+
+L'audit de processus est l'etape qui produit cette cartographie. Il repond a des questions concretes : quelles donnees entrent dans le systeme, qui y a acces, quel processus metier dependrait de la disponibilite du systeme, quel est le cout d'une heure de panne ?
+
+Ces reponses sont le materiau de vos clauses contractuelles. Sans elles, vous signez des protections generiques que votre prestataire sait contourner.
+
+**Smart Analyse** est l'audit de processus de Smart Impulsion : une demi-journee a une journee de travail sur un seul processus, entre 1 000 et 2 000 EUR HT. L'objectif n'est pas de rediger votre contrat (c'est le travail d'un avocat specialise) mais de vous donner la cartographie precise des enjeux avant d'entrer en negociation avec votre prestataire.
+
+[Demander un audit Smart Analyse](/services/audit)
+
+
+
+## Ce que vous devez emporter de cet article
+
+Avant de signer avec un prestataire IA, verifiez systematiquement la presence et la precision de ces points dans le contrat :
+
+- Clause de propriete intellectuelle sur les donnees d'entrainement et les sorties du modele, avec interdiction permanente de reutilisation
+- Accord de sous-traitance RGPD conforme a l'article 28, avec liste des sous-sous-traitants
+- Clause de reversibilite avec format de livraison (ONNX ou PMML), documentation obligatoire et delai de 60 jours maximum
+- SLA chiffres avec priorites P1/P2/P3 definies, disponibilite minimale de 99,5 % pour les systemes critiques, et penalites automatiques
+- Mecanisme de penalite sur KPIs avec periode de grace de 30 jours, plafond de 15 a 20 % et seuil de resiliation
+- Obligations reglementaires du prestataire en tant que fournisseur au sens du reglement (UE) 2026/1744, avec clause de cooperation en cas de controle CNIL
+
+Chaque clause sans seuil chiffre est une clause que le prestataire interprettera en sa faveur. Votre seule protection, c'est la precision.
+
+
+
+*Sources :*
+*Barometre France Num 2025 (Credoc) : [francenum.gouv.fr](https://www.francenum.gouv.fr/files/2025-09/Barom%C3%A8tre%20France%20Num%202025%20-%20Infographie%20VF.pdf)*
+*Bpifrance Le Lab, "L'IA dans les PME et ETI francaises", juin 2025 : [lelab.bpifrance.fr](https://lelab.bpifrance.fr/content/download/4745/pdf/2025-06_L'IA%20dans%20les%20PME%20et%20ETI%20fran%C3%A7aises_Etude%20Bpifrance%20Le%20Lab.pdf)*
+*Reglement (UE) 2026/1744, Journal officiel de l'UE, 24 juillet 2026 : [eur-lex.europa.eu/eli/reg/2026/1744/oj/eng](https://eur-lex.europa.eu/eli/reg/2026/1744/oj/eng)*`,
+    author: "Laurent Bouzon",
+    date: "14 octobre 2026",
+    dateISO: "2026-10-14",
+    readTime: "9 min",
+    category: "Audit & Methodologie",
+    image: "/contrat-prestataire-ia-pme-hero.png",
+    imageAlt: "Image d'illustration pour l'article \"Contrat prestataire IA PME : clauses a negocier\"",
+    faq: [
+      {
+        question: "Qui est proprietaire du modele IA entraine sur mes donnees ?",
+        answer: "Sans clause explicite dans le contrat, le prestataire reste proprietaire du modele qu'il a entraine, meme si vos donnees en constituent la matiere premiere. Pour etre proprietaire des sorties et proteger vos donnees d'entrainement, vous devez inserer trois clauses : interdiction permanente de reutilisation de vos donnees, propriete integrale des sorties generees, et suppression certifiee a la fin du contrat dans un delai de 30 jours (norme RGPD).",
+      },
+      {
+        question: "Qu'est-ce qu'un SLA dans un contrat IA ?",
+        answer: "Un SLA (Service Level Agreement) est une clause contractuelle qui definit les niveaux de service minimaux garantis par le prestataire IA : taux de disponibilite du systeme (ex. 99,5 % mensuel pour un systeme critique), delais de prise en charge des incidents selon leur priorite (P1 critique : 2 heures de prise en charge, 8 heures de resolution), et penalites automatiques en cas de non-respect. Un SLA sans penalite chiffree est une intention, pas une obligation.",
+      },
+      {
+        question: "Comment proteger mes donnees dans un contrat avec un prestataire IA ?",
+        answer: "Trois protections sont indispensables. Premierement, une clause interdisant au prestataire toute reutilisation de vos donnees proprietaires pour ses propres produits ou d'autres clients. Deuxiemement, si le projet implique des donnees personnelles, un accord de sous-traitance conforme a l'article 28 du RGPD est obligatoire : sans quoi vous etes en infraction en tant que responsable de traitement. Troisiemement, une clause de suppression certifiee des donnees a la fin du contrat, avec preuve ecrite dans un delai de 30 jours.",
+      },
+      {
+        question: "Quelle clause mettre pour la reversibilite IA ?",
+        answer: "La clause de reversibilite doit preciser : le format de livraison du modele (format standard ouvert comme ONNX ou PMML), la documentation obligatoire des pipelines de donnees et des parametres du modele, un delai de transfert (30 jours pour les donnees, 60 jours pour le modele complet), la repartition des couts de migration, et une penalite journaliere en cas de retard. Un modele livrable uniquement dans l'environnement proprietaire du prestataire n'est pas un modele que vous possedez reellement.",
+      },
+      {
+        question: "L'AI Act s'applique-t-il a ma PME en 2026 ?",
+        answer: "En octobre 2026, les obligations de l'AI Act pour les systemes a haut risque (annexe III du reglement UE 2026/1744) sont reportees au 2 decembre 2027. En tant que PME utilisatrice (deployer), vous n'avez pas d'obligation directe avant cette date sur ces systemes. En revanche, les obligations de transparence de l'article 50 (chatbots, assistants IA) s'appliquent depuis le 2 aout 2026. Votre prestataire, s'il est qualifie de fournisseur, a ses propres obligations : documentez-les contractuellement par une clause d'attestation de conformite.",
+      },
+    ],
+  },
+  {
     slug: "roi-chatgpt-pme-mesurer-abonnement-conversationnel",
     title: "ROI ChatGPT PME : votre abonnement rapporte-t-il ?",
     seoTitle: "ROI ChatGPT PME : mesurer son abonnement",
