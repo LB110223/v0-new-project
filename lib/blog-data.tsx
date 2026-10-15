@@ -69,6 +69,226 @@ export interface BlogArticle {
 
 export const blogArticles: BlogArticle[] = [
   {
+    slug: "equipe-projet-ia-pme",
+    title: "Équipe projet IA en PME : qui impliquer, combien de temps, et comment éviter le projet orphelin",
+    seoTitle: "Équipe projet IA : qui impliquer en PME ?",
+    excerpt:
+      "Sponsor, référent métier, point de contact IT : les 3 rôles internes à désigner pour réussir votre projet IA en PME sans équipe technique dédiée.",
+    content: `Selon Bpifrance Le Lab (2025), dans 73 % des cas, c'est le dirigeant qui impulse le projet IA en PME. Aucun DSI IA, aucun CDO, aucun chef de projet dédié. Le dirigeant décide, signe avec le prestataire, puis... qui pilote au quotidien ?
+
+C'est là que la plupart des projets IA en PME se retrouvent orphelins, faute d'équipe projet IA structurée. Pas faute de budget, pas faute d'ambition. Faute d'organisation. Le prestataire livre des ateliers sans interlocuteur qui valide. Les données restent inaccessibles parce que personne n'a informé le responsable IT. Les utilisateurs finaux découvrent l'outil le jour du déploiement. Résultat : un projet techniquement terminé, opérationnellement raté.
+
+Cet article répond à une question concrète : dans une PME de 20 à 150 salariés, sans équipe IA, sans data scientist, sans DSI dédié, qui doit faire quoi, combien de temps, et comment éviter que le projet tombe à plat.
+
+## Grande entreprise vs PME : l'écart d'organisation IA
+
+L'écart d'adoption IA entre grandes entreprises et PME ne s'explique pas principalement par le budget. Il s'explique par l'organisation.
+
+Selon l'INSEE (Enquête TIC 2024), 33 % des entreprises de 250 salariés et plus utilisent l'IA, contre 15 % pour les PME de 50 à 249 salariés et seulement 9 % pour celles de 10 à 49 salariés. Un rapport de 1 à 3,7. Ce qui change à cette échelle, ce sont les rôles dédiés : un DSI avec une équipe data, un ou plusieurs product owners, des référents métier formés à travailler avec des prestataires technologiques.
+
+> Adoption IA : 9 % des PME de 10 à 49 salariés, 15 % des 50-249 salariés, contre 33 % pour les entreprises de 250 salariés et plus (INSEE, Enquête TIC 2024).
+
+La PME n'a pas ces ressources. Mais elle n'a pas non plus besoin de les reproduire à l'identique. Elle a besoin d'un modèle allégé, adapté à sa réalité : trois rôles internes clairs, une délégation propre au prestataire, et des signaux d'alerte connus avant de démarrer.
+
+Consultez d'abord [notre guide pratique IA pour PME](/blog/ia-pour-pme-guide) si vous en êtes encore à la question "par où commencer" : le présent article suppose que vous avez déjà identifié un premier processus à traiter et que vous vous apprêtez à travailler avec un prestataire.
+
+## Équipe projet IA : 3 rôles à désigner
+
+Ce ne sont pas des postes à créer. Ce sont des responsabilités à attribuer formellement à des personnes existantes, avec un périmètre défini et un temps estimé.
+
+### Le sponsor : le dirigeant ou son N-1 direct
+
+**Rôle.** Le sponsor est la personne qui détient l'autorité de décision et de budget sur le projet IA : il valide les objectifs en phase de cadrage, arbitre les compromis quand le prestataire propose des options différentes, débloque le budget si des besoins imprévus émergent, et assume la décision finale de déploiement.
+
+En PME, c'est presque toujours le dirigeant lui-même. Parfois un DG adjoint ou un DAF si le projet touche une fonction sous leur responsabilité.
+
+**Temps estimé.**
+
+- Phase de cadrage (4 à 8 semaines) : 2 à 4 heures par semaine, réparties sur les ateliers de définition et les points de suivi prestataire.
+- Phase de déploiement et tests : 1 heure par semaine pour les comités de pilotage.
+- Phase de production : 30 minutes par semaine pour les alertes et arbitrages éventuels.
+
+**Signal d'alerte.** Le sponsor n'assiste à aucun atelier de cadrage. Il délègue tout au référent métier sans avoir validé lui-même les objectifs. Dans ce cas, le projet avance sans arbitre réel : la moindre décision de scope sera bloquée.
+
+> Signal d'alerte sponsor : si le dirigeant n'a participé à aucun atelier de définition des objectifs, le projet n'a pas de cap. Le prestataire livre ce qu'il a compris, pas ce que l'entreprise attendait.
+
+### Le référent métier : le responsable de la fonction impactée
+
+**Rôle.** Le référent métier est le responsable de la fonction directement concernée par le projet IA (commercial, DAF, DRH, logistique…) : il valide les règles métier (cas courants et cas limites), pilote les tests utilisateurs, et garantit que ce qui est livré correspond à la réalité du terrain. C'est le rôle le plus décisif du projet.
+
+Profils types selon le projet :
+
+- Responsable commercial, si le projet touche la prospection ou le suivi client.
+- DAF, si c'est la facturation, le reporting financier ou le contrôle de gestion.
+- DRH, si c'est la gestion des temps, les absences ou le recrutement.
+- Responsable logistique, si c'est la gestion des stocks ou l'optimisation de tournées.
+- Responsable production, si c'est la planification ou la détection d'anomalies en atelier.
+
+**Temps estimé.**
+
+- Phase d'ateliers métier (6 à 10 semaines) : 4 à 6 heures par semaine. Ce sont les semaines les plus intenses. Le prestataire a besoin de réponses précises, pas de réunions de validation vagues.
+- Phase de test et recette : 3 à 4 heures par semaine.
+- Phase de production : 2 heures par semaine pour le suivi des premiers résultats.
+
+**Signal d'alerte.** Le référent métier est absent ou partiellement disponible pendant les ateliers. Il délègue à un collaborateur qui n'a pas le niveau de décision pour valider les règles métier. Résultat typique : le prestataire avance sur des hypothèses, les règles métier sont mal modélisées, la recette génère des allers-retours coûteux.
+
+Selon IBM Institute for Business Value, enquête France 2025, 77 % des entreprises considèrent essentiel d'impliquer les fonctions métier (RH, IT, juridique) pour réussir un projet IA. Ce chiffre n'est pas surprenant : les projets qui échouent ne manquent généralement pas de technologie, ils manquent de validation terrain.
+
+> "68 % des personnes interrogées sont confrontées à une pénurie de talents pour développer des pilotes." (IBM Institute for Business Value, enquête France 2025.) En PME, cette pénurie ne se résout pas par le recrutement mais par l'implication structurée des profils existants.
+
+### Le point de contact IT : responsable interne ou prestataire
+
+**Rôle.** Le point de contact IT est l'interlocuteur technique interne (ou prestataire IT externe) qui gère tout ce qui touche à l'infrastructure du projet : accès aux données, intégrations avec les outils existants (ERP, CRM, logiciel métier), sécurité des accès et conformité avec la politique IT de l'entreprise.
+
+En PME, ce rôle est souvent occupé par le prestataire informatique externe. C'est acceptable, à condition de formaliser son périmètre dès le début du projet et de s'assurer qu'il communique directement avec le prestataire IA, sans passer systématiquement par le dirigeant.
+
+**Temps estimé.**
+
+- Phase de cadrage technique (2 à 3 semaines) : 3 à 4 heures pour l'état des lieux du SI et la définition des contraintes d'accès.
+- Phase d'intégration (4 à 6 semaines) : 2 à 3 heures par semaine.
+- Phase de production : ponctuel, selon les incidents.
+
+**Signal d'alerte.** Le point de contact IT est informé du projet après la signature du contrat prestataire. Il découvre les contraintes d'intégration en phase de développement. C'est la cause la plus fréquente de dérapage calendaire : des délais de 4 à 8 semaines pour obtenir des accès aux données ou modifier des paramétrages SI que personne n'avait anticipés.
+
+Ces trois rôles peuvent se cumuler dans les très petites structures. Un dirigeant peut être à la fois sponsor et référent métier si le projet touche son propre domaine d'expertise. Un responsable administratif peut cumuler référent métier et point de contact avec le prestataire IT. Ce qui ne peut pas se cumuler : être à la fois le seul interlocuteur du prestataire ET l'utilisateur final dont on attend la validation.
+
+**Avant de démarrer, assurez-vous d'avoir une réponse à ces trois vérifications :**
+
+- Sponsor désigné et disponible pour les comités de pilotage (nom et agenda confirmés).
+- Référent métier identifié parmi les responsables de la fonction concernée.
+- Point de contact IT informé du projet et intégré au cadrage dès la première semaine.
+
+Pour la dimension adoption et conduite du changement, l'article [Comment embarquer son équipe dans un projet IA](/blog/embarquer-equipe-projet-ia) couvre ce périmètre complémentaire.
+
+## Ce que l'équipe interne délègue au prestataire
+
+La question du partage des rôles entre interne et prestataire est souvent traitée trop tardivement. Elle doit être clarifiée au moment de la rédaction du cahier des charges, pas après la signature.
+
+> Règle simple : tout ce qui nécessite une expertise technique spécialisée va au prestataire. Tout ce qui nécessite une connaissance du processus métier reste en interne.
+
+**Ce que le prestataire prend en charge :**
+
+- Architecture et développement de la solution IA (choix du modèle, paramétrage, entraînement si nécessaire)
+- Traitement et nettoyage des données brutes
+- Documentation technique et guide d'utilisation
+- Monitoring technique post-déploiement pendant la période de garantie
+
+**Ce qui reste en interne, obligatoirement :**
+
+- Validation des règles métier et des cas limites (référent métier)
+- Recette fonctionnelle : la solution fait-elle ce qui était attendu dans le contexte réel de l'entreprise ?
+- Décision de mise en production (sponsor)
+- Suivi des indicateurs de résultats après déploiement (référent métier)
+
+Cette grille est développée en détail dans notre article [Cahier des charges IA : ce que doit contenir votre appel d'offres prestataire](/blog/cahier-des-charges-ia-pme). La plupart des contrats mal négociés le sont parce que cette répartition n'a pas été formalisée.
+
+**Répartition en un coup d'oeil :**
+
+1. Architecture et développement IA : prestataire
+2. Nettoyage et accès aux données : prestataire (avec support du point de contact IT)
+3. Validation des règles métier : référent métier interne
+4. Recette fonctionnelle : référent métier interne, avec appui prestataire
+5. Décision de go live : sponsor interne
+6. Suivi des résultats opérationnels : référent métier interne
+
+## Les 5 signaux d'alerte
+
+Ces signaux ne prédisent pas nécessairement l'échec. Ils indiquent que le projet est en zone de risque élevé et qu'une correction organisationnelle s'impose avant d'avancer.
+
+**Signal 1 : aucun référent métier n'est désigné avant la signature du contrat prestataire.**
+
+Le prestataire commence les ateliers sans savoir à qui poser ses questions métier. Il travaille sur des hypothèses. Ce n'est pas sa faute, c'est l'absence d'organisation en face. Corriger en cours de route coûte 2 à 4 fois plus cher que de le faire avant.
+
+**Signal 2 : le dirigeant est le seul interlocuteur du prestataire.**
+
+Cela signifie que toutes les décisions, y compris les micro-décisions techniques, remontent au dirigeant. Son agenda devient le goulot d'étranglement du projet. Les prestataires sérieux soulèveront ce point. Les autres s'adapteront et factureront les aller-retours.
+
+**Signal 3 : aucune réunion de suivi interne n'est prévue.**
+
+Des comités de pilotage avec le prestataire existent. Mais pas de points internes entre le sponsor, le référent métier et le point de contact IT. Résultat : les trois interlocuteurs ont des visions divergentes de l'avancement. Le premier comité de crise révèle des désaccords qui auraient pu être traités bien plus tôt.
+
+**Signal 4 : le responsable IT n'est informé qu'en phase d'intégration.**
+
+C'est le signal le plus fréquent. L'accès aux données de production nécessite des habilitations, des modifications de paramétrages, parfois des migrations. Deux semaines peuvent devenir deux mois si cette phase n'est pas anticipée.
+
+> 22 % des dirigeants de PME-ETI citent la résistance des employés comme frein à l'adoption de l'IA (Bpifrance Le Lab, 2025). Cette résistance est souvent le symptôme d'une implication trop tardive des équipes concernées, pas un problème de principe.
+
+**Signal 5 : pas de critères de succès définis par le référent métier avant le lancement.**
+
+Le contrat mentionne des livrables techniques. Mais le référent métier n'a pas formalisé ce que "succès" signifie pour lui : réduction du temps de traitement d'un dossier de x à y minutes, baisse du taux d'erreur en dessous d'un seuil, volume de tâches automatisées par semaine. Sans cela, la recette devient une discussion subjective. Le prestataire dira que c'est livré. Le référent métier dira que ça ne correspond pas à ses attentes. Les deux auront raison.
+
+Pour la liste des jalons à piloter une fois le projet lancé, consultez [Piloter un projet IA en cours : les jalons à poser et les signaux qui doivent vous alerter](/blog/piloter-projet-ia-pme).
+
+## À retenir
+
+Trois rôles internes suffisent pour piloter un premier projet IA en PME, sans recruter ni créer de poste dédié :
+
+- **Le sponsor** (dirigeant ou N-1) : autorité de décision et de budget, disponible 2 à 4 heures par semaine en phase de cadrage.
+- **Le référent métier** (responsable de la fonction concernée) : garant de la pertinence métier, disponible 4 à 6 heures par semaine en phase d'ateliers.
+- **Le point de contact IT** (responsable IT interne ou prestataire IT externe) : garant de l'accès aux données et des intégrations SI, à intégrer dès la première semaine du projet.
+
+Selon Bpifrance Le Lab (2025), 73 % des projets IA en PME sont initiés par le dirigeant. L'échec vient rarement du budget ou de la technologie : il vient de l'absence d'organisation formelle autour de ces trois rôles.
+
+## Questions fréquentes
+
+**Faut-il recruter un chef de projet IA pour lancer un premier projet IA en PME ?**
+
+Non. Dans la grande majorité des PME, les trois rôles décrits ci-dessus sont occupés par des profils internes existants auxquels on attribue une responsabilité formelle. Le recrutement d'un profil dédié n'a de sens qu'à partir du troisième ou quatrième projet, quand la charge cumulée justifie un poste à part entière.
+
+**Combien de temps ces rôles demandent-ils réellement ?**
+
+Le sponsor : 2 à 4 heures par semaine en cadrage, 1 heure en déploiement. Le référent métier : 4 à 6 heures par semaine en phase d'ateliers, 2 heures en production. Le point de contact IT : 2 à 3 heures en phase d'intégration, ponctuel ensuite. Ces temps ne sont pas négligeables. Ils doivent être anticipés dans l'agenda des personnes concernées avant le démarrage du projet.
+
+**Que faire si on n'a pas de responsable IT en interne ?**
+
+Le prestataire informatique externe peut tenir ce rôle, à condition d'être formellement intégré dès le démarrage. L'erreur est de l'informer après la signature du contrat IA et de le traiter comme un exécutant technique. Il doit être partie prenante du cadrage technique dès la première semaine.
+
+**Peut-on lancer un projet IA sans référent métier ?**
+
+Techniquement oui. En pratique, c'est la cause d'échec la plus documentée. Sans référent métier impliqué, les règles métier restent implicites, les cas limites ne sont pas couverts, et le taux d'adoption post-déploiement est faible. L'OCDE (2025) estime que 50 % des PME déclarent que leurs salariés manquent des compétences pour utiliser l'IA générative. Ce gap ne se comble pas uniquement par la formation : il se comble aussi par un référent interne qui fait le lien entre la technologie et les usages réels.
+
+**Comment savoir si mon organisation projet est suffisante ?**
+
+Trois questions. Qui valide que la solution livrée correspond aux besoins métier ? Qui gère les accès aux données et les intégrations SI ? Qui décide si le prestataire propose une option à budget supplémentaire ? Si vous avez un nom pour chacune, votre organisation est suffisante pour démarrer.
+
+## Passez de la théorie à l'action
+
+Désigner les trois rôles de votre équipe projet IA prend une heure. Les définir avec précision, formaliser la répartition interne/prestataire, et aligner les critères de succès avant de signer : c'est là que la plupart des PME perdent du temps.
+
+Smart Impulsion propose la Smart Analyse : en une demi-journée à une journée, sur un seul de vos processus, vous obtenez une grille de rôles opérationnelle et les prochains jalons de votre projet IA. Tarif fixe, de 1 000 à 2 000 € HT.
+
+[Découvrir la Smart Analyse](/services/audit)`,
+    author: "Laurent Bouzon",
+    date: "15 octobre 2026",
+    dateISO: "2026-10-15",
+    readTime: "12 min",
+    category: "IA & PME",
+    image: "/equipe-projet-ia-pme-hero.png",
+    imageAlt: "Image d'illustration pour l'article \"Équipe projet IA en PME : qui impliquer, combien de temps, et comment éviter le projet orphelin\"",
+    faq: [
+      {
+        question: "Faut-il recruter un chef de projet IA pour lancer un projet IA en PME ?",
+        answer: "Non. Dans la très grande majorité des PME, le projet IA est porté par des profils internes existants auxquels on attribue un rôle formel. Un sponsor (souvent le dirigeant), un référent métier (le responsable de la fonction concernée) et un point de contact IT suffisent pour cadrer et piloter un premier projet. Le recrutement d'un profil dédié n'a de sens qu'à partir du troisième ou quatrième projet.",
+      },
+      {
+        question: "Combien de temps par semaine ces rôles demandent-ils ?",
+        answer: "Le sponsor consacre 2 à 4 heures par semaine en phase de cadrage, puis 1 heure en suivi de déploiement. Le référent métier y passe 4 à 6 heures en phase d'ateliers, puis 2 heures en production. Le point de contact IT intervient 2 à 3 heures par semaine lors des phases d'intégration, moins en dehors. Ces temps sont cumulables si une même personne occupe deux rôles, ce qui est possible mais à surveiller.",
+      },
+      {
+        question: "Que se passe-t-il si on n'a pas de responsable IT en interne ?",
+        answer: "C'est fréquent en PME. Le point de contact IT peut très bien être votre prestataire informatique externe, à condition de formaliser son rôle dès le démarrage : accès aux données, intégrations avec le SI existant, politique de sécurité. L'erreur courante est de l'informer trop tard, en phase d'intégration, ce qui génère des délais de 4 à 8 semaines.",
+      },
+      {
+        question: "Peut-on lancer un projet IA sans référent métier ?",
+        answer: "Techniquement oui. En pratique, c'est l'une des causes d'échec les plus fréquentes. Sans référent métier, le prestataire modélise des processus que personne ne validera en interne. Les règles métier restent implicites, les cas limites ne sont pas anticipés, et le taux d'adoption post-déploiement est faible. Selon IBM Institute for Business Value, enquête France 2025, 77 % des entreprises considèrent essentiel d'impliquer les fonctions métier pour que le projet aboutisse.",
+      },
+      {
+        question: "Comment savoir si mon organisation projet IA est suffisante ?",
+        answer: "Trois questions suffisent. Première question : savez-vous qui, dans votre entreprise, validera que la solution livrée correspond aux besoins métier ? Deuxième question : savez-vous qui gère les accès aux données et les intégrations SI ? Troisième question : qui prendra la décision si le prestataire propose une option à 20 000 euros supplémentaires ? Si vous avez une réponse claire et un nom pour chaque question, votre organisation est suffisante pour démarrer.",
+      },
+    ],
+  },
+  {
     slug: "contrat-prestataire-ia-pme",
     title: "Contrat prestataire IA PME : clauses a negocier",
     seoTitle: "Contrat prestataire IA PME : clauses a negocier",
