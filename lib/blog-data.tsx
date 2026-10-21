@@ -69,6 +69,247 @@ export interface BlogArticle {
 
 export const blogArticles: BlogArticle[] = [
   {
+    slug: "ai-act-article-5-pratiques-interdites-pme",
+    title: "AI Act article 5 : les pratiques IA que votre PME n'a plus le droit d'utiliser",
+    seoTitle: "AI Act article 5 : pratiques IA interdites PME",
+    excerpt:
+      "Article 5 de l'AI Act : 8 pratiques IA interdites depuis fevrier 2025, dont 6 concernent les employeurs. Ce que votre PME doit verifier.",
+    content: `La plupart des dirigeants de PME ont intégré l'AI Act comme un sujet de "systèmes haut risque" : recrutement automatisé, crédit, contrôle critique des infrastructures. Quelque chose qui concerne surtout les grandes entreprises, les éditeurs logiciels, les secteurs régulés.
+
+Cette lecture est en partie correcte. Elle est aussi dangereusement incomplète.
+
+L'article 5 du Règlement (UE) 2024/1689, dit AI Act, liste les pratiques IA interdites pour toutes les entreprises, sans exception de taille. Ces pratiques IA interdites sont en vigueur depuis le **2 février 2025**, bien avant les obligations sur les systèmes haut risque. Six des huit pratiques visées concernent directement les employeurs et les utilisateurs de logiciels RH ou marketing. Le plafond d'amende, fixé par l'article 99(3) du même règlement : 35 millions d'euros ou 7 % du chiffre d'affaires mondial, selon le montant le plus élevé.
+
+Ce qui suit n'est pas une synthèse académique du texte. C'est un examen outillé, posture de dirigeant PME, de ce que vous devez avoir vérifié dans vos outils avant qu'un contrôle ne vous pose la question à votre place.
+
+## Les pratiques interdites AI Act article 5 : ce qui s'applique à votre PME depuis février 2025
+
+### Un calendrier que beaucoup ont raté
+
+L'AI Act est entré en vigueur le 1er août 2024. Son calendrier d'application est progressif : les interdictions absolues de l'article 5 sont les **premières** à s'appliquer, dès le 2 février 2025, soit six mois après. Les obligations liées aux systèmes haut risque (article 6 et annexe III) ne deviennent pleinement exigibles qu'à partir d'août 2026.
+
+> "Les dispositions de l'article 5 s'appliquent à compter du 2 février 2025."
+>
+> *AI Act, article 113, paragraphe 1*
+
+Si vous avez attendu "août 2026 pour vous mettre en conformité", vous avez déjà potentiellement une fenêtre de non-conformité ouverte depuis un an et demi.
+
+### Le périmètre des "opérateurs" : fournisseurs ET déployeurs
+
+L'erreur la plus fréquente consiste à penser que ces interdictions ne ciblent que les éditeurs de logiciels. Le texte vise explicitement les "opérateurs", une catégorie qui inclut le **déployeur**, c'est-à-dire l'entreprise qui utilise le système.
+
+Si votre outil RH, votre plateforme de visioconférence ou votre logiciel de gestion de la relation client intègre une fonctionnalité interdite, et que vous continuez à l'utiliser, vous êtes en infraction. Le fait que l'éditeur soit responsable du développement de la fonctionnalité ne vous exonère pas.
+
+> "Non-compliance with the prohibition of the AI practices referred to in Article 5 shall be subject to administrative fines of up to EUR 35 000 000 or, if the offender is an undertaking, up to 7 % of its total worldwide annual turnover for the preceding financial year, whichever is higher."
+>
+> *AI Act, article 99(3)*
+
+### Un contexte d'adoption IA qui rend la question urgente
+
+Selon Eurostat, 18,16 % des entreprises françaises utilisaient déjà l'IA en 2025, avec un taux montant à 30 % pour les entreprises de taille moyenne. Ce n'est plus une technologie de pionniers. C'est une réalité opérationnelle dans de nombreuses PME françaises, ce qui signifie que les fonctionnalités potentiellement problématiques sont déjà déployées chez certains d'entre vous.
+
+## Les 4 interdictions qui visent directement les employeurs
+
+L'article 5(1) comporte huit alinéas (a à h). Quatre d'entre eux concernent directement la relation employeur-salarié ou les pratiques RH et managériales. Voici ce qu'ils recouvrent dans un contexte PME.
+
+### Interdiction (f) : l'inférence d'émotions au travail et la surveillance émotionnelle
+
+C'est sans doute l'interdiction la plus méconnue et la plus susceptible de concerner des outils déjà en usage.
+
+La **surveillance émotionnelle par l'IA** désigne tout système automatisé qui tente de déduire ou de prédire les états émotionnels d'une personne (stress, engagement, satisfaction, hostilité) à partir de signaux physiologiques, faciaux, vocaux ou comportementaux, dans un contexte professionnel. L'article 5(1)(f) du Règlement (UE) 2024/1689 interdit cette pratique dans les lieux de travail et établissements d'enseignement, sauf raison médicale ou de sécurité dûment justifiée.
+
+L'inférence des émotions au travail par l'IA couvre un périmètre plus large que ce que les éditeurs de logiciels laissent entendre.
+
+> "Il est interdit le déploiement ou la mise sur le marché de systèmes d'IA destinés à inférer les émotions d'une personne physique dans les domaines du lieu de travail et des établissements d'enseignement, sauf si cela est nécessaire à des raisons médicales ou de sécurité."
+>
+> *AI Act, article 5(1)(f)*
+
+Concrètement, l'interdiction de l'inférence émotions travail IA vise :
+
+- Les fonctionnalités "d'analyse de sentiment" des participants dans les outils de visioconférence (certaines plateformes ont proposé ou testé ce type de module)
+- Les outils d'engagement collaborateur qui "scorent" l'humeur ou la motivation via l'analyse du texte ou de la voix
+- Les systèmes d'IA de recrutement qui prétendent "lire les émotions" ou évaluer la personnalité via la reconnaissance faciale ou vocale lors d'entretiens vidéo
+
+Le considérant 44 du règlement est explicite sur la raison de cette interdiction : il invoque "des préoccupations sérieuses quant à la base scientifique" de ce type d'inférence. En d'autres termes, ces systèmes ne sont pas seulement éthiquement problématiques, ils sont scientifiquement discutables.
+
+**Ce que vous devez vérifier :** dans chaque contrat SaaS RH, recrutement ou collaboration, les "features" d'analyse comportementale ou émotionnelle. Lisez les descriptions de fonctionnalités, pas seulement les CGU.
+
+### Interdiction (b) : l'exploitation de vulnérabilités
+
+Cette interdiction vise les systèmes qui exploitent délibérément les faiblesses d'une personne pour influencer son comportement de manière préjudiciable.
+
+La formulation du texte cible les vulnérabilités "dues à leur âge, à leur handicap ou à une situation sociale ou économique spécifique". Dans un contexte employeur, cela peut inclure :
+
+- Un outil de communication interne qui adapte ses messages pour exploiter le fait qu'un salarié est en difficulté financière ou en situation précaire
+- Un système de recommandation de formation qui oriente vers des offres payantes des collaborateurs identifiés comme peu qualifiés
+
+**Ce que vous devez vérifier :** les outils qui utilisent des profils individuels pour personnaliser des messages à destination de vos salariés, en particulier si ces profils incluent des indicateurs de situation personnelle.
+
+### Interdictions (a) et (c) : manipulation subliminale et scoring social
+
+L'interdiction (a) vise les systèmes utilisant "des techniques subliminales agissant à l'insu de la personne ou des techniques délibérément manipulatrices ou trompeuses" pour influencer un comportement au détriment de la personne.
+
+L'interdiction (c) concerne les systèmes d'évaluation ou de notation des personnes physiques sur la base de leur comportement social ("scoring social") conduisant à un traitement défavorable injustifié.
+
+Ces deux interdictions sont les plus susceptibles de concerner :
+
+- Certains outils de "nudge" managérial qui poussent des comportements sans que le salarié comprenne le mécanisme
+- Des systèmes qui construisent un profil comportemental global d'un collaborateur pour alimenter des décisions RH
+
+## Les autres interdictions moins évidentes, mais à connaître
+
+### Interdiction (h) : identification biométrique à distance en temps réel dans les espaces publics
+
+L'article 5(1)(h) interdit "l'utilisation de systèmes d'identification biométrique à distance en temps réel dans des espaces accessibles au public à des fins répressives", avec des exceptions très encadrées.
+
+Pour une PME, la question se pose si vous avez déployé ou envisagez de déployer un contrôle d'accès biométrique facial dans des zones accessibles au public. Les cas à examiner prioritairement :
+
+- Entrée d'un site industriel ou d'un entrepôt visible depuis la voie publique
+- Hall d'accueil clients ou espace de réception ouvert à des tiers
+- Parking ou espace extérieur partagé avec d'autres occupants
+
+La distinction entre "espace interne réservé aux salariés" et "zone accessible au public" n'est pas toujours évidente et mérite une vérification avec votre conseil juridique.
+
+### Interdiction (d) : profilage prédictif et évaluation du risque pénal
+
+L'article 5(1)(d) interdit les systèmes d'IA utilisés pour évaluer le risque qu'une personne physique commette une infraction pénale, sur la seule base du profilage de cette personne ou de l'évaluation de ses traits de personnalité ou caractéristiques. Cette interdiction vise les systèmes de "prédiction criminelle" individuelle. Elle est peu pertinente pour la grande majorité des PME, sauf si vous opérez dans des secteurs de sécurité privée ou de gestion des risques comportementaux.
+
+Note complémentaire : les outils d'analyse vidéo rétrospective permettant d'identifier des personnes dans des enregistrements de surveillance relèvent des obligations pour les systèmes haut risque (annexe III) plutôt que des interdictions absolues de l'article 5.
+
+## Vérifier vos outils face aux pratiques IA interdites : la grille outil par outil
+
+L'objectif de ce tableau n'est pas de vous alarmer inutilement. C'est de vous donner un cadre pour passer en revue vos outils en moins d'une heure avec votre DRH ou votre responsable informatique.
+
+### Outils à passer en revue en priorité
+
+**Outils de visioconférence et collaboration**
+
+| Fonctionnalité à chercher | Interdiction applicable | Action |
+|---|---|---|
+| "Analyse de sentiment" des participants | Article 5(1)(f) | Désactiver ou demander confirmation à l'éditeur que la fonctionnalité est désactivée |
+| Score d'engagement en réunion | Article 5(1)(f) | Idem |
+| Analyse de l'expression faciale | Article 5(1)(f) | Idem |
+
+**Outils RH et recrutement**
+
+| Fonctionnalité à chercher | Interdiction applicable | Action |
+|---|---|---|
+| Analyse des émotions en entretien vidéo | Article 5(1)(f) | Bannir l'usage de cette fonctionnalité |
+| Score comportemental global du candidat | Article 5(1)(c) et (a) | Vérifier la méthodologie avec l'éditeur |
+| Personnalisation basée sur profil de vulnérabilité | Article 5(1)(b) | Demander l'architecture de données à l'éditeur |
+
+**Outils marketing et communication interne**
+
+| Fonctionnalité à chercher | Interdiction applicable | Action |
+|---|---|---|
+| Personnalisation sur profil de situation économique | Article 5(1)(b) | Revoir la segmentation utilisée |
+| Mécanismes de "nudge" opaques | Article 5(1)(a) | Documenter et rendre explicite le mécanisme |
+| Scoring comportemental client/salarié agrégé | Article 5(1)(c) | Vérifier l'usage des scores |
+
+### Questions à poser à vos éditeurs SaaS
+
+Voici les questions concrètes à envoyer à chaque éditeur d'outil IA que vous utilisez :
+
+1. Votre solution intègre-t-elle des fonctionnalités d'inférence ou d'analyse d'émotions ? Si oui, sont-elles désactivées par défaut dans notre configuration ?
+2. Quelles données biométriques ou comportementales collecte votre solution sur nos utilisateurs ou salariés ?
+3. Votre documentation de conformité AI Act (article 5 spécifiquement) est-elle disponible ? Sous quelle forme ?
+4. En tant que fournisseur, avez-vous réalisé une analyse de conformité article 5 de l'AI Act ? Pouvez-vous nous transmettre une attestation ou un résumé exécutif ?
+
+Conservez les réponses. Elles constituent des éléments de documentation en cas de contrôle.
+
+### Ce que le règlement Digital Omnibus ne change pas
+
+Une clarification utile : le Règlement (UE) 2026/1744, dit Digital Omnibus Act, entré en vigueur le 27 juillet 2026, a ajusté certaines dispositions de l'AI Act concernant les modèles d'IA à usage général. Il **ne modifie pas l'article 5**. Les interdictions absolues restent identiques dans leur périmètre et leur calendrier d'application. Pour un point complet sur ce qui s'est appliqué à votre PME au 2 août 2026 et ce qui a été repoussé, voir notre article [AI Act au 2 août 2026 : ce qui s'applique vraiment à votre PME](/blog/ai-act-2-aout-2026-ce-qui-sapplique-pme).
+
+## Ce que vous devez faire maintenant
+
+### Trois actions dans les 30 prochains jours
+
+Voici une liste d'actions concrètes, ordonnées par priorité :
+
+1. **Inventorier vos outils IA actifs** : RH, recrutement, visioconférence, marketing automation, surveillance de site. Listez ceux qui intègrent explicitement des fonctionnalités d'analyse comportementale ou émotionnelle.
+2. **Contacter vos éditeurs** avec les quatre questions listées ci-dessus. Demandez une réponse écrite. L'absence de réponse est en elle-même un signal d'alerte.
+3. **Désactiver ou suspendre** toute fonctionnalité d'analyse d'émotions au travail jusqu'à obtenir une confirmation de conformité de l'éditeur.
+
+### Ce qui doit figurer dans votre documentation
+
+Si vous avez déjà entamé une démarche de conformité AI Act (notamment pour l'article 4 sur la littératie IA), cette analyse doit y être intégrée. Votre registre des systèmes IA doit contenir, pour chaque outil vérifié :
+
+- Le nom du système et l'éditeur concerné
+- La date de la vérification et l'interlocuteur chez l'éditeur
+- Le statut : "article 5 conforme", "en attente de réponse éditeur" ou "fonctionnalité désactivée"
+- Les échanges écrits conservés (e-mails, attestations, documentation fournie)
+
+> L'objectif n'est pas d'avoir un dossier parfait le jour d'un contrôle. C'est de démontrer une démarche active, tracée, avec des dates et des interlocuteurs identifiés.
+
+Pour les PME qui souhaitent approfondir la question du cadre documentaire, notre article sur les [obligations RGPD IA pour les PME](/blog/rgpd-ia-pme-obligations-cnil-2026) donne un aperçu complémentaire du régime de responsabilité applicable à vos outils.
+
+### L'erreur à éviter : déléguer la question à votre éditeur sans vérification
+
+Certains éditeurs affirmeront que "leur solution est conforme AI Act". Cette déclaration ne vous protège pas. La conformité article 5 implique que **vous**, en tant que déployeur, n'utilisez pas une fonctionnalité interdite. Même si l'éditeur a "certifié" son produit, si vous avez activé une fonctionnalité d'inférence émotionnelle dans votre configuration, la responsabilité peut vous incomber.
+
+Pour éviter cette erreur, vérifiez vous-même les points suivants avant de vous fier à une déclaration de conformité :
+
+- Quelles fonctionnalités sont activées dans votre instance ou votre contrat spécifique (pas dans le produit générique)
+- Si l'outil propose des modules optionnels d'analyse comportementale ou émotionnelle, lesquels sont activés par défaut
+- Ce que l'éditeur entend exactement par "conforme AI Act" : couvre-t-il l'article 5, l'article 6, ou uniquement les obligations GPAI
+
+Notre [guide complet sur l'AI Act pour les PME](/blog/ai-act-pme-guide-2026) détaille l'architecture globale du règlement et les responsabilités respectives des fournisseurs et des déployeurs. Pour la dimension RH spécifiquement, l'article sur l'[AI Act et RH en PME](/blog/ai-act-rh-tri-cv-paie-pme) couvre les obligations liées aux systèmes de tri de CV et de gestion administrative, qui relèvent eux de l'annexe III, un périmètre distinct mais complémentaire à celui de l'article 5.
+
+L'article 5 de l'AI Act n'est pas un sujet de juriste. C'est un sujet opérationnel, qui concerne directement les outils que vos équipes utilisent aujourd'hui. La question n'est pas de savoir si vous allez "implémenter la conformité" : c'est de vérifier si des fonctionnalités actuellement actives dans vos logiciels vous exposent à une sanction que vous ignoriez.
+
+Ce travail de vérification prend quelques heures, pas plusieurs semaines.
+
+**Smart Analyse : vérifier votre exposition article 5 en une demi-journée**
+
+Si vous avez plusieurs outils IA déployés et souhaitez réaliser ce diagnostic de façon structurée et documentée, la Smart Analyse est un audit payant d'une demi-journée à une journée centré sur un seul processus ou périmètre. Tarif : 1 000 à 2 000 € HT.
+
+L'objectif : identifier les fonctionnalités à risque dans votre stack actuelle, poser les bonnes questions à vos éditeurs, et produire un document de traçabilité utilisable en cas de contrôle.
+
+[Voir le détail de la Smart Analyse](/services/audit)
+
+## Questions fréquentes sur les pratiques IA interdites de l'AI Act
+
+**Mon outil RH est-il concerné par les interdictions de l'AI Act ?**
+
+Oui, si votre outil RH ou de recrutement intègre une fonctionnalité d'analyse d'émotions, de reconnaissance faciale lors d'entretiens vidéo, ou un "scoring comportemental global" du candidat. L'article 5 du Règlement (UE) 2024/1689 s'applique au déployeur, c'est-à-dire à l'entreprise qui utilise le logiciel, et pas seulement à l'éditeur qui l'a développé. La vérification porte sur les fonctionnalités activées dans votre configuration, pas sur le contrat de l'éditeur.
+
+**Qu'est-ce que la surveillance émotionnelle interdite par l'AI Act ?**
+
+La surveillance émotionnelle interdite par l'AI Act désigne tout système d'IA qui infère les émotions d'un salarié ou d'un candidat sur le lieu de travail, par exemple via l'analyse de son expression faciale, de sa voix, de son comportement en réunion ou de ses écrits. L'article 5(1)(f) du Règlement (UE) 2024/1689 interdit cette pratique dans les lieux de travail et établissements d'enseignement depuis le 2 février 2025, sauf exception médicale ou de sécurité. Les outils d'analyse de sentiment en visioconférence et les plateformes d'entretien vidéo qui "lisent" les émotions entrent dans ce périmètre.
+
+**Quelles sont les amendes pour violation de l'article 5 de l'AI Act ?**
+
+L'article 99(3) du Règlement (UE) 2024/1689 fixe les amendes pour non-respect des interdictions de l'article 5 à hauteur de 35 millions d'euros ou 7 % du chiffre d'affaires mondial annuel, selon le montant le plus élevé. Ces seuils s'appliquent aussi bien au fournisseur (éditeur du logiciel) qu'au déployeur (l'entreprise qui utilise le système). Une PME française n'est donc pas à l'abri d'une sanction si elle utilise une fonctionnalité interdite, même achetée à un éditeur tiers.
+
+**Sources**
+
+- Texte officiel de l'AI Act (Règlement UE 2024/1689) : [https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX%3A32024R1689](https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX%3A32024R1689)
+- Règlement Digital Omnibus (UE 2026/1744) : [https://eur-lex.europa.eu/eli/reg/2026/1744/oj/eng](https://eur-lex.europa.eu/eli/reg/2026/1744/oj/eng)
+- Eurostat, statistiques sur l'utilisation de l'IA en entreprise 2025 : [https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Artificial_intelligence_-_statistics_on_the_use_in_enterprises](https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Artificial_intelligence_-_statistics_on_the_use_in_enterprises)`,
+    author: "Laurent Bouzon",
+    date: "21 octobre 2026",
+    dateISO: "2026-10-21",
+    readTime: "9 min",
+    category: "Compliance & AI Act",
+    image: "/ai-act-article-5-pratiques-interdites-pme-hero.png",
+    imageAlt: "Image d'illustration pour l'article \"AI Act article 5 : les pratiques IA que votre PME n'a plus le droit d'utiliser\"",
+    faq: [
+      {
+        question: "Depuis quand les pratiques interdites de l'AI Act sont-elles en vigueur ?",
+        answer: "Depuis le 2 février 2025, soit 6 mois après l'entrée en vigueur du règlement (1er août 2024). C'est la première obligation opérationnelle de l'AI Act, antérieure aux exigences pour les systèmes haut risque.",
+      },
+      {
+        question: "Mon entreprise est-elle responsable si un logiciel SaaS qu'elle utilise contient une fonctionnalité interdite ?",
+        answer: "Oui. L'article 5 interdit 'l'utilisation' du système, pas seulement sa mise sur le marché. L'entreprise déployeuse (utilisatrice) peut être sanctionnée même si c'est l'éditeur logiciel qui a développé la fonctionnalité prohibée.",
+      },
+      {
+        question: "Quelles amendes risque-t-on en cas de violation de l'article 5 ?",
+        answer: "Jusqu'à 35 millions d'euros ou 7 % du chiffre d'affaires mondial annuel, selon le montant le plus élevé. Ces seuils s'appliquent tant au fournisseur qu'au déployeur.",
+      },
+    ],
+  },
+  {
     slug: "ia-productivite-dirigeant-pme",
     title: "IA et productivité du dirigeant PME : les 6 tâches à déléguer dès cette semaine",
     seoTitle: "IA productivité dirigeant PME : 6 tâches à déléguer",
