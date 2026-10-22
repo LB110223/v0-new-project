@@ -69,6 +69,241 @@ export interface BlogArticle {
 
 export const blogArticles: BlogArticle[] = [
   {
+    slug: "ia-tresorerie-pme",
+    title: "IA et trésorerie PME : anticiper les tensions de cash avant qu'elles arrivent",
+    seoTitle: "IA trésorerie PME : prévoir les tensions de cash",
+    excerpt:
+      "Comment l'IA aide les PME à prévoir les flux de trésorerie, détecter les tensions de BFR et éviter les mauvaises surprises. Cas d'usage concrets.",
+    content: `En février 2024, un quart des TPE-PME françaises affichaient un solde bancaire négatif, soit le double du taux d'avant-crise sanitaire (13 % en février 2020). Le solde bancaire médian a reculé de 26 % sur la même période (INSEE, "Fragilité bancaire des TPE et PME", Les entreprises en France 2025, janvier 2025).
+
+Ce chiffre dit une chose précise : la trésorerie est devenue l'angle mort le plus coûteux du pilotage PME. Pas parce que les dirigeants ne s'en préoccupent pas. Parce qu'ils la découvrent trop tard.
+
+L'IA appliquée à la prévision de cash ne fait pas disparaître les tensions, mais elle permet de les anticiper avec plusieurs semaines d'avance. Sur un découvert à 50 000 euros, c'est la différence entre une facilité de caisse négociée sereinement et un appel d'urgence à votre banquier un lundi matin. Cet article couvre les cas d'usage accessibles dès maintenant, sans DSI, sur les outils déjà connectés à votre comptabilité.
+
+
+
+## La trésorerie, l'angle mort du tableau de bord PME
+
+> **Définition : Plan de trésorerie** : document prévisionnel qui projette jour par jour les encaissements attendus et les décaissements programmés, pour anticiper le solde bancaire disponible à une date future. Distinct du bilan et du compte de résultat, qui sont des outils comptables rétrospectifs.
+
+### Pourquoi les outils actuels arrivent trop tard
+
+La plupart des PME pilotent leur trésorerie avec le relevé bancaire et un fichier Excel mis à jour de façon hebdomadaire. Le logiciel de comptabilité enregistre ce qui s'est passé, pas ce qui va se passer. Ces deux logiques ne se confondent pas, et les outils classiques ne sont pas taillés pour la seconde.
+
+> **À retenir** : Un tableau de bord comptable bien tenu vous dit où vous en étiez la semaine dernière. Il ne vous dit pas si vous passerez en négatif dans 22 jours.
+
+Le résultat se lit dans les données : 36 % des dirigeants de TPE-PME signalaient une détérioration de leur trésorerie en début T4 2025, et 22 % déclaraient des difficultés à financer leur trésorerie à court terme (contre 19 % au trimestre précédent) (Bpifrance Le Lab / Rexecode, baromètre trimestriel TPE-PME T4 2025, novembre 2025). La proportion ne baisse pas.
+
+> **Définition : BFR (Besoin en Fonds de Roulement)** : l'écart entre les sommes que votre entreprise a déjà décaissées (fournisseurs payés, salaires versés) et celles qu'elle n'a pas encore encaissées (clients en attente de paiement). Un BFR élevé ou en croissance signale une tension de trésorerie à venir, même si le carnet de commandes est plein.
+
+
+
+## Ce que l'IA change concrètement pour la prévision de cash
+
+### Brancher ses données existantes sur un outil IA
+
+Le point de départ est simple. Les outils de prévision de trésorerie IA (Agicap, Pennylane Treasury, Fygr, Cashlab) se connectent à deux sources de données :
+
+- **Les flux bancaires** : via l'accès API ouvert par la directive PSD2, disponible sur toutes les banques françaises depuis 2023. Pas de développement technique requis. La connexion se fait depuis l'interface de l'outil, en quelques clics.
+- **La facturation et les créances clients** : via un connecteur natif avec votre logiciel comptable (Pennylane, Sage, QuickBooks, Cegid) ou votre logiciel de facturation.
+
+Une fois connecté, l'outil identifie automatiquement les patterns : quels clients règlent à 45 jours plutôt qu'à 30, quel poste est récurrent le 5 du mois, quelle période crée un creux de trésorerie.
+
+### De la donnée brute au prévisionnel glissant
+
+L'outil génère ensuite un prévisionnel mis à jour quotidiennement, avec trois horizons distincts :
+
+- **J+30** : horizon déterministe. Les factures émises et les échéances connues sont intégrées. La fiabilité sur cet horizon est généralement élevée, car les flux sont en grande partie connus à l'avance.
+- **J+60** : horizon prévisionnel. L'outil extrapole les comportements de paiement observés. La marge d'erreur s'élargit, mais les tendances sont identifiables.
+- **J+90** : horizon de scénarios. L'outil produit une fourchette haute/basse selon des hypothèses paramétrables. Utile pour anticiper un investissement ou une commande importante.
+
+> **À retenir** : La prévision à 30 jours est fiable. Celle à 90 jours est une aide à la décision, pas une certitude. Traiter les deux de la même façon serait une erreur.
+
+### Les outils accessibles sans DSI
+
+Les options du marché couvrent l'essentiel des profils PME :
+
+- **Agicap** : éditeur lyonnais dont la plateforme est dédiée à la gestion de trésorerie des PME et ETI, déployée en France, Espagne et Allemagne. Connecteurs natifs avec Sage, Pennylane, QuickBooks, Cegid, Xero. Module d'alerte et de simulation inclus. Budget : de 300 à 800 euros par mois selon la taille.
+- **Pennylane (module Treasury)** : intégré nativement pour les PME déjà sur Pennylane. Frictions réduites si votre expert-comptable utilise déjà la plateforme.
+- **Cashlab** : option pour les PME et ETI multi-entités. Connecteurs ERP plus larges (SAP, Oracle Netsuite).
+- **Fygr** : offre accessible pour les très petites structures, interface simplifiée, prix d'entrée plus bas.
+
+La configuration initiale prend en général 2 à 5 jours ouvrés pour une PME de 20 à 100 salariés. Aucun DSI n'est requis.
+
+
+
+## 3 cas d'usage trésorerie IA accessibles dès maintenant
+
+Trois cas d'usage sont déployables sans DSI sur les outils du marché (Agicap, Pennylane Treasury, Cashlab, Fygr) : le suivi automatique des retards de paiement clients, l'alerte découvert à 30 jours, et la simulation d'impact cash avant un investissement. Ils se séquencent du plus simple au plus avancé.
+
+> **Définition : DSO (Days Sales Outstanding)** : le délai moyen, en jours, entre l'émission d'une facture client et son encaissement effectif. Un DSO de 45 jours signifie que votre entreprise attend en moyenne 45 jours après la facturation pour être payée. Réduire le DSO de 5 jours libère mécaniquement du cash sans aucune vente supplémentaire.
+
+### Cas 1 : Détection automatique des retards de paiement clients (DSO)
+
+**Le problème.** Vos clients règlent théoriquement à 30 ou 45 jours. En pratique, certains glissent progressivement à 50, puis 60, puis 75 jours, sans jamais contester une facture. Ce glissement ne se détecte pas sur un relevé bancaire, où les encaissements arrivent mélangés. Il faut croiser les dates d'émission de facture avec les dates de règlement, client par client, sur plusieurs mois.
+
+**Ce que l'IA fait.** L'outil calcule automatiquement le DSO (délai moyen de paiement) par client et détecte les dérives. Quand un client qui réglait à 32 jours passe à 48 jours sur deux factures consécutives, une alerte est générée. Le dirigeant reçoit une notification (par email ou sur mobile) avant que l'impact ne frappe sa trésorerie.
+
+**Les prérequis :**
+- Logiciel de facturation ou ERP cloud, avec dates d'échéance renseignées par client
+- Historique de 6 mois minimum
+- Connexion bancaire active pour le rapprochement automatique
+
+**Ce que ça produit.** Les entreprises actives sur le suivi automatisé du DSO constatent une réduction mesurable du délai moyen de paiement sur leur portefeuille clients. Pour une PME avec 500 000 euros de créances clients en cours, 5 jours de DSO en moins libèrent environ 7 000 euros de trésorerie disponible.
+
+À titre de contexte : l'Observatoire des délais de paiement de la Banque de France a calculé que les PME et microentreprises auraient collectivement disposé de 13 milliards d'euros supplémentaires en 2024 si aucun paiement ne dépassait le délai légal de 60 jours (Observatoire des délais de paiement, rapport annuel 2025 remis au ministre chargé des PME, Banque de France, septembre 2026). Les retards de paiement des grandes entreprises restent la première cause externe de tension de BFR pour les PME sous-traitantes.
+
+
+
+### Cas 2 : Alerte découvert sous 30 jours
+
+**Le problème.** Le découvert non anticipé est le scénario le plus coûteux. Un dépassement non prévu sur un compte courant PME engendre des agios et commissions significativement plus élevés que le coût d'une facilité de caisse négociée en amont. Ce n'est pas le montant seul qui pose problème. C'est l'effet de surprise et la perte de marge de manoeuvre pour renégocier.
+
+**Ce que l'IA fait.** L'outil projette le solde bancaire jour par jour sur les 30 prochains jours, en intégrant les décaissements programmés et les encaissements prévus. Dès que la projection passe sous un seuil paramétré (par exemple : solde disponible inférieur à 15 000 euros), une alerte est déclenchée. Le dirigeant dispose alors de 3 à 4 semaines pour agir : accélérer des relances clients, décaler une dépense, ou contacter sa banque pour une facilité de caisse préventive.
+
+**Les prérequis :**
+- Connexion bancaire PSD2 active (toutes les banques FR depuis 2023)
+- Catégorisation des flux paramétrée (les outils catégorisent automatiquement la grande majorité des flux bancaires récurrents dès les premières semaines)
+- Seuil d'alerte défini par le dirigeant
+
+**Ce que ça produit.** Le coût différentiel entre une facilité de caisse négociée à l'avance et un découvert subi justifie à lui seul l'abonnement à l'outil pour une PME dont le BFR fluctue régulièrement. Anticiper évite aussi la pression dans la relation bancaire.
+
+
+
+### Cas 3 : Simulation "que se passe-t-il si..." avant un investissement
+
+**Le problème.** Vous envisagez de recruter un commercial, d'acheter une machine, ou de répondre à un appel d'offres qui exigera 3 mois de travail avant la première facture. La question n'est pas "est-ce que c'est rentable ?" mais "est-ce que j'ai le cash pour tenir jusqu'au premier encaissement, sans casser ma trésorerie courante ?"
+
+**Ce que l'IA fait.** Le module de simulation vous permet de créer un scénario : vous saisissez la date de décaissement prévu, le montant, et l'horizon de retour estimé. L'outil intègre cette hypothèse dans le prévisionnel glissant et affiche le creux de trésorerie estimé. Vous voyez le point bas, sa date, et l'écart avec votre seuil de vigilance.
+
+**Les prérequis :**
+- Prévisionnel de trésorerie déjà opérationnel (cas d'usage 1 en place préalablement)
+- Module de simulation inclus dans Agicap, Pennylane, Cashlab (aucun développement sur mesure requis)
+- 15 à 30 minutes pour paramétrer un scénario
+
+**Ce que ça produit.**
+
+> Le baromètre annuel PwC-DFCG (enquête auprès de plus de 220 directeurs financiers, majoritairement PME-ETI, publié en novembre 2025) identifie la gestion du cash et du BFR comme la 2e priorité des directions financières pour 2026, devant la transformation digitale pour la première fois depuis 3 ans.
+
+Ce cas d'usage est particulièrement utile pour les PME à BFR variable : BTP, négoce, distribution, IAA saisonnière. Ce sont les profils pour lesquels le délai entre l'engagement de dépenses et l'encaissement est le plus long, et les simulations les plus utiles.
+
+
+
+## Les prérequis avant de se lancer
+
+Trois conditions doivent être réunies : des flux bancaires synchronisables, des factures avec dates d'échéance explicites, et un plan comptable cohérent sur 12 mois. Sans ces prérequis, l'outil produit des prévisions inexactes quelle que soit sa sophistication.
+
+### La qualité des données en entrée
+
+Un outil de prévision IA est au moins aussi exigeant en données qu'un Excel bien tenu. Il l'est davantage, parce qu'il automatise des calculs qui supposent des données propres.
+
+Avant de configurer un outil, vérifiez ces points :
+
+1. **Vos flux bancaires sont synchronisables.** Toutes les banques françaises sont en principe compatibles PSD2 depuis 2023. En pratique, quelques banques régionales ou comptes spécifiques (compte séquestre, compte devises) peuvent poser des difficultés techniques. Vérifiez avec votre prestataire avant de signer.
+2. **Vos factures clients ont des dates d'échéance explicites.** Si votre logiciel de facturation ne renseigne pas systématiquement la date d'échéance, la détection de DSO sera partielle.
+3. **Votre plan comptable est cohérent sur 12 mois.** Une rupture de catégorie (changement de logiciel, migration comptable) crée des artefacts dans l'historique que l'IA ne peut pas corriger seule.
+4. **Vos charges fixes sont enregistrées comme récurrentes.** Loyers, abonnements, prélèvements URSSAF, acomptes IS : si ces éléments ne sont pas préalablement catégorisés, le prévisionnel sera moins précis sur les décaissements.
+
+### Ce que votre expert-comptable doit vérifier avant le déploiement
+
+Si vous êtes sur Pennylane, Sage ou QuickBooks, l'expert-comptable tient déjà la cohérence du plan comptable. Vérifiez avec lui trois points avant de vous lancer :
+
+- Les factures émises sont-elles saisies au fil de l'eau ou en batch mensuel ? (L'IA exige une saisie au fil de l'eau.)
+- Le rapprochement bancaire est-il hebdomadaire ou seulement en clôture mensuelle ?
+- Les charges sociales et les échéances fiscales (TVA, acomptes IS) sont-elles renseignées à l'avance ?
+
+Ces prérequis correspondent à une hygiène comptable de base. S'ils ne sont pas en place, commencez par là.
+
+
+
+## Ce que ce n'est pas
+
+### Pas de la prévision commerciale
+
+La prévision de trésorerie IA travaille sur des flux réels et des engagements contractuels. Elle ne prédit pas ce que vous allez vendre le trimestre prochain. Confondre les deux conduit à des décisions mal informées : une bonne prévision de trésorerie avec un chiffre d'affaires surestimé reste dangereuse.
+
+### Pas un remplacement du DAF ni de votre expert-comptable
+
+Ces outils ne produisent pas de décision. Ils produisent de l'information structurée.
+
+La décision d'accélérer une relance client, de reporter un investissement, ou de solliciter une facilité de caisse reste celle du dirigeant, en dialogue avec son expert-comptable ou son DAF à temps partagé. L'outil signale un risque ; il ne pilote pas à votre place.
+
+> **À retenir** : Un prévisionnel IA sans validation humaine est une feuille de route sans conducteur. L'alerte ne vaut que si quelqu'un la lit et agit dans les 48 heures.
+
+### Ce que l'IA ne peut pas faire seule
+
+- **Corriger des données d'entrée incorrectes.** Si une facture est mal datée, mal catégorisée, ou absente du logiciel de facturation, elle ne figure pas dans le prévisionnel.
+- **Anticiper un événement exogène non prévu.** Une défaillance soudaine d'un client important, un redressement fiscal inopiné : ces événements ne sont dans aucun historique. L'outil les ignore jusqu'à ce qu'ils se matérialisent dans les flux.
+- **Se substituer à une gestion de BFR active.** Savoir qu'un client vous doit 45 000 euros depuis 70 jours ne suffit pas. Relancer, négocier, arbitrer entre relation commerciale et trésorerie : cela reste une décision humaine.
+
+
+
+## Par où commencer concrètement
+
+La démarche la plus efficace que Smart Impulsion observe chez les PME qui se lancent :
+
+1. Commencer par le cas d'usage 2 (alerte découvert) : il est le plus rapide à mettre en place, il ne nécessite que la connexion bancaire, et son ROI est immédiatement visible.
+2. Ajouter ensuite le suivi du DSO par client (cas 1) : cela suppose d'avoir un historique de facturation propre sur 6 mois.
+3. Introduire la simulation de scénarios (cas 3) au moment d'une décision importante (recrutement, investissement, réponse à un appel d'offres).
+
+Ce séquencement évite le piège du "tout configurer d'un coup" : une mise en place incomplète, un outil abandonné après 2 mois.
+
+Avant de choisir un outil, une demi-journée avec votre expert-comptable pour vérifier la qualité des données en entrée est un investissement qui change tout. C'est aussi ce que couvre une [Smart Analyse](/services/audit) : un audit payant d'une demi-journée à une journée sur un processus ciblé, à 1 000 à 2 000 euros HT, qui identifie précisément quel cas d'usage trésorerie est accessible dès maintenant dans votre contexte, et lequel attendra 3 mois que vos données soient prêtes.
+
+
+
+Pour approfondir les autres dimensions du pilotage financier en PME, ces articles du blog couvrent des territoires adjacents :
+
+- [Cas d'usage IA en PME : panorama par métier](/blog/cas-usage-ia-pme-par-metier) : le pilier du cluster, avec les 8 fonctions couvertes
+- [IA finance PME : 5 cas d'usage concrets pour le DAF](/blog/ia-finance-pme-cas-usage-daf) : budget, coûts, reporting analytique (angle DAF, distinct de la trésorerie opérationnelle)
+- [IA reporting financier PME : ce qui change vraiment](/blog/ia-reporting-financier-pme) : tableaux de bord et visualisation des données financières
+- [ROI de l'IA en entreprise : comment mesurer et maximiser votre retour sur investissement](/blog/roi-intelligence-artificielle-entreprise) : méthode de calcul du ROI pour les projets IA, applicable aux outils de trésorerie`,
+    author: "Laurent Bouzon",
+    date: "22 octobre 2026",
+    dateISO: "2026-10-22",
+    readTime: "7 min",
+    category: "Cas d'usage",
+    image: "/ia-tresorerie-pme-hero.png",
+    imageAlt: "Image d'illustration pour l'article \"IA et trésorerie PME : anticiper les tensions de cash avant qu'elles arrivent\"",
+    faq: [
+      {
+        question: "Quels outils IA permettent de gérer la trésorerie d'une PME sans DSI ?",
+        answer: "Agicap, Pennylane Treasury, Cashlab et Fygr sont les principales options accessibles sans compétences techniques. Ils se connectent aux flux bancaires via l'API PSD2 et aux logiciels comptables (Sage, Pennylane, QuickBooks, Cegid) via connecteurs natifs. La configuration initiale prend 2 à 5 jours ouvrés pour une PME de 20 à 100 salariés.",
+      },
+      {
+        question: "Comment l'IA prédit-elle les tensions de trésorerie d'une PME ?",
+        answer: "L'outil analyse l'historique des flux bancaires réels et des comportements de paiement clients pour projeter le solde bancaire jour par jour sur 30 à 90 jours. Il détecte automatiquement les patterns récurrents (délais de règlement par client, dépenses fixes mensuelles) et génère des alertes dès que la projection passe sous un seuil paramétré.",
+      },
+      {
+        question: "Quelle est la fiabilité d'un prévisionnel de trésorerie IA à 30 jours ?",
+        answer: "Sur un horizon de 30 jours, la fiabilité est généralement élevée car les factures émises et les échéances connues sont en grande partie intégrées. Au-delà de 60 jours, l'outil produit des fourchettes de scénarios plutôt que des chiffres précis. La qualité dépend directement de la cohérence des données en entrée (plan comptable, saisie au fil de l'eau).",
+      },
+      {
+        question: "Faut-il nettoyer ses données comptables avant de déployer un outil IA de trésorerie ?",
+        answer: "Oui. L'outil exige que les factures clients aient des dates d'échéance explicites, que le plan comptable soit cohérent sur 12 mois, et que les charges fixes soient catégorisées comme récurrentes. Si ces prérequis ne sont pas en place, commencez par là avant d'investir dans l'outil.",
+      },
+    ],
+    howTo: {
+      name: "Déployer un outil IA de prévision de trésorerie en PME",
+      description: "Séquence recommandée pour mettre en place la prévision de trésorerie IA dans une PME sans DSI, du cas d'usage le plus simple au plus avancé.",
+      totalTime: "PT240H",
+      steps: [
+        {
+          name: "Activer l'alerte découvert sous 30 jours",
+          text: "Connecter les flux bancaires via l'API PSD2 et paramétrer un seuil d'alerte (ex. : solde disponible inférieur à 15 000 euros). C'est le cas d'usage le plus rapide à mettre en place, avec un ROI immédiatement visible. Aucun historique de facturation requis.",
+        },
+        {
+          name: "Ajouter le suivi automatique du DSO par client",
+          text: "Connecter le logiciel de facturation pour croiser les dates d'émission et les dates de règlement client par client. Nécessite un historique de 6 mois minimum et des dates d'échéance explicites dans le logiciel de facturation.",
+        },
+        {
+          name: "Introduire la simulation de scénarios avant décision d'investissement",
+          text: "Utiliser le module de simulation pour modéliser l'impact cash d'un recrutement, d'un achat de matériel ou d'une réponse à appel d'offres. Disponible dans Agicap, Pennylane et Cashlab. Prend 15 à 30 minutes à paramétrer une fois le prévisionnel opérationnel.",
+        },
+      ],
+    },
+  },
+  {
     slug: "ai-act-article-5-pratiques-interdites-pme",
     title: "AI Act article 5 : les pratiques IA que votre PME n'a plus le droit d'utiliser",
     seoTitle: "AI Act article 5 : pratiques IA interdites PME",
