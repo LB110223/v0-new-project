@@ -166,12 +166,9 @@ function formatContent(content: string): string {
   const tableRowRegex = /^\s*\|(.+)\|\s*$/
   const tableSeparatorRegex = /^\s*\|(\s*:?-+:?\s*\|)+\s*$/
 
-  // Transforme le markdown inline d'une cellule (gras uniquement pour l'instant, suffisant pour les tableaux actuels)
-  const renderCell = (raw: string): string => {
-    return raw
-      .trim()
-      .replace(/\*\*(.+?)\*\*/g, '<strong class="font-semibold text-foreground">$1</strong>')
-  }
+  // Le markdown inline (gras, liens) d'une cellule est traité plus bas, dans la même passe que
+  // le reste du contenu (paragraphes, listes, blockquotes) : on se contente ici de trim.
+  const renderCell = (raw: string): string => raw.trim()
 
   const parseRow = (line: string): string[] => {
     // Retire les pipes délimitateurs en tête et fin, puis split
@@ -304,6 +301,33 @@ function formatContent(content: string): string {
     .replace(
       /\n\n(?!<(?:h[1-6]|ul|ol|blockquote|div|table|thead|tbody|tr|th|td)[\s>])/g,
       '</p><p class="text-base leading-relaxed text-muted-foreground mb-4">',
+    )
+    // Liens Markdown inline [texte](url) -> <a>. Avant le gras, pour que les deux combinaisons
+    // **[texte](url)** et [**texte**](url) se recombinent correctement : à ce stade le texte
+    // capturé est toujours du markdown brut (jamais du HTML déjà généré), donc l'échappement
+    // ci-dessous est sûr et le ** éventuel restant est converti par la passe de gras suivante.
+    .replace(
+      // URL puis, optionnellement, un titre entre guillemets : [texte](url "titre optionnel")
+      /\[([^\[\]]+)\]\(([^()\s]+)(?:\s+"([^"]*)")?\)/g,
+      (match: string, text: string, rawUrl: string, rawTitle?: string) => {
+        const url = rawUrl.trim()
+        // "/..." (mais pas "//" protocol-relative) ou "#ancre" (lien intra-page vers un titre)
+        const isInternal = /^\/(?!\/)/.test(url) || /^#/.test(url)
+        const isHttp = /^https?:\/\//i.test(url)
+        const isMailto = /^mailto:/i.test(url)
+
+        // Schéma non autorisé (javascript:, data:, etc.) : on laisse le texte brut tel quel.
+        if (!isInternal && !isHttp && !isMailto) return match
+
+        const safeText = text.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;")
+        const safeUrl = url.replace(/"/g, "&quot;")
+        const titleAttr = rawTitle
+          ? ` title="${rawTitle.replace(/&/g, "&amp;").replace(/"/g, "&quot;")}"`
+          : ""
+        const externalAttrs = isHttp ? ' target="_blank" rel="noopener noreferrer"' : ""
+
+        return `<a href="${safeUrl}"${titleAttr} class="text-orange-700 hover:text-orange-700 underline underline-offset-4 decoration-orange-500/30"${externalAttrs}>${safeText}</a>`
+      },
     )
     // Gras
     .replace(/\*\*(.+?)\*\*/g, '<strong class="font-semibold text-foreground">$1</strong>')
