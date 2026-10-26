@@ -69,6 +69,208 @@ export interface BlogArticle {
 
 export const blogArticles: BlogArticle[] = [
   {
+    slug: "gpai-pme-fournisseur-deployeur-ai-act",
+    title: "GPAI et PME : fournisseur ou déployeur ? La grille de décision pour savoir où vous en êtes",
+    seoTitle: "GPAI PME : fournisseur ou déployeur AI Act ?",
+    excerpt:
+      "Prompt seul, RAG, fine-tuning : 3 situations pour savoir si votre PME est fournisseur ou déployeur GPAI au sens de l'AI Act.",
+    content: `Depuis le 2 août 2025, les obligations liées aux modèles d'IA à usage général (GPAI, de l'anglais General Purpose AI) sont entrées en vigueur au titre des chapitres V et VI du règlement (UE) 2024/1689. Dans les semaines qui ont suivi, beaucoup de dirigeants de PME et d'ETI ont posé la même question à leurs conseils : "Sommes-nous concernés ?"
+
+La réponse courte : oui, mais pas comme vous le craignez peut-être. La distinction à établir en priorité est celle entre **fournisseur** et **déployeur** au sens de l'AI Act. La quasi-totalité des PME françaises sont déployeurs. Ce n'est pas une bonne nouvelle sans condition : le déployeur a des obligations. Mais ce n'est pas le même niveau de charge que le fournisseur GPAI.
+
+Cet article vous donne la grille pour trancher en moins d'une heure, selon votre situation concrète.
+
+> **En résumé :** si votre PME utilise un modèle de langage via une API ou une interface (ChatGPT, Copilot, Claude, Mistral API...) sans l'entraîner de zéro, vous êtes déployeur. Les obligations GPAI de l'article 53 ne vous concernent pas directement. Ce qui vous concerne, c'est la documentation de vos usages et la transparence envers vos utilisateurs.
+
+Selon l'INSEE (oct. 2025), 10 % des entreprises françaises de 10 salariés ou plus déclaraient utiliser une technologie d'IA en 2024, avec 9 % pour les PME de 10 à 49 salariés. Parmi celles qui ont franchi le pas, l'enquête Bpifrance Le Lab (oct.-déc. 2024, 1 209 dirigeants) indique que 26 % utilisaient déjà de l'IA générative, la moitié d'entre elles exclusivement via des solutions prêtes à l'emploi. Autrement dit, la grande majorité des PME françaises qui déploient de l'IA le font par le biais de modèles existants. Elles sont, au sens du règlement, des déployeurs.
+
+## Ce que l'AI Act entend par "fournisseur GPAI"
+
+Le règlement (UE) 2024/1689, dit AI Act, distingue deux rôles pour les acteurs qui travaillent avec des modèles d'IA à usage général. Un **modèle GPAI (General Purpose AI Model)** est un modèle d'IA entraîné sur de grandes quantités de données, conçu pour accomplir des tâches variées, et susceptible d'être intégré dans de nombreux systèmes ou applications en aval (article 3, §63 du règlement).
+
+### Fournisseur GPAI : définition et périmètre
+
+Un **fournisseur GPAI** est l'entité qui développe un modèle GPAI ou qui le fait développer, et qui le met à disposition sur le marché de l'Union européenne, que ce soit de façon commerciale ou non, directement ou via une intégration dans un produit ou service. Cette définition est posée à l'article 3, §3 du règlement (UE) 2024/1689.
+
+En pratique, ce sont les grandes maisons de modèles, des acteurs hors périmètre PME :
+
+- OpenAI (GPT-4o, o1)
+- Anthropic (Claude 3.5 / 4)
+- Google DeepMind (Gemini Ultra)
+- Mistral AI (Mixtral, Mistral Large)
+- Meta (Llama 3.x)
+- Cohere (Command R+)
+
+Ce sont eux qui entraînent les modèles de zéro sur d'immenses volumes de données, mobilisant des infrastructures de calcul que seules de très grandes organisations peuvent financer.
+
+L'article 51 introduit une notion de **risque systémique** pour les modèles GPAI les plus puissants. Un modèle est présumé à risque systémique dès lors que le compute cumulé de son entraînement dépasse **10²⁵ opérations en virgule flottante (FLOP)**.
+
+> Source directe AI Act Service Desk (ai-act-service-desk.ec.europa.eu) : "A general-purpose AI model shall be presumed to have high impact capabilities pursuant to paragraph 1, point (a), when the cumulative amount of computation used for its training measured in floating point operations is greater than 10^25."
+
+Aucune PME ne franchit ce seuil. La question du risque systémique est, pour les PME françaises, purement théorique.
+
+### Déployeur : définition et périmètre
+
+Un **déployeur**, au sens de l'article 3, §4 du règlement (UE) 2024/1689, est l'entité qui intègre un système d'IA dans un produit ou un service, ou qui l'utilise dans le cadre d'une activité professionnelle, sous sa propre responsabilité. C'est la position de toute entreprise qui :
+
+- souscrit un abonnement à un outil IA (Copilot, ChatGPT Enterprise, Mistral API...)
+- connecte un modèle de langage à ses données internes (RAG)
+- adapte un modèle via du fine-tuning léger pour un usage spécifique
+- intègre une brique IA dans un processus métier (tri de documents, résumé, génération de contenu)
+
+Le déployeur a des obligations propres (transparence article 50, registre des usages, politiques internes) mais il ne porte pas la charge de la documentation technique du modèle lui-même. C'est la responsabilité du fournisseur.
+
+> **Point de vigilance :** la frontière entre fournisseur et déployeur peut se déplacer si vous modifiez substantiellement un modèle existant. La section suivante précise ce point, qui est la seule zone de flou réelle pour une PME ambitieuse sur le plan technique.
+
+## La grille de décision en 3 situations
+
+Au sens du règlement (UE) 2024/1689 (AI Act), votre position réglementaire (fournisseur ou déployeur GPAI) dépend d'un seul critère opérationnel : modifiez-vous le modèle lui-même, ou l'utilisez-vous tel quel ?
+
+### Situation 1 : vous utilisez le modèle via prompt seul
+
+Vous formulez des instructions (un prompt), le modèle répond. Que ce soit via ChatGPT, Claude, Gemini, Mistral Le Chat ou une API branchée sur votre outil métier, le modèle n'est pas modifié. Vous êtes un **déployeur**.
+
+Vos obligations se concentrent sur :
+
+- la transparence envers les utilisateurs finaux (article 50, si vous déployez vers des tiers)
+- la documentation de vos usages à haut risque éventuels (annexe III)
+- les clauses contractuelles avec votre fournisseur de modèle
+
+Le règlement Digital Omnibus (UE) 2026/1744, entré en vigueur le 27 juillet 2026, n'a pas modifié ce périmètre. Il a uniquement repoussé l'annexe III (systèmes IA à haut risque) au 2 décembre 2027. Les obligations GPAI restent applicables depuis le 2 août 2025.
+
+### Situation 2 : vous connectez vos documents à un modèle via RAG
+
+La connexion à des documents internes (RAG, pour Retrieval-Augmented Generation) est la deuxième modalité d'usage la plus répandue en PME. Le principe : au lieu d'entraîner le modèle sur vos données, vous lui fournissez les passages pertinents de vos documents au moment de chaque requête.
+
+La CNIL a tranché ce point dans sa FAQ IA de juillet 2024 (cnil.fr/fr/intelligence-artificielle) : **le RAG (Retrieval-Augmented Generation) n'entraîne pas le modèle**. Les données que vous indexez et connectez ne sont pas des données d'entraînement au sens de l'article 53 du règlement (UE) 2024/1689. Vous êtes **déployeur**.
+
+Ce qui change par rapport à la situation 1 :
+
+- Vos données internes sont transmises au modèle lors de l'inférence. Les règles RGPD s'appliquent si ces données contiennent des données personnelles.
+- Le choix de l'hébergement du modèle (cloud US, cloud souverain, on-premise) devient pertinent pour votre conformité RGPD. Ce point est détaillé dans l'article [Souveraineté des données IA en PME](/blog/souverainete-donnees-ia-pme-hebergement).
+- Votre documentation d'usage doit mentionner les catégories de données connectées.
+
+Aucune de ces obligations ne vous fait basculer vers le statut de fournisseur GPAI.
+
+### Situation 3 : vous adaptez un modèle existant (fine-tuning)
+
+L'adaptation de modèle (fine-tuning en anglais) consiste à poursuivre l'entraînement d'un modèle existant sur un corpus propre à votre entreprise : vos offres commerciales, vos procédures internes, votre jargon métier. Le modèle adapté est ensuite déployé dans votre environnement.
+
+C'est ici que la question de la frontière se pose réellement. La Commission européenne a publié en novembre 2025 des lignes directrices GPAI précisant le critère indicatif suivant :
+
+> "A downstream modifier becomes the provider only if the modification leads to a significant change in the model's generality, capabilities, or systemic risk. Indicative criterion: training compute for modification exceeds one-third of original model's compute." (Commission européenne, lignes directrices GPAI, novembre 2025)
+
+En termes opérationnels : vous devenez fournisseur GPAI si le compute que vous avez consacré à votre fine-tuning dépasse un tiers du compute qui a servi à entraîner le modèle d'origine.
+
+En pratique : un fine-tuning PME standard mobilise quelques dizaines à quelques centaines de GPU-heures. La marge par rapport au seuil indicatif de la Commission est de plusieurs ordres de grandeur. La question est tranchée pour tous les scénarios PME réalistes.
+
+Vous êtes **déployeur**, pas fournisseur.
+
+> **Exception open-source à noter :** si vous distribuez un modèle fine-tuné à des tiers (clients, partenaires, marché), la position réglementaire mérite une analyse spécifique, notamment sur l'exemption open-source de l'article 53. Dans ce cas, consultez un juriste spécialisé. Ce cas reste rare en PME.
+
+## Obligations concrètes si votre PME est fournisseur GPAI
+
+Si, après analyse, votre PME se trouve dans la position de fournisseur GPAI au sens de l'article 3, §3 du règlement (UE) 2024/1689 (typiquement : vous distribuez un modèle adapté à des tiers), l'article 53 impose quatre obligations entrant en vigueur depuis le 2 août 2025.
+
+### Les 4 obligations de l'article 53
+
+1. **Documentation technique** conforme à l'annexe XI du règlement : architecture du modèle, données d'entraînement utilisées, métriques de performance, processus d'évaluation des risques.
+2. **Information des fournisseurs en aval** (annexe XII) : tout acteur qui intègre votre modèle dans sa propre solution doit recevoir les informations nécessaires pour assurer sa propre conformité.
+3. **Politique de conformité au droit d'auteur** au titre de la directive 2019/790 : vous devez décrire comment vous avez respecté les droits sur les données d'entraînement.
+4. **Résumé public des données d'entraînement** : un document accessible décrivant les types et sources de données utilisées.
+
+L'exemption open-source s'applique aux modèles dont les poids sont publiquement accessibles : ils sont exemptés des obligations (a) et (b), sauf si le modèle est classé à risque systémique. Concrètement, si vous fine-tunez Mistral 7B et publiez les poids de votre modèle adapté, les obligations de documentation technique et d'information en aval ne s'appliquent pas à condition que le seuil de risque systémique ne soit pas atteint.
+
+> **Ce qu'il faut retenir :** les obligations de l'article 53 sont lourdes. Elles supposent une infrastructure documentaire, des processus de traçabilité des données d'entraînement et une capacité à informer les acteurs en aval. Pour une PME qui envisage de distribuer un modèle adapté, l'évaluation préalable du statut réglementaire n'est pas optionnelle.
+
+Pour aller plus loin sur l'articulation entre les différentes obligations en vigueur depuis août 2025, l'article [AI Act au 2 août 2026 : ce qui s'applique vraiment](/blog/ai-act-2-aout-2026-ce-qui-sapplique-pme) détaille le calendrier complet et ce que le Digital Omnibus a (et n'a pas) modifié.
+
+## Ce que vous devez documenter maintenant
+
+Que vous soyez déployeur ou fournisseur GPAI au sens du règlement (UE) 2024/1689, la documentation est votre première ligne de défense en cas de contrôle par les autorités de marché (en France, l'ARCOM et la CNIL selon les compétences). Voici la liste des éléments à produire ou à vérifier selon votre situation.
+
+### Si vous êtes déployeur (cas général des PME)
+
+- **Registre des usages IA** : liste des outils IA utilisés en interne, par processus et par service, avec le type de données traitées.
+- **Qualification du statut** : un document court (une à deux pages) qui établit, pour chaque outil, pourquoi vous êtes déployeur et non fournisseur. Ce document est votre preuve de diligence.
+- **Politique d'usage interne** : les règles que vos collaborateurs doivent respecter lorsqu'ils utilisent les outils IA (données interdites, validation humaine obligatoire, etc.).
+- **Conformité RGPD pour les traitements IA** : mise à jour de votre registre des traitements (article 30 RGPD) si vous traitez des données personnelles via des outils IA.
+- **Transparence utilisateurs** : si vous déployez un outil IA vers des clients ou des tiers, les obligations de l'article 50 s'appliquent (identification du caractère automatisé de l'interaction, notamment pour les chatbots).
+
+### Si vous avez réalisé un fine-tuning
+
+En sus de la liste précédente :
+
+- **Calcul documenté du compute** : établissez par écrit le nombre de GPU-heures mobilisées et le ratio par rapport au modèle source. Ce document justifie que vous restez sous le seuil indicatif de la Commission.
+- **Traçabilité des données d'entraînement** : même si vous êtes déployeur, documentez les données que vous avez utilisées pour le fine-tuning. C'est une bonne pratique, et une obligation si vous basculez en statut de fournisseur.
+- **Vérification de la licence du modèle source** : certaines licences open-source imposent des conditions sur la redistribution des modèles dérivés.
+
+> **Signal d'alerte :** si vous envisagez de vendre ou de distribuer un modèle fine-tuné à des clients ou partenaires, obtenez une qualification juridique formelle de votre statut avant toute mise sur le marché. Le passage de déployeur à fournisseur GPAI sans préparation documentaire expose à des sanctions pouvant atteindre 3 % du chiffre d'affaires mondial annuel (article 101, §3 du règlement (UE) 2024/1689).
+
+L'article [AI Act 2026 : ce que les PME doivent savoir](/blog/ai-act-pme-guide-2026) présente l'ensemble du dispositif de sanctions et les priorités de mise en conformité pour une PME de taille standard.
+
+## Questions fréquentes
+
+### Qu'est-ce qu'un fournisseur GPAI au sens de l'AI Act ?
+
+Selon l'article 3, §3 du règlement (UE) 2024/1689 (AI Act), un fournisseur GPAI est l'entité qui développe ou entraîne un modèle d'IA à usage général et le met à disposition d'autres acteurs, directement ou via une API, sur le marché de l'Union européenne. Ce sont les développeurs de modèles comme OpenAI, Mistral AI ou Meta, pas les entreprises qui les utilisent. Les obligations de l'article 53 s'appliquent à eux depuis le 2 août 2025.
+
+### Le fine-tuning d'un modèle open-source (Mistral, Llama) fait-il de moi un fournisseur GPAI au sens de l'AI Act ?
+
+Dans la très grande majorité des cas PME, non. Les lignes directrices publiées par la Commission européenne en novembre 2025 établissent un critère indicatif : vous devenez fournisseur GPAI seulement si le compute d'entraînement de votre adaptation dépasse un tiers du compute d'origine du modèle. Un fine-tuning PME standard mobilise quelques dizaines à quelques centaines de GPU-heures, soit plusieurs ordres de grandeur en dessous de ce seuil. Vous restez déployeur au sens du règlement (UE) 2024/1689, à condition de documenter ce constat.
+
+### La mise en place d'un RAG fait-elle de moi un fournisseur GPAI au sens de l'AI Act ?
+
+Non. La CNIL a confirmé dans sa FAQ IA de juillet 2024 que le RAG (Retrieval-Augmented Generation) ne constitue pas un entraînement du modèle au sens de l'article 53 du règlement (UE) 2024/1689. Les données que vous indexez et connectez au moment de l'inférence ne sont pas des données d'entraînement. Vous êtes déployeur. Les obligations RGPD sur les données personnelles connectées s'appliquent, mais elles sont indépendantes du statut GPAI.
+
+### Quelles sont les 4 obligations concrètes d'un fournisseur GPAI (article 53) ?
+
+L'article 53 impose quatre obligations : documentation technique (annexe XI), information des fournisseurs en aval (annexe XII), politique de conformité au droit d'auteur (directive 2019/790), résumé public des données d'entraînement. Les modèles open-source dont les paramètres sont publics sont exemptés des deux premières obligations, sauf en cas de risque systémique.
+
+### L'exemption open-source s'applique-t-elle si je fine-tune Mistral ou Llama pour mes propres besoins ?
+
+Si vous utilisez votre modèle fine-tuné en interne sans le distribuer à des tiers, la question de l'exemption open-source ne se pose pas : vous êtes déployeur selon les critères du compute, et les obligations de l'article 53 ne s'appliquent pas. L'exemption open-source devient pertinente uniquement si vous envisagez de redistribuer ou de commercialiser un modèle dérivé. Dans ce cas, la qualification dépend de si les poids de votre modèle adapté sont eux-mêmes publiquement accessibles.
+
+Pour comprendre comment le règlement (UE) 2026/1744 (Digital Omnibus) articule les délais des différentes obligations de l'AI Act, l'article [Digital Omnibus et AI Act : ce que ça change](/blog/digital-omnibus-ia-pme-ce-qui-change) précise les reports d'échéances et ce qui reste inchangé. Pour la grille de qualification des systèmes IA à haut risque selon l'annexe III, voir [Votre IA est-elle à haut risque ? La grille annexe III](/blog/ai-act-haut-risque-annexe-iii-pme).
+
+## Passez de la théorie à l'action
+
+Identifier votre statut sur papier est une chose. Produire la documentation opposable qui le prouve en cas de contrôle en est une autre.
+
+Smart Impulsion propose la Smart Analyse : en une demi-journée à une journée, sur un seul de vos processus, vous obtenez une qualification précise de votre statut réglementaire (déployeur ou fournisseur GPAI) et un plan d'action documenté. Tarif fixe, de 1 000 à 2 000 € HT.
+
+[Découvrir la Smart Analyse](/services/audit)`,
+    author: "Laurent Bouzon",
+    date: "26 octobre 2026",
+    dateISO: "2026-10-26",
+    readTime: "11 min",
+    category: "Compliance & AI Act",
+    image: "/gpai-pme-fournisseur-deployeur-ai-act-hero.png",
+    imageAlt: "Image d'illustration pour l'article \"GPAI et PME : fournisseur ou déployeur ? La grille de décision pour savoir où vous en êtes\"",
+    faq: [
+      {
+        question: "Qu'est-ce qu'un fournisseur GPAI au sens de l'AI Act ?",
+        answer: "Un fournisseur GPAI est l'entité qui développe ou entraîne un modèle d'IA à usage général (GPAI) mis à disposition d'autres acteurs, directement ou via une API. Les obligations de l'article 53 s'appliquent à eux depuis le 2 août 2025. La quasi-totalité des PME françaises, qui utilisent des modèles existants sans les entraîner de zéro, sont déployeurs, pas fournisseurs.",
+      },
+      {
+        question: "Le fine-tuning d'un modèle open-source comme Mistral ou Llama fait-il de moi un fournisseur GPAI ?",
+        answer: "Dans la très grande majorité des cas PME, non. Les lignes directrices publiées par la Commission européenne en novembre 2025 établissent un critère indicatif : vous devenez fournisseur seulement si le compute d'entraînement dépasse un tiers du compute d'origine du modèle. Un fine-tuning PME standard mobilise quelques dizaines à quelques centaines de GPU-heures, soit plusieurs ordres de grandeur en dessous de ce seuil. Vous restez déployeur, à condition de documenter ce constat.",
+      },
+      {
+        question: "Mettre en place un RAG fait-il de moi un fournisseur GPAI ?",
+        answer: "Non. La CNIL a confirmé dans sa FAQ de juillet 2024 que le RAG (Retrieval-Augmented Generation) ne constitue pas un entraînement du modèle. Les données que vous connectez à votre système RAG ne sont pas des données d'entraînement au sens de l'article 53. Vous êtes et restez déployeur.",
+      },
+      {
+        question: "Quelles sont les 4 obligations concrètes d'un fournisseur GPAI selon l'article 53 ?",
+        answer: "L'article 53 impose : 1) une documentation technique conforme à l'annexe XI, 2) la fourniture d'informations aux fournisseurs en aval (annexe XII), 3) une politique de conformité au droit d'auteur (directive 2019/790), 4) un résumé public des données d'entraînement. Les modèles open-source (paramètres publics) sont exemptés des obligations (a) et (b), sauf en cas de risque systémique.",
+      },
+      {
+        question: "Qu'est-ce que le risque systémique GPAI et pourquoi aucune PME n'y est exposée ?",
+        answer: "Un modèle GPAI est présumé à risque systémique si le compute d'entraînement dépasse 10²⁵ FLOP (article 51 AI Act). Seuls les grands modèles comme GPT-4 ou Gemini Ultra approchent ce seuil. Un fine-tuning PME, même ambitieux, se situe à des milliards de fois en dessous. Ce seuil n'est pas un sujet PME.",
+      },
+    ],
+  },
+  {
     slug: "formation-ia-certifiante-pme",
     title: "Formation IA certifiante en PME : quand ça vaut l'investissement et quand ça ralentit",
     seoTitle: "Formation IA certifiante PME : décision en 3 questions",
