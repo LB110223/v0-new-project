@@ -69,6 +69,301 @@ export interface BlogArticle {
 
 export const blogArticles: BlogArticle[] = [
   {
+    slug: "cout-statu-quo-ia-processus-pme",
+    title: "Coût du statu quo IA : chiffrez ce qu'un processus non-automatisé vous coûte vraiment",
+    seoTitle: "Coût statu quo IA PME : méthode en 4 étapes",
+    excerpt:
+      "Avant d'investir dans l'IA, chiffrez le coût du statu quo sur un processus précis. Méthode en 4 étapes, grille de calcul praticable en une heure.",
+    content: `# Coût du statu quo IA : chiffrez ce qu'un processus non-automatisé vous coûte vraiment
+
+Un responsable administratif passe trois heures par semaine à saisir des bons de commande, vérifier des factures et relancer des fournisseurs. Son dirigeant estime que ça ne coûte "pas grand-chose". Pourtant, à 44,7 euros de l'heure en coût complet, ces trois heures hebdomadaires représentent près de 7 000 euros par an, avant même de compter les erreurs et leurs corrections. C'est le coût du statu quo : invisible sur la fiche budgétaire, bien réel dans les comptes.
+
+> **Définition.** Le coût du statu quo IA est la somme des dépenses réelles générées chaque année par un processus non-automatisé : temps humain au coût complet, erreurs et retraitements, et manque à gagner indirect sur la trésorerie et les décisions. Ce coût ne figure dans aucune ligne budgétaire, mais il est mesurable en moins d'une heure avec les données déjà disponibles dans l'entreprise.
+
+La méthode qui suit permet de chiffrer ce coût sur un seul processus, en moins d'une heure, avec les données que vous avez déjà.
+
+## Le statu quo n'est pas gratuit : il est juste invisible
+
+Le biais de comparaison est bien documenté : on évalue le coût d'un changement (l'abonnement à un outil, les jours de configuration, la formation) mais on ne chiffre jamais le coût de ne rien changer. Or, continuer à faire tourner un processus manuel a un coût réel, cumulatif, et qui ne figure dans aucune ligne budgétaire.
+
+> **Chiffre clé INSEE 2025.** "En 2025, en France, le coût horaire du travail dans le secteur marchand non agricole hors services aux ménages s'élève en moyenne à 44,7 euros." Source : INSEE, *Emploi, chômage, revenus du travail*, édition 2026.
+
+Ce chiffre change la lecture d'un processus manuel. Une heure par jour sur un seul processus administratif représente, sur douze mois, environ 11 000 euros de coût complet. Sans aucune erreur, sans aucun retraitement.
+
+Ce n'est pas un argument pour automatiser à tout prix. C'est une base pour décider sérieusement. Le [ROI de l'IA en entreprise](/blog/roi-intelligence-artificielle-entreprise) ne peut s'évaluer que si l'on connaît le dénominateur : ce que le statu quo coûte réellement.
+
+### Pourquoi ce coût reste invisible
+
+Trois raisons expliquent que ce coût n'apparaît jamais spontanément dans les discussions budgétaires :
+
+- Les coûts directs (salaires, charges) sont noyés dans la masse salariale globale, jamais affectés processus par processus.
+- Les micro-tâches satellites (vérifications, relances, corrections) ne sont pas perçues comme faisant partie du processus, alors qu'elles en représentent souvent 30 à 50 % du temps total (estimation terrain).
+- Le manque à gagner indirect (délai de facturation, décision sur données vieilles de quinze jours) n'a pas de ligne comptable.
+
+La méthode qui suit adresse ces trois invisibilités.
+
+## Étape 1 : Chronométrez vraiment le processus
+
+L'erreur la plus courante est de demander à la personne qui réalise le processus combien de temps ça lui prend. Sa réponse sera une estimation, non une mesure. Les estimations sous-évaluent systématiquement le temps réel, parce qu'elles ignorent les interruptions et les tâches périphériques.
+
+### Le journal de bord sur deux semaines
+
+La méthode fiable est simple : demander à la personne de noter, à chaque occurrence du processus, le temps réellement passé. Pas une estimation globale, un relevé ponctuel. Deux semaines suffisent pour couvrir les variations et identifier les pics d'activité.
+
+Ce journal doit capturer :
+
+- L'heure de début et l'heure de fin de chaque occurrence.
+- Les interruptions (réponse à une demande, correction d'une anomalie).
+- Les tâches déclenchées par le processus : envoi d'un email de confirmation, mise à jour d'un tableau, appel de vérification.
+
+### Les cinq micro-tâches oubliées
+
+> **Méthode.** Pour chronométrer fiablement un processus, tenir un journal de bord sur deux semaines en notant chaque occurrence et ses micro-tâches satellites. Sur un processus de facturation manuelle typique, cinq micro-tâches disparaissent systématiquement des estimations : (1) la recherche du bon de commande de référence, (2) la saisie dans l'ERP ou le tableur, (3) la vérification de cohérence avec le bon de livraison, (4) l'archivage ou le scan du document, (5) la réponse aux questions du comptable ou du fournisseur. Ces cinq étapes représentent en général 35 à 45 % du temps total du processus (estimation terrain sur relevés d'atelier).
+
+Une fois le relevé obtenu, extrapolez sur l'année. Si le processus est hebdomadaire : temps moyen par occurrence × 48 semaines ouvrées. Si mensuel : temps moyen × 11 mois. Prenez la mesure terrain, pas le calendrier théorique.
+
+### Distinguer temps estimé et temps réel : l'exemple de la facturation fournisseur
+
+Un DAF estime que le traitement d'une facture fournisseur prend quinze minutes. Le journal de bord sur deux semaines, dans une PME de soixante personnes, révèle systématiquement entre vingt-deux et vingt-huit minutes par facture, avec des pics à quarante minutes sur les factures comportant des anomalies. L'écart entre estimation et réalité dépasse souvent 40 %.
+
+## Étape 2 : Calculez le coût horaire complet
+
+Le coût salarial brut n'est pas le bon point de départ. Ce qui compte, c'est le coût total pour l'employeur : salaire brut augmenté des charges patronales, auquel s'ajoutent les coûts fixes proratés (poste de travail, licence logicielle, encadrement).
+
+### La formule de base
+
+Pour une approximation rapide et défendable :
+
+**Coût horaire complet = salaire brut mensuel × 1,42 ÷ 134 heures**
+
+Le coefficient 1,42 intègre les charges patronales moyennes en France (cotisations sociales, formation, prévoyance). Les 134 heures correspondent au nombre d'heures mensuelles théoriques pour un temps plein (1 607 heures annuelles ÷ 12).
+
+> **Grille de référence rapide.**
+>
+> | Salaire brut mensuel | Coût horaire complet estimé |
+> |---|---|
+> | 2 200 € | 23 € |
+> | 2 800 € | 30 € |
+> | 3 500 € | 37 € |
+> | 4 200 € | 44 € |
+> | 5 000 € | 53 € |
+>
+> La moyenne nationale tous secteurs est de 44,7 €/h (INSEE 2025). Pour une PME, la fourchette pratique est de 28 à 48 €/h selon les postes administratifs.
+
+À partir du coût horaire et du temps annuel mesuré à l'étape précédente, vous obtenez le **coût de base du processus** : la valeur du temps humain mobilisé chaque année. C'est votre première ligne dans la grille finale.
+
+Pour aller plus loin sur la structure des coûts IA et non-IA, consultez notre article sur la [grille TCO pour PME](/blog/cout-ia-entreprise-tco-grille-pme) avant de signer quoi que ce soit.
+
+## Étape 3 : Ajoutez les coûts d'erreur et de retraitement
+
+Le temps humain est le coût le plus visible. Les erreurs et leurs corrections sont le coût le plus sous-estimé, parce qu'ils apparaissent de façon diffuse, rarement consolidée.
+
+### Trois types d'erreurs invisibles
+
+> **Les trois catégories d'erreurs à ne pas oublier.** Tout processus manuel génère trois types d'erreurs à coûts distincts : (1) erreurs de saisie directes (faute de frappe, mauvais montant, mauvaise référence) dont le coût est temps de détection + temps de correction ; (2) erreurs de cohérence (facture ne correspondant pas au bon de commande) dont le coût inclut une investigation et souvent une communication externe ; (3) erreurs d'omission (relance oubliée, échéance manquée) dont le coût peut atteindre une perte sèche sur une créance non recouvrée.
+
+### Le coût unitaire d'une facture papier
+
+Dans le cadre de la réforme de la facturation électronique obligatoire, le gouvernement estime à plus de 4 milliards d'euros par an les gains attendus à terme pour les entreprises françaises (Direction Générale des Finances Publiques).
+
+Ce chiffre repose sur un différentiel de coût bien documenté : traiter une facture papier coûte entre 10 et 15 euros par unité, contre 1 à 3 euros pour une facture dématérialisée. L'écart, de 7 à 12 euros par facture, est presque entièrement imputable aux erreurs, aux manipulations manuelles et aux délais de traitement.
+
+### Comment calculer le coût annuel des erreurs
+
+La formule est directe :
+
+**Coût annuel des erreurs = volume annuel × taux d'erreur × temps moyen de correction × coût horaire**
+
+Ajoutez une estimation des coûts d'impact aval. Ces données existent dans votre comptabilité, souvent dispersées dans des lignes "frais divers" :
+
+- Pénalités de retard payées à vos fournisseurs (ou reçues de vos clients).
+- Avoirs émis suite à des erreurs de facturation.
+- Créances passées en pertes faute d'une relance dans les délais.
+- Coût d'un litige ou d'une réclamation client liée à une erreur de livraison.
+
+Un taux d'erreur de 3 % sur 2 000 factures annuelles, avec trente minutes de correction en moyenne à 35 €/h, représente déjà plus de 1 000 euros de coût direct. Avant les conséquences aval.
+
+## Étape 4 : Estimez le manque à gagner indirect
+
+C'est la partie la plus difficile à chiffrer, mais aussi la plus persuasive en CODIR, parce qu'elle touche à la trésorerie et aux décisions stratégiques.
+
+### Délais de facturation et trésorerie
+
+Chaque jour de retard dans l'émission d'une facture est un jour de trésorerie perdu. Si votre processus de facturation manuelle génère en moyenne trois jours de retard par rapport à une facturation automatique, et si votre CA mensuel facturé est de 500 000 euros, ces trois jours représentent une immobilisation de trésorerie permanente d'environ 50 000 euros (500 000 ÷ 30 × 3).
+
+L'impact sur le besoin en fonds de roulement est direct. Et s'il faut tirer sur une ligne de crédit pour compenser, le coût financier s'ajoute.
+
+### Relances tardives et créances douteuses
+
+Un processus de relance manuel dépend de la disponibilité de celui qui le fait. Les relances sont irrégulières, parfois oubliées, souvent polies au point d'être peu efficaces. Le lien entre automatisation des relances et réduction des créances douteuses est documenté : les entreprises qui automatisent leurs relances réduisent leur DSO (délai moyen de paiement) de plusieurs jours.
+
+Chaque jour de DSO gagné sur un encours client de 1 million d'euros représente environ 2 700 euros de trésorerie libérée (calcul : 1 000 000 ÷ 365).
+
+### Reporting tardif et décisions dégradées
+
+Ce coût est le plus difficile à chiffrer, mais il est réel. Un reporting disponible à J+15 au lieu de J+2 oblige à prendre des décisions sur des données vieilles de deux semaines. Dans un contexte de tension sur les marges ou de cycle commercial court, la qualité de la décision se dégrade.
+
+Consulter nos articles sur les [gains de productivité IA en PME](/blog/gain-productivite-ia-pme) et sur la [priorisation des projets IA](/blog/prioriser-projets-ia-pme) peut aider à hiérarchiser quel processus chiffrer en premier selon son impact stratégique.
+
+## La grille complète : votre processus en 30 minutes
+
+Voici la grille de synthèse à remplir sur un processus cible. Elle prend entre vingt et quarante minutes une fois les mesures de l'étape 1 réalisées.
+
+| Dimension | Valeur mesurée | Coût annuel |
+|---|---|---|
+| Durée réelle par occurrence | __ heures |   |
+| Fréquence annuelle | __ fois/an |   |
+| Nombre de personnes impliquées | __ |   |
+| Coût horaire moyen (complet) | __ €/h |   |
+| **Coût de base (temps × fréquence × coût horaire)** |   | **__ €** |
+| Volume annuel traité | __ unités |   |
+| Taux d'erreur observé | __%  |   |
+| Temps moyen de correction | __ min |   |
+| **Coût des erreurs et retraitements** |   | **__ €** |
+| Délai moyen d'émission (vs automatique) | __ jours |   |
+| Encours moyen concerné | __ € |   |
+| **Manque à gagner trésorerie estimé** |   | **__ €** |
+| **TOTAL COÛT DU STATU QUO** |   | **__ €/an** |
+
+### Trois exemples PME calibrés
+
+**PME industrie, 45 salariés : facturation client mensuelle manuelle.**
+Douze heures par mois de traitement, deux personnes à 32 €/h chacune, taux d'erreur 4 %, volume 180 factures/mois. Coût de base : 9 216 €/an. Coût des erreurs (correction + avoir) : 3 200 €/an. Total statu quo : 12 400 €/an environ.
+
+**ETI négoce, 120 salariés : saisie des commandes fournisseurs.**
+Vingt-deux heures par semaine réparties sur trois personnes (coût moyen 38 €/h), taux d'erreur 2,5 %, 400 commandes/semaine. Coût de base : 40 100 €/an. Coût des erreurs : 8 200 €/an. Retard facturation fournisseur : pénalités estimées à 4 000 €/an. Total statu quo : environ 52 000 €/an.
+
+**PME services, 30 salariés : reporting mensuel direction.**
+Huit heures par mois pour produire le tableau de bord, une personne à 44 €/h, disponibilité J+12. Coût direct : 4 224 €/an. Coût indirect (décisions sur données vieilles) : non quantifiable directement, mais le passage à J+2 représente une réduction du risque décisionnel.
+
+> **Résultat type.** Dans la grande majorité des PME qui réalisent cet exercice pour la première fois, le coût du statu quo sur un processus administratif de taille moyenne dépasse 15 000 euros par an. Sur un processus à fort volume ou à fort enjeu trésorerie, il dépasse 50 000 euros. Ces chiffres changent le rapport à l'investissement IA : un outil à 8 000 euros par an qui réduit de 60 % le coût d'un processus à 20 000 euros est rentable en moins de huit mois.
+
+## Une fois chiffré, que faire ?
+
+Le chiffrage du statu quo n'est pas une fin en soi. C'est le premier bloc d'un business case.
+
+### Construire le business case
+
+Avec le coût du statu quo établi, vous pouvez poser les trois questions d'un business case minimal :
+
+1. Quel outil ou quelle solution réduirait ce coût, et de combien ?
+2. Quel est le coût total de déploiement (licence, paramétrage, formation, maintenance) ?
+3. À partir de quand l'investissement est-il rentabilisé ?
+
+Pour que le business case soit défendable en CODIR, il doit intégrer quatre éléments :
+
+- Le coût du statu quo chiffré selon la méthode décrite dans cet article.
+- Le coût total de la solution (TCO sur trois ans, pas seulement la licence).
+- Le gain attendu exprimé en pourcentage de réduction du coût du statu quo.
+- Le délai de retour sur investissement, en mois.
+
+L'INSEE note que l'utilisation de l'IA pour l'organisation des processus d'administration a doublé entre 2023 et 2024, passant de 11 % à 24 % des entreprises françaises (INSEE Première, 2025). En 2025, cette tendance s'est accélérée avec un taux d'adoption IA global de 18 % pour les entreprises de dix salariés et plus, contre 10 % en 2024 (INSEE Première, 2026). La dynamique est réelle. Mais le business case individuel reste à construire pour chaque processus, dans chaque entreprise.
+
+### Prioriser le bon processus
+
+Tous les processus ne méritent pas d'être automatisés en premier. Les critères de priorisation combinent le coût du statu quo (que vous venez de calculer), la faisabilité technique de l'automatisation, et la sensibilité des données impliquées.
+
+Selon McKinsey Global Institute (2023), les technologies d'IA générative ont le potentiel d'automatiser les activités qui occupent 60 à 70 % du temps des salariés. Ce potentiel est réel, mais il ne se matérialise pas uniformément : certains processus sont prêts pour l'automatisation dès aujourd'hui, d'autres nécessitent une structuration des données en amont.
+
+Trois critères permettent de classer vos processus candidats :
+
+- **Coût du statu quo** : plus il est élevé, plus le retour sur investissement sera rapide.
+- **Faisabilité immédiate** : le processus est-il structuré, documenté, avec des données propres ?
+- **Risque opérationnel** : quel est l'impact d'une erreur de l'outil sur votre activité ?
+
+### Les signaux qui indiquent qu'un processus est prêt
+
+Un processus est un bon candidat à l'automatisation IA si :
+
+- Il est répétitif avec un volume mesurable (plus de cinquante occurrences par mois).
+- Les données d'entrée sont structurées ou semi-structurées (formulaires, emails types, fichiers CSV).
+- Le taux d'erreur actuel est supérieur à 2 %.
+- Il mobilise plus d'une heure par jour au total.
+- Son résultat est vérifiable objectivement (pas de jugement subjectif requis).
+
+## Passez à l'action
+
+Vous avez maintenant la méthode pour chiffrer le coût du statu quo sur un processus. L'étape suivante : valider que l'automatisation IA est techniquement faisable sur ce processus précis, dans votre contexte précis.
+
+Smart Impulsion propose la Smart Analyse : en une demi-journée à une journée, sur un seul de vos processus, vous obtenez une estimation chiffrée du coût du statu quo et un verdict sur la faisabilité de l'automatisation IA. Tarif fixe, de 1 000 à 2 000 € HT.
+
+[Découvrir la Smart Analyse](/services/audit)
+
+## Questions fréquentes
+
+### Comment calculer le coût réel d'un processus manuel dans une PME ?
+
+Multipliez le temps réellement passé (mesuré sur deux semaines, pas estimé) par le coût horaire complet du ou des salariés impliqués, puis ajoutez le coût des erreurs et retraitements. La formule de base : (heures annuelles × coût horaire) + (nombre d'erreurs × coût moyen par erreur). En France, le coût horaire moyen chargé dans le secteur marchand est de 44,7 euros selon l'INSEE (2025). Un processus de facturation manuelle qui mobilise quatre heures par semaine représente déjà plus de 9 000 euros par an avant même de compter les erreurs.
+
+### Combien coûte une heure de travail en France, charges comprises ?
+
+Selon l'INSEE (*Emploi, chômage, revenus du travail*, édition 2026), le coût horaire moyen du travail dans le secteur marchand non agricole hors services aux ménages s'élève à 44,7 euros en 2025, toutes charges comprises. Pour un calcul individuel, une approximation courante consiste à multiplier le salaire brut mensuel par 1,42 puis à diviser par 134 heures mensuelles (ou 1 607 heures annuelles).
+
+### Pourquoi le coût d'un processus non automatisé est-il toujours sous-estimé ?
+
+Parce que les dirigeants raisonnent en coût salarial direct, sans intégrer les charges patronales, les micro-interruptions, les erreurs de saisie et leurs corrections, ni le manque à gagner indirect (retard de facturation, créances douteuses, décisions sur reporting J+15). La mesure terrain révèle systématiquement des écarts de 30 à 60 % entre le temps estimé et le temps réel. C'est ce biais de perception qui maintient le statu quo.
+
+### Comment chiffrer le coût des erreurs de saisie dans ma PME ?
+
+Partez du taux d'erreur observé sur votre volume mensuel, multipliez par le coût de détection et correction de chaque erreur (temps passé × coût horaire). Ajoutez les conséquences aval : retard de livraison, avoir client, relance fournisseur. Sur la facturation, une facture papier coûte entre 10 et 15 euros à traiter contre 1 à 3 euros en dématérialisée (Ministère de l'Économie). L'écart est presque entièrement imputable aux erreurs et aux manipulations manuelles.
+
+### Faut-il faire un audit avant de lancer un projet d'automatisation IA ?
+
+Oui, pour une raison pratique : sans chiffrage du statu quo, vous ne pouvez pas évaluer si le ROI du projet IA est réel. Un audit ciblé sur un seul processus, d'une demi-journée à une journée, permet d'obtenir une estimation chiffrée du coût actuel, une évaluation de la faisabilité technique et une première fourchette de retour sur investissement. C'est cette base chiffrée qui rend un business case défendable en CODIR.`,
+    author: "Laurent Bouzon",
+    date: "27 octobre 2026",
+    dateISO: "2026-10-27",
+    readTime: "11 min",
+    category: "Strategie & ROI",
+    image: "/cout-statu-quo-ia-processus-pme-hero.png",
+    imageAlt: "Image d'illustration pour l'article \"Coût du statu quo IA : chiffrez ce qu'un processus non-automatisé vous coûte vraiment\"",
+    faq: [
+      {
+        question: "Comment calculer le coût réel d'un processus manuel dans une PME ?",
+        answer: "Multipliez le temps réellement passé (mesuré sur deux semaines, pas estimé) par le coût horaire complet du ou des salariés impliqués, puis ajoutez le coût des erreurs et retraitements. La formule de base : (heures annuelles × coût horaire) + (nb d'erreurs × coût moyen par erreur). En France, le coût horaire moyen chargé dans le secteur marchand est de 44,7 euros selon l'INSEE (2025). Un processus de facturation manuelle qui mobilise quatre heures par semaine représente déjà plus de 9 000 euros par an avant même de compter les erreurs.",
+      },
+      {
+        question: "Combien coûte une heure de travail en France, charges comprises ?",
+        answer: "Selon l'INSEE (Emploi, chômage, revenus du travail, édition 2026), le coût horaire moyen du travail dans le secteur marchand non agricole hors services aux ménages s'élève à 44,7 euros en 2025, toutes charges comprises. Pour un calcul individuel, une approximation courante consiste à multiplier le salaire brut mensuel par 1,42 (pour obtenir le coût total employeur) puis à diviser par le nombre d'heures théoriques annuelles (1 607 heures en France).",
+      },
+      {
+        question: "Pourquoi le coût d'un processus non automatisé est-il toujours sous-estimé ?",
+        answer: "Parce que les dirigeants raisonnent souvent en coût salarial direct, sans intégrer les charges patronales, les micro-interruptions, les erreurs de saisie et leurs corrections, ni le manque à gagner indirect (retard de facturation, créances douteuses, décisions sur reporting J+15). La mesure terrain révèle systématiquement des écarts de 30 à 60 % entre le temps estimé et le temps réel. C'est ce biais de perception qui maintient le statu quo.",
+      },
+      {
+        question: "Comment chiffrer le coût des erreurs de saisie dans ma PME ?",
+        answer: "Partez du taux d'erreur observé sur votre volume mensuel, multipliez par le coût de détection et correction de chaque erreur (temps passé × coût horaire). Ajoutez les conséquences aval : retard de livraison, avoir client, relance fournisseur. Sur la facturation, une facture papier coûte entre 10 et 15 euros à traiter contre 1 à 3 euros en dématérialisée selon le Ministère de l'Économie. L'écart est presque entièrement imputable aux erreurs et aux manipulations manuelles.",
+      },
+      {
+        question: "Faut-il faire un audit avant de lancer un projet d'automatisation IA ?",
+        answer: "Oui, pour une raison pratique : sans chiffrage du statu quo, vous ne pouvez pas évaluer si le ROI du projet IA est réel. Un audit ciblé sur un seul processus, d'une demi-journée à une journée, permet d'obtenir une estimation chiffrée du coût actuel, une évaluation de la faisabilité technique et une première fourchette de retour sur investissement. C'est cette base chiffrée qui rend un business case défendable en CODIR.",
+      },
+    ],
+    howTo: {
+      name: "Chiffrer le coût du statu quo IA d'un processus PME",
+      description: "Méthode en 4 étapes pour calculer le coût réel d'un processus non-automatisé en moins d'une heure",
+      totalTime: "PT1H",
+      steps: [
+        {
+          name: "Chronométrer le processus",
+          text: "Tenir un journal de bord sur deux semaines, en enregistrant chaque occurrence du processus avec le temps réel passé (et non estimé). Distinguer le temps de traitement principal des micro-tâches satellites : vérification de données, relances, corrections, archivage.",
+        },
+        {
+          name: "Calculer le coût horaire complet",
+          text: "Appliquer la formule : salaire brut mensuel × 1,42 ÷ 134 heures mensuelles (ou ÷ 1 607 heures annuelles). En France, le coût horaire moyen chargé est de 44,7 euros selon l'INSEE. Multiplier par le nombre d'heures annuelles du processus pour obtenir un coût de base.",
+        },
+        {
+          name: "Quantifier les erreurs et retraitements",
+          text: "Recenser le taux d'erreur sur un mois type, estimer le temps de correction par erreur, calculer le coût annuel. Ajouter les coûts de non-qualité aval : avoirs, pénalités, retard client.",
+        },
+        {
+          name: "Estimer le manque à gagner indirect",
+          text: "Évaluer l'impact des délais sur la trésorerie (DSO), les créances douteuses liées à des relances tardives, et le coût d'un reporting disponible tardivement. Ces coûts indirects représentent souvent 20 à 40 % du coût total (ordre de grandeur terrain).",
+        },
+      ],
+    },
+  },
+  {
     slug: "gpai-pme-fournisseur-deployeur-ai-act",
     title: "GPAI et PME : fournisseur ou déployeur ? La grille de décision pour savoir où vous en êtes",
     seoTitle: "GPAI PME : fournisseur ou déployeur AI Act ?",
