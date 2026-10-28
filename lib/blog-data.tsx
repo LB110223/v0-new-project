@@ -69,6 +69,256 @@ export interface BlogArticle {
 
 export const blogArticles: BlogArticle[] = [
   {
+    slug: "ia-propriete-intellectuelle-pme-droits-risques",
+    title: "IA et propriété intellectuelle en PME : ce que vous possédez vraiment",
+    seoTitle: "IA et propriété intellectuelle PME : vos droits réels",
+    excerpt:
+      "IA et propriété intellectuelle PME : ce que vous possédez vraiment sur vos outputs, le risque de contrefaçon et les 3 clauses CGU à vérifier.",
+    content: `Votre responsable communication vient de faire imprimer 3 000 brochures avec un logo créé sur Midjourney. Le résultat est convaincant. Le prestataire d'impression ne pose aucune question. Tout semble en ordre.
+
+Quelques semaines plus tard, le détenteur d'une marque déposée vous envoie une mise en demeure. Son avocat cite l'article L.335-2 du Code de la propriété intellectuelle. Vous avez publié un contenu visuellement proche d'une oeuvre protégée. Intentionnel ou non, vous êtes responsable.
+
+Ce scénario n'est pas théorique. Seulement 9 % des PME françaises de 10 à 49 salariés utilisent l'IA selon l'INSEE (enquête TIC-Entreprises 2024, tableau ic2t16 disponible sur insee.fr/fr/statistiques/8616837). Celles qui le font opèrent dans un cadre juridique que très peu maîtrisent. La propriété intellectuelle sur les outputs IA est la zone grise la plus fréquemment mal comprise, et les conséquences peuvent être sévères.
+
+Cet article ne remplace pas un conseil juridique. Il vous donne le cadre pour poser les bonnes questions à votre avocat et prendre des décisions opérationnelles sans attendre.
+
+## Ce que vous produisez avec une IA ne vous appartient pas automatiquement
+
+En droit français, un output généré par une IA n'est pas une oeuvre protégée par défaut. Le droit d'auteur ne naît que si un apport créatif humain est documenté. Sans cette trace, le contenu tombe dans le domaine public dès sa création.
+
+La croyance est répandue : vous avez payé l'abonnement, vous avez tapé le prompt, le contenu sort. Il vous appartient. C'est une lecture intuitive, et c'est faux en droit français.
+
+### Le droit français est clair : l'auteur est nécessairement une personne physique
+
+L'article L.111-1 du Code de la propriété intellectuelle est sans ambiguïté :
+
+> "L'auteur d'une oeuvre de l'esprit jouit sur cette oeuvre, du seul fait de sa création, d'un droit de propriété incorporelle exclusif et opposable à tous."
+
+Le mot "auteur" désigne une personne physique. Une IA n'est pas une personne physique. Un output généré sans empreinte créative humaine documentée n'est pas une oeuvre protégeable. Il tombe dans le domaine public.
+
+La doctrine jurisprudentielle est constante. La Cour de cassation exige que l'oeuvre "résulte d'un effort créatif portant l'empreinte de la personnalité de son auteur", formule vérifiable sur Légifrance pour toute décision récente en droit d'auteur. Appliquée aux outputs IA, cette grille conduit logiquement à refuser la protection : le traitement algorithmique ne produit pas d'empreinte de la personnalité d'un auteur au sens du CPI.
+
+> **Chiffre à retenir** : 0 droit d'auteur automatique sur un output IA sans apport créatif humain documenté. Ce n'est pas une position minoritaire en droit : c'est l'état du droit en vigueur dans les principales juridictions européennes.
+
+La nuance est importante. Si votre équipe produit quarante itérations de prompt, sélectionne, recadre, retouche et intègre des éléments graphiques propres à votre identité visuelle, il peut y avoir un apport créatif humain suffisant. Mais il faut le documenter. Le simple fait d'avoir tapé un prompt ne suffit pas.
+
+### Ce que valent vraiment les CGU d'OpenAI et Midjourney en France
+
+OpenAI cède bien les droits sur les outputs dans ses conditions d'utilisation. La clause est explicite : "We hereby assign to you all our right, title, and interest, if any, in and to Output." La formulation est contractuellement favorable à l'utilisateur.
+
+Mais cette cession est limitée par une phrase déterminante : "to the extent permitted by applicable law." En France, la loi applicable est le Code de la propriété intellectuelle. Si l'oeuvre n'est pas protégeable au sens du CPI, il n'y a rien à céder. OpenAI cède contractuellement un droit qui n'existe pas en droit français.
+
+La situation de Midjourney est similaire, avec une contrainte supplémentaire sur les abonnements gratuits ou d'entrée de gamme, où les droits de l'utilisateur sont encore plus restreints.
+
+> **Point de vigilance** : Les CGU sont rédigées en anglais, sous droit californien. Sur votre territoire, c'est le CPI français qui s'applique. Une cession contractuelle ne crée pas un droit d'auteur là où il n'en existe pas.
+
+## Le risque de contrefaçon que peu de dirigeants voient venir
+
+En droit français, publier un contenu généré par IA suffit à engager la responsabilité de l'éditeur, même en cas d'ignorance de l'infraction. L'article L.335-2 du Code de la propriété intellectuelle prévoit une amende maximale de 300 000 euros et trois ans d'emprisonnement pour contrefaçon.
+
+La question de la propriété de vos outputs est une chose. Celle de la responsabilité sur ce que l'IA a intégré à votre insu en est une autre, plus immédiatement risquée.
+
+### Vous êtes l'éditeur, pas l'outil
+
+Quand votre équipe publie un contenu généré par IA (un article de blog, une image pour vos réseaux, une plaquette commerciale), votre entreprise en est l'éditeur. C'est elle qui répond en cas de problème.
+
+L'IA peut avoir reproduit, dans sa réponse, des fragments d'une oeuvre protégée. Elle ne vous prévient pas systématiquement. Elle ne sait pas toujours qu'elle le fait. Vous, en revanche, vous publiez. Et c'est ce moment de publication qui déclenche la responsabilité.
+
+L'article L.335-2 du CPI est direct :
+
+> "Toute édition d'écrits [...] au mépris des lois et règlements relatifs à la propriété des auteurs, est une contrefaçon." Peine : "trois ans d'emprisonnement et 300 000 euros d'amende."
+
+### La contrefaçon involontaire n'est pas un fait justificatif
+
+"Nous ne savions pas que l'IA avait copié cette image" est une explication. Ce n'est pas une défense juridique. En droit français, la bonne foi peut atténuer les sanctions civiles, mais elle ne fait pas disparaître la responsabilité.
+
+Les situations à risque les plus fréquentes pour une PME :
+
+- Un logo généré par Midjourney visuellement proche d'une marque déposée (ressemblance que ni vous ni l'outil ne détectez au moment de la génération)
+- Un texte marketing qui reprend des tournures caractéristiques d'un auteur protégé
+- Une image illustrative qui intègre une oeuvre architecturale ou artistique identifiable
+- Du code généré par GitHub Copilot ou ChatGPT qui reproduit des fragments open-source sous licence restrictive
+
+La relecture humaine avant publication est la seule parade immédiatement accessible. Ce n'est pas un coût supplémentaire : c'est une étape de validation à intégrer dans votre process de production.
+
+## Les 3 clauses à vérifier dans vos CGU avant d'industrialiser
+
+Avant d'intégrer un outil IA dans un processus de production à grande échelle, trois clauses méritent une lecture attentive. La plupart des litiges PI impliquant des PME auraient pu être anticipés en vingt minutes de lecture des conditions d'utilisation.
+
+**Clause 1 : la cession des outputs**
+
+Qui possède quoi sur ce que l'outil génère ? La situation varie selon les éditeurs et selon la formule d'abonnement :
+
+- OpenAI (ChatGPT payant) : cession contractuelle des droits sur les outputs, avec la réserve "to the extent permitted by applicable law"
+- Midjourney (abonnement gratuit) : usage personnel uniquement, pas de droits commerciaux
+- Adobe Firefly : cession pour usage commercial sur abonnements payants ; vérifiez la clause de formation sur les données dans vos conditions d'abonnement actuelles (politique évolutive)
+- GitHub Copilot : les outputs sont soumis à des restrictions selon les licences des snippets sous-jacents
+
+Vérifiez toujours la version de votre abonnement, pas les CGU génériques affichées sur la page d'accueil.
+
+**Clause 2 : la licence d'entraînement**
+
+Vos données alimentent-elles le modèle ? Certains outils utilisent les contenus soumis par les utilisateurs pour améliorer leurs modèles. Si vous entrez des données confidentielles, des savoir-faire, des avant-projets non publiés, vous exposez potentiellement ces éléments à une réutilisation par l'éditeur. Cette question croise la protection des données personnelles, un sujet traité séparément dans notre article sur les [obligations CNIL et le RGPD IA pour les PME](/blog/rgpd-ia-pme-obligations-cnil-2026).
+
+**Clause 3 : le droit applicable**
+
+Sous quelle juridiction les litiges sont-ils traités ? La quasi-totalité des CGU des grands éditeurs IA (OpenAI, Adobe Firefly, Midjourney, Anthropic) désignent les tribunaux américains. Pour une PME française, cela signifie que vos recours contractuels sont complexes et coûteux. Ce qui compte davantage : les CGU ne peuvent pas vous priver des protections que le droit français vous garantit sur votre territoire.
+
+> **Liste de vérification avant de signer ou renouveler un abonnement :**
+> - L'outil cède-t-il les droits sur les outputs pour un usage commercial ?
+> - Cette cession couvre-t-elle la version d'abonnement que vous utilisez ?
+> - L'outil utilise-t-il vos inputs pour entraîner ses modèles ?
+> - Y a-t-il une option pour désactiver cet entraînement ?
+> - Quel droit s'applique en cas de litige ?
+
+## Ce que ça change pour votre politique IA interne
+
+La propriété intellectuelle des outputs IA est autant une question de politique interne que de contrats fournisseurs. Sans processus de documentation, même un apport créatif réel de vos équipes reste inopposable à un tiers.
+
+La question PI n'est pas réservée aux contrats avec vos fournisseurs IA. Elle touche aussi vos pratiques internes, vos contrats de travail et la façon dont vous documentez votre processus créatif.
+
+### Documenter l'apport créatif humain
+
+Si vous souhaitez revendiquer un droit d'auteur sur des créations assistées par IA, la documentation est votre seul levier. Cela ne signifie pas produire une fiche juridique pour chaque contenu. Mais certaines catégories méritent un traitement différencié :
+
+- Identité visuelle (logo, charte graphique) : enjeu fort, exposition longue, à traiter en priorité
+- Contenus commerciaux publiés (plaquettes, pages web, annonces) : volume élevé, relecture humaine systématique avant publication
+- Code généré par IA intégré à vos produits ou services : licences open-source à vérifier avant intégration
+- Contenus internes non publiés (notes, rapports, analyses) : risque moindre mais secret des affaires à considérer
+
+Un processus simple suffit :
+
+1. Conserver les versions successives du contenu (captures d'écran des itérations, historique des prompts)
+2. Tracer les modifications apportées manuellement par votre équipe (retouches, recadrages, ajouts originaux)
+3. Horodater ces étapes (un dossier partagé avec des dates de modification fait l'affaire pour les contenus courants)
+4. Pour les créations à fort enjeu (logo, charte graphique, contenu phare), envisager un dépôt à l'Enveloppe Soleau ou chez un notaire
+
+> **Rappel** : L'apport créatif ne se présume pas. Il se documente. La règle vaut aussi pour les créations de salariés utilisant l'IA : votre contrat de travail type prévoit-il le transfert de PI sur les oeuvres assistées par IA ? Si non, un avenant est à envisager.
+
+Cette démarche de documentation s'inscrit naturellement dans la politique IA interne que vous avez (ou devriez avoir). Pour un cadre complet incluant registre d'usage et rôle du DPO, consultez notre article sur la [gouvernance IA en entreprise : registre, politique d'usage et DPO](/blog/gouvernance-ia-entreprise-registre-politique-dpo).
+
+### Les alternatives au droit d'auteur
+
+**Le dépôt de marque à l'INPI**
+
+Un logo généré par IA peut ne pas être protégeable par le droit d'auteur, et pourtant être déposable comme marque. La condition n'est pas l'originalité créative : c'est le caractère distinctif du signe.
+
+Ce régime est adapté si votre output remplit ces critères :
+
+- Le signe est visuellement distinct de ceux déjà déposés dans votre secteur
+- Vous souhaitez une protection renouvelable à long terme (10 ans, renouvelable)
+- Le signe est destiné à identifier des produits ou services commercialisés
+
+Le guide pratique de l'INPI sur la propriété intellectuelle pour les entrepreneurs (publication 2025) détaille les démarches et coûts.
+
+**Les dessins et modèles**
+
+Pour les formes, emballages et interfaces visuelles : le dépôt de dessin ou modèle offre jusqu'à 25 ans de protection sans condition d'originalité comparable à celle du droit d'auteur. Utile pour les PME industrielles ou les créateurs de produits.
+
+**Le secret des affaires**
+
+Pour les outputs IA qui ne sont pas destinés à être publiés (algorithmes internes, documents de stratégie), la protection par le secret des affaires (loi du 30 juillet 2018) peut être suffisante. Elle exige de mettre en place des mesures de protection raisonnables et de les documenter.
+
+> **À noter** : Ces trois régimes ne sont pas exclusifs. Un logo peut être déposé comme marque et comme dessin et modèle. La combinaison renforce la protection.
+
+L'AI Act a imposé aux fournisseurs de modèles GPAI (OpenAI, Google, Mistral) de publier depuis août 2025 un résumé de leurs données d'entraînement (article 53 du règlement UE 2024/1689). Cette transparence est utile pour comprendre l'exposition de vos fournisseurs, mais elle ne change pas votre situation : la PME déployeuse reste responsable de ses outputs. Pour un panorama des obligations qui s'appliquent à votre PME depuis le 2 août 2026, consultez notre article sur [ce qui s'applique vraiment depuis le 2 août](/blog/ai-act-2-aout-2026-ce-qui-sapplique-pme).
+
+## Ce que vous devriez faire dans les 30 jours
+
+Pour une PME qui utilise déjà des outils IA sans avoir adressé la question PI, l'urgence est de cartographier les expositions existantes avant d'en créer de nouvelles. Un litige en contrefaçon commence à 300 000 euros d'amende potentielle. Un dépôt de marque INPI en classe unique coûte environ 190 euros.
+
+**Priorité 1 : Identifier vos expositions actuelles**
+
+Listez les contenus IA déjà publiés. Pour chacun, posez les trois questions suivantes :
+
+- Avons-nous documenté l'apport créatif humain sur ce contenu ?
+- Ce contenu a-t-il été relu manuellement avant publication pour détecter une ressemblance avec des oeuvres protégées ?
+- Le contenu est-il identitaire (logo, signature visuelle) et n'a-t-il pas fait l'objet d'un dépôt de protection ?
+
+Si la réponse est "non" à l'une de ces questions, le contenu mérite une revue prioritaire.
+
+**Priorité 2 : Relire les CGU de vos outils principaux**
+
+Concentrez-vous sur les trois clauses décrites plus haut. Si votre outil principal est ChatGPT, Adobe Firefly ou Midjourney, les CGU sont publiques et lisibles en moins d'une heure.
+
+**Priorité 3 : Décider ce que vous déposez à l'INPI**
+
+Votre logo généré par IA mérite-t-il un dépôt de marque ? La question doit être posée maintenant, pas après une mise en demeure. Le coût d'un dépôt INPI en classe unique est de l'ordre de 190 euros, très inférieur au coût d'un litige.
+
+Critères pour prioriser un dépôt :
+
+- Le signe est utilisé dans un contexte commercial (site, plaquettes, packaging, signalétique)
+- Il est exposé à la concurrence directe dans votre secteur
+- Aucun dépôt sous votre raison sociale n'a encore été effectué pour ce signe
+
+**Priorité 4 : Mettre à jour votre politique IA interne**
+
+Ajoutez une clause sur la PI des outputs dans votre politique d'usage IA. Précisez qui valide les contenus avant publication, et quel niveau de documentation est requis pour les créations à fort enjeu (identité visuelle, contenus commerciaux, code propriétaire).
+
+> **Le cadre réglementaire global dans lequel s'inscrit la question PI** est posé dans notre [guide AI Act pour les PME](/blog/ai-act-pme-guide-2026), pilier du cluster compliance.
+
+## Questions fréquentes
+
+### Un concurrent peut-il copier un contenu que j'ai généré avec l'IA ?
+
+Si votre contenu n'est pas protégeable par le droit d'auteur (absence d'apport créatif humain documenté), oui. Il tombe dans le domaine public. Un concurrent peut le reprendre sans votre autorisation. C'est une des raisons pour lesquelles la documentation de l'apport humain, ou le recours aux régimes alternatifs (marque, dessins et modèles), est utile.
+
+### L'exception de fouille de textes de la directive européenne nous couvre-t-elle ?
+
+Partiellement. L'article 4 de la directive 2019/790, transposé en France à l'article L.122-5-3 du CPI, autorise la fouille de textes et de données à fins commerciales. Mais les titulaires de droits peuvent activer un opt-out via robots.txt ou clause CGU. La plupart des grandes sources de contenu en ligne l'ont fait. La PME n'est couverte que si les ayants droit n'ont pas valablement exercé cet opt-out, ce qui est difficile à vérifier en pratique.
+
+### Faut-il modifier nos contrats de travail ?
+
+Si vos salariés utilisent l'IA pour produire des livrables à valeur commerciale, oui. Un avenant précisant que les droits sur les oeuvres assistées par IA créées dans le cadre du contrat de travail sont transférés à l'employeur est une précaution utile. Sans cela, la situation juridique reste floue, particulièrement sur les éléments où l'apport créatif humain du salarié est documenté.
+
+### Nos prestataires externes qui utilisent l'IA pour nos projets : qui possède les droits ?
+
+La question doit être traitée dans votre contrat de prestation. Si votre brief ne précise pas que les droits sur les livrables IA vous sont intégralement cédés, la situation est incertaine. Ajoutez une clause PI explicite dans vos contrats avec les prestataires qui utilisent l'IA (agences, rédacteurs, designers).
+
+### Comment savoir si une image IA est trop proche d'une oeuvre existante ?
+
+Il n'existe pas d'outil fiable à 100 %. Les outils de détection de ressemblance inverse (Google Images, TinEye) sont un premier filtre utile pour les images. Pour les logos, une recherche d'antériorité à l'INPI ou auprès d'un avocat en propriété intellectuelle avant dépôt est la seule approche sécurisée.
+
+## Faire le point sur votre exposition en propriété intellectuelle
+
+La propriété intellectuelle sur les outputs IA n'est pas un sujet à traiter dans l'absolu. Il faut le traiter pour vos outils, vos usages, vos contenus existants et votre secteur d'activité.
+
+Smart Impulsion propose la Smart Analyse : en une demi-journée à une journée, sur un seul de vos processus de production de contenu ou de création IA, vous obtenez une revue des CGU de vos outils, une identification de vos expositions PI actuelles et une liste de recommandations contractuelles actionnables (contrats fournisseurs et contrats de travail). Tarif fixe, de 1 000 à 2 000 euros HT.
+
+Un litige en contrefaçon commence à 300 000 euros d'amende potentielle. La comparaison est arithmétique.
+
+[En savoir plus sur la Smart Analyse](/services/audit)`,
+    author: "Laurent Bouzon",
+    date: "28 octobre 2026",
+    dateISO: "2026-10-28",
+    readTime: "11 min",
+    category: "Compliance & AI Act",
+    image: "/ia-propriete-intellectuelle-pme-droits-risques-hero.png",
+    imageAlt: "Image d'illustration pour l'article \"IA et propriété intellectuelle en PME : ce que vous possédez vraiment\"",
+    faq: [
+      {
+        question: "Les textes et images générés par ChatGPT ou Midjourney m'appartiennent-ils ?",
+        answer: "Non, pas automatiquement. En droit français, l'auteur est nécessairement une personne physique (CPI art. L.111-1). Un output IA sans apport créatif humain documenté n'est pas une oeuvre protégeable : il tombe dans le domaine public. La cession contractuelle prévue dans les CGU d'OpenAI ne crée pas de droit d'auteur si l'oeuvre n'est pas originale au sens du CPI.",
+      },
+      {
+        question: "Mon entreprise est-elle responsable si une IA reproduit une oeuvre protégée à mon insu ?",
+        answer: "Oui. En droit français, c'est l'éditeur du contenu, votre entreprise, qui répond en premier de la contrefaçon, que l'infraction soit intentionnelle ou non. L'article L.335-2 du Code de la propriété intellectuelle prévoit une amende maximale de 300 000 euros et trois ans d'emprisonnement. Le fait que l'IA soit à l'origine de la reproduction n'est pas un fait justificatif.",
+      },
+      {
+        question: "Les CGU d'OpenAI cèdent les droits sur les outputs. Est-ce suffisant en France ?",
+        answer: "Non. OpenAI cède contractuellement les droits (We hereby assign to you all our right, title, and interest, if any, in and to Output), mais cette cession est limitée to the extent permitted by applicable law. En droit français, si l'oeuvre n'est pas protégeable faute d'originalité, la cession ne crée aucun droit d'auteur opposable à des tiers. Le Code de la propriété intellectuelle prévaut sur les CGU américaines.",
+      },
+      {
+        question: "Comment protéger un logo ou un contenu créé avec l'IA si le droit d'auteur ne s'applique pas ?",
+        answer: "Trois alternatives existent en droit français : le dépôt de marque à l'INPI (protection 10 ans renouvelables, pas de condition d'originalité, adapté aux logos), les dessins et modèles (jusqu'à 25 ans de protection pour les formes et interfaces), et le secret des affaires (loi du 30 juillet 2018, pour les outputs non publiés). Pour les textes et images publiés, documenter les itérations humaines reste la seule voie vers le droit d'auteur.",
+      },
+      {
+        question: "Que dit l'AI Act sur la propriété intellectuelle des outputs IA ?",
+        answer: "L'AI Act (règlement UE 2024/1689) n'attribue pas de droit d'auteur sur les outputs IA. Son article 53 impose aux fournisseurs de modèles GPAI de publier un résumé de leurs données d'entraînement depuis août 2025, ce qui renseigne sur l'exposition potentielle. Mais la PME déployeuse reste responsable de ses propres outputs. Le cadre du droit d'auteur reste celui du Code de la propriété intellectuelle national.",
+      },
+    ],
+  },
+  {
     slug: "cout-statu-quo-ia-processus-pme",
     title: "Coût du statu quo IA : chiffrez ce qu'un processus non-automatisé vous coûte vraiment",
     seoTitle: "Coût statu quo IA PME : méthode en 4 étapes",
