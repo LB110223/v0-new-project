@@ -69,6 +69,238 @@ export interface BlogArticle {
 
 export const blogArticles: BlogArticle[] = [
   {
+    slug: "donnees-confidentielles-llm-pme-regles-collaborateurs",
+    title: "Données confidentielles LLM : les règles PME pour vos collaborateurs",
+    seoTitle: "Données confidentielles LLM PME : règles collaborateurs",
+    excerpt:
+      "Règles données confidentielles LLM PME : la matrice feux vert/orange/rouge pour protéger vos données et former vos collaborateurs en 20 minutes.",
+    content: `En 2023, des ingénieurs de Samsung ont saisi du code source propriétaire et des notes de réunion internes dans ChatGPT. Samsung a réagi en interdisant tous les outils de ce type sur ses réseaux. La décision était compréhensible. Elle n'était pas tenable à grande échelle. Et surtout, elle était la preuve que l'entreprise n'avait pas posé de règles données confidentielles LLM avant de déployer.
+
+Selon Eurostat, 48,83 % des entreprises européennes qui ont envisagé l'IA citent les préoccupations sur les données personnelles comme principal frein (Eurostat, Enquête sur l'utilisation de l'IA dans les entreprises, 2025). Pendant ce temps, une part croissante de leurs collaborateurs utilise déjà ChatGPT ou un autre modèle de langage grand public pour traiter des données confidentielles sans consigne formelle. On appelle parfois ce phénomène le "shadow IA" : l'usage non supervisé d'outils IA par des collaborateurs en dehors de tout cadre validé par l'entreprise.
+
+Ce n'est pas un problème technologique. C'est un problème de gouvernance : une PME sans règles d'usage expose ses données confidentielles chaque fois qu'un collaborateur ouvre un LLM (modèle de langage de grande taille, ou Large Language Model, ces outils d'IA capables de générer et d'analyser du texte à partir d'instructions en langage naturel, comme ChatGPT, Gemini, Copilot ou Mistral).
+
+Sur les missions d'accompagnement que nous menons, la première question des dirigeants porte invariablement sur le même sujet : "Que risquons-nous si nos collaborateurs utilisent déjà ces outils ?" La réponse dépend directement de ce que vos collaborateurs y saisissent, et de si vous avez posé des règles.
+
+## Ce que la CNIL dit réellement
+
+La CNIL est claire dans sa FAQ sur l'IA générative publiée en juillet 2024 : il ne faut "jamais partager d'informations confidentielles telles que des données personnelles, des données de l'entreprise ou de l'administration" dans un modèle de langage public. Pour les données sensibles, la recommandation va plus loin : "privilégier le déploiement de solutions sur site (on premise)".
+
+Ce n'est pas une recommandation de bon sens. C'est une position officielle d'une autorité de contrôle qui peut infliger des amendes jusqu'à 4 % du chiffre d'affaires mondial en cas de manquement au RGPD.
+
+> La CNIL recommande de ne jamais partager d'informations confidentielles dans un outil d'IA générative public, et de privilégier l'hébergement on-premise pour les données sensibles. Source : CNIL, FAQ IA générative, juillet 2024.
+
+Cybermalveillance.gouv.fr formule la même recommandation terrain : "En cas de doute ou d'absence de politique, évitez de fournir à l'IA des informations sensibles : RH, projets confidentiels, actions juridiques, plan de développement d'activités."
+
+Le problème est précisément là : l'absence de politique. Sans règle formalisée, c'est le collaborateur qui décide seul de ce qu'il peut ou ne peut pas saisir. Avec les meilleures intentions du monde.
+
+## Les chiffres qui donnent la mesure du risque
+
+Avant de passer aux règles opérationnelles, quelques données pour calibrer l'exposition réelle.
+
+La CNIL a reçu 5 629 notifications de violations de données en 2024, soit une hausse de 20 % par rapport à 2023 (CNIL, Rapport d'activité 2024). Toutes n'impliquent pas un outil IA, mais la surface d'exposition augmente mécaniquement avec l'adoption des outils.
+
+Le coût d'une violation de données atteint 4,99 millions de dollars en moyenne mondiale en 2026, un record selon le rapport IBM Cost of a Data Breach 2026. Pour une PME, même une fraction de ce montant (amendes CNIL, frais juridiques, communication de crise, perte de clients) peut peser sur deux ou trois exercices.
+
+> Chiffre de cadrage : 4,99 M$ de coût moyen mondial d'une violation de données en 2026. Source : IBM Cost of a Data Breach 2026.
+
+Et côté adoption, Eurostat confirme que près de 20 % des entreprises européennes utilisent l'IA en 2025, avec un écart net : 17 % pour les petites entreprises, contre 55 % pour les grandes (Eurostat, 2025). L'écart n'est pas technologique. Il est largement lié à la capacité des grandes entreprises à poser des cadres de gouvernance que les PME n'ont pas encore.
+
+## La matrice données x LLM
+
+La bonne approche ne consiste pas à interdire, mais à classifier. Un même outil peut être utilisé pour certaines tâches et pas d'autres. Le principe de la matrice est simple : trois niveaux de données, trois types d'outils.
+
+### Niveau 1 : feux verts, ce que tout le monde peut saisir partout
+
+Ces contenus ne présentent pas de risque de confidentialité parce qu'ils ne contiennent aucune donnée identifiante ni information stratégique :
+
+- Reformulation de textes marketing génériques sans données client
+- Résumés ou traductions de documents publics
+- Rédaction de posts ou d'articles sur des sujets sectoriels
+- Préparation de plans de présentation sans mentions contractuelles
+- Questions de fond sur un sujet métier (droit du travail, comptabilité, etc.) sans détail nominatif
+
+La règle de vérification est simple : si vous supprimez le prompt du contexte de votre entreprise, il ne dit rien sur vos clients, vos contrats, votre organisation ou vos finances. S'il passe ce test, c'est un feu vert.
+
+### Niveau 2 : feux oranges, possibles mais sous conditions
+
+Ces données peuvent circuler dans un outil professionnel (c'est-à-dire un LLM pro, un modèle de langage accessible via un abonnement d'entreprise assorti d'un accord contractuel), à condition que le fournisseur ait signé un accord de traitement de données (DPA, ou Data Processing Agreement) avec votre entreprise. Le DPA est le contrat par lequel l'éditeur de l'outil s'engage à ne pas utiliser vos données pour entraîner son modèle et à ne pas les partager avec des tiers :
+
+- KPIs agrégés non nominatifs (chiffre d'affaires global, taux de satisfaction moyen)
+- Procédures internes génériques sans noms ni références client
+- Descriptions de postes sans mention de titulaires
+- Budgets globaux sans ventilation par client ou partenaire
+- Retours clients anonymisés et segmentés
+
+> Avant de saisir une donnée de niveau orange dans un outil professionnel, une seule question : le DPA (accord de traitement de données) est-il signé avec ce fournisseur ? Si vous n'avez pas la réponse, traitez la donnée comme rouge.
+
+ChatGPT Enterprise, Copilot for Microsoft 365 et Claude for Enterprise proposent ces accords. Ce n'est pas automatique : le DPA doit être activé et signé dans le cadre de votre abonnement. Vérifiez avec votre DPO ou votre responsable IT.
+
+**Comment savoir si un outil est couvert par un DPA ?** Vérifiez dans les paramètres de votre abonnement professionnel la section "Privacy" ou "Data Processing". Si vous n'êtes pas sûr, contactez le support du fournisseur en demandant explicitement une copie du Data Processing Agreement associé à votre compte. En l'absence de réponse écrite, considérez l'outil comme non couvert.
+
+### Niveau 3 : feux rouges, interdiction absolue quelle que soit la version de l'outil
+
+Ces données ne doivent jamais entrer dans un outil externe, y compris les versions professionnelles avec DPA :
+
+- Données personnelles nominatives : noms complets, adresses email professionnelles ou personnelles, données RH (salaires, évaluations, arrêts maladie), coordonnées bancaires
+- Données stratégiques : code source propriétaire, contrats en cours de négociation, offres commerciales non publiées, plans de développement, données de fusion-acquisition
+- Données sensibles au sens du RGPD : informations sur la santé, opinions politiques ou syndicales, données biométriques
+- Données couvertes par un NDA ou par une obligation réglementaire (données de santé si vous travaillez avec le secteur médical, données financières non publiques si vous êtes coté)
+
+L'exception partielle concerne les outils hébergés on-premise ou sur un cloud souverain dédié : dans ce cas, les données stratégiques non-personnelles peuvent circuler, sous réserve d'une analyse d'impact sur la protection des données (AIPD). Une AIPD est une évaluation formelle, prévue à l'article 35 du RGPD, qui documente les risques liés à un traitement de données personnelles à grande échelle et les mesures prises pour les réduire. Elle est obligatoire avant tout déploiement sensible.
+
+### Le tableau récapitulatif
+
+| Type de données | LLM public gratuit | LLM pro avec DPA | LLM on-premise |
+|---|---|---|---|
+| Feux verts (sans données identifiantes) | Oui | Oui | Oui |
+| Feux oranges (agrégés, anonymisés) | Non | Oui (DPA vérifié) | Oui |
+| Feux rouges (personnels, stratégiques, sensibles) | Non | Non | Sous conditions AIPD |
+
+Cette matrice est destinée à être affichée, expliquée en réunion, et intégrée dans votre politique d'usage IA. Ce n'est pas un document interne de conformité : c'est un outil de terrain pour vos collaborateurs.
+
+### Les erreurs les plus fréquentes
+
+Sur le terrain, quatre comportements reviennent systématiquement dans les PME sans politique d'usage formalisée :
+
+- Utiliser un compte ChatGPT Plus personnel pour traiter des données clients, en pensant que l'abonnement payant suffit (ChatGPT Plus n'inclut pas de DPA)
+- Coller un contrat complet dans un outil public pour en faire un résumé
+- Transférer des données RH nominatives pour préparer des évaluations
+- Saisir des données financières confidentielles pour préparer une présentation investisseurs
+
+Ces comportements ne sont pas malveillants. Ils sont le résultat direct de l'absence de règles claires. La responsabilité n'est pas celle du collaborateur : elle est celle du dirigeant qui n'a pas formalisé de politique avant de laisser les outils s'installer dans les habitudes de travail.
+
+## Les trois types d'outils en pratique
+
+### LLM public gratuit : usage restreint aux feux verts
+
+Un LLM public gratuit désigne un modèle de langage accessible sans abonnement et sans contrat d'entreprise : ChatGPT en version gratuite, Gemini gratuit, Mistral Le Chat sans abonnement. Ces outils n'ont pas de contrat de traitement de données avec votre entreprise. Vos saisies peuvent potentiellement servir à améliorer le modèle. La règle est donc stricte : uniquement des feux verts.
+
+Ce n'est pas une position paranoïaque. C'est la position de la CNIL et de Cybermalveillance.gouv.fr.
+
+### LLM professionnel avec accord de traitement : feux verts et oranges
+
+Dès lors que votre entreprise a signé un DPA avec l'éditeur, les usages s'élargissent aux feux oranges. Les trois principaux outils du marché qui proposent ce type d'accord sont ChatGPT Enterprise (OpenAI), Copilot for Microsoft 365 (Microsoft) et Claude for Enterprise (Anthropic).
+
+Deux points à ne pas négliger :
+
+- L'accord doit être signé dans le cadre de votre abonnement. Un compte ChatGPT Plus personnel n'équivaut pas à ChatGPT Enterprise.
+- Même avec un DPA, les feux rouges restent interdits. Le risque résiduel d'une fuite ou d'une erreur de traitement n'est jamais nul.
+
+### LLM hébergé on-premise : le périmètre le plus large
+
+Déployer un modèle open source (Llama, Mistral) sur votre propre infrastructure ou sur un cloud souverain dédié permet de traiter des données stratégiques non-personnelles sans les exposer à un tiers. C'est la recommandation de la CNIL pour les usages sensibles.
+
+Pour en savoir plus sur le choix d'hébergement de votre outil IA et les options souveraines disponibles, consultez l'article dédié à [le choix d'hébergement de votre outil IA](/blog/souverainete-donnees-ia-pme-hebergement).
+
+Une nuance importante : même on-premise, les données personnelles à risque élevé (données de santé, données biométriques, profilage à grande échelle) nécessitent une AIPD avant tout déploiement. [Les obligations CNIL qui s'appliquent à l'utilisation de l'IA](/blog/rgpd-ia-pme-obligations-cnil-2026) détaillent ce point.
+
+## Données confidentielles dans un LLM : que faire
+
+Le cas Samsung n'est pas une exception. Il arrive régulièrement, souvent sans intention malveillante. La question n'est pas de savoir si ça va arriver dans votre PME, mais quoi faire quand ça arrive.
+
+L'article 33 du RGPD impose une notification à la CNIL sous 72 heures en cas de violation de données personnelles présentant un risque pour les droits et libertés des personnes. La procédure commence au moment où vous avez connaissance de l'incident, pas au moment où il s'est produit.
+
+**Qui doit piloter la réponse à un incident de données IA dans une PME ?** C'est le DPO (délégué à la protection des données) si votre entreprise en a un, sinon le dirigeant ou le directeur juridique. En l'absence de ces fonctions, la responsabilité revient au responsable IT. L'important est de désigner ce pilote avant l'incident, pas pendant.
+
+### La procédure en 4 étapes
+
+1. **Qualifier dans les 24 heures.** Des données personnelles ont-elles été saisies dans un outil externe ? Si oui, le délai de 72 heures commence. Si seules des données stratégiques non-personnelles sont concernées, le RGPD ne s'applique pas directement, mais votre responsabilité contractuelle (NDA, contrats clients) peut l'être.
+
+2. **Documenter.** Date de l'incident, outil utilisé, nature exacte des données, collaborateur concerné, finalité de la saisie. Cette documentation est exigée par le RGPD et servira à l'analyse du risque.
+
+3. **Évaluer et contenir.** Un DPA était-il en vigueur avec ce fournisseur ? Les données étaient-elles accessibles à des tiers ? Contactez le support du fournisseur pour demander la suppression des données saisies, si l'accord le prévoit. Les délais et les garanties varient selon les fournisseurs.
+
+4. **Corriger et former.** Utilisez l'incident comme point d'entrée pour déployer la matrice données x LLM, organiser une session d'information avec les équipes concernées, et mettre à jour la politique d'usage IA de votre entreprise.
+
+> Si vous n'avez pas encore de politique d'usage IA formalisée, un incident est une mauvaise façon de le découvrir. Le délai de 72 heures RGPD ne laisse pas de place à l'improvisation.
+
+## Ce que ça implique côté gouvernance
+
+Une matrice de classification des données ne suffit pas si personne ne la connaît. Mettre en place la matrice suppose trois actions concrètes :
+
+- **Formaliser une politique d'usage IA.** Même un document d'une page, validé par la direction et communiqué à tous les collaborateurs, vaut mieux qu'une interdiction tacite que personne ne respecte. Pour structurer cette démarche avec votre DPO, l'article sur [la politique d'usage IA formalisée avec votre DPO](/blog/gouvernance-ia-entreprise-registre-politique-dpo) donne le cadre opérationnel.
+- **Former les collaborateurs sur les feux rouges.** Pas une formation de deux heures sur l'IA en général : une session de 20 minutes sur les trois niveaux de données et les outils autorisés. Le cas Samsung est un exemple concret que tout le monde comprend.
+- **Revoir les accords avec vos fournisseurs d'outils IA.** Si votre entreprise utilise déjà ChatGPT ou Copilot, vérifiez si un DPA a bien été signé dans le cadre de l'abonnement professionnel. Pour tout ce qui touche [les règles de cybersécurité IA en PME](/blog/cybersecurite-ia-pme-regles-pratiques), le sujet des accords contractuels avec les fournisseurs est souvent le point aveugle des PME qui se sont lancées rapidement.
+
+Ces démarches s'inscrivent dans un cadre plus large. Si vous en êtes à poser les premières bases de votre stratégie IA, l'article [par où commencer avec l'IA en PME](/blog/ia-pour-pme-guide) donne la séquence d'ensemble.
+
+Sur les missions que nous menons auprès de PME de 50 à 300 collaborateurs, la gouvernance des données dans les outils IA est systématiquement le sujet le moins traité au moment du premier bilan. Les dirigeants ont souvent autorisé un ou deux outils, parfois formé quelques équipes, mais rarement formalisé les règles d'usage par niveau de données. C'est précisément là que le risque se concentre.
+
+## Ce que cette démarche ne règle pas
+
+Poser des règles sur les données confidentielles ne dispense pas d'une réflexion sur l'architecture globale des usages IA dans votre entreprise. Certains processus (ceux qui traitent des données sensibles en volume) méritent une analyse dédiée avant tout déploiement, indépendamment des outils utilisés.
+
+La classification données x LLM décrite ici est un garde-fou opérationnel. Elle protège contre les erreurs individuelles involontaires. Elle ne remplace pas une AIPD, ne dispense pas de vérifier vos contrats fournisseurs, et ne couvre pas les risques liés à un prestataire IA externe qui aurait accès à vos données.
+
+Les risques qui restent en dehors du périmètre de cette matrice :
+
+- L'accès des prestataires IA extérieurs à vos données (le périmètre de leurs sous-traitants et leurs propres politiques de sécurité)
+- Les transferts de données entre collaborateurs via des outils de partage non contrôlés
+- Les modèles entraînés sur vos données internes, dont vous avez perdu la traçabilité
+
+Ce sont des questions qui méritent une heure de travail ciblée sur un processus précis, pas un projet de six mois.
+
+## Questions fréquentes
+
+### Quels types de données ne faut-il jamais saisir dans ChatGPT ou un autre outil IA public ?
+
+Les données personnelles (noms, emails, données RH nominatives), les données stratégiques (contrats, code source, plans de développement, offres commerciales), les données sensibles au sens du RGPD (santé, opinions politiques, données syndicales) et toute information couverte par un NDA ou par une obligation réglementaire. Seuls les contenus sans donnée identifiante peuvent aller dans un outil public gratuit.
+
+### ChatGPT Enterprise est-il sûr pour des données clients ?
+
+ChatGPT Enterprise dispose d'un accord de traitement de données (DPA) qui interdit l'utilisation des prompts pour entraîner le modèle. Il reste insuffisant pour les données personnelles à risque élevé et pour les données couvertes par un NDA. Les données clients anonymisées et les KPIs agrégés peuvent y circuler, sous réserve que votre DPO ait validé l'accord.
+
+### Qu'est-ce qu'un accord de traitement de données (DPA) pour un outil IA ?
+
+C'est un contrat entre votre entreprise et l'éditeur de l'outil qui définit comment vos données sont traitées, pour quelles finalités, et qui garantit qu'elles ne sont pas utilisées pour entraîner un modèle ou partagées avec des tiers. Sans ce document signé, vous ne pouvez légalement saisir que des données sans caractère personnel ni stratégique.
+
+### Que faire si un collaborateur a accidentellement saisi des données confidentielles dans un LLM ?
+
+Qualifiez dans les 24 heures si des données personnelles sont concernées : si oui, le délai RGPD de 72 heures pour notifier la CNIL commence à courir. Documentez l'incident (date, outil, nature des données, collaborateur, finalité), contactez le fournisseur pour demander la suppression si l'accord de traitement le prévoit, puis utilisez l'incident pour déployer des règles claires et former l'équipe.
+
+### Vaut-il mieux interdire tous les outils IA que de risquer une fuite ?
+
+Non. L'interdiction totale a un coût réel en productivité et pousse les usages vers la clandestinité : vos collaborateurs continuent d'utiliser des outils publics sans supervision. La bonne approche est de définir des règles d'usage claires par type de données et par outil, de former les équipes, et de prévoir une procédure en cas d'incident. C'est moins coûteux qu'une violation notifiée à la CNIL.
+
+## Passez à l'action sur un processus
+
+Classifier vos données et définir quelle version d'outil convient à quel usage, c'est un travail qui prend une demi-journée sur un seul processus. C'est aussi ce qui permet de ne pas découvrir l'étendue de votre exposition dans un rapport de la CNIL.
+
+Smart Impulsion propose la Smart Analyse : en une demi-journée à une journée, sur un seul de vos processus, vous obtenez une cartographie des données manipulées, une recommandation sur le type d'outil adapté et un premier brouillon de règles d'usage pour vos équipes. Tarif fixe, de 1 000 à 2 000 € HT.
+
+[Découvrir la Smart Analyse](/services/audit)`,
+    author: "Laurent Bouzon",
+    date: "29 octobre 2026",
+    dateISO: "2026-10-29",
+    readTime: "10 min",
+    category: "IA & PME",
+    image: "/donnees-confidentielles-llm-pme-regles-collaborateurs-hero.png",
+    imageAlt: "Image d'illustration pour l'article \"Données confidentielles LLM : les règles PME pour vos collaborateurs\"",
+    faq: [
+      {
+        question: "Quels types de données ne faut-il jamais saisir dans ChatGPT ou un autre outil IA public ?",
+        answer: "Les données personnelles (noms, emails, données RH nominatives), les données stratégiques (contrats, code source, plans de développement, offres commerciales), les données sensibles au sens du RGPD (santé, opinions politiques, données syndicales) et toute information couverte par un NDA ou par une obligation réglementaire. Seuls les contenus sans donnée identifiante peuvent aller dans un outil public gratuit.",
+      },
+      {
+        question: "ChatGPT Enterprise est-il sûr pour des données clients ?",
+        answer: "ChatGPT Enterprise dispose d'un accord de traitement de données (DPA) qui interdit l'utilisation des prompts pour entraîner le modèle. Il reste insuffisant pour les données personnelles à risque élevé et pour les données couvertes par un NDA. Les données clients anonymisées et les KPIs agrégés peuvent y circuler, sous réserve que votre DPO ait validé l'accord.",
+      },
+      {
+        question: "Qu'est-ce qu'un accord de traitement de données (DPA) pour un outil IA ?",
+        answer: "C'est un contrat entre votre entreprise et l'éditeur de l'outil qui définit comment vos données sont traitées, pour quelles finalités, et qui garantit qu'elles ne sont pas utilisées pour entraîner un modèle ou partagées avec des tiers. Sans ce document signé, vous ne pouvez légalement saisir que des données sans caractère personnel ni stratégique.",
+      },
+      {
+        question: "Que faire si un collaborateur a accidentellement saisi des données confidentielles dans un LLM ?",
+        answer: "Qualifiez dans les 24 heures si des données personnelles sont concernées : si oui, le délai RGPD de 72 heures pour notifier la CNIL commence à courir. Documentez l'incident (date, outil, nature des données, collaborateur, finalité), contactez le fournisseur pour demander la suppression si l'accord de traitement le prévoit, puis utilisez l'incident pour déployer des règles claires et former l'équipe.",
+      },
+      {
+        question: "Vaut-il mieux interdire tous les outils IA que de risquer une fuite ?",
+        answer: "Non. L'interdiction totale a un coût réel en productivité et pousse les usages vers la clandestinité : vos collaborateurs continuent d'utiliser des outils publics sans supervision. La bonne approche est de définir des règles d'usage claires par type de données et par outil, de former les équipes, et de prévoir une procédure en cas d'incident. C'est moins coûteux qu'une violation notifiée à la CNIL.",
+      },
+    ],
+  },
+  {
     slug: "ia-propriete-intellectuelle-pme-droits-risques",
     title: "IA et propriété intellectuelle en PME : ce que vous possédez vraiment",
     seoTitle: "IA et propriété intellectuelle PME : vos droits réels",
