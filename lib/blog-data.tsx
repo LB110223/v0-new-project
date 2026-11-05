@@ -69,6 +69,317 @@ export interface BlogArticle {
 
 export const blogArticles: BlogArticle[] = [
   {
+    slug: "roi-formation-ia-pme-avant-achat",
+    title: "ROI formation IA en PME : calculez le retour avant de signer",
+    seoTitle: "ROI formation IA PME : calculez le retour avant de signer",
+    excerpt:
+      "Comment chiffrer le ROI d'une formation IA en PME avant d'acheter ? Méthode en 4 étapes, coefficients réalistes, reste-à-charge OPCO intégré.",
+    content: `# ROI formation IA en PME : calculez le retour avant de signer
+
+Un organisme de formation vous présente un ROI de 340 % sur 12 mois. La formule est là, les graphiques aussi. Trois études de cas, des entreprises satisfaites. Vous signez ?
+
+Pas encore. Ce chiffre repose sur une hypothèse que personne ne mentionne : 100 % des collaborateurs formés appliquent immédiatement 100 % de ce qu'ils ont appris. La littérature académique sur le sujet donne un résultat très différent.
+
+Selon la synthèse de C-Campus sur les travaux de Baldwin et Ford (1988) et Blume et al. (2010), le taux de transfert réel des compétences post-formation se situe entre 10 et 25 % pour une formation standard. Un chiffre que les plaquettes commerciales ne mentionnent jamais.
+
+> **Chiffre de référence.** Le taux de transfert réel des compétences post-formation est de 10 à 25 % pour une formation standard non accompagnée, selon la littérature académique consolidée (Baldwin et Ford, 1988 ; Blume et al., 2010, cités par C-Campus). Les ROI annoncés en brochure supposent implicitement 100 %.
+
+Cet article vous donne une méthode en quatre étapes pour calculer vous-même le ROI d'une formation IA avant de signer un bon de commande. Avec les bonnes hypothèses, et sans les biais du vendeur.
+
+## Pourquoi les ROI de formation IA annoncés ne tiennent pas compte du transfert
+
+Comprendre pourquoi les chiffres de brochure sont gonflés, c'est la première étape pour construire un calcul honnête.
+
+### Le fossé entre adoption et ROI mesurable
+
+Utiliser l'IA améliore souvent la productivité ressentie des collaborateurs. Mais cette satisfaction individuelle ne se traduit pas automatiquement en valeur organisationnelle mesurable. C'est le premier principe que les calculs de ROI vendeurs ignorent.
+
+La recherche académique sur la formation professionnelle documente ce fossé depuis plusieurs décennies. Baldwin et Ford (1988), puis Blume, Ford, Baldwin et Huang (2010), ont montré que les compétences acquises en formation ne se convertissent pas directement en gain opérationnel : elles doivent être appliquées, ancrées dans les processus et pilotées dans le temps (C-Campus, blog-formation-entreprise.fr, 2024).
+
+> **Point clé.** La productivité ressentie par un collaborateur et le gain réel pour l'entreprise sont deux choses différentes. Les ROI de formation ne mesurent presque jamais la seconde.
+
+### Les trois biais des calculs vendeurs
+
+Les calculs de ROI produits par les organismes de formation cumulent généralement trois biais :
+
+- **Transfert à 100 %** : l'hypothèse implicite que chaque heure de formation se traduit en gain opérationnel immédiat
+- **Zéro coût interne** : le temps manager pour organiser, les jours non productifs des participants pendant la session, l'adaptation des processus après la formation, tout cela disparaît du dénominateur
+- **Périmètre optimiste** : les gains sont calculés sur les meilleures tâches, pas sur la réalité des postes
+
+En appliquant la méthode décrite dans cet article (coefficient de transfert 60-70 %, coûts internes intégrés, reste-à-charge OPCO déduit), un calcul honnête aboutit à un ROI compris entre 80 et 150 % sur 12 à 18 mois, pas 340 %. C'est moins spectaculaire. C'est encore suffisant pour justifier l'investissement. Et c'est fiable.
+
+## Étape 1 : identifier et valoriser les tâches automatisables
+
+Avant de parler de coefficient ou de reste-à-charge, il faut partir de la réalité des postes.
+
+### Quelles tâches cibler, par métier
+
+Une formation IA de deux jours ne transforme pas un opérateur logistique en développeur. Elle lui permet d'accélérer les tâches qui produisent ou consomment du texte, des données ou de la recherche documentaire.
+
+Les tâches accessibles après deux jours de formation IA :
+
+- Rédaction de comptes-rendus, synthèses, rapports internes
+- Réponses à des demandes clients répétitives ou traitement des emails entrants
+- Recherche et agrégation d'informations dans des bases documentaires
+- Reformulation de communications commerciales ou RH
+- Mise en forme et structuration de présentations ou d'offres
+
+Les tâches qui ne se délèguent pas après deux jours :
+
+- Automatisation de processus nécessitant une intégration SI
+- Analyse de données structurées nécessitant une configuration technique
+- Décisions complexes avec validation réglementaire
+
+### Le calcul du gain brut
+
+Une fois les tâches identifiées, le calcul est mécanique. Pour chaque profil formé :
+
+1. Estimez le temps hebdomadaire consacré aux tâches ciblées (demandez aux managers, pas aux catalogues de formation)
+2. Multipliez par 46 semaines travaillées
+3. Multipliez par le coût horaire chargé du collaborateur
+4. Multipliez par le nombre de personnes dans ce profil
+
+> **À retenir.** N'utilisez jamais un benchmark générique du type "1 h 30 par jour gagné". Ce chiffre ne correspond à rien de précis sur votre terrain. Partez des tâches réelles de vos équipes.
+
+Exemple concret : 10 collaborateurs administratifs consacrent chacun 3 heures par semaine à la rédaction et synthèse de documents. Coût horaire chargé moyen : 35 €. Gain brut annuel théorique = 10 × 3 × 46 × 35 = 48 300 €.
+
+## Étape 2 : appliquer le bon coefficient de transfert
+
+C'est la pièce centrale du calcul. Et la plus souvent occultée.
+
+### Les deux scénarios de transfert
+
+Le taux de transfert mesure la part des compétences acquises en formation qui sont effectivement appliquées en situation de travail réelle. La recherche académique donne une fourchette basse (10-25 %) pour les formations standard. Mais ce chiffre n'est pas une fatalité.
+
+> **Définition actionnable.** Le taux de transfert d'une formation IA se situe entre 20 et 30 % pour une formation catalogue sans accompagnement, et entre 60 et 70 % pour une formation contextualisée avec suivi post-session. C'est ce coefficient (et non le contenu pédagogique) qui détermine l'essentiel du ROI réel.
+
+Deux scénarios distincts selon la façon dont vous organisez la formation :
+
+**Scénario A : formation catalogue sans accompagnement**
+
+- Coefficient de transfert : 20 à 30 %
+- Conditions : formation achetée sur étagère, sans identification préalable des cas d'usage propres à l'entreprise, sans suivi post-session
+- Résultat : les collaborateurs rentrent motivés, appliquent quelques réflexes les premières semaines, puis reviennent à leurs habitudes
+
+**Scénario B : formation contextualisée avec accompagnement**
+
+- Coefficient de transfert : 60 à 70 %
+- Conditions à réunir pour y arriver :
+  - Identification des cas d'usage concrets avant la session (par métier, par process)
+  - Pratique encadrée en situation réelle pendant la formation
+  - Suivi manager à J+30 avec debriefing sur les usages effectifs
+  - Au moins un "champion interne" par équipe pour ancrer les pratiques
+
+> **Red flag.** Si un organisme de formation vous présente un ROI sans mentionner le scénario de transfert choisi et les conditions de mise en oeuvre, c'est un signal d'alerte. Le coefficient implicite est probablement de 100 %.
+
+### Appliquer le coefficient au calcul
+
+En reprenant l'exemple précédent :
+
+- Gain brut : 48 300 €
+- Scénario A (30 %) : gain réel = 14 490 €
+- Scénario B (65 %) : gain réel = 31 395 €
+
+La différence entre les deux scénarios est de plus de 16 000 € par an. Elle ne vient pas du contenu de la formation. Elle vient de la façon dont vous l'organisez.
+
+Consulter [notre guide de référence sur la formation IA pour dirigeants et équipes](/blog/formation-ia-dirigeants-guide-pratique) pour comprendre comment distinguer une formation bien conçue d'une formation catalogue lors de l'achat.
+
+## Étape 3 : calculer le vrai reste-à-charge
+
+Le dénominateur du calcul ROI n'est pas le prix de la formation. C'est le coût réel supporté par votre entreprise, net de financement et coûts internes inclus.
+
+### L'effet OPCO sur le dénominateur
+
+Selon votre branche professionnelle et votre taille, votre OPCO peut prendre en charge une part importante voire la totalité des coûts pédagogiques.
+
+Deux exemples concrets pour 2026 :
+
+- **OPCO Atlas (Plan IA-tlas)** : financement à 100 % des coûts pédagogiques pour les formations IA des entreprises de moins de 50 salariés relevant des branches couvertes par Atlas, du 1er juillet au 31 décembre 2026. Une formation intra à 2 500 € peut avoir un reste-à-charge pédagogique de 0 €.
+- **OPCO Uniformation** : plafond de 5 000 € par an pour le Plan de Développement des Compétences, avec une demande d'aide par an pour les PME de moins de 50 salariés.
+
+Pour connaître vos droits précis, rapprochez-vous de votre OPCO avant de signer. Les dispositifs varient par branche, par taille et par période. L'article de référence sur [le financement de la formation IA en PME via OPCO, CPF et France 2030](/blog/financement-formation-ia-pme-opco-cpf-france-2030) détaille les démarches.
+
+> **Point clé.** Une formation à 2 500 € prise en charge à 100 % par l'OPCO ne coûte rien en frais pédagogiques. Mais elle a quand même un coût. Ce coût, ce sont les heures internes.
+
+### Les coûts internes cachés à intégrer
+
+Les organismes de formation ignorent ces coûts parce qu'ils ne les supportent pas. Vous, si.
+
+Pour une formation de deux jours, 10 personnes formées :
+
+- **Jours non productifs** : 10 participants × 2 jours = 20 jours-personne. Au coût journalier moyen de 200 € chargé, cela représente 4 000 €.
+- **Préparation manager** : organisation logistique, briefing équipes, communication interne. Comptez 0,5 jour de travail cadre.
+- **Suivi post-formation** : debriefing à J+30, adaptation des outils, aide aux bloqués. Comptez 0,5 jour cadre supplémentaire.
+
+Total coûts internes estimés : 4 000 à 5 000 € pour une formation de deux jours avec dix personnes.
+
+Ces coûts internes constituent le vrai reste-à-charge, même si l'OPCO couvre 100 % des frais pédagogiques. Les ignorer revient à surestimer le ROI en excluant 4 000 à 5 000 € de coûts réels du dénominateur pour une formation de dix personnes.
+
+> **Formule clé.** Reste-à-charge total = coûts pédagogiques nets (après OPCO) + coûts internes. Pour une formation de deux jours avec dix personnes, les coûts internes seuls (jours non productifs des participants + temps manager) représentent 4 000 à 5 000 €, même si l'OPCO couvre 100 % des frais pédagogiques.
+
+## Étape 4 : le seuil de rentabilité en mois
+
+Le ROI en pourcentage est utile pour comparer des investissements. Le seuil de rentabilité en mois est utile pour décider.
+
+> **Méthode recommandée.** Pour une PME, le seuil de rentabilité en mois est l'indicateur de décision le plus pertinent pour évaluer une formation IA. Il se calcule ainsi : Reste-à-charge total ÷ Gain hebdomadaire réel (après coefficient de transfert). Le résultat indique en combien de semaines l'investissement est amorti.
+
+### Pourquoi le délai compte plus que le ratio
+
+Un ROI de 150 % en 24 mois peut être moins intéressant qu'un ROI de 100 % en 6 mois si votre trésorerie est sous tension. La méthode ROI% ne capture pas cette dimension temporelle.
+
+Le seuil de rentabilité se calcule simplement :
+
+**Seuil (en semaines) = Reste-à-charge total ÷ Gain hebdomadaire réel**
+
+Le gain hebdomadaire réel = (Gain brut annuel × Coefficient de transfert) ÷ 46 semaines.
+
+### Exemple chiffré complet
+
+Reprenons les données de notre exemple :
+
+- 10 collaborateurs administratifs, 3 h/semaine de tâches ciblées
+- Coût horaire chargé : 35 €/h
+- Formation intra, 2 jours, 10 personnes
+- Coût pédagogique brut : 2 500 €
+- Prise en charge OPCO : 2 500 € (Plan IA-tlas, 100 %)
+- Coûts internes : 4 500 €
+- Reste-à-charge total : 4 500 €
+
+Gain brut annuel = 10 × 3 × 46 × 35 = 48 300 €
+
+Scénario A (coefficient 30 %) :
+
+- Gain annuel réel : 14 490 €
+- Gain hebdomadaire : 315 €
+- Seuil de rentabilité : 4 500 / 315 = 14,3 semaines (soit environ 3,5 mois)
+
+Scénario B (coefficient 65 %) :
+
+- Gain annuel réel : 31 395 €
+- Gain hebdomadaire : 683 €
+- Seuil de rentabilité : 4 500 / 683 = 6,6 semaines (soit moins de 2 mois)
+
+Les deux scénarios sont rentables. Mais le premier dépend de votre organisation. Le second, vous pouvez le piloter.
+
+Pour approfondir la mesure des résultats une fois la formation réalisée, l'article sur [comment prouver qu'une formation IA a vraiment changé quelque chose](/blog/mesurer-efficacite-formation-ia-entreprise) donne les indicateurs à suivre à J+30 et J+90.
+
+## Ce que les plaquettes ne disent pas
+
+Quelques pièges supplémentaires que l'on rencontre régulièrement lors de l'évaluation d'offres de formation IA.
+
+### Les ROI sans hypothèses explicites
+
+Un ROI sans hypothèses explicites est un chiffre marketing. Avant tout achat, posez systématiquement ces trois questions à votre prestataire :
+
+- Quel taux de transfert avez-vous utilisé dans votre calcul ?
+- Quels coûts internes avez-vous intégrés dans le dénominateur ?
+- Sur quel périmètre de tâches avez-vous estimé le gain (tâches réelles des participants ou benchmark sectoriel) ?
+
+Si les réponses sont vagues ou absentes, le ROI affiché ne tient pas.
+
+### Les offres qui mutualisent sans contextualiser
+
+Une formation inter-entreprises sur catalogue coûte moins cher qu'une formation intra. Mais son coefficient de transfert est structurellement plus bas : les cas d'usage présentés ne sont pas les vôtres, les exemples pratiques ne parlent pas à vos équipes.
+
+> **Red flag.** Si la formation ne prévoit pas au moins une demi-journée d'identification préalable des cas d'usage propres à votre entreprise, vous achetez probablement la version Scénario A sans le savoir.
+
+### Le délai de remboursement OPCO
+
+L'OPCO prend en charge les coûts pédagogiques, mais le remboursement n'est pas immédiat. Comptez 3 à 6 mois selon les dispositifs et les OPCO. Votre trésorerie avance les fonds pédagogiques, même dans le cas d'une prise en charge à 100 %. Ce délai doit être intégré dans votre gestion de trésorerie avant signature.
+
+La méthode ROI que l'on vient de décrire s'inscrit dans une démarche plus large de calcul de retour sur investissement IA. Pour cadrer l'approche globale, l'article de référence sur [le ROI de l'IA en entreprise](/blog/roi-intelligence-artificielle-entreprise) donne les fondamentaux méthodologiques applicables à tout investissement IA.
+
+## Questions fréquentes
+
+### Comment calculer le ROI d'une formation IA en PME avant de l'acheter ?
+
+La méthode tient en quatre étapes : identifier les tâches automatisables après formation et les valoriser en heures-collaborateur, appliquer un coefficient de transfert réaliste (60-70 % si les conditions sont réunies, pas 100 % comme supposé dans les brochures), calculer le reste-à-charge réel après prise en charge OPCO, puis convertir le ratio en seuil de rentabilité en mois. Ce dernier indicateur est plus actionnable qu'un pourcentage de ROI pour un dirigeant avec un budget contraint.
+
+### Pourquoi les ROI de 300 % annoncés par les organismes de formation sont-ils irréalistes ?
+
+Ces chiffres supposent un taux de transfert des compétences de 100 % : chaque collaborateur formé appliquerait immédiatement 100 % de ce qu'il a appris. La littérature académique consolidée (Baldwin et Ford, Blume et al.) indique un taux réel de 10 à 25 % pour une formation standard non accompagnée. Par ailleurs, ces calculs ignorent systématiquement les coûts internes cachés : temps manager pour l'organisation, jours non productifs des participants, adaptation des processus après la session.
+
+### L'OPCO peut-il prendre en charge 100 % d'une formation IA ?
+
+Oui, dans certains cas. Le Plan IA-tlas d'OPCO Atlas finance à 100 % les coûts pédagogiques des formations IA pour les entreprises de moins de 50 salariés relevant de ses branches, jusqu'au 31 décembre 2026. OPCO Uniformation propose un plafond de 5 000 € par an pour le Plan de Développement des Compétences. La prise en charge dépend de votre branche professionnelle et de votre OPCO : vérifiez auprès de votre OPCO avant de signer.
+
+### Combien de temps faut-il pour rentabiliser une formation IA en PME ?
+
+Cela dépend du reste-à-charge réel, du nombre de personnes formées et du gain horaire effectif. Avec une prise en charge OPCO couvrant 100 % des coûts pédagogiques et un accompagnement post-formation bien organisé, le seuil de rentabilité peut être atteint en six à dix semaines. Sans accompagnement, le délai s'allonge considérablement car le taux de transfert chute.
+
+### Quelles tâches sont vraiment automatisables après une formation IA de deux jours ?
+
+Les tâches les plus accessibles sont celles qui produisent ou consomment du texte : rédaction de comptes-rendus, synthèse de documents, réponses à des demandes répétitives, reformulation de communications. Les tâches nécessitant une intégration système ou une décision complexe ne se délèguent pas après deux jours de formation. Identifier ces tâches en amont, par métier et par profil, conditionne la pertinence du calcul ROI.
+
+### Comment estimer le gain de temps réel et non le gain théorique ?
+
+Partez des tâches concrètes de vos collaborateurs, pas d'un benchmark générique. Demandez à vos managers combien de temps est consacré chaque semaine aux tâches ciblées. Appliquez ensuite un coefficient de transfert de 60-70 % si vous prévoyez un accompagnement post-formation. Sans ces conditions, appliquez 20-30 % pour obtenir une projection honnête. La différence entre les deux scénarios change souvent le délai de rentabilité de quelques semaines à plusieurs mois.
+
+## Passez de la théorie à l'action
+
+La méthode décrite dans cet article part d'une hypothèse : vous avez déjà identifié les processus et les profils sur lesquels la formation IA générerait un gain réel. Dans la pratique, c'est souvent la partie la plus difficile. Les dirigeants qui calculent le ROI sur de mauvaises tâches, avec de mauvais profils, obtiennent un résultat honnête sur une mauvaise question.
+
+Smart Impulsion propose la Smart Analyse : en une demi-journée à une journée, sur un seul de vos processus, vous obtenez une projection de gain chiffrée sur votre contexte réel, avec les tâches concrètes de vos équipes et non sur une hypothèse théorique. Tarif fixe, de 1 000 à 2 000 € HT.
+
+[Découvrir la Smart Analyse](/services/audit)`,
+    author: "Laurent Bouzon",
+    date: "5 novembre 2026",
+    dateISO: "2026-11-05",
+    readTime: "11 min",
+    category: "Formation IA",
+    image: "/roi-formation-ia-pme-avant-achat-hero.png",
+    imageAlt: "Image d'illustration pour l'article \"ROI formation IA en PME : calculez le retour avant de signer\"",
+    faq: [
+      {
+        question: "Comment calculer le ROI d'une formation IA en PME avant de l'acheter ?",
+        answer: "La méthode tient en quatre étapes : identifier les tâches automatisables après formation et les valoriser en heures-collaborateur, appliquer un coefficient de transfert réaliste (60-70 % si les conditions sont réunies, pas 100 % comme supposé dans les brochures), calculer le reste-à-charge réel après prise en charge OPCO, puis convertir le ratio en seuil de rentabilité en mois. Ce dernier indicateur est plus actionnable qu'un pourcentage de ROI pour un dirigeant avec un budget contraint.",
+      },
+      {
+        question: "Pourquoi les ROI de 300 % annoncés par les organismes de formation sont-ils irréalistes ?",
+        answer: "Ces chiffres supposent un taux de transfert des compétences de 100 % : chaque collaborateur formé appliquerait immédiatement 100 % de ce qu'il a appris. La littérature académique consolidée (Baldwin et Ford, Blume et al.) indique un taux réel de 10 à 25 % pour une formation standard non accompagnée. Par ailleurs, ces calculs ignorent systématiquement les coûts internes cachés : temps manager pour l'organisation, jours non productifs des participants, adaptation des processus après la session.",
+      },
+      {
+        question: "L'OPCO peut-il prendre en charge 100 % d'une formation IA ?",
+        answer: "Oui, dans certains cas. Le Plan IA-tlas d'OPCO Atlas finance à 100 % les coûts pédagogiques des formations IA pour les entreprises de moins de 50 salariés relevant de ses branches, jusqu'au 31 décembre 2026. OPCO Uniformation propose un plafond de 5 000 € par an pour le Plan de Développement des Compétences (PME de moins de 50 salariés). La prise en charge dépend de votre branche professionnelle et de votre OPCO. Rapprochez-vous de votre OPCO avant de signer pour connaître votre reste-à-charge réel.",
+      },
+      {
+        question: "Combien de temps faut-il pour rentabiliser une formation IA en PME ?",
+        answer: "Cela dépend du reste-à-charge réel, du nombre de personnes formées et du gain horaire effectif. Avec une prise en charge OPCO couvrant 100 % des coûts pédagogiques, le seuil de rentabilité peut être atteint en quelques semaines si les gains de temps sont réels et documentés. Sans accompagnement post-formation, le délai s'allonge considérablement car le taux de transfert chute à 10-25 %. La méthode en 4 étapes décrite dans cet article permet de projeter ce délai avant de signer.",
+      },
+      {
+        question: "Quelles tâches sont vraiment automatisables après une formation IA de deux jours ?",
+        answer: "Les tâches les plus accessibles après une formation IA de deux jours sont celles qui produisent ou consomment du texte : rédaction de comptes-rendus, synthèse de documents, réponses à des demandes répétitives, reformulation de communications, recherche d'informations dans des bases documentaires. Les tâches nécessitant une intégration système ou une décision complexe ne se délèguent pas après deux jours de formation. Identifier ces tâches en amont, par métier et par profil, conditionne la pertinence du calcul ROI.",
+      },
+      {
+        question: "Comment estimer le gain de temps réel après une formation IA, et non le gain théorique ?",
+        answer: "Partez des tâches concrètes de vos collaborateurs, pas d'un benchmark générique. Demandez à vos managers combien de temps est consacré chaque semaine aux tâches ciblées par la formation. Appliquez ensuite un coefficient de transfert de 60-70 % si vous prévoyez un accompagnement post-formation (pratique encadrée, suivi à J+30, cas d'usage identifiés en amont). Sans ces conditions, appliquez 20-30 % pour obtenir une projection honnête. La différence entre les deux scénarios change souvent le délai de rentabilité de quelques semaines à plusieurs mois.",
+      },
+    ],
+    howTo: {
+      name: "Calculer le ROI d'une formation IA avant de signer",
+      description: "Méthode en 4 étapes pour estimer le retour sur investissement d'une formation IA en PME avant l'achat, en intégrant le coefficient de transfert réaliste et le reste-à-charge OPCO.",
+      totalTime: "PT30M",
+      steps: [
+        {
+          name: "Étape 1 : Identifier et valoriser les tâches automatisables",
+          text: "Listez les tâches concrètes que la formation cible, par métier et par profil. Estimez le temps hebdomadaire consacré à ces tâches, puis multipliez par le coût horaire chargé du collaborateur pour obtenir le gain brut annuel potentiel.",
+        },
+        {
+          name: "Étape 2 : Appliquer le coefficient de transfert réaliste",
+          text: "Réduisez le gain brut par un coefficient de transfert de 60-70 % si vous prévoyez un accompagnement post-formation, ou de 20-30 % pour une formation catalogue sans suivi. Ne jamais utiliser 100 % comme hypothèse.",
+        },
+        {
+          name: "Étape 3 : Calculer le vrai reste-à-charge",
+          text: "Obtenez le coût brut de la formation. Renseignez-vous auprès de votre OPCO sur la prise en charge disponible (Plan IA-tlas Atlas : 100 % pour PME de moins de 50 salariés ; Uniformation : plafond 5 000 €/an). Ajoutez les coûts internes cachés : temps manager et jours non productifs des participants pendant la formation.",
+        },
+        {
+          name: "Étape 4 : Calculer le seuil de rentabilité en mois",
+          text: "Divisez le reste-à-charge total par le gain hebdomadaire réel (après coefficient de transfert). Le résultat en semaines vous donne le délai d'amortissement. Convertissez en mois pour le comparer à votre horizon budgétaire.",
+        },
+      ],
+    },
+  },
+  {
     slug: "donnees-confidentielles-llm-pme-regles-collaborateurs",
     title: "Données confidentielles LLM : les règles PME pour vos collaborateurs",
     seoTitle: "Données confidentielles LLM PME : règles collaborateurs",
