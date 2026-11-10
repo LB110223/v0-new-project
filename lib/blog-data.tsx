@@ -69,6 +69,295 @@ export interface BlogArticle {
 
 export const blogArticles: BlogArticle[] = [
   {
+    slug: "ia-droit-travail-pme-consultation-cse",
+    title: "IA et droit du travail PME : obligations de consultation CSE avant déploiement",
+    seoTitle: "IA droit du travail PME : obligations avant déploiement",
+    excerpt:
+      "CSE, RGPD, AI Act : les 3 obligations cumulatives avant tout déploiement IA en PME. Seuils, planning 6-8 semaines, jurisprudence 2026.",
+    content: `# IA et droit du travail PME : obligations de consultation CSE avant déploiement
+
+**Réponse directe : toute entreprise de 50 salariés ou plus qui déploie un outil IA affectant les conditions de travail de ses salariés doit consulter son CSE avant le déploiement, en application de l'article L.2312-8 du Code du travail. Sans cette consultation préalable, l'entreprise s'expose à une suspension judiciaire de l'outil sous astreinte.**
+
+Le 29 janvier 2026, une ESN de 200 salariés a vu deux de ses logiciels RH suspendus par le Tribunal judiciaire de Nanterre, avec une astreinte de 500 euros par jour courant dès notification. Motif : elle avait déployé ces outils sans consulter son CSE, en violation du droit du travail. Quatre mois plus tard, la Cour d'appel de Paris confirmait la même logique pour ChatGPT, avec cette fois 1 000 euros par jour d'astreinte.
+
+Ces décisions ne concernent pas des grandes entreprises. Elles concernent des entreprises de taille moyenne qui ont avancé vite, sans vérifier une case que leur service juridique aurait dû cocher, ou qu'elles n'avaient tout simplement pas.
+
+Selon Bpifrance Le Lab (enquête auprès de 1 209 dirigeants, octobre-décembre 2024), 32 % des PME et ETI françaises utilisent déjà l'IA. Le baromètre France Num 2025 indique que 26 % des TPE-PME utilisent des solutions IA fin 2024, soit un doublement en un an. L'INSEE confirme dans son enquête sur les usages numériques des entreprises : 10 % des entreprises de 10 salariés ou plus déclarent utiliser une technologie IA en 2024, contre 6 % en 2023.
+
+La vitesse d'adoption a clairement devancé la vitesse de mise en conformité. Cet article vous donne les points de vérification concrets, avant d'activer votre prochain outil.
+
+## Ce que les tribunaux ont décidé en 2026
+
+Les premières décisions de justice sur ce sujet sont arrivées plus vite que prévu. Elles créent un précédent clair.
+
+### Le tribunal de Nanterre pose le cadre
+
+Le 29 janvier 2026, le Tribunal judiciaire de Nanterre a suspendu le déploiement de deux logiciels RH intégrant des fonctionnalités IA (NAPTA et CORNERSTONE SKILLS) par ordonnance de référé, numéro 25/02856.
+
+Le fondement : article L.2312-8 du Code du travail. L'employeur avait déployé ces outils sans consulter son comité social et économique central.
+
+Deux points ressortent de cette décision :
+
+- **L'argument "phase pilote" a été rejeté.** Le tribunal a estimé que, dès lors que des salariés utilisaient l'outil, même à titre expérimental, l'obligation de consultation préalable s'appliquait.
+- **L'astreinte court dès la notification**, à raison de 500 euros par jour de retard, jusqu'à ce que la consultation soit menée à son terme.
+
+### La cour d'appel de Paris durcit la position
+
+Le 21 mai 2026, la Cour d'appel de Paris (Pôle 1, Chambre 2, RG n° 25/13234, affaire GISI) a confirmé et durci cette position pour le cas de ChatGPT et d'un outil de rédaction IA.
+
+La Cour a retenu, en substance, qu'aucun outil de bureautique antérieur ne reproduisait des capacités intellectuelles comme le font les outils IA. Dès lors que l'employeur autorise et encadre ces capacités, il les "introduit" au sens de L.2312-8, et la consultation du CSE est requise préalablement.
+
+> **Ce que ça veut dire en pratique.** Autoriser et encadrer l'usage d'un outil IA dans votre entreprise, c'est "introduire une nouvelle technologie" au sens légal. Cette qualification s'applique même si l'outil est grand public (ChatGPT, Copilot, Mistral). L'astreinte prononcée par la Cour d'appel est de 1 000 euros par jour, plus 5 000 euros de dommages-intérêts et 3 000 euros au titre de l'article 700.
+
+Plusieurs décisions ont été rendues en 2025-2026 sur ce sujet. Ces deux-là sont les seules dont les références de jugement ont été vérifiées sur sources primaires fiables. La tendance judiciaire est claire : les tribunaux ne cherchent pas à tempérer, ils suspendent et ils imposent des astreintes.
+
+> **Signal clair.** Deux décisions de référence en 2026 sur l'IA et la consultation CSE : TJ Nanterre, 29 janvier 2026 (n° 25/02856), 500 euros/jour d'astreinte. Cour d'appel de Paris, 21 mai 2026 (RG n° 25/13234, arrêt GISI), 1 000 euros/jour. Les deux ont expressément rejeté l'argument de la phase pilote. L'obligation de consultation préalable au titre de L.2312-8 s'applique dès que des salariés utilisent l'outil.
+
+## Le seuil qui déclenche vraiment l'obligation
+
+L'obligation de consultation du CSE sur l'introduction d'une nouvelle technologie IA est définie par l'article L.2312-8 du Code du travail et ne s'applique qu'aux entreprises atteignant le seuil de 50 salariés. En dessous, le CSE existe mais ne dispose pas de cette attribution de consultation formelle.
+
+### 11 salariés et 50 salariés : deux réalités différentes
+
+La confusion la plus fréquente porte sur le seuil d'effectif. Voici ce que dit la loi :
+
+- **À partir de 11 salariés** : vous devez mettre en place un CSE (article L.2311-2 du Code du travail). Le CSE existe. Il a des attributions générales.
+- **À partir de 50 salariés** : le CSE acquiert des attributions élargies, notamment celle d'être consulté sur "l'introduction de nouvelles technologies" (article L.2312-8, section 3 "entreprises d'au moins cinquante salariés").
+
+Une PME de 25 salariés qui déploie un outil IA a un CSE, mais ce CSE n'a pas de pouvoir de consultation formelle sur les technologies nouvelles au titre de L.2312-8. L'obligation de consultation formelle ne s'applique pas.
+
+> **Attention.** Cela ne signifie pas qu'une PME de 11 à 49 salariés est sans obligations. Le RGPD et l'AI Act s'appliquent à toutes les tailles d'entreprise, sans seuil d'effectif. Seule l'obligation de consultation CSE (L.2312-8) requiert 50 salariés.
+
+### Ce que couvre exactement L.2312-8
+
+L'article L.2312-8 du Code du travail dispose que le CSE est informé et consulté sur :
+
+- L'introduction de nouvelles technologies
+- Tout aménagement important modifiant les conditions de santé et de sécurité
+- Tout aménagement important modifiant les conditions de travail
+
+La clé est dans la formulation "modifiant les conditions de travail des salariés". Un outil qui touche à la façon dont vos équipes travaillent, évaluent, planifient ou recrutent entre dans ce périmètre.
+
+## Quels outils déclenchent l'obligation
+
+### Les outils concernés
+
+Sont concernés tous les outils IA qui affectent les conditions de travail des salariés :
+
+- **Outils d'évaluation et de gestion des compétences** : logiciels RH qui scorent les performances, identifient les écarts de compétences, suggèrent des formations
+- **Outils de suivi d'activité** : solutions qui tracent les temps, les tâches réalisées, les indicateurs de productivité individuelle
+- **Outils de planification** : logiciels qui génèrent des plannings, affectent les tâches ou optimisent la charge de travail des équipes
+- **Outils de recrutement** : solutions qui trient les candidatures, scorent les profils, assistent les entretiens, utilisées par l'équipe RH
+- **Outils collaboratifs avec IA générative** : toute solution où l'employeur autorise et encadre l'usage d'une IA générative pour produire du travail (rédaction, analyse, synthèse) dans le cadre professionnel
+
+### Les outils non concernés
+
+Ne déclenchent pas l'obligation CSE :
+
+- Un abonnement ChatGPT ou Copilot souscrit par le dirigeant pour son propre usage personnel (rédiger ses emails, préparer ses réunions), sans incidence sur l'organisation du travail de ses équipes
+- Un outil de comptabilité ou de finance utilisé uniquement par le DAF ou la direction générale, sans impact sur les conditions de travail des salariés
+- Des outils IA souscrits pour un processus purement technique (supervision d'équipements, qualité de production automatisée) n'affectant pas les conditions de travail humaines
+
+> **Red flag.** Si vous hésitez sur la qualification, posez-vous cette question : "Est-ce que cet outil change quelque chose à la façon dont mes salariés travaillent, sont évalués, ou organisent leur activité ?" Si la réponse est oui, vous êtes probablement dans le périmètre de L.2312-8.
+
+Pour les PME de 50 salariés et plus, nous recommandons d'appliquer le principe de précaution sur toute ambiguïté. Le coût d'une consultation CSE menée correctement est sans commune mesure avec le coût d'une astreinte judiciaire.
+
+## Trois obligations cumulatives : droit du travail, RGPD, AI Act
+
+Consulter le CSE n'est qu'une des trois obligations à gérer avant un déploiement IA. Les trois relèvent de régimes distincts. Elles ne se substituent pas l'une à l'autre.
+
+### Obligation 1 : Code du travail (50+ salariés)
+
+**Qui ?** Toute entreprise de 50 salariés ou plus qui déploie un outil IA affectant les conditions de travail.
+
+**Quoi ?** Consultation du CSE avant le déploiement, en application de l'article L.2312-8 du Code du travail.
+
+**Délai légal ?** L'article R.2312-6 fixe un délai d'1 mois pour l'avis du CSE (sans expert), 2 mois si le CSE mandate un expert-comptable, 3 mois en cas de consultations multi-niveaux.
+
+**Risque de non-respect ?** Suspension judiciaire de l'outil sous astreinte (500 à 1 000 euros par jour, selon les décisions 2026).
+
+### Obligation 2 : RGPD (toutes tailles)
+
+**Qui ?** Toute entreprise qui déploie un outil IA traitant des données personnelles de salariés ou de clients.
+
+**Quoi ?** Réaliser une analyse d'impact relative à la protection des données (AIPD) si le traitement présente un risque élevé pour les droits et libertés des personnes. Maintenir un registre des traitements. Établir une base légale pour chaque traitement.
+
+La CNIL a publié des recommandations sur le développement des systèmes IA (juillet 2025) : les modèles IA entraînés ou alimentés avec des données personnelles peuvent être soumis au RGPD, y compris pour leurs "capacités de mémorisation".
+
+**Risque de non-respect ?** Mise en demeure CNIL, sanction administrative, sans seuil d'effectif.
+
+Pour une présentation complète des obligations RGPD liées à l'IA, l'article [RGPD IA PME : obligations CNIL 2026 et plan d'action](/blog/rgpd-ia-pme-obligations-cnil-2026) détaille les points de vérification concrets. Les outils RH IA comme les logiciels de tri de CV ou de gestion de la paie font l'objet d'obligations spécifiques détaillées dans [AI Act RH : tri de CV, paie et conformité PME 2026](/blog/ai-act-rh-tri-cv-paie-pme).
+
+### Obligation 3 : AI Act (toutes tailles)
+
+Deux obligations distinctes dans le règlement européen, avec des calendriers différents :
+
+**Article 4 (littératie IA) :** applicable depuis le 2 février 2025. Obligation de moyens : vous devez soutenir le développement de compétences IA suffisantes chez vos collaborateurs qui utilisent ou supervisent des systèmes IA. Ce n'est pas une obligation de résultat garanti (réécriture par le règlement (UE) 2026/1744 du 8 juillet 2026). Aucun seuil d'effectif.
+
+**Article 26(7) (information des travailleurs) :** reporté au 2 décembre 2027 par le même règlement 2026/1744. Applicable uniquement aux systèmes IA classés "haut risque" (annexe III). Pour ces systèmes, l'employeur devra informer les représentants des travailleurs ET les travailleurs concernés avant la mise en service.
+
+> **A retenir.** À ce jour (novembre 2026), l'article 26(7) n'est pas encore applicable. Mais si vous déployez un système IA classé haut risque annexe III (outil d'évaluation des performances, de gestion des compétences, de recrutement), vous avez intérêt à préparer cette information maintenant. Elle sera de toute façon requise d'ici 13 mois.
+
+Les modifications apportées par le règlement Digital Omnibus 2026 à ces calendriers sont détaillées dans [Digital Omnibus et AI Act : ce que ça change vraiment pour votre PME](/blog/digital-omnibus-ia-pme-ce-qui-change).
+
+> **En résumé : les 3 obligations cumulatives avant un déploiement IA.** (1) Code du travail L.2312-8 : consultation CSE obligatoire pour 50 salariés et plus, avant tout déploiement affectant les conditions de travail. (2) RGPD : AIPD si traitement de données personnelles à risque élevé, registre des traitements, base légale (applicable à toutes les tailles), sans seuil d'effectif (recommandations CNIL juillet 2025). (3) AI Act article 4 : obligation de littératie IA en vigueur depuis le 2 février 2025, sans seuil d'effectif. Ces trois obligations ne se substituent pas l'une à l'autre.
+
+## Le planning réaliste pour votre projet IA
+
+### Ce que dit la loi sur les délais
+
+L'article R.2312-6 du Code du travail est précis : en l'absence d'accord collectif, le CSE dispose d'1 mois pour rendre son avis. Passé ce délai, il est réputé avoir rendu un avis négatif.
+
+Ce délai légal court à compter de la remise du dossier d'information au CSE. Avant d'arriver à cette remise, vous avez plusieurs étapes à gérer.
+
+### Les 6 à 8 semaines réelles d'un projet IA conforme
+
+Voici le séquençage concret à intégrer dans votre planning :
+
+1. **Semaines 1-2 : qualification de l'outil.** Déterminez si l'outil entre dans le périmètre de L.2312-8 : il affecte les conditions de travail, vous avez 50 salariés ou plus. Évaluez également les obligations RGPD (traitement de données personnelles ? AIPD nécessaire ?).
+2. **Semaines 2-4 : constitution du dossier de consultation.** Préparez le document d'information pour le CSE : nature de l'outil, fonctionnalités IA, impact prévu sur les conditions de travail, données traitées, fournisseur, conditions d'utilisation.
+3. **Semaine 4 : convocation et remise du dossier.** Envoyez la convocation à la réunion du CSE avec le dossier joint. Le délai de consultation de 1 mois commence à courir à la remise du dossier, pas à la réunion.
+4. **Semaines 5-7 : délai légal de consultation.** Le CSE dispose d'1 mois pour rendre son avis. S'il mandate un expert, ce délai passe à 2 mois.
+5. **Semaine 7-8 : réunion et avis.** Le CSE rend son avis (favorable, défavorable ou sans avis formel). Vous pouvez déployer quelle que soit la position du CSE : l'obligation est de consulter, pas d'obtenir un accord.
+
+> **A retenir.** Le délai légal est de 1 mois (article R.2312-6 du Code du travail), mais le délai réel de préparation porte la durée totale à 6-8 semaines. Ce délai doit être intégré dans votre calendrier projet AVANT la signature du contrat avec votre éditeur. Pas après.
+
+### Ce qu'il ne faut pas faire
+
+Plusieurs erreurs reviennent régulièrement :
+
+- **Déployer en "phase pilote" sans avoir consulté.** La jurisprudence Nanterre a expressément invalidé cet argument. Dès que des salariés utilisent l'outil, l'obligation était déjà déclenchée.
+- **Consulter après le déploiement.** C'est une consultation pro forma, pas une consultation préalable. Les tribunaux le sanctionnent.
+- **Sous-estimer la portée du terme "nouvelles technologies".** Les outils IA générative, les outils de gestion des compétences, les logiciels de suivi d'activité entrent tous dans cette catégorie.
+- **Confondre "information" et "consultation".** Une note interne envoyée aux élus n'est pas une consultation. La consultation implique une réunion dédiée, un dossier, un délai, un avis formalisé.
+
+## Ce que contient un dossier de consultation minimal
+
+Le CSE n'a pas accès à votre éditeur ni à votre contrat. C'est vous qui lui fournissez l'information. Voici ce qu'un dossier de consultation sérieux doit contenir :
+
+**Sur l'outil :**
+- Nom de l'outil et du fournisseur
+- Description des fonctionnalités IA (ce que l'outil fait, ce qu'il automatise ou analyse)
+- Périmètre d'usage : qui l'utilisera, dans quels processus, à quelle fréquence
+- Données traitées : quelles données personnelles des salariés sont utilisées, stockées ou analysées
+
+**Sur l'impact sur les conditions de travail :**
+- Quelles tâches seront modifiées, supprimées ou facilitées
+- Si l'outil produit des évaluations ou des scores sur les salariés : comment ces données seront utilisées, qui y aura accès
+- Formation prévue pour les salariés concernés
+
+**Sur la conformité :**
+- Résultat de l'analyse RGPD (AIPD si nécessaire)
+- Classification de l'outil au regard de l'AI Act (haut risque ou non)
+- Politique d'usage interne prévue
+
+> **Point clé.** Un dossier incomplet rallonge la consultation, car le CSE peut demander des informations complémentaires. Un dossier complet dès le départ réduit les allers-retours et vous permet de tenir le délai de 6-8 semaines.
+
+Pour cadrer vos obligations de gouvernance IA de façon plus large, l'article [Gouvernance IA en entreprise : cadre concret PME-ETI](/blog/gouvernance-ia-entreprise-cadre-pme-eti) et le guide pilier [AI Act 2026 : ce que les PME doivent savoir et faire](/blog/ai-act-pme-guide-2026) donnent le cadre complet.
+
+## Questions fréquentes
+
+### Est-ce qu'une PME doit consulter le CSE avant de déployer un outil IA ?
+
+Oui, si l'entreprise compte 50 salariés ou plus et que l'outil affecte les conditions de travail des salariés. L'obligation est posée par l'article L.2312-8 du Code du travail. En dessous de 50 salariés, l'obligation de consultation formelle L.2312-8 ne s'applique pas. Les obligations RGPD et AI Act, elles, s'appliquent à toutes les tailles.
+
+### À partir de combien de salariés faut-il consulter le CSE pour l'IA ?
+
+Le seuil déclencheur est 50 salariés. Un CSE existe dès 11 salariés (L.2311-2), mais ses attributions de consultation sur les technologies nouvelles ne s'activent qu'à 50 salariés (L.2312-8, section 3). C'est une distinction que peu d'articles grand public clarifient, et qui a de vraies conséquences pour les PME de 11 à 49 salariés.
+
+### Quel est le délai légal de consultation du CSE pour l'introduction d'une nouvelle technologie ?
+
+Selon l'article R.2312-6 du Code du travail, le CSE dispose d'1 mois pour rendre son avis (sans expert), 2 mois si un expert intervient. Passé ce délai, le CSE est réputé avoir rendu un avis négatif. En pratique, avec la préparation du dossier, la convocation et la réunion, compter 6 à 8 semaines au total.
+
+### Quels outils IA déclenchent l'obligation de consulter le CSE ?
+
+Tout outil qui affecte les conditions de travail des salariés : outil d'évaluation des performances, outil de suivi d'activité, logiciel de planification, outil de gestion des compétences RH, outil de recrutement utilisé par l'équipe. Un outil SaaS utilisé uniquement par le dirigeant pour son propre usage, sans incidence sur l'organisation du travail des salariés, ne déclenche pas l'obligation.
+
+### Que risque une entreprise si elle déploie une IA sans consulter le CSE ?
+
+La suspension judiciaire de l'outil sous astreinte, prononcée en référé. En 2026 : TJ Nanterre (29/01/2026, n° 25/02856) : 500 euros par jour. Cour d'appel de Paris (21/05/2026, RG n° 25/13234, arrêt GISI) : 1 000 euros par jour, plus 5 000 euros de dommages-intérêts. L'astreinte s'accumule jusqu'à ce que la consultation soit menée.
+
+### Faut-il consulter le CSE avant la phase pilote d'un outil IA ?
+
+Oui. Le TJ Nanterre a expressément rejeté l'argument "c'est seulement un test" dans sa décision du 29 janvier 2026. Dès que des salariés utilisent l'outil, même de façon expérimentale, la consultation aurait dû avoir lieu avant. La phase pilote ne dispense pas de l'obligation.
+
+### Le déploiement de ChatGPT en entreprise oblige-t-il à consulter le CSE ?
+
+Oui, si l'entreprise compte 50 salariés ou plus et que l'usage de ChatGPT est autorisé et encadré par l'employeur dans le cadre du travail des salariés. La Cour d'appel de Paris l'a confirmé le 21 mai 2026 (arrêt GISI) : autoriser et encadrer l'usage d'un outil IA générative, c'est "introduire" une nouvelle technologie. Un dirigeant qui utilise ChatGPT pour son seul compte, sans l'intégrer aux processus de travail de ses équipes, n'est pas concerné.
+
+## Passez de la théorie à l'action
+
+Savoir que vous avez une obligation est une chose. Identifier précisément si votre prochain déploiement entre dans le périmètre de L.2312-8, estimer si une AIPD est nécessaire, et déterminer comment classer votre outil au regard de l'AI Act : ce sont des questions qui se tranchent processus par processus, pas en lisant un article.
+
+Smart Impulsion propose la Smart Analyse : en une demi-journée à une journée, sur un seul de vos processus, vous obtenez une cartographie claire des obligations déclenchées (CSE, RGPD, AI Act), un premier dossier de consultation structuré et les points de vigilance spécifiques à votre secteur. Tarif fixe, de 1 000 à 2 000 € HT.
+
+[Découvrir la Smart Analyse](/services/audit)`,
+    author: "Laurent Bouzon",
+    date: "10 novembre 2026",
+    dateISO: "2026-11-10",
+    readTime: "11 min",
+    category: "Compliance & AI Act",
+    image: "/ia-droit-travail-pme-consultation-cse-hero.png",
+    imageAlt: "Image d'illustration pour l'article \"IA et droit du travail PME : obligations de consultation CSE avant déploiement\"",
+    faq: [
+      {
+        question: "Est-ce qu'une PME doit consulter le CSE avant de déployer un outil IA ?",
+        answer: "Oui, si l'entreprise compte 50 salariés ou plus ET que l'outil affecte les conditions de travail des salariés (évaluation, suivi d'activité, planification, recrutement). L'obligation est posée par l'article L.2312-8 du Code du travail. En dessous de 50 salariés, l'obligation de consultation formelle L.2312-8 ne s'applique pas, mais les obligations RGPD et AI Act s'appliquent à toutes les tailles.",
+      },
+      {
+        question: "À partir de combien de salariés faut-il consulter le CSE pour l'IA ?",
+        answer: "Le seuil déclencheur de l'obligation de consultation sur les nouvelles technologies (L.2312-8) est 50 salariés. Un CSE existe dès 11 salariés (L.2311-2), mais ses attributions de consultation sur les technologies nouvelles ne s'activent qu'à 50 salariés. C'est une distinction que peu d'articles grand public clarifient, et qui a de vraies conséquences pratiques pour les PME de 11 à 49 salariés.",
+      },
+      {
+        question: "Quel est le délai légal de consultation du CSE pour l'introduction d'une nouvelle technologie ?",
+        answer: "Selon l'article R.2312-6 du Code du travail, le CSE dispose d'1 mois pour rendre son avis (sans expert), 2 mois si un expert intervient. Passé ce délai, le CSE est réputé avoir rendu un avis négatif. En pratique, avec la préparation du dossier, la convocation et la réunion, compter 6 à 8 semaines au total. Ce délai doit être intégré dans le planning projet avant la décision d'achat.",
+      },
+      {
+        question: "Quels outils IA déclenchent l'obligation de consulter le CSE ?",
+        answer: "Tout outil qui affecte les conditions de travail des salariés : outil d'évaluation des performances, outil de suivi d'activité, logiciel de planification, outil de gestion des compétences RH, outil de recrutement utilisé par l'équipe. Un outil SaaS souscrit par le dirigeant pour son seul usage personnel (rédiger ses propres emails, préparer ses présentations) ne déclenche pas l'obligation, à condition qu'il n'ait aucune incidence sur l'organisation du travail des salariés.",
+      },
+      {
+        question: "Que risque une entreprise si elle déploie une IA sans consulter le CSE ?",
+        answer: "La suspension judiciaire de l'outil sous astreinte, prononcée en référé par le tribunal compétent. En 2026, deux décisions confirmées : TJ Nanterre (29 janvier 2026, n° 25/02856) : suspension + 500 €/jour. Cour d'appel de Paris (21 mai 2026, RG n° 25/13234, arrêt GISI) : suspension + 1 000 €/jour + 5 000 € de dommages-intérêts. L'astreinte s'accumule jusqu'à ce que la consultation soit menée.",
+      },
+      {
+        question: "Faut-il consulter le CSE avant la phase pilote d'un outil IA ?",
+        answer: "Oui. Le Tribunal judiciaire de Nanterre a expressément rejeté l'argument 'c'est seulement un test' dans sa décision du 29 janvier 2026. Dès que des salariés utilisent l'outil, même de façon expérimentale, la consultation aurait dû avoir lieu avant. La phase pilote ne dispense pas de l'obligation.",
+      },
+      {
+        question: "Le déploiement de ChatGPT en entreprise oblige-t-il à consulter le CSE ?",
+        answer: "Oui, si l'entreprise compte 50 salariés ou plus ET que l'usage de ChatGPT est autorisé et encadré par l'employeur dans le cadre du travail des salariés. La Cour d'appel de Paris a tranché le 21 mai 2026 (arrêt GISI) : autoriser et encadrer l'usage d'un outil IA générative, c'est 'introduire' une nouvelle technologie au sens de L.2312-8. Un dirigeant qui utilise ChatGPT pour son seul compte, sans l'intégrer aux processus de travail de ses équipes, n'est pas concerné.",
+      },
+    ],
+    howTo: {
+      name: "Intégrer la consultation CSE dans votre planning de déploiement IA",
+      description: "Les 5 jalons pour déployer un outil IA en PME (50+ salariés) dans le respect de l'article L.2312-8 du Code du travail.",
+      totalTime: "PT336H",
+      steps: [
+        {
+          name: "Qualification de l'outil (semaines 1-2)",
+          text: "Déterminez si l'outil entre dans le périmètre de L.2312-8 : il affecte les conditions de travail et vous avez 50 salariés ou plus. Évaluez également les obligations RGPD.",
+        },
+        {
+          name: "Constitution du dossier de consultation (semaines 2-4)",
+          text: "Préparez le document d'information pour le CSE : nature de l'outil, fonctionnalités IA, impact prévu sur les conditions de travail, données traitées, fournisseur et conditions d'utilisation.",
+        },
+        {
+          name: "Convocation et remise du dossier (semaine 4)",
+          text: "Envoyez la convocation à la réunion du CSE avec le dossier joint. Le délai légal de consultation d'un mois commence à courir à la remise du dossier.",
+        },
+        {
+          name: "Délai légal de consultation (semaines 5-7)",
+          text: "Le CSE dispose d'un mois pour rendre son avis (R.2312-6), ou deux mois s'il mandate un expert-comptable. Passé ce délai, le CSE est réputé avoir rendu un avis négatif.",
+        },
+        {
+          name: "Réunion et avis du CSE (semaines 7-8)",
+          text: "Le CSE rend son avis. Vous pouvez déployer quelle que soit sa position : l'obligation est de consulter, pas d'obtenir un accord favorable.",
+        },
+      ],
+    },
+  },
+  {
     slug: "ia-controle-qualite-pme-industrielle",
     title: "IA et contrôle qualité en PME : par où commencer",
     seoTitle: "IA contrôle qualité PME industrielle : cas d'usage",
