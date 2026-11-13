@@ -69,6 +69,237 @@ export interface BlogArticle {
 
 export const blogArticles: BlogArticle[] = [
   {
+    slug: "maturite-ia-pme-autodiagnostic",
+    title: "Maturité IA en PME : grille d'autodiagnostic en 4 axes",
+    seoTitle: "Maturité IA PME : autodiagnostic en 4 axes",
+    excerpt:
+      "Grille autodiagnostic en 4 axes (usage, données, gouvernance, ROI) pour savoir si un audit IA payant vous apportera de la valeur maintenant.",
+    content: `# Maturité IA en PME : grille d'autodiagnostic en 4 axes
+
+58 % des dirigeants de PME-ETI françaises estiment que l'IA est un enjeu de survie pour leur entreprise. Pourtant, seuls 43 % ont formalisé une stratégie IA (Bpifrance Le Lab, "révolution tranquille", juin 2025).
+
+La maturité IA d'une PME se définit comme sa capacité à intégrer l'intelligence artificielle dans des processus opérationnels avec un résultat mesurable, une gouvernance identifiée, et un retour sur investissement documenté. Ce n'est pas le nombre d'outils utilisés.
+
+Avant de décider si un audit IA payant vous apportera quelque chose de concret, il faut savoir où vous en êtes. Cette grille en 4 axes répond à une question précise : êtes-vous prêt à tirer quelque chose d'utile d'un audit, ou allez-vous simplement payer pour apprendre ce que vous savez déjà ?
+
+## Pourquoi l'autodiagnostic d'abord
+
+### Pourquoi les taux d'adoption de l'IA ne disent pas grand-chose sur votre maturité ?
+
+Les chiffres d'adoption de l'IA varient selon qui les mesure. L'INSEE (Première n°2120, 2025) constate que 18 % des entreprises françaises de 10 salariés ou plus utilisent au moins une technologie IA intégrée à leurs processus. Pour les PME de 50 à 249 salariés, ce taux monte à 31 %. Ce sont des systèmes IA connectés à des processus métier réels.
+
+Le Baromètre France Num 2025 (Crédoc) indique de son côté que 26 % des TPE-PME déclarent utiliser l'IA, contre 13 % en 2024. Mais cette mesure inclut les usages ponctuels comme ChatGPT pour rédiger un email. Ce n'est pas la même chose.
+
+> **Point clé.** Utiliser l'IA et avoir une maturité IA sont deux réalités distinctes. Selon le Baromètre France Num 2025 (Crédoc), 26 % des TPE-PME déclarent utiliser l'IA, mais une grande partie de ces usages sont ponctuels, sans KPI ni processus modifié. Un dirigeant qui ouvre ChatGPT deux fois par semaine n'est pas au même niveau qu'une PME qui a automatisé son traitement de commandes avec un résultat mesuré.
+
+La distinction compte, parce que l'audit IA utile s'adresse à la seconde catégorie, pas à la première.
+
+### Ce que révèle vraiment votre situation
+
+73 % des projets IA en PME-ETI sont impulsés par le dirigeant (Bpifrance Le Lab 2025). L'autodiagnostic est donc votre outil, pas celui de votre DSI.
+
+> **À retenir.** Avant d'appeler un consultant, posez-vous ces quatre questions : avez-vous un processus IA avec un KPI défini ? Vos données sont-elles propres ? Quelqu'un valide-t-il les sorties IA ? Avez-vous mesuré un gain documenté ? Si vous ne pouvez pas répondre, c'est une information sur votre maturité.
+
+La grille qui suit couvre quatre axes. Chacun se note de 0 à 4. Un score total vous indique si un audit IA vous apportera de la valeur maintenant, ou si vous avez d'abord d'autres priorités.
+
+## Les 4 axes de la grille
+
+### Axe 1 - Usage : qu'est-ce qui tourne vraiment ?
+
+La question à se poser : pouvez-vous nommer deux processus dans votre entreprise où l'IA produit un résultat mesurable, pas une expérimentation en cours ?
+
+Voici les signaux pour calibrer votre score sur cet axe :
+
+- **Score 0** : vous n'utilisez pas l'IA, ou vous ne savez pas nommer un cas d'usage concret dans votre secteur
+- **Score 1** : quelques collaborateurs utilisent des outils IA en mode ponctuel (ChatGPT pour des emails, un outil de transcription). Aucun processus n'est modifié
+- **Score 2** : un processus intègre l'IA de manière régulière, mais sans KPI défini ni validation systématique des sorties
+- **Score 3** : deux processus ou plus utilisent l'IA avec un résultat mesuré. Les équipes savent quand valider et quand corriger
+- **Score 4** : l'IA est connectée aux données métier (ERP, CRM, données de production). Les sorties alimentent des décisions opérationnelles
+
+> **Red flag.** Selon Bpifrance Le Lab (2025), 54 % des PME-ETI utilisatrices de l'IA s'appuient uniquement sur des solutions gratuites en mode ponctuel. Un usage exclusivement gratuit et ponctuel est le signal d'un score 1 sur cet axe. Ce n'est pas mauvais en soi, mais ce n'est pas le point de départ d'un audit utile.
+
+### Axe 2 - Données : avez-vous de quoi travailler ?
+
+L'IA ne produit de la valeur que si elle a accès à des données structurées. C'est le prérequis que les grilles de maturité disponibles sur le marché ignorent presque toutes.
+
+Selon Bpifrance Le Lab (2025), 43 % des PME-ETI françaises ne réalisent aucune analyse de données pour piloter leur activité. Ce chiffre est décisif : une entreprise qui ne pilote pas avec des données ne peut pas mesurer le ROI d'un projet IA. La même source indique qu'une entreprise qui pratique l'analyse de données est 2,5 fois plus susceptible d'utiliser l'IA que celle qui n'en fait pas.
+
+Les signaux pour calibrer votre score sur l'axe données :
+
+- **Score 0** : les données opérationnelles sont dans des fichiers Excel dispersés, des boîtes mail, ou des logiciels métier non connectés
+- **Score 1** : vous avez un ERP ou un CRM, mais les données ne sont pas nettoyées, les doublons sont fréquents, l'historique est incomplet
+- **Score 2** : vos données sont accessibles et relativement propres sur un processus. Vous pouvez produire un tableau de bord basique
+- **Score 3** : vous avez un historique de données propres sur 18 mois ou plus, sur au moins deux processus. Un tableau de bord actif guide vos décisions opérationnelles
+- **Score 4** : vos données sont structurées, documentées, avec des règles de gouvernance claires. Un consultant peut les interroger en moins d'une journée
+
+> **Red flag.** Si votre réponse honnête est "nos données sont dans 4 systèmes différents qui ne se parlent pas", l'audit IA diagnostiquera un problème de données que vous connaissez déjà. La priorité est alors de structurer les données avant d'aller plus loin.
+
+### Axe 3 - Gouvernance : qui décide, qui contrôle ?
+
+La gouvernance IA en PME ne suppose pas une organisation dédiée. Elle suppose que quelqu'un, quelque part, est responsable de trois choses : valider les sorties des outils IA pour les décisions importantes, corriger quand le résultat est faux, et répondre devant le client ou le collaborateur quand quelque chose ne va pas.
+
+Seulement 43 % des PME-ETI ont formalisé une stratégie IA (Bpifrance Le Lab 2025). Pour les 57 % restants, l'IA se déploie sans cadre décisionnel clair.
+
+Les signaux pour calibrer votre score sur cet axe :
+
+- **Score 0** : aucune règle d'usage, aucun responsable désigné. Les collaborateurs utilisent ce qu'ils veulent sans validation
+- **Score 1** : vous avez réfléchi au sujet, mais sans rien de formalisé. Pas de politique écrite, pas de responsable nommé
+- **Score 2** : il existe une liste informelle de règles. Un membre de l'équipe joue le rôle de référent de fait, sans mandat officiel
+- **Score 3** : une politique d'usage IA est documentée et connue des équipes. Un responsable est désigné. Les décisions sensibles passent par une validation humaine
+- **Score 4** : politique d'usage intégrée aux processus RH et opérationnels. Registre des outils IA utilisés. Conformité AI Act article 4 documentée
+
+> **Point clé.** La question de gouvernance la plus révélatrice est simple : si un outil IA produit une mauvaise recommandation demain, qui, dans votre entreprise, le détecte ? Si la réponse est "personne en particulier", votre score est 0 ou 1.
+
+### Axe 4 - ROI mesuré : avez-vous un chiffre ?
+
+C'est l'axe que les grilles concurrentes n'évaluent jamais. Pourtant, c'est l'indicateur le plus discriminant de maturité réelle.
+
+Une PME qui utilise l'IA depuis 12 mois sans avoir défini un seul KPI reste à un niveau de maturité faible sur cet axe, quelle que soit la sophistication de ses outils. Selon Siparex et Bpifrance ("Les audacieux de l'IA", avril 2026), 80 % des projets IA dans les PME-ETI françaises sont déployables en moins de 6 mois ; 70 % requièrent un investissement entre 15 000 et 100 000 euros. Ces ordres de grandeur supposent qu'on peut mesurer un résultat dans cet horizon.
+
+Les signaux pour calibrer votre score sur l'axe ROI :
+
+- **Score 0** : aucun KPI défini avant le lancement d'un projet IA. Les gains sont ressentis, pas mesurés
+- **Score 1** : vous avez une idée du gain réalisé, mais sans mesure documentée. "On gagne du temps" sans chiffre précis
+- **Score 2** : un projet a été suivi avec un KPI, mais sur moins de 3 mois. Le résultat est partiel
+- **Score 3** : au moins un projet avec un KPI mesuré sur 3 mois ou plus. Vous pouvez citer un gain en heures, en taux d'erreur, ou en délai réduit
+- **Score 4** : deux projets ou plus avec des KPIs documentés. Vous avez un tableau de bord ROI IA, même simple
+
+> **À retenir.** Un gain "potentiel" ou "ressenti" ne compte pas. La maturité ROI se mesure à votre capacité à dire : "sur ce processus, l'IA nous a économisé X heures par semaine sur les 4 derniers mois."
+
+## Lire votre score de maturité IA : que faire selon votre niveau
+
+Faites la somme de vos 4 scores. Le total se situe entre 0 et 16.
+
+1. **Score 0 à 4 : phase découverte.** Votre priorité n'est pas un audit IA. C'est d'identifier un cas d'usage concret et de structurer les données d'un processus. Un audit à ce stade diagnostiquera des problèmes que vous connaissez déjà. Lisez d'abord notre guide sur [comment choisir son premier projet IA en PME](/blog/premier-projet-ia-pme) pour poser les bases.
+2. **Score 5 à 8 : phase expérimentation.** Vous avez des usages mais sans cadre. Un ou deux projets pilotes bien cadrés vous apporteront plus de valeur qu'un audit. L'audit devient pertinent si vous voulez passer à l'échelle ou si vous avez du mal à reproduire les résultats d'un premier projet.
+3. **Score 9 à 12 : phase structuration.** C'est le niveau où un audit IA externe apporte le plus. Vous avez des usages, des données partiellement structurées, une gouvernance embryonnaire. L'audit identifie le prochain processus à fort retour et évite de dupliquer ce qui marche mal.
+4. **Score 13 à 16 : phase optimisation.** Vous optimisez des processus IA existants. L'audit peut cibler un axe spécifique : amélioration des données, mesure ROI plus précise, gouvernance avancée pour préparer une montée en charge.
+
+## Les erreurs de lecture fréquentes
+
+### Comment éviter de confondre outil et processus IA ?
+
+L'erreur la plus courante : se noter 3 sur l'axe usage parce que toute l'équipe utilise Copilot ou ChatGPT Enterprise. Un outil ne fait pas un processus. La question n'est pas "quel outil utilisez-vous ?" mais "quel processus a changé de fonctionnement grâce à l'IA, avec un résultat mesurable ?"
+
+Un cabinet d'expertise comptable qui utilise un outil IA pour générer des premiers jets de synthèses, avec une validation systématique par l'expert avant envoi, a un processus IA. Un cabinet qui laisse chaque collaborateur utiliser ChatGPT à sa convenance n'en a pas.
+
+Les trois questions pour distinguer outil et processus :
+
+- Le résultat de l'IA s'intègre-t-il dans un workflow existant, ou est-il utilisé de manière isolée ?
+- Quelqu'un valide-t-il les sorties avant qu'elles atteignent un client ou un partenaire ?
+- Existe-t-il un KPI, même informel, qui permet de savoir si l'outil "fonctionne" sur ce processus ?
+
+### Pourquoi la maturité données est-elle souvent surestimée dans cet exercice ?
+
+"On a un CRM" n'est pas synonyme de "nos données sont propres". Trois questions permettent de vérifier : combien de doublons dans votre base clients ? Votre historique de commandes couvre-t-il 24 mois ? Peut-on croiser données CRM et données de production en moins d'une journée ?
+
+> **Red flag.** Si répondre à ces questions prend plus d'une semaine, votre score données est probablement surestimé d'un point.
+
+### Négliger l'axe gouvernance parce qu'il semble théorique
+
+La gouvernance a une traduction concrète : si un collaborateur envoie à un client une réponse IA qui contient une erreur sur un tarif, qui en répond ? Si vous n'avez pas de réponse, votre score gouvernance est 0 ou 1.
+
+Pour approfondir, les articles [audit IA pour PME : le guide complet](/blog/audit-ia-pme-guide-complet) et [diagnostic IA PME : livrables à exiger avant de signer](/blog/diagnostic-ia-pme) décrivent les livrables que cette dimension produit dans un audit sérieux.
+
+## Ce que l'audit apporte selon votre score
+
+### Le diagnostic précis de ce qui bloque
+
+Un processus IA qui stagne, des équipes qui reviennent aux méthodes manuelles. L'audit identifie si le blocage vient des données, de l'outil, de la gouvernance ou des KPIs. Mêmes symptômes, solutions différentes.
+
+### La priorisation et le ROI par cas d'usage
+
+L'audit classe vos idées de cas d'usage sur deux axes : faisabilité réelle (données disponibles, complexité, dépendances systèmes) et impact métier chiffré. Les prioritaires entrent dans votre feuille de route. Pour chacun, l'audit produit une fourchette de gain annuel projeté :
+
+- **Coût de mise en oeuvre** : conseil, construction, licences sur 12 mois
+- **Gain annuel projeté** : temps libéré en ETP, erreurs évitées, délai client réduit
+- **Horizon de retour** : en mois, avec les hypothèses clés explicitées
+
+> **À retenir.** Si votre score est inférieur à 9, les [outils d'audit IA gratuits disponibles sur le marché](/blog/audit-ia-gratuit-pme-ce-qui-existe-ce-que-ca-vaut) peuvent vous aider à avancer sans budget consultant.
+
+## Questions fréquentes
+
+### Comment savoir si ma PME est prête pour un audit IA ?
+
+Posez-vous quatre questions : avez-vous un processus IA avec un résultat mesurable ? Vos données sont-elles structurées ? Quelqu'un valide-t-il les sorties IA ? Avez-vous mesuré un gain documenté ? Si vous répondez oui à deux ou trois, un audit ciblé a de bonnes chances de produire un plan d'action actionnable.
+
+### Quelles PME bénéficient vraiment d'un audit IA ?
+
+Les PME qui ont expérimenté un ou deux projets IA, qui disposent de données structurées, et qui veulent passer à l'échelle ou identifier le prochain chantier à fort retour. Une entreprise sans projet IA antérieur et sans données propres obtiendra plus de valeur en structurant ses données d'abord.
+
+### Quelle est la différence entre usage de l'IA et maturité IA ?
+
+Un usage, c'est utiliser ChatGPT pour rédiger une réponse client. La maturité, c'est avoir intégré l'IA dans un processus avec un KPI défini, une validation des sorties, et une mesure de l'impact. Selon Bpifrance (2025), 54 % des PME-ETI utilisatrices de l'IA s'appuient uniquement sur des solutions gratuites en mode ponctuel. C'est de l'usage, pas de la maturité.
+
+### Comment mesurer le ROI d'un projet IA en PME ?
+
+Définissez un KPI avant de lancer : temps économisé par semaine, taux d'erreurs évitées, délai de traitement réduit. Mesurez-le sur 3 mois minimum après déploiement. Selon Siparex et Bpifrance (2026), 80 % des projets IA en PME-ETI sont déployables en moins de 6 mois ; 70 % requièrent entre 15 000 et 100 000 euros. Un projet qui ne peut pas être évalué sur cet horizon est mal cadré au départ.
+
+### Qu'est-ce qu'une stratégie IA formalisée pour une PME ?
+
+Au minimum : un ou deux cas d'usage priorisés par la direction, un budget alloué, un responsable désigné, et des règles d'usage pour les équipes. Pas un document de 50 pages. Selon Bpifrance Le Lab (2025), seulement 43 % des PME-ETI ont atteint ce niveau, les 57 % restants utilisent l'IA sans cadre décisionnel.
+
+## Passez de la théorie à l'action
+
+Votre score révèle souvent un plateau : des usages qui stagnent, un ROI non mesuré, une gouvernance absente sur les décisions sensibles. Passer à l'étape suivante demande une analyse que vous ne pouvez pas faire seul.
+
+Smart Impulsion propose la Smart Analyse : en une demi-journée à une journée, sur un seul processus, vous obtenez un diagnostic des blocages, les 3 à 5 cas d'usage prioritaires et une fourchette de ROI projeté. Tarif : 1 000 à 2 000 € HT.
+
+[Découvrir la Smart Analyse](/services/audit)`,
+    author: "Laurent Bouzon",
+    date: "13 novembre 2026",
+    dateISO: "2026-11-13",
+    readTime: "11 min",
+    category: "Audit & Methodologie",
+    image: "/maturite-ia-pme-autodiagnostic-hero.png",
+    imageAlt: "Image d'illustration pour l'article \"Maturité IA en PME : grille d'autodiagnostic en 4 axes\"",
+    faq: [
+      {
+        question: "Comment savoir si ma PME est prête pour un audit IA ?",
+        answer: "Posez-vous quatre questions : avez-vous un processus IA avec un résultat mesurable ? Vos données sont-elles structurées ? Quelqu'un valide-t-il les sorties IA ? Avez-vous mesuré un gain documenté ? Si vous répondez oui à deux ou trois, un audit ciblé a de bonnes chances de produire un plan d'action actionnable.",
+      },
+      {
+        question: "Quelles PME bénéficient vraiment d'un audit IA ?",
+        answer: "Les PME qui ont expérimenté un ou deux projets IA, qui disposent de données structurées, et qui veulent passer à l'échelle ou identifier le prochain chantier à fort retour. Une entreprise sans projet IA antérieur et sans données propres obtiendra plus de valeur en structurant ses données d'abord.",
+      },
+      {
+        question: "Quelle est la différence entre usage de l'IA et maturité IA ?",
+        answer: "Un usage, c'est utiliser ChatGPT pour rédiger une réponse client. La maturité, c'est avoir intégré l'IA dans un processus avec un KPI défini, une validation des sorties, et une mesure de l'impact. Selon Bpifrance (2025), 54 % des PME-ETI utilisatrices de l'IA s'appuient uniquement sur des solutions gratuites en mode ponctuel. C'est de l'usage, pas de la maturité.",
+      },
+      {
+        question: "Comment mesurer le ROI d'un projet IA en PME ?",
+        answer: "Définissez un KPI avant de lancer : temps économisé par semaine, taux d'erreurs évitées, délai de traitement réduit. Mesurez-le sur 3 mois minimum après déploiement. Selon Siparex et Bpifrance (2026), 80 % des projets IA en PME-ETI sont déployables en moins de 6 mois ; 70 % requièrent entre 15 000 et 100 000 euros. Un projet qui ne peut pas être évalué sur cet horizon est mal cadré au départ.",
+      },
+      {
+        question: "Qu'est-ce qu'une stratégie IA formalisée pour une PME ?",
+        answer: "Au minimum : un ou deux cas d'usage priorisés par la direction, un budget alloué, un responsable désigné, et des règles d'usage pour les équipes. Pas un document de 50 pages. Selon Bpifrance Le Lab (2025), seulement 43 % des PME-ETI ont atteint ce niveau, les 57 % restants utilisent l'IA sans cadre décisionnel.",
+      },
+    ],
+    howTo: {
+      name: "Autodiagnostic de maturité IA PME en 4 axes",
+      description: "Méthode en 4 étapes pour évaluer votre niveau de maturité IA et décider si un audit IA externe est justifié.",
+      totalTime: "PT2H",
+      steps: [
+        {
+          name: "Axe 1 : Usage",
+          text: "Nommez deux processus de votre entreprise dans lesquels l'IA produit un résultat mesurable. Si vous ne pouvez pas en nommer un seul, votre score sur cet axe est 0 ou 1.",
+        },
+        {
+          name: "Axe 2 : Données",
+          text: "Évaluez la qualité et l'accessibilité de vos données opérationnelles. Sont-elles structurées, dans des systèmes interrogeables, avec un historique d'au moins 18 mois ? Ou dispersées dans des fichiers Excel et des boîtes mail ?",
+        },
+        {
+          name: "Axe 3 : Gouvernance",
+          text: "Identifiez qui, dans votre entreprise, valide les sorties des outils IA, qui répond des erreurs, et si vous avez une politique d'usage formalisée. L'absence de responsable désigné est un score de 0 sur cet axe.",
+        },
+        {
+          name: "Axe 4 : ROI mesuré",
+          text: "Vérifiez si vous avez défini un KPI avant votre dernier projet IA et si vous l'avez mesuré après 3 mois. Un gain 'ressenti' sans mesure compte pour 0. Un KPI mesuré et documenté est le signal le plus fiable de maturité réelle.",
+        },
+      ],
+    },
+  },
+  {
     slug: "ia-droit-travail-pme-consultation-cse",
     title: "IA et droit du travail PME : obligations de consultation CSE avant déploiement",
     seoTitle: "IA droit du travail PME : obligations avant déploiement",
