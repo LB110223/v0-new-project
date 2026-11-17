@@ -69,6 +69,221 @@ export interface BlogArticle {
 
 export const blogArticles: BlogArticle[] = [
   {
+    slug: "audit-ia-eti-specificites-methode",
+    title: "Audit IA en ETI : pourquoi ce n'est pas un audit PME en plus grand",
+    seoTitle: "Audit IA en ETI : spécificités et méthode",
+    excerpt:
+      "Un audit IA en ETI ne se pilote pas comme en PME : gouvernance, DSI, multi-sites, comitologie. Ce que ça change concrètement et comment le préparer.",
+    content: `Un audit IA ETI ne ressemble pas à un audit PME agrandi. Une ETI de 600 salariés sur trois sites commande un audit : son prestataire lui envoie la même trame qu'à une PME de 80 personnes. C'est là que tout commence à déraper.
+
+La différence n'est pas de taille. Elle est de nature. Une ETI dispose d'une DSI structurée, d'une comitologie multi-directions et souvent d'un rattachement à un groupe. Ces trois réalités transforment le périmètre, la durée et la gouvernance d'un audit IA de fond en comble. Ignorer ces spécificités, c'est produire un livrable qui sera rangé dans un tiroir dès la première réunion de direction.
+
+**Un audit IA en ETI est une démarche structurée qui évalue, sur un périmètre défini, la maturité d'une organisation de 250 à 4 999 salariés à intégrer l'IA dans ses processus métier.** Il diffère d'un audit PME sur quatre points non négociables : la présence d'une DSI interne qui impose une cartographie applicative, une comitologie multi-directions qui allonge les phases de cadrage, un périmètre juridique complexifié par l'appartenance fréquente à un groupe, et un risque Shadow AI plus dense que dans une structure de 80 personnes. 32 % des PME-ETI françaises utilisent déjà l'IA (Bpifrance Le Lab, juin 2025) ; pour les ETI, l'enjeu n'est plus de démarrer mais de structurer.
+
+Cet article détaille pourquoi le cadre méthodologique d'un audit IA ETI diffère structurellement de celui d'une PME, et comment préparer sérieusement ce chantier avant même de solliciter un prestataire.
+
+
+
+## ETI vs PME : deux catégories d'entreprise, deux réalités d'audit
+
+### Ce que dit l'INSEE, et pourquoi ça compte
+
+L'INSEE recense 7 442 ETI en France en 2023 (INSEE Focus n°372, 2024). Par définition, une ETI emploie entre 250 et 4 999 salariés et affiche un chiffre d'affaires inférieur à 1,5 milliard d'euros. Ce n'est pas une PME en plus grand : c'est une catégorie à part, avec ses propres contraintes organisationnelles.
+
+Parmi ces ETI, 95 % appartiennent à un groupe (INSEE, édition 2023). Conséquence directe : un audit IA en ETI se déroule rarement dans un périmètre entièrement autonome. Il existe presque toujours une maison mère, une centrale d'achats groupe, des directions fonctionnelles partagées, voire des systèmes d'information consolidés.
+
+> Une PME de 80 personnes prend ses décisions dans une pièce. Une ETI de 600 personnes les prend dans un couloir qui traverse trois bâtiments et deux pays.
+
+### L'adoption IA : des chiffres qui révèlent un écart de maturité
+
+32 % des PME-ETI françaises utilisent l'IA (Bpifrance Le Lab, juin 2025). Ce chiffre moyen masque une dispersion importante selon la taille. Les ETI, mieux dotées en ressources internes, affichent en général une adoption plus avancée mais aussi une complexité plus grande dans la mise à l'échelle.
+
+43 % des PME-ETI ne font pas d'analyse de données pour piloter leur activité (Bpifrance Le Lab, juin 2025). Dans une ETI multi-sites, ce n'est pas seulement un manque de culture data : c'est souvent la conséquence d'un parc applicatif fragmenté, hérité de croissances successives ou d'acquisitions.
+
+Pour aller plus loin sur la mesure de maturité avant d'engager un audit, la [grille d'autodiagnostic en 4 axes](/blog/maturite-ia-pme-autodiagnostic) permet de calibrer le point de départ.
+
+### Trois différences structurelles qui changent tout
+
+Voici ce qui distingue concrètement l'audit IA en ETI de son équivalent en PME :
+
+- **Le périmètre applicatif** : une ETI dispose d'un ERP multi-modules, souvent enrichi de connecteurs développés en interne, là où une PME utilise deux ou trois outils SaaS standard.
+- **Les interlocuteurs** : en PME, le dirigeant est souvent la seule porte d'entrée. En ETI, l'audit touche simultanément la DSI, les directions métier, la DAF et parfois la DRH.
+- **La chaîne de décision** : une décision de déploiement IA en ETI passe par plusieurs instances de validation avant d'atterrir dans un plan de charge.
+
+
+
+## Ce qu'une DSI interne change concrètement dans le scope de l'audit
+
+### Le parc applicatif comme première contrainte
+
+Une DSI interne, c'est d'abord un parc applicatif à cartographier. Dans une ETI typique, ce parc comporte un ERP central (SAP, Oracle, Sage X3), des outils métier développés spécifiquement pour certains services, et des connexions legacy construites au fil des années pour faire communiquer des systèmes qui ne se parlaient pas nativement.
+
+> Avant de poser la question "où l'IA peut-elle apporter de la valeur ?", l'auditeur sérieux pose la question "quelles données existent, où sont-elles stockées, et dans quel état sont-elles ?"
+
+Cartographier ce parc prend du temps. En PME, cette étape peut tenir en quelques heures. En ETI, elle mobilise plusieurs jours d'entretiens avec les équipes IT et les référents métier. C'est un coût non négligeable à intégrer dans le cadrage initial.
+
+### Le Shadow AI : un angle mort spécifique aux ETI
+
+Le Shadow AI désigne les usages d'outils IA déployés par des équipes sans validation ni référencement par la DSI. Dans une ETI, ce phénomène est devenu une réalité normalisée : des équipes commerciales utilisent des outils IA non référencés, des assistants conversationnels ont été connectés à des fichiers clients sans validation de la DSI, des automatisations ont été construites sur des plateformes personnelles de certains collaborateurs.
+
+Cette situation n'est pas unique aux ETI, mais elle y est particulièrement dense. La DSI a souvent connaissance de certains usages, ignore d'autres, et n'a pas toujours les moyens de les recenser systématiquement.
+
+L'audit IA doit donc inclure un volet Shadow AI : identifier les usages non référencés, évaluer leurs risques (conformité RGPD, sécurité des données, dépendance à des outils non contractualisés) et décider si certains méritent d'être intégrés à la trajectoire officielle.
+
+### Le DSI comme interlocuteur clé, pas comme obstacle
+
+Un réflexe courant chez les prestataires peu expérimentés en ETI : traiter la DSI comme une contrainte réglementaire plutôt qu'un partenaire stratégique. C'est une erreur.
+
+Le DSI d'une ETI dispose d'une connaissance transversale du système d'information que nul autre interlocuteur ne possède. Il sait où les données sont fiables, où elles ne le sont pas, quels systèmes sont en fin de vie et lesquels sont en cours de remplacement.
+
+- Un audit conduit sans la DSI produit des recommandations qui se heurteront aux contraintes techniques dès la phase d'implémentation.
+- Un audit conduit avec la DSI bénéficie d'une cartographie applicative pré-existante et d'un interlocuteur capable de valider la faisabilité technique des pistes identifiées.
+
+Pour cadrer précisément ce que doit couvrir un appel d'offres audit, le [cahier des charges IA PME](/blog/cahier-des-charges-ia-pme) offre une trame adaptable au contexte ETI.
+
+
+
+## Comitologie et gouvernance : pourquoi embarquer 4 directions en même temps complique tout
+
+### Le problème du calendrier multiple
+
+En PME, l'audit IA implique deux ou trois personnes dont le dirigeant. Les décisions se prennent vite. Les accès aux données sont accordés en quelques jours.
+
+En ETI, un audit IA sérieux touche au minimum quatre directions simultanément :
+
+1. La DSI pour les accès systèmes et la cartographie applicative
+2. La direction des opérations pour identifier les processus à fort potentiel d'automatisation
+3. La DAF pour qualifier les enjeux budgétaires et les indicateurs de ROI
+4. La DRH pour anticiper les impacts organisationnels et les besoins de formation
+
+Chacune de ces directions a son propre agenda, ses propres priorités trimestrielles et son propre cycle budgétaire. Coordonner quatre agendas pour des entretiens d'audit n'est pas une formalité administrative : c'est un travail de cadrage qui peut allonger la phase de préparation de plusieurs semaines.
+
+### Le chiffre Gartner qui résume le problème
+
+Seules 22 % des organisations réussissent à déployer l'IA à l'échelle multi-BU (Gartner, 2026). Ce chiffre ne concerne pas les projets pilotes : il concerne les déploiements effectifs à travers plusieurs directions ou entités.
+
+La raison principale n'est pas technique. Elle est gouvernance. Des directions qui n'ont pas été alignées dès la phase d'audit produisent des cahiers des charges divergents, des budgets non synchronisés et des périmètres qui se chevauchent.
+
+> Un audit IA en ETI qui ne traite pas la gouvernance dès le départ fabrique les conditions de l'échec du déploiement ultérieur.
+
+### Ce que ça implique concrètement pour l'auditeur
+
+Un prestataire qui arrive en ETI avec une trame d'audit PME va, en général, réaliser ses entretiens avec deux ou trois interlocuteurs et remettre un rapport qui reflète le point de vue partiel de ces quelques personnes. Le rapport sera techniquement correct. Il sera stratégiquement incomplet.
+
+Un audit ETI bien conduit prévoit :
+
+- Un comité de pilotage inter-directions désigné avant le démarrage
+- Une phase de cadrage dédiée à l'alignement des périmètres entre DSI et directions métier
+- Un livrable de gouvernance explicite, distinct du livrable technique
+- Une communication interne préparée pour chaque direction participante
+
+Pour comprendre comment choisir entre une ESN et une agence IA dans ce type de contexte, l'article [ESN ou agence IA : lequel choisir pour votre projet IA ?](/blog/esn-ou-agence-ia-pme) détaille les critères de sélection pertinents pour des organisations de cette taille.
+
+
+
+## Comment préparer un audit IA en ETI : les 4 questions préalables
+
+Avant de solliciter un prestataire, quatre questions permettent de calibrer le scope et d'éviter les mauvaises surprises en cours d'audit.
+
+### Question 1 : Avons-nous un état des lieux de nos données ?
+
+43 % des ETI ne font pas d'analyse de données pour piloter leur activité (Bpifrance Le Lab, juin 2025). Ce chiffre signifie qu'une ETI sur deux arrive à l'audit IA sans fondation data solide.
+
+Si vos données de production sont éparpillées dans trois ERP différents selon les sites, si vos données RH sont en partie dans des tableurs non versionnés, si votre CRM contient des données dont la fraîcheur est incertaine : l'audit IA devra intégrer un pré-audit data. Ce n'est pas un surcoût inutile. C'est une condition pour que les recommandations IA s'appuient sur une réalité, pas sur une hypothèse.
+
+Questions concrètes à se poser :
+
+- Disposons-nous d'un référentiel de données partagé entre la DSI et les directions métier ?
+- Les données critiques (stock, commandes, RH) sont-elles accessibles via API ou uniquement via des exports manuels ?
+- Avons-nous déjà réalisé un audit RGPD qui cartographie nos flux de données personnelles ?
+
+### Question 2 : Qui décide, et avec quel mandat ?
+
+Un audit IA en ETI ne peut pas être commandé par une seule direction sans mandat explicite des autres. Si la direction des opérations engage un audit sans en informer la DSI, le résultat sera un rapport que la DSI refusera de mettre en oeuvre.
+
+Avant de démarrer, désignez un sponsor exécutif (idéalement le DG ou le DGA) et constituez un comité de pilotage inter-directions. Ce comité doit avoir un mandat clair : valider le périmètre de l'audit, arbitrer les priorités entre directions et décider du budget alloué à la mise en oeuvre des recommandations.
+
+> Sans sponsor exécutif, un audit IA en ETI devient un exercice académique. Avec un sponsor, c'est un outil de décision.
+
+### Question 3 : Quel est notre périmètre réel ?
+
+Un audit "de l'ensemble de l'ETI" est trop vaste pour être actionnable. Toute démarche d'audit IA sérieuse (voir le [guide complet de l'audit IA pour PME](/blog/audit-ia-pme-guide-complet)) commence par délimiter un périmètre précis : en ETI, avec plusieurs directions et un parc applicatif fragmenté, cette étape est encore plus critique. Il faudra choisir :
+
+- Une direction prioritaire (opérations, finance, RH) sur laquelle concentrer le diagnostic
+- Deux ou trois processus cibles dont le potentiel d'automatisation ou d'optimisation IA est identifié a priori
+- Un horizon de déploiement réaliste (12 à 18 mois) qui tient compte des cycles budgétaires internes
+
+Cette délimitation n'est pas un renoncement. C'est ce qui permet de produire des recommandations actionnables plutôt qu'un catalogue d'opportunités sans ordre de priorité.
+
+### Question 4 : Sommes-nous prêts à gérer l'après-audit ?
+
+L'audit IA en ETI produit inévitablement des recommandations qui dépassent le cadre d'un seul service. Certaines nécessitent une refonte partielle des systèmes d'information. D'autres impliquent des formations à déployer sur plusieurs centaines de collaborateurs. D'autres encore touchent à la gouvernance des données, avec des implications RGPD et AI Act.
+
+Avant d'engager un audit, posez la question du portage : quelle direction sera propriétaire de la feuille de route IA post-audit ? Quel budget est pré-alloué à la mise en oeuvre ? Ces réponses ne doivent pas forcément être figées, mais elles doivent exister avant que l'audit commence.
+
+
+
+## Ce que l'audit ETI apporte que l'audit PME ne peut pas offrir
+
+Un audit IA conduit dans une ETI avec la bonne méthodologie produit plusieurs livrables qui n'existent pas dans le contexte PME :
+
+- Une cartographie applicative consolidée, utile bien au-delà du seul sujet IA
+- Un registre des usages IA existants (officiels et Shadow AI), avec évaluation des risques associés
+- Un cadre de gouvernance IA inter-directions, posant les bases d'une politique d'usage cohérente
+- Une matrice de priorisation des processus cibles, alignée sur les cycles budgétaires de chaque direction
+
+Ces livrables ont une durée de vie plus longue qu'une simple liste de recommandations. Ils constituent une infrastructure décisionnelle qui servira à plusieurs reprises dans les 24 à 36 mois suivants.
+
+> L'audit IA en ETI n'est pas un point de départ. C'est un investissement de gouvernance.
+
+
+
+**Ce qu'il faut retenir**
+
+- Une ETI (250 à 4 999 salariés selon l'INSEE, soit 7 442 structures en France en 2023) n'est pas une grande PME : la gouvernance, la DSI et le périmètre juridique sont structurellement différents.
+- 95 % des ETI appartiennent à un groupe (INSEE, 2023), ce qui implique presque toujours des directions partagées, un périmètre multi-sites et des contraintes de consolidation SI que l'audit doit cartographier.
+- Le Shadow AI est un angle mort incontournable en ETI : des usages non référencés d'outils IA existent dans la plupart des directions et doivent être recensés avant de formuler des recommandations.
+- Seules 22 % des organisations réussissent à déployer l'IA à l'échelle multi-BU (Gartner, 2026) ; la principale cause d'échec est l'absence de gouvernance inter-directions dès la phase d'audit.
+- La démarche Smart Analyse de Smart Impulsion est calibrée pour démarrer sur un seul processus, avec un livrable actionnable en une demi-journée à une journée, pour tester la méthode avant d'élargir le périmètre.
+
+
+
+## Par où commencer : le cas du processus unique
+
+Malgré la complexité structurelle des ETI, le bon point d'entrée reste un périmètre délimité. Vouloir auditer "l'ensemble de l'ETI" d'un coup est une erreur fréquente qui produit des rapports volumineux et des recommandations non priorisées.
+
+La démarche Smart Analyse est précisément calibrée pour ce cas : un audit payant, d'une demi-journée à une journée, focalisé sur un seul processus. À 1 000 à 2 000 euros HT, ce format permet de tester la méthode sur un périmètre maîtrisé, d'obtenir des livrables actionnables rapidement et de poser les bases d'un plan de déploiement plus large.
+
+Pour les ETI, ce premier audit IA ETI de processus remplit aussi une fonction organisationnelle : il crée un précédent, donne un vocabulaire commun aux directions impliquées et démontre en interne qu'une démarche IA peut produire des résultats concrets sans mobiliser l'organisation pendant six mois.
+
+**Vous souhaitez tester cette approche sur un processus précis de votre ETI ?** Consultez notre offre [Smart Analyse](/services/audit) pour démarrer sur un périmètre défini, avec des livrables clairs et un budget maîtrisé.`,
+    author: "Laurent Bouzon",
+    date: "17 novembre 2026",
+    dateISO: "2026-11-17",
+    readTime: "9 min",
+    category: "Audit & Methodologie",
+    image: "/audit-ia-eti-specificites-methode-hero.png",
+    imageAlt: "Image d'illustration pour l'article \"Audit IA en ETI : pourquoi ce n'est pas un audit PME en plus grand\"",
+    faq: [
+      {
+        question: "En quoi un audit IA en ETI diffère-t-il d'un audit PME ?",
+        answer: "Un audit IA ETI implique une DSI structurée, une comitologie multi-directions et souvent un rattachement à un groupe. Ces réalités transforment le périmètre, la durée et la gouvernance de l'audit de fond en comble, là où une PME peut décider en quelques heures avec un seul interlocuteur.",
+      },
+      {
+        question: "Faut-il un état des lieux de nos données avant de lancer un audit IA en ETI ?",
+        answer: "Oui. 43 % des ETI ne font pas d'analyse de données pour piloter leur activité (Bpifrance Le Lab, 2025). Si vos données sont éparpillées dans plusieurs ERP ou tableurs non versionnés, l'audit doit intégrer un pré-audit data, sans quoi les recommandations reposent sur des hypothèses plutôt que sur des faits.",
+      },
+      {
+        question: "Qui doit porter le mandat d'un audit IA ETI ?",
+        answer: "Un sponsor exécutif est indispensable, idéalement le DG ou le DGA, accompagné d'un comité de pilotage inter-directions. Sans ce mandat explicite, l'audit devient un exercice académique que les directions refuseront de mettre en oeuvre.",
+      },
+      {
+        question: "Quel périmètre choisir pour un premier audit IA en ETI ?",
+        answer: "Vouloir auditer l'ensemble de l'ETI en une seule fois produit des rapports volumineux et des recommandations non priorisées. Le bon point d'entrée est une direction prioritaire et deux ou trois processus cibles, avec un horizon de déploiement de 12 à 18 mois.",
+      },
+    ],
+  },
+  {
     slug: "ia-ecommerce-pme-cas-usage",
     title: "IA e-commerce PME : les cas d'usage à ROI mesurable",
     seoTitle: "IA e-commerce PME : cas d'usage à ROI mesurable",
