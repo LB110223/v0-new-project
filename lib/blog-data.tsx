@@ -69,6 +69,312 @@ export interface BlogArticle {
 
 export const blogArticles: BlogArticle[] = [
   {
+    slug: "ia-maintenance-predictive-pme-industrielle",
+    title: "Maintenance prédictive IA : décider avant d'investir",
+    seoTitle: "Maintenance prédictive IA PME industrielle",
+    excerpt:
+      "Comment décider si la maintenance prédictive vaut le coup dans votre PME industrielle, par où commencer et les 3 erreurs classiques à éviter.",
+    content: `# Maintenance prédictive IA en PME industrielle : par où commencer et comment décider
+
+La maintenance prédictive est une approche qui utilise des capteurs et des modèles d'analyse des données pour détecter les signes précurseurs d'une panne avant qu'elle survienne. Contrairement à la maintenance préventive (interventions à intervalles fixes), elle intervient au bon moment, en se basant sur l'état réel de la machine.
+
+Une panne imprévue sur votre ligne de production, c'est rarement juste le coût de la réparation. C'est la commande client retardée, les heures de production perdues, parfois les pénalités contractuelles. Les pertes directes et indirectes dépassent souvent de loin la facture du technicien. Et pourtant, selon Eurostat (2021), seulement 22 % des petites entreprises européennes utilisent l'IoT pour la maintenance conditionnelle, contre 44 % des grandes entreprises.
+
+L'écart ne s'explique pas uniquement par les moyens. Il s'explique par l'absence d'une méthode claire pour décider si ça vaut le coup dans une PME spécifique, et par où commencer concrètement. Les articles disponibles sur le sujet expliquent comment fonctionne la maintenance prédictive. Cet article répond à une autre question : est-ce que c'est fait pour votre situation, et si oui, comment amorcer sans se planter.
+
+## Ce que coûte vraiment une panne non anticipée
+
+La réparation, c'est la partie visible. Le reste est souvent deux à trois fois plus important.
+
+### Les coûts directs : ce que vous facturez au technicien
+
+Un arrêt machine non planifié mobilise des ressources immédiates :
+
+- **Pièces de remplacement** : souvent commandées en urgence, avec un surcoût sur le prix standard
+- **Heures de main-d'œuvre** : techniciens mobilisés sur un créneau non prévu, parfois en heures supplémentaires
+- **Outillage et prestataire externe** : si la compétence n'est pas en interne
+- **Nettoyage et remise en état** : selon le type de panne (fuite, surchauffe, casse mécanique)
+
+Ces coûts sont faciles à mesurer car ils apparaissent dans votre GMAO ou vos factures. Ils constituent rarement plus de 30 à 40 % du coût total réel.
+
+### Les coûts indirects : ce qui ne figure pas dans le bon de réparation
+
+> **A retenir.** Le coût d'une panne non planifiée en PME industrielle, c'est surtout la production perdue, le retard client et les réorganisations d'urgence. Ces coûts n'apparaissent pas sur la facture du technicien.
+
+Les coûts indirects comprennent :
+
+- **Production perdue** : le temps d'arrêt multiplié par la marge sur la production non réalisée
+- **Réorganisation de planning** : équipes redirigées, sous-traitance de débordement sollicitée
+- **Retard client** : selon votre secteur, pénalités contractuelles ou détérioration de la relation
+- **Stress organisationnel** : la panne imprévue déstabilise votre organisation sur 24 à 48 heures au-delà de la réparation elle-même
+
+La question pertinente pour évaluer l'intérêt de la maintenance prédictive n'est donc pas "combien coûtent mes réparations ?" mais "combien coûtent mes arrêts non planifiés en tenant compte de tous les impacts ?". C'est ce total qui justifie ou non l'investissement.
+
+### Peut-on chiffrer avant de démarrer ?
+
+Oui. L'exercice est simple : prenez les 12 à 24 derniers mois d'historique de pannes sur votre machine la plus problématique. Reconstituez pour chaque arrêt non planifié le coût direct (factures) et le coût indirect (production perdue calculée au taux horaire, retards éventuels). La somme annuelle est votre coût de référence. Si la maintenance prédictive réduit ce coût de 30 à 50 % sur cette seule machine, le calcul de rentabilité du pilote devient immédiatement lisible.
+
+## La maintenance prédictive n'est pas pour tout le monde
+
+C'est le point que les discours commerciaux évitent. Avant d'investir, posez-vous quatre questions.
+
+### Les 4 questions de qualification amont
+
+1. **Vos machines ont-elles des modes de défaillance progressifs ?**
+   - La maintenance prédictive fonctionne parce que certaines pannes s'annoncent avant d'arriver : vibrations anormales sur un roulement, montée en température d'un moteur en surcharge, dégradation du courant électrique. Si vos pannes sont soudaines par nature (casse fragile, défaillance aléatoire d'un composant électronique), les capteurs ne peuvent pas les anticiper.
+
+2. **Avez-vous des données historiques de pannes exploitables ?**
+   - Le modèle IA doit apprendre à reconnaître les signaux précurseurs d'une panne. Pour apprendre, il a besoin de données : idéalement 12 à 24 mois d'historique incluant des mesures capteurs au moment des pannes. Selon Bpifrance (2025), 43 % des PME-ETI françaises n'analysent pas leurs données pour piloter leur activité. Si vous n'avez pas d'historique structuré, la première étape n'est pas d'acheter des capteurs mais de commencer à collecter.
+   - **Red flag.** Si votre réponse à "combien avez-vous eu de pannes sur cette machine l'an dernier ?" est "je ne sais pas exactement", vous n'avez pas les données minimales pour amorcer un projet de maintenance prédictive.
+
+3. **La machine candidate est-elle suffisamment critique ?**
+   - Si une panne de cette machine n'arrête pas la ligne et se résout en moins d'une heure, l'investissement d'un pilote (15 000 à 50 000 €) ne sera pas rentable. La maintenance prédictive est pertinente sur les équipements dont l'arrêt a un impact mesurable sur la production ou les délais clients.
+
+4. **Avez-vous un référent maintenance prêt à s'impliquer ?**
+   - La technologie est la partie facile. La partie difficile, c'est d'intégrer les alertes du système dans les habitudes de travail de votre équipe maintenance. Sans un responsable maintenance qui s'approprie le projet et modifie ses processus d'intervention en conséquence, le système reste inutilisé après les premiers mois.
+
+> **A retenir.** Si vous répondez "non" à deux de ces quatre questions, la maintenance prédictive n'est pas votre prochain chantier. La maintenance préventive améliorée (planification rigoureuse des interventions, suivi des indicateurs de durée de vie des composants) peut vous apporter 60 à 70 % des gains, pour un investissement bien inférieur.
+
+Pour replacer ce sujet dans le panorama plus large des chantiers IA accessibles en PME industrielle, l'article [IA en production : 3 cas d'usage pour PME industrielle](/blog/ia-production-industrielle-pme) présente d'autres angles d'entrée.
+
+## Le coût total d'un pilote : ce que les devis ne disent pas
+
+Les discours sur la maintenance prédictive mentionnent régulièrement des capteurs à 50 ou 200 euros. C'est vrai. C'est aussi incomplet.
+
+### Combien coûte vraiment un pilote sur 2 à 3 machines ?
+
+Un pilote bien structuré comprend plusieurs postes :
+
+- **Capteurs et matériel** : 50 à 200 € par capteur, multiplié par le nombre de points de mesure (2 à 6 par machine selon la complexité). Budget matériel : 500 à 3 000 € pour 2 à 3 machines.
+- **Passerelle edge et infrastructure réseau** : le boîtier qui collecte les données des capteurs et les transmet. Comptez 500 à 2 000 €.
+- **Intégration GMAO ou ERP** : c'est souvent le poste le plus important. Connecter le système de maintenance prédictive à votre GMAO existante, paramétrer les alertes, adapter les workflows. Selon la complexité, 3 000 à 15 000 € de prestation.
+- **Accompagnement et cadrage** : 2 à 3 mois de suivi pour calibrer le modèle, interpréter les premiers résultats, former l'équipe. 5 000 à 20 000 € selon le volume d'intervention.
+- **Formation équipe maintenance** : adapter les processus d'intervention aux nouvelles alertes. 1 à 3 jours, soit 1 000 à 4 000 €.
+
+> **A retenir.** Un pilote sur 2 à 3 machines coûte réalistement entre 15 000 et 50 000 € selon la complexité d'intégration. Ce n'est pas un projet à 2 000 €. Budgétez en conséquence.
+
+### Combien de temps pour amortir un pilote ?
+
+Selon Deloitte Insights (2017), la maintenance prédictive peut augmenter la disponibilité des équipements de 10 à 20 % et réduire les coûts de maintenance de 5 à 10 %.
+
+Ces gains sont réels mais modestes. Sur une machine dont le coût total des pannes représente 40 000 € par an, une réduction de 15 % génère 6 000 € d'économies annuelles. Un pilote à 20 000 € s'amortit en un peu plus de 3 ans sur cette seule machine. L'extension à 5 à 10 machines du même parc change radicalement le calcul.
+
+> **A retenir.** La logique n'est pas de rentabiliser le pilote sur lui-même, mais de valider que le modèle fonctionne sur votre parc avant d'étendre. Décision séquentielle, pas pari global.
+
+Pour cadrer la logique de ROI, l'article [ROI de l'IA en entreprise](/blog/roi-intelligence-artificielle-entreprise) détaille les méthodes de calcul applicables à ce type de projet.
+
+## Choisir la première machine : une méthode en 3 critères
+
+La sélection de la première machine est la décision la plus importante du projet. Une mauvaise sélection conduit à un pilote qui ne produit pas de résultats suffisants pour justifier l'extension, et le projet s'arrête là.
+
+### Critère 1 : Criticité
+
+Posez la question directement : si cette machine s'arrête pendant 4 heures, qu'est-ce qui se passe sur votre ligne ?
+
+- **Criticité haute** : la ligne s'arrête, ou une autre machine dépendante s'arrête
+- **Criticité moyenne** : la ligne ralentit ou doit être réorganisée, mais continue
+- **Criticité faible** : on peut travailler avec une machine de remplacement ou sans cette machine pendant 1 à 2 jours
+
+Privilégiez les machines à criticité haute. Ce sont elles qui génèrent les coûts d'arrêt les plus élevés, donc le ROI potentiel le plus important.
+
+### Critère 2 : Fréquence de panne
+
+Le modèle IA a besoin de cas de pannes pour apprendre. Sans données historiques, il ne peut pas identifier les signaux précurseurs.
+
+Critères minimaux :
+
+- **Idéal** : 3 pannes ou plus sur les 12 derniers mois, avec des traces dans votre GMAO
+- **Acceptable** : 2 pannes sur 24 mois, avec au moins des notes de technicien sur les symptômes
+- **Insuffisant** : moins de 2 pannes sur 24 mois, ou aucune trace documentée
+
+Une machine qui ne tombe jamais en panne n'a pas besoin de maintenance prédictive. Une machine qui tombe rarement en panne ne génère pas assez de données pour entraîner un modèle.
+
+### Critère 3 : Coût de l'arrêt
+
+Calculez le coût total d'un arrêt type (direct + indirect) pour les pannes documentées. Ce chiffre doit être suffisamment élevé pour que même une réduction partielle de la fréquence des arrêts couvre le coût du pilote en 2 à 3 ans.
+
+> **Point clé.** La machine idéale pour un premier pilote est critique (impact fort sur la ligne), tombe en panne au moins 2 à 3 fois par an, et génère un coût total d'arrêt mesurable et élevé. Ces trois critères ensemble définissent le bon point de départ.
+
+### Comment rendre la sélection objective ?
+
+Pour rendre la décision objective, notez chaque machine candidate sur ces 3 critères (1 à 3), et additionnez. La machine avec le score le plus élevé est votre premier périmètre. Si deux machines sont à égalité, choisissez celle pour laquelle vous avez les meilleures données historiques.
+
+Cela s'inscrit dans la logique de priorisation décrite dans l'article [Prioriser ses projets IA en PME : la grille en 4 critères](/blog/prioriser-projets-ia-pme).
+
+## Les 90 premiers jours : ce qu'un pilote doit produire
+
+Un pilote n'est pas un déploiement. C'est une validation d'hypothèse.
+
+### Ce que vous cherchez à confirmer
+
+1. **Le signal capteur est exploitable** : les mesures de vibration, température ou courant sont suffisamment stables et cohérentes pour être analysées. Des capteurs mal positionnés ou des interférences électromagnétiques peuvent rendre les données inutilisables.
+2. **Le modèle détecte des anomalies avant les pannes** : sur les pannes survenues pendant la période pilote, le système a-t-il émis une alerte en avance ?
+3. **Le taux de faux positifs est acceptable** : si le système génère 10 alertes par jour dont 9 sont infondées, votre équipe maintenance va l'ignorer après 2 semaines.
+4. **L'intégration GMAO fonctionne** : les alertes remontent bien dans votre outil de gestion, et les techniciens les traitent selon le nouveau processus.
+
+### Les 4 indicateurs de validation
+
+À 90 jours, évaluez ces quatre points avant de décider d'étendre :
+
+- **Alertes générées et pertinence** : combien d'alertes, quel taux de faux positifs (objectif : moins de 20 % de fausses alertes)
+- **Pannes évitées** : sur les pannes survenues, le système avait-il émis un signal précurseur ?
+- **Disponibilité machine** : comparez le taux de disponibilité sur les 90 jours du pilote vs la même période l'année précédente
+- **Coût de maintenance** : interventions non planifiées déclenchées pendant la période, coût comparé à l'historique
+
+> **Red flag.** Si à 90 jours vous ne pouvez pas mesurer ces 4 indicateurs, c'est que votre GMAO n'a pas été correctement intégrée ou que les données de départ n'ont pas été structurées. Résolvez ce problème avant d'étendre.
+
+### À quelles conditions étendre le pilote à d'autres machines ?
+
+L'extension est justifiée si :
+
+- Le taux de faux positifs est inférieur à 20 %
+- Au moins une panne a été évitée (ou anticipée suffisamment tôt pour réduire l'impact)
+- L'équipe maintenance a effectivement modifié ses pratiques d'intervention en réponse aux alertes
+- Le coût de maintenance sur la période pilote est en baisse ou stable malgré les nouveaux arrêts programmés (moins d'urgences)
+
+Si ces conditions ne sont pas réunies, ne pas étendre. Comprendre pourquoi avant d'investir sur un périmètre plus large.
+
+L'IA en maintenance prédictive s'inscrit dans une démarche de contrôle qualité plus large en production : l'article [IA et contrôle qualité en PME : par où commencer](/blog/ia-controle-qualite-pme-industrielle) développe les points de convergence entre ces deux chantiers.
+
+## Les 3 erreurs classiques d'amorçage dans une PME industrielle
+
+On voit ces trois patterns revenir dans la plupart des projets qui ne produisent pas de résultats.
+
+### Erreur 1 : Sur-équiper trop vite
+
+La tentation est d'instrumenter 10 ou 15 machines dès le départ pour "rentabiliser les coûts fixes d'intégration". C'est logique en apparence. En pratique, cela multiplie les points d'échec et dilue l'attention. Si la qualité du signal est mauvaise sur 3 des 15 machines, vous passez du temps à déboguer au lieu de produire des résultats.
+
+Commencez par une machine. Validez le signal, le modèle, l'intégration, les processus d'intervention. Puis étendez.
+
+### Erreur 2 : Négliger la qualité du signal capteur
+
+Un capteur de vibration mal positionné, ou installé sur une machine avec beaucoup d'interférences mécaniques voisines, va générer des mesures bruitées qui rendent le modèle IA non performant. La qualité du signal est un prérequis technique souvent sous-estimé.
+
+> **Red flag.** Si votre fournisseur de capteurs vous propose de poser les sondes en moins d'une demi-journée sans avoir d'abord analysé les modes de défaillance de la machine, posez des questions. Le positionnement des capteurs est une décision technique qui détermine la qualité des données que vous collecterez pendant des mois.
+
+### Erreur 3 : Confier le projet au seul responsable IT
+
+La maintenance prédictive est un projet de transformation opérationnelle, pas un projet informatique. Le responsable IT peut gérer l'infrastructure et l'intégration. Il ne peut pas, seul, changer les pratiques d'intervention de l'équipe maintenance.
+
+Le binôme indispensable : un référent IT (connectivité, intégration GMAO, sécurité des données) et un référent maintenance (interprétation des alertes, modification des processus d'intervention, formation des techniciens). Sans ce binôme, le système sera bien installé et non utilisé.
+
+La question de qui pilote un projet IA est traitée dans le panorama [Cas d'usage IA en PME : panorama par métier](/blog/cas-usage-ia-pme-par-metier), qui décrit les profils impliqués dans chaque type de projet.
+
+## Quand la maintenance prédictive n'est pas la bonne réponse
+
+Honnêteté sur les limites : il y a des situations où la maintenance prédictive n'est pas pertinente.
+
+### Les cas où ne pas aller
+
+- **Machines peu critiques** : si une panne n'impacte pas votre ligne et se résout rapidement, l'investissement n'est pas justifiable.
+- **Process très variés** : si votre production change de configuration toutes les semaines (produits différents, réglages constants), les signaux capteurs varient trop pour que le modèle apprenne des patterns stables.
+- **Aucune donnée historique** : sans historique de pannes documenté, vous ne pouvez pas calibrer le modèle. Vous dépenseriez pour collecter des données pendant 12 à 18 mois avant d'avoir quoi que ce soit d'exploitable. Dans ce cas, investissez d'abord dans la structuration de votre GMAO.
+- **Équipe maintenance non impliquée** : si vos techniciens considèrent le projet comme "une décision du siège" et ne s'approprient pas les alertes, le système sera contourné.
+- **Pannes soudaines par nature** : certains types de défaillance ne s'annoncent pas. Un joint qui lâche brusquement, un composant électronique qui tombe en panne sans dégradation progressive ne génèrent pas de signal précurseur exploitable.
+
+> **A retenir.** Dans ces situations, la maintenance préventive améliorée (calendriers d'intervention rigoureux, remplacement préventif des composants à durée de vie connue) offre souvent 60 à 70 % des gains de la maintenance prédictive, pour un investissement de 10 à 20 fois inférieur. C'est parfois la bonne réponse.
+
+### Données insuffisantes : que faire avant de démarrer un projet ?
+
+Le point le plus sous-estimé dans tous les projets de maintenance prédictive en PME, c'est la qualité des données d'entrée. Selon l'enquête TIC Entreprises de l'INSEE (2025), l'adoption de l'IA dans l'industrie manufacturière française a significativement progressé ces deux dernières années, avec un écart encore marqué selon la taille d'établissement. Mais selon Bpifrance (2025), 43 % des PME-ETI n'analysent pas encore leurs données pour piloter leur activité.
+
+Si vous faites partie de ces 43 %, le chemin vers la maintenance prédictive passe d'abord par la structuration de vos données de maintenance dans une GMAO, puis par 12 à 18 mois de collecte, puis seulement par l'IA. Ce séquençage est moins excitant à vendre mais c'est la voie réaliste.
+
+## Passez de la théorie à l'action
+
+Cadrer seul le premier périmètre de maintenance prédictive, c'est difficile. Identifier la bonne machine, estimer le coût total réaliste, structurer le pilote en 90 jours pour qu'il produise des résultats décidables : chaque étape mobilise des compétences qui ne sont pas forcément en interne.
+
+Smart Impulsion propose la Smart Analyse : en une demi-journée à une journée, sur votre processus de maintenance, vous obtenez une évaluation de la faisabilité du projet (prérequis données, criticité du parc, coût total réaliste) et un premier périmètre de pilote documenté. Tarif fixe, de 1 000 à 2 000 € HT.
+
+[Découvrir la Smart Analyse](/services/audit)
+
+## Questions fréquentes
+
+### Quel est le coût de mise en place de la maintenance prédictive dans une PME ?
+
+Un pilote sur 2 à 3 machines comprend : les capteurs (50 à 200 € pièce), la passerelle de collecte des données, l'intégration à votre GMAO ou ERP, 2 à 3 mois d'accompagnement, et la formation de l'équipe maintenance. L'ordre de grandeur réaliste est de 15 000 à 50 000 € selon la complexité d'intégration. Les concurrents qui parlent de "quelques centaines d'euros" ne comptent que le matériel, pas le projet complet.
+
+### Par où commencer pour déployer la maintenance prédictive en PME industrielle ?
+
+Commencez par identifier votre machine la plus critique selon trois critères : impact d'une panne sur la ligne, fréquence de panne (minimum 2 à 3 fois par an), et coût moyen de l'arrêt direct et indirect. Instrumentez cette seule machine, collectez des données pendant 90 jours, et décidez d'étendre seulement si les premiers résultats valident vos hypothèses de départ.
+
+### Quel ROI peut-on attendre de la maintenance prédictive en PME ?
+
+Selon Deloitte Insights (2017), la maintenance prédictive peut augmenter la disponibilité des équipements de 10 à 20 % et réduire les coûts de maintenance de 5 à 10 %. Ces gains sont récurrents une fois le pilote validé, mais ils présupposent que la machine choisie est critique et que les données historiques de pannes existent. Ne vous basez pas sur des benchmarks sectoriels sans source vérifiée : calculez à partir de votre propre historique de pannes.
+
+### La maintenance prédictive est-elle accessible aux petites entreprises industrielles ?
+
+Selon Eurostat (2021), 22 % des petites entreprises européennes utilisent l'IoT pour la maintenance conditionnelle, contre 44 % des grandes entreprises. La vraie barrière n'est pas le prix du matériel : c'est la qualité des données historiques de pannes et la capacité organisationnelle à piloter le projet. Selon Bpifrance (2025), 43 % des PME-ETI n'analysent pas encore leurs données, ce qui constitue le vrai frein d'entrée.
+
+### Quels capteurs utiliser pour la maintenance prédictive sur une ligne de production ?
+
+Les signaux les plus courants sont les vibrations (roulements, moteurs), la température (surchauffe, friction), le courant électrique (charge anormale) et l'acoustique (sons de défaut). Le choix du capteur dépend du mode de défaillance de la machine ciblée. Cette décision technique vient après la décision business : d'abord confirmer que la machine vaut la peine d'être instrumentée.
+
+### Comment choisir la première machine à instrumenter ?
+
+Trois critères formalisés : criticité (une panne de cette machine arrête-t-elle la ligne ?), fréquence de panne (a-t-elle eu au moins 2 à 3 pannes sur les 12 à 24 derniers mois ?), et coût de l'arrêt (direct : réparation, pièces, heures technicien ; indirect : retard client, pénalités, production perdue). La machine qui score fort sur ces trois axes est votre point de départ.
+
+### Quelle différence entre maintenance préventive et maintenance prédictive ?
+
+La maintenance préventive intervient à intervalle fixe (toutes les X heures ou X semaines), que la machine en ait besoin ou non. La maintenance prédictive intervient au bon moment, quand les capteurs et le modèle IA détectent une dégradation réelle. La prédictive réduit les interventions inutiles et les pannes non anticipées. Mais elle exige des données historiques de pannes, un minimum d'intégration SI, et une équipe maintenance prête à adapter ses pratiques.`,
+    author: "Laurent Bouzon",
+    date: "18 novembre 2026",
+    dateISO: "2026-11-18",
+    readTime: "12 min",
+    category: "Cas d'usage",
+    image: "/ia-maintenance-predictive-pme-industrielle-hero.png",
+    imageAlt: "Image d'illustration pour l'article \"Maintenance prédictive IA : décider avant d'investir\"",
+    faq: [
+      {
+        question: "Quel est le coût de mise en place de la maintenance prédictive dans une PME ?",
+        answer: "Un pilote sur 2 à 3 machines comprend : les capteurs (50 à 200 € pièce), la passerelle de collecte des données, l'intégration à votre GMAO ou ERP, 2 à 3 mois d'accompagnement, et la formation de l'équipe maintenance. L'ordre de grandeur réaliste est de 15 000 à 50 000 € selon la complexité d'intégration. Les concurrents qui parlent de 'quelques centaines d'euros' ne comptent que le matériel, pas le projet complet.",
+      },
+      {
+        question: "Par où commencer pour déployer la maintenance prédictive en PME industrielle ?",
+        answer: "Commencez par identifier votre machine la plus critique selon trois critères : impact d'une panne sur la ligne, fréquence de panne (minimum 2 à 3 fois par an), et coût moyen de l'arrêt direct et indirect. Instrumentez cette seule machine, collectez des données pendant 90 jours, et décidez d'étendre seulement si les premiers résultats valident vos hypothèses de départ.",
+      },
+      {
+        question: "Quel ROI peut-on attendre de la maintenance prédictive en PME ?",
+        answer: "Selon Deloitte Insights (2017), la maintenance prédictive peut augmenter la disponibilité des équipements de 10 à 20 % et réduire les coûts de maintenance de 5 à 10 %. Ces gains sont récurrents une fois le pilote validé, mais ils présupposent que la machine choisie est critique et que les données historiques de pannes existent.",
+      },
+      {
+        question: "La maintenance prédictive est-elle accessible aux petites entreprises industrielles ?",
+        answer: "Selon Eurostat (2021), 22 % des petites entreprises européennes utilisent l'IoT pour la maintenance conditionnelle, contre 44 % des grandes entreprises. L'écart se réduit avec la baisse des coûts des capteurs. La vraie barrière n'est pas le prix du matériel : c'est la qualité des données historiques de pannes et la capacité organisationnelle à piloter le projet. Selon Bpifrance (2025), 43 % des PME-ETI n'analysent pas encore leurs données, ce qui constitue le vrai frein.",
+      },
+      {
+        question: "Quels capteurs utiliser pour la maintenance prédictive sur une ligne de production ?",
+        answer: "Les signaux les plus courants sont les vibrations (roulements, moteurs), la température (surchauffe, friction), le courant électrique (charge anormale) et l'acoustique (sons de défaut). Le choix du capteur dépend du mode de défaillance de la machine ciblée. Cette décision technique vient après la décision business : d'abord confirmer que la machine vaut la peine d'être instrumentée, ensuite choisir le bon type de signal à surveiller.",
+      },
+      {
+        question: "Comment choisir la première machine à instrumenter ?",
+        answer: "Trois critères formalisés : criticité (une panne de cette machine arrête-t-elle la ligne ?), fréquence de panne (a-t-elle eu au moins 2 à 3 pannes sur les 12 à 24 derniers mois ?), et coût de l'arrêt (direct : réparation, pièces, heures technicien ; indirect : retard client, pénalités, production perdue). La machine qui score fort sur ces trois axes est votre point de départ.",
+      },
+      {
+        question: "Quelle différence entre maintenance préventive et maintenance prédictive ?",
+        answer: "La maintenance préventive intervient à intervalle fixe (toutes les X heures ou X semaines), que la machine en ait besoin ou non. La maintenance prédictive intervient au bon moment, quand les capteurs et le modèle IA détectent une dégradation réelle. La prédictive réduit les interventions inutiles et les pannes non anticipées. Mais elle exige des données historiques de pannes, un minimum d'intégration SI, et une équipe maintenance prête à changer ses habitudes.",
+      },
+    ],
+    howTo: {
+      name: "Méthode d'amorçage maintenance prédictive PME en 3 étapes",
+      description: "Méthode pour sélectionner la première machine, structurer le pilote et décider de l'extension en PME industrielle",
+      totalTime: "PT2160H",
+      steps: [
+        {
+          name: "Sélectionner la première machine",
+          text: "Évaluer chaque machine candidate sur 3 critères : criticité de la panne sur la ligne, fréquence de panne (minimum 2 à 3 par an sur 12 à 24 mois), et coût moyen de l'arrêt direct et indirect. Choisir la machine avec le score le plus élevé.",
+        },
+        {
+          name: "Structurer et lancer le pilote 90 jours",
+          text: "Installer les capteurs adaptés au mode de défaillance, connecter à la GMAO, nommer un binôme responsable maintenance et IT, collecter des données pendant 90 jours. Ne pas chercher à automatiser les décisions dès le départ : valider d'abord que le signal capteur est exploitable.",
+        },
+        {
+          name: "Décider de l'extension sur indicateurs",
+          text: "À 90 jours, évaluer 4 indicateurs : nombre d'alertes générées et pertinence (taux de faux positifs), pannes évitées confirmées, disponibilité de la machine avant et après, et coût de maintenance sur la période. Si les résultats valident les hypothèses initiales, étendre au périmètre suivant.",
+        },
+      ],
+    },
+  },
+  {
     slug: "audit-ia-eti-specificites-methode",
     title: "Audit IA en ETI : pourquoi ce n'est pas un audit PME en plus grand",
     seoTitle: "Audit IA en ETI : spécificités et méthode",
