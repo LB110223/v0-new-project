@@ -69,6 +69,224 @@ export interface BlogArticle {
 
 export const blogArticles: BlogArticle[] = [
   {
+    slug: "revue-annuelle-projets-ia-pme",
+    title: "Revue annuelle de vos projets IA : comment faire le bilan et décider quoi poursuivre en 2027",
+    seoTitle: "Revue annuelle projets IA PME 2027 : bilan en 4 étapes",
+    excerpt:
+      "Bilan projets IA 2026 : méthode en 4 étapes pour arbitrer votre portefeuille IA et décider quoi poursuivre en 2027. Pour dirigeants PME-ETI.",
+    content: `En 2025, 18 % des entreprises françaises utilisaient au moins une technologie d'IA, soit trois fois plus qu'en 2023 (INSEE, juillet 2026). Un an plus tard, France Num et la DGE (septembre 2026) portaient ce chiffre à 40 % pour les TPE-PME, avec 14 points de progression en un an. 68 % d'entre elles déclarent un impact positif. Cela veut dire que 32 % investissent sans voir de retour mesurable. Et dans beaucoup de ces cas, personne n'a posé la question à voix haute.
+
+Fin novembre, vous êtes en train de préparer vos arbitrages budgétaires pour 2027. C'est le bon moment pour poser cette question : vos projets IA de 2026 ont-ils produit ce que vous en attendiez ? Pas de façon vague, pas "on a l'impression que oui", mais avec des chiffres, des critères et une décision documentée.
+
+**Pour faire le bilan annuel de ses projets IA, un dirigeant PME doit suivre 4 étapes : inventorier l'ensemble des initiatives en cours, évaluer chacune sur 4 critères objectifs, arbitrer (stop / continuer / accélérer), puis présenter les décisions au CODIR avec un budget 2027 chiffré.** Cet article vous donne la méthode complète pour faire ce bilan, arbitrer les projets à poursuivre ou arrêter, et entrer en 2027 avec un portefeuille IA piloté (et pas subi).
+
+
+## Pourquoi cette revue ne peut pas attendre le 1er janvier
+
+Les budgets 2027 se bouclent en décembre. Dans une PME, l'enveloppe dédiée à l'IA n'est pas toujours une ligne séparée : elle se glisse dans les coûts IT, les honoraires prestataires, parfois dans la masse salariale quand un collaborateur passe 30 % de son temps sur un projet. Attendre janvier pour faire le bilan, c'est décider sans données.
+
+> Selon Gartner (juillet 2024, analyste Rita Sallam) : "Au moins 30 % des projets IA en proof of concept seront abandonnés d'ici fin 2025 en raison de la mauvaise qualité des données, de contrôles de risques insuffisants, de coûts croissants ou d'une valeur métier floue."
+
+Ce chiffre de Gartner concerne des entreprises avec des équipes data structurées. En PME, le ratio peut être plus défavorable, précisément parce que les projets sont souvent lancés sans cadrage initial rigoureux.
+
+Selon Bpifrance Le Lab (2026), 73 % des projets IA en PME-ETI sont impulsés par le dirigeant. C'est une force : la décision va vite, les ressources se mobilisent. C'est aussi un risque : si le dirigeant ne pose pas les bonnes questions en fin d'année, personne d'autre ne le fera.
+
+La revue de Q4 n'est pas une réunion de plus. C'est l'exercice qui vous évite de reconduire par inertie des dépenses qui ne produisent rien.
+
+
+## Étape 1 : Inventorier ce que vous avez vraiment en cours
+
+Avant d'évaluer quoi que ce soit, vous devez savoir ce qui existe. Dans une PME, le portefeuille IA est souvent plus fourni qu'on ne le pense : un outil conversationnel acheté en janvier et jamais vraiment déployé, un POC lancé par le DAF sur la prévision de trésorerie, un projet de traitement automatique des commandes qui "tourne mais qu'on n'a pas vraiment mesuré".
+
+### Quelles catégories distinguer dans son inventaire IA ?
+
+Un portefeuille de projets IA se divise en trois catégories distinctes. Classez chaque initiative dans l'une d'elles :
+
+- **Projet actif** : en production, utilisé par au moins une équipe, avec un KPI défini
+- **POC en cours** : phase de test délimitée, budget alloué, date de décision prévue
+- **Projet dormant** : lancé, mais sans utilisation réelle ni décision de continuation
+
+Les projets dormants sont les "zombies" du portefeuille (ils consomment du temps, des licences, une attention sporadique) sans rien produire.
+
+> Selon Gartner (communiqué de presse, 26 février 2025, analyste Roxane Edjlali) : "Gartner predicts that through 2026, organizations will abandon 60% of AI projects unsupported by AI-ready data."
+
+Autrement dit : un projet IA dont les données de base ne sont pas propres, cohérentes et accessibles est condamné, quelle que soit la qualité de l'outil utilisé. C'est un critère éliminatoire à identifier dès l'inventaire.
+
+### Le tableau de recensement : 5 colonnes
+
+Construisez un tableau simple pour chaque initiative identifiée :
+
+| Nom du projet | Catégorie (actif / POC / dormant) | Budget engagé 2026 (€ HT) | KPI défini (oui/non) | Sponsor métier (nom) |
+|---|---|---|---|---|
+
+Ce tableau n'a pas besoin d'être exhaustif au premier passage. L'objectif est d'avoir une vue complète en moins d'une heure. Demandez à votre DAF ou à votre DSI de lister les lignes de dépenses liées à l'IA sur les 12 derniers mois : c'est souvent là que vous découvrez des projets que vous aviez oubliés.
+
+> Un projet sans nom dans votre tableau de recensement n'existe pas pour la revue. S'il n'est pas listé, il sera reconduit par défaut. C'est précisément ce que vous voulez éviter.
+
+Une fois ce tableau constitué, vous pouvez passer à l'évaluation. Voir aussi notre article sur la [priorisation initiale des projets IA en PME](/blog/prioriser-projets-ia-pme) pour comprendre comment ces projets auraient dû être cadrés dès leur lancement.
+
+
+## Étape 2 : Quels critères pour évaluer un projet IA ?
+
+L'évaluation doit être factuelle, pas impressionniste. **Les 4 critères pour évaluer un projet IA en PME sont : la qualité des données, la mesure du KPI métier, le respect de l'enveloppe budgétaire, et l'engagement du sponsor métier.** Pour les projets dormants, vous pouvez aller directement à l'étape 3 : la décision est généralement évidente.
+
+### Critère 1 : La qualité des données
+
+L'IA ne produit que ce que les données permettent. Un modèle de prévision de demande entraîné sur des historiques incomplets donnera des prévisions inexploitables. Un outil de traitement de documents qui reçoit des PDF mal structurés fera des erreurs que les équipes corrigeront manuellement, annulant le gain attendu.
+
+**Question à poser** : Les données utilisées par ce projet sont-elles complètes, à jour et structurées de façon cohérente depuis le début du projet ?
+
+**Seuil d'alerte** : Si la réponse est "pas vraiment" ou si le projet a rencontré des incidents liés aux données plus de deux fois en 2026, c'est un signal que la fondation est fragile.
+
+Pour approfondir ce diagnostic, l'article sur la [qualité des données IA en PME](/blog/qualite-donnees-ia-pme) donne une grille d'autodiagnostic applicable en moins d'une demi-journée.
+
+### Critère 2 : Le KPI métier mesuré
+
+Un projet IA sans KPI n'est pas un projet : c'est une expérience. La distinction compte.
+
+**Question à poser** : Quel indicateur métier ce projet devait-il améliorer ? A-t-il été mesuré avant le lancement (baseline) et mesuré à intervalles réguliers depuis ?
+
+**Seuil d'alerte** : Absence de baseline documentée, ou KPI jamais mesuré après lancement. La mesure est indispensable pour savoir où vous en êtes. McKinsey (The State of AI, enquête mondiale, novembre 2025, 1 993 répondants) documente : "Just 39 percent report EBIT impact at the enterprise level, though most of those report less than 5 percent of their organization's EBIT is attributable to AI use." Sans KPI mesuré depuis le lancement, vous ne savez pas si vous faites partie des 39 % ou des 61 %.
+
+L'article sur les [KPIs à fixer avant de lancer un projet IA](/blog/kpis-projet-ia-pme) est le complément naturel de cette évaluation.
+
+### Critère 3 : Le coût total dans l'enveloppe prévue
+
+Le coût d'un projet IA ne se limite pas à la facture du prestataire. Il inclut le temps interne mobilisé (souvent sous-estimé de 30 à 50 % au lancement), les coûts d'infrastructure si l'outil est hébergé en propre, les coûts d'intégration avec les systèmes existants, et les licences logicielles.
+
+**Question à poser** : Le coût total 2026 (prestataire, interne, infrastructure, licences) est-il dans l'enveloppe initialement prévue ?
+
+**Seuil d'alerte** : Un dépassement supérieur à 20 % sans explication documentée. Ou une enveloppe initiale qui n'avait jamais été définie précisément, ce qui revient au même.
+
+### Critère 4 : Le sponsor métier actif
+
+Les projets IA qui tiennent dans le temps ont un sponsor métier identifié (un directeur commercial, un DAF, un DRH) qui pousse l'outil dans son équipe, remonte les problèmes, et défend le projet en CODIR. Sans sponsor actif, le projet se dilue.
+
+**Question à poser** : Qui est le sponsor métier de ce projet ? A-t-il participé aux points de suivi en 2026 ? Porte-t-il encore ce projet ?
+
+**Seuil d'alerte** : Sponsor qui n'a pas été impliqué depuis plus de 3 mois, ou qui ne se souvient pas des derniers résultats. C'est souvent le premier signal d'un projet zombie en gestation.
+
+> Les projets IA qui survivent trois ans et plus dans une PME ont systématiquement un sponsor métier actif et un KPI mesuré trimestriellement. Les deux conditions vont ensemble.
+
+
+## Étape 3 : Arbitrage budgétaire IA : stop, continuer ou accélérer ?
+
+Avec vos 4 critères évalués pour chaque projet, vous pouvez maintenant construire votre matrice de décision. Il y a trois options possibles, et une seule règle : chaque projet doit recevoir une décision explicite.
+
+### Les trois décisions possibles pour chaque projet IA
+
+**Stop.** Arrêt du projet. La décision s'impose quand au moins deux critères sur quatre sont en alerte rouge, ou quand le projet est dormant depuis plus de 90 jours sans calendrier de relance documenté. Arrêter n'est pas un échec ; c'est de la gestion de portefeuille.
+
+**Continuer.** Poursuite avec les conditions actuelles. Cette décision n'est acceptable que si les 4 critères sont satisfaits ou si les points d'alerte ont un plan de correction précis (pas "on va améliorer les données", mais "le DAF s'engage à nettoyer l'historique fournisseurs avant le 15 janvier").
+
+**Accélérer.** Augmentation de l'enveloppe ou extension du périmètre. Cette décision ne se justifie que sur un projet qui remplit les 4 critères et dont le KPI montre un impact mesurable supérieur aux attentes initiales.
+
+### Le cas des PME sans impact positif déclaré
+
+Selon France Num et la DGE (septembre 2026), 40 % des PME utilisent l'IA et 68 % voient un impact positif. Cela signifie que 32 % de celles qui ont investi ne voient rien. Ce n'est pas nécessairement que les outils ne fonctionnent pas.
+
+Dans la quasi-totalité des cas rencontrés, le problème se situe à l'un de ces trois niveaux :
+
+- Pas de KPI défini avant le lancement (impossible de mesurer ce qui n'a pas été cadré)
+- Données insuffisantes pour que l'IA produise des résultats fiables
+- Projet sans sponsor métier réel, utilisé ponctuellement mais jamais intégré aux processus
+
+Si votre bilan 2026 place la majorité de vos projets dans cette situation, la décision n'est pas d'arrêter tout. C'est de recadrer avant de continuer. L'article sur le [plan de remédiation quand le ROI IA n'est pas atteint](/blog/roi-ia-projet-non-atteint-plan-remediation-pme) donne la marche à suivre.
+
+### Ce que la matrice produit concrètement
+
+À l'issue de cette étape, vous devez avoir une liste de décisions par projet :
+
+- Projets à arrêter : budget récupéré pour 2027
+- Projets à continuer : budget reconduit avec conditions explicites
+- Projets à accélérer : budget augmenté, périmètre étendu, KPIs révisés à la hausse
+
+Cette liste est l'entrée de votre présentation CODIR.
+
+
+## Étape 4 : Présenter au CODIR : deux décisions pour 2027, un document
+
+La revue de portefeuille IA ne doit pas produire un rapport de 40 pages. Elle doit produire deux décisions précises, présentables en moins de 20 minutes.
+
+### Le format de présentation
+
+Un support en 5 slides maximum :
+
+1. **Vue du portefeuille** : tableau de recensement synthétique (nom, catégorie, budget engagé, KPI, sponsor)
+2. **Résultats par projet** : les 4 critères évalués, signal vert/orange/rouge, 2-3 phrases de contexte par projet
+3. **Matrice de décision** : stop / continuer / accélérer, avec justification courte
+4. **Budget 2027** : deux lignes, budget récurrent (projets reconduits) et enveloppe expérimentation (nouveaux projets)
+5. **Prochaines étapes** : trois actions, trois responsables, trois dates
+
+### Les deux décisions attendues du CODIR
+
+**Décision 1 : Budget récurrent N+1.** Pour chaque projet reconduit, quel budget allouer en 2027 ? Cette décision doit être chiffrée : pas "on maintient l'enveloppe", mais "on alloue X euros pour ce projet, avec le sponsor Y et le KPI Z".
+
+**Décision 2 : Enveloppe expérimentation 2027.** Quelle enveloppe pour les nouveaux projets ou les extensions de périmètre ? Dans une PME qui pilote correctement son portefeuille IA, cette enveloppe représente généralement 20 à 30 % du budget IA total : assez pour tester, pas assez pour engager l'entreprise sur un projet non prouvé.
+
+> La question à ne pas poser au CODIR : "Doit-on continuer à investir dans l'IA ?" C'est une question sans bonne réponse. La bonne question est : "Quels projets spécifiques méritent leur budget en 2027, et sur quelle base ?"
+
+### Ce que cette présentation évite
+
+Une présentation structurée de cette façon évite le principal écueil de fin d'année : reconduire par défaut tous les projets existants parce que "ça tourne" et lancer de nouveaux projets parce que "il faut avancer sur l'IA". Les deux erreurs simultanément.
+
+L'article sur le [pilotage opérationnel d'un projet IA en cours d'année](/blog/piloter-projet-ia-pme) est complémentaire : il couvre les jalons à poser pendant le projet, là où cet article couvre la revue annuelle en fin de cycle.
+
+
+## Ce que font les PME qui tiennent leur portefeuille projets IA dans la durée
+
+Les PME qui maintiennent un portefeuille IA actif sur plusieurs années et voient un impact mesurable partagent quelques caractéristiques observables.
+
+### Les pratiques qui font la différence
+
+Elles traitent l'IA comme un investissement, pas comme un budget IT variable. Chaque projet a une analyse financière formelle : coût total de possession, gain attendu, délai de retour documenté.
+
+Elles font cette revue de portefeuille chaque année en Q4, sans exception. Pas de report à janvier "parce que c'est chargé". La revue est planifiée en même temps que la clôture budgétaire.
+
+Elles appliquent une règle simple sur les projets zombies : tout projet sans KPI mesuré depuis plus de 90 jours est automatiquement mis en délibération. La charge de la preuve revient au sponsor pour justifier la continuation.
+
+### Le rôle du dirigeant
+
+Selon Bpifrance Le Lab (2026), 73 % des projets IA en PME-ETI sont impulsés par le dirigeant. Cette implication initiale est nécessaire. Elle n'est pas suffisante. Les PME qui échouent à maintenir leurs projets sont souvent celles où le dirigeant a lancé mais pas piloté, où l'enthousiasme du démarrage n'a pas été converti en gouvernance trimestrielle.
+
+La revue annuelle est le moment où le dirigeant reprend la main sur les décisions stratégiques. Pas pour micro-manager les projets, mais pour trancher sur ce qui mérite de continuer et ce qui doit s'arrêter.
+
+
+### La question du cadrage initial
+
+Si votre bilan 2026 fait apparaître plusieurs projets sans KPI mesurable ou sans sponsor actif, le problème n'est pas la revue annuelle. Le problème est le cadrage initial. L'article sur le [ROI de l'IA en entreprise](/blog/roi-intelligence-artificielle-entreprise) et celui sur les [benchmarks ROI IA par secteur PME](/blog/benchmark-roi-ia-secteur-pme) vous donneront les références pour construire des objectifs réalistes dès le prochain cycle.
+
+
+**Les quatre étapes d'une revue annuelle IA en PME :** (1) inventorier tous les projets en 3 catégories : actifs, POC en cours, dormants ; (2) évaluer chacun sur 4 critères : données, KPI, coût, sponsor ; (3) décider explicitement pour chaque projet : stop, continuer ou accélérer ; (4) présenter deux décisions chiffrées au CODIR avant la clôture budgétaire. Sans cette méthode, les projets qui ne produisent rien sont reconduits par défaut, et les budgets 2027 s'engagent sans base factuelle.
+
+Faire le bilan de ses projets IA en fin d'année, c'est l'exercice qui distingue les PME qui progressent de celles qui répètent les mêmes erreurs. Quatre étapes, deux décisions, un document : ce n'est pas une charge de travail supplémentaire, c'est une économie de temps et d'argent sur 12 mois.
+
+Si vous avez des projets IA actifs mais que vous n'avez pas encore de méthode d'évaluation formalisée, la **Smart Analyse** est un audit ciblé sur un seul processus, réalisable en demi-journée à une journée pour 1 000 à 2 000 € HT. Elle produit un diagnostic factuel avec des recommandations actionnables : ce qu'il vous faut pour entrer dans votre revue CODIR avec des données fiables plutôt qu'avec des impressions.
+
+[Découvrir la Smart Analyse](/services/audit)`,
+    author: "Laurent Bouzon",
+    date: "26 novembre 2026",
+    dateISO: "2026-11-26",
+    readTime: "9 min",
+    category: "Strategie & ROI",
+    image: "/revue-annuelle-projets-ia-pme-hero.png",
+    imageAlt: "Image d'illustration pour l'article \"Revue annuelle de vos projets IA : comment faire le bilan et décider quoi poursuivre en 2027\"",
+    faq: [
+      {
+        question: "À quelle fréquence faut-il faire une revue de ses projets IA ?",
+        answer: "Une revue annuelle en Q4 est le minimum pour arbitrer les budgets N+1. Les PME avec plusieurs projets actifs peuvent y ajouter une revue intermédiaire en Q2, plus légère, pour détecter les projets zombies avant qu'ils consomment toute l'enveloppe estivale.",
+      },
+      {
+        question: "Que faire si aucun de mes projets IA n'a produit de ROI mesurable en 2026 ?",
+        answer: "C'est le signal d'un problème de cadrage, pas forcément d'un problème de technologie. Avant de tout arrêter, posez-vous si les KPIs initiaux étaient mesurables et si un sponsor métier portait vraiment chaque projet. Dans la majorité des cas, le problème est en amont : objectifs flous ou données insuffisantes.",
+      },
+      {
+        question: "Comment présenter l'arrêt d'un projet IA au CODIR sans que ça ressemble à un échec ?",
+        answer: "Cadrez-le comme une décision de gouvernance, pas comme un constat d'échec. Un POC abandonné après évaluation rigoureuse, c'est de la gestion de portefeuille saine. Ce qui est un échec, c'est un projet zombie qui consomme sans produire pendant 18 mois parce que personne n'a voulu trancher.",
+      },
+    ],
+  },
+  {
     slug: "ia-cession-pme-valorisation-avant-vente",
     title: "IA et cession de PME : les 3 décotes à traiter avant de mettre en vente",
     seoTitle: "IA cession PME : valorisation et décotes | Smart Impulsion",
